@@ -3,9 +3,8 @@
 open ApiCalls
 
 
-type Node = Film * list<Film>
 type FilmGraph = Map<Film, Film []>
-let maxLevel = 30
+let maxLevel = 20
 
 let unwrapOption (x: Film [] option) =
     match x with

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta lastmodifieddate="2009-03-20">
+        <creator>Gephi.org</creator>
+        <description>A hello world! file</description>
+    </meta>
+    <graph mode="static" defaultedgetype="directed">
+        <Nodes>
+            <node id="zero" label="Hello"/>
+            <node id="one" label="Word"/>
+            <node id="three" label="Meh"/>
+        </Nodes>
+        <Edges>
+            <edge id="0" source="zero" target="one"/>
+            <edge id="1" source="zero" target="three"/>
+            <edge id="2" source="three" target="one"/>
+        </Edges>
+    </graph>
+</gexf>

@@ -32,7 +32,7 @@ let getFilmRecord (json: JsonValue) =
 
 let getFilmByTitle title = 
 
-    System.Threading.Thread.Sleep(50);
+    System.Threading.Thread.Sleep(100)
     Http.RequestString
         ("http://api.rottentomatoes.com/api/public/v1.0/movies.json", 
             httpMethod = "GET",
@@ -46,7 +46,7 @@ let getFilmByTitle title =
 
 let getSimilarFilms id =
    
-    System.Threading.Thread.Sleep(50);
+    System.Threading.Thread.Sleep(100)
     let url =  sprintf "http://api.rottentomatoes.com/api/public/v1.0/movies/%s/similar.json" id
     let json = Http.RequestString
                 (url,

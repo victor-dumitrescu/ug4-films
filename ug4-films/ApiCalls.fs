@@ -58,7 +58,6 @@ let getSimilarFilms id =
     match json with
     | JsonValue.Record [| movies; _; _|]
         -> match movies with
-            | (_, JsonValue.Array a) -> a |> Array.map makeFilm 
-                                          |> Some
+            | (_, JsonValue.Array a) -> a |> Array.map makeFilm |> Some
             | _ -> None
     | _ -> None

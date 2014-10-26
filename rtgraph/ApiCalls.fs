@@ -7,11 +7,12 @@ let apiKey = "66pedstgeyz4wa2uycf5qf3f"
 type Film = {id: string;
              title: string}
 
+let trim (s: string) = s.[1..s.Length-2]
+
 let makeFilm (j: JsonValue) =
-    {id = j.Item("id").ToString()
-          |> (fun x -> x.[1..x.Length-2]);
-     title = j.Item("title").ToString()
-             |> (fun x -> x.[1..x.Length-2])
+    {id = j.Item("id").ToString() |> trim;
+     title = sprintf "%s (%s)" (j.Item("title").ToString() |> trim) 
+                               (j.Item("year").ToString())
     }
 
 

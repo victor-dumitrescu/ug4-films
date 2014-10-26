@@ -13,9 +13,7 @@ let queue = ["goodfellas"; "the departed"]
 let main args = 
     
     let seed = Map.empty<Film, Film []>
-    let graph = constructGraph seed queue 0
     let output = constructGraph seed queue 0 |> constructXML
-    File.WriteAllLines("C:/Users/Victor/GitHub/ug4-films/rtgraph/graph.gefx.xml", [|output|])
-    
-    //printfn "%A" output
+    File.WriteAllLines(sprintf "%s%s" (Directory.GetCurrentDirectory()) "/../../../data/rtgraph.gexf", [|output|])
+
     0

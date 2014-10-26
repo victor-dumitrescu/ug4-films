@@ -5,7 +5,7 @@ open ApiCalls
 open Graph
 open System
 
-type OutputXml = XmlProvider<Sample="C:\Users\Victor\GitHub\ug4-films\ug4-films\hello-world.gexf.xml", InferTypesFromValues=false>
+type OutputXml = XmlProvider<Sample="hello-world.gexf.xml", InferTypesFromValues=false>
 
 let id source target =
     sprintf "%s%s" source.id target.id
@@ -13,7 +13,7 @@ let id source target =
 let constructXML (filmGraph: FilmGraph) =
 
     let nodes = OutputXml.Nodes [| for film in filmGraph do
-                                     yield new OutputXml.Node(film.Key.id, film.Key.title)|]
+                                     yield OutputXml.Node(film.Key.id, film.Key.title)|]
 
     let edges = OutputXml.Edges [| for source in filmGraph do
                                        for target in source.Value do

@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ed5549f8-b5ed-4e76-8ce8-9759fa97ed6a</ProjectGuid>
+    <ProjectGuid>942155a3-b148-43c3-bb1a-ce09aef49749</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ug4_films</RootNamespace>
-    <AssemblyName>ug4_films</AssemblyName>
+    <RootNamespace>naivegraph</RootNamespace>
+    <AssemblyName>naivegraph</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>RTgraph</Name>
+    <Name>naivegraph</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\ug4_films.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\naivegraph.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\ug4_films.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\naivegraph.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -55,8 +55,8 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <None Include="App.config" />
-    <Compile Include="ApiCalls.fs" />
     <Compile Include="Graph.fs" />
+    <Compile Include="ParseScript.fs" />
     <Compile Include="ToGEXF.fs" />
     <Compile Include="Main.fs" />
     <Content Include="packages.config" />

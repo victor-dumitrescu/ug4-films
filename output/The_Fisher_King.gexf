@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="JACK" label="JACK" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="PRE-RECORDED ECHOING" label="PRE-RECORDED ECHOING" />
+      <node id="JACK AND CREW" label="JACK AND CREW" />
+      <node id="CALLER" label="CALLER" />
+      <node id="EDWIN" label="EDWIN" />
+      <node id="BLACK SEVENTIES GROUP" label="BLACK SEVENTIES GROUP" />
+      <node id="MICHAEL MCDONALD" label="MICHAEL MCDONALD" />
+      <node id="JACK LUCAS" label="JACK LUCAS" />
+      <node id="CREW" label="CREW" />
+      <node id="LOU" label="LOU" />
+      <node id="SONDRA" label="SONDRA" />
+      <node id="ANNE" label="ANNE" />
+      <node id="FRUMPY SECRETARY" label="FRUMPY SECRETARY" />
+      <node id="TV ACTOR" label="TV ACTOR" />
+      <node id="BUM" label="BUM" />
+      <node id="BOY" label="BOY" />
+      <node id="LEATHER" label="LEATHER" />
+      <node id="PARRY" label="PARRY" />
+      <node id="FRANK" label="FRANK" />
+      <node id="WIFE" label="WIFE" />
+      <node id="EMPLOYEE" label="EMPLOYEE" />
+      <node id="BUSINESSMAN" label="BUSINESSMAN" />
+      <node id="SID" label="SID" />
+      <node id="ETHEL/LYDIA" label="ETHEL/LYDIA" />
+      <node id="TONY ORLANDO" label="TONY ORLANDO" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="LYDIA" label="LYDIA" />
+      <node id="TV EXEC" label="TV EXEC" />
+      <node id="BLACK" label="BLACK" />
+      <node id="IRISHMAN" label="IRISHMAN" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+      <node id="NURSE" label="NURSE" />
+      <node id="VOICE" label="VOICE" />
+    </nodes>
+    <edges>
+      <edge id="21267" source="JACK" target="WOMAN" weight="4" />
+      <edge id="21268" source="JACK" target="PRE-RECORDED ECHOING" weight="2" />
+      <edge id="21269" source="JACK" target="JACK AND CREW" weight="3" />
+      <edge id="21270" source="JACK" target="CALLER" weight="3" />
+      <edge id="21271" source="JACK" target="EDWIN" weight="1" />
+      <edge id="21272" source="JACK" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21273" source="JACK" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21274" source="JACK" target="JACK LUCAS" weight="1" />
+      <edge id="21275" source="JACK" target="CREW" weight="1" />
+      <edge id="21276" source="JACK" target="LOU" weight="1" />
+      <edge id="21277" source="JACK" target="SONDRA" weight="2" />
+      <edge id="21278" source="JACK" target="ANNE" weight="8" />
+      <edge id="21279" source="JACK" target="TV ACTOR" weight="1" />
+      <edge id="21280" source="JACK" target="BUM" weight="1" />
+      <edge id="21281" source="JACK" target="BOY" weight="1" />
+      <edge id="21282" source="JACK" target="LEATHER" weight="1" />
+      <edge id="21283" source="JACK" target="PARRY" weight="5" />
+      <edge id="21284" source="JACK" target="FRANK" weight="2" />
+      <edge id="21285" source="JACK" target="WIFE" weight="1" />
+      <edge id="21286" source="JACK" target="EMPLOYEE" weight="1" />
+      <edge id="21287" source="JACK" target="BUSINESSMAN" weight="1" />
+      <edge id="21288" source="JACK" target="SID" weight="1" />
+      <edge id="21289" source="JACK" target="RECEPTIONIST" weight="1" />
+      <edge id="21290" source="JACK" target="LYDIA" weight="3" />
+      <edge id="21291" source="JACK" target="BLACK" weight="1" />
+      <edge id="21292" source="JACK" target="IRISHMAN" weight="1" />
+      <edge id="21293" source="JACK" target="PARAMEDIC" weight="1" />
+      <edge id="21294" source="WOMAN" target="JACK" weight="4" />
+      <edge id="21295" source="WOMAN" target="PRE-RECORDED ECHOING" weight="2" />
+      <edge id="21296" source="WOMAN" target="JACK AND CREW" weight="1" />
+      <edge id="21297" source="PRE-RECORDED ECHOING" target="WOMAN" weight="2" />
+      <edge id="21298" source="PRE-RECORDED ECHOING" target="JACK" weight="2" />
+      <edge id="21299" source="JACK AND CREW" target="WOMAN" weight="1" />
+      <edge id="21300" source="JACK AND CREW" target="JACK" weight="3" />
+      <edge id="21301" source="JACK AND CREW" target="CALLER" weight="1" />
+      <edge id="21302" source="JACK AND CREW" target="EDWIN" weight="1" />
+      <edge id="21303" source="JACK AND CREW" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21304" source="JACK AND CREW" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21305" source="JACK AND CREW" target="JACK LUCAS" weight="1" />
+      <edge id="21306" source="JACK AND CREW" target="CREW" weight="1" />
+      <edge id="21307" source="CALLER" target="JACK" weight="3" />
+      <edge id="21308" source="CALLER" target="JACK AND CREW" weight="1" />
+      <edge id="21309" source="EDWIN" target="JACK AND CREW" weight="1" />
+      <edge id="21310" source="EDWIN" target="JACK" weight="1" />
+      <edge id="21311" source="EDWIN" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21312" source="EDWIN" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21313" source="EDWIN" target="JACK LUCAS" weight="1" />
+      <edge id="21314" source="EDWIN" target="CREW" weight="1" />
+      <edge id="21315" source="BLACK SEVENTIES GROUP" target="EDWIN" weight="1" />
+      <edge id="21316" source="BLACK SEVENTIES GROUP" target="JACK AND CREW" weight="1" />
+      <edge id="21317" source="BLACK SEVENTIES GROUP" target="JACK" weight="1" />
+      <edge id="21318" source="BLACK SEVENTIES GROUP" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21319" source="BLACK SEVENTIES GROUP" target="JACK LUCAS" weight="1" />
+      <edge id="21320" source="BLACK SEVENTIES GROUP" target="CREW" weight="1" />
+      <edge id="21321" source="MICHAEL MCDONALD" target="EDWIN" weight="1" />
+      <edge id="21322" source="MICHAEL MCDONALD" target="JACK AND CREW" weight="1" />
+      <edge id="21323" source="MICHAEL MCDONALD" target="JACK" weight="1" />
+      <edge id="21324" source="MICHAEL MCDONALD" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21325" source="MICHAEL MCDONALD" target="JACK LUCAS" weight="1" />
+      <edge id="21326" source="MICHAEL MCDONALD" target="CREW" weight="1" />
+      <edge id="21327" source="JACK LUCAS" target="EDWIN" weight="1" />
+      <edge id="21328" source="JACK LUCAS" target="JACK AND CREW" weight="1" />
+      <edge id="21329" source="JACK LUCAS" target="JACK" weight="1" />
+      <edge id="21330" source="JACK LUCAS" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21331" source="JACK LUCAS" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21332" source="JACK LUCAS" target="CREW" weight="1" />
+      <edge id="21333" source="CREW" target="EDWIN" weight="1" />
+      <edge id="21334" source="CREW" target="JACK AND CREW" weight="1" />
+      <edge id="21335" source="CREW" target="JACK" weight="1" />
+      <edge id="21336" source="CREW" target="BLACK SEVENTIES GROUP" weight="1" />
+      <edge id="21337" source="CREW" target="MICHAEL MCDONALD" weight="1" />
+      <edge id="21338" source="CREW" target="JACK LUCAS" weight="1" />
+      <edge id="21339" source="LOU" target="JACK" weight="1" />
+      <edge id="21340" source="LOU" target="TV EXEC" weight="1" />
+      <edge id="21341" source="SONDRA" target="JACK" weight="2" />
+      <edge id="21342" source="ANNE" target="JACK" weight="8" />
+      <edge id="21343" source="ANNE" target="TV ACTOR" weight="1" />
+      <edge id="21344" source="ANNE" target="EMPLOYEE" weight="1" />
+      <edge id="21345" source="ANNE" target="BUSINESSMAN" weight="1" />
+      <edge id="21346" source="ANNE" target="TONY ORLANDO" weight="1" />
+      <edge id="21347" source="ANNE" target="LYDIA" weight="2" />
+      <edge id="21348" source="ANNE" target="PARRY" weight="2" />
+      <edge id="21349" source="TV ACTOR" target="ANNE" weight="1" />
+      <edge id="21350" source="TV ACTOR" target="JACK" weight="1" />
+      <edge id="21351" source="BUM" target="BOY" weight="1" />
+      <edge id="21352" source="BUM" target="JACK" weight="1" />
+      <edge id="21353" source="BOY" target="BUM" weight="1" />
+      <edge id="21354" source="BOY" target="JACK" weight="1" />
+      <edge id="21355" source="LEATHER" target="JACK" weight="1" />
+      <edge id="21356" source="PARRY" target="JACK" weight="5" />
+      <edge id="21357" source="PARRY" target="ANNE" weight="2" />
+      <edge id="21358" source="PARRY" target="LYDIA" weight="2" />
+      <edge id="21359" source="FRANK" target="JACK" weight="2" />
+      <edge id="21360" source="FRANK" target="WIFE" weight="1" />
+      <edge id="21361" source="WIFE" target="FRANK" weight="1" />
+      <edge id="21362" source="WIFE" target="JACK" weight="1" />
+      <edge id="21363" source="EMPLOYEE" target="ANNE" weight="1" />
+      <edge id="21364" source="EMPLOYEE" target="JACK" weight="1" />
+      <edge id="21365" source="EMPLOYEE" target="BUSINESSMAN" weight="1" />
+      <edge id="21366" source="BUSINESSMAN" target="EMPLOYEE" weight="1" />
+      <edge id="21367" source="BUSINESSMAN" target="ANNE" weight="1" />
+      <edge id="21368" source="BUSINESSMAN" target="JACK" weight="1" />
+      <edge id="21369" source="SID" target="JACK" weight="1" />
+      <edge id="21370" source="TONY ORLANDO" target="ANNE" weight="1" />
+      <edge id="21371" source="RECEPTIONIST" target="JACK" weight="1" />
+      <edge id="21372" source="LYDIA" target="JACK" weight="3" />
+      <edge id="21373" source="LYDIA" target="ANNE" weight="2" />
+      <edge id="21374" source="LYDIA" target="PARRY" weight="2" />
+      <edge id="21375" source="LYDIA" target="NURSE" weight="1" />
+      <edge id="21376" source="TV EXEC" target="LOU" weight="1" />
+      <edge id="21377" source="BLACK" target="JACK" weight="1" />
+      <edge id="21378" source="BLACK" target="IRISHMAN" weight="1" />
+      <edge id="21379" source="BLACK" target="PARAMEDIC" weight="1" />
+      <edge id="21380" source="IRISHMAN" target="JACK" weight="1" />
+      <edge id="21381" source="IRISHMAN" target="BLACK" weight="1" />
+      <edge id="21382" source="IRISHMAN" target="PARAMEDIC" weight="1" />
+      <edge id="21383" source="PARAMEDIC" target="JACK" weight="1" />
+      <edge id="21384" source="PARAMEDIC" target="BLACK" weight="1" />
+      <edge id="21385" source="PARAMEDIC" target="IRISHMAN" weight="1" />
+      <edge id="21386" source="NURSE" target="LYDIA" weight="1" />
+    </edges>
+  </graph>
+</gexf>

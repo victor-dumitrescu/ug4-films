@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="NARRATOR" label="NARRATOR" />
+      <node id="RAYMOND" label="RAYMOND" />
+      <node id="LINDA" label="LINDA" />
+      <node id="ASH" label="ASH" />
+      <node id="PROFESSOR KNOWBY" label="PROFESSOR KNOWBY" />
+      <node id="ED" label="ED" />
+      <node id="ANNIE" label="ANNIE" />
+      <node id="LINDA'S HEAD" label="LINDA'S HEAD" />
+      <node id="REFLECTION" label="REFLECTION" />
+      <node id="JAKE" label="JAKE" />
+      <node id="BOBBY JOE" label="BOBBY JOE" />
+      <node id="HENRIETTA" label="HENRIETTA" />
+      <node id="RAYMOND KNOWBY" label="RAYMOND KNOWBY" />
+      <node id="VOICE OF HENRIETTA" label="VOICE OF HENRIETTA" />
+      <node id="JAKE'S VOICE" label="JAKE'S VOICE" />
+      <node id="TREE FACE" label="TREE FACE" />
+      <node id="POSSESSED ASH" label="POSSESSED ASH" />
+      <node id="HENRIETTA'S HEAD" label="HENRIETTA'S HEAD" />
+      <node id="WARRIOR #1" label="WARRIOR #1" />
+      <node id="WARRIOR #2" label="WARRIOR #2" />
+      <node id="WARRIOR #4" label="WARRIOR #4" />
+      <node id="WARRIOR #5" label="WARRIOR #5" />
+    </nodes>
+    <edges>
+      <edge id="7661" source="NARRATOR" target="LINDA" weight="1" />
+      <edge id="7662" source="NARRATOR" target="ASH" weight="1" />
+      <edge id="7663" source="RAYMOND" target="JAKE" weight="1" />
+      <edge id="7664" source="RAYMOND" target="BOBBY JOE" weight="1" />
+      <edge id="7665" source="RAYMOND" target="JAKE'S VOICE" weight="1" />
+      <edge id="7666" source="LINDA" target="ASH" weight="2" />
+      <edge id="7667" source="LINDA" target="NARRATOR" weight="1" />
+      <edge id="7668" source="LINDA" target="LINDA'S HEAD" weight="1" />
+      <edge id="7669" source="ASH" target="LINDA" weight="2" />
+      <edge id="7670" source="ASH" target="NARRATOR" weight="1" />
+      <edge id="7671" source="ASH" target="LINDA'S HEAD" weight="2" />
+      <edge id="7672" source="ASH" target="JAKE" weight="6" />
+      <edge id="7673" source="ASH" target="BOBBY JOE" weight="3" />
+      <edge id="7674" source="ASH" target="ED" weight="2" />
+      <edge id="7675" source="ASH" target="ANNIE" weight="9" />
+      <edge id="7676" source="ASH" target="HENRIETTA" weight="3" />
+      <edge id="7677" source="ASH" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7678" source="ASH" target="HENRIETTA'S HEAD" weight="1" />
+      <edge id="7679" source="PROFESSOR KNOWBY" target="ANNIE" weight="1" />
+      <edge id="7680" source="ED" target="ANNIE" weight="5" />
+      <edge id="7681" source="ED" target="JAKE" weight="3" />
+      <edge id="7682" source="ED" target="BOBBY JOE" weight="3" />
+      <edge id="7683" source="ED" target="ASH" weight="2" />
+      <edge id="7684" source="ED" target="HENRIETTA" weight="1" />
+      <edge id="7685" source="ED" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7686" source="ANNIE" target="ED" weight="5" />
+      <edge id="7687" source="ANNIE" target="JAKE" weight="7" />
+      <edge id="7688" source="ANNIE" target="BOBBY JOE" weight="4" />
+      <edge id="7689" source="ANNIE" target="ASH" weight="9" />
+      <edge id="7690" source="ANNIE" target="PROFESSOR KNOWBY" weight="1" />
+      <edge id="7691" source="ANNIE" target="RAYMOND KNOWBY" weight="1" />
+      <edge id="7692" source="ANNIE" target="HENRIETTA" weight="1" />
+      <edge id="7693" source="ANNIE" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7694" source="LINDA'S HEAD" target="ASH" weight="2" />
+      <edge id="7695" source="LINDA'S HEAD" target="LINDA" weight="1" />
+      <edge id="7696" source="JAKE" target="ANNIE" weight="7" />
+      <edge id="7697" source="JAKE" target="ED" weight="3" />
+      <edge id="7698" source="JAKE" target="BOBBY JOE" weight="5" />
+      <edge id="7699" source="JAKE" target="ASH" weight="6" />
+      <edge id="7700" source="JAKE" target="HENRIETTA" weight="1" />
+      <edge id="7701" source="JAKE" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7702" source="JAKE" target="RAYMOND" weight="1" />
+      <edge id="7703" source="JAKE" target="JAKE'S VOICE" weight="1" />
+      <edge id="7704" source="BOBBY JOE" target="ANNIE" weight="4" />
+      <edge id="7705" source="BOBBY JOE" target="JAKE" weight="5" />
+      <edge id="7706" source="BOBBY JOE" target="ED" weight="3" />
+      <edge id="7707" source="BOBBY JOE" target="ASH" weight="3" />
+      <edge id="7708" source="BOBBY JOE" target="HENRIETTA" weight="1" />
+      <edge id="7709" source="BOBBY JOE" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7710" source="BOBBY JOE" target="RAYMOND" weight="1" />
+      <edge id="7711" source="BOBBY JOE" target="JAKE'S VOICE" weight="1" />
+      <edge id="7712" source="HENRIETTA" target="ASH" weight="3" />
+      <edge id="7713" source="HENRIETTA" target="BOBBY JOE" weight="1" />
+      <edge id="7714" source="HENRIETTA" target="JAKE" weight="1" />
+      <edge id="7715" source="HENRIETTA" target="ANNIE" weight="1" />
+      <edge id="7716" source="HENRIETTA" target="VOICE OF HENRIETTA" weight="1" />
+      <edge id="7717" source="HENRIETTA" target="ED" weight="1" />
+      <edge id="7718" source="HENRIETTA" target="HENRIETTA'S HEAD" weight="1" />
+      <edge id="7719" source="RAYMOND KNOWBY" target="ANNIE" weight="1" />
+      <edge id="7720" source="VOICE OF HENRIETTA" target="ASH" weight="1" />
+      <edge id="7721" source="VOICE OF HENRIETTA" target="BOBBY JOE" weight="1" />
+      <edge id="7722" source="VOICE OF HENRIETTA" target="JAKE" weight="1" />
+      <edge id="7723" source="VOICE OF HENRIETTA" target="HENRIETTA" weight="1" />
+      <edge id="7724" source="VOICE OF HENRIETTA" target="ANNIE" weight="1" />
+      <edge id="7725" source="VOICE OF HENRIETTA" target="ED" weight="1" />
+      <edge id="7726" source="JAKE'S VOICE" target="RAYMOND" weight="1" />
+      <edge id="7727" source="JAKE'S VOICE" target="JAKE" weight="1" />
+      <edge id="7728" source="JAKE'S VOICE" target="BOBBY JOE" weight="1" />
+      <edge id="7729" source="HENRIETTA'S HEAD" target="HENRIETTA" weight="1" />
+      <edge id="7730" source="HENRIETTA'S HEAD" target="ASH" weight="1" />
+      <edge id="7731" source="WARRIOR #1" target="WARRIOR #2" weight="1" />
+      <edge id="7732" source="WARRIOR #1" target="WARRIOR #4" weight="1" />
+      <edge id="7733" source="WARRIOR #1" target="WARRIOR #5" weight="1" />
+      <edge id="7734" source="WARRIOR #2" target="WARRIOR #1" weight="1" />
+      <edge id="7735" source="WARRIOR #4" target="WARRIOR #1" weight="1" />
+      <edge id="7736" source="WARRIOR #4" target="WARRIOR #5" weight="1" />
+      <edge id="7737" source="WARRIOR #5" target="WARRIOR #1" weight="1" />
+      <edge id="7738" source="WARRIOR #5" target="WARRIOR #4" weight="1" />
+    </edges>
+  </graph>
+</gexf>

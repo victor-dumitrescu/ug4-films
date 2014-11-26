@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="JOSH" label="JOSH" />
+      <node id="MOM" label="MOM" />
+      <node id="BILLY" label="BILLY" />
+      <node id="CYNTHIA" label="CYNTHIA" />
+      <node id="BILLY &amp; JOSH" label="BILLY &amp; JOSH" />
+      <node id="DAD" label="DAD" />
+      <node id="DARIN" label="DARIN" />
+      <node id="MAN" label="MAN" />
+      <node id="COACH" label="COACH" />
+      <node id="POLICE" label="POLICE" />
+      <node id="KID#1" label="KID#1" />
+      <node id="KID#2" label="KID#2" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="SUSAN" label="SUSAN" />
+      <node id="SCOTT" label="SCOTT" />
+      <node id="MR. M" label="MR. M" />
+      <node id="PAUL" label="PAUL" />
+      <node id="BOY" label="BOY" />
+      <node id="REALTOR" label="REALTOR" />
+      <node id="DRIVER" label="DRIVER" />
+    </nodes>
+    <edges>
+      <edge id="2143" source="JOSH" target="MOM" weight="7" />
+      <edge id="2144" source="JOSH" target="BILLY" weight="22" />
+      <edge id="2145" source="JOSH" target="CYNTHIA" weight="2" />
+      <edge id="2146" source="JOSH" target="BILLY &amp; JOSH" weight="1" />
+      <edge id="2147" source="JOSH" target="DAD" weight="1" />
+      <edge id="2148" source="JOSH" target="DARIN" weight="1" />
+      <edge id="2149" source="JOSH" target="MAN" weight="14" />
+      <edge id="2150" source="JOSH" target="POLICE" weight="1" />
+      <edge id="2151" source="JOSH" target="KID#1" weight="1" />
+      <edge id="2152" source="JOSH" target="KID#2" weight="1" />
+      <edge id="2153" source="JOSH" target="WOMAN" weight="10" />
+      <edge id="2154" source="JOSH" target="SUSAN" weight="18" />
+      <edge id="2155" source="JOSH" target="SCOTT" weight="2" />
+      <edge id="2156" source="JOSH" target="MR. M" weight="5" />
+      <edge id="2157" source="JOSH" target="PAUL" weight="4" />
+      <edge id="2158" source="JOSH" target="BOY" weight="3" />
+      <edge id="2159" source="JOSH" target="DRIVER" weight="1" />
+      <edge id="2160" source="MOM" target="JOSH" weight="7" />
+      <edge id="2161" source="MOM" target="BILLY" weight="2" />
+      <edge id="2162" source="MOM" target="DAD" weight="1" />
+      <edge id="2163" source="MOM" target="CYNTHIA" weight="1" />
+      <edge id="2164" source="MOM" target="DARIN" weight="1" />
+      <edge id="2165" source="MOM" target="MAN" weight="1" />
+      <edge id="2166" source="BILLY" target="JOSH" weight="22" />
+      <edge id="2167" source="BILLY" target="CYNTHIA" weight="1" />
+      <edge id="2168" source="BILLY" target="BILLY &amp; JOSH" weight="1" />
+      <edge id="2169" source="BILLY" target="MOM" weight="2" />
+      <edge id="2170" source="BILLY" target="COACH" weight="1" />
+      <edge id="2171" source="BILLY" target="POLICE" weight="1" />
+      <edge id="2172" source="BILLY" target="KID#1" weight="1" />
+      <edge id="2173" source="BILLY" target="KID#2" weight="1" />
+      <edge id="2174" source="BILLY" target="WOMAN" weight="6" />
+      <edge id="2175" source="BILLY" target="MAN" weight="5" />
+      <edge id="2176" source="BILLY" target="REALTOR" weight="1" />
+      <edge id="2177" source="BILLY" target="SUSAN" weight="1" />
+      <edge id="2178" source="CYNTHIA" target="JOSH" weight="2" />
+      <edge id="2179" source="CYNTHIA" target="BILLY" weight="1" />
+      <edge id="2180" source="CYNTHIA" target="MOM" weight="1" />
+      <edge id="2181" source="CYNTHIA" target="DARIN" weight="1" />
+      <edge id="2182" source="CYNTHIA" target="MAN" weight="1" />
+      <edge id="2183" source="BILLY &amp; JOSH" target="JOSH" weight="1" />
+      <edge id="2184" source="BILLY &amp; JOSH" target="BILLY" weight="1" />
+      <edge id="2185" source="DAD" target="JOSH" weight="1" />
+      <edge id="2186" source="DAD" target="MOM" weight="1" />
+      <edge id="2187" source="DARIN" target="CYNTHIA" weight="1" />
+      <edge id="2188" source="DARIN" target="JOSH" weight="1" />
+      <edge id="2189" source="DARIN" target="MOM" weight="1" />
+      <edge id="2190" source="DARIN" target="MAN" weight="1" />
+      <edge id="2191" source="MAN" target="CYNTHIA" weight="1" />
+      <edge id="2192" source="MAN" target="JOSH" weight="14" />
+      <edge id="2193" source="MAN" target="MOM" weight="1" />
+      <edge id="2194" source="MAN" target="DARIN" weight="1" />
+      <edge id="2195" source="MAN" target="WOMAN" weight="2" />
+      <edge id="2196" source="MAN" target="BILLY" weight="5" />
+      <edge id="2197" source="MAN" target="SUSAN" weight="5" />
+      <edge id="2198" source="MAN" target="SCOTT" weight="1" />
+      <edge id="2199" source="MAN" target="PAUL" weight="4" />
+      <edge id="2200" source="MAN" target="MR. M" weight="4" />
+      <edge id="2201" source="MAN" target="BOY" weight="1" />
+      <edge id="2202" source="COACH" target="BILLY" weight="1" />
+      <edge id="2203" source="POLICE" target="JOSH" weight="1" />
+      <edge id="2204" source="POLICE" target="BILLY" weight="1" />
+      <edge id="2205" source="POLICE" target="KID#1" weight="1" />
+      <edge id="2206" source="POLICE" target="KID#2" weight="1" />
+      <edge id="2207" source="KID#1" target="JOSH" weight="1" />
+      <edge id="2208" source="KID#1" target="BILLY" weight="1" />
+      <edge id="2209" source="KID#1" target="POLICE" weight="1" />
+      <edge id="2210" source="KID#1" target="KID#2" weight="1" />
+      <edge id="2211" source="KID#2" target="JOSH" weight="1" />
+      <edge id="2212" source="KID#2" target="BILLY" weight="1" />
+      <edge id="2213" source="KID#2" target="POLICE" weight="1" />
+      <edge id="2214" source="KID#2" target="KID#1" weight="1" />
+      <edge id="2215" source="WOMAN" target="JOSH" weight="10" />
+      <edge id="2216" source="WOMAN" target="MAN" weight="2" />
+      <edge id="2217" source="WOMAN" target="BILLY" weight="6" />
+      <edge id="2218" source="WOMAN" target="MR. M" weight="1" />
+      <edge id="2219" source="WOMAN" target="SUSAN" weight="2" />
+      <edge id="2220" source="WOMAN" target="BOY" weight="2" />
+      <edge id="2221" source="SUSAN" target="MAN" weight="5" />
+      <edge id="2222" source="SUSAN" target="JOSH" weight="18" />
+      <edge id="2223" source="SUSAN" target="MR. M" weight="6" />
+      <edge id="2224" source="SUSAN" target="PAUL" weight="11" />
+      <edge id="2225" source="SUSAN" target="WOMAN" weight="2" />
+      <edge id="2226" source="SUSAN" target="DRIVER" weight="1" />
+      <edge id="2227" source="SUSAN" target="BOY" weight="1" />
+      <edge id="2228" source="SUSAN" target="BILLY" weight="1" />
+      <edge id="2229" source="SCOTT" target="JOSH" weight="2" />
+      <edge id="2230" source="SCOTT" target="MAN" weight="1" />
+      <edge id="2231" source="MR. M" target="PAUL" weight="5" />
+      <edge id="2232" source="MR. M" target="SUSAN" weight="6" />
+      <edge id="2233" source="MR. M" target="JOSH" weight="5" />
+      <edge id="2234" source="MR. M" target="MAN" weight="4" />
+      <edge id="2235" source="MR. M" target="WOMAN" weight="1" />
+      <edge id="2236" source="PAUL" target="MR. M" weight="5" />
+      <edge id="2237" source="PAUL" target="SUSAN" weight="11" />
+      <edge id="2238" source="PAUL" target="JOSH" weight="4" />
+      <edge id="2239" source="PAUL" target="MAN" weight="4" />
+      <edge id="2240" source="BOY" target="JOSH" weight="3" />
+      <edge id="2241" source="BOY" target="WOMAN" weight="2" />
+      <edge id="2242" source="BOY" target="MAN" weight="1" />
+      <edge id="2243" source="BOY" target="SUSAN" weight="1" />
+      <edge id="2244" source="REALTOR" target="BILLY" weight="1" />
+      <edge id="2245" source="DRIVER" target="SUSAN" weight="1" />
+      <edge id="2246" source="DRIVER" target="JOSH" weight="1" />
+    </edges>
+  </graph>
+</gexf>

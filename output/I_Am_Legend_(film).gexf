@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="NEVILLE" label="NEVILLE" />
+      <node id="NEVILLE / KATIE" label="NEVILLE / KATIE" />
+      <node id="SNIPER" label="SNIPER" />
+      <node id="CORTMAN" label="CORTMAN" />
+      <node id="FEMALE" label="FEMALE" />
+      <node id="EVA" label="EVA" />
+      <node id="CHRISTOPHER" label="CHRISTOPHER" />
+      <node id="WARRIOR FOUR" label="WARRIOR FOUR" />
+      <node id="BEAUTIFUL FEMALE" label="BEAUTIFUL FEMALE" />
+      <node id="ELLEN" label="ELLEN" />
+      <node id="GRACE'S VOICE" label="GRACE'S VOICE" />
+      <node id="GRACE" label="GRACE" />
+      <node id="NEVILLE'S VOICE" label="NEVILLE'S VOICE" />
+      <node id="VOICES OUTSIDE" label="VOICES OUTSIDE" />
+      <node id="CORTMAN'S VOICE" label="CORTMAN'S VOICE" />
+      <node id="KRIPPEN" label="KRIPPEN" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="TED KOPPEL" label="TED KOPPEL" />
+      <node id="KOPPEL" label="KOPPEL" />
+      <node id="ELLEN'S VOICE" label="ELLEN'S VOICE" />
+      <node id="KRIPPEN'S VOICE" label="KRIPPEN'S VOICE" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="THE GIRL" label="THE GIRL" />
+      <node id="ANNA" label="ANNA" />
+      <node id="NEWS ANCHOR" label="NEWS ANCHOR" />
+      <node id="SANCHEZ" label="SANCHEZ" />
+      <node id="CHIEF OF POLICE" label="CHIEF OF POLICE" />
+      <node id="REPORTER ONE" label="REPORTER ONE" />
+      <node id="DR. PETERSEN" label="DR. PETERSEN" />
+      <node id="REPORTER TWO" label="REPORTER TWO" />
+      <node id="REPORTER THREE" label="REPORTER THREE" />
+      <node id="GOVERNOR" label="GOVERNOR" />
+      <node id="C.D.C. MAN ONE" label="C.D.C. MAN ONE" />
+      <node id="ANNA'S VOICE" label="ANNA'S VOICE" />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="8995" source="NEVILLE" target="SNIPER" weight="1" />
+      <edge id="8996" source="NEVILLE" target="BEAUTIFUL FEMALE" weight="1" />
+      <edge id="8997" source="NEVILLE" target="ELLEN" weight="4" />
+      <edge id="8998" source="NEVILLE" target="GRACE'S VOICE" weight="1" />
+      <edge id="8999" source="NEVILLE" target="GRACE" weight="3" />
+      <edge id="9000" source="NEVILLE" target="NEVILLE'S VOICE" weight="2" />
+      <edge id="9001" source="NEVILLE" target="VOICES OUTSIDE" weight="2" />
+      <edge id="9002" source="NEVILLE" target="KRIPPEN" weight="2" />
+      <edge id="9003" source="NEVILLE" target="SECRETARY" weight="1" />
+      <edge id="9004" source="NEVILLE" target="TED KOPPEL" weight="1" />
+      <edge id="9005" source="NEVILLE" target="CORTMAN" weight="4" />
+      <edge id="9006" source="NEVILLE" target="KOPPEL" weight="1" />
+      <edge id="9007" source="NEVILLE" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9008" source="NEVILLE" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9009" source="NEVILLE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="9010" source="NEVILLE" target="THE GIRL" weight="2" />
+      <edge id="9011" source="NEVILLE" target="ANNA" weight="19" />
+      <edge id="9012" source="NEVILLE" target="NEWS ANCHOR" weight="1" />
+      <edge id="9013" source="NEVILLE" target="SANCHEZ" weight="1" />
+      <edge id="9014" source="NEVILLE" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9015" source="NEVILLE" target="REPORTER ONE" weight="1" />
+      <edge id="9016" source="NEVILLE" target="DR. PETERSEN" weight="1" />
+      <edge id="9017" source="NEVILLE" target="REPORTER TWO" weight="1" />
+      <edge id="9018" source="NEVILLE" target="REPORTER THREE" weight="1" />
+      <edge id="9019" source="NEVILLE" target="GOVERNOR" weight="1" />
+      <edge id="9020" source="NEVILLE" target="C.D.C. MAN ONE" weight="1" />
+      <edge id="9021" source="NEVILLE" target="ANNA'S VOICE" weight="2" />
+      <edge id="9022" source="NEVILLE" target="MAN'S VOICE" weight="1" />
+      <edge id="9023" source="NEVILLE" target="CHRISTOPHER" weight="1" />
+      <edge id="9024" source="SNIPER" target="NEVILLE" weight="1" />
+      <edge id="9025" source="CORTMAN" target="FEMALE" weight="1" />
+      <edge id="9026" source="CORTMAN" target="EVA" weight="1" />
+      <edge id="9027" source="CORTMAN" target="CHRISTOPHER" weight="2" />
+      <edge id="9028" source="CORTMAN" target="TED KOPPEL" weight="1" />
+      <edge id="9029" source="CORTMAN" target="KRIPPEN" weight="1" />
+      <edge id="9030" source="CORTMAN" target="KOPPEL" weight="1" />
+      <edge id="9031" source="CORTMAN" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9032" source="CORTMAN" target="NEVILLE" weight="4" />
+      <edge id="9033" source="CORTMAN" target="ELLEN" weight="1" />
+      <edge id="9034" source="CORTMAN" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9035" source="CORTMAN" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9036" source="CORTMAN" target="ANNA" weight="1" />
+      <edge id="9037" source="FEMALE" target="CORTMAN" weight="1" />
+      <edge id="9038" source="EVA" target="CHRISTOPHER" weight="1" />
+      <edge id="9039" source="EVA" target="CORTMAN" weight="1" />
+      <edge id="9040" source="CHRISTOPHER" target="EVA" weight="1" />
+      <edge id="9041" source="CHRISTOPHER" target="CORTMAN" weight="2" />
+      <edge id="9042" source="CHRISTOPHER" target="NEVILLE" weight="1" />
+      <edge id="9043" source="CHRISTOPHER" target="ANNA" weight="1" />
+      <edge id="9044" source="CHRISTOPHER" target="MAN'S VOICE" weight="1" />
+      <edge id="9045" source="WARRIOR FOUR" target="BEAUTIFUL FEMALE" weight="1" />
+      <edge id="9046" source="BEAUTIFUL FEMALE" target="WARRIOR FOUR" weight="1" />
+      <edge id="9047" source="BEAUTIFUL FEMALE" target="NEVILLE" weight="1" />
+      <edge id="9048" source="ELLEN" target="NEVILLE" weight="4" />
+      <edge id="9049" source="ELLEN" target="GRACE'S VOICE" weight="1" />
+      <edge id="9050" source="ELLEN" target="GRACE" weight="3" />
+      <edge id="9051" source="ELLEN" target="NEVILLE'S VOICE" weight="1" />
+      <edge id="9052" source="ELLEN" target="VOICES OUTSIDE" weight="2" />
+      <edge id="9053" source="ELLEN" target="TED KOPPEL" weight="1" />
+      <edge id="9054" source="ELLEN" target="KRIPPEN" weight="1" />
+      <edge id="9055" source="ELLEN" target="CORTMAN" weight="1" />
+      <edge id="9056" source="ELLEN" target="KOPPEL" weight="1" />
+      <edge id="9057" source="ELLEN" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9058" source="ELLEN" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9059" source="ELLEN" target="C.D.C. MAN ONE" weight="1" />
+      <edge id="9060" source="GRACE'S VOICE" target="NEVILLE" weight="1" />
+      <edge id="9061" source="GRACE'S VOICE" target="ELLEN" weight="1" />
+      <edge id="9062" source="GRACE'S VOICE" target="GRACE" weight="1" />
+      <edge id="9063" source="GRACE" target="NEVILLE" weight="3" />
+      <edge id="9064" source="GRACE" target="ELLEN" weight="3" />
+      <edge id="9065" source="GRACE" target="GRACE'S VOICE" weight="1" />
+      <edge id="9066" source="GRACE" target="NEVILLE'S VOICE" weight="1" />
+      <edge id="9067" source="GRACE" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9068" source="GRACE" target="C.D.C. MAN ONE" weight="1" />
+      <edge id="9069" source="NEVILLE'S VOICE" target="ELLEN" weight="1" />
+      <edge id="9070" source="NEVILLE'S VOICE" target="GRACE" weight="1" />
+      <edge id="9071" source="NEVILLE'S VOICE" target="NEVILLE" weight="2" />
+      <edge id="9072" source="NEVILLE'S VOICE" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9073" source="NEVILLE'S VOICE" target="ANNA" weight="1" />
+      <edge id="9074" source="VOICES OUTSIDE" target="NEVILLE'S VOICE" weight="1" />
+      <edge id="9075" source="VOICES OUTSIDE" target="ELLEN" weight="2" />
+      <edge id="9076" source="VOICES OUTSIDE" target="GRACE" weight="1" />
+      <edge id="9077" source="VOICES OUTSIDE" target="NEVILLE" weight="2" />
+      <edge id="9078" source="VOICES OUTSIDE" target="TED KOPPEL" weight="1" />
+      <edge id="9079" source="VOICES OUTSIDE" target="KRIPPEN" weight="1" />
+      <edge id="9080" source="VOICES OUTSIDE" target="CORTMAN" weight="1" />
+      <edge id="9081" source="VOICES OUTSIDE" target="KOPPEL" weight="1" />
+      <edge id="9082" source="VOICES OUTSIDE" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9083" source="VOICES OUTSIDE" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9084" source="KRIPPEN" target="NEVILLE" weight="2" />
+      <edge id="9085" source="KRIPPEN" target="SECRETARY" weight="1" />
+      <edge id="9086" source="KRIPPEN" target="TED KOPPEL" weight="1" />
+      <edge id="9087" source="KRIPPEN" target="CORTMAN" weight="1" />
+      <edge id="9088" source="KRIPPEN" target="KOPPEL" weight="1" />
+      <edge id="9089" source="KRIPPEN" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9090" source="KRIPPEN" target="ELLEN" weight="1" />
+      <edge id="9091" source="KRIPPEN" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9092" source="KRIPPEN" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9093" source="SECRETARY" target="NEVILLE" weight="1" />
+      <edge id="9094" source="SECRETARY" target="KRIPPEN" weight="1" />
+      <edge id="9095" source="TED KOPPEL" target="KRIPPEN" weight="1" />
+      <edge id="9096" source="TED KOPPEL" target="CORTMAN" weight="1" />
+      <edge id="9097" source="TED KOPPEL" target="KOPPEL" weight="1" />
+      <edge id="9098" source="TED KOPPEL" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9099" source="TED KOPPEL" target="NEVILLE" weight="1" />
+      <edge id="9100" source="TED KOPPEL" target="ELLEN" weight="1" />
+      <edge id="9101" source="TED KOPPEL" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9102" source="TED KOPPEL" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9103" source="KOPPEL" target="TED KOPPEL" weight="1" />
+      <edge id="9104" source="KOPPEL" target="KRIPPEN" weight="1" />
+      <edge id="9105" source="KOPPEL" target="CORTMAN" weight="1" />
+      <edge id="9106" source="KOPPEL" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9107" source="KOPPEL" target="NEVILLE" weight="1" />
+      <edge id="9108" source="KOPPEL" target="ELLEN" weight="1" />
+      <edge id="9109" source="KOPPEL" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9110" source="KOPPEL" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9111" source="ELLEN'S VOICE" target="TED KOPPEL" weight="1" />
+      <edge id="9112" source="ELLEN'S VOICE" target="KRIPPEN" weight="1" />
+      <edge id="9113" source="ELLEN'S VOICE" target="CORTMAN" weight="1" />
+      <edge id="9114" source="ELLEN'S VOICE" target="KOPPEL" weight="1" />
+      <edge id="9115" source="ELLEN'S VOICE" target="NEVILLE" weight="1" />
+      <edge id="9116" source="ELLEN'S VOICE" target="ELLEN" weight="1" />
+      <edge id="9117" source="ELLEN'S VOICE" target="KRIPPEN'S VOICE" weight="1" />
+      <edge id="9118" source="ELLEN'S VOICE" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9119" source="KRIPPEN'S VOICE" target="TED KOPPEL" weight="1" />
+      <edge id="9120" source="KRIPPEN'S VOICE" target="KRIPPEN" weight="1" />
+      <edge id="9121" source="KRIPPEN'S VOICE" target="CORTMAN" weight="1" />
+      <edge id="9122" source="KRIPPEN'S VOICE" target="KOPPEL" weight="1" />
+      <edge id="9123" source="KRIPPEN'S VOICE" target="ELLEN'S VOICE" weight="1" />
+      <edge id="9124" source="KRIPPEN'S VOICE" target="NEVILLE" weight="1" />
+      <edge id="9125" source="KRIPPEN'S VOICE" target="ELLEN" weight="1" />
+      <edge id="9126" source="KRIPPEN'S VOICE" target="VOICES OUTSIDE" weight="1" />
+      <edge id="9127" source="WOMAN'S VOICE" target="NEVILLE" weight="1" />
+      <edge id="9128" source="THE GIRL" target="NEVILLE" weight="2" />
+      <edge id="9129" source="THE GIRL" target="ANNA" weight="1" />
+      <edge id="9130" source="ANNA" target="THE GIRL" weight="1" />
+      <edge id="9131" source="ANNA" target="NEVILLE" weight="19" />
+      <edge id="9132" source="ANNA" target="NEWS ANCHOR" weight="1" />
+      <edge id="9133" source="ANNA" target="SANCHEZ" weight="1" />
+      <edge id="9134" source="ANNA" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9135" source="ANNA" target="REPORTER ONE" weight="1" />
+      <edge id="9136" source="ANNA" target="DR. PETERSEN" weight="1" />
+      <edge id="9137" source="ANNA" target="REPORTER TWO" weight="1" />
+      <edge id="9138" source="ANNA" target="REPORTER THREE" weight="1" />
+      <edge id="9139" source="ANNA" target="GOVERNOR" weight="1" />
+      <edge id="9140" source="ANNA" target="NEVILLE'S VOICE" weight="1" />
+      <edge id="9141" source="ANNA" target="ANNA'S VOICE" weight="2" />
+      <edge id="9142" source="ANNA" target="CORTMAN" weight="1" />
+      <edge id="9143" source="ANNA" target="MAN'S VOICE" weight="1" />
+      <edge id="9144" source="ANNA" target="CHRISTOPHER" weight="1" />
+      <edge id="9145" source="NEWS ANCHOR" target="NEVILLE" weight="1" />
+      <edge id="9146" source="NEWS ANCHOR" target="ANNA" weight="1" />
+      <edge id="9147" source="NEWS ANCHOR" target="SANCHEZ" weight="1" />
+      <edge id="9148" source="NEWS ANCHOR" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9149" source="NEWS ANCHOR" target="REPORTER ONE" weight="1" />
+      <edge id="9150" source="NEWS ANCHOR" target="DR. PETERSEN" weight="1" />
+      <edge id="9151" source="NEWS ANCHOR" target="REPORTER TWO" weight="1" />
+      <edge id="9152" source="NEWS ANCHOR" target="REPORTER THREE" weight="1" />
+      <edge id="9153" source="NEWS ANCHOR" target="GOVERNOR" weight="1" />
+      <edge id="9154" source="SANCHEZ" target="NEVILLE" weight="1" />
+      <edge id="9155" source="SANCHEZ" target="ANNA" weight="1" />
+      <edge id="9156" source="SANCHEZ" target="NEWS ANCHOR" weight="1" />
+      <edge id="9157" source="SANCHEZ" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9158" source="SANCHEZ" target="REPORTER ONE" weight="1" />
+      <edge id="9159" source="SANCHEZ" target="DR. PETERSEN" weight="1" />
+      <edge id="9160" source="SANCHEZ" target="REPORTER TWO" weight="1" />
+      <edge id="9161" source="SANCHEZ" target="REPORTER THREE" weight="1" />
+      <edge id="9162" source="SANCHEZ" target="GOVERNOR" weight="1" />
+      <edge id="9163" source="CHIEF OF POLICE" target="NEVILLE" weight="1" />
+      <edge id="9164" source="CHIEF OF POLICE" target="ANNA" weight="1" />
+      <edge id="9165" source="CHIEF OF POLICE" target="NEWS ANCHOR" weight="1" />
+      <edge id="9166" source="CHIEF OF POLICE" target="SANCHEZ" weight="1" />
+      <edge id="9167" source="CHIEF OF POLICE" target="REPORTER ONE" weight="1" />
+      <edge id="9168" source="CHIEF OF POLICE" target="DR. PETERSEN" weight="1" />
+      <edge id="9169" source="CHIEF OF POLICE" target="REPORTER TWO" weight="1" />
+      <edge id="9170" source="CHIEF OF POLICE" target="REPORTER THREE" weight="1" />
+      <edge id="9171" source="CHIEF OF POLICE" target="GOVERNOR" weight="1" />
+      <edge id="9172" source="REPORTER ONE" target="NEVILLE" weight="1" />
+      <edge id="9173" source="REPORTER ONE" target="ANNA" weight="1" />
+      <edge id="9174" source="REPORTER ONE" target="NEWS ANCHOR" weight="1" />
+      <edge id="9175" source="REPORTER ONE" target="SANCHEZ" weight="1" />
+      <edge id="9176" source="REPORTER ONE" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9177" source="REPORTER ONE" target="DR. PETERSEN" weight="1" />
+      <edge id="9178" source="REPORTER ONE" target="REPORTER TWO" weight="1" />
+      <edge id="9179" source="REPORTER ONE" target="REPORTER THREE" weight="1" />
+      <edge id="9180" source="REPORTER ONE" target="GOVERNOR" weight="1" />
+      <edge id="9181" source="DR. PETERSEN" target="NEVILLE" weight="1" />
+      <edge id="9182" source="DR. PETERSEN" target="ANNA" weight="1" />
+      <edge id="9183" source="DR. PETERSEN" target="NEWS ANCHOR" weight="1" />
+      <edge id="9184" source="DR. PETERSEN" target="SANCHEZ" weight="1" />
+      <edge id="9185" source="DR. PETERSEN" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9186" source="DR. PETERSEN" target="REPORTER ONE" weight="1" />
+      <edge id="9187" source="DR. PETERSEN" target="REPORTER TWO" weight="1" />
+      <edge id="9188" source="DR. PETERSEN" target="REPORTER THREE" weight="1" />
+      <edge id="9189" source="DR. PETERSEN" target="GOVERNOR" weight="1" />
+      <edge id="9190" source="REPORTER TWO" target="NEVILLE" weight="1" />
+      <edge id="9191" source="REPORTER TWO" target="ANNA" weight="1" />
+      <edge id="9192" source="REPORTER TWO" target="NEWS ANCHOR" weight="1" />
+      <edge id="9193" source="REPORTER TWO" target="SANCHEZ" weight="1" />
+      <edge id="9194" source="REPORTER TWO" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9195" source="REPORTER TWO" target="REPORTER ONE" weight="1" />
+      <edge id="9196" source="REPORTER TWO" target="DR. PETERSEN" weight="1" />
+      <edge id="9197" source="REPORTER TWO" target="REPORTER THREE" weight="1" />
+      <edge id="9198" source="REPORTER TWO" target="GOVERNOR" weight="1" />
+      <edge id="9199" source="REPORTER THREE" target="NEVILLE" weight="1" />
+      <edge id="9200" source="REPORTER THREE" target="ANNA" weight="1" />
+      <edge id="9201" source="REPORTER THREE" target="NEWS ANCHOR" weight="1" />
+      <edge id="9202" source="REPORTER THREE" target="SANCHEZ" weight="1" />
+      <edge id="9203" source="REPORTER THREE" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9204" source="REPORTER THREE" target="REPORTER ONE" weight="1" />
+      <edge id="9205" source="REPORTER THREE" target="DR. PETERSEN" weight="1" />
+      <edge id="9206" source="REPORTER THREE" target="REPORTER TWO" weight="1" />
+      <edge id="9207" source="REPORTER THREE" target="GOVERNOR" weight="1" />
+      <edge id="9208" source="GOVERNOR" target="NEVILLE" weight="1" />
+      <edge id="9209" source="GOVERNOR" target="ANNA" weight="1" />
+      <edge id="9210" source="GOVERNOR" target="NEWS ANCHOR" weight="1" />
+      <edge id="9211" source="GOVERNOR" target="SANCHEZ" weight="1" />
+      <edge id="9212" source="GOVERNOR" target="CHIEF OF POLICE" weight="1" />
+      <edge id="9213" source="GOVERNOR" target="REPORTER ONE" weight="1" />
+      <edge id="9214" source="GOVERNOR" target="DR. PETERSEN" weight="1" />
+      <edge id="9215" source="GOVERNOR" target="REPORTER TWO" weight="1" />
+      <edge id="9216" source="GOVERNOR" target="REPORTER THREE" weight="1" />
+      <edge id="9217" source="C.D.C. MAN ONE" target="ELLEN" weight="1" />
+      <edge id="9218" source="C.D.C. MAN ONE" target="NEVILLE" weight="1" />
+      <edge id="9219" source="C.D.C. MAN ONE" target="GRACE" weight="1" />
+      <edge id="9220" source="ANNA'S VOICE" target="NEVILLE" weight="2" />
+      <edge id="9221" source="ANNA'S VOICE" target="ANNA" weight="2" />
+      <edge id="9222" source="MAN'S VOICE" target="NEVILLE" weight="1" />
+      <edge id="9223" source="MAN'S VOICE" target="ANNA" weight="1" />
+      <edge id="9224" source="MAN'S VOICE" target="CHRISTOPHER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MAN" label="MAN" />
+      <node id="SHANKLE" label="SHANKLE" />
+      <node id="SECOND VOICE" label="SECOND VOICE" />
+      <node id="MILLER" label="MILLER" />
+      <node id="WARREN" label="WARREN" />
+      <node id="WASHINGTON" label="WASHINGTON" />
+      <node id="THREE ATTENDANTS" label="THREE ATTENDANTS" />
+      <node id="BIG NURSE" label="BIG NURSE" />
+      <node id="MISS PILBOW" label="MISS PILBOW" />
+      <node id="DEPUTY SHERIFF" label="DEPUTY SHERIFF" />
+      <node id="SECOND DEPUTY" label="SECOND DEPUTY" />
+      <node id="MCMURPHY" label="MCMURPHY" />
+      <node id="NURSE ITSU" label="NURSE ITSU" />
+      <node id="SPIVEY" label="SPIVEY" />
+      <node id="WASHINGTON AND WARREN" label="WASHINGTON AND WARREN" />
+      <node id="NURSE PILBOW" label="NURSE PILBOW" />
+      <node id="SEFELT" label="SEFELT" />
+      <node id="PATIENT" label="PATIENT" />
+      <node id="TABER" label="TABER" />
+      <node id="MARTINI" label="MARTINI" />
+      <node id="SCANLON" label="SCANLON" />
+      <node id="HARDING" label="HARDING" />
+      <node id="OLD VEGETABLE" label="OLD VEGETABLE" />
+      <node id="BILLY" label="BILLY" />
+      <node id="CHESWICK" label="CHESWICK" />
+      <node id="BANCINI" label="BANCINI" />
+      <node id="FREDRICKSON" label="FREDRICKSON" />
+      <node id="ACUTES" label="ACUTES" />
+      <node id="RUCKLY" label="RUCKLY" />
+      <node id="HARDING AND CHESWICK" label="HARDING AND CHESWICK" />
+      <node id="TURKLE" label="TURKLE" />
+      <node id="CHESWTCK" label="CHESWTCK" />
+      <node id="WASHINGTON'S POV" label="WASHINGTON'S POV" />
+      <node id="BIG NURSE'S VOICE" label="BIG NURSE'S VOICE" />
+      <node id="PATIENTS" label="PATIENTS" />
+      <node id="SEVERAL ACUTES" label="SEVERAL ACUTES" />
+      <node id="VOICE" label="VOICE" />
+      <node id="AIDE" label="AIDE" />
+      <node id="BROMDEN" label="BROMDEN" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="NURSE" label="NURSE" />
+      <node id="PHOTOGRAPHER" label="PHOTOGRAPHER" />
+      <node id="CANDY" label="CANDY" />
+      <node id="ROSE" label="ROSE" />
+      <node id="MARTINI AND SCANLON" label="MARTINI AND SCANLON" />
+      <node id="CANDY AND ROSE" label="CANDY AND ROSE" />
+      <node id="NIGHT SUPERVISOR" label="NIGHT SUPERVISOR" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="THE END" label="THE END" />
+    </nodes>
+    <edges>
+      <edge id="13045" source="MAN" target="SHANKLE" weight="1" />
+      <edge id="13046" source="MAN" target="SECOND VOICE" weight="1" />
+      <edge id="13047" source="SHANKLE" target="MAN" weight="1" />
+      <edge id="13048" source="SHANKLE" target="SECOND VOICE" weight="1" />
+      <edge id="13049" source="SECOND VOICE" target="MAN" weight="1" />
+      <edge id="13050" source="SECOND VOICE" target="SHANKLE" weight="1" />
+      <edge id="13051" source="MILLER" target="WARREN" weight="1" />
+      <edge id="13052" source="MILLER" target="WASHINGTON" weight="2" />
+      <edge id="13053" source="MILLER" target="THREE ATTENDANTS" weight="1" />
+      <edge id="13054" source="MILLER" target="BIG NURSE" weight="2" />
+      <edge id="13055" source="MILLER" target="BILLY" weight="1" />
+      <edge id="13056" source="MILLER" target="MCMURPHY" weight="1" />
+      <edge id="13057" source="WARREN" target="MILLER" weight="1" />
+      <edge id="13058" source="WARREN" target="WASHINGTON" weight="2" />
+      <edge id="13059" source="WARREN" target="THREE ATTENDANTS" weight="1" />
+      <edge id="13060" source="WARREN" target="BIG NURSE" weight="1" />
+      <edge id="13061" source="WASHINGTON" target="MILLER" weight="2" />
+      <edge id="13062" source="WASHINGTON" target="WARREN" weight="2" />
+      <edge id="13063" source="WASHINGTON" target="THREE ATTENDANTS" weight="1" />
+      <edge id="13064" source="WASHINGTON" target="BIG NURSE" weight="8" />
+      <edge id="13065" source="WASHINGTON" target="BANCINI" weight="1" />
+      <edge id="13066" source="WASHINGTON" target="BILLY" weight="4" />
+      <edge id="13067" source="WASHINGTON" target="HARDING" weight="4" />
+      <edge id="13068" source="WASHINGTON" target="MCMURPHY" weight="9" />
+      <edge id="13069" source="WASHINGTON" target="MARTINI" weight="3" />
+      <edge id="13070" source="WASHINGTON" target="SEFELT" weight="2" />
+      <edge id="13071" source="WASHINGTON" target="TABER" weight="1" />
+      <edge id="13072" source="WASHINGTON" target="FREDRICKSON" weight="2" />
+      <edge id="13073" source="WASHINGTON" target="SCANLON" weight="3" />
+      <edge id="13074" source="WASHINGTON" target="ACUTES" weight="1" />
+      <edge id="13075" source="WASHINGTON" target="RUCKLY" weight="1" />
+      <edge id="13076" source="WASHINGTON" target="NURSE PILBOW" weight="1" />
+      <edge id="13077" source="WASHINGTON" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13078" source="WASHINGTON" target="CHESWICK" weight="1" />
+      <edge id="13079" source="WASHINGTON" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13080" source="WASHINGTON" target="SPIVEY" weight="1" />
+      <edge id="13081" source="WASHINGTON" target="CANDY" weight="2" />
+      <edge id="13082" source="WASHINGTON" target="ROSE" weight="1" />
+      <edge id="13083" source="WASHINGTON" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13084" source="THREE ATTENDANTS" target="MILLER" weight="1" />
+      <edge id="13085" source="THREE ATTENDANTS" target="WARREN" weight="1" />
+      <edge id="13086" source="THREE ATTENDANTS" target="WASHINGTON" weight="1" />
+      <edge id="13087" source="THREE ATTENDANTS" target="BIG NURSE" weight="1" />
+      <edge id="13088" source="BIG NURSE" target="MILLER" weight="2" />
+      <edge id="13089" source="BIG NURSE" target="WARREN" weight="1" />
+      <edge id="13090" source="BIG NURSE" target="WASHINGTON" weight="8" />
+      <edge id="13091" source="BIG NURSE" target="THREE ATTENDANTS" weight="1" />
+      <edge id="13092" source="BIG NURSE" target="MISS PILBOW" weight="1" />
+      <edge id="13093" source="BIG NURSE" target="MCMURPHY" weight="14" />
+      <edge id="13094" source="BIG NURSE" target="PATIENT" weight="1" />
+      <edge id="13095" source="BIG NURSE" target="TABER" weight="4" />
+      <edge id="13096" source="BIG NURSE" target="MARTINI" weight="7" />
+      <edge id="13097" source="BIG NURSE" target="SCANLON" weight="6" />
+      <edge id="13098" source="BIG NURSE" target="HARDING" weight="9" />
+      <edge id="13099" source="BIG NURSE" target="OLD VEGETABLE" weight="1" />
+      <edge id="13100" source="BIG NURSE" target="BILLY" weight="6" />
+      <edge id="13101" source="BIG NURSE" target="CHESWICK" weight="4" />
+      <edge id="13102" source="BIG NURSE" target="SPIVEY" weight="4" />
+      <edge id="13103" source="BIG NURSE" target="BANCINI" weight="1" />
+      <edge id="13104" source="BIG NURSE" target="SEFELT" weight="5" />
+      <edge id="13105" source="BIG NURSE" target="FREDRICKSON" weight="5" />
+      <edge id="13106" source="BIG NURSE" target="ACUTES" weight="2" />
+      <edge id="13107" source="BIG NURSE" target="RUCKLY" weight="1" />
+      <edge id="13108" source="BIG NURSE" target="NURSE PILBOW" weight="3" />
+      <edge id="13109" source="BIG NURSE" target="CHESWTCK" weight="1" />
+      <edge id="13110" source="BIG NURSE" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13111" source="BIG NURSE" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13112" source="BIG NURSE" target="CANDY" weight="1" />
+      <edge id="13113" source="BIG NURSE" target="ROSE" weight="1" />
+      <edge id="13114" source="BIG NURSE" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13115" source="BIG NURSE" target="ATTENDANT" weight="1" />
+      <edge id="13116" source="MISS PILBOW" target="BIG NURSE" weight="1" />
+      <edge id="13117" source="MISS PILBOW" target="SECOND DEPUTY" weight="1" />
+      <edge id="13118" source="MISS PILBOW" target="MCMURPHY" weight="4" />
+      <edge id="13119" source="MISS PILBOW" target="DEPUTY SHERIFF" weight="1" />
+      <edge id="13120" source="MISS PILBOW" target="NURSE ITSU" weight="1" />
+      <edge id="13121" source="MISS PILBOW" target="SPIVEY" weight="2" />
+      <edge id="13122" source="MISS PILBOW" target="WASHINGTON AND WARREN" weight="1" />
+      <edge id="13123" source="MISS PILBOW" target="NURSE PILBOW" weight="1" />
+      <edge id="13124" source="MISS PILBOW" target="SEFELT" weight="2" />
+      <edge id="13125" source="MISS PILBOW" target="MARTINI" weight="1" />
+      <edge id="13126" source="MISS PILBOW" target="CHESWICK" weight="1" />
+      <edge id="13127" source="MISS PILBOW" target="TABER" weight="1" />
+      <edge id="13128" source="DEPUTY SHERIFF" target="SECOND DEPUTY" weight="1" />
+      <edge id="13129" source="DEPUTY SHERIFF" target="MCMURPHY" weight="1" />
+      <edge id="13130" source="DEPUTY SHERIFF" target="MISS PILBOW" weight="1" />
+      <edge id="13131" source="SECOND DEPUTY" target="MCMURPHY" weight="1" />
+      <edge id="13132" source="SECOND DEPUTY" target="DEPUTY SHERIFF" weight="1" />
+      <edge id="13133" source="SECOND DEPUTY" target="MISS PILBOW" weight="1" />
+      <edge id="13134" source="MCMURPHY" target="SECOND DEPUTY" weight="1" />
+      <edge id="13135" source="MCMURPHY" target="DEPUTY SHERIFF" weight="1" />
+      <edge id="13136" source="MCMURPHY" target="MISS PILBOW" weight="4" />
+      <edge id="13137" source="MCMURPHY" target="NURSE ITSU" weight="2" />
+      <edge id="13138" source="MCMURPHY" target="SPIVEY" weight="8" />
+      <edge id="13139" source="MCMURPHY" target="WASHINGTON AND WARREN" weight="1" />
+      <edge id="13140" source="MCMURPHY" target="NURSE PILBOW" weight="4" />
+      <edge id="13141" source="MCMURPHY" target="SEFELT" weight="12" />
+      <edge id="13142" source="MCMURPHY" target="PATIENT" weight="1" />
+      <edge id="13143" source="MCMURPHY" target="TABER" weight="11" />
+      <edge id="13144" source="MCMURPHY" target="MARTINI" weight="15" />
+      <edge id="13145" source="MCMURPHY" target="SCANLON" weight="10" />
+      <edge id="13146" source="MCMURPHY" target="HARDING" weight="13" />
+      <edge id="13147" source="MCMURPHY" target="OLD VEGETABLE" weight="1" />
+      <edge id="13148" source="MCMURPHY" target="BILLY" weight="18" />
+      <edge id="13149" source="MCMURPHY" target="CHESWICK" weight="14" />
+      <edge id="13150" source="MCMURPHY" target="BIG NURSE" weight="14" />
+      <edge id="13151" source="MCMURPHY" target="BANCINI" weight="1" />
+      <edge id="13152" source="MCMURPHY" target="FREDRICKSON" weight="10" />
+      <edge id="13153" source="MCMURPHY" target="ACUTES" weight="3" />
+      <edge id="13154" source="MCMURPHY" target="RUCKLY" weight="1" />
+      <edge id="13155" source="MCMURPHY" target="WASHINGTON" weight="9" />
+      <edge id="13156" source="MCMURPHY" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13157" source="MCMURPHY" target="TURKLE" weight="3" />
+      <edge id="13158" source="MCMURPHY" target="CHESWTCK" weight="1" />
+      <edge id="13159" source="MCMURPHY" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13160" source="MCMURPHY" target="PATIENTS" weight="1" />
+      <edge id="13161" source="MCMURPHY" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13162" source="MCMURPHY" target="VOICE" weight="1" />
+      <edge id="13163" source="MCMURPHY" target="AIDE" weight="1" />
+      <edge id="13164" source="MCMURPHY" target="BROMDEN" weight="1" />
+      <edge id="13165" source="MCMURPHY" target="DOCTOR" weight="1" />
+      <edge id="13166" source="MCMURPHY" target="NURSE" weight="1" />
+      <edge id="13167" source="MCMURPHY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13168" source="MCMURPHY" target="CANDY" weight="4" />
+      <edge id="13169" source="MCMURPHY" target="ROSE" weight="2" />
+      <edge id="13170" source="MCMURPHY" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13171" source="MCMURPHY" target="CANDY AND ROSE" weight="1" />
+      <edge id="13172" source="MCMURPHY" target="MILLER" weight="1" />
+      <edge id="13173" source="NURSE ITSU" target="MCMURPHY" weight="2" />
+      <edge id="13174" source="NURSE ITSU" target="MISS PILBOW" weight="1" />
+      <edge id="13175" source="NURSE ITSU" target="SPIVEY" weight="1" />
+      <edge id="13176" source="NURSE ITSU" target="WASHINGTON AND WARREN" weight="1" />
+      <edge id="13177" source="NURSE ITSU" target="AIDE" weight="1" />
+      <edge id="13178" source="NURSE ITSU" target="BROMDEN" weight="1" />
+      <edge id="13179" source="SPIVEY" target="MCMURPHY" weight="8" />
+      <edge id="13180" source="SPIVEY" target="NURSE ITSU" weight="1" />
+      <edge id="13181" source="SPIVEY" target="MISS PILBOW" weight="2" />
+      <edge id="13182" source="SPIVEY" target="WASHINGTON AND WARREN" weight="1" />
+      <edge id="13183" source="SPIVEY" target="NURSE PILBOW" weight="1" />
+      <edge id="13184" source="SPIVEY" target="SEFELT" weight="2" />
+      <edge id="13185" source="SPIVEY" target="BIG NURSE" weight="4" />
+      <edge id="13186" source="SPIVEY" target="CHESWTCK" weight="1" />
+      <edge id="13187" source="SPIVEY" target="CHESWICK" weight="1" />
+      <edge id="13188" source="SPIVEY" target="HARDING" weight="3" />
+      <edge id="13189" source="SPIVEY" target="MARTINI" weight="3" />
+      <edge id="13190" source="SPIVEY" target="FREDRICKSON" weight="1" />
+      <edge id="13191" source="SPIVEY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13192" source="SPIVEY" target="WASHINGTON" weight="1" />
+      <edge id="13193" source="SPIVEY" target="CANDY" weight="1" />
+      <edge id="13194" source="SPIVEY" target="ROSE" weight="1" />
+      <edge id="13195" source="SPIVEY" target="SCANLON" weight="1" />
+      <edge id="13196" source="SPIVEY" target="BILLY" weight="1" />
+      <edge id="13197" source="SPIVEY" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13198" source="WASHINGTON AND WARREN" target="MCMURPHY" weight="1" />
+      <edge id="13199" source="WASHINGTON AND WARREN" target="NURSE ITSU" weight="1" />
+      <edge id="13200" source="WASHINGTON AND WARREN" target="MISS PILBOW" weight="1" />
+      <edge id="13201" source="WASHINGTON AND WARREN" target="SPIVEY" weight="1" />
+      <edge id="13202" source="NURSE PILBOW" target="SPIVEY" weight="1" />
+      <edge id="13203" source="NURSE PILBOW" target="MCMURPHY" weight="4" />
+      <edge id="13204" source="NURSE PILBOW" target="SEFELT" weight="2" />
+      <edge id="13205" source="NURSE PILBOW" target="MISS PILBOW" weight="1" />
+      <edge id="13206" source="NURSE PILBOW" target="BANCINI" weight="1" />
+      <edge id="13207" source="NURSE PILBOW" target="BIG NURSE" weight="3" />
+      <edge id="13208" source="NURSE PILBOW" target="BILLY" weight="1" />
+      <edge id="13209" source="NURSE PILBOW" target="HARDING" weight="2" />
+      <edge id="13210" source="NURSE PILBOW" target="MARTINI" weight="1" />
+      <edge id="13211" source="NURSE PILBOW" target="TABER" weight="2" />
+      <edge id="13212" source="NURSE PILBOW" target="FREDRICKSON" weight="1" />
+      <edge id="13213" source="NURSE PILBOW" target="SCANLON" weight="1" />
+      <edge id="13214" source="NURSE PILBOW" target="ACUTES" weight="1" />
+      <edge id="13215" source="NURSE PILBOW" target="RUCKLY" weight="1" />
+      <edge id="13216" source="NURSE PILBOW" target="WASHINGTON" weight="1" />
+      <edge id="13217" source="SEFELT" target="SPIVEY" weight="2" />
+      <edge id="13218" source="SEFELT" target="MCMURPHY" weight="12" />
+      <edge id="13219" source="SEFELT" target="NURSE PILBOW" weight="2" />
+      <edge id="13220" source="SEFELT" target="MISS PILBOW" weight="2" />
+      <edge id="13221" source="SEFELT" target="BANCINI" weight="1" />
+      <edge id="13222" source="SEFELT" target="BIG NURSE" weight="5" />
+      <edge id="13223" source="SEFELT" target="BILLY" weight="9" />
+      <edge id="13224" source="SEFELT" target="HARDING" weight="6" />
+      <edge id="13225" source="SEFELT" target="MARTINI" weight="9" />
+      <edge id="13226" source="SEFELT" target="TABER" weight="7" />
+      <edge id="13227" source="SEFELT" target="FREDRICKSON" weight="11" />
+      <edge id="13228" source="SEFELT" target="SCANLON" weight="7" />
+      <edge id="13229" source="SEFELT" target="ACUTES" weight="3" />
+      <edge id="13230" source="SEFELT" target="RUCKLY" weight="1" />
+      <edge id="13231" source="SEFELT" target="WASHINGTON" weight="2" />
+      <edge id="13232" source="SEFELT" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13233" source="SEFELT" target="CHESWICK" weight="7" />
+      <edge id="13234" source="SEFELT" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13235" source="SEFELT" target="PATIENTS" weight="1" />
+      <edge id="13236" source="SEFELT" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13237" source="SEFELT" target="VOICE" weight="1" />
+      <edge id="13238" source="PATIENT" target="MCMURPHY" weight="1" />
+      <edge id="13239" source="PATIENT" target="TABER" weight="1" />
+      <edge id="13240" source="PATIENT" target="MARTINI" weight="1" />
+      <edge id="13241" source="PATIENT" target="SCANLON" weight="1" />
+      <edge id="13242" source="PATIENT" target="HARDING" weight="1" />
+      <edge id="13243" source="PATIENT" target="OLD VEGETABLE" weight="1" />
+      <edge id="13244" source="PATIENT" target="BILLY" weight="1" />
+      <edge id="13245" source="PATIENT" target="CHESWICK" weight="1" />
+      <edge id="13246" source="PATIENT" target="BIG NURSE" weight="1" />
+      <edge id="13247" source="TABER" target="MCMURPHY" weight="11" />
+      <edge id="13248" source="TABER" target="PATIENT" weight="1" />
+      <edge id="13249" source="TABER" target="MARTINI" weight="7" />
+      <edge id="13250" source="TABER" target="SCANLON" weight="6" />
+      <edge id="13251" source="TABER" target="HARDING" weight="6" />
+      <edge id="13252" source="TABER" target="OLD VEGETABLE" weight="1" />
+      <edge id="13253" source="TABER" target="BILLY" weight="9" />
+      <edge id="13254" source="TABER" target="CHESWICK" weight="9" />
+      <edge id="13255" source="TABER" target="BIG NURSE" weight="4" />
+      <edge id="13256" source="TABER" target="BANCINI" weight="1" />
+      <edge id="13257" source="TABER" target="SEFELT" weight="7" />
+      <edge id="13258" source="TABER" target="FREDRICKSON" weight="7" />
+      <edge id="13259" source="TABER" target="ACUTES" weight="2" />
+      <edge id="13260" source="TABER" target="RUCKLY" weight="1" />
+      <edge id="13261" source="TABER" target="WASHINGTON" weight="1" />
+      <edge id="13262" source="TABER" target="NURSE PILBOW" weight="2" />
+      <edge id="13263" source="TABER" target="MISS PILBOW" weight="1" />
+      <edge id="13264" source="TABER" target="PATIENTS" weight="1" />
+      <edge id="13265" source="TABER" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13266" source="MARTINI" target="MCMURPHY" weight="15" />
+      <edge id="13267" source="MARTINI" target="PATIENT" weight="1" />
+      <edge id="13268" source="MARTINI" target="TABER" weight="7" />
+      <edge id="13269" source="MARTINI" target="SCANLON" weight="11" />
+      <edge id="13270" source="MARTINI" target="HARDING" weight="9" />
+      <edge id="13271" source="MARTINI" target="OLD VEGETABLE" weight="1" />
+      <edge id="13272" source="MARTINI" target="BILLY" weight="10" />
+      <edge id="13273" source="MARTINI" target="CHESWICK" weight="9" />
+      <edge id="13274" source="MARTINI" target="BIG NURSE" weight="7" />
+      <edge id="13275" source="MARTINI" target="BANCINI" weight="1" />
+      <edge id="13276" source="MARTINI" target="SEFELT" weight="9" />
+      <edge id="13277" source="MARTINI" target="FREDRICKSON" weight="8" />
+      <edge id="13278" source="MARTINI" target="ACUTES" weight="2" />
+      <edge id="13279" source="MARTINI" target="RUCKLY" weight="1" />
+      <edge id="13280" source="MARTINI" target="WASHINGTON" weight="3" />
+      <edge id="13281" source="MARTINI" target="NURSE PILBOW" weight="1" />
+      <edge id="13282" source="MARTINI" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13283" source="MARTINI" target="MISS PILBOW" weight="1" />
+      <edge id="13284" source="MARTINI" target="CHESWTCK" weight="1" />
+      <edge id="13285" source="MARTINI" target="SPIVEY" weight="3" />
+      <edge id="13286" source="MARTINI" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13287" source="MARTINI" target="PATIENTS" weight="1" />
+      <edge id="13288" source="MARTINI" target="VOICE" weight="1" />
+      <edge id="13289" source="MARTINI" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13290" source="MARTINI" target="CANDY" weight="1" />
+      <edge id="13291" source="MARTINI" target="ROSE" weight="1" />
+      <edge id="13292" source="MARTINI" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13293" source="SCANLON" target="MCMURPHY" weight="10" />
+      <edge id="13294" source="SCANLON" target="PATIENT" weight="1" />
+      <edge id="13295" source="SCANLON" target="TABER" weight="6" />
+      <edge id="13296" source="SCANLON" target="MARTINI" weight="11" />
+      <edge id="13297" source="SCANLON" target="HARDING" weight="8" />
+      <edge id="13298" source="SCANLON" target="OLD VEGETABLE" weight="1" />
+      <edge id="13299" source="SCANLON" target="BILLY" weight="10" />
+      <edge id="13300" source="SCANLON" target="CHESWICK" weight="6" />
+      <edge id="13301" source="SCANLON" target="BIG NURSE" weight="6" />
+      <edge id="13302" source="SCANLON" target="BANCINI" weight="1" />
+      <edge id="13303" source="SCANLON" target="SEFELT" weight="7" />
+      <edge id="13304" source="SCANLON" target="FREDRICKSON" weight="8" />
+      <edge id="13305" source="SCANLON" target="ACUTES" weight="2" />
+      <edge id="13306" source="SCANLON" target="RUCKLY" weight="1" />
+      <edge id="13307" source="SCANLON" target="WASHINGTON" weight="3" />
+      <edge id="13308" source="SCANLON" target="NURSE PILBOW" weight="1" />
+      <edge id="13309" source="SCANLON" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13310" source="SCANLON" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13311" source="SCANLON" target="PATIENTS" weight="1" />
+      <edge id="13312" source="SCANLON" target="VOICE" weight="1" />
+      <edge id="13313" source="SCANLON" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13314" source="SCANLON" target="SPIVEY" weight="1" />
+      <edge id="13315" source="SCANLON" target="CANDY" weight="1" />
+      <edge id="13316" source="SCANLON" target="ROSE" weight="1" />
+      <edge id="13317" source="SCANLON" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13318" source="SCANLON" target="ATTENDANT" weight="1" />
+      <edge id="13319" source="HARDING" target="MCMURPHY" weight="13" />
+      <edge id="13320" source="HARDING" target="PATIENT" weight="1" />
+      <edge id="13321" source="HARDING" target="TABER" weight="6" />
+      <edge id="13322" source="HARDING" target="MARTINI" weight="9" />
+      <edge id="13323" source="HARDING" target="SCANLON" weight="8" />
+      <edge id="13324" source="HARDING" target="OLD VEGETABLE" weight="1" />
+      <edge id="13325" source="HARDING" target="BILLY" weight="8" />
+      <edge id="13326" source="HARDING" target="CHESWICK" weight="6" />
+      <edge id="13327" source="HARDING" target="BIG NURSE" weight="9" />
+      <edge id="13328" source="HARDING" target="BANCINI" weight="1" />
+      <edge id="13329" source="HARDING" target="SEFELT" weight="6" />
+      <edge id="13330" source="HARDING" target="FREDRICKSON" weight="8" />
+      <edge id="13331" source="HARDING" target="ACUTES" weight="1" />
+      <edge id="13332" source="HARDING" target="RUCKLY" weight="1" />
+      <edge id="13333" source="HARDING" target="WASHINGTON" weight="4" />
+      <edge id="13334" source="HARDING" target="NURSE PILBOW" weight="2" />
+      <edge id="13335" source="HARDING" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13336" source="HARDING" target="CHESWTCK" weight="1" />
+      <edge id="13337" source="HARDING" target="SPIVEY" weight="3" />
+      <edge id="13338" source="HARDING" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13339" source="HARDING" target="CANDY" weight="1" />
+      <edge id="13340" source="HARDING" target="ROSE" weight="1" />
+      <edge id="13341" source="HARDING" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13342" source="HARDING" target="ATTENDANT" weight="1" />
+      <edge id="13343" source="OLD VEGETABLE" target="MCMURPHY" weight="1" />
+      <edge id="13344" source="OLD VEGETABLE" target="PATIENT" weight="1" />
+      <edge id="13345" source="OLD VEGETABLE" target="TABER" weight="1" />
+      <edge id="13346" source="OLD VEGETABLE" target="MARTINI" weight="1" />
+      <edge id="13347" source="OLD VEGETABLE" target="SCANLON" weight="1" />
+      <edge id="13348" source="OLD VEGETABLE" target="HARDING" weight="1" />
+      <edge id="13349" source="OLD VEGETABLE" target="BILLY" weight="1" />
+      <edge id="13350" source="OLD VEGETABLE" target="CHESWICK" weight="1" />
+      <edge id="13351" source="OLD VEGETABLE" target="BIG NURSE" weight="1" />
+      <edge id="13352" source="BILLY" target="MCMURPHY" weight="18" />
+      <edge id="13353" source="BILLY" target="PATIENT" weight="1" />
+      <edge id="13354" source="BILLY" target="TABER" weight="9" />
+      <edge id="13355" source="BILLY" target="MARTINI" weight="10" />
+      <edge id="13356" source="BILLY" target="SCANLON" weight="10" />
+      <edge id="13357" source="BILLY" target="HARDING" weight="8" />
+      <edge id="13358" source="BILLY" target="OLD VEGETABLE" weight="1" />
+      <edge id="13359" source="BILLY" target="CHESWICK" weight="9" />
+      <edge id="13360" source="BILLY" target="BIG NURSE" weight="6" />
+      <edge id="13361" source="BILLY" target="BANCINI" weight="1" />
+      <edge id="13362" source="BILLY" target="SEFELT" weight="9" />
+      <edge id="13363" source="BILLY" target="FREDRICKSON" weight="9" />
+      <edge id="13364" source="BILLY" target="ACUTES" weight="3" />
+      <edge id="13365" source="BILLY" target="RUCKLY" weight="1" />
+      <edge id="13366" source="BILLY" target="WASHINGTON" weight="4" />
+      <edge id="13367" source="BILLY" target="NURSE PILBOW" weight="1" />
+      <edge id="13368" source="BILLY" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13369" source="BILLY" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13370" source="BILLY" target="PATIENTS" weight="1" />
+      <edge id="13371" source="BILLY" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13372" source="BILLY" target="VOICE" weight="1" />
+      <edge id="13373" source="BILLY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13374" source="BILLY" target="SPIVEY" weight="1" />
+      <edge id="13375" source="BILLY" target="CANDY" weight="3" />
+      <edge id="13376" source="BILLY" target="ROSE" weight="1" />
+      <edge id="13377" source="BILLY" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13378" source="BILLY" target="TURKLE" weight="1" />
+      <edge id="13379" source="BILLY" target="MILLER" weight="1" />
+      <edge id="13380" source="CHESWICK" target="MCMURPHY" weight="14" />
+      <edge id="13381" source="CHESWICK" target="PATIENT" weight="1" />
+      <edge id="13382" source="CHESWICK" target="TABER" weight="9" />
+      <edge id="13383" source="CHESWICK" target="MARTINI" weight="9" />
+      <edge id="13384" source="CHESWICK" target="SCANLON" weight="6" />
+      <edge id="13385" source="CHESWICK" target="HARDING" weight="6" />
+      <edge id="13386" source="CHESWICK" target="OLD VEGETABLE" weight="1" />
+      <edge id="13387" source="CHESWICK" target="BILLY" weight="9" />
+      <edge id="13388" source="CHESWICK" target="BIG NURSE" weight="4" />
+      <edge id="13389" source="CHESWICK" target="SEFELT" weight="7" />
+      <edge id="13390" source="CHESWICK" target="MISS PILBOW" weight="1" />
+      <edge id="13391" source="CHESWICK" target="WASHINGTON" weight="1" />
+      <edge id="13392" source="CHESWICK" target="CHESWTCK" weight="1" />
+      <edge id="13393" source="CHESWICK" target="SPIVEY" weight="1" />
+      <edge id="13394" source="CHESWICK" target="FREDRICKSON" weight="6" />
+      <edge id="13395" source="CHESWICK" target="ACUTES" weight="2" />
+      <edge id="13396" source="CHESWICK" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13397" source="CHESWICK" target="PATIENTS" weight="1" />
+      <edge id="13398" source="CHESWICK" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13399" source="BANCINI" target="BIG NURSE" weight="1" />
+      <edge id="13400" source="BANCINI" target="BILLY" weight="1" />
+      <edge id="13401" source="BANCINI" target="HARDING" weight="1" />
+      <edge id="13402" source="BANCINI" target="MCMURPHY" weight="1" />
+      <edge id="13403" source="BANCINI" target="MARTINI" weight="1" />
+      <edge id="13404" source="BANCINI" target="SEFELT" weight="1" />
+      <edge id="13405" source="BANCINI" target="TABER" weight="1" />
+      <edge id="13406" source="BANCINI" target="FREDRICKSON" weight="1" />
+      <edge id="13407" source="BANCINI" target="SCANLON" weight="1" />
+      <edge id="13408" source="BANCINI" target="ACUTES" weight="1" />
+      <edge id="13409" source="BANCINI" target="RUCKLY" weight="1" />
+      <edge id="13410" source="BANCINI" target="WASHINGTON" weight="1" />
+      <edge id="13411" source="BANCINI" target="NURSE PILBOW" weight="1" />
+      <edge id="13412" source="FREDRICKSON" target="BANCINI" weight="1" />
+      <edge id="13413" source="FREDRICKSON" target="BIG NURSE" weight="5" />
+      <edge id="13414" source="FREDRICKSON" target="BILLY" weight="9" />
+      <edge id="13415" source="FREDRICKSON" target="HARDING" weight="8" />
+      <edge id="13416" source="FREDRICKSON" target="MCMURPHY" weight="10" />
+      <edge id="13417" source="FREDRICKSON" target="MARTINI" weight="8" />
+      <edge id="13418" source="FREDRICKSON" target="SEFELT" weight="11" />
+      <edge id="13419" source="FREDRICKSON" target="TABER" weight="7" />
+      <edge id="13420" source="FREDRICKSON" target="SCANLON" weight="8" />
+      <edge id="13421" source="FREDRICKSON" target="ACUTES" weight="2" />
+      <edge id="13422" source="FREDRICKSON" target="RUCKLY" weight="1" />
+      <edge id="13423" source="FREDRICKSON" target="WASHINGTON" weight="2" />
+      <edge id="13424" source="FREDRICKSON" target="NURSE PILBOW" weight="1" />
+      <edge id="13425" source="FREDRICKSON" target="HARDING AND CHESWICK" weight="1" />
+      <edge id="13426" source="FREDRICKSON" target="CHESWICK" weight="6" />
+      <edge id="13427" source="FREDRICKSON" target="PATIENTS" weight="1" />
+      <edge id="13428" source="FREDRICKSON" target="SEVERAL ACUTES" weight="1" />
+      <edge id="13429" source="FREDRICKSON" target="VOICE" weight="1" />
+      <edge id="13430" source="FREDRICKSON" target="SPIVEY" weight="1" />
+      <edge id="13431" source="FREDRICKSON" target="ATTENDANT" weight="1" />
+      <edge id="13432" source="ACUTES" target="BANCINI" weight="1" />
+      <edge id="13433" source="ACUTES" target="BIG NURSE" weight="2" />
+      <edge id="13434" source="ACUTES" target="BILLY" weight="3" />
+      <edge id="13435" source="ACUTES" target="HARDING" weight="1" />
+      <edge id="13436" source="ACUTES" target="MCMURPHY" weight="3" />
+      <edge id="13437" source="ACUTES" target="MARTINI" weight="2" />
+      <edge id="13438" source="ACUTES" target="SEFELT" weight="3" />
+      <edge id="13439" source="ACUTES" target="TABER" weight="2" />
+      <edge id="13440" source="ACUTES" target="FREDRICKSON" weight="2" />
+      <edge id="13441" source="ACUTES" target="SCANLON" weight="2" />
+      <edge id="13442" source="ACUTES" target="RUCKLY" weight="1" />
+      <edge id="13443" source="ACUTES" target="WASHINGTON" weight="1" />
+      <edge id="13444" source="ACUTES" target="NURSE PILBOW" weight="1" />
+      <edge id="13445" source="ACUTES" target="CHESWICK" weight="2" />
+      <edge id="13446" source="ACUTES" target="BIG NURSE'S VOICE" weight="1" />
+      <edge id="13447" source="RUCKLY" target="BANCINI" weight="1" />
+      <edge id="13448" source="RUCKLY" target="BIG NURSE" weight="1" />
+      <edge id="13449" source="RUCKLY" target="BILLY" weight="1" />
+      <edge id="13450" source="RUCKLY" target="HARDING" weight="1" />
+      <edge id="13451" source="RUCKLY" target="MCMURPHY" weight="1" />
+      <edge id="13452" source="RUCKLY" target="MARTINI" weight="1" />
+      <edge id="13453" source="RUCKLY" target="SEFELT" weight="1" />
+      <edge id="13454" source="RUCKLY" target="TABER" weight="1" />
+      <edge id="13455" source="RUCKLY" target="FREDRICKSON" weight="1" />
+      <edge id="13456" source="RUCKLY" target="SCANLON" weight="1" />
+      <edge id="13457" source="RUCKLY" target="ACUTES" weight="1" />
+      <edge id="13458" source="RUCKLY" target="WASHINGTON" weight="1" />
+      <edge id="13459" source="RUCKLY" target="NURSE PILBOW" weight="1" />
+      <edge id="13460" source="HARDING AND CHESWICK" target="MARTINI" weight="1" />
+      <edge id="13461" source="HARDING AND CHESWICK" target="WASHINGTON" weight="1" />
+      <edge id="13462" source="HARDING AND CHESWICK" target="MCMURPHY" weight="1" />
+      <edge id="13463" source="HARDING AND CHESWICK" target="HARDING" weight="1" />
+      <edge id="13464" source="HARDING AND CHESWICK" target="BILLY" weight="1" />
+      <edge id="13465" source="HARDING AND CHESWICK" target="FREDRICKSON" weight="1" />
+      <edge id="13466" source="HARDING AND CHESWICK" target="SEFELT" weight="1" />
+      <edge id="13467" source="HARDING AND CHESWICK" target="SCANLON" weight="1" />
+      <edge id="13468" source="TURKLE" target="MCMURPHY" weight="3" />
+      <edge id="13469" source="TURKLE" target="CANDY AND ROSE" weight="1" />
+      <edge id="13470" source="TURKLE" target="CANDY" weight="1" />
+      <edge id="13471" source="TURKLE" target="ROSE" weight="1" />
+      <edge id="13472" source="TURKLE" target="NIGHT SUPERVISOR" weight="1" />
+      <edge id="13473" source="TURKLE" target="BILLY" weight="1" />
+      <edge id="13474" source="CHESWTCK" target="BIG NURSE" weight="1" />
+      <edge id="13475" source="CHESWTCK" target="CHESWICK" weight="1" />
+      <edge id="13476" source="CHESWTCK" target="MCMURPHY" weight="1" />
+      <edge id="13477" source="CHESWTCK" target="SPIVEY" weight="1" />
+      <edge id="13478" source="CHESWTCK" target="HARDING" weight="1" />
+      <edge id="13479" source="CHESWTCK" target="MARTINI" weight="1" />
+      <edge id="13480" source="BIG NURSE'S VOICE" target="BIG NURSE" weight="1" />
+      <edge id="13481" source="BIG NURSE'S VOICE" target="BILLY" weight="1" />
+      <edge id="13482" source="BIG NURSE'S VOICE" target="MCMURPHY" weight="1" />
+      <edge id="13483" source="BIG NURSE'S VOICE" target="CHESWICK" weight="1" />
+      <edge id="13484" source="BIG NURSE'S VOICE" target="MARTINI" weight="1" />
+      <edge id="13485" source="BIG NURSE'S VOICE" target="SCANLON" weight="1" />
+      <edge id="13486" source="BIG NURSE'S VOICE" target="SEFELT" weight="1" />
+      <edge id="13487" source="BIG NURSE'S VOICE" target="ACUTES" weight="1" />
+      <edge id="13488" source="PATIENTS" target="BILLY" weight="1" />
+      <edge id="13489" source="PATIENTS" target="TABER" weight="1" />
+      <edge id="13490" source="PATIENTS" target="MCMURPHY" weight="1" />
+      <edge id="13491" source="PATIENTS" target="FREDRICKSON" weight="1" />
+      <edge id="13492" source="PATIENTS" target="SEFELT" weight="1" />
+      <edge id="13493" source="PATIENTS" target="MARTINI" weight="1" />
+      <edge id="13494" source="PATIENTS" target="SCANLON" weight="1" />
+      <edge id="13495" source="PATIENTS" target="CHESWICK" weight="1" />
+      <edge id="13496" source="SEVERAL ACUTES" target="CHESWICK" weight="1" />
+      <edge id="13497" source="SEVERAL ACUTES" target="MCMURPHY" weight="1" />
+      <edge id="13498" source="SEVERAL ACUTES" target="SEFELT" weight="1" />
+      <edge id="13499" source="SEVERAL ACUTES" target="BILLY" weight="1" />
+      <edge id="13500" source="SEVERAL ACUTES" target="TABER" weight="1" />
+      <edge id="13501" source="SEVERAL ACUTES" target="FREDRICKSON" weight="1" />
+      <edge id="13502" source="VOICE" target="BILLY" weight="1" />
+      <edge id="13503" source="VOICE" target="MCMURPHY" weight="1" />
+      <edge id="13504" source="VOICE" target="SCANLON" weight="1" />
+      <edge id="13505" source="VOICE" target="MARTINI" weight="1" />
+      <edge id="13506" source="VOICE" target="SEFELT" weight="1" />
+      <edge id="13507" source="VOICE" target="FREDRICKSON" weight="1" />
+      <edge id="13508" source="AIDE" target="BROMDEN" weight="1" />
+      <edge id="13509" source="AIDE" target="MCMURPHY" weight="1" />
+      <edge id="13510" source="AIDE" target="NURSE ITSU" weight="1" />
+      <edge id="13511" source="BROMDEN" target="AIDE" weight="1" />
+      <edge id="13512" source="BROMDEN" target="MCMURPHY" weight="1" />
+      <edge id="13513" source="BROMDEN" target="NURSE ITSU" weight="1" />
+      <edge id="13514" source="DOCTOR" target="MCMURPHY" weight="1" />
+      <edge id="13515" source="DOCTOR" target="NURSE" weight="1" />
+      <edge id="13516" source="NURSE" target="MCMURPHY" weight="1" />
+      <edge id="13517" source="NURSE" target="DOCTOR" weight="1" />
+      <edge id="13518" source="PHOTOGRAPHER" target="MCMURPHY" weight="1" />
+      <edge id="13519" source="PHOTOGRAPHER" target="BIG NURSE" weight="1" />
+      <edge id="13520" source="PHOTOGRAPHER" target="WASHINGTON" weight="1" />
+      <edge id="13521" source="PHOTOGRAPHER" target="SPIVEY" weight="1" />
+      <edge id="13522" source="PHOTOGRAPHER" target="HARDING" weight="1" />
+      <edge id="13523" source="PHOTOGRAPHER" target="CANDY" weight="1" />
+      <edge id="13524" source="PHOTOGRAPHER" target="ROSE" weight="1" />
+      <edge id="13525" source="PHOTOGRAPHER" target="MARTINI" weight="1" />
+      <edge id="13526" source="PHOTOGRAPHER" target="SCANLON" weight="1" />
+      <edge id="13527" source="PHOTOGRAPHER" target="BILLY" weight="1" />
+      <edge id="13528" source="PHOTOGRAPHER" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13529" source="CANDY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13530" source="CANDY" target="MCMURPHY" weight="4" />
+      <edge id="13531" source="CANDY" target="BIG NURSE" weight="1" />
+      <edge id="13532" source="CANDY" target="WASHINGTON" weight="2" />
+      <edge id="13533" source="CANDY" target="SPIVEY" weight="1" />
+      <edge id="13534" source="CANDY" target="HARDING" weight="1" />
+      <edge id="13535" source="CANDY" target="ROSE" weight="2" />
+      <edge id="13536" source="CANDY" target="MARTINI" weight="1" />
+      <edge id="13537" source="CANDY" target="SCANLON" weight="1" />
+      <edge id="13538" source="CANDY" target="BILLY" weight="3" />
+      <edge id="13539" source="CANDY" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13540" source="CANDY" target="TURKLE" weight="1" />
+      <edge id="13541" source="CANDY" target="CANDY AND ROSE" weight="1" />
+      <edge id="13542" source="ROSE" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13543" source="ROSE" target="MCMURPHY" weight="2" />
+      <edge id="13544" source="ROSE" target="BIG NURSE" weight="1" />
+      <edge id="13545" source="ROSE" target="WASHINGTON" weight="1" />
+      <edge id="13546" source="ROSE" target="SPIVEY" weight="1" />
+      <edge id="13547" source="ROSE" target="HARDING" weight="1" />
+      <edge id="13548" source="ROSE" target="CANDY" weight="2" />
+      <edge id="13549" source="ROSE" target="MARTINI" weight="1" />
+      <edge id="13550" source="ROSE" target="SCANLON" weight="1" />
+      <edge id="13551" source="ROSE" target="BILLY" weight="1" />
+      <edge id="13552" source="ROSE" target="MARTINI AND SCANLON" weight="1" />
+      <edge id="13553" source="ROSE" target="TURKLE" weight="1" />
+      <edge id="13554" source="ROSE" target="CANDY AND ROSE" weight="1" />
+      <edge id="13555" source="MARTINI AND SCANLON" target="PHOTOGRAPHER" weight="1" />
+      <edge id="13556" source="MARTINI AND SCANLON" target="MCMURPHY" weight="1" />
+      <edge id="13557" source="MARTINI AND SCANLON" target="BIG NURSE" weight="1" />
+      <edge id="13558" source="MARTINI AND SCANLON" target="WASHINGTON" weight="1" />
+      <edge id="13559" source="MARTINI AND SCANLON" target="SPIVEY" weight="1" />
+      <edge id="13560" source="MARTINI AND SCANLON" target="HARDING" weight="1" />
+      <edge id="13561" source="MARTINI AND SCANLON" target="CANDY" weight="1" />
+      <edge id="13562" source="MARTINI AND SCANLON" target="ROSE" weight="1" />
+      <edge id="13563" source="MARTINI AND SCANLON" target="MARTINI" weight="1" />
+      <edge id="13564" source="MARTINI AND SCANLON" target="SCANLON" weight="1" />
+      <edge id="13565" source="MARTINI AND SCANLON" target="BILLY" weight="1" />
+      <edge id="13566" source="CANDY AND ROSE" target="TURKLE" weight="1" />
+      <edge id="13567" source="CANDY AND ROSE" target="MCMURPHY" weight="1" />
+      <edge id="13568" source="CANDY AND ROSE" target="CANDY" weight="1" />
+      <edge id="13569" source="CANDY AND ROSE" target="ROSE" weight="1" />
+      <edge id="13570" source="NIGHT SUPERVISOR" target="TURKLE" weight="1" />
+      <edge id="13571" source="ATTENDANT" target="BIG NURSE" weight="1" />
+      <edge id="13572" source="ATTENDANT" target="FREDRICKSON" weight="1" />
+      <edge id="13573" source="ATTENDANT" target="HARDING" weight="1" />
+      <edge id="13574" source="ATTENDANT" target="SCANLON" weight="1" />
+    </edges>
+  </graph>
+</gexf>

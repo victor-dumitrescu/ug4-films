@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="CLARICE" label="CLARICE" />
+      <node id="BRIGHAM" label="BRIGHAM" />
+      <node id="ARDELIA" label="ARDELIA" />
+      <node id="CRAWFORD" label="CRAWFORD" />
+      <node id="CHILTON" label="CHILTON" />
+      <node id="BARNEY" label="BARNEY" />
+      <node id="DARK FIGURE" label="DARK FIGURE" />
+      <node id="DR. LECTER" label="DR. LECTER" />
+      <node id="MIGGS" label="MIGGS" />
+      <node id="MR. YOW" label="MR. YOW" />
+      <node id="CATHERINE" label="CATHERINE" />
+      <node id="CODY" label="CODY" />
+      <node id="MAN" label="MAN" />
+      <node id="INSTRUCTOR" label="INSTRUCTOR" />
+      <node id="SHERIFF" label="SHERIFF" />
+      <node id="DR. AKIN" label="DR. AKIN" />
+      <node id="LAMAR" label="LAMAR" />
+      <node id="MR. GUMB" label="MR. GUMB" />
+      <node id="TV ANCHOR" label="TV ANCHOR" />
+      <node id="SEN. MARTIN" label="SEN. MARTIN" />
+      <node id="2ND TV ANCHOR" label="2ND TV ANCHOR" />
+      <node id="RODEN" label="RODEN" />
+      <node id="PILCHER" label="PILCHER" />
+      <node id="DR. DANIELSON" label="DR. DANIELSON" />
+      <node id="BURROUGHS" label="BURROUGHS" />
+      <node id="DIRECTOR BURKE" label="DIRECTOR BURKE" />
+      <node id="BOYLE" label="BOYLE" />
+      <node id="PEMBRY" label="PEMBRY" />
+      <node id="KRENDLER" label="KRENDLER" />
+      <node id="SGT. TATE" label="SGT. TATE" />
+      <node id="MURRAY" label="MURRAY" />
+      <node id="FOREMAN" label="FOREMAN" />
+      <node id="A COP" label="A COP" />
+      <node id="JACOBS" label="JACOBS" />
+      <node id="ORDERLY" label="ORDERLY" />
+      <node id="PETERSON" label="PETERSON" />
+      <node id="RADIO VOICE" label="RADIO VOICE" />
+      <node id="SWAT COMMANDER" label="SWAT COMMANDER" />
+      <node id="PETERSON'S VOICE" label="PETERSON'S VOICE" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="BURKE" label="BURKE" />
+      <node id="MR. BIMMEL" label="MR. BIMMEL" />
+      <node id="STACY" label="STACY" />
+    </nodes>
+    <edges>
+      <edge id="23689" source="CLARICE" target="BRIGHAM" weight="3" />
+      <edge id="23690" source="CLARICE" target="ARDELIA" weight="6" />
+      <edge id="23691" source="CLARICE" target="CRAWFORD" weight="14" />
+      <edge id="23692" source="CLARICE" target="CHILTON" weight="6" />
+      <edge id="23693" source="CLARICE" target="BARNEY" weight="1" />
+      <edge id="23694" source="CLARICE" target="DARK FIGURE" weight="1" />
+      <edge id="23695" source="CLARICE" target="DR. LECTER" weight="8" />
+      <edge id="23696" source="CLARICE" target="MIGGS" weight="1" />
+      <edge id="23697" source="CLARICE" target="MR. YOW" weight="3" />
+      <edge id="23698" source="CLARICE" target="DR. AKIN" weight="1" />
+      <edge id="23699" source="CLARICE" target="LAMAR" weight="2" />
+      <edge id="23700" source="CLARICE" target="TV ANCHOR" weight="1" />
+      <edge id="23701" source="CLARICE" target="SEN. MARTIN" weight="2" />
+      <edge id="23702" source="CLARICE" target="2ND TV ANCHOR" weight="1" />
+      <edge id="23703" source="CLARICE" target="RODEN" weight="4" />
+      <edge id="23704" source="CLARICE" target="PILCHER" weight="4" />
+      <edge id="23705" source="CLARICE" target="KRENDLER" weight="2" />
+      <edge id="23706" source="CLARICE" target="SGT. TATE" weight="1" />
+      <edge id="23707" source="CLARICE" target="MURRAY" weight="2" />
+      <edge id="23708" source="CLARICE" target="PEMBRY" weight="1" />
+      <edge id="23709" source="CLARICE" target="BURKE" weight="1" />
+      <edge id="23710" source="CLARICE" target="BURROUGHS" weight="1" />
+      <edge id="23711" source="CLARICE" target="MR. BIMMEL" weight="1" />
+      <edge id="23712" source="CLARICE" target="STACY" weight="1" />
+      <edge id="23713" source="CLARICE" target="MR. GUMB" weight="5" />
+      <edge id="23714" source="CLARICE" target="CATHERINE" weight="1" />
+      <edge id="23715" source="BRIGHAM" target="CLARICE" weight="3" />
+      <edge id="23716" source="BRIGHAM" target="ARDELIA" weight="1" />
+      <edge id="23717" source="BRIGHAM" target="INSTRUCTOR" weight="1" />
+      <edge id="23718" source="ARDELIA" target="CLARICE" weight="6" />
+      <edge id="23719" source="ARDELIA" target="BRIGHAM" weight="1" />
+      <edge id="23720" source="ARDELIA" target="TV ANCHOR" weight="1" />
+      <edge id="23721" source="ARDELIA" target="SEN. MARTIN" weight="1" />
+      <edge id="23722" source="ARDELIA" target="2ND TV ANCHOR" weight="1" />
+      <edge id="23723" source="ARDELIA" target="DR. LECTER" weight="1" />
+      <edge id="23724" source="ARDELIA" target="RODEN" weight="1" />
+      <edge id="23725" source="ARDELIA" target="PILCHER" weight="1" />
+      <edge id="23726" source="CRAWFORD" target="CLARICE" weight="14" />
+      <edge id="23727" source="CRAWFORD" target="CHILTON" weight="3" />
+      <edge id="23728" source="CRAWFORD" target="SHERIFF" weight="1" />
+      <edge id="23729" source="CRAWFORD" target="DR. AKIN" weight="1" />
+      <edge id="23730" source="CRAWFORD" target="LAMAR" weight="2" />
+      <edge id="23731" source="CRAWFORD" target="DR. DANIELSON" weight="1" />
+      <edge id="23732" source="CRAWFORD" target="BURROUGHS" weight="2" />
+      <edge id="23733" source="CRAWFORD" target="BOYLE" weight="1" />
+      <edge id="23734" source="CRAWFORD" target="PEMBRY" weight="1" />
+      <edge id="23735" source="CRAWFORD" target="DR. LECTER" weight="1" />
+      <edge id="23736" source="CRAWFORD" target="SEN. MARTIN" weight="1" />
+      <edge id="23737" source="CRAWFORD" target="KRENDLER" weight="2" />
+      <edge id="23738" source="CRAWFORD" target="BURKE" weight="1" />
+      <edge id="23739" source="CRAWFORD" target="DIRECTOR BURKE" weight="1" />
+      <edge id="23740" source="CHILTON" target="CRAWFORD" weight="3" />
+      <edge id="23741" source="CHILTON" target="CLARICE" weight="6" />
+      <edge id="23742" source="CHILTON" target="BARNEY" weight="1" />
+      <edge id="23743" source="CHILTON" target="DR. LECTER" weight="3" />
+      <edge id="23744" source="CHILTON" target="BOYLE" weight="1" />
+      <edge id="23745" source="CHILTON" target="PEMBRY" weight="2" />
+      <edge id="23746" source="CHILTON" target="SEN. MARTIN" weight="1" />
+      <edge id="23747" source="CHILTON" target="KRENDLER" weight="1" />
+      <edge id="23748" source="BARNEY" target="CHILTON" weight="1" />
+      <edge id="23749" source="BARNEY" target="CLARICE" weight="1" />
+      <edge id="23750" source="DARK FIGURE" target="CLARICE" weight="1" />
+      <edge id="23751" source="DARK FIGURE" target="DR. LECTER" weight="1" />
+      <edge id="23752" source="DARK FIGURE" target="MIGGS" weight="1" />
+      <edge id="23753" source="DR. LECTER" target="DARK FIGURE" weight="1" />
+      <edge id="23754" source="DR. LECTER" target="CLARICE" weight="8" />
+      <edge id="23755" source="DR. LECTER" target="MIGGS" weight="1" />
+      <edge id="23756" source="DR. LECTER" target="CATHERINE" weight="1" />
+      <edge id="23757" source="DR. LECTER" target="CHILTON" weight="3" />
+      <edge id="23758" source="DR. LECTER" target="CRAWFORD" weight="1" />
+      <edge id="23759" source="DR. LECTER" target="BOYLE" weight="2" />
+      <edge id="23760" source="DR. LECTER" target="PEMBRY" weight="3" />
+      <edge id="23761" source="DR. LECTER" target="SEN. MARTIN" weight="1" />
+      <edge id="23762" source="DR. LECTER" target="KRENDLER" weight="1" />
+      <edge id="23763" source="DR. LECTER" target="ARDELIA" weight="1" />
+      <edge id="23764" source="MIGGS" target="DARK FIGURE" weight="1" />
+      <edge id="23765" source="MIGGS" target="CLARICE" weight="1" />
+      <edge id="23766" source="MIGGS" target="DR. LECTER" weight="1" />
+      <edge id="23767" source="MR. YOW" target="CLARICE" weight="3" />
+      <edge id="23768" source="CATHERINE" target="CODY" weight="1" />
+      <edge id="23769" source="CATHERINE" target="MAN" weight="2" />
+      <edge id="23770" source="CATHERINE" target="MR. GUMB" weight="2" />
+      <edge id="23771" source="CATHERINE" target="DR. LECTER" weight="1" />
+      <edge id="23772" source="CATHERINE" target="CLARICE" weight="1" />
+      <edge id="23773" source="CODY" target="CATHERINE" weight="1" />
+      <edge id="23774" source="MAN" target="CATHERINE" weight="2" />
+      <edge id="23775" source="INSTRUCTOR" target="BRIGHAM" weight="1" />
+      <edge id="23776" source="SHERIFF" target="CRAWFORD" weight="1" />
+      <edge id="23777" source="DR. AKIN" target="CRAWFORD" weight="1" />
+      <edge id="23778" source="DR. AKIN" target="CLARICE" weight="1" />
+      <edge id="23779" source="DR. AKIN" target="LAMAR" weight="1" />
+      <edge id="23780" source="LAMAR" target="CRAWFORD" weight="2" />
+      <edge id="23781" source="LAMAR" target="CLARICE" weight="2" />
+      <edge id="23782" source="LAMAR" target="DR. AKIN" weight="1" />
+      <edge id="23783" source="MR. GUMB" target="CATHERINE" weight="2" />
+      <edge id="23784" source="MR. GUMB" target="FOREMAN" weight="1" />
+      <edge id="23785" source="MR. GUMB" target="CLARICE" weight="5" />
+      <edge id="23786" source="TV ANCHOR" target="SEN. MARTIN" weight="1" />
+      <edge id="23787" source="TV ANCHOR" target="CLARICE" weight="1" />
+      <edge id="23788" source="TV ANCHOR" target="ARDELIA" weight="1" />
+      <edge id="23789" source="TV ANCHOR" target="2ND TV ANCHOR" weight="1" />
+      <edge id="23790" source="SEN. MARTIN" target="TV ANCHOR" weight="1" />
+      <edge id="23791" source="SEN. MARTIN" target="CLARICE" weight="2" />
+      <edge id="23792" source="SEN. MARTIN" target="ARDELIA" weight="1" />
+      <edge id="23793" source="SEN. MARTIN" target="2ND TV ANCHOR" weight="1" />
+      <edge id="23794" source="SEN. MARTIN" target="CRAWFORD" weight="1" />
+      <edge id="23795" source="SEN. MARTIN" target="BOYLE" weight="1" />
+      <edge id="23796" source="SEN. MARTIN" target="PEMBRY" weight="1" />
+      <edge id="23797" source="SEN. MARTIN" target="DR. LECTER" weight="1" />
+      <edge id="23798" source="SEN. MARTIN" target="CHILTON" weight="1" />
+      <edge id="23799" source="SEN. MARTIN" target="KRENDLER" weight="2" />
+      <edge id="23800" source="2ND TV ANCHOR" target="TV ANCHOR" weight="1" />
+      <edge id="23801" source="2ND TV ANCHOR" target="SEN. MARTIN" weight="1" />
+      <edge id="23802" source="2ND TV ANCHOR" target="CLARICE" weight="1" />
+      <edge id="23803" source="2ND TV ANCHOR" target="ARDELIA" weight="1" />
+      <edge id="23804" source="RODEN" target="PILCHER" weight="4" />
+      <edge id="23805" source="RODEN" target="CLARICE" weight="4" />
+      <edge id="23806" source="RODEN" target="ARDELIA" weight="1" />
+      <edge id="23807" source="PILCHER" target="RODEN" weight="4" />
+      <edge id="23808" source="PILCHER" target="CLARICE" weight="4" />
+      <edge id="23809" source="PILCHER" target="ARDELIA" weight="1" />
+      <edge id="23810" source="DR. DANIELSON" target="CRAWFORD" weight="1" />
+      <edge id="23811" source="DR. DANIELSON" target="BURROUGHS" weight="1" />
+      <edge id="23812" source="BURROUGHS" target="DR. DANIELSON" weight="1" />
+      <edge id="23813" source="BURROUGHS" target="CRAWFORD" weight="2" />
+      <edge id="23814" source="BURROUGHS" target="CLARICE" weight="1" />
+      <edge id="23815" source="DIRECTOR BURKE" target="CRAWFORD" weight="1" />
+      <edge id="23816" source="BOYLE" target="CRAWFORD" weight="1" />
+      <edge id="23817" source="BOYLE" target="PEMBRY" weight="2" />
+      <edge id="23818" source="BOYLE" target="DR. LECTER" weight="2" />
+      <edge id="23819" source="BOYLE" target="CHILTON" weight="1" />
+      <edge id="23820" source="BOYLE" target="SEN. MARTIN" weight="1" />
+      <edge id="23821" source="BOYLE" target="KRENDLER" weight="1" />
+      <edge id="23822" source="PEMBRY" target="CRAWFORD" weight="1" />
+      <edge id="23823" source="PEMBRY" target="BOYLE" weight="2" />
+      <edge id="23824" source="PEMBRY" target="DR. LECTER" weight="3" />
+      <edge id="23825" source="PEMBRY" target="CHILTON" weight="2" />
+      <edge id="23826" source="PEMBRY" target="SEN. MARTIN" weight="1" />
+      <edge id="23827" source="PEMBRY" target="KRENDLER" weight="1" />
+      <edge id="23828" source="PEMBRY" target="CLARICE" weight="1" />
+      <edge id="23829" source="KRENDLER" target="CRAWFORD" weight="2" />
+      <edge id="23830" source="KRENDLER" target="BOYLE" weight="1" />
+      <edge id="23831" source="KRENDLER" target="PEMBRY" weight="1" />
+      <edge id="23832" source="KRENDLER" target="DR. LECTER" weight="1" />
+      <edge id="23833" source="KRENDLER" target="CHILTON" weight="1" />
+      <edge id="23834" source="KRENDLER" target="SEN. MARTIN" weight="2" />
+      <edge id="23835" source="KRENDLER" target="CLARICE" weight="2" />
+      <edge id="23836" source="KRENDLER" target="BURKE" weight="1" />
+      <edge id="23837" source="SGT. TATE" target="CLARICE" weight="1" />
+      <edge id="23838" source="SGT. TATE" target="MURRAY" weight="2" />
+      <edge id="23839" source="SGT. TATE" target="A COP" weight="1" />
+      <edge id="23840" source="SGT. TATE" target="JACOBS" weight="1" />
+      <edge id="23841" source="SGT. TATE" target="SWAT COMMANDER" weight="1" />
+      <edge id="23842" source="SGT. TATE" target="PETERSON'S VOICE" weight="1" />
+      <edge id="23843" source="MURRAY" target="SGT. TATE" weight="2" />
+      <edge id="23844" source="MURRAY" target="CLARICE" weight="2" />
+      <edge id="23845" source="MURRAY" target="JACOBS" weight="1" />
+      <edge id="23846" source="MURRAY" target="ORDERLY" weight="1" />
+      <edge id="23847" source="FOREMAN" target="MR. GUMB" weight="1" />
+      <edge id="23848" source="A COP" target="SGT. TATE" weight="1" />
+      <edge id="23849" source="JACOBS" target="SGT. TATE" weight="1" />
+      <edge id="23850" source="JACOBS" target="MURRAY" weight="1" />
+      <edge id="23851" source="ORDERLY" target="MURRAY" weight="1" />
+      <edge id="23852" source="PETERSON" target="RADIO VOICE" weight="1" />
+      <edge id="23853" source="RADIO VOICE" target="PETERSON" weight="1" />
+      <edge id="23854" source="SWAT COMMANDER" target="PETERSON'S VOICE" weight="1" />
+      <edge id="23855" source="SWAT COMMANDER" target="SGT. TATE" weight="1" />
+      <edge id="23856" source="PETERSON'S VOICE" target="SWAT COMMANDER" weight="1" />
+      <edge id="23857" source="PETERSON'S VOICE" target="SGT. TATE" weight="1" />
+      <edge id="23858" source="BURKE" target="CLARICE" weight="1" />
+      <edge id="23859" source="BURKE" target="KRENDLER" weight="1" />
+      <edge id="23860" source="BURKE" target="CRAWFORD" weight="1" />
+      <edge id="23861" source="MR. BIMMEL" target="CLARICE" weight="1" />
+      <edge id="23862" source="STACY" target="CLARICE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

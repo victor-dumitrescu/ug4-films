@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="NARRATOR" label="NARRATOR" />
+      <node id="P.A. SYSTEM" label="P.A. SYSTEM" />
+      <node id="GATE GUARD" label="GATE GUARD" />
+      <node id="FERGIE" label="FERGIE" />
+      <node id="VIDEO POSTER" label="VIDEO POSTER" />
+      <node id="FIRST RESIDENT" label="FIRST RESIDENT" />
+      <node id="SECOND RESIDENT" label="SECOND RESIDENT" />
+      <node id="ZED" label="ZED" />
+      <node id="VOICES" label="VOICES" />
+      <node id="ROBOT FOOD CART" label="ROBOT FOOD CART" />
+      <node id="3RD SQUATTER" label="3RD SQUATTER" />
+      <node id="REGGIE" label="REGGIE" />
+      <node id="HERSHEY" label="HERSHEY" />
+      <node id="BRISCO" label="BRISCO" />
+      <node id="TWIST" label="TWIST" />
+      <node id="DREDD" label="DREDD" />
+      <node id="FOOD ROBOT" label="FOOD ROBOT" />
+      <node id="FAVORING DREDD" label="FAVORING DREDD" />
+      <node id="VOICE" label="VOICE" />
+      <node id="GRIFFIN" label="GRIFFIN" />
+      <node id="MCGRUDER" label="MCGRUDER" />
+      <node id="YAMAMOTO" label="YAMAMOTO" />
+      <node id="ESPOSITO" label="ESPOSITO" />
+      <node id="FARGO" label="FARGO" />
+      <node id="JUDGE GRIFFIN" label="JUDGE GRIFFIN" />
+      <node id="HAMMOND" label="HAMMOND" />
+      <node id="MILLER" label="MILLER" />
+      <node id="COMPUTER VOICE" label="COMPUTER VOICE" />
+      <node id="RICO'S VOICE" label="RICO'S VOICE" />
+      <node id="RICO" label="RICO" />
+      <node id="DREDD'S VOICE" label="DREDD'S VOICE" />
+      <node id="OLMEYER" label="OLMEYER" />
+      <node id="GEIGER" label="GEIGER" />
+      <node id="ROBOT" label="ROBOT" />
+      <node id="LILY" label="LILY" />
+      <node id="CAR OWNER" label="CAR OWNER" />
+      <node id="JUDGE HUNTER LEADER" label="JUDGE HUNTER LEADER" />
+      <node id="JUDGE HUNTER" label="JUDGE HUNTER" />
+      <node id="JUDGE MCGRUDER'S VOICE" label="JUDGE MCGRUDER'S VOICE" />
+      <node id="CLERK" label="CLERK" />
+      <node id="LILY'S VOICE" label="LILY'S VOICE" />
+      <node id="HAMMOND'S VOICE" label="HAMMOND'S VOICE" />
+      <node id="BAILIFFS" label="BAILIFFS" />
+      <node id="CENTRAL" label="CENTRAL" />
+      <node id="CENTRALS VOICE" label="CENTRALS VOICE" />
+      <node id="GRIFFIN'S VOICE" label="GRIFFIN'S VOICE" />
+      <node id="FEMALE CADET" label="FEMALE CADET" />
+      <node id="PILOT'S VOICE" label="PILOT'S VOICE" />
+      <node id="PRISONER BEHIND HIM" label="PRISONER BEHIND HIM" />
+      <node id="REVEREND ANGEL" label="REVEREND ANGEL" />
+      <node id="ANGEL SONS" label="ANGEL SONS" />
+      <node id="GUARD" label="GUARD" />
+      <node id="PILOT" label="PILOT" />
+      <node id="ASPEN GUARD" label="ASPEN GUARD" />
+      <node id="PILOT ON P.A." label="PILOT ON P.A." />
+      <node id="CONVICTS" label="CONVICTS" />
+      <node id="ILSA" label="ILSA" />
+      <node id="SECOND HUNTER" label="SECOND HUNTER" />
+      <node id="HUNTER SQUAD LEADER" label="HUNTER SQUAD LEADER" />
+      <node id="SQUAD LEADER'S VOICE" label="SQUAD LEADER'S VOICE" />
+      <node id="ANOTHER HUNTER" label="ANOTHER HUNTER" />
+      <node id="WOUNDED GUARD" label="WOUNDED GUARD" />
+      <node id="A CANNED VOICE" label="A CANNED VOICE" />
+      <node id="ILSA'S VOICE" label="ILSA'S VOICE" />
+      <node id="SHUTTLE RECORDING" label="SHUTTLE RECORDING" />
+      <node id="ASPEN VOICE" label="ASPEN VOICE" />
+      <node id="THIRD JUDGE HUNTER" label="THIRD JUDGE HUNTER" />
+      <node id="DISPATCHER'S VOICE" label="DISPATCHER'S VOICE" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="JUDGE SERGEANT" label="JUDGE SERGEANT" />
+      <node id="FERGIE'S VOICE" label="FERGIE'S VOICE" />
+      <node id="DISPATCH VOICE" label="DISPATCH VOICE" />
+      <node id="CENTRAL'S VOICE" label="CENTRAL'S VOICE" />
+      <node id="JUDGE MCGRUDER" label="JUDGE MCGRUDER" />
+      <node id="JUDGE ESPOSITO" label="JUDGE ESPOSITO" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="NIGHT WATCHMAN" label="NIGHT WATCHMAN" />
+      <node id="COMPUTER" label="COMPUTER" />
+      <node id="GUN VOICE" label="GUN VOICE" />
+      <node id="OLMEYER'S VOICE" label="OLMEYER'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="9979" source="GATE GUARD" target="FERGIE" weight="1" />
+      <edge id="9980" source="FERGIE" target="GATE GUARD" weight="1" />
+      <edge id="9981" source="FERGIE" target="VOICES" weight="1" />
+      <edge id="9982" source="FERGIE" target="ROBOT FOOD CART" weight="1" />
+      <edge id="9983" source="FERGIE" target="ZED" weight="1" />
+      <edge id="9984" source="FERGIE" target="3RD SQUATTER" weight="1" />
+      <edge id="9985" source="FERGIE" target="REGGIE" weight="1" />
+      <edge id="9986" source="FERGIE" target="HERSHEY" weight="8" />
+      <edge id="9987" source="FERGIE" target="DREDD" weight="19" />
+      <edge id="9988" source="FERGIE" target="FOOD ROBOT" weight="1" />
+      <edge id="9989" source="FERGIE" target="PILOT'S VOICE" weight="2" />
+      <edge id="9990" source="FERGIE" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="9991" source="FERGIE" target="VOICE" weight="1" />
+      <edge id="9992" source="FERGIE" target="REVEREND ANGEL" weight="2" />
+      <edge id="9993" source="FERGIE" target="ANGEL SONS" weight="1" />
+      <edge id="9994" source="FERGIE" target="GUARD" weight="1" />
+      <edge id="9995" source="FERGIE" target="PILOT ON P.A." weight="1" />
+      <edge id="9996" source="FERGIE" target="CONVICTS" weight="1" />
+      <edge id="9997" source="FERGIE" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="9998" source="FERGIE" target="ASPEN VOICE" weight="1" />
+      <edge id="9999" source="FERGIE" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10000" source="FERGIE" target="DREDD'S VOICE" weight="2" />
+      <edge id="10001" source="FERGIE" target="CENTRAL" weight="3" />
+      <edge id="10002" source="FERGIE" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10003" source="FERGIE" target="OLMEYER" weight="1" />
+      <edge id="10004" source="FERGIE" target="JUDGE HUNTER" weight="1" />
+      <edge id="10005" source="FERGIE" target="RICO" weight="2" />
+      <edge id="10006" source="FERGIE" target="ILSA" weight="1" />
+      <edge id="10007" source="FERGIE" target="GUN VOICE" weight="1" />
+      <edge id="10008" source="VIDEO POSTER" target="FIRST RESIDENT" weight="1" />
+      <edge id="10009" source="VIDEO POSTER" target="SECOND RESIDENT" weight="1" />
+      <edge id="10010" source="FIRST RESIDENT" target="VIDEO POSTER" weight="1" />
+      <edge id="10011" source="FIRST RESIDENT" target="SECOND RESIDENT" weight="1" />
+      <edge id="10012" source="SECOND RESIDENT" target="VIDEO POSTER" weight="1" />
+      <edge id="10013" source="SECOND RESIDENT" target="FIRST RESIDENT" weight="1" />
+      <edge id="10014" source="ZED" target="FERGIE" weight="1" />
+      <edge id="10015" source="ZED" target="3RD SQUATTER" weight="1" />
+      <edge id="10016" source="ZED" target="REGGIE" weight="2" />
+      <edge id="10017" source="ZED" target="TWIST" weight="2" />
+      <edge id="10018" source="ZED" target="DREDD" weight="1" />
+      <edge id="10019" source="ZED" target="BRISCO" weight="1" />
+      <edge id="10020" source="ZED" target="HERSHEY" weight="1" />
+      <edge id="10021" source="ZED" target="FAVORING DREDD" weight="1" />
+      <edge id="10022" source="VOICES" target="FERGIE" weight="1" />
+      <edge id="10023" source="VOICES" target="ROBOT FOOD CART" weight="1" />
+      <edge id="10024" source="ROBOT FOOD CART" target="FERGIE" weight="1" />
+      <edge id="10025" source="ROBOT FOOD CART" target="VOICES" weight="1" />
+      <edge id="10026" source="3RD SQUATTER" target="ZED" weight="1" />
+      <edge id="10027" source="3RD SQUATTER" target="FERGIE" weight="1" />
+      <edge id="10028" source="3RD SQUATTER" target="REGGIE" weight="1" />
+      <edge id="10029" source="REGGIE" target="ZED" weight="2" />
+      <edge id="10030" source="REGGIE" target="FERGIE" weight="1" />
+      <edge id="10031" source="REGGIE" target="3RD SQUATTER" weight="1" />
+      <edge id="10032" source="REGGIE" target="TWIST" weight="1" />
+      <edge id="10033" source="HERSHEY" target="BRISCO" weight="3" />
+      <edge id="10034" source="HERSHEY" target="DREDD" weight="15" />
+      <edge id="10035" source="HERSHEY" target="TWIST" weight="1" />
+      <edge id="10036" source="HERSHEY" target="ZED" weight="1" />
+      <edge id="10037" source="HERSHEY" target="FAVORING DREDD" weight="1" />
+      <edge id="10038" source="HERSHEY" target="FOOD ROBOT" weight="1" />
+      <edge id="10039" source="HERSHEY" target="FERGIE" weight="8" />
+      <edge id="10040" source="HERSHEY" target="OLMEYER" weight="5" />
+      <edge id="10041" source="HERSHEY" target="MCGRUDER" weight="1" />
+      <edge id="10042" source="HERSHEY" target="GRIFFIN" weight="1" />
+      <edge id="10043" source="HERSHEY" target="CLERK" weight="1" />
+      <edge id="10044" source="HERSHEY" target="LILY'S VOICE" weight="1" />
+      <edge id="10045" source="HERSHEY" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10046" source="HERSHEY" target="BAILIFFS" weight="1" />
+      <edge id="10047" source="HERSHEY" target="CENTRAL" weight="6" />
+      <edge id="10048" source="HERSHEY" target="CENTRALS VOICE" weight="1" />
+      <edge id="10049" source="HERSHEY" target="ESPOSITO" weight="1" />
+      <edge id="10050" source="HERSHEY" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10051" source="HERSHEY" target="COMPUTER VOICE" weight="1" />
+      <edge id="10052" source="HERSHEY" target="A CANNED VOICE" weight="1" />
+      <edge id="10053" source="HERSHEY" target="DISPATCH VOICE" weight="1" />
+      <edge id="10054" source="HERSHEY" target="CENTRAL'S VOICE" weight="1" />
+      <edge id="10055" source="HERSHEY" target="DREDD'S VOICE" weight="2" />
+      <edge id="10056" source="HERSHEY" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10057" source="HERSHEY" target="JUDGE HUNTER" weight="1" />
+      <edge id="10058" source="HERSHEY" target="RICO" weight="2" />
+      <edge id="10059" source="HERSHEY" target="ILSA" weight="1" />
+      <edge id="10060" source="HERSHEY" target="GUN VOICE" weight="1" />
+      <edge id="10061" source="HERSHEY" target="OLMEYER'S VOICE" weight="1" />
+      <edge id="10062" source="HERSHEY" target="JUDGE HUNTER LEADER" weight="1" />
+      <edge id="10063" source="BRISCO" target="HERSHEY" weight="3" />
+      <edge id="10064" source="BRISCO" target="DREDD" weight="1" />
+      <edge id="10065" source="BRISCO" target="TWIST" weight="1" />
+      <edge id="10066" source="BRISCO" target="ZED" weight="1" />
+      <edge id="10067" source="BRISCO" target="FAVORING DREDD" weight="1" />
+      <edge id="10068" source="TWIST" target="ZED" weight="2" />
+      <edge id="10069" source="TWIST" target="REGGIE" weight="1" />
+      <edge id="10070" source="TWIST" target="DREDD" weight="1" />
+      <edge id="10071" source="TWIST" target="BRISCO" weight="1" />
+      <edge id="10072" source="TWIST" target="HERSHEY" weight="1" />
+      <edge id="10073" source="TWIST" target="FAVORING DREDD" weight="1" />
+      <edge id="10074" source="DREDD" target="HERSHEY" weight="15" />
+      <edge id="10075" source="DREDD" target="BRISCO" weight="1" />
+      <edge id="10076" source="DREDD" target="TWIST" weight="1" />
+      <edge id="10077" source="DREDD" target="ZED" weight="1" />
+      <edge id="10078" source="DREDD" target="FAVORING DREDD" weight="1" />
+      <edge id="10079" source="DREDD" target="FOOD ROBOT" weight="1" />
+      <edge id="10080" source="DREDD" target="FERGIE" weight="19" />
+      <edge id="10081" source="DREDD" target="HAMMOND" weight="1" />
+      <edge id="10082" source="DREDD" target="GRIFFIN" weight="3" />
+      <edge id="10083" source="DREDD" target="FARGO" weight="2" />
+      <edge id="10084" source="DREDD" target="DREDD'S VOICE" weight="5" />
+      <edge id="10085" source="DREDD" target="OLMEYER" weight="4" />
+      <edge id="10086" source="DREDD" target="CAR OWNER" weight="1" />
+      <edge id="10087" source="DREDD" target="JUDGE HUNTER LEADER" weight="2" />
+      <edge id="10088" source="DREDD" target="MCGRUDER" weight="2" />
+      <edge id="10089" source="DREDD" target="CLERK" weight="1" />
+      <edge id="10090" source="DREDD" target="LILY'S VOICE" weight="1" />
+      <edge id="10091" source="DREDD" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10092" source="DREDD" target="BAILIFFS" weight="1" />
+      <edge id="10093" source="DREDD" target="CENTRAL" weight="4" />
+      <edge id="10094" source="DREDD" target="CENTRALS VOICE" weight="1" />
+      <edge id="10095" source="DREDD" target="ESPOSITO" weight="1" />
+      <edge id="10096" source="DREDD" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10097" source="DREDD" target="PILOT'S VOICE" weight="2" />
+      <edge id="10098" source="DREDD" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10099" source="DREDD" target="VOICE" weight="1" />
+      <edge id="10100" source="DREDD" target="REVEREND ANGEL" weight="2" />
+      <edge id="10101" source="DREDD" target="ANGEL SONS" weight="1" />
+      <edge id="10102" source="DREDD" target="GUARD" weight="1" />
+      <edge id="10103" source="DREDD" target="PILOT ON P.A." weight="1" />
+      <edge id="10104" source="DREDD" target="CONVICTS" weight="1" />
+      <edge id="10105" source="DREDD" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="10106" source="DREDD" target="ASPEN VOICE" weight="1" />
+      <edge id="10107" source="DREDD" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10108" source="DREDD" target="RICO" weight="5" />
+      <edge id="10109" source="DREDD" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10110" source="DREDD" target="JUDGE HUNTER" weight="1" />
+      <edge id="10111" source="DREDD" target="ILSA" weight="2" />
+      <edge id="10112" source="DREDD" target="RICO'S VOICE" weight="1" />
+      <edge id="10113" source="DREDD" target="GUN VOICE" weight="2" />
+      <edge id="10114" source="DREDD" target="OLMEYER'S VOICE" weight="1" />
+      <edge id="10115" source="FOOD ROBOT" target="HERSHEY" weight="1" />
+      <edge id="10116" source="FOOD ROBOT" target="DREDD" weight="1" />
+      <edge id="10117" source="FOOD ROBOT" target="FERGIE" weight="1" />
+      <edge id="10118" source="FAVORING DREDD" target="DREDD" weight="1" />
+      <edge id="10119" source="FAVORING DREDD" target="BRISCO" weight="1" />
+      <edge id="10120" source="FAVORING DREDD" target="HERSHEY" weight="1" />
+      <edge id="10121" source="FAVORING DREDD" target="TWIST" weight="1" />
+      <edge id="10122" source="FAVORING DREDD" target="ZED" weight="1" />
+      <edge id="10123" source="VOICE" target="PILOT'S VOICE" weight="1" />
+      <edge id="10124" source="VOICE" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10125" source="VOICE" target="DREDD" weight="1" />
+      <edge id="10126" source="VOICE" target="FERGIE" weight="1" />
+      <edge id="10127" source="VOICE" target="REVEREND ANGEL" weight="1" />
+      <edge id="10128" source="VOICE" target="ANGEL SONS" weight="1" />
+      <edge id="10129" source="VOICE" target="GUARD" weight="1" />
+      <edge id="10130" source="GRIFFIN" target="MCGRUDER" weight="5" />
+      <edge id="10131" source="GRIFFIN" target="YAMAMOTO" weight="4" />
+      <edge id="10132" source="GRIFFIN" target="ESPOSITO" weight="4" />
+      <edge id="10133" source="GRIFFIN" target="FARGO" weight="3" />
+      <edge id="10134" source="GRIFFIN" target="JUDGE GRIFFIN" weight="1" />
+      <edge id="10135" source="GRIFFIN" target="HAMMOND" weight="1" />
+      <edge id="10136" source="GRIFFIN" target="DREDD" weight="3" />
+      <edge id="10137" source="GRIFFIN" target="CLERK" weight="1" />
+      <edge id="10138" source="GRIFFIN" target="HERSHEY" weight="1" />
+      <edge id="10139" source="GRIFFIN" target="LILY'S VOICE" weight="1" />
+      <edge id="10140" source="GRIFFIN" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10141" source="GRIFFIN" target="OLMEYER" weight="1" />
+      <edge id="10142" source="GRIFFIN" target="BAILIFFS" weight="1" />
+      <edge id="10143" source="GRIFFIN" target="CENTRAL" weight="5" />
+      <edge id="10144" source="GRIFFIN" target="CENTRALS VOICE" weight="1" />
+      <edge id="10145" source="GRIFFIN" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10146" source="GRIFFIN" target="RICO" weight="5" />
+      <edge id="10147" source="GRIFFIN" target="SQUAD LEADER'S VOICE" weight="1" />
+      <edge id="10148" source="GRIFFIN" target="ILSA'S VOICE" weight="1" />
+      <edge id="10149" source="GRIFFIN" target="ILSA" weight="2" />
+      <edge id="10150" source="GRIFFIN" target="JUDGE MCGRUDER" weight="1" />
+      <edge id="10151" source="GRIFFIN" target="JUDGE ESPOSITO" weight="1" />
+      <edge id="10152" source="GRIFFIN" target="DREDD'S VOICE" weight="1" />
+      <edge id="10153" source="GRIFFIN" target="COMPUTER" weight="1" />
+      <edge id="10154" source="MCGRUDER" target="GRIFFIN" weight="5" />
+      <edge id="10155" source="MCGRUDER" target="YAMAMOTO" weight="3" />
+      <edge id="10156" source="MCGRUDER" target="ESPOSITO" weight="4" />
+      <edge id="10157" source="MCGRUDER" target="FARGO" weight="1" />
+      <edge id="10158" source="MCGRUDER" target="JUDGE GRIFFIN" weight="1" />
+      <edge id="10159" source="MCGRUDER" target="DREDD" weight="2" />
+      <edge id="10160" source="MCGRUDER" target="CLERK" weight="1" />
+      <edge id="10161" source="MCGRUDER" target="HERSHEY" weight="1" />
+      <edge id="10162" source="MCGRUDER" target="LILY'S VOICE" weight="1" />
+      <edge id="10163" source="MCGRUDER" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10164" source="MCGRUDER" target="OLMEYER" weight="1" />
+      <edge id="10165" source="MCGRUDER" target="BAILIFFS" weight="1" />
+      <edge id="10166" source="MCGRUDER" target="CENTRAL" weight="2" />
+      <edge id="10167" source="MCGRUDER" target="CENTRALS VOICE" weight="1" />
+      <edge id="10168" source="MCGRUDER" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10169" source="MCGRUDER" target="RICO" weight="1" />
+      <edge id="10170" source="MCGRUDER" target="DREDD'S VOICE" weight="1" />
+      <edge id="10171" source="YAMAMOTO" target="GRIFFIN" weight="4" />
+      <edge id="10172" source="YAMAMOTO" target="MCGRUDER" weight="3" />
+      <edge id="10173" source="YAMAMOTO" target="ESPOSITO" weight="3" />
+      <edge id="10174" source="YAMAMOTO" target="FARGO" weight="1" />
+      <edge id="10175" source="YAMAMOTO" target="JUDGE GRIFFIN" weight="1" />
+      <edge id="10176" source="YAMAMOTO" target="CENTRAL" weight="2" />
+      <edge id="10177" source="YAMAMOTO" target="JUDGE MCGRUDER" weight="1" />
+      <edge id="10178" source="YAMAMOTO" target="JUDGE ESPOSITO" weight="1" />
+      <edge id="10179" source="ESPOSITO" target="GRIFFIN" weight="4" />
+      <edge id="10180" source="ESPOSITO" target="MCGRUDER" weight="4" />
+      <edge id="10181" source="ESPOSITO" target="YAMAMOTO" weight="3" />
+      <edge id="10182" source="ESPOSITO" target="FARGO" weight="1" />
+      <edge id="10183" source="ESPOSITO" target="JUDGE GRIFFIN" weight="1" />
+      <edge id="10184" source="ESPOSITO" target="DREDD" weight="1" />
+      <edge id="10185" source="ESPOSITO" target="CLERK" weight="1" />
+      <edge id="10186" source="ESPOSITO" target="HERSHEY" weight="1" />
+      <edge id="10187" source="ESPOSITO" target="LILY'S VOICE" weight="1" />
+      <edge id="10188" source="ESPOSITO" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10189" source="ESPOSITO" target="OLMEYER" weight="1" />
+      <edge id="10190" source="ESPOSITO" target="BAILIFFS" weight="1" />
+      <edge id="10191" source="ESPOSITO" target="CENTRAL" weight="2" />
+      <edge id="10192" source="ESPOSITO" target="CENTRALS VOICE" weight="1" />
+      <edge id="10193" source="ESPOSITO" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10194" source="FARGO" target="GRIFFIN" weight="3" />
+      <edge id="10195" source="FARGO" target="MCGRUDER" weight="1" />
+      <edge id="10196" source="FARGO" target="YAMAMOTO" weight="1" />
+      <edge id="10197" source="FARGO" target="ESPOSITO" weight="1" />
+      <edge id="10198" source="FARGO" target="JUDGE GRIFFIN" weight="1" />
+      <edge id="10199" source="FARGO" target="HAMMOND" weight="1" />
+      <edge id="10200" source="FARGO" target="DREDD" weight="2" />
+      <edge id="10201" source="JUDGE GRIFFIN" target="GRIFFIN" weight="1" />
+      <edge id="10202" source="JUDGE GRIFFIN" target="MCGRUDER" weight="1" />
+      <edge id="10203" source="JUDGE GRIFFIN" target="YAMAMOTO" weight="1" />
+      <edge id="10204" source="JUDGE GRIFFIN" target="ESPOSITO" weight="1" />
+      <edge id="10205" source="JUDGE GRIFFIN" target="FARGO" weight="1" />
+      <edge id="10206" source="HAMMOND" target="DREDD" weight="1" />
+      <edge id="10207" source="HAMMOND" target="GRIFFIN" weight="1" />
+      <edge id="10208" source="HAMMOND" target="FARGO" weight="1" />
+      <edge id="10209" source="HAMMOND" target="LILY" weight="1" />
+      <edge id="10210" source="MILLER" target="COMPUTER VOICE" weight="2" />
+      <edge id="10211" source="MILLER" target="RICO'S VOICE" weight="1" />
+      <edge id="10212" source="MILLER" target="RICO" weight="1" />
+      <edge id="10213" source="COMPUTER VOICE" target="MILLER" weight="2" />
+      <edge id="10214" source="COMPUTER VOICE" target="RICO'S VOICE" weight="1" />
+      <edge id="10215" source="COMPUTER VOICE" target="RICO" weight="1" />
+      <edge id="10216" source="COMPUTER VOICE" target="HERSHEY" weight="1" />
+      <edge id="10217" source="RICO'S VOICE" target="RICO" weight="2" />
+      <edge id="10218" source="RICO'S VOICE" target="MILLER" weight="1" />
+      <edge id="10219" source="RICO'S VOICE" target="COMPUTER VOICE" weight="1" />
+      <edge id="10220" source="RICO'S VOICE" target="ILSA" weight="1" />
+      <edge id="10221" source="RICO'S VOICE" target="DREDD" weight="1" />
+      <edge id="10222" source="RICO" target="RICO'S VOICE" weight="2" />
+      <edge id="10223" source="RICO" target="MILLER" weight="1" />
+      <edge id="10224" source="RICO" target="COMPUTER VOICE" weight="1" />
+      <edge id="10225" source="RICO" target="GEIGER" weight="1" />
+      <edge id="10226" source="RICO" target="ROBOT" weight="1" />
+      <edge id="10227" source="RICO" target="GRIFFIN" weight="5" />
+      <edge id="10228" source="RICO" target="ILSA" weight="6" />
+      <edge id="10229" source="RICO" target="ILSA'S VOICE" weight="1" />
+      <edge id="10230" source="RICO" target="MCGRUDER" weight="1" />
+      <edge id="10231" source="RICO" target="DREDD'S VOICE" weight="3" />
+      <edge id="10232" source="RICO" target="DREDD" weight="5" />
+      <edge id="10233" source="RICO" target="CENTRAL" weight="4" />
+      <edge id="10234" source="RICO" target="COMPUTER" weight="1" />
+      <edge id="10235" source="RICO" target="FERGIE" weight="2" />
+      <edge id="10236" source="RICO" target="HERSHEY" weight="2" />
+      <edge id="10237" source="RICO" target="GUN VOICE" weight="2" />
+      <edge id="10238" source="DREDD'S VOICE" target="DREDD" weight="5" />
+      <edge id="10239" source="DREDD'S VOICE" target="MCGRUDER" weight="1" />
+      <edge id="10240" source="DREDD'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10241" source="DREDD'S VOICE" target="RICO" weight="3" />
+      <edge id="10242" source="DREDD'S VOICE" target="CENTRAL" weight="2" />
+      <edge id="10243" source="DREDD'S VOICE" target="HERSHEY" weight="2" />
+      <edge id="10244" source="DREDD'S VOICE" target="FERGIE" weight="2" />
+      <edge id="10245" source="DREDD'S VOICE" target="ILSA" weight="1" />
+      <edge id="10246" source="DREDD'S VOICE" target="GUN VOICE" weight="2" />
+      <edge id="10247" source="OLMEYER" target="HERSHEY" weight="5" />
+      <edge id="10248" source="OLMEYER" target="DREDD" weight="4" />
+      <edge id="10249" source="OLMEYER" target="MCGRUDER" weight="1" />
+      <edge id="10250" source="OLMEYER" target="GRIFFIN" weight="1" />
+      <edge id="10251" source="OLMEYER" target="CLERK" weight="1" />
+      <edge id="10252" source="OLMEYER" target="LILY'S VOICE" weight="1" />
+      <edge id="10253" source="OLMEYER" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10254" source="OLMEYER" target="BAILIFFS" weight="1" />
+      <edge id="10255" source="OLMEYER" target="CENTRAL" weight="2" />
+      <edge id="10256" source="OLMEYER" target="CENTRALS VOICE" weight="1" />
+      <edge id="10257" source="OLMEYER" target="ESPOSITO" weight="1" />
+      <edge id="10258" source="OLMEYER" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10259" source="OLMEYER" target="FERGIE" weight="1" />
+      <edge id="10260" source="OLMEYER" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10261" source="OLMEYER" target="JUDGE HUNTER" weight="1" />
+      <edge id="10262" source="OLMEYER" target="OLMEYER'S VOICE" weight="1" />
+      <edge id="10263" source="OLMEYER" target="JUDGE HUNTER LEADER" weight="1" />
+      <edge id="10264" source="GEIGER" target="RICO" weight="1" />
+      <edge id="10265" source="GEIGER" target="ROBOT" weight="1" />
+      <edge id="10266" source="ROBOT" target="GEIGER" weight="1" />
+      <edge id="10267" source="ROBOT" target="RICO" weight="1" />
+      <edge id="10268" source="LILY" target="HAMMOND" weight="1" />
+      <edge id="10269" source="CAR OWNER" target="DREDD" weight="1" />
+      <edge id="10270" source="CAR OWNER" target="JUDGE HUNTER LEADER" weight="1" />
+      <edge id="10271" source="JUDGE HUNTER LEADER" target="DREDD" weight="2" />
+      <edge id="10272" source="JUDGE HUNTER LEADER" target="CAR OWNER" weight="1" />
+      <edge id="10273" source="JUDGE HUNTER LEADER" target="OLMEYER'S VOICE" weight="1" />
+      <edge id="10274" source="JUDGE HUNTER LEADER" target="OLMEYER" weight="1" />
+      <edge id="10275" source="JUDGE HUNTER LEADER" target="HERSHEY" weight="1" />
+      <edge id="10276" source="JUDGE HUNTER" target="DREDD" weight="1" />
+      <edge id="10277" source="JUDGE HUNTER" target="FERGIE" weight="1" />
+      <edge id="10278" source="JUDGE HUNTER" target="HERSHEY" weight="1" />
+      <edge id="10279" source="JUDGE HUNTER" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10280" source="JUDGE HUNTER" target="CENTRAL" weight="1" />
+      <edge id="10281" source="JUDGE HUNTER" target="OLMEYER" weight="1" />
+      <edge id="10282" source="CLERK" target="MCGRUDER" weight="1" />
+      <edge id="10283" source="CLERK" target="DREDD" weight="1" />
+      <edge id="10284" source="CLERK" target="GRIFFIN" weight="1" />
+      <edge id="10285" source="CLERK" target="HERSHEY" weight="1" />
+      <edge id="10286" source="CLERK" target="LILY'S VOICE" weight="1" />
+      <edge id="10287" source="CLERK" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10288" source="CLERK" target="OLMEYER" weight="1" />
+      <edge id="10289" source="CLERK" target="BAILIFFS" weight="1" />
+      <edge id="10290" source="CLERK" target="CENTRAL" weight="1" />
+      <edge id="10291" source="CLERK" target="CENTRALS VOICE" weight="1" />
+      <edge id="10292" source="CLERK" target="ESPOSITO" weight="1" />
+      <edge id="10293" source="CLERK" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10294" source="LILY'S VOICE" target="MCGRUDER" weight="1" />
+      <edge id="10295" source="LILY'S VOICE" target="DREDD" weight="1" />
+      <edge id="10296" source="LILY'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10297" source="LILY'S VOICE" target="CLERK" weight="1" />
+      <edge id="10298" source="LILY'S VOICE" target="HERSHEY" weight="1" />
+      <edge id="10299" source="LILY'S VOICE" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10300" source="LILY'S VOICE" target="OLMEYER" weight="1" />
+      <edge id="10301" source="LILY'S VOICE" target="BAILIFFS" weight="1" />
+      <edge id="10302" source="LILY'S VOICE" target="CENTRAL" weight="1" />
+      <edge id="10303" source="LILY'S VOICE" target="CENTRALS VOICE" weight="1" />
+      <edge id="10304" source="LILY'S VOICE" target="ESPOSITO" weight="1" />
+      <edge id="10305" source="LILY'S VOICE" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10306" source="HAMMOND'S VOICE" target="MCGRUDER" weight="1" />
+      <edge id="10307" source="HAMMOND'S VOICE" target="DREDD" weight="1" />
+      <edge id="10308" source="HAMMOND'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10309" source="HAMMOND'S VOICE" target="CLERK" weight="1" />
+      <edge id="10310" source="HAMMOND'S VOICE" target="HERSHEY" weight="1" />
+      <edge id="10311" source="HAMMOND'S VOICE" target="LILY'S VOICE" weight="1" />
+      <edge id="10312" source="HAMMOND'S VOICE" target="OLMEYER" weight="1" />
+      <edge id="10313" source="HAMMOND'S VOICE" target="BAILIFFS" weight="1" />
+      <edge id="10314" source="HAMMOND'S VOICE" target="CENTRAL" weight="1" />
+      <edge id="10315" source="HAMMOND'S VOICE" target="CENTRALS VOICE" weight="1" />
+      <edge id="10316" source="HAMMOND'S VOICE" target="ESPOSITO" weight="1" />
+      <edge id="10317" source="HAMMOND'S VOICE" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10318" source="BAILIFFS" target="MCGRUDER" weight="1" />
+      <edge id="10319" source="BAILIFFS" target="DREDD" weight="1" />
+      <edge id="10320" source="BAILIFFS" target="GRIFFIN" weight="1" />
+      <edge id="10321" source="BAILIFFS" target="CLERK" weight="1" />
+      <edge id="10322" source="BAILIFFS" target="HERSHEY" weight="1" />
+      <edge id="10323" source="BAILIFFS" target="LILY'S VOICE" weight="1" />
+      <edge id="10324" source="BAILIFFS" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10325" source="BAILIFFS" target="OLMEYER" weight="1" />
+      <edge id="10326" source="BAILIFFS" target="CENTRAL" weight="1" />
+      <edge id="10327" source="BAILIFFS" target="CENTRALS VOICE" weight="1" />
+      <edge id="10328" source="BAILIFFS" target="ESPOSITO" weight="1" />
+      <edge id="10329" source="BAILIFFS" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10330" source="CENTRAL" target="MCGRUDER" weight="2" />
+      <edge id="10331" source="CENTRAL" target="DREDD" weight="4" />
+      <edge id="10332" source="CENTRAL" target="GRIFFIN" weight="5" />
+      <edge id="10333" source="CENTRAL" target="CLERK" weight="1" />
+      <edge id="10334" source="CENTRAL" target="HERSHEY" weight="6" />
+      <edge id="10335" source="CENTRAL" target="LILY'S VOICE" weight="1" />
+      <edge id="10336" source="CENTRAL" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10337" source="CENTRAL" target="OLMEYER" weight="2" />
+      <edge id="10338" source="CENTRAL" target="BAILIFFS" weight="1" />
+      <edge id="10339" source="CENTRAL" target="CENTRALS VOICE" weight="1" />
+      <edge id="10340" source="CENTRAL" target="ESPOSITO" weight="2" />
+      <edge id="10341" source="CENTRAL" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10342" source="CENTRAL" target="A CANNED VOICE" weight="1" />
+      <edge id="10343" source="CENTRAL" target="DISPATCH VOICE" weight="1" />
+      <edge id="10344" source="CENTRAL" target="CENTRAL'S VOICE" weight="1" />
+      <edge id="10345" source="CENTRAL" target="JUDGE MCGRUDER" weight="1" />
+      <edge id="10346" source="CENTRAL" target="JUDGE ESPOSITO" weight="1" />
+      <edge id="10347" source="CENTRAL" target="YAMAMOTO" weight="2" />
+      <edge id="10348" source="CENTRAL" target="RICO" weight="4" />
+      <edge id="10349" source="CENTRAL" target="ILSA" weight="3" />
+      <edge id="10350" source="CENTRAL" target="DREDD'S VOICE" weight="2" />
+      <edge id="10351" source="CENTRAL" target="FERGIE" weight="3" />
+      <edge id="10352" source="CENTRAL" target="FERGIE'S VOICE" weight="1" />
+      <edge id="10353" source="CENTRAL" target="JUDGE HUNTER" weight="1" />
+      <edge id="10354" source="CENTRAL" target="COMPUTER" weight="1" />
+      <edge id="10355" source="CENTRAL" target="GUN VOICE" weight="1" />
+      <edge id="10356" source="CENTRALS VOICE" target="MCGRUDER" weight="1" />
+      <edge id="10357" source="CENTRALS VOICE" target="DREDD" weight="1" />
+      <edge id="10358" source="CENTRALS VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10359" source="CENTRALS VOICE" target="CLERK" weight="1" />
+      <edge id="10360" source="CENTRALS VOICE" target="HERSHEY" weight="1" />
+      <edge id="10361" source="CENTRALS VOICE" target="LILY'S VOICE" weight="1" />
+      <edge id="10362" source="CENTRALS VOICE" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10363" source="CENTRALS VOICE" target="OLMEYER" weight="1" />
+      <edge id="10364" source="CENTRALS VOICE" target="BAILIFFS" weight="1" />
+      <edge id="10365" source="CENTRALS VOICE" target="CENTRAL" weight="1" />
+      <edge id="10366" source="CENTRALS VOICE" target="ESPOSITO" weight="1" />
+      <edge id="10367" source="CENTRALS VOICE" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10368" source="GRIFFIN'S VOICE" target="MCGRUDER" weight="1" />
+      <edge id="10369" source="GRIFFIN'S VOICE" target="DREDD" weight="1" />
+      <edge id="10370" source="GRIFFIN'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10371" source="GRIFFIN'S VOICE" target="CLERK" weight="1" />
+      <edge id="10372" source="GRIFFIN'S VOICE" target="HERSHEY" weight="1" />
+      <edge id="10373" source="GRIFFIN'S VOICE" target="LILY'S VOICE" weight="1" />
+      <edge id="10374" source="GRIFFIN'S VOICE" target="HAMMOND'S VOICE" weight="1" />
+      <edge id="10375" source="GRIFFIN'S VOICE" target="OLMEYER" weight="1" />
+      <edge id="10376" source="GRIFFIN'S VOICE" target="BAILIFFS" weight="1" />
+      <edge id="10377" source="GRIFFIN'S VOICE" target="CENTRAL" weight="1" />
+      <edge id="10378" source="GRIFFIN'S VOICE" target="CENTRALS VOICE" weight="1" />
+      <edge id="10379" source="GRIFFIN'S VOICE" target="ESPOSITO" weight="1" />
+      <edge id="10380" source="GRIFFIN'S VOICE" target="FEMALE CADET" weight="1" />
+      <edge id="10381" source="FEMALE CADET" target="GRIFFIN'S VOICE" weight="1" />
+      <edge id="10382" source="PILOT'S VOICE" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10383" source="PILOT'S VOICE" target="DREDD" weight="2" />
+      <edge id="10384" source="PILOT'S VOICE" target="FERGIE" weight="2" />
+      <edge id="10385" source="PILOT'S VOICE" target="VOICE" weight="1" />
+      <edge id="10386" source="PILOT'S VOICE" target="REVEREND ANGEL" weight="2" />
+      <edge id="10387" source="PILOT'S VOICE" target="ANGEL SONS" weight="1" />
+      <edge id="10388" source="PILOT'S VOICE" target="GUARD" weight="1" />
+      <edge id="10389" source="PILOT'S VOICE" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="10390" source="PILOT'S VOICE" target="ASPEN VOICE" weight="1" />
+      <edge id="10391" source="PILOT'S VOICE" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10392" source="PRISONER BEHIND HIM" target="PILOT'S VOICE" weight="1" />
+      <edge id="10393" source="PRISONER BEHIND HIM" target="DREDD" weight="1" />
+      <edge id="10394" source="PRISONER BEHIND HIM" target="FERGIE" weight="1" />
+      <edge id="10395" source="PRISONER BEHIND HIM" target="VOICE" weight="1" />
+      <edge id="10396" source="PRISONER BEHIND HIM" target="REVEREND ANGEL" weight="1" />
+      <edge id="10397" source="PRISONER BEHIND HIM" target="ANGEL SONS" weight="1" />
+      <edge id="10398" source="PRISONER BEHIND HIM" target="GUARD" weight="1" />
+      <edge id="10399" source="REVEREND ANGEL" target="PILOT'S VOICE" weight="2" />
+      <edge id="10400" source="REVEREND ANGEL" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10401" source="REVEREND ANGEL" target="DREDD" weight="2" />
+      <edge id="10402" source="REVEREND ANGEL" target="FERGIE" weight="2" />
+      <edge id="10403" source="REVEREND ANGEL" target="VOICE" weight="1" />
+      <edge id="10404" source="REVEREND ANGEL" target="ANGEL SONS" weight="1" />
+      <edge id="10405" source="REVEREND ANGEL" target="GUARD" weight="1" />
+      <edge id="10406" source="REVEREND ANGEL" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="10407" source="REVEREND ANGEL" target="ASPEN VOICE" weight="1" />
+      <edge id="10408" source="REVEREND ANGEL" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10409" source="ANGEL SONS" target="PILOT'S VOICE" weight="1" />
+      <edge id="10410" source="ANGEL SONS" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10411" source="ANGEL SONS" target="DREDD" weight="1" />
+      <edge id="10412" source="ANGEL SONS" target="FERGIE" weight="1" />
+      <edge id="10413" source="ANGEL SONS" target="VOICE" weight="1" />
+      <edge id="10414" source="ANGEL SONS" target="REVEREND ANGEL" weight="1" />
+      <edge id="10415" source="ANGEL SONS" target="GUARD" weight="1" />
+      <edge id="10416" source="GUARD" target="PILOT'S VOICE" weight="1" />
+      <edge id="10417" source="GUARD" target="PRISONER BEHIND HIM" weight="1" />
+      <edge id="10418" source="GUARD" target="DREDD" weight="1" />
+      <edge id="10419" source="GUARD" target="FERGIE" weight="1" />
+      <edge id="10420" source="GUARD" target="VOICE" weight="1" />
+      <edge id="10421" source="GUARD" target="REVEREND ANGEL" weight="1" />
+      <edge id="10422" source="GUARD" target="ANGEL SONS" weight="1" />
+      <edge id="10423" source="PILOT" target="ASPEN GUARD" weight="1" />
+      <edge id="10424" source="ASPEN GUARD" target="PILOT" weight="1" />
+      <edge id="10425" source="PILOT ON P.A." target="FERGIE" weight="1" />
+      <edge id="10426" source="PILOT ON P.A." target="DREDD" weight="1" />
+      <edge id="10427" source="PILOT ON P.A." target="CONVICTS" weight="1" />
+      <edge id="10428" source="CONVICTS" target="FERGIE" weight="1" />
+      <edge id="10429" source="CONVICTS" target="PILOT ON P.A." weight="1" />
+      <edge id="10430" source="CONVICTS" target="DREDD" weight="1" />
+      <edge id="10431" source="ILSA" target="RICO" weight="6" />
+      <edge id="10432" source="ILSA" target="GRIFFIN" weight="2" />
+      <edge id="10433" source="ILSA" target="ILSA'S VOICE" weight="1" />
+      <edge id="10434" source="ILSA" target="CENTRAL" weight="3" />
+      <edge id="10435" source="ILSA" target="COMPUTER" weight="1" />
+      <edge id="10436" source="ILSA" target="DREDD" weight="2" />
+      <edge id="10437" source="ILSA" target="RICO'S VOICE" weight="1" />
+      <edge id="10438" source="ILSA" target="FERGIE" weight="1" />
+      <edge id="10439" source="ILSA" target="HERSHEY" weight="1" />
+      <edge id="10440" source="ILSA" target="DREDD'S VOICE" weight="1" />
+      <edge id="10441" source="ILSA" target="GUN VOICE" weight="1" />
+      <edge id="10442" source="SECOND HUNTER" target="HUNTER SQUAD LEADER" weight="1" />
+      <edge id="10443" source="HUNTER SQUAD LEADER" target="SECOND HUNTER" weight="1" />
+      <edge id="10444" source="SQUAD LEADER'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10445" source="ANOTHER HUNTER" target="WOUNDED GUARD" weight="1" />
+      <edge id="10446" source="WOUNDED GUARD" target="ANOTHER HUNTER" weight="1" />
+      <edge id="10447" source="A CANNED VOICE" target="HERSHEY" weight="1" />
+      <edge id="10448" source="A CANNED VOICE" target="CENTRAL" weight="1" />
+      <edge id="10449" source="ILSA'S VOICE" target="RICO" weight="1" />
+      <edge id="10450" source="ILSA'S VOICE" target="GRIFFIN" weight="1" />
+      <edge id="10451" source="ILSA'S VOICE" target="ILSA" weight="1" />
+      <edge id="10452" source="SHUTTLE RECORDING" target="PILOT'S VOICE" weight="1" />
+      <edge id="10453" source="SHUTTLE RECORDING" target="ASPEN VOICE" weight="1" />
+      <edge id="10454" source="SHUTTLE RECORDING" target="DREDD" weight="1" />
+      <edge id="10455" source="SHUTTLE RECORDING" target="FERGIE" weight="1" />
+      <edge id="10456" source="SHUTTLE RECORDING" target="REVEREND ANGEL" weight="1" />
+      <edge id="10457" source="SHUTTLE RECORDING" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10458" source="ASPEN VOICE" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="10459" source="ASPEN VOICE" target="PILOT'S VOICE" weight="1" />
+      <edge id="10460" source="ASPEN VOICE" target="DREDD" weight="1" />
+      <edge id="10461" source="ASPEN VOICE" target="FERGIE" weight="1" />
+      <edge id="10462" source="ASPEN VOICE" target="REVEREND ANGEL" weight="1" />
+      <edge id="10463" source="ASPEN VOICE" target="THIRD JUDGE HUNTER" weight="1" />
+      <edge id="10464" source="THIRD JUDGE HUNTER" target="SHUTTLE RECORDING" weight="1" />
+      <edge id="10465" source="THIRD JUDGE HUNTER" target="PILOT'S VOICE" weight="1" />
+      <edge id="10466" source="THIRD JUDGE HUNTER" target="ASPEN VOICE" weight="1" />
+      <edge id="10467" source="THIRD JUDGE HUNTER" target="DREDD" weight="1" />
+      <edge id="10468" source="THIRD JUDGE HUNTER" target="FERGIE" weight="1" />
+      <edge id="10469" source="THIRD JUDGE HUNTER" target="REVEREND ANGEL" weight="1" />
+      <edge id="10470" source="FERGIE'S VOICE" target="DREDD" weight="1" />
+      <edge id="10471" source="FERGIE'S VOICE" target="FERGIE" weight="1" />
+      <edge id="10472" source="FERGIE'S VOICE" target="HERSHEY" weight="1" />
+      <edge id="10473" source="FERGIE'S VOICE" target="CENTRAL" weight="1" />
+      <edge id="10474" source="FERGIE'S VOICE" target="OLMEYER" weight="1" />
+      <edge id="10475" source="FERGIE'S VOICE" target="JUDGE HUNTER" weight="1" />
+      <edge id="10476" source="DISPATCH VOICE" target="HERSHEY" weight="1" />
+      <edge id="10477" source="DISPATCH VOICE" target="CENTRAL'S VOICE" weight="1" />
+      <edge id="10478" source="DISPATCH VOICE" target="CENTRAL" weight="1" />
+      <edge id="10479" source="CENTRAL'S VOICE" target="HERSHEY" weight="1" />
+      <edge id="10480" source="CENTRAL'S VOICE" target="DISPATCH VOICE" weight="1" />
+      <edge id="10481" source="CENTRAL'S VOICE" target="CENTRAL" weight="1" />
+      <edge id="10482" source="JUDGE MCGRUDER" target="GRIFFIN" weight="1" />
+      <edge id="10483" source="JUDGE MCGRUDER" target="CENTRAL" weight="1" />
+      <edge id="10484" source="JUDGE MCGRUDER" target="JUDGE ESPOSITO" weight="1" />
+      <edge id="10485" source="JUDGE MCGRUDER" target="YAMAMOTO" weight="1" />
+      <edge id="10486" source="JUDGE ESPOSITO" target="GRIFFIN" weight="1" />
+      <edge id="10487" source="JUDGE ESPOSITO" target="CENTRAL" weight="1" />
+      <edge id="10488" source="JUDGE ESPOSITO" target="JUDGE MCGRUDER" weight="1" />
+      <edge id="10489" source="JUDGE ESPOSITO" target="YAMAMOTO" weight="1" />
+      <edge id="10490" source="COMPUTER" target="GRIFFIN" weight="1" />
+      <edge id="10491" source="COMPUTER" target="RICO" weight="1" />
+      <edge id="10492" source="COMPUTER" target="ILSA" weight="1" />
+      <edge id="10493" source="COMPUTER" target="CENTRAL" weight="1" />
+      <edge id="10494" source="GUN VOICE" target="RICO" weight="2" />
+      <edge id="10495" source="GUN VOICE" target="DREDD" weight="2" />
+      <edge id="10496" source="GUN VOICE" target="FERGIE" weight="1" />
+      <edge id="10497" source="GUN VOICE" target="HERSHEY" weight="1" />
+      <edge id="10498" source="GUN VOICE" target="CENTRAL" weight="1" />
+      <edge id="10499" source="GUN VOICE" target="ILSA" weight="1" />
+      <edge id="10500" source="GUN VOICE" target="DREDD'S VOICE" weight="2" />
+      <edge id="10501" source="OLMEYER'S VOICE" target="DREDD" weight="1" />
+      <edge id="10502" source="OLMEYER'S VOICE" target="OLMEYER" weight="1" />
+      <edge id="10503" source="OLMEYER'S VOICE" target="JUDGE HUNTER LEADER" weight="1" />
+      <edge id="10504" source="OLMEYER'S VOICE" target="HERSHEY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

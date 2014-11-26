@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="KATHLEEN" label="KATHLEEN" />
+      <node id="FRANK" label="FRANK" />
+      <node id="COMPUTER" label="COMPUTER" />
+      <node id="JOE" label="JOE" />
+      <node id="VOICE" label="VOICE" />
+      <node id="PATRICIA" label="PATRICIA" />
+      <node id="JOE &amp; THE COMPUTER" label="JOE &amp; THE COMPUTER" />
+      <node id="CHRISTINA" label="CHRISTINA" />
+      <node id="GEORGE" label="GEORGE" />
+      <node id="BIRDIE" label="BIRDIE" />
+      <node id="GARBAGEMAN #1" label="GARBAGEMAN #1" />
+      <node id="GARBAGEMAN #2" label="GARBAGEMAN #2" />
+      <node id="KEVIN" label="KEVIN" />
+      <node id="JOE &amp; KEVIN" label="JOE &amp; KEVIN" />
+      <node id="NELSON" label="NELSON" />
+      <node id="SCHUYLER" label="SCHUYLER" />
+      <node id="COMPUTER VOICE" label="COMPUTER VOICE" />
+      <node id="TV REPORTER" label="TV REPORTER" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="ANNABEL" label="ANNABEL" />
+      <node id="GILLIAN" label="GILLIAN" />
+      <node id="MAUREEN" label="MAUREEN" />
+      <node id="MATT" label="MATT" />
+      <node id="KATHLEEN AND GEORGE TOGETHER" label="KATHLEEN AND GEORGE TOGETHER" />
+      <node id="SARAH" label="SARAH" />
+      <node id="MAN IN OVERCOAT" label="MAN IN OVERCOAT" />
+      <node id="VINCE" label="VINCE" />
+      <node id="MEREDITH" label="MEREDITH" />
+      <node id="LAURA" label="LAURA" />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="PERSON BEHIND HER IN LINE" label="PERSON BEHIND HER IN LINE" />
+      <node id="PERSON IN LINE" label="PERSON IN LINE" />
+      <node id="ANOTHER PERSON" label="ANOTHER PERSON" />
+      <node id="ROSE" label="ROSE" />
+      <node id="YOUNG KATHLEEN" label="YOUNG KATHLEEN" />
+      <node id="SIX-YEAR-OLD BOY" label="SIX-YEAR-OLD BOY" />
+      <node id="WILLIAM SPUNGEON" label="WILLIAM SPUNGEON" />
+      <node id="SPUNGEON" label="SPUNGEON" />
+      <node id="CHANNEL 2 TV REPORTER" label="CHANNEL 2 TV REPORTER" />
+      <node id="SIDNEY-ANN" label="SIDNEY-ANN" />
+      <node id="FRANK ON TELEVISION" label="FRANK ON TELEVISION" />
+      <node id="SIDNEY-ANN ON TELEVISION" label="SIDNEY-ANN ON TELEVISION" />
+      <node id="MAN" label="MAN" />
+      <node id="CHRISTINA &amp; KATHLEEN" label="CHRISTINA &amp; KATHLEEN" />
+      <node id="PERSON IN FRONT OF THEM" label="PERSON IN FRONT OF THEM" />
+      <node id="WOMAN SHOPPER" label="WOMAN SHOPPER" />
+      <node id="SECOND SHOPPER" label="SECOND SHOPPER" />
+      <node id="THIRD SHOPPER" label="THIRD SHOPPER" />
+      <node id="FOURTH SHOPPER" label="FOURTH SHOPPER" />
+      <node id="SALESPERSON" label="SALESPERSON" />
+      <node id="CHARLIE" label="CHARLIE" />
+      <node id="VERONICA" label="VERONICA" />
+      <node id="KATHLEEN'S VOICE" label="KATHLEEN'S VOICE" />
+      <node id="MALE RUNNER" label="MALE RUNNER" />
+      <node id="RABBIT" label="RABBIT" />
+    </nodes>
+    <edges>
+      <edge id="26847" source="KATHLEEN" target="FRANK" weight="18" />
+      <edge id="26848" source="KATHLEEN" target="JOE" weight="29" />
+      <edge id="26849" source="KATHLEEN" target="VOICE" weight="2" />
+      <edge id="26850" source="KATHLEEN" target="PATRICIA" weight="3" />
+      <edge id="26851" source="KATHLEEN" target="JOE &amp; THE COMPUTER" weight="1" />
+      <edge id="26852" source="KATHLEEN" target="CHRISTINA" weight="13" />
+      <edge id="26853" source="KATHLEEN" target="GEORGE" weight="9" />
+      <edge id="26854" source="KATHLEEN" target="BIRDIE" weight="6" />
+      <edge id="26855" source="KATHLEEN" target="GARBAGEMAN #1" weight="1" />
+      <edge id="26856" source="KATHLEEN" target="GARBAGEMAN #2" weight="1" />
+      <edge id="26857" source="KATHLEEN" target="ANNABEL" weight="1" />
+      <edge id="26858" source="KATHLEEN" target="MATT" weight="1" />
+      <edge id="26859" source="KATHLEEN" target="KATHLEEN AND GEORGE TOGETHER" weight="1" />
+      <edge id="26860" source="KATHLEEN" target="VINCE" weight="2" />
+      <edge id="26861" source="KATHLEEN" target="MEREDITH" weight="1" />
+      <edge id="26862" source="KATHLEEN" target="LAURA" weight="1" />
+      <edge id="26863" source="KATHLEEN" target="CASHIER" weight="1" />
+      <edge id="26864" source="KATHLEEN" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="26865" source="KATHLEEN" target="PERSON IN LINE" weight="1" />
+      <edge id="26866" source="KATHLEEN" target="ANOTHER PERSON" weight="1" />
+      <edge id="26867" source="KATHLEEN" target="ROSE" weight="1" />
+      <edge id="26868" source="KATHLEEN" target="YOUNG KATHLEEN" weight="1" />
+      <edge id="26869" source="KATHLEEN" target="SIX-YEAR-OLD BOY" weight="1" />
+      <edge id="26870" source="KATHLEEN" target="WILLIAM SPUNGEON" weight="1" />
+      <edge id="26871" source="KATHLEEN" target="SPUNGEON" weight="2" />
+      <edge id="26872" source="KATHLEEN" target="TV REPORTER" weight="1" />
+      <edge id="26873" source="KATHLEEN" target="CHANNEL 2 TV REPORTER" weight="2" />
+      <edge id="26874" source="KATHLEEN" target="KEVIN" weight="1" />
+      <edge id="26875" source="KATHLEEN" target="FRANK ON TELEVISION" weight="1" />
+      <edge id="26876" source="KATHLEEN" target="SIDNEY-ANN ON TELEVISION" weight="1" />
+      <edge id="26877" source="KATHLEEN" target="MAN" weight="1" />
+      <edge id="26878" source="KATHLEEN" target="CHRISTINA &amp; KATHLEEN" weight="1" />
+      <edge id="26879" source="KATHLEEN" target="COMPUTER" weight="1" />
+      <edge id="26880" source="KATHLEEN" target="PERSON IN FRONT OF THEM" weight="1" />
+      <edge id="26881" source="KATHLEEN" target="WOMAN SHOPPER" weight="2" />
+      <edge id="26882" source="KATHLEEN" target="SECOND SHOPPER" weight="1" />
+      <edge id="26883" source="KATHLEEN" target="THIRD SHOPPER" weight="1" />
+      <edge id="26884" source="KATHLEEN" target="FOURTH SHOPPER" weight="1" />
+      <edge id="26885" source="KATHLEEN" target="SALESPERSON" weight="1" />
+      <edge id="26886" source="FRANK" target="KATHLEEN" weight="18" />
+      <edge id="26887" source="FRANK" target="VINCE" weight="1" />
+      <edge id="26888" source="FRANK" target="PATRICIA" weight="2" />
+      <edge id="26889" source="FRANK" target="JOE" weight="2" />
+      <edge id="26890" source="FRANK" target="BIRDIE" weight="1" />
+      <edge id="26891" source="FRANK" target="CHRISTINA" weight="2" />
+      <edge id="26892" source="FRANK" target="GEORGE" weight="1" />
+      <edge id="26893" source="FRANK" target="WILLIAM SPUNGEON" weight="1" />
+      <edge id="26894" source="FRANK" target="SPUNGEON" weight="1" />
+      <edge id="26895" source="FRANK" target="TV REPORTER" weight="1" />
+      <edge id="26896" source="FRANK" target="SIDNEY-ANN" weight="1" />
+      <edge id="26897" source="FRANK" target="FRANK ON TELEVISION" weight="1" />
+      <edge id="26898" source="FRANK" target="SIDNEY-ANN ON TELEVISION" weight="1" />
+      <edge id="26899" source="FRANK" target="PERSON IN FRONT OF THEM" weight="1" />
+      <edge id="26900" source="COMPUTER" target="KATHLEEN" weight="1" />
+      <edge id="26901" source="COMPUTER" target="JOE" weight="1" />
+      <edge id="26902" source="JOE" target="KATHLEEN" weight="29" />
+      <edge id="26903" source="JOE" target="VOICE" weight="2" />
+      <edge id="26904" source="JOE" target="PATRICIA" weight="9" />
+      <edge id="26905" source="JOE" target="JOE &amp; THE COMPUTER" weight="1" />
+      <edge id="26906" source="JOE" target="KEVIN" weight="9" />
+      <edge id="26907" source="JOE" target="JOE &amp; KEVIN" weight="1" />
+      <edge id="26908" source="JOE" target="NELSON" weight="4" />
+      <edge id="26909" source="JOE" target="SCHUYLER" weight="3" />
+      <edge id="26910" source="JOE" target="COMPUTER VOICE" weight="1" />
+      <edge id="26911" source="JOE" target="ANNABEL" weight="4" />
+      <edge id="26912" source="JOE" target="GILLIAN" weight="1" />
+      <edge id="26913" source="JOE" target="MAUREEN" weight="1" />
+      <edge id="26914" source="JOE" target="MATT" weight="4" />
+      <edge id="26915" source="JOE" target="GEORGE" weight="1" />
+      <edge id="26916" source="JOE" target="KATHLEEN AND GEORGE TOGETHER" weight="1" />
+      <edge id="26917" source="JOE" target="FRANK" weight="2" />
+      <edge id="26918" source="JOE" target="VINCE" weight="1" />
+      <edge id="26919" source="JOE" target="CASHIER" weight="1" />
+      <edge id="26920" source="JOE" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="26921" source="JOE" target="PERSON IN LINE" weight="1" />
+      <edge id="26922" source="JOE" target="ANOTHER PERSON" weight="1" />
+      <edge id="26923" source="JOE" target="ROSE" weight="1" />
+      <edge id="26924" source="JOE" target="MAN" weight="1" />
+      <edge id="26925" source="JOE" target="COMPUTER" weight="1" />
+      <edge id="26926" source="JOE" target="CHRISTINA" weight="1" />
+      <edge id="26927" source="JOE" target="WOMAN SHOPPER" weight="1" />
+      <edge id="26928" source="JOE" target="SALESPERSON" weight="1" />
+      <edge id="26929" source="JOE" target="CHARLIE" weight="2" />
+      <edge id="26930" source="JOE" target="VERONICA" weight="2" />
+      <edge id="26931" source="VOICE" target="JOE" weight="2" />
+      <edge id="26932" source="VOICE" target="PATRICIA" weight="1" />
+      <edge id="26933" source="VOICE" target="JOE &amp; THE COMPUTER" weight="1" />
+      <edge id="26934" source="VOICE" target="KATHLEEN" weight="2" />
+      <edge id="26935" source="PATRICIA" target="JOE" weight="9" />
+      <edge id="26936" source="PATRICIA" target="VOICE" weight="1" />
+      <edge id="26937" source="PATRICIA" target="JOE &amp; THE COMPUTER" weight="1" />
+      <edge id="26938" source="PATRICIA" target="KATHLEEN" weight="3" />
+      <edge id="26939" source="PATRICIA" target="SARAH" weight="1" />
+      <edge id="26940" source="PATRICIA" target="MAN IN OVERCOAT" weight="2" />
+      <edge id="26941" source="PATRICIA" target="FRANK" weight="2" />
+      <edge id="26942" source="PATRICIA" target="VINCE" weight="1" />
+      <edge id="26943" source="PATRICIA" target="CHARLIE" weight="2" />
+      <edge id="26944" source="PATRICIA" target="VERONICA" weight="2" />
+      <edge id="26945" source="JOE &amp; THE COMPUTER" target="JOE" weight="1" />
+      <edge id="26946" source="JOE &amp; THE COMPUTER" target="VOICE" weight="1" />
+      <edge id="26947" source="JOE &amp; THE COMPUTER" target="PATRICIA" weight="1" />
+      <edge id="26948" source="JOE &amp; THE COMPUTER" target="KATHLEEN" weight="1" />
+      <edge id="26949" source="CHRISTINA" target="KATHLEEN" weight="13" />
+      <edge id="26950" source="CHRISTINA" target="GEORGE" weight="6" />
+      <edge id="26951" source="CHRISTINA" target="BIRDIE" weight="5" />
+      <edge id="26952" source="CHRISTINA" target="MEREDITH" weight="1" />
+      <edge id="26953" source="CHRISTINA" target="LAURA" weight="1" />
+      <edge id="26954" source="CHRISTINA" target="FRANK" weight="2" />
+      <edge id="26955" source="CHRISTINA" target="WILLIAM SPUNGEON" weight="1" />
+      <edge id="26956" source="CHRISTINA" target="SPUNGEON" weight="1" />
+      <edge id="26957" source="CHRISTINA" target="TV REPORTER" weight="1" />
+      <edge id="26958" source="CHRISTINA" target="CHRISTINA &amp; KATHLEEN" weight="1" />
+      <edge id="26959" source="CHRISTINA" target="JOE" weight="1" />
+      <edge id="26960" source="CHRISTINA" target="MALE RUNNER" weight="1" />
+      <edge id="26961" source="GEORGE" target="CHRISTINA" weight="6" />
+      <edge id="26962" source="GEORGE" target="KATHLEEN" weight="9" />
+      <edge id="26963" source="GEORGE" target="BIRDIE" weight="4" />
+      <edge id="26964" source="GEORGE" target="TV REPORTER" weight="1" />
+      <edge id="26965" source="GEORGE" target="REPORTER" weight="1" />
+      <edge id="26966" source="GEORGE" target="JOE" weight="1" />
+      <edge id="26967" source="GEORGE" target="ANNABEL" weight="1" />
+      <edge id="26968" source="GEORGE" target="MATT" weight="1" />
+      <edge id="26969" source="GEORGE" target="KATHLEEN AND GEORGE TOGETHER" weight="1" />
+      <edge id="26970" source="GEORGE" target="MEREDITH" weight="2" />
+      <edge id="26971" source="GEORGE" target="LAURA" weight="1" />
+      <edge id="26972" source="GEORGE" target="FRANK" weight="1" />
+      <edge id="26973" source="GEORGE" target="CHRISTINA &amp; KATHLEEN" weight="1" />
+      <edge id="26974" source="BIRDIE" target="CHRISTINA" weight="5" />
+      <edge id="26975" source="BIRDIE" target="KATHLEEN" weight="6" />
+      <edge id="26976" source="BIRDIE" target="GEORGE" weight="4" />
+      <edge id="26977" source="BIRDIE" target="MEREDITH" weight="1" />
+      <edge id="26978" source="BIRDIE" target="LAURA" weight="1" />
+      <edge id="26979" source="BIRDIE" target="FRANK" weight="1" />
+      <edge id="26980" source="GARBAGEMAN #1" target="KATHLEEN" weight="1" />
+      <edge id="26981" source="GARBAGEMAN #1" target="GARBAGEMAN #2" weight="2" />
+      <edge id="26982" source="GARBAGEMAN #2" target="KATHLEEN" weight="1" />
+      <edge id="26983" source="GARBAGEMAN #2" target="GARBAGEMAN #1" weight="2" />
+      <edge id="26984" source="KEVIN" target="JOE" weight="9" />
+      <edge id="26985" source="KEVIN" target="JOE &amp; KEVIN" weight="1" />
+      <edge id="26986" source="KEVIN" target="NELSON" weight="1" />
+      <edge id="26987" source="KEVIN" target="SCHUYLER" weight="1" />
+      <edge id="26988" source="KEVIN" target="KATHLEEN" weight="1" />
+      <edge id="26989" source="JOE &amp; KEVIN" target="KEVIN" weight="1" />
+      <edge id="26990" source="JOE &amp; KEVIN" target="JOE" weight="1" />
+      <edge id="26991" source="NELSON" target="JOE" weight="4" />
+      <edge id="26992" source="NELSON" target="SCHUYLER" weight="3" />
+      <edge id="26993" source="NELSON" target="COMPUTER VOICE" weight="1" />
+      <edge id="26994" source="NELSON" target="KEVIN" weight="1" />
+      <edge id="26995" source="SCHUYLER" target="JOE" weight="3" />
+      <edge id="26996" source="SCHUYLER" target="NELSON" weight="3" />
+      <edge id="26997" source="SCHUYLER" target="COMPUTER VOICE" weight="1" />
+      <edge id="26998" source="SCHUYLER" target="KEVIN" weight="1" />
+      <edge id="26999" source="COMPUTER VOICE" target="JOE" weight="1" />
+      <edge id="27000" source="COMPUTER VOICE" target="NELSON" weight="1" />
+      <edge id="27001" source="COMPUTER VOICE" target="SCHUYLER" weight="1" />
+      <edge id="27002" source="TV REPORTER" target="GEORGE" weight="1" />
+      <edge id="27003" source="TV REPORTER" target="REPORTER" weight="1" />
+      <edge id="27004" source="TV REPORTER" target="WILLIAM SPUNGEON" weight="1" />
+      <edge id="27005" source="TV REPORTER" target="KATHLEEN" weight="1" />
+      <edge id="27006" source="TV REPORTER" target="SPUNGEON" weight="1" />
+      <edge id="27007" source="TV REPORTER" target="FRANK" weight="1" />
+      <edge id="27008" source="TV REPORTER" target="CHRISTINA" weight="1" />
+      <edge id="27009" source="REPORTER" target="TV REPORTER" weight="1" />
+      <edge id="27010" source="REPORTER" target="GEORGE" weight="1" />
+      <edge id="27011" source="ANNABEL" target="JOE" weight="4" />
+      <edge id="27012" source="ANNABEL" target="GILLIAN" weight="1" />
+      <edge id="27013" source="ANNABEL" target="MAUREEN" weight="1" />
+      <edge id="27014" source="ANNABEL" target="MATT" weight="4" />
+      <edge id="27015" source="ANNABEL" target="KATHLEEN" weight="1" />
+      <edge id="27016" source="ANNABEL" target="GEORGE" weight="1" />
+      <edge id="27017" source="ANNABEL" target="KATHLEEN AND GEORGE TOGETHER" weight="1" />
+      <edge id="27018" source="GILLIAN" target="ANNABEL" weight="1" />
+      <edge id="27019" source="GILLIAN" target="JOE" weight="1" />
+      <edge id="27020" source="GILLIAN" target="MAUREEN" weight="1" />
+      <edge id="27021" source="GILLIAN" target="MATT" weight="1" />
+      <edge id="27022" source="MAUREEN" target="ANNABEL" weight="1" />
+      <edge id="27023" source="MAUREEN" target="JOE" weight="1" />
+      <edge id="27024" source="MAUREEN" target="GILLIAN" weight="1" />
+      <edge id="27025" source="MAUREEN" target="MATT" weight="1" />
+      <edge id="27026" source="MATT" target="ANNABEL" weight="4" />
+      <edge id="27027" source="MATT" target="JOE" weight="4" />
+      <edge id="27028" source="MATT" target="GILLIAN" weight="1" />
+      <edge id="27029" source="MATT" target="MAUREEN" weight="1" />
+      <edge id="27030" source="MATT" target="KATHLEEN" weight="1" />
+      <edge id="27031" source="MATT" target="GEORGE" weight="1" />
+      <edge id="27032" source="MATT" target="KATHLEEN AND GEORGE TOGETHER" weight="1" />
+      <edge id="27033" source="KATHLEEN AND GEORGE TOGETHER" target="KATHLEEN" weight="1" />
+      <edge id="27034" source="KATHLEEN AND GEORGE TOGETHER" target="GEORGE" weight="1" />
+      <edge id="27035" source="KATHLEEN AND GEORGE TOGETHER" target="JOE" weight="1" />
+      <edge id="27036" source="KATHLEEN AND GEORGE TOGETHER" target="ANNABEL" weight="1" />
+      <edge id="27037" source="KATHLEEN AND GEORGE TOGETHER" target="MATT" weight="1" />
+      <edge id="27038" source="SARAH" target="PATRICIA" weight="1" />
+      <edge id="27039" source="MAN IN OVERCOAT" target="PATRICIA" weight="2" />
+      <edge id="27040" source="VINCE" target="FRANK" weight="1" />
+      <edge id="27041" source="VINCE" target="PATRICIA" weight="1" />
+      <edge id="27042" source="VINCE" target="JOE" weight="1" />
+      <edge id="27043" source="VINCE" target="KATHLEEN" weight="2" />
+      <edge id="27044" source="MEREDITH" target="KATHLEEN" weight="1" />
+      <edge id="27045" source="MEREDITH" target="BIRDIE" weight="1" />
+      <edge id="27046" source="MEREDITH" target="CHRISTINA" weight="1" />
+      <edge id="27047" source="MEREDITH" target="GEORGE" weight="2" />
+      <edge id="27048" source="MEREDITH" target="LAURA" weight="1" />
+      <edge id="27049" source="LAURA" target="KATHLEEN" weight="1" />
+      <edge id="27050" source="LAURA" target="BIRDIE" weight="1" />
+      <edge id="27051" source="LAURA" target="CHRISTINA" weight="1" />
+      <edge id="27052" source="LAURA" target="GEORGE" weight="1" />
+      <edge id="27053" source="LAURA" target="MEREDITH" weight="1" />
+      <edge id="27054" source="CASHIER" target="KATHLEEN" weight="1" />
+      <edge id="27055" source="CASHIER" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="27056" source="CASHIER" target="PERSON IN LINE" weight="1" />
+      <edge id="27057" source="CASHIER" target="ANOTHER PERSON" weight="1" />
+      <edge id="27058" source="CASHIER" target="JOE" weight="1" />
+      <edge id="27059" source="CASHIER" target="ROSE" weight="1" />
+      <edge id="27060" source="PERSON BEHIND HER IN LINE" target="CASHIER" weight="1" />
+      <edge id="27061" source="PERSON BEHIND HER IN LINE" target="KATHLEEN" weight="1" />
+      <edge id="27062" source="PERSON BEHIND HER IN LINE" target="PERSON IN LINE" weight="1" />
+      <edge id="27063" source="PERSON BEHIND HER IN LINE" target="ANOTHER PERSON" weight="1" />
+      <edge id="27064" source="PERSON BEHIND HER IN LINE" target="JOE" weight="1" />
+      <edge id="27065" source="PERSON BEHIND HER IN LINE" target="ROSE" weight="1" />
+      <edge id="27066" source="PERSON IN LINE" target="CASHIER" weight="1" />
+      <edge id="27067" source="PERSON IN LINE" target="KATHLEEN" weight="1" />
+      <edge id="27068" source="PERSON IN LINE" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="27069" source="PERSON IN LINE" target="ANOTHER PERSON" weight="1" />
+      <edge id="27070" source="PERSON IN LINE" target="JOE" weight="1" />
+      <edge id="27071" source="PERSON IN LINE" target="ROSE" weight="1" />
+      <edge id="27072" source="ANOTHER PERSON" target="CASHIER" weight="1" />
+      <edge id="27073" source="ANOTHER PERSON" target="KATHLEEN" weight="1" />
+      <edge id="27074" source="ANOTHER PERSON" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="27075" source="ANOTHER PERSON" target="PERSON IN LINE" weight="1" />
+      <edge id="27076" source="ANOTHER PERSON" target="JOE" weight="1" />
+      <edge id="27077" source="ANOTHER PERSON" target="ROSE" weight="1" />
+      <edge id="27078" source="ROSE" target="CASHIER" weight="1" />
+      <edge id="27079" source="ROSE" target="KATHLEEN" weight="1" />
+      <edge id="27080" source="ROSE" target="PERSON BEHIND HER IN LINE" weight="1" />
+      <edge id="27081" source="ROSE" target="PERSON IN LINE" weight="1" />
+      <edge id="27082" source="ROSE" target="ANOTHER PERSON" weight="1" />
+      <edge id="27083" source="ROSE" target="JOE" weight="1" />
+      <edge id="27084" source="YOUNG KATHLEEN" target="KATHLEEN" weight="1" />
+      <edge id="27085" source="YOUNG KATHLEEN" target="SIX-YEAR-OLD BOY" weight="1" />
+      <edge id="27086" source="SIX-YEAR-OLD BOY" target="KATHLEEN" weight="1" />
+      <edge id="27087" source="SIX-YEAR-OLD BOY" target="YOUNG KATHLEEN" weight="1" />
+      <edge id="27088" source="WILLIAM SPUNGEON" target="KATHLEEN" weight="1" />
+      <edge id="27089" source="WILLIAM SPUNGEON" target="SPUNGEON" weight="1" />
+      <edge id="27090" source="WILLIAM SPUNGEON" target="FRANK" weight="1" />
+      <edge id="27091" source="WILLIAM SPUNGEON" target="CHRISTINA" weight="1" />
+      <edge id="27092" source="WILLIAM SPUNGEON" target="TV REPORTER" weight="1" />
+      <edge id="27093" source="SPUNGEON" target="WILLIAM SPUNGEON" weight="1" />
+      <edge id="27094" source="SPUNGEON" target="KATHLEEN" weight="2" />
+      <edge id="27095" source="SPUNGEON" target="FRANK" weight="1" />
+      <edge id="27096" source="SPUNGEON" target="CHRISTINA" weight="1" />
+      <edge id="27097" source="SPUNGEON" target="TV REPORTER" weight="1" />
+      <edge id="27098" source="CHANNEL 2 TV REPORTER" target="KATHLEEN" weight="2" />
+      <edge id="27099" source="SIDNEY-ANN" target="FRANK" weight="1" />
+      <edge id="27100" source="FRANK ON TELEVISION" target="SIDNEY-ANN ON TELEVISION" weight="1" />
+      <edge id="27101" source="FRANK ON TELEVISION" target="KATHLEEN" weight="1" />
+      <edge id="27102" source="FRANK ON TELEVISION" target="FRANK" weight="1" />
+      <edge id="27103" source="SIDNEY-ANN ON TELEVISION" target="FRANK ON TELEVISION" weight="1" />
+      <edge id="27104" source="SIDNEY-ANN ON TELEVISION" target="KATHLEEN" weight="1" />
+      <edge id="27105" source="SIDNEY-ANN ON TELEVISION" target="FRANK" weight="1" />
+      <edge id="27106" source="MAN" target="KATHLEEN" weight="1" />
+      <edge id="27107" source="MAN" target="JOE" weight="1" />
+      <edge id="27108" source="CHRISTINA &amp; KATHLEEN" target="KATHLEEN" weight="1" />
+      <edge id="27109" source="CHRISTINA &amp; KATHLEEN" target="GEORGE" weight="1" />
+      <edge id="27110" source="CHRISTINA &amp; KATHLEEN" target="CHRISTINA" weight="1" />
+      <edge id="27111" source="PERSON IN FRONT OF THEM" target="KATHLEEN" weight="1" />
+      <edge id="27112" source="PERSON IN FRONT OF THEM" target="FRANK" weight="1" />
+      <edge id="27113" source="WOMAN SHOPPER" target="KATHLEEN" weight="2" />
+      <edge id="27114" source="WOMAN SHOPPER" target="SECOND SHOPPER" weight="1" />
+      <edge id="27115" source="WOMAN SHOPPER" target="THIRD SHOPPER" weight="1" />
+      <edge id="27116" source="WOMAN SHOPPER" target="FOURTH SHOPPER" weight="1" />
+      <edge id="27117" source="WOMAN SHOPPER" target="SALESPERSON" weight="1" />
+      <edge id="27118" source="WOMAN SHOPPER" target="JOE" weight="1" />
+      <edge id="27119" source="SECOND SHOPPER" target="KATHLEEN" weight="1" />
+      <edge id="27120" source="SECOND SHOPPER" target="WOMAN SHOPPER" weight="1" />
+      <edge id="27121" source="SECOND SHOPPER" target="THIRD SHOPPER" weight="1" />
+      <edge id="27122" source="SECOND SHOPPER" target="FOURTH SHOPPER" weight="1" />
+      <edge id="27123" source="THIRD SHOPPER" target="KATHLEEN" weight="1" />
+      <edge id="27124" source="THIRD SHOPPER" target="WOMAN SHOPPER" weight="1" />
+      <edge id="27125" source="THIRD SHOPPER" target="SECOND SHOPPER" weight="1" />
+      <edge id="27126" source="THIRD SHOPPER" target="FOURTH SHOPPER" weight="1" />
+      <edge id="27127" source="FOURTH SHOPPER" target="KATHLEEN" weight="1" />
+      <edge id="27128" source="FOURTH SHOPPER" target="WOMAN SHOPPER" weight="1" />
+      <edge id="27129" source="FOURTH SHOPPER" target="SECOND SHOPPER" weight="1" />
+      <edge id="27130" source="FOURTH SHOPPER" target="THIRD SHOPPER" weight="1" />
+      <edge id="27131" source="SALESPERSON" target="WOMAN SHOPPER" weight="1" />
+      <edge id="27132" source="SALESPERSON" target="KATHLEEN" weight="1" />
+      <edge id="27133" source="SALESPERSON" target="JOE" weight="1" />
+      <edge id="27134" source="CHARLIE" target="JOE" weight="2" />
+      <edge id="27135" source="CHARLIE" target="PATRICIA" weight="2" />
+      <edge id="27136" source="CHARLIE" target="VERONICA" weight="2" />
+      <edge id="27137" source="VERONICA" target="JOE" weight="2" />
+      <edge id="27138" source="VERONICA" target="PATRICIA" weight="2" />
+      <edge id="27139" source="VERONICA" target="CHARLIE" weight="2" />
+      <edge id="27140" source="MALE RUNNER" target="CHRISTINA" weight="1" />
+    </edges>
+  </graph>
+</gexf>

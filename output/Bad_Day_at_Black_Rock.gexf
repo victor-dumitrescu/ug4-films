@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HASTINGS" label="HASTINGS" />
+      <node id="CONDUCTOR" label="CONDUCTOR" />
+      <node id="MACREEDY" label="MACREEDY" />
+      <node id="COLEY" label="COLEY" />
+      <node id="HECTOR" label="HECTOR" />
+      <node id="PETE" label="PETE" />
+      <node id="DOC" label="DOC" />
+      <node id="SAM" label="SAM" />
+      <node id="SMITH" label="SMITH" />
+      <node id="T.J." label="T.J." />
+      <node id="TIM" label="TIM" />
+      <node id="LIZ" label="LIZ" />
+      <node id="KROOL" label="KROOL" />
+      <node id="MURTRY" label="MURTRY" />
+      <node id="BENTHAM" label="BENTHAM" />
+      <node id="LENARD" label="LENARD" />
+      <node id="SMITH'S VOICE" label="SMITH'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="1435" source="HASTINGS" target="CONDUCTOR" weight="1" />
+      <edge id="1436" source="HASTINGS" target="MACREEDY" weight="3" />
+      <edge id="1437" source="HASTINGS" target="COLEY" weight="3" />
+      <edge id="1438" source="HASTINGS" target="HECTOR" weight="3" />
+      <edge id="1439" source="HASTINGS" target="SMITH" weight="2" />
+      <edge id="1440" source="HASTINGS" target="DOC" weight="1" />
+      <edge id="1441" source="HASTINGS" target="PETE" weight="1" />
+      <edge id="1442" source="CONDUCTOR" target="MACREEDY" weight="2" />
+      <edge id="1443" source="CONDUCTOR" target="HASTINGS" weight="1" />
+      <edge id="1444" source="MACREEDY" target="CONDUCTOR" weight="2" />
+      <edge id="1445" source="MACREEDY" target="HASTINGS" weight="3" />
+      <edge id="1446" source="MACREEDY" target="COLEY" weight="3" />
+      <edge id="1447" source="MACREEDY" target="HECTOR" weight="5" />
+      <edge id="1448" source="MACREEDY" target="PETE" weight="4" />
+      <edge id="1449" source="MACREEDY" target="DOC" weight="8" />
+      <edge id="1450" source="MACREEDY" target="SAM" weight="2" />
+      <edge id="1451" source="MACREEDY" target="T.J." weight="1" />
+      <edge id="1452" source="MACREEDY" target="TIM" weight="4" />
+      <edge id="1453" source="MACREEDY" target="SMITH" weight="7" />
+      <edge id="1454" source="MACREEDY" target="LIZ" weight="3" />
+      <edge id="1455" source="MACREEDY" target="SMITH'S VOICE" weight="1" />
+      <edge id="1456" source="COLEY" target="HASTINGS" weight="3" />
+      <edge id="1457" source="COLEY" target="MACREEDY" weight="3" />
+      <edge id="1458" source="COLEY" target="HECTOR" weight="4" />
+      <edge id="1459" source="COLEY" target="PETE" weight="3" />
+      <edge id="1460" source="COLEY" target="SMITH" weight="5" />
+      <edge id="1461" source="COLEY" target="DOC" weight="3" />
+      <edge id="1462" source="COLEY" target="SAM" weight="1" />
+      <edge id="1463" source="HECTOR" target="HASTINGS" weight="3" />
+      <edge id="1464" source="HECTOR" target="MACREEDY" weight="5" />
+      <edge id="1465" source="HECTOR" target="COLEY" weight="4" />
+      <edge id="1466" source="HECTOR" target="PETE" weight="6" />
+      <edge id="1467" source="HECTOR" target="SMITH" weight="4" />
+      <edge id="1468" source="HECTOR" target="DOC" weight="4" />
+      <edge id="1469" source="HECTOR" target="TIM" weight="1" />
+      <edge id="1470" source="PETE" target="MACREEDY" weight="4" />
+      <edge id="1471" source="PETE" target="HECTOR" weight="6" />
+      <edge id="1472" source="PETE" target="DOC" weight="3" />
+      <edge id="1473" source="PETE" target="SAM" weight="1" />
+      <edge id="1474" source="PETE" target="SMITH" weight="4" />
+      <edge id="1475" source="PETE" target="COLEY" weight="3" />
+      <edge id="1476" source="PETE" target="HASTINGS" weight="1" />
+      <edge id="1477" source="PETE" target="TIM" weight="1" />
+      <edge id="1478" source="DOC" target="SAM" weight="2" />
+      <edge id="1479" source="DOC" target="MACREEDY" weight="8" />
+      <edge id="1480" source="DOC" target="PETE" weight="3" />
+      <edge id="1481" source="DOC" target="SMITH" weight="4" />
+      <edge id="1482" source="DOC" target="COLEY" weight="3" />
+      <edge id="1483" source="DOC" target="HECTOR" weight="4" />
+      <edge id="1484" source="DOC" target="HASTINGS" weight="1" />
+      <edge id="1485" source="DOC" target="TIM" weight="3" />
+      <edge id="1486" source="SAM" target="DOC" weight="2" />
+      <edge id="1487" source="SAM" target="MACREEDY" weight="2" />
+      <edge id="1488" source="SAM" target="PETE" weight="1" />
+      <edge id="1489" source="SAM" target="COLEY" weight="1" />
+      <edge id="1490" source="SAM" target="SMITH" weight="1" />
+      <edge id="1491" source="SMITH" target="PETE" weight="4" />
+      <edge id="1492" source="SMITH" target="COLEY" weight="5" />
+      <edge id="1493" source="SMITH" target="HECTOR" weight="4" />
+      <edge id="1494" source="SMITH" target="DOC" weight="4" />
+      <edge id="1495" source="SMITH" target="HASTINGS" weight="2" />
+      <edge id="1496" source="SMITH" target="MACREEDY" weight="7" />
+      <edge id="1497" source="SMITH" target="LIZ" weight="2" />
+      <edge id="1498" source="SMITH" target="TIM" weight="2" />
+      <edge id="1499" source="SMITH" target="SAM" weight="1" />
+      <edge id="1500" source="SMITH" target="SMITH'S VOICE" weight="1" />
+      <edge id="1501" source="T.J." target="MACREEDY" weight="1" />
+      <edge id="1502" source="TIM" target="MACREEDY" weight="4" />
+      <edge id="1503" source="TIM" target="SMITH" weight="2" />
+      <edge id="1504" source="TIM" target="DOC" weight="3" />
+      <edge id="1505" source="TIM" target="PETE" weight="1" />
+      <edge id="1506" source="TIM" target="HECTOR" weight="1" />
+      <edge id="1507" source="LIZ" target="MACREEDY" weight="3" />
+      <edge id="1508" source="LIZ" target="SMITH" weight="2" />
+      <edge id="1509" source="LIZ" target="SMITH'S VOICE" weight="1" />
+      <edge id="1510" source="KROOL" target="MURTRY" weight="1" />
+      <edge id="1511" source="KROOL" target="BENTHAM" weight="1" />
+      <edge id="1512" source="KROOL" target="LENARD" weight="1" />
+      <edge id="1513" source="MURTRY" target="KROOL" weight="1" />
+      <edge id="1514" source="MURTRY" target="BENTHAM" weight="1" />
+      <edge id="1515" source="MURTRY" target="LENARD" weight="1" />
+      <edge id="1516" source="BENTHAM" target="KROOL" weight="1" />
+      <edge id="1517" source="BENTHAM" target="MURTRY" weight="1" />
+      <edge id="1518" source="BENTHAM" target="LENARD" weight="1" />
+      <edge id="1519" source="LENARD" target="KROOL" weight="1" />
+      <edge id="1520" source="LENARD" target="MURTRY" weight="1" />
+      <edge id="1521" source="LENARD" target="BENTHAM" weight="1" />
+      <edge id="1522" source="SMITH'S VOICE" target="LIZ" weight="1" />
+      <edge id="1523" source="SMITH'S VOICE" target="MACREEDY" weight="1" />
+      <edge id="1524" source="SMITH'S VOICE" target="SMITH" weight="1" />
+    </edges>
+  </graph>
+</gexf>

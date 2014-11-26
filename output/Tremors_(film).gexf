@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="OLD FRED" label="OLD FRED" />
+      <node id="EDGAR" label="EDGAR" />
+      <node id="VAL" label="VAL" />
+      <node id="EARL" label="EARL" />
+      <node id="RHONDA" label="RHONDA" />
+      <node id="MELVIN" label="MELVIN" />
+      <node id="BURT" label="BURT" />
+      <node id="HEATHER" label="HEATHER" />
+      <node id="PHAM VAN" label="PHAM VAN" />
+      <node id="NESTOR" label="NESTOR" />
+      <node id="VIOLA" label="VIOLA" />
+      <node id="NANCY" label="NANCY" />
+      <node id="MINDY" label="MINDY" />
+      <node id="MEGAN" label="MEGAN" />
+      <node id="JIM" label="JIM" />
+      <node id="HOWARD" label="HOWARD" />
+      <node id="CARMINE" label="CARMINE" />
+      <node id="MIGUEL" label="MIGUEL" />
+      <node id="CROWD" label="CROWD" />
+      <node id="TOWNSFOLK" label="TOWNSFOLK" />
+    </nodes>
+    <edges>
+      <edge id="25039" source="OLD FRED" target="EDGAR" weight="1" />
+      <edge id="25040" source="EDGAR" target="OLD FRED" weight="1" />
+      <edge id="25041" source="VAL" target="EARL" weight="60" />
+      <edge id="25042" source="VAL" target="RHONDA" weight="23" />
+      <edge id="25043" source="VAL" target="BURT" weight="20" />
+      <edge id="25044" source="VAL" target="HEATHER" weight="9" />
+      <edge id="25045" source="VAL" target="PHAM VAN" weight="7" />
+      <edge id="25046" source="VAL" target="MELVIN" weight="9" />
+      <edge id="25047" source="VAL" target="NESTOR" weight="8" />
+      <edge id="25048" source="VAL" target="VIOLA" weight="6" />
+      <edge id="25049" source="VAL" target="NANCY" weight="8" />
+      <edge id="25050" source="VAL" target="MINDY" weight="4" />
+      <edge id="25051" source="VAL" target="MEGAN" weight="1" />
+      <edge id="25052" source="VAL" target="JIM" weight="1" />
+      <edge id="25053" source="VAL" target="MIGUEL" weight="12" />
+      <edge id="25054" source="VAL" target="CROWD" weight="1" />
+      <edge id="25055" source="VAL" target="TOWNSFOLK" weight="1" />
+      <edge id="25056" source="EARL" target="VAL" weight="60" />
+      <edge id="25057" source="EARL" target="RHONDA" weight="24" />
+      <edge id="25058" source="EARL" target="MELVIN" weight="10" />
+      <edge id="25059" source="EARL" target="BURT" weight="16" />
+      <edge id="25060" source="EARL" target="HEATHER" weight="8" />
+      <edge id="25061" source="EARL" target="PHAM VAN" weight="7" />
+      <edge id="25062" source="EARL" target="NESTOR" weight="7" />
+      <edge id="25063" source="EARL" target="VIOLA" weight="6" />
+      <edge id="25064" source="EARL" target="NANCY" weight="8" />
+      <edge id="25065" source="EARL" target="MINDY" weight="4" />
+      <edge id="25066" source="EARL" target="MEGAN" weight="1" />
+      <edge id="25067" source="EARL" target="JIM" weight="1" />
+      <edge id="25068" source="EARL" target="HOWARD" weight="1" />
+      <edge id="25069" source="EARL" target="CARMINE" weight="1" />
+      <edge id="25070" source="EARL" target="MIGUEL" weight="11" />
+      <edge id="25071" source="EARL" target="CROWD" weight="1" />
+      <edge id="25072" source="EARL" target="TOWNSFOLK" weight="1" />
+      <edge id="25073" source="RHONDA" target="VAL" weight="23" />
+      <edge id="25074" source="RHONDA" target="EARL" weight="24" />
+      <edge id="25075" source="RHONDA" target="MIGUEL" weight="10" />
+      <edge id="25076" source="RHONDA" target="NESTOR" weight="2" />
+      <edge id="25077" source="RHONDA" target="NANCY" weight="3" />
+      <edge id="25078" source="RHONDA" target="PHAM VAN" weight="4" />
+      <edge id="25079" source="RHONDA" target="VIOLA" weight="1" />
+      <edge id="25080" source="RHONDA" target="BURT" weight="7" />
+      <edge id="25081" source="RHONDA" target="HEATHER" weight="4" />
+      <edge id="25082" source="RHONDA" target="MELVIN" weight="4" />
+      <edge id="25083" source="RHONDA" target="MINDY" weight="2" />
+      <edge id="25084" source="MELVIN" target="EARL" weight="10" />
+      <edge id="25085" source="MELVIN" target="BURT" weight="7" />
+      <edge id="25086" source="MELVIN" target="VAL" weight="9" />
+      <edge id="25087" source="MELVIN" target="NESTOR" weight="3" />
+      <edge id="25088" source="MELVIN" target="PHAM VAN" weight="2" />
+      <edge id="25089" source="MELVIN" target="MIGUEL" weight="5" />
+      <edge id="25090" source="MELVIN" target="NANCY" weight="4" />
+      <edge id="25091" source="MELVIN" target="VIOLA" weight="1" />
+      <edge id="25092" source="MELVIN" target="HEATHER" weight="5" />
+      <edge id="25093" source="MELVIN" target="RHONDA" weight="4" />
+      <edge id="25094" source="MELVIN" target="TOWNSFOLK" weight="1" />
+      <edge id="25095" source="MELVIN" target="MINDY" weight="1" />
+      <edge id="25096" source="BURT" target="HEATHER" weight="10" />
+      <edge id="25097" source="BURT" target="VAL" weight="20" />
+      <edge id="25098" source="BURT" target="EARL" weight="16" />
+      <edge id="25099" source="BURT" target="PHAM VAN" weight="3" />
+      <edge id="25100" source="BURT" target="MELVIN" weight="7" />
+      <edge id="25101" source="BURT" target="NANCY" weight="5" />
+      <edge id="25102" source="BURT" target="VIOLA" weight="2" />
+      <edge id="25103" source="BURT" target="NESTOR" weight="3" />
+      <edge id="25104" source="BURT" target="MIGUEL" weight="6" />
+      <edge id="25105" source="BURT" target="RHONDA" weight="7" />
+      <edge id="25106" source="BURT" target="TOWNSFOLK" weight="1" />
+      <edge id="25107" source="BURT" target="MINDY" weight="1" />
+      <edge id="25108" source="HEATHER" target="BURT" weight="10" />
+      <edge id="25109" source="HEATHER" target="VAL" weight="9" />
+      <edge id="25110" source="HEATHER" target="EARL" weight="8" />
+      <edge id="25111" source="HEATHER" target="PHAM VAN" weight="2" />
+      <edge id="25112" source="HEATHER" target="NESTOR" weight="2" />
+      <edge id="25113" source="HEATHER" target="VIOLA" weight="1" />
+      <edge id="25114" source="HEATHER" target="MIGUEL" weight="3" />
+      <edge id="25115" source="HEATHER" target="NANCY" weight="4" />
+      <edge id="25116" source="HEATHER" target="MELVIN" weight="5" />
+      <edge id="25117" source="HEATHER" target="RHONDA" weight="4" />
+      <edge id="25118" source="HEATHER" target="TOWNSFOLK" weight="1" />
+      <edge id="25119" source="HEATHER" target="MINDY" weight="1" />
+      <edge id="25120" source="PHAM VAN" target="BURT" weight="3" />
+      <edge id="25121" source="PHAM VAN" target="HEATHER" weight="2" />
+      <edge id="25122" source="PHAM VAN" target="VAL" weight="7" />
+      <edge id="25123" source="PHAM VAN" target="EARL" weight="7" />
+      <edge id="25124" source="PHAM VAN" target="NESTOR" weight="4" />
+      <edge id="25125" source="PHAM VAN" target="MELVIN" weight="2" />
+      <edge id="25126" source="PHAM VAN" target="MIGUEL" weight="6" />
+      <edge id="25127" source="PHAM VAN" target="NANCY" weight="3" />
+      <edge id="25128" source="PHAM VAN" target="VIOLA" weight="3" />
+      <edge id="25129" source="PHAM VAN" target="RHONDA" weight="4" />
+      <edge id="25130" source="NESTOR" target="VAL" weight="8" />
+      <edge id="25131" source="NESTOR" target="EARL" weight="7" />
+      <edge id="25132" source="NESTOR" target="PHAM VAN" weight="4" />
+      <edge id="25133" source="NESTOR" target="MELVIN" weight="3" />
+      <edge id="25134" source="NESTOR" target="MIGUEL" weight="4" />
+      <edge id="25135" source="NESTOR" target="BURT" weight="3" />
+      <edge id="25136" source="NESTOR" target="NANCY" weight="4" />
+      <edge id="25137" source="NESTOR" target="VIOLA" weight="3" />
+      <edge id="25138" source="NESTOR" target="HEATHER" weight="2" />
+      <edge id="25139" source="NESTOR" target="RHONDA" weight="2" />
+      <edge id="25140" source="VIOLA" target="VAL" weight="6" />
+      <edge id="25141" source="VIOLA" target="EARL" weight="6" />
+      <edge id="25142" source="VIOLA" target="BURT" weight="2" />
+      <edge id="25143" source="VIOLA" target="NANCY" weight="3" />
+      <edge id="25144" source="VIOLA" target="MELVIN" weight="1" />
+      <edge id="25145" source="VIOLA" target="NESTOR" weight="3" />
+      <edge id="25146" source="VIOLA" target="PHAM VAN" weight="3" />
+      <edge id="25147" source="VIOLA" target="MIGUEL" weight="2" />
+      <edge id="25148" source="VIOLA" target="HEATHER" weight="1" />
+      <edge id="25149" source="VIOLA" target="RHONDA" weight="1" />
+      <edge id="25150" source="NANCY" target="EARL" weight="8" />
+      <edge id="25151" source="NANCY" target="VAL" weight="8" />
+      <edge id="25152" source="NANCY" target="MINDY" weight="3" />
+      <edge id="25153" source="NANCY" target="BURT" weight="5" />
+      <edge id="25154" source="NANCY" target="MELVIN" weight="4" />
+      <edge id="25155" source="NANCY" target="VIOLA" weight="3" />
+      <edge id="25156" source="NANCY" target="NESTOR" weight="4" />
+      <edge id="25157" source="NANCY" target="PHAM VAN" weight="3" />
+      <edge id="25158" source="NANCY" target="MIGUEL" weight="3" />
+      <edge id="25159" source="NANCY" target="HEATHER" weight="4" />
+      <edge id="25160" source="NANCY" target="RHONDA" weight="3" />
+      <edge id="25161" source="NANCY" target="CROWD" weight="1" />
+      <edge id="25162" source="MINDY" target="EARL" weight="4" />
+      <edge id="25163" source="MINDY" target="VAL" weight="4" />
+      <edge id="25164" source="MINDY" target="NANCY" weight="3" />
+      <edge id="25165" source="MINDY" target="CROWD" weight="1" />
+      <edge id="25166" source="MINDY" target="MIGUEL" weight="1" />
+      <edge id="25167" source="MINDY" target="MELVIN" weight="1" />
+      <edge id="25168" source="MINDY" target="BURT" weight="1" />
+      <edge id="25169" source="MINDY" target="HEATHER" weight="1" />
+      <edge id="25170" source="MINDY" target="RHONDA" weight="2" />
+      <edge id="25171" source="MEGAN" target="VAL" weight="1" />
+      <edge id="25172" source="MEGAN" target="EARL" weight="1" />
+      <edge id="25173" source="MEGAN" target="JIM" weight="2" />
+      <edge id="25174" source="JIM" target="VAL" weight="1" />
+      <edge id="25175" source="JIM" target="MEGAN" weight="2" />
+      <edge id="25176" source="JIM" target="EARL" weight="1" />
+      <edge id="25177" source="HOWARD" target="EARL" weight="1" />
+      <edge id="25178" source="HOWARD" target="CARMINE" weight="1" />
+      <edge id="25179" source="CARMINE" target="EARL" weight="1" />
+      <edge id="25180" source="CARMINE" target="HOWARD" weight="1" />
+      <edge id="25181" source="MIGUEL" target="NESTOR" weight="4" />
+      <edge id="25182" source="MIGUEL" target="VAL" weight="12" />
+      <edge id="25183" source="MIGUEL" target="PHAM VAN" weight="6" />
+      <edge id="25184" source="MIGUEL" target="MELVIN" weight="5" />
+      <edge id="25185" source="MIGUEL" target="EARL" weight="11" />
+      <edge id="25186" source="MIGUEL" target="BURT" weight="6" />
+      <edge id="25187" source="MIGUEL" target="VIOLA" weight="2" />
+      <edge id="25188" source="MIGUEL" target="HEATHER" weight="3" />
+      <edge id="25189" source="MIGUEL" target="NANCY" weight="3" />
+      <edge id="25190" source="MIGUEL" target="RHONDA" weight="10" />
+      <edge id="25191" source="MIGUEL" target="MINDY" weight="1" />
+      <edge id="25192" source="CROWD" target="NANCY" weight="1" />
+      <edge id="25193" source="CROWD" target="MINDY" weight="1" />
+      <edge id="25194" source="CROWD" target="VAL" weight="1" />
+      <edge id="25195" source="CROWD" target="EARL" weight="1" />
+      <edge id="25196" source="TOWNSFOLK" target="BURT" weight="1" />
+      <edge id="25197" source="TOWNSFOLK" target="VAL" weight="1" />
+      <edge id="25198" source="TOWNSFOLK" target="EARL" weight="1" />
+      <edge id="25199" source="TOWNSFOLK" target="HEATHER" weight="1" />
+      <edge id="25200" source="TOWNSFOLK" target="MELVIN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

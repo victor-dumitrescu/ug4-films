@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="THE CHART KEEPER" label="THE CHART KEEPER" />
+      <node id="ANOTHER INDIAN" label="ANOTHER INDIAN" />
+      <node id="STILL ANOTHER" label="STILL ANOTHER" />
+      <node id="UNCLE" label="UNCLE" />
+      <node id="DADDY" label="DADDY" />
+      <node id="DR. DREYFUS" label="DR. DREYFUS" />
+      <node id="MRS. HANKSHAW" label="MRS. HANKSHAW" />
+      <node id="MADAME ZOE" label="MADAME ZOE" />
+      <node id="SISSY" label="SISSY" />
+      <node id="MRS HANKSHAW" label="MRS HANKSHAW" />
+      <node id="COWGIRL INTERLUDE" label="COWGIRL INTERLUDE" />
+      <node id="DELORES" label="DELORES" />
+      <node id="MAN" label="MAN" />
+      <node id="THE COUNTESS" label="THE COUNTESS" />
+      <node id="JELLY" label="JELLY" />
+      <node id="MARY" label="MARY" />
+      <node id="DEBBIE" label="DEBBIE" />
+      <node id="BIG RED" label="BIG RED" />
+      <node id="ELAINE" label="ELAINE" />
+      <node id="HEATHER" label="HEATHER" />
+      <node id="RUPERT" label="RUPERT" />
+      <node id="JULIAN" label="JULIAN" />
+      <node id="MARIE" label="MARIE" />
+      <node id="CARLA" label="CARLA" />
+      <node id="HOWARD" label="HOWARD" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="OTHER MAN" label="OTHER MAN" />
+      <node id="MISS ADRIAN" label="MISS ADRIAN" />
+      <node id="MISS ADRIAN'S VOICE" label="MISS ADRIAN'S VOICE" />
+      <node id="COWGIRL" label="COWGIRL" />
+      <node id="CAMERAMAN" label="CAMERAMAN" />
+      <node id="MAID" label="MAID" />
+      <node id="KYM" label="KYM" />
+      <node id="GLORIA" label="GLORIA" />
+      <node id="CHINK" label="CHINK" />
+      <node id="SURGEON" label="SURGEON" />
+      <node id="DREYFUS" label="DREYFUS" />
+      <node id="SHERIFF" label="SHERIFF" />
+      <node id="UNDERSECRETARY" label="UNDERSECRETARY" />
+      <node id="UNDERSECRETARY VOICE" label="UNDERSECRETARY VOICE" />
+      <node id="NEWS REPORTER" label="NEWS REPORTER" />
+      <node id="JELLY'S VOICE" label="JELLY'S VOICE" />
+      <node id="RADIO NEWS REPORT" label="RADIO NEWS REPORT" />
+      <node id="AGENT" label="AGENT" />
+      <node id="DEBBIE AND JELLY TOGETHER" label="DEBBIE AND JELLY TOGETHER" />
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="DONNA" label="DONNA" />
+      <node id="VOICE" label="VOICE" />
+      <node id="A VOICE" label="A VOICE" />
+    </nodes>
+    <edges>
+      <edge id="7445" source="THE CHART KEEPER" target="ANOTHER INDIAN" weight="1" />
+      <edge id="7446" source="THE CHART KEEPER" target="STILL ANOTHER" weight="1" />
+      <edge id="7447" source="ANOTHER INDIAN" target="THE CHART KEEPER" weight="1" />
+      <edge id="7448" source="ANOTHER INDIAN" target="STILL ANOTHER" weight="1" />
+      <edge id="7449" source="STILL ANOTHER" target="THE CHART KEEPER" weight="1" />
+      <edge id="7450" source="STILL ANOTHER" target="ANOTHER INDIAN" weight="1" />
+      <edge id="7451" source="UNCLE" target="DADDY" weight="1" />
+      <edge id="7452" source="DADDY" target="UNCLE" weight="1" />
+      <edge id="7453" source="DR. DREYFUS" target="MRS. HANKSHAW" weight="1" />
+      <edge id="7454" source="DR. DREYFUS" target="SISSY" weight="1" />
+      <edge id="7455" source="DR. DREYFUS" target="DREYFUS" weight="1" />
+      <edge id="7456" source="MRS. HANKSHAW" target="DR. DREYFUS" weight="1" />
+      <edge id="7457" source="MRS. HANKSHAW" target="MADAME ZOE" weight="1" />
+      <edge id="7458" source="MRS. HANKSHAW" target="SISSY" weight="1" />
+      <edge id="7459" source="MRS. HANKSHAW" target="MRS HANKSHAW" weight="1" />
+      <edge id="7460" source="MRS. HANKSHAW" target="COWGIRL INTERLUDE" weight="1" />
+      <edge id="7461" source="MADAME ZOE" target="SISSY" weight="1" />
+      <edge id="7462" source="MADAME ZOE" target="MRS HANKSHAW" weight="1" />
+      <edge id="7463" source="MADAME ZOE" target="MRS. HANKSHAW" weight="1" />
+      <edge id="7464" source="MADAME ZOE" target="COWGIRL INTERLUDE" weight="1" />
+      <edge id="7465" source="SISSY" target="MADAME ZOE" weight="1" />
+      <edge id="7466" source="SISSY" target="MRS HANKSHAW" weight="1" />
+      <edge id="7467" source="SISSY" target="MRS. HANKSHAW" weight="1" />
+      <edge id="7468" source="SISSY" target="COWGIRL INTERLUDE" weight="2" />
+      <edge id="7469" source="SISSY" target="MAN" weight="2" />
+      <edge id="7470" source="SISSY" target="THE COUNTESS" weight="2" />
+      <edge id="7471" source="SISSY" target="MARIE" weight="3" />
+      <edge id="7472" source="SISSY" target="RUPERT" weight="2" />
+      <edge id="7473" source="SISSY" target="CARLA" weight="2" />
+      <edge id="7474" source="SISSY" target="HOWARD" weight="2" />
+      <edge id="7475" source="SISSY" target="JULIAN" weight="1" />
+      <edge id="7476" source="SISSY" target="WOMAN" weight="1" />
+      <edge id="7477" source="SISSY" target="DRIVER" weight="1" />
+      <edge id="7478" source="SISSY" target="OTHER MAN" weight="1" />
+      <edge id="7479" source="SISSY" target="MISS ADRIAN" weight="1" />
+      <edge id="7480" source="SISSY" target="MAID" weight="1" />
+      <edge id="7481" source="SISSY" target="JELLY" weight="5" />
+      <edge id="7482" source="SISSY" target="CHINK" weight="4" />
+      <edge id="7483" source="SISSY" target="SURGEON" weight="1" />
+      <edge id="7484" source="SISSY" target="DR. DREYFUS" weight="1" />
+      <edge id="7485" source="SISSY" target="DREYFUS" weight="1" />
+      <edge id="7486" source="SISSY" target="NEWS REPORTER" weight="1" />
+      <edge id="7487" source="SISSY" target="KYM" weight="1" />
+      <edge id="7488" source="SISSY" target="AGENT" weight="1" />
+      <edge id="7489" source="SISSY" target="DEBBIE" weight="1" />
+      <edge id="7490" source="SISSY" target="DEBBIE AND JELLY TOGETHER" weight="1" />
+      <edge id="7491" source="SISSY" target="ANNOUNCER" weight="1" />
+      <edge id="7492" source="SISSY" target="DELORES" weight="1" />
+      <edge id="7493" source="MRS HANKSHAW" target="MADAME ZOE" weight="1" />
+      <edge id="7494" source="MRS HANKSHAW" target="SISSY" weight="1" />
+      <edge id="7495" source="MRS HANKSHAW" target="MRS. HANKSHAW" weight="1" />
+      <edge id="7496" source="MRS HANKSHAW" target="COWGIRL INTERLUDE" weight="1" />
+      <edge id="7497" source="COWGIRL INTERLUDE" target="MADAME ZOE" weight="1" />
+      <edge id="7498" source="COWGIRL INTERLUDE" target="SISSY" weight="2" />
+      <edge id="7499" source="COWGIRL INTERLUDE" target="MRS HANKSHAW" weight="1" />
+      <edge id="7500" source="COWGIRL INTERLUDE" target="MRS. HANKSHAW" weight="1" />
+      <edge id="7501" source="COWGIRL INTERLUDE" target="THE COUNTESS" weight="1" />
+      <edge id="7502" source="DELORES" target="JELLY" weight="5" />
+      <edge id="7503" source="DELORES" target="ELAINE" weight="1" />
+      <edge id="7504" source="DELORES" target="DEBBIE" weight="2" />
+      <edge id="7505" source="DELORES" target="HEATHER" weight="2" />
+      <edge id="7506" source="DELORES" target="KYM" weight="1" />
+      <edge id="7507" source="DELORES" target="GLORIA" weight="1" />
+      <edge id="7508" source="DELORES" target="BIG RED" weight="2" />
+      <edge id="7509" source="DELORES" target="MISS ADRIAN" weight="1" />
+      <edge id="7510" source="DELORES" target="SHERIFF" weight="1" />
+      <edge id="7511" source="DELORES" target="DONNA" weight="1" />
+      <edge id="7512" source="DELORES" target="SISSY" weight="1" />
+      <edge id="7513" source="DELORES" target="CHINK" weight="1" />
+      <edge id="7514" source="MAN" target="SISSY" weight="2" />
+      <edge id="7515" source="MAN" target="MISS ADRIAN" weight="1" />
+      <edge id="7516" source="MAN" target="CAMERAMAN" weight="1" />
+      <edge id="7517" source="MAN" target="COWGIRL" weight="1" />
+      <edge id="7518" source="THE COUNTESS" target="SISSY" weight="2" />
+      <edge id="7519" source="THE COUNTESS" target="COWGIRL INTERLUDE" weight="1" />
+      <edge id="7520" source="THE COUNTESS" target="JULIAN" weight="1" />
+      <edge id="7521" source="THE COUNTESS" target="JELLY" weight="1" />
+      <edge id="7522" source="THE COUNTESS" target="MISS ADRIAN" weight="1" />
+      <edge id="7523" source="JELLY" target="DELORES" weight="5" />
+      <edge id="7524" source="JELLY" target="ELAINE" weight="1" />
+      <edge id="7525" source="JELLY" target="DEBBIE" weight="3" />
+      <edge id="7526" source="JELLY" target="HEATHER" weight="2" />
+      <edge id="7527" source="JELLY" target="MAID" weight="1" />
+      <edge id="7528" source="JELLY" target="SISSY" weight="5" />
+      <edge id="7529" source="JELLY" target="KYM" weight="1" />
+      <edge id="7530" source="JELLY" target="GLORIA" weight="2" />
+      <edge id="7531" source="JELLY" target="BIG RED" weight="1" />
+      <edge id="7532" source="JELLY" target="MISS ADRIAN" weight="2" />
+      <edge id="7533" source="JELLY" target="THE COUNTESS" weight="1" />
+      <edge id="7534" source="JELLY" target="SHERIFF" weight="1" />
+      <edge id="7535" source="JELLY" target="NEWS REPORTER" weight="1" />
+      <edge id="7536" source="JELLY" target="RADIO NEWS REPORT" weight="1" />
+      <edge id="7537" source="JELLY" target="AGENT" weight="2" />
+      <edge id="7538" source="JELLY" target="DEBBIE AND JELLY TOGETHER" weight="1" />
+      <edge id="7539" source="JELLY" target="ANNOUNCER" weight="1" />
+      <edge id="7540" source="JELLY" target="COWGIRL" weight="1" />
+      <edge id="7541" source="JELLY" target="VOICE" weight="1" />
+      <edge id="7542" source="MARY" target="DEBBIE" weight="1" />
+      <edge id="7543" source="MARY" target="BIG RED" weight="1" />
+      <edge id="7544" source="DEBBIE" target="MARY" weight="1" />
+      <edge id="7545" source="DEBBIE" target="BIG RED" weight="1" />
+      <edge id="7546" source="DEBBIE" target="DELORES" weight="2" />
+      <edge id="7547" source="DEBBIE" target="ELAINE" weight="1" />
+      <edge id="7548" source="DEBBIE" target="HEATHER" weight="2" />
+      <edge id="7549" source="DEBBIE" target="JELLY" weight="3" />
+      <edge id="7550" source="DEBBIE" target="KYM" weight="1" />
+      <edge id="7551" source="DEBBIE" target="GLORIA" weight="1" />
+      <edge id="7552" source="DEBBIE" target="AGENT" weight="1" />
+      <edge id="7553" source="DEBBIE" target="SISSY" weight="1" />
+      <edge id="7554" source="DEBBIE" target="DEBBIE AND JELLY TOGETHER" weight="1" />
+      <edge id="7555" source="DEBBIE" target="ANNOUNCER" weight="1" />
+      <edge id="7556" source="BIG RED" target="MARY" weight="1" />
+      <edge id="7557" source="BIG RED" target="DEBBIE" weight="1" />
+      <edge id="7558" source="BIG RED" target="MISS ADRIAN" weight="2" />
+      <edge id="7559" source="BIG RED" target="COWGIRL" weight="1" />
+      <edge id="7560" source="BIG RED" target="DELORES" weight="2" />
+      <edge id="7561" source="BIG RED" target="JELLY" weight="1" />
+      <edge id="7562" source="BIG RED" target="DONNA" weight="1" />
+      <edge id="7563" source="ELAINE" target="DELORES" weight="1" />
+      <edge id="7564" source="ELAINE" target="DEBBIE" weight="1" />
+      <edge id="7565" source="ELAINE" target="HEATHER" weight="1" />
+      <edge id="7566" source="ELAINE" target="JELLY" weight="1" />
+      <edge id="7567" source="HEATHER" target="DELORES" weight="2" />
+      <edge id="7568" source="HEATHER" target="ELAINE" weight="1" />
+      <edge id="7569" source="HEATHER" target="DEBBIE" weight="2" />
+      <edge id="7570" source="HEATHER" target="JELLY" weight="2" />
+      <edge id="7571" source="HEATHER" target="KYM" weight="1" />
+      <edge id="7572" source="HEATHER" target="GLORIA" weight="1" />
+      <edge id="7573" source="RUPERT" target="JULIAN" weight="1" />
+      <edge id="7574" source="RUPERT" target="MARIE" weight="2" />
+      <edge id="7575" source="RUPERT" target="SISSY" weight="2" />
+      <edge id="7576" source="RUPERT" target="CARLA" weight="2" />
+      <edge id="7577" source="RUPERT" target="HOWARD" weight="1" />
+      <edge id="7578" source="JULIAN" target="RUPERT" weight="1" />
+      <edge id="7579" source="JULIAN" target="SISSY" weight="1" />
+      <edge id="7580" source="JULIAN" target="THE COUNTESS" weight="1" />
+      <edge id="7581" source="MARIE" target="RUPERT" weight="2" />
+      <edge id="7582" source="MARIE" target="SISSY" weight="3" />
+      <edge id="7583" source="MARIE" target="CARLA" weight="2" />
+      <edge id="7584" source="MARIE" target="HOWARD" weight="2" />
+      <edge id="7585" source="CARLA" target="MARIE" weight="2" />
+      <edge id="7586" source="CARLA" target="RUPERT" weight="2" />
+      <edge id="7587" source="CARLA" target="SISSY" weight="2" />
+      <edge id="7588" source="CARLA" target="HOWARD" weight="1" />
+      <edge id="7589" source="HOWARD" target="RUPERT" weight="1" />
+      <edge id="7590" source="HOWARD" target="CARLA" weight="1" />
+      <edge id="7591" source="HOWARD" target="SISSY" weight="2" />
+      <edge id="7592" source="HOWARD" target="MARIE" weight="2" />
+      <edge id="7593" source="WOMAN" target="SISSY" weight="1" />
+      <edge id="7594" source="WOMAN" target="DRIVER" weight="1" />
+      <edge id="7595" source="WOMAN" target="OTHER MAN" weight="1" />
+      <edge id="7596" source="DRIVER" target="WOMAN" weight="1" />
+      <edge id="7597" source="DRIVER" target="SISSY" weight="1" />
+      <edge id="7598" source="DRIVER" target="OTHER MAN" weight="1" />
+      <edge id="7599" source="OTHER MAN" target="WOMAN" weight="1" />
+      <edge id="7600" source="OTHER MAN" target="SISSY" weight="1" />
+      <edge id="7601" source="OTHER MAN" target="DRIVER" weight="1" />
+      <edge id="7602" source="MISS ADRIAN" target="SISSY" weight="1" />
+      <edge id="7603" source="MISS ADRIAN" target="COWGIRL" weight="2" />
+      <edge id="7604" source="MISS ADRIAN" target="BIG RED" weight="2" />
+      <edge id="7605" source="MISS ADRIAN" target="MAN" weight="1" />
+      <edge id="7606" source="MISS ADRIAN" target="CAMERAMAN" weight="1" />
+      <edge id="7607" source="MISS ADRIAN" target="DELORES" weight="1" />
+      <edge id="7608" source="MISS ADRIAN" target="JELLY" weight="2" />
+      <edge id="7609" source="MISS ADRIAN" target="THE COUNTESS" weight="1" />
+      <edge id="7610" source="COWGIRL" target="MISS ADRIAN" weight="2" />
+      <edge id="7611" source="COWGIRL" target="BIG RED" weight="1" />
+      <edge id="7612" source="COWGIRL" target="MAN" weight="1" />
+      <edge id="7613" source="COWGIRL" target="CAMERAMAN" weight="1" />
+      <edge id="7614" source="COWGIRL" target="JELLY" weight="1" />
+      <edge id="7615" source="CAMERAMAN" target="MISS ADRIAN" weight="1" />
+      <edge id="7616" source="CAMERAMAN" target="MAN" weight="1" />
+      <edge id="7617" source="CAMERAMAN" target="COWGIRL" weight="1" />
+      <edge id="7618" source="MAID" target="SISSY" weight="1" />
+      <edge id="7619" source="MAID" target="JELLY" weight="1" />
+      <edge id="7620" source="KYM" target="DEBBIE" weight="1" />
+      <edge id="7621" source="KYM" target="GLORIA" weight="1" />
+      <edge id="7622" source="KYM" target="HEATHER" weight="1" />
+      <edge id="7623" source="KYM" target="JELLY" weight="1" />
+      <edge id="7624" source="KYM" target="DELORES" weight="1" />
+      <edge id="7625" source="KYM" target="SISSY" weight="1" />
+      <edge id="7626" source="GLORIA" target="KYM" weight="1" />
+      <edge id="7627" source="GLORIA" target="DEBBIE" weight="1" />
+      <edge id="7628" source="GLORIA" target="HEATHER" weight="1" />
+      <edge id="7629" source="GLORIA" target="JELLY" weight="2" />
+      <edge id="7630" source="GLORIA" target="DELORES" weight="1" />
+      <edge id="7631" source="CHINK" target="SISSY" weight="4" />
+      <edge id="7632" source="CHINK" target="DELORES" weight="1" />
+      <edge id="7633" source="SURGEON" target="SISSY" weight="1" />
+      <edge id="7634" source="DREYFUS" target="DR. DREYFUS" weight="1" />
+      <edge id="7635" source="DREYFUS" target="SISSY" weight="1" />
+      <edge id="7636" source="SHERIFF" target="JELLY" weight="1" />
+      <edge id="7637" source="SHERIFF" target="DELORES" weight="1" />
+      <edge id="7638" source="NEWS REPORTER" target="JELLY" weight="1" />
+      <edge id="7639" source="NEWS REPORTER" target="SISSY" weight="1" />
+      <edge id="7640" source="RADIO NEWS REPORT" target="JELLY" weight="1" />
+      <edge id="7641" source="AGENT" target="JELLY" weight="2" />
+      <edge id="7642" source="AGENT" target="SISSY" weight="1" />
+      <edge id="7643" source="AGENT" target="DEBBIE" weight="1" />
+      <edge id="7644" source="AGENT" target="DEBBIE AND JELLY TOGETHER" weight="1" />
+      <edge id="7645" source="AGENT" target="ANNOUNCER" weight="1" />
+      <edge id="7646" source="DEBBIE AND JELLY TOGETHER" target="AGENT" weight="1" />
+      <edge id="7647" source="DEBBIE AND JELLY TOGETHER" target="JELLY" weight="1" />
+      <edge id="7648" source="DEBBIE AND JELLY TOGETHER" target="SISSY" weight="1" />
+      <edge id="7649" source="DEBBIE AND JELLY TOGETHER" target="DEBBIE" weight="1" />
+      <edge id="7650" source="DEBBIE AND JELLY TOGETHER" target="ANNOUNCER" weight="1" />
+      <edge id="7651" source="ANNOUNCER" target="AGENT" weight="1" />
+      <edge id="7652" source="ANNOUNCER" target="JELLY" weight="1" />
+      <edge id="7653" source="ANNOUNCER" target="SISSY" weight="1" />
+      <edge id="7654" source="ANNOUNCER" target="DEBBIE" weight="1" />
+      <edge id="7655" source="ANNOUNCER" target="DEBBIE AND JELLY TOGETHER" weight="1" />
+      <edge id="7656" source="DONNA" target="DELORES" weight="1" />
+      <edge id="7657" source="DONNA" target="BIG RED" weight="1" />
+      <edge id="7658" source="VOICE" target="JELLY" weight="1" />
+      <edge id="7659" source="VOICE" target="A VOICE" weight="1" />
+      <edge id="7660" source="A VOICE" target="VOICE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

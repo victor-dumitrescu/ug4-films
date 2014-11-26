@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="CHARLIE" label="CHARLIE" />
+      <node id="LYLE" label="LYLE" />
+      <node id="STEVE" label="STEVE" />
+      <node id="HANDSOME ROB" label="HANDSOME ROB" />
+      <node id="HALF-EAR" label="HALF-EAR" />
+      <node id="STELLA" label="STELLA" />
+      <node id="JOHN BRIDGER" label="JOHN BRIDGER" />
+      <node id="THE CREW" label="THE CREW" />
+      <node id="FIRST COP" label="FIRST COP" />
+      <node id="SECOND COP" label="SECOND COP" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="RICHARD" label="RICHARD" />
+      <node id="BUSBOY" label="BUSBOY" />
+      <node id="KID" label="KID" />
+      <node id="BULLY" label="BULLY" />
+      <node id="CLASSMATE" label="CLASSMATE" />
+      <node id="SEVEN YEAR OLD CHARLIE" label="SEVEN YEAR OLD CHARLIE" />
+      <node id="YEVHEN" label="YEVHEN" />
+      <node id="SECURITY GUARD" label="SECURITY GUARD" />
+      <node id="STELLA &amp; CHARLIE" label="STELLA &amp; CHARLIE" />
+      <node id="BURLY MAN" label="BURLY MAN" />
+      <node id="SKINNY PETE" label="SKINNY PETE" />
+      <node id="OFFICE" label="OFFICE" />
+      <node id="HOMEBOY" label="HOMEBOY" />
+      <node id="COUNTER BABE" label="COUNTER BABE" />
+      <node id="MASHKOV" label="MASHKOV" />
+      <node id="DANYA" label="DANYA" />
+      <node id="KAREN" label="KAREN" />
+      <node id="DETECTIVE" label="DETECTIVE" />
+      <node id="VALET" label="VALET" />
+      <node id="PHILLY STEAK" label="PHILLY STEAK" />
+      <node id="UKRAINIAN" label="UKRAINIAN" />
+      <node id="CHRISTINA GRIEGO" label="CHRISTINA GRIEGO" />
+      <node id="GUARD" label="GUARD" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="MOTORCYCLE GUARD" label="MOTORCYCLE GUARD" />
+      <node id="FURIOUS DRIVER" label="FURIOUS DRIVER" />
+      <node id="ALL OF THEM" label="ALL OF THEM" />
+    </nodes>
+    <edges>
+      <edge id="23145" source="CHARLIE" target="LYLE" weight="16" />
+      <edge id="23146" source="CHARLIE" target="STEVE" weight="6" />
+      <edge id="23147" source="CHARLIE" target="JOHN BRIDGER" weight="5" />
+      <edge id="23148" source="CHARLIE" target="HANDSOME ROB" weight="12" />
+      <edge id="23149" source="CHARLIE" target="THE CREW" weight="1" />
+      <edge id="23150" source="CHARLIE" target="RECEPTIONIST" weight="1" />
+      <edge id="23151" source="CHARLIE" target="STELLA" weight="19" />
+      <edge id="23152" source="CHARLIE" target="RICHARD" weight="1" />
+      <edge id="23153" source="CHARLIE" target="BUSBOY" weight="1" />
+      <edge id="23154" source="CHARLIE" target="KID" weight="1" />
+      <edge id="23155" source="CHARLIE" target="HALF-EAR" weight="12" />
+      <edge id="23156" source="CHARLIE" target="SECURITY GUARD" weight="1" />
+      <edge id="23157" source="CHARLIE" target="STELLA &amp; CHARLIE" weight="1" />
+      <edge id="23158" source="CHARLIE" target="VALET" weight="1" />
+      <edge id="23159" source="CHARLIE" target="PHILLY STEAK" weight="1" />
+      <edge id="23160" source="CHARLIE" target="ALL OF THEM" weight="1" />
+      <edge id="23161" source="CHARLIE" target="MASHKOV" weight="1" />
+      <edge id="23162" source="LYLE" target="CHARLIE" weight="16" />
+      <edge id="23163" source="LYLE" target="STEVE" weight="2" />
+      <edge id="23164" source="LYLE" target="HALF-EAR" weight="9" />
+      <edge id="23165" source="LYLE" target="HANDSOME ROB" weight="8" />
+      <edge id="23166" source="LYLE" target="STELLA" weight="8" />
+      <edge id="23167" source="LYLE" target="SECURITY GUARD" weight="1" />
+      <edge id="23168" source="LYLE" target="STELLA &amp; CHARLIE" weight="1" />
+      <edge id="23169" source="LYLE" target="KAREN" weight="2" />
+      <edge id="23170" source="STEVE" target="CHARLIE" weight="6" />
+      <edge id="23171" source="STEVE" target="LYLE" weight="2" />
+      <edge id="23172" source="STEVE" target="JOHN BRIDGER" weight="3" />
+      <edge id="23173" source="STEVE" target="HANDSOME ROB" weight="1" />
+      <edge id="23174" source="STEVE" target="YEVHEN" weight="3" />
+      <edge id="23175" source="STEVE" target="SECURITY GUARD" weight="1" />
+      <edge id="23176" source="STEVE" target="STELLA" weight="5" />
+      <edge id="23177" source="STEVE" target="OFFICE" weight="1" />
+      <edge id="23178" source="STEVE" target="HALF-EAR" weight="1" />
+      <edge id="23179" source="STEVE" target="CHRISTINA GRIEGO" weight="2" />
+      <edge id="23180" source="STEVE" target="MASHKOV" weight="1" />
+      <edge id="23181" source="HANDSOME ROB" target="HALF-EAR" weight="10" />
+      <edge id="23182" source="HANDSOME ROB" target="CHARLIE" weight="12" />
+      <edge id="23183" source="HANDSOME ROB" target="STEVE" weight="1" />
+      <edge id="23184" source="HANDSOME ROB" target="JOHN BRIDGER" weight="1" />
+      <edge id="23185" source="HANDSOME ROB" target="LYLE" weight="8" />
+      <edge id="23186" source="HANDSOME ROB" target="STELLA" weight="7" />
+      <edge id="23187" source="HANDSOME ROB" target="BURLY MAN" weight="1" />
+      <edge id="23188" source="HANDSOME ROB" target="SKINNY PETE" weight="1" />
+      <edge id="23189" source="HANDSOME ROB" target="COUNTER BABE" weight="1" />
+      <edge id="23190" source="HALF-EAR" target="HANDSOME ROB" weight="10" />
+      <edge id="23191" source="HALF-EAR" target="LYLE" weight="9" />
+      <edge id="23192" source="HALF-EAR" target="CHARLIE" weight="12" />
+      <edge id="23193" source="HALF-EAR" target="KID" weight="1" />
+      <edge id="23194" source="HALF-EAR" target="STELLA" weight="6" />
+      <edge id="23195" source="HALF-EAR" target="SKINNY PETE" weight="1" />
+      <edge id="23196" source="HALF-EAR" target="HOMEBOY" weight="1" />
+      <edge id="23197" source="HALF-EAR" target="STEVE" weight="1" />
+      <edge id="23198" source="STELLA" target="JOHN BRIDGER" weight="2" />
+      <edge id="23199" source="STELLA" target="FIRST COP" weight="1" />
+      <edge id="23200" source="STELLA" target="SECOND COP" weight="1" />
+      <edge id="23201" source="STELLA" target="RECEPTIONIST" weight="1" />
+      <edge id="23202" source="STELLA" target="CHARLIE" weight="19" />
+      <edge id="23203" source="STELLA" target="RICHARD" weight="1" />
+      <edge id="23204" source="STELLA" target="BUSBOY" weight="1" />
+      <edge id="23205" source="STELLA" target="HALF-EAR" weight="6" />
+      <edge id="23206" source="STELLA" target="LYLE" weight="8" />
+      <edge id="23207" source="STELLA" target="HANDSOME ROB" weight="7" />
+      <edge id="23208" source="STELLA" target="SECURITY GUARD" weight="1" />
+      <edge id="23209" source="STELLA" target="STELLA &amp; CHARLIE" weight="1" />
+      <edge id="23210" source="STELLA" target="STEVE" weight="5" />
+      <edge id="23211" source="STELLA" target="OFFICE" weight="1" />
+      <edge id="23212" source="JOHN BRIDGER" target="STELLA" weight="2" />
+      <edge id="23213" source="JOHN BRIDGER" target="CHARLIE" weight="5" />
+      <edge id="23214" source="JOHN BRIDGER" target="STEVE" weight="3" />
+      <edge id="23215" source="JOHN BRIDGER" target="THE CREW" weight="1" />
+      <edge id="23216" source="JOHN BRIDGER" target="HANDSOME ROB" weight="1" />
+      <edge id="23217" source="THE CREW" target="JOHN BRIDGER" weight="1" />
+      <edge id="23218" source="THE CREW" target="CHARLIE" weight="1" />
+      <edge id="23219" source="FIRST COP" target="STELLA" weight="1" />
+      <edge id="23220" source="FIRST COP" target="SECOND COP" weight="1" />
+      <edge id="23221" source="SECOND COP" target="FIRST COP" weight="1" />
+      <edge id="23222" source="SECOND COP" target="STELLA" weight="1" />
+      <edge id="23223" source="RECEPTIONIST" target="STELLA" weight="1" />
+      <edge id="23224" source="RECEPTIONIST" target="CHARLIE" weight="1" />
+      <edge id="23225" source="RICHARD" target="STELLA" weight="1" />
+      <edge id="23226" source="RICHARD" target="BUSBOY" weight="1" />
+      <edge id="23227" source="RICHARD" target="CHARLIE" weight="1" />
+      <edge id="23228" source="BUSBOY" target="RICHARD" weight="1" />
+      <edge id="23229" source="BUSBOY" target="STELLA" weight="1" />
+      <edge id="23230" source="BUSBOY" target="CHARLIE" weight="1" />
+      <edge id="23231" source="KID" target="CHARLIE" weight="1" />
+      <edge id="23232" source="KID" target="HALF-EAR" weight="1" />
+      <edge id="23233" source="BULLY" target="CLASSMATE" weight="1" />
+      <edge id="23234" source="BULLY" target="SEVEN YEAR OLD CHARLIE" weight="1" />
+      <edge id="23235" source="CLASSMATE" target="BULLY" weight="1" />
+      <edge id="23236" source="CLASSMATE" target="SEVEN YEAR OLD CHARLIE" weight="1" />
+      <edge id="23237" source="SEVEN YEAR OLD CHARLIE" target="BULLY" weight="1" />
+      <edge id="23238" source="SEVEN YEAR OLD CHARLIE" target="CLASSMATE" weight="1" />
+      <edge id="23239" source="YEVHEN" target="STEVE" weight="3" />
+      <edge id="23240" source="SECURITY GUARD" target="STEVE" weight="1" />
+      <edge id="23241" source="SECURITY GUARD" target="CHARLIE" weight="1" />
+      <edge id="23242" source="SECURITY GUARD" target="LYLE" weight="1" />
+      <edge id="23243" source="SECURITY GUARD" target="STELLA" weight="1" />
+      <edge id="23244" source="SECURITY GUARD" target="STELLA &amp; CHARLIE" weight="1" />
+      <edge id="23245" source="STELLA &amp; CHARLIE" target="SECURITY GUARD" weight="1" />
+      <edge id="23246" source="STELLA &amp; CHARLIE" target="CHARLIE" weight="1" />
+      <edge id="23247" source="STELLA &amp; CHARLIE" target="LYLE" weight="1" />
+      <edge id="23248" source="STELLA &amp; CHARLIE" target="STELLA" weight="1" />
+      <edge id="23249" source="BURLY MAN" target="HANDSOME ROB" weight="1" />
+      <edge id="23250" source="SKINNY PETE" target="HALF-EAR" weight="1" />
+      <edge id="23251" source="SKINNY PETE" target="HANDSOME ROB" weight="1" />
+      <edge id="23252" source="SKINNY PETE" target="MASHKOV" weight="1" />
+      <edge id="23253" source="OFFICE" target="STEVE" weight="1" />
+      <edge id="23254" source="OFFICE" target="STELLA" weight="1" />
+      <edge id="23255" source="HOMEBOY" target="HALF-EAR" weight="1" />
+      <edge id="23256" source="COUNTER BABE" target="HANDSOME ROB" weight="1" />
+      <edge id="23257" source="MASHKOV" target="DANYA" weight="1" />
+      <edge id="23258" source="MASHKOV" target="KAREN" weight="1" />
+      <edge id="23259" source="MASHKOV" target="DETECTIVE" weight="1" />
+      <edge id="23260" source="MASHKOV" target="SKINNY PETE" weight="1" />
+      <edge id="23261" source="MASHKOV" target="UKRAINIAN" weight="1" />
+      <edge id="23262" source="MASHKOV" target="STEVE" weight="1" />
+      <edge id="23263" source="MASHKOV" target="CHARLIE" weight="1" />
+      <edge id="23264" source="DANYA" target="MASHKOV" weight="1" />
+      <edge id="23265" source="DANYA" target="KAREN" weight="1" />
+      <edge id="23266" source="KAREN" target="MASHKOV" weight="1" />
+      <edge id="23267" source="KAREN" target="DANYA" weight="1" />
+      <edge id="23268" source="KAREN" target="LYLE" weight="2" />
+      <edge id="23269" source="DETECTIVE" target="MASHKOV" weight="1" />
+      <edge id="23270" source="VALET" target="CHARLIE" weight="1" />
+      <edge id="23271" source="PHILLY STEAK" target="CHARLIE" weight="1" />
+      <edge id="23272" source="UKRAINIAN" target="MASHKOV" weight="1" />
+      <edge id="23273" source="CHRISTINA GRIEGO" target="STEVE" weight="2" />
+      <edge id="23274" source="GUARD" target="DRIVER" weight="1" />
+      <edge id="23275" source="DRIVER" target="GUARD" weight="1" />
+      <edge id="23276" source="ALL OF THEM" target="CHARLIE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

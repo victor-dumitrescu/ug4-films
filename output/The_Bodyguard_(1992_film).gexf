@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="FRANK" label="FRANK" />
+      <node id="KLINGMAN" label="KLINGMAN" />
+      <node id="DEVANEY" label="DEVANEY" />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="HENRY" label="HENRY" />
+      <node id="EMMA" label="EMMA" />
+      <node id="DIRECTOR" label="DIRECTOR" />
+      <node id="RACHEL" label="RACHEL" />
+      <node id="NICKI" label="NICKI" />
+      <node id="TONY" label="TONY" />
+      <node id="DRESS DESIGNER" label="DRESS DESIGNER" />
+      <node id="SPECTOR" label="SPECTOR" />
+      <node id="RORY" label="RORY" />
+      <node id="ASSISTANT" label="ASSISTANT" />
+      <node id="FARMER" label="FARMER" />
+      <node id="FLETCHER" label="FLETCHER" />
+      <node id="MARTIN GROVE" label="MARTIN GROVE" />
+      <node id="COURT" label="COURT" />
+      <node id="MINELLA" label="MINELLA" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="OLD LOCKSMITH" label="OLD LOCKSMITH" />
+      <node id="OWNER" label="OWNER" />
+      <node id="RADIO D.J." label="RADIO D.J." />
+      <node id="CROWD" label="CROWD" />
+      <node id="JOURNALIST" label="JOURNALIST" />
+      <node id="D.J." label="D.J." />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="SCHILLER" label="SCHILLER" />
+      <node id="JOHN TESH" label="JOHN TESH" />
+      <node id="THURINGER" label="THURINGER" />
+      <node id="MARK" label="MARK" />
+      <node id="PORTMAN" label="PORTMAN" />
+      <node id="WOMAN IN GREEN" label="WOMAN IN GREEN" />
+      <node id="ENORMOUS CUBAN" label="ENORMOUS CUBAN" />
+      <node id="CLEANING WOMAN" label="CLEANING WOMAN" />
+      <node id="DAN" label="DAN" />
+      <node id="HERB" label="HERB" />
+      <node id="M.C." label="M.C." />
+      <node id="SKIP" label="SKIP" />
+      <node id="CLIVE" label="CLIVE" />
+      <node id="PATRICIA" label="PATRICIA" />
+      <node id="KAY" label="KAY" />
+      <node id="MICHAEL" label="MICHAEL" />
+      <node id="REARDON" label="REARDON" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="NANCY GARBOR" label="NANCY GARBOR" />
+      <node id="STAR #1" label="STAR #1" />
+      <node id="WINSTON" label="WINSTON" />
+      <node id="TV DIRECTOR" label="TV DIRECTOR" />
+      <node id="OTHER VOICE" label="OTHER VOICE" />
+      <node id="ROTARY PRESIDENT" label="ROTARY PRESIDENT" />
+      <node id="REVEREND HARDY" label="REVEREND HARDY" />
+    </nodes>
+    <edges>
+      <edge id="19483" source="FRANK" target="KLINGMAN" weight="1" />
+      <edge id="19484" source="FRANK" target="DEVANEY" weight="15" />
+      <edge id="19485" source="FRANK" target="MAN'S VOICE" weight="1" />
+      <edge id="19486" source="FRANK" target="HENRY" weight="8" />
+      <edge id="19487" source="FRANK" target="EMMA" weight="2" />
+      <edge id="19488" source="FRANK" target="DIRECTOR" weight="1" />
+      <edge id="19489" source="FRANK" target="RACHEL" weight="32" />
+      <edge id="19490" source="FRANK" target="NICKI" weight="6" />
+      <edge id="19491" source="FRANK" target="TONY" weight="8" />
+      <edge id="19492" source="FRANK" target="DRESS DESIGNER" weight="1" />
+      <edge id="19493" source="FRANK" target="SPECTOR" weight="11" />
+      <edge id="19494" source="FRANK" target="RORY" weight="1" />
+      <edge id="19495" source="FRANK" target="ASSISTANT" weight="1" />
+      <edge id="19496" source="FRANK" target="FARMER" weight="1" />
+      <edge id="19497" source="FRANK" target="FLETCHER" weight="6" />
+      <edge id="19498" source="FRANK" target="MARTIN GROVE" weight="1" />
+      <edge id="19499" source="FRANK" target="COURT" weight="3" />
+      <edge id="19500" source="FRANK" target="MINELLA" weight="5" />
+      <edge id="19501" source="FRANK" target="OWNER" weight="1" />
+      <edge id="19502" source="FRANK" target="SECRETARY" weight="1" />
+      <edge id="19503" source="FRANK" target="SCHILLER" weight="1" />
+      <edge id="19504" source="FRANK" target="THURINGER" weight="1" />
+      <edge id="19505" source="FRANK" target="PORTMAN" weight="3" />
+      <edge id="19506" source="FRANK" target="WOMAN IN GREEN" weight="1" />
+      <edge id="19507" source="FRANK" target="ENORMOUS CUBAN" weight="1" />
+      <edge id="19508" source="FRANK" target="CLEANING WOMAN" weight="1" />
+      <edge id="19509" source="FRANK" target="HERB" weight="7" />
+      <edge id="19510" source="FRANK" target="SKIP" weight="3" />
+      <edge id="19511" source="FRANK" target="REARDON" weight="2" />
+      <edge id="19512" source="FRANK" target="TECHNICIAN" weight="1" />
+      <edge id="19513" source="FRANK" target="CLIVE" weight="2" />
+      <edge id="19514" source="FRANK" target="STAR #1" weight="1" />
+      <edge id="19515" source="FRANK" target="WINSTON" weight="1" />
+      <edge id="19516" source="KLINGMAN" target="FRANK" weight="1" />
+      <edge id="19517" source="DEVANEY" target="FRANK" weight="15" />
+      <edge id="19518" source="DEVANEY" target="DIRECTOR" weight="1" />
+      <edge id="19519" source="DEVANEY" target="RACHEL" weight="7" />
+      <edge id="19520" source="DEVANEY" target="NICKI" weight="2" />
+      <edge id="19521" source="DEVANEY" target="TONY" weight="1" />
+      <edge id="19522" source="DEVANEY" target="DRESS DESIGNER" weight="1" />
+      <edge id="19523" source="DEVANEY" target="SPECTOR" weight="6" />
+      <edge id="19524" source="DEVANEY" target="RORY" weight="1" />
+      <edge id="19525" source="DEVANEY" target="ASSISTANT" weight="1" />
+      <edge id="19526" source="DEVANEY" target="FARMER" weight="1" />
+      <edge id="19527" source="DEVANEY" target="FLETCHER" weight="1" />
+      <edge id="19528" source="DEVANEY" target="SECRETARY" weight="1" />
+      <edge id="19529" source="DEVANEY" target="SCHILLER" weight="1" />
+      <edge id="19530" source="MAN'S VOICE" target="FRANK" weight="1" />
+      <edge id="19531" source="HENRY" target="FRANK" weight="8" />
+      <edge id="19532" source="HENRY" target="EMMA" weight="1" />
+      <edge id="19533" source="HENRY" target="MARTIN GROVE" weight="1" />
+      <edge id="19534" source="HENRY" target="TONY" weight="2" />
+      <edge id="19535" source="HENRY" target="SPECTOR" weight="1" />
+      <edge id="19536" source="HENRY" target="FLETCHER" weight="1" />
+      <edge id="19537" source="HENRY" target="RACHEL" weight="1" />
+      <edge id="19538" source="HENRY" target="HERB" weight="1" />
+      <edge id="19539" source="EMMA" target="HENRY" weight="1" />
+      <edge id="19540" source="EMMA" target="FRANK" weight="2" />
+      <edge id="19541" source="DIRECTOR" target="RACHEL" weight="1" />
+      <edge id="19542" source="DIRECTOR" target="DEVANEY" weight="1" />
+      <edge id="19543" source="DIRECTOR" target="NICKI" weight="1" />
+      <edge id="19544" source="DIRECTOR" target="TONY" weight="1" />
+      <edge id="19545" source="DIRECTOR" target="DRESS DESIGNER" weight="1" />
+      <edge id="19546" source="DIRECTOR" target="FRANK" weight="1" />
+      <edge id="19547" source="DIRECTOR" target="SPECTOR" weight="1" />
+      <edge id="19548" source="DIRECTOR" target="RORY" weight="1" />
+      <edge id="19549" source="DIRECTOR" target="ASSISTANT" weight="1" />
+      <edge id="19550" source="DIRECTOR" target="FARMER" weight="1" />
+      <edge id="19551" source="RACHEL" target="DIRECTOR" weight="1" />
+      <edge id="19552" source="RACHEL" target="DEVANEY" weight="7" />
+      <edge id="19553" source="RACHEL" target="NICKI" weight="3" />
+      <edge id="19554" source="RACHEL" target="TONY" weight="3" />
+      <edge id="19555" source="RACHEL" target="DRESS DESIGNER" weight="1" />
+      <edge id="19556" source="RACHEL" target="FRANK" weight="32" />
+      <edge id="19557" source="RACHEL" target="SPECTOR" weight="8" />
+      <edge id="19558" source="RACHEL" target="RORY" weight="1" />
+      <edge id="19559" source="RACHEL" target="ASSISTANT" weight="1" />
+      <edge id="19560" source="RACHEL" target="FARMER" weight="1" />
+      <edge id="19561" source="RACHEL" target="FLETCHER" weight="2" />
+      <edge id="19562" source="RACHEL" target="WOMAN" weight="1" />
+      <edge id="19563" source="RACHEL" target="OLD LOCKSMITH" weight="1" />
+      <edge id="19564" source="RACHEL" target="OWNER" weight="1" />
+      <edge id="19565" source="RACHEL" target="SECRETARY" weight="1" />
+      <edge id="19566" source="RACHEL" target="SCHILLER" weight="1" />
+      <edge id="19567" source="RACHEL" target="PORTMAN" weight="3" />
+      <edge id="19568" source="RACHEL" target="DAN" weight="1" />
+      <edge id="19569" source="RACHEL" target="HERB" weight="5" />
+      <edge id="19570" source="RACHEL" target="HENRY" weight="1" />
+      <edge id="19571" source="RACHEL" target="SKIP" weight="3" />
+      <edge id="19572" source="RACHEL" target="CLIVE" weight="4" />
+      <edge id="19573" source="RACHEL" target="PATRICIA" weight="1" />
+      <edge id="19574" source="RACHEL" target="KAY" weight="1" />
+      <edge id="19575" source="RACHEL" target="MICHAEL" weight="1" />
+      <edge id="19576" source="RACHEL" target="STAR #1" weight="1" />
+      <edge id="19577" source="RACHEL" target="REARDON" weight="1" />
+      <edge id="19578" source="NICKI" target="DIRECTOR" weight="1" />
+      <edge id="19579" source="NICKI" target="RACHEL" weight="3" />
+      <edge id="19580" source="NICKI" target="DEVANEY" weight="2" />
+      <edge id="19581" source="NICKI" target="TONY" weight="1" />
+      <edge id="19582" source="NICKI" target="DRESS DESIGNER" weight="1" />
+      <edge id="19583" source="NICKI" target="FRANK" weight="6" />
+      <edge id="19584" source="NICKI" target="SPECTOR" weight="2" />
+      <edge id="19585" source="NICKI" target="RORY" weight="1" />
+      <edge id="19586" source="NICKI" target="ASSISTANT" weight="1" />
+      <edge id="19587" source="NICKI" target="FARMER" weight="1" />
+      <edge id="19588" source="NICKI" target="FLETCHER" weight="1" />
+      <edge id="19589" source="TONY" target="DIRECTOR" weight="1" />
+      <edge id="19590" source="TONY" target="RACHEL" weight="3" />
+      <edge id="19591" source="TONY" target="DEVANEY" weight="1" />
+      <edge id="19592" source="TONY" target="NICKI" weight="1" />
+      <edge id="19593" source="TONY" target="DRESS DESIGNER" weight="1" />
+      <edge id="19594" source="TONY" target="FRANK" weight="8" />
+      <edge id="19595" source="TONY" target="SPECTOR" weight="4" />
+      <edge id="19596" source="TONY" target="RORY" weight="1" />
+      <edge id="19597" source="TONY" target="ASSISTANT" weight="1" />
+      <edge id="19598" source="TONY" target="FARMER" weight="1" />
+      <edge id="19599" source="TONY" target="HENRY" weight="2" />
+      <edge id="19600" source="TONY" target="RADIO D.J." weight="1" />
+      <edge id="19601" source="TONY" target="TECHNICIAN" weight="1" />
+      <edge id="19602" source="TONY" target="SKIP" weight="1" />
+      <edge id="19603" source="DRESS DESIGNER" target="DIRECTOR" weight="1" />
+      <edge id="19604" source="DRESS DESIGNER" target="RACHEL" weight="1" />
+      <edge id="19605" source="DRESS DESIGNER" target="DEVANEY" weight="1" />
+      <edge id="19606" source="DRESS DESIGNER" target="NICKI" weight="1" />
+      <edge id="19607" source="DRESS DESIGNER" target="TONY" weight="1" />
+      <edge id="19608" source="DRESS DESIGNER" target="FRANK" weight="1" />
+      <edge id="19609" source="DRESS DESIGNER" target="SPECTOR" weight="1" />
+      <edge id="19610" source="DRESS DESIGNER" target="RORY" weight="1" />
+      <edge id="19611" source="DRESS DESIGNER" target="ASSISTANT" weight="1" />
+      <edge id="19612" source="DRESS DESIGNER" target="FARMER" weight="1" />
+      <edge id="19613" source="SPECTOR" target="DIRECTOR" weight="1" />
+      <edge id="19614" source="SPECTOR" target="RACHEL" weight="8" />
+      <edge id="19615" source="SPECTOR" target="DEVANEY" weight="6" />
+      <edge id="19616" source="SPECTOR" target="NICKI" weight="2" />
+      <edge id="19617" source="SPECTOR" target="TONY" weight="4" />
+      <edge id="19618" source="SPECTOR" target="DRESS DESIGNER" weight="1" />
+      <edge id="19619" source="SPECTOR" target="FRANK" weight="11" />
+      <edge id="19620" source="SPECTOR" target="RORY" weight="1" />
+      <edge id="19621" source="SPECTOR" target="ASSISTANT" weight="1" />
+      <edge id="19622" source="SPECTOR" target="FARMER" weight="1" />
+      <edge id="19623" source="SPECTOR" target="HENRY" weight="1" />
+      <edge id="19624" source="SPECTOR" target="RADIO D.J." weight="1" />
+      <edge id="19625" source="SPECTOR" target="JOURNALIST" weight="1" />
+      <edge id="19626" source="SPECTOR" target="SECRETARY" weight="1" />
+      <edge id="19627" source="SPECTOR" target="SCHILLER" weight="1" />
+      <edge id="19628" source="SPECTOR" target="SKIP" weight="1" />
+      <edge id="19629" source="RORY" target="DIRECTOR" weight="1" />
+      <edge id="19630" source="RORY" target="RACHEL" weight="1" />
+      <edge id="19631" source="RORY" target="DEVANEY" weight="1" />
+      <edge id="19632" source="RORY" target="NICKI" weight="1" />
+      <edge id="19633" source="RORY" target="TONY" weight="1" />
+      <edge id="19634" source="RORY" target="DRESS DESIGNER" weight="1" />
+      <edge id="19635" source="RORY" target="FRANK" weight="1" />
+      <edge id="19636" source="RORY" target="SPECTOR" weight="1" />
+      <edge id="19637" source="RORY" target="ASSISTANT" weight="1" />
+      <edge id="19638" source="RORY" target="FARMER" weight="1" />
+      <edge id="19639" source="ASSISTANT" target="DIRECTOR" weight="1" />
+      <edge id="19640" source="ASSISTANT" target="RACHEL" weight="1" />
+      <edge id="19641" source="ASSISTANT" target="DEVANEY" weight="1" />
+      <edge id="19642" source="ASSISTANT" target="NICKI" weight="1" />
+      <edge id="19643" source="ASSISTANT" target="TONY" weight="1" />
+      <edge id="19644" source="ASSISTANT" target="DRESS DESIGNER" weight="1" />
+      <edge id="19645" source="ASSISTANT" target="FRANK" weight="1" />
+      <edge id="19646" source="ASSISTANT" target="SPECTOR" weight="1" />
+      <edge id="19647" source="ASSISTANT" target="RORY" weight="1" />
+      <edge id="19648" source="ASSISTANT" target="FARMER" weight="1" />
+      <edge id="19649" source="FARMER" target="DIRECTOR" weight="1" />
+      <edge id="19650" source="FARMER" target="RACHEL" weight="1" />
+      <edge id="19651" source="FARMER" target="DEVANEY" weight="1" />
+      <edge id="19652" source="FARMER" target="NICKI" weight="1" />
+      <edge id="19653" source="FARMER" target="TONY" weight="1" />
+      <edge id="19654" source="FARMER" target="DRESS DESIGNER" weight="1" />
+      <edge id="19655" source="FARMER" target="FRANK" weight="1" />
+      <edge id="19656" source="FARMER" target="SPECTOR" weight="1" />
+      <edge id="19657" source="FARMER" target="RORY" weight="1" />
+      <edge id="19658" source="FARMER" target="ASSISTANT" weight="1" />
+      <edge id="19659" source="FLETCHER" target="FRANK" weight="6" />
+      <edge id="19660" source="FLETCHER" target="DEVANEY" weight="1" />
+      <edge id="19661" source="FLETCHER" target="RACHEL" weight="2" />
+      <edge id="19662" source="FLETCHER" target="HENRY" weight="1" />
+      <edge id="19663" source="FLETCHER" target="NICKI" weight="1" />
+      <edge id="19664" source="FLETCHER" target="HERB" weight="1" />
+      <edge id="19665" source="MARTIN GROVE" target="HENRY" weight="1" />
+      <edge id="19666" source="MARTIN GROVE" target="FRANK" weight="1" />
+      <edge id="19667" source="COURT" target="MINELLA" weight="2" />
+      <edge id="19668" source="COURT" target="FRANK" weight="3" />
+      <edge id="19669" source="MINELLA" target="COURT" weight="2" />
+      <edge id="19670" source="MINELLA" target="FRANK" weight="5" />
+      <edge id="19671" source="WOMAN" target="RACHEL" weight="1" />
+      <edge id="19672" source="OLD LOCKSMITH" target="RACHEL" weight="1" />
+      <edge id="19673" source="OWNER" target="RACHEL" weight="1" />
+      <edge id="19674" source="OWNER" target="FRANK" weight="1" />
+      <edge id="19675" source="RADIO D.J." target="SPECTOR" weight="1" />
+      <edge id="19676" source="RADIO D.J." target="TONY" weight="1" />
+      <edge id="19677" source="JOURNALIST" target="SPECTOR" weight="1" />
+      <edge id="19678" source="SECRETARY" target="SPECTOR" weight="1" />
+      <edge id="19679" source="SECRETARY" target="FRANK" weight="1" />
+      <edge id="19680" source="SECRETARY" target="DEVANEY" weight="1" />
+      <edge id="19681" source="SECRETARY" target="RACHEL" weight="1" />
+      <edge id="19682" source="SECRETARY" target="SCHILLER" weight="1" />
+      <edge id="19683" source="SCHILLER" target="SPECTOR" weight="1" />
+      <edge id="19684" source="SCHILLER" target="FRANK" weight="1" />
+      <edge id="19685" source="SCHILLER" target="DEVANEY" weight="1" />
+      <edge id="19686" source="SCHILLER" target="RACHEL" weight="1" />
+      <edge id="19687" source="SCHILLER" target="SECRETARY" weight="1" />
+      <edge id="19688" source="THURINGER" target="FRANK" weight="1" />
+      <edge id="19689" source="THURINGER" target="MARK" weight="1" />
+      <edge id="19690" source="MARK" target="THURINGER" weight="1" />
+      <edge id="19691" source="PORTMAN" target="FRANK" weight="3" />
+      <edge id="19692" source="PORTMAN" target="RACHEL" weight="3" />
+      <edge id="19693" source="PORTMAN" target="REARDON" weight="1" />
+      <edge id="19694" source="WOMAN IN GREEN" target="FRANK" weight="1" />
+      <edge id="19695" source="ENORMOUS CUBAN" target="FRANK" weight="1" />
+      <edge id="19696" source="ENORMOUS CUBAN" target="CLEANING WOMAN" weight="1" />
+      <edge id="19697" source="CLEANING WOMAN" target="FRANK" weight="1" />
+      <edge id="19698" source="CLEANING WOMAN" target="ENORMOUS CUBAN" weight="1" />
+      <edge id="19699" source="DAN" target="RACHEL" weight="1" />
+      <edge id="19700" source="HERB" target="FRANK" weight="7" />
+      <edge id="19701" source="HERB" target="RACHEL" weight="5" />
+      <edge id="19702" source="HERB" target="FLETCHER" weight="1" />
+      <edge id="19703" source="HERB" target="HENRY" weight="1" />
+      <edge id="19704" source="SKIP" target="RACHEL" weight="3" />
+      <edge id="19705" source="SKIP" target="CLIVE" weight="3" />
+      <edge id="19706" source="SKIP" target="PATRICIA" weight="1" />
+      <edge id="19707" source="SKIP" target="KAY" weight="1" />
+      <edge id="19708" source="SKIP" target="MICHAEL" weight="1" />
+      <edge id="19709" source="SKIP" target="FRANK" weight="3" />
+      <edge id="19710" source="SKIP" target="REARDON" weight="1" />
+      <edge id="19711" source="SKIP" target="SPECTOR" weight="1" />
+      <edge id="19712" source="SKIP" target="TONY" weight="1" />
+      <edge id="19713" source="CLIVE" target="SKIP" weight="3" />
+      <edge id="19714" source="CLIVE" target="RACHEL" weight="4" />
+      <edge id="19715" source="CLIVE" target="PATRICIA" weight="1" />
+      <edge id="19716" source="CLIVE" target="KAY" weight="1" />
+      <edge id="19717" source="CLIVE" target="MICHAEL" weight="1" />
+      <edge id="19718" source="CLIVE" target="FRANK" weight="2" />
+      <edge id="19719" source="CLIVE" target="REARDON" weight="2" />
+      <edge id="19720" source="CLIVE" target="NANCY GARBOR" weight="1" />
+      <edge id="19721" source="CLIVE" target="STAR #1" weight="1" />
+      <edge id="19722" source="PATRICIA" target="SKIP" weight="1" />
+      <edge id="19723" source="PATRICIA" target="RACHEL" weight="1" />
+      <edge id="19724" source="PATRICIA" target="CLIVE" weight="1" />
+      <edge id="19725" source="PATRICIA" target="KAY" weight="1" />
+      <edge id="19726" source="PATRICIA" target="MICHAEL" weight="1" />
+      <edge id="19727" source="KAY" target="SKIP" weight="1" />
+      <edge id="19728" source="KAY" target="RACHEL" weight="1" />
+      <edge id="19729" source="KAY" target="CLIVE" weight="1" />
+      <edge id="19730" source="KAY" target="PATRICIA" weight="1" />
+      <edge id="19731" source="KAY" target="MICHAEL" weight="1" />
+      <edge id="19732" source="MICHAEL" target="SKIP" weight="1" />
+      <edge id="19733" source="MICHAEL" target="RACHEL" weight="1" />
+      <edge id="19734" source="MICHAEL" target="CLIVE" weight="1" />
+      <edge id="19735" source="MICHAEL" target="PATRICIA" weight="1" />
+      <edge id="19736" source="MICHAEL" target="KAY" weight="1" />
+      <edge id="19737" source="REARDON" target="FRANK" weight="2" />
+      <edge id="19738" source="REARDON" target="PORTMAN" weight="1" />
+      <edge id="19739" source="REARDON" target="CLIVE" weight="2" />
+      <edge id="19740" source="REARDON" target="SKIP" weight="1" />
+      <edge id="19741" source="REARDON" target="STAR #1" weight="1" />
+      <edge id="19742" source="REARDON" target="RACHEL" weight="1" />
+      <edge id="19743" source="REARDON" target="WINSTON" weight="1" />
+      <edge id="19744" source="TECHNICIAN" target="FRANK" weight="1" />
+      <edge id="19745" source="TECHNICIAN" target="TONY" weight="1" />
+      <edge id="19746" source="NANCY GARBOR" target="CLIVE" weight="1" />
+      <edge id="19747" source="STAR #1" target="CLIVE" weight="1" />
+      <edge id="19748" source="STAR #1" target="RACHEL" weight="1" />
+      <edge id="19749" source="STAR #1" target="REARDON" weight="1" />
+      <edge id="19750" source="STAR #1" target="FRANK" weight="1" />
+      <edge id="19751" source="WINSTON" target="REARDON" weight="1" />
+      <edge id="19752" source="WINSTON" target="FRANK" weight="1" />
+      <edge id="19753" source="TV DIRECTOR" target="OTHER VOICE" weight="1" />
+      <edge id="19754" source="OTHER VOICE" target="TV DIRECTOR" weight="1" />
+      <edge id="19755" source="ROTARY PRESIDENT" target="REVEREND HARDY" weight="1" />
+      <edge id="19756" source="REVEREND HARDY" target="ROTARY PRESIDENT" weight="1" />
+    </edges>
+  </graph>
+</gexf>

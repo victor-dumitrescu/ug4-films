@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="STEVEN" label="STEVEN" />
+      <node id="LUCY" label="LUCY" />
+      <node id="JOE" label="JOE" />
+      <node id="JOE AND SALLY" label="JOE AND SALLY" />
+      <node id="VOICE" label="VOICE" />
+      <node id="SALLY" label="SALLY" />
+      <node id="AMERICA" label="AMERICA" />
+      <node id="JUDY" label="JUDY" />
+      <node id="JERRY" label="JERRY" />
+      <node id="CAL" label="CAL" />
+      <node id="SOPHIA" label="SOPHIA" />
+      <node id="JACK" label="JACK" />
+      <node id="EVIE" label="EVIE" />
+      <node id="RYAN" label="RYAN" />
+      <node id="MONICA" label="MONICA" />
+      <node id="MAC" label="MAC" />
+      <node id="CLAIR" label="CLAIR" />
+      <node id="GINA" label="GINA" />
+      <node id="PANES" label="PANES" />
+      <node id="EVERYONE" label="EVERYONE" />
+      <node id="MONICA/RYAN" label="MONICA/RYAN" />
+      <node id="SKYE" label="SKYE" />
+      <node id="JEFFREY" label="JEFFREY" />
+      <node id="SANFORD" label="SANFORD" />
+      <node id="TEAM" label="TEAM" />
+      <node id="SALLY'S TEAM" label="SALLY'S TEAM" />
+      <node id="ASTRID" label="ASTRID" />
+      <node id="SALLY/JEFFREY" label="SALLY/JEFFREY" />
+      <node id="SAM" label="SAM" />
+      <node id="CAL'S VOICE FROM THE T.V." label="CAL'S VOICE FROM THE T.V." />
+      <node id="SALLY'S VOICE FROM THE T.V." label="SALLY'S VOICE FROM THE T.V." />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="CAL AND SOPHIA" label="CAL AND SOPHIA" />
+    </nodes>
+    <edges>
+      <edge id="18925" source="STEVEN" target="LUCY" weight="1" />
+      <edge id="18926" source="STEVEN" target="JOE" weight="2" />
+      <edge id="18927" source="STEVEN" target="JOE AND SALLY" weight="1" />
+      <edge id="18928" source="STEVEN" target="VOICE" weight="1" />
+      <edge id="18929" source="STEVEN" target="SALLY" weight="2" />
+      <edge id="18930" source="STEVEN" target="AMERICA" weight="1" />
+      <edge id="18931" source="LUCY" target="JOE" weight="1" />
+      <edge id="18932" source="LUCY" target="STEVEN" weight="1" />
+      <edge id="18933" source="LUCY" target="JOE AND SALLY" weight="1" />
+      <edge id="18934" source="LUCY" target="VOICE" weight="1" />
+      <edge id="18935" source="LUCY" target="SALLY" weight="1" />
+      <edge id="18936" source="JOE" target="LUCY" weight="1" />
+      <edge id="18937" source="JOE" target="STEVEN" weight="2" />
+      <edge id="18938" source="JOE" target="JOE AND SALLY" weight="1" />
+      <edge id="18939" source="JOE" target="VOICE" weight="1" />
+      <edge id="18940" source="JOE" target="SALLY" weight="20" />
+      <edge id="18941" source="JOE" target="AMERICA" weight="2" />
+      <edge id="18942" source="JOE" target="JUDY" weight="4" />
+      <edge id="18943" source="JOE" target="JERRY" weight="4" />
+      <edge id="18944" source="JOE" target="CAL" weight="9" />
+      <edge id="18945" source="JOE" target="SOPHIA" weight="5" />
+      <edge id="18946" source="JOE" target="JACK" weight="2" />
+      <edge id="18947" source="JOE" target="EVIE" weight="1" />
+      <edge id="18948" source="JOE" target="RYAN" weight="3" />
+      <edge id="18949" source="JOE" target="MONICA" weight="6" />
+      <edge id="18950" source="JOE" target="MAC" weight="4" />
+      <edge id="18951" source="JOE" target="CLAIR" weight="3" />
+      <edge id="18952" source="JOE" target="GINA" weight="7" />
+      <edge id="18953" source="JOE" target="PANES" weight="5" />
+      <edge id="18954" source="JOE" target="EVERYONE" weight="1" />
+      <edge id="18955" source="JOE" target="MONICA/RYAN" weight="1" />
+      <edge id="18956" source="JOE" target="SKYE" weight="7" />
+      <edge id="18957" source="JOE" target="JEFFREY" weight="2" />
+      <edge id="18958" source="JOE" target="SANFORD" weight="1" />
+      <edge id="18959" source="JOE" target="TEAM" weight="1" />
+      <edge id="18960" source="JOE" target="SALLY'S TEAM" weight="1" />
+      <edge id="18961" source="JOE" target="SALLY/JEFFREY" weight="1" />
+      <edge id="18962" source="JOE" target="SAM" weight="1" />
+      <edge id="18963" source="JOE" target="ASTRID" weight="1" />
+      <edge id="18964" source="JOE AND SALLY" target="LUCY" weight="1" />
+      <edge id="18965" source="JOE AND SALLY" target="JOE" weight="1" />
+      <edge id="18966" source="JOE AND SALLY" target="STEVEN" weight="1" />
+      <edge id="18967" source="JOE AND SALLY" target="VOICE" weight="1" />
+      <edge id="18968" source="JOE AND SALLY" target="SALLY" weight="1" />
+      <edge id="18969" source="VOICE" target="LUCY" weight="1" />
+      <edge id="18970" source="VOICE" target="JOE" weight="1" />
+      <edge id="18971" source="VOICE" target="STEVEN" weight="1" />
+      <edge id="18972" source="VOICE" target="JOE AND SALLY" weight="1" />
+      <edge id="18973" source="VOICE" target="SALLY" weight="1" />
+      <edge id="18974" source="SALLY" target="LUCY" weight="1" />
+      <edge id="18975" source="SALLY" target="JOE" weight="20" />
+      <edge id="18976" source="SALLY" target="STEVEN" weight="2" />
+      <edge id="18977" source="SALLY" target="JOE AND SALLY" weight="1" />
+      <edge id="18978" source="SALLY" target="VOICE" weight="1" />
+      <edge id="18979" source="SALLY" target="AMERICA" weight="2" />
+      <edge id="18980" source="SALLY" target="JUDY" weight="4" />
+      <edge id="18981" source="SALLY" target="JERRY" weight="4" />
+      <edge id="18982" source="SALLY" target="CAL" weight="6" />
+      <edge id="18983" source="SALLY" target="SOPHIA" weight="8" />
+      <edge id="18984" source="SALLY" target="JACK" weight="2" />
+      <edge id="18985" source="SALLY" target="EVIE" weight="1" />
+      <edge id="18986" source="SALLY" target="RYAN" weight="4" />
+      <edge id="18987" source="SALLY" target="MONICA" weight="3" />
+      <edge id="18988" source="SALLY" target="MAC" weight="7" />
+      <edge id="18989" source="SALLY" target="CLAIR" weight="5" />
+      <edge id="18990" source="SALLY" target="GINA" weight="7" />
+      <edge id="18991" source="SALLY" target="PANES" weight="9" />
+      <edge id="18992" source="SALLY" target="EVERYONE" weight="1" />
+      <edge id="18993" source="SALLY" target="MONICA/RYAN" weight="1" />
+      <edge id="18994" source="SALLY" target="SKYE" weight="8" />
+      <edge id="18995" source="SALLY" target="SANFORD" weight="2" />
+      <edge id="18996" source="SALLY" target="JEFFREY" weight="2" />
+      <edge id="18997" source="SALLY" target="TEAM" weight="1" />
+      <edge id="18998" source="SALLY" target="SALLY'S TEAM" weight="1" />
+      <edge id="18999" source="SALLY" target="ASTRID" weight="3" />
+      <edge id="19000" source="SALLY" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19001" source="SALLY" target="SAM" weight="1" />
+      <edge id="19002" source="SALLY" target="CAL'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19003" source="SALLY" target="SALLY'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19004" source="AMERICA" target="SALLY" weight="2" />
+      <edge id="19005" source="AMERICA" target="JOE" weight="2" />
+      <edge id="19006" source="AMERICA" target="STEVEN" weight="1" />
+      <edge id="19007" source="AMERICA" target="PANES" weight="1" />
+      <edge id="19008" source="AMERICA" target="JERRY" weight="1" />
+      <edge id="19009" source="AMERICA" target="JEFFREY" weight="1" />
+      <edge id="19010" source="AMERICA" target="SOPHIA" weight="1" />
+      <edge id="19011" source="AMERICA" target="JUDY" weight="1" />
+      <edge id="19012" source="AMERICA" target="SANFORD" weight="1" />
+      <edge id="19013" source="AMERICA" target="RYAN" weight="2" />
+      <edge id="19014" source="AMERICA" target="MAC" weight="1" />
+      <edge id="19015" source="AMERICA" target="CAL" weight="1" />
+      <edge id="19016" source="AMERICA" target="GINA" weight="1" />
+      <edge id="19017" source="AMERICA" target="TEAM" weight="1" />
+      <edge id="19018" source="AMERICA" target="SKYE" weight="1" />
+      <edge id="19019" source="AMERICA" target="SALLY'S TEAM" weight="1" />
+      <edge id="19020" source="AMERICA" target="MONICA" weight="1" />
+      <edge id="19021" source="JUDY" target="JERRY" weight="7" />
+      <edge id="19022" source="JUDY" target="SALLY" weight="4" />
+      <edge id="19023" source="JUDY" target="JOE" weight="4" />
+      <edge id="19024" source="JUDY" target="CAL" weight="2" />
+      <edge id="19025" source="JUDY" target="SOPHIA" weight="3" />
+      <edge id="19026" source="JUDY" target="JACK" weight="1" />
+      <edge id="19027" source="JUDY" target="EVIE" weight="1" />
+      <edge id="19028" source="JUDY" target="RYAN" weight="4" />
+      <edge id="19029" source="JUDY" target="PANES" weight="2" />
+      <edge id="19030" source="JUDY" target="MAC" weight="3" />
+      <edge id="19031" source="JUDY" target="SANFORD" weight="2" />
+      <edge id="19032" source="JUDY" target="JEFFREY" weight="1" />
+      <edge id="19033" source="JUDY" target="GINA" weight="1" />
+      <edge id="19034" source="JUDY" target="TEAM" weight="1" />
+      <edge id="19035" source="JUDY" target="SKYE" weight="1" />
+      <edge id="19036" source="JUDY" target="SALLY'S TEAM" weight="1" />
+      <edge id="19037" source="JUDY" target="AMERICA" weight="1" />
+      <edge id="19038" source="JUDY" target="MONICA" weight="1" />
+      <edge id="19039" source="JUDY" target="CLAIR" weight="2" />
+      <edge id="19040" source="JERRY" target="JUDY" weight="7" />
+      <edge id="19041" source="JERRY" target="SALLY" weight="4" />
+      <edge id="19042" source="JERRY" target="JOE" weight="4" />
+      <edge id="19043" source="JERRY" target="CAL" weight="2" />
+      <edge id="19044" source="JERRY" target="SOPHIA" weight="2" />
+      <edge id="19045" source="JERRY" target="JACK" weight="1" />
+      <edge id="19046" source="JERRY" target="EVIE" weight="1" />
+      <edge id="19047" source="JERRY" target="PANES" weight="1" />
+      <edge id="19048" source="JERRY" target="JEFFREY" weight="1" />
+      <edge id="19049" source="JERRY" target="SANFORD" weight="1" />
+      <edge id="19050" source="JERRY" target="RYAN" weight="2" />
+      <edge id="19051" source="JERRY" target="MAC" weight="2" />
+      <edge id="19052" source="JERRY" target="GINA" weight="1" />
+      <edge id="19053" source="JERRY" target="TEAM" weight="1" />
+      <edge id="19054" source="JERRY" target="SKYE" weight="1" />
+      <edge id="19055" source="JERRY" target="SALLY'S TEAM" weight="1" />
+      <edge id="19056" source="JERRY" target="AMERICA" weight="1" />
+      <edge id="19057" source="JERRY" target="MONICA" weight="1" />
+      <edge id="19058" source="JERRY" target="CLAIR" weight="2" />
+      <edge id="19059" source="CAL" target="SALLY" weight="6" />
+      <edge id="19060" source="CAL" target="SOPHIA" weight="6" />
+      <edge id="19061" source="CAL" target="JERRY" weight="2" />
+      <edge id="19062" source="CAL" target="JACK" weight="2" />
+      <edge id="19063" source="CAL" target="JOE" weight="9" />
+      <edge id="19064" source="CAL" target="JUDY" weight="2" />
+      <edge id="19065" source="CAL" target="EVIE" weight="1" />
+      <edge id="19066" source="CAL" target="RYAN" weight="3" />
+      <edge id="19067" source="CAL" target="MONICA" weight="3" />
+      <edge id="19068" source="CAL" target="MAC" weight="5" />
+      <edge id="19069" source="CAL" target="CLAIR" weight="3" />
+      <edge id="19070" source="CAL" target="GINA" weight="4" />
+      <edge id="19071" source="CAL" target="SKYE" weight="3" />
+      <edge id="19072" source="CAL" target="PANES" weight="2" />
+      <edge id="19073" source="CAL" target="JEFFREY" weight="1" />
+      <edge id="19074" source="CAL" target="SANFORD" weight="1" />
+      <edge id="19075" source="CAL" target="TEAM" weight="1" />
+      <edge id="19076" source="CAL" target="SALLY'S TEAM" weight="1" />
+      <edge id="19077" source="CAL" target="AMERICA" weight="1" />
+      <edge id="19078" source="CAL" target="SAM" weight="1" />
+      <edge id="19079" source="CAL" target="ASTRID" weight="1" />
+      <edge id="19080" source="SOPHIA" target="SALLY" weight="8" />
+      <edge id="19081" source="SOPHIA" target="CAL" weight="6" />
+      <edge id="19082" source="SOPHIA" target="JERRY" weight="2" />
+      <edge id="19083" source="SOPHIA" target="JACK" weight="1" />
+      <edge id="19084" source="SOPHIA" target="JOE" weight="5" />
+      <edge id="19085" source="SOPHIA" target="JUDY" weight="3" />
+      <edge id="19086" source="SOPHIA" target="EVIE" weight="1" />
+      <edge id="19087" source="SOPHIA" target="MAC" weight="4" />
+      <edge id="19088" source="SOPHIA" target="GINA" weight="3" />
+      <edge id="19089" source="SOPHIA" target="MONICA" weight="1" />
+      <edge id="19090" source="SOPHIA" target="RYAN" weight="3" />
+      <edge id="19091" source="SOPHIA" target="CLAIR" weight="3" />
+      <edge id="19092" source="SOPHIA" target="PANES" weight="3" />
+      <edge id="19093" source="SOPHIA" target="SANFORD" weight="2" />
+      <edge id="19094" source="SOPHIA" target="JEFFREY" weight="1" />
+      <edge id="19095" source="SOPHIA" target="TEAM" weight="1" />
+      <edge id="19096" source="SOPHIA" target="SKYE" weight="2" />
+      <edge id="19097" source="SOPHIA" target="SALLY'S TEAM" weight="1" />
+      <edge id="19098" source="SOPHIA" target="AMERICA" weight="1" />
+      <edge id="19099" source="SOPHIA" target="SAM" weight="1" />
+      <edge id="19100" source="SOPHIA" target="ASTRID" weight="1" />
+      <edge id="19101" source="SOPHIA" target="CAL AND SOPHIA" weight="1" />
+      <edge id="19102" source="JACK" target="SALLY" weight="2" />
+      <edge id="19103" source="JACK" target="CAL" weight="2" />
+      <edge id="19104" source="JACK" target="SOPHIA" weight="1" />
+      <edge id="19105" source="JACK" target="JERRY" weight="1" />
+      <edge id="19106" source="JACK" target="JOE" weight="2" />
+      <edge id="19107" source="JACK" target="JUDY" weight="1" />
+      <edge id="19108" source="JACK" target="EVIE" weight="1" />
+      <edge id="19109" source="JACK" target="RYAN" weight="1" />
+      <edge id="19110" source="JACK" target="MONICA" weight="1" />
+      <edge id="19111" source="JACK" target="MAC" weight="1" />
+      <edge id="19112" source="JACK" target="CLAIR" weight="1" />
+      <edge id="19113" source="EVIE" target="SALLY" weight="1" />
+      <edge id="19114" source="EVIE" target="CAL" weight="1" />
+      <edge id="19115" source="EVIE" target="SOPHIA" weight="1" />
+      <edge id="19116" source="EVIE" target="JERRY" weight="1" />
+      <edge id="19117" source="EVIE" target="JACK" weight="1" />
+      <edge id="19118" source="EVIE" target="JOE" weight="1" />
+      <edge id="19119" source="EVIE" target="JUDY" weight="1" />
+      <edge id="19120" source="RYAN" target="JOE" weight="3" />
+      <edge id="19121" source="RYAN" target="JACK" weight="1" />
+      <edge id="19122" source="RYAN" target="MONICA" weight="5" />
+      <edge id="19123" source="RYAN" target="SALLY" weight="4" />
+      <edge id="19124" source="RYAN" target="MAC" weight="4" />
+      <edge id="19125" source="RYAN" target="CLAIR" weight="2" />
+      <edge id="19126" source="RYAN" target="CAL" weight="3" />
+      <edge id="19127" source="RYAN" target="GINA" weight="2" />
+      <edge id="19128" source="RYAN" target="SOPHIA" weight="3" />
+      <edge id="19129" source="RYAN" target="JUDY" weight="4" />
+      <edge id="19130" source="RYAN" target="PANES" weight="2" />
+      <edge id="19131" source="RYAN" target="SANFORD" weight="2" />
+      <edge id="19132" source="RYAN" target="JERRY" weight="2" />
+      <edge id="19133" source="RYAN" target="JEFFREY" weight="1" />
+      <edge id="19134" source="RYAN" target="TEAM" weight="1" />
+      <edge id="19135" source="RYAN" target="SKYE" weight="1" />
+      <edge id="19136" source="RYAN" target="SALLY'S TEAM" weight="1" />
+      <edge id="19137" source="RYAN" target="AMERICA" weight="2" />
+      <edge id="19138" source="MONICA" target="JOE" weight="6" />
+      <edge id="19139" source="MONICA" target="JACK" weight="1" />
+      <edge id="19140" source="MONICA" target="RYAN" weight="5" />
+      <edge id="19141" source="MONICA" target="SALLY" weight="3" />
+      <edge id="19142" source="MONICA" target="MAC" weight="2" />
+      <edge id="19143" source="MONICA" target="CLAIR" weight="2" />
+      <edge id="19144" source="MONICA" target="CAL" weight="3" />
+      <edge id="19145" source="MONICA" target="GINA" weight="2" />
+      <edge id="19146" source="MONICA" target="SOPHIA" weight="1" />
+      <edge id="19147" source="MONICA" target="JEFFREY" weight="1" />
+      <edge id="19148" source="MONICA" target="SKYE" weight="1" />
+      <edge id="19149" source="MONICA" target="JERRY" weight="1" />
+      <edge id="19150" source="MONICA" target="JUDY" weight="1" />
+      <edge id="19151" source="MONICA" target="AMERICA" weight="1" />
+      <edge id="19152" source="MAC" target="JOE" weight="4" />
+      <edge id="19153" source="MAC" target="JACK" weight="1" />
+      <edge id="19154" source="MAC" target="RYAN" weight="4" />
+      <edge id="19155" source="MAC" target="MONICA" weight="2" />
+      <edge id="19156" source="MAC" target="SALLY" weight="7" />
+      <edge id="19157" source="MAC" target="CLAIR" weight="4" />
+      <edge id="19158" source="MAC" target="CAL" weight="5" />
+      <edge id="19159" source="MAC" target="GINA" weight="3" />
+      <edge id="19160" source="MAC" target="SOPHIA" weight="4" />
+      <edge id="19161" source="MAC" target="PANES" weight="2" />
+      <edge id="19162" source="MAC" target="SANFORD" weight="2" />
+      <edge id="19163" source="MAC" target="JUDY" weight="3" />
+      <edge id="19164" source="MAC" target="JERRY" weight="2" />
+      <edge id="19165" source="MAC" target="JEFFREY" weight="1" />
+      <edge id="19166" source="MAC" target="TEAM" weight="1" />
+      <edge id="19167" source="MAC" target="SKYE" weight="1" />
+      <edge id="19168" source="MAC" target="SALLY'S TEAM" weight="1" />
+      <edge id="19169" source="MAC" target="AMERICA" weight="1" />
+      <edge id="19170" source="MAC" target="CAL'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19171" source="MAC" target="SALLY'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19172" source="CLAIR" target="JOE" weight="3" />
+      <edge id="19173" source="CLAIR" target="JACK" weight="1" />
+      <edge id="19174" source="CLAIR" target="RYAN" weight="2" />
+      <edge id="19175" source="CLAIR" target="MONICA" weight="2" />
+      <edge id="19176" source="CLAIR" target="SALLY" weight="5" />
+      <edge id="19177" source="CLAIR" target="MAC" weight="4" />
+      <edge id="19178" source="CLAIR" target="CAL" weight="3" />
+      <edge id="19179" source="CLAIR" target="SOPHIA" weight="3" />
+      <edge id="19180" source="CLAIR" target="PANES" weight="2" />
+      <edge id="19181" source="CLAIR" target="SKYE" weight="1" />
+      <edge id="19182" source="CLAIR" target="GINA" weight="2" />
+      <edge id="19183" source="CLAIR" target="JEFFREY" weight="1" />
+      <edge id="19184" source="CLAIR" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19185" source="CLAIR" target="JERRY" weight="2" />
+      <edge id="19186" source="CLAIR" target="JUDY" weight="2" />
+      <edge id="19187" source="CLAIR" target="CAL AND SOPHIA" weight="1" />
+      <edge id="19188" source="GINA" target="CAL" weight="4" />
+      <edge id="19189" source="GINA" target="MAC" weight="3" />
+      <edge id="19190" source="GINA" target="JOE" weight="7" />
+      <edge id="19191" source="GINA" target="SOPHIA" weight="3" />
+      <edge id="19192" source="GINA" target="SALLY" weight="7" />
+      <edge id="19193" source="GINA" target="MONICA" weight="2" />
+      <edge id="19194" source="GINA" target="RYAN" weight="2" />
+      <edge id="19195" source="GINA" target="SKYE" weight="4" />
+      <edge id="19196" source="GINA" target="PANES" weight="2" />
+      <edge id="19197" source="GINA" target="JERRY" weight="1" />
+      <edge id="19198" source="GINA" target="JEFFREY" weight="2" />
+      <edge id="19199" source="GINA" target="JUDY" weight="1" />
+      <edge id="19200" source="GINA" target="SANFORD" weight="1" />
+      <edge id="19201" source="GINA" target="TEAM" weight="1" />
+      <edge id="19202" source="GINA" target="SALLY'S TEAM" weight="1" />
+      <edge id="19203" source="GINA" target="AMERICA" weight="1" />
+      <edge id="19204" source="GINA" target="CLAIR" weight="2" />
+      <edge id="19205" source="GINA" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19206" source="GINA" target="MAN'S VOICE" weight="1" />
+      <edge id="19207" source="PANES" target="JOE" weight="5" />
+      <edge id="19208" source="PANES" target="SALLY" weight="9" />
+      <edge id="19209" source="PANES" target="EVERYONE" weight="1" />
+      <edge id="19210" source="PANES" target="MONICA/RYAN" weight="1" />
+      <edge id="19211" source="PANES" target="SKYE" weight="7" />
+      <edge id="19212" source="PANES" target="CLAIR" weight="2" />
+      <edge id="19213" source="PANES" target="MAC" weight="2" />
+      <edge id="19214" source="PANES" target="SANFORD" weight="2" />
+      <edge id="19215" source="PANES" target="RYAN" weight="2" />
+      <edge id="19216" source="PANES" target="JUDY" weight="2" />
+      <edge id="19217" source="PANES" target="SOPHIA" weight="3" />
+      <edge id="19218" source="PANES" target="JERRY" weight="1" />
+      <edge id="19219" source="PANES" target="JEFFREY" weight="2" />
+      <edge id="19220" source="PANES" target="CAL" weight="2" />
+      <edge id="19221" source="PANES" target="GINA" weight="2" />
+      <edge id="19222" source="PANES" target="TEAM" weight="1" />
+      <edge id="19223" source="PANES" target="SALLY'S TEAM" weight="1" />
+      <edge id="19224" source="PANES" target="AMERICA" weight="1" />
+      <edge id="19225" source="PANES" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19226" source="PANES" target="SAM" weight="1" />
+      <edge id="19227" source="PANES" target="ASTRID" weight="1" />
+      <edge id="19228" source="EVERYONE" target="JOE" weight="1" />
+      <edge id="19229" source="EVERYONE" target="PANES" weight="1" />
+      <edge id="19230" source="EVERYONE" target="SALLY" weight="1" />
+      <edge id="19231" source="EVERYONE" target="MONICA/RYAN" weight="1" />
+      <edge id="19232" source="EVERYONE" target="SKYE" weight="1" />
+      <edge id="19233" source="MONICA/RYAN" target="JOE" weight="1" />
+      <edge id="19234" source="MONICA/RYAN" target="PANES" weight="1" />
+      <edge id="19235" source="MONICA/RYAN" target="SALLY" weight="1" />
+      <edge id="19236" source="MONICA/RYAN" target="EVERYONE" weight="1" />
+      <edge id="19237" source="MONICA/RYAN" target="SKYE" weight="1" />
+      <edge id="19238" source="SKYE" target="JOE" weight="7" />
+      <edge id="19239" source="SKYE" target="PANES" weight="7" />
+      <edge id="19240" source="SKYE" target="SALLY" weight="8" />
+      <edge id="19241" source="SKYE" target="EVERYONE" weight="1" />
+      <edge id="19242" source="SKYE" target="MONICA/RYAN" weight="1" />
+      <edge id="19243" source="SKYE" target="CAL" weight="3" />
+      <edge id="19244" source="SKYE" target="MONICA" weight="1" />
+      <edge id="19245" source="SKYE" target="GINA" weight="4" />
+      <edge id="19246" source="SKYE" target="JERRY" weight="1" />
+      <edge id="19247" source="SKYE" target="JEFFREY" weight="2" />
+      <edge id="19248" source="SKYE" target="SOPHIA" weight="2" />
+      <edge id="19249" source="SKYE" target="JUDY" weight="1" />
+      <edge id="19250" source="SKYE" target="SANFORD" weight="1" />
+      <edge id="19251" source="SKYE" target="RYAN" weight="1" />
+      <edge id="19252" source="SKYE" target="MAC" weight="1" />
+      <edge id="19253" source="SKYE" target="TEAM" weight="1" />
+      <edge id="19254" source="SKYE" target="SALLY'S TEAM" weight="1" />
+      <edge id="19255" source="SKYE" target="AMERICA" weight="1" />
+      <edge id="19256" source="SKYE" target="ASTRID" weight="2" />
+      <edge id="19257" source="SKYE" target="CLAIR" weight="1" />
+      <edge id="19258" source="SKYE" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19259" source="SKYE" target="SAM" weight="1" />
+      <edge id="19260" source="JEFFREY" target="MONICA" weight="1" />
+      <edge id="19261" source="JEFFREY" target="JOE" weight="2" />
+      <edge id="19262" source="JEFFREY" target="SALLY" weight="2" />
+      <edge id="19263" source="JEFFREY" target="PANES" weight="2" />
+      <edge id="19264" source="JEFFREY" target="JERRY" weight="1" />
+      <edge id="19265" source="JEFFREY" target="SOPHIA" weight="1" />
+      <edge id="19266" source="JEFFREY" target="JUDY" weight="1" />
+      <edge id="19267" source="JEFFREY" target="SANFORD" weight="1" />
+      <edge id="19268" source="JEFFREY" target="RYAN" weight="1" />
+      <edge id="19269" source="JEFFREY" target="MAC" weight="1" />
+      <edge id="19270" source="JEFFREY" target="CAL" weight="1" />
+      <edge id="19271" source="JEFFREY" target="GINA" weight="2" />
+      <edge id="19272" source="JEFFREY" target="TEAM" weight="1" />
+      <edge id="19273" source="JEFFREY" target="SKYE" weight="2" />
+      <edge id="19274" source="JEFFREY" target="SALLY'S TEAM" weight="1" />
+      <edge id="19275" source="JEFFREY" target="AMERICA" weight="1" />
+      <edge id="19276" source="JEFFREY" target="CLAIR" weight="1" />
+      <edge id="19277" source="JEFFREY" target="SALLY/JEFFREY" weight="1" />
+      <edge id="19278" source="SANFORD" target="SALLY" weight="2" />
+      <edge id="19279" source="SANFORD" target="PANES" weight="2" />
+      <edge id="19280" source="SANFORD" target="MAC" weight="2" />
+      <edge id="19281" source="SANFORD" target="RYAN" weight="2" />
+      <edge id="19282" source="SANFORD" target="JUDY" weight="2" />
+      <edge id="19283" source="SANFORD" target="SOPHIA" weight="2" />
+      <edge id="19284" source="SANFORD" target="JOE" weight="1" />
+      <edge id="19285" source="SANFORD" target="JERRY" weight="1" />
+      <edge id="19286" source="SANFORD" target="JEFFREY" weight="1" />
+      <edge id="19287" source="SANFORD" target="CAL" weight="1" />
+      <edge id="19288" source="SANFORD" target="GINA" weight="1" />
+      <edge id="19289" source="SANFORD" target="TEAM" weight="1" />
+      <edge id="19290" source="SANFORD" target="SKYE" weight="1" />
+      <edge id="19291" source="SANFORD" target="SALLY'S TEAM" weight="1" />
+      <edge id="19292" source="SANFORD" target="AMERICA" weight="1" />
+      <edge id="19293" source="TEAM" target="JOE" weight="1" />
+      <edge id="19294" source="TEAM" target="SALLY" weight="1" />
+      <edge id="19295" source="TEAM" target="PANES" weight="1" />
+      <edge id="19296" source="TEAM" target="JERRY" weight="1" />
+      <edge id="19297" source="TEAM" target="JEFFREY" weight="1" />
+      <edge id="19298" source="TEAM" target="SOPHIA" weight="1" />
+      <edge id="19299" source="TEAM" target="JUDY" weight="1" />
+      <edge id="19300" source="TEAM" target="SANFORD" weight="1" />
+      <edge id="19301" source="TEAM" target="RYAN" weight="1" />
+      <edge id="19302" source="TEAM" target="MAC" weight="1" />
+      <edge id="19303" source="TEAM" target="CAL" weight="1" />
+      <edge id="19304" source="TEAM" target="GINA" weight="1" />
+      <edge id="19305" source="TEAM" target="SKYE" weight="1" />
+      <edge id="19306" source="TEAM" target="SALLY'S TEAM" weight="1" />
+      <edge id="19307" source="TEAM" target="AMERICA" weight="1" />
+      <edge id="19308" source="SALLY'S TEAM" target="JOE" weight="1" />
+      <edge id="19309" source="SALLY'S TEAM" target="SALLY" weight="1" />
+      <edge id="19310" source="SALLY'S TEAM" target="PANES" weight="1" />
+      <edge id="19311" source="SALLY'S TEAM" target="JERRY" weight="1" />
+      <edge id="19312" source="SALLY'S TEAM" target="JEFFREY" weight="1" />
+      <edge id="19313" source="SALLY'S TEAM" target="SOPHIA" weight="1" />
+      <edge id="19314" source="SALLY'S TEAM" target="JUDY" weight="1" />
+      <edge id="19315" source="SALLY'S TEAM" target="SANFORD" weight="1" />
+      <edge id="19316" source="SALLY'S TEAM" target="RYAN" weight="1" />
+      <edge id="19317" source="SALLY'S TEAM" target="MAC" weight="1" />
+      <edge id="19318" source="SALLY'S TEAM" target="CAL" weight="1" />
+      <edge id="19319" source="SALLY'S TEAM" target="GINA" weight="1" />
+      <edge id="19320" source="SALLY'S TEAM" target="TEAM" weight="1" />
+      <edge id="19321" source="SALLY'S TEAM" target="SKYE" weight="1" />
+      <edge id="19322" source="SALLY'S TEAM" target="AMERICA" weight="1" />
+      <edge id="19323" source="ASTRID" target="SALLY" weight="3" />
+      <edge id="19324" source="ASTRID" target="SKYE" weight="2" />
+      <edge id="19325" source="ASTRID" target="SOPHIA" weight="1" />
+      <edge id="19326" source="ASTRID" target="CAL" weight="1" />
+      <edge id="19327" source="ASTRID" target="SAM" weight="1" />
+      <edge id="19328" source="ASTRID" target="PANES" weight="1" />
+      <edge id="19329" source="ASTRID" target="JOE" weight="1" />
+      <edge id="19330" source="SALLY/JEFFREY" target="CLAIR" weight="1" />
+      <edge id="19331" source="SALLY/JEFFREY" target="PANES" weight="1" />
+      <edge id="19332" source="SALLY/JEFFREY" target="SKYE" weight="1" />
+      <edge id="19333" source="SALLY/JEFFREY" target="JOE" weight="1" />
+      <edge id="19334" source="SALLY/JEFFREY" target="GINA" weight="1" />
+      <edge id="19335" source="SALLY/JEFFREY" target="JEFFREY" weight="1" />
+      <edge id="19336" source="SALLY/JEFFREY" target="SALLY" weight="1" />
+      <edge id="19337" source="SAM" target="SOPHIA" weight="1" />
+      <edge id="19338" source="SAM" target="CAL" weight="1" />
+      <edge id="19339" source="SAM" target="SKYE" weight="1" />
+      <edge id="19340" source="SAM" target="ASTRID" weight="1" />
+      <edge id="19341" source="SAM" target="PANES" weight="1" />
+      <edge id="19342" source="SAM" target="SALLY" weight="1" />
+      <edge id="19343" source="SAM" target="JOE" weight="1" />
+      <edge id="19344" source="CAL'S VOICE FROM THE T.V." target="SALLY'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19345" source="CAL'S VOICE FROM THE T.V." target="SALLY" weight="2" />
+      <edge id="19346" source="CAL'S VOICE FROM THE T.V." target="MAC" weight="2" />
+      <edge id="19347" source="SALLY'S VOICE FROM THE T.V." target="CAL'S VOICE FROM THE T.V." weight="2" />
+      <edge id="19348" source="SALLY'S VOICE FROM THE T.V." target="SALLY" weight="2" />
+      <edge id="19349" source="SALLY'S VOICE FROM THE T.V." target="MAC" weight="2" />
+      <edge id="19350" source="MAN'S VOICE" target="GINA" weight="1" />
+      <edge id="19351" source="CAL AND SOPHIA" target="SOPHIA" weight="1" />
+      <edge id="19352" source="CAL AND SOPHIA" target="CLAIR" weight="1" />
+    </edges>
+  </graph>
+</gexf>

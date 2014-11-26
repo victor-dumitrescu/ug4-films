@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MORRIS" label="MORRIS" />
+      <node id="SPUD" label="SPUD" />
+      <node id="DOUG" label="DOUG" />
+      <node id="ANN" label="ANN" />
+      <node id="CARLA" label="CARLA" />
+      <node id="WOMAN AT COUNTER" label="WOMAN AT COUNTER" />
+      <node id="MAUDE" label="MAUDE" />
+      <node id="JACK" label="JACK" />
+      <node id="TOWNSMAN" label="TOWNSMAN" />
+      <node id="DOC WILSON" label="DOC WILSON" />
+      <node id="BILL" label="BILL" />
+      <node id="WALT" label="WALT" />
+      <node id="UBERTO" label="UBERTO" />
+      <node id="SCOTT" label="SCOTT" />
+      <node id="JOE" label="JOE" />
+      <node id="MAYOR" label="MAYOR" />
+      <node id="FIRST A.D." label="FIRST A.D." />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="COSTUME DESIGNER" label="COSTUME DESIGNER" />
+      <node id="A.D." label="A.D." />
+      <node id="BI" label="BI" />
+      <node id="ELECTRICIAN" label="ELECTRICIAN" />
+      <node id="DELIVERY MAN" label="DELIVERY MAN" />
+      <node id="GIRL P.A." label="GIRL P.A." />
+      <node id="BOB" label="BOB" />
+      <node id="CHUCKIE" label="CHUCKIE" />
+      <node id="CLAIRE" label="CLAIRE" />
+      <node id="CAL" label="CAL" />
+      <node id="OWNER" label="OWNER" />
+      <node id="SHERRY" label="SHERRY" />
+      <node id="POSTMAN" label="POSTMAN" />
+      <node id="PROD. ASST." label="PROD. ASST." />
+      <node id="MARTY" label="MARTY" />
+      <node id="GIRL ON A SCOOTER" label="GIRL ON A SCOOTER" />
+      <node id="LITTLE KID" label="LITTLE KID" />
+      <node id="PAINTER" label="PAINTER" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="SALESMAN" label="SALESMAN" />
+      <node id="TV REPORTER" label="TV REPORTER" />
+      <node id="TROOPER" label="TROOPER" />
+      <node id="BAILIFF" label="BAILIFF" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="P.A." label="P.A." />
+      <node id="KID ON SCOOTER" label="KID ON SCOOTER" />
+      <node id="BELLHOP" label="BELLHOP" />
+      <node id="STATION MASTER" label="STATION MASTER" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="HOWIE" label="HOWIE" />
+      <node id="DOC MORTON" label="DOC MORTON" />
+      <node id="FIREMAN" label="FIREMAN" />
+      <node id="SISTER" label="SISTER" />
+    </nodes>
+    <edges>
+      <edge id="16789" source="MORRIS" target="SPUD" weight="5" />
+      <edge id="16790" source="MORRIS" target="DOUG" weight="3" />
+      <edge id="16791" source="MORRIS" target="ANN" weight="3" />
+      <edge id="16792" source="MORRIS" target="CARLA" weight="3" />
+      <edge id="16793" source="MORRIS" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16794" source="MORRIS" target="MAUDE" weight="1" />
+      <edge id="16795" source="MORRIS" target="JACK" weight="3" />
+      <edge id="16796" source="MORRIS" target="JOE" weight="2" />
+      <edge id="16797" source="MORRIS" target="BOB" weight="1" />
+      <edge id="16798" source="SPUD" target="MORRIS" weight="5" />
+      <edge id="16799" source="SPUD" target="DOUG" weight="3" />
+      <edge id="16800" source="SPUD" target="ANN" weight="3" />
+      <edge id="16801" source="SPUD" target="CARLA" weight="3" />
+      <edge id="16802" source="SPUD" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16803" source="SPUD" target="MAUDE" weight="1" />
+      <edge id="16804" source="SPUD" target="JACK" weight="3" />
+      <edge id="16805" source="SPUD" target="JOE" weight="2" />
+      <edge id="16806" source="SPUD" target="BOB" weight="1" />
+      <edge id="16807" source="DOUG" target="MORRIS" weight="3" />
+      <edge id="16808" source="DOUG" target="SPUD" weight="3" />
+      <edge id="16809" source="DOUG" target="ANN" weight="6" />
+      <edge id="16810" source="DOUG" target="CARLA" weight="6" />
+      <edge id="16811" source="DOUG" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16812" source="DOUG" target="MAUDE" weight="2" />
+      <edge id="16813" source="DOUG" target="JACK" weight="4" />
+      <edge id="16814" source="DOUG" target="JOE" weight="4" />
+      <edge id="16815" source="DOUG" target="SHERRY" weight="2" />
+      <edge id="16816" source="DOUG" target="MAYOR" weight="2" />
+      <edge id="16817" source="DOUG" target="CAL" weight="3" />
+      <edge id="16818" source="DOUG" target="FIRST A.D." weight="3" />
+      <edge id="16819" source="DOUG" target="MARTY" weight="6" />
+      <edge id="16820" source="DOUG" target="POSTMAN" weight="1" />
+      <edge id="16821" source="DOUG" target="PAINTER" weight="1" />
+      <edge id="16822" source="DOUG" target="DOC WILSON" weight="2" />
+      <edge id="16823" source="DOUG" target="BARTENDER" weight="1" />
+      <edge id="16824" source="DOUG" target="SALESMAN" weight="1" />
+      <edge id="16825" source="DOUG" target="BOB" weight="2" />
+      <edge id="16826" source="DOUG" target="WALT" weight="2" />
+      <edge id="16827" source="DOUG" target="TV REPORTER" weight="2" />
+      <edge id="16828" source="DOUG" target="TROOPER" weight="1" />
+      <edge id="16829" source="DOUG" target="TECHNICIAN" weight="1" />
+      <edge id="16830" source="DOUG" target="HOWIE" weight="1" />
+      <edge id="16831" source="DOUG" target="JUDGE" weight="1" />
+      <edge id="16832" source="ANN" target="DOUG" weight="6" />
+      <edge id="16833" source="ANN" target="CARLA" weight="2" />
+      <edge id="16834" source="ANN" target="MORRIS" weight="3" />
+      <edge id="16835" source="ANN" target="SPUD" weight="3" />
+      <edge id="16836" source="ANN" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16837" source="ANN" target="MAUDE" weight="2" />
+      <edge id="16838" source="ANN" target="JACK" weight="3" />
+      <edge id="16839" source="ANN" target="JOE" weight="20" />
+      <edge id="16840" source="ANN" target="CAL" weight="4" />
+      <edge id="16841" source="ANN" target="OWNER" weight="1" />
+      <edge id="16842" source="ANN" target="POSTMAN" weight="1" />
+      <edge id="16843" source="ANN" target="UBERTO" weight="1" />
+      <edge id="16844" source="ANN" target="LITTLE KID" weight="1" />
+      <edge id="16845" source="ANN" target="FIRST A.D." weight="2" />
+      <edge id="16846" source="ANN" target="CLAIRE" weight="4" />
+      <edge id="16847" source="ANN" target="TV REPORTER" weight="1" />
+      <edge id="16848" source="ANN" target="MARTY" weight="2" />
+      <edge id="16849" source="ANN" target="TROOPER" weight="1" />
+      <edge id="16850" source="ANN" target="BOB" weight="2" />
+      <edge id="16851" source="ANN" target="SHERRY" weight="1" />
+      <edge id="16852" source="ANN" target="DOC MORTON" weight="1" />
+      <edge id="16853" source="ANN" target="FIREMAN" weight="1" />
+      <edge id="16854" source="ANN" target="SISTER" weight="1" />
+      <edge id="16855" source="CARLA" target="DOUG" weight="6" />
+      <edge id="16856" source="CARLA" target="ANN" weight="2" />
+      <edge id="16857" source="CARLA" target="MORRIS" weight="3" />
+      <edge id="16858" source="CARLA" target="SPUD" weight="3" />
+      <edge id="16859" source="CARLA" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16860" source="CARLA" target="MAUDE" weight="2" />
+      <edge id="16861" source="CARLA" target="JACK" weight="4" />
+      <edge id="16862" source="CARLA" target="WALT" weight="5" />
+      <edge id="16863" source="CARLA" target="BILL" weight="2" />
+      <edge id="16864" source="CARLA" target="SCOTT" weight="1" />
+      <edge id="16865" source="CARLA" target="JOE" weight="3" />
+      <edge id="16866" source="CARLA" target="MAYOR" weight="1" />
+      <edge id="16867" source="CARLA" target="FIRST A.D." weight="2" />
+      <edge id="16868" source="CARLA" target="SECRETARY" weight="1" />
+      <edge id="16869" source="CARLA" target="COSTUME DESIGNER" weight="1" />
+      <edge id="16870" source="CARLA" target="BOB" weight="4" />
+      <edge id="16871" source="CARLA" target="DOC WILSON" weight="2" />
+      <edge id="16872" source="CARLA" target="CLAIRE" weight="2" />
+      <edge id="16873" source="CARLA" target="MARTY" weight="4" />
+      <edge id="16874" source="CARLA" target="BARTENDER" weight="1" />
+      <edge id="16875" source="CARLA" target="SALESMAN" weight="1" />
+      <edge id="16876" source="CARLA" target="CAL" weight="2" />
+      <edge id="16877" source="WOMAN AT COUNTER" target="DOUG" weight="1" />
+      <edge id="16878" source="WOMAN AT COUNTER" target="ANN" weight="1" />
+      <edge id="16879" source="WOMAN AT COUNTER" target="CARLA" weight="1" />
+      <edge id="16880" source="WOMAN AT COUNTER" target="MORRIS" weight="1" />
+      <edge id="16881" source="WOMAN AT COUNTER" target="SPUD" weight="1" />
+      <edge id="16882" source="WOMAN AT COUNTER" target="MAUDE" weight="1" />
+      <edge id="16883" source="WOMAN AT COUNTER" target="JACK" weight="1" />
+      <edge id="16884" source="MAUDE" target="DOUG" weight="2" />
+      <edge id="16885" source="MAUDE" target="ANN" weight="2" />
+      <edge id="16886" source="MAUDE" target="CARLA" weight="2" />
+      <edge id="16887" source="MAUDE" target="MORRIS" weight="1" />
+      <edge id="16888" source="MAUDE" target="SPUD" weight="1" />
+      <edge id="16889" source="MAUDE" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16890" source="MAUDE" target="JACK" weight="1" />
+      <edge id="16891" source="MAUDE" target="JOE" weight="1" />
+      <edge id="16892" source="MAUDE" target="DOC WILSON" weight="1" />
+      <edge id="16893" source="JACK" target="DOUG" weight="4" />
+      <edge id="16894" source="JACK" target="ANN" weight="3" />
+      <edge id="16895" source="JACK" target="CARLA" weight="4" />
+      <edge id="16896" source="JACK" target="MORRIS" weight="3" />
+      <edge id="16897" source="JACK" target="SPUD" weight="3" />
+      <edge id="16898" source="JACK" target="WOMAN AT COUNTER" weight="1" />
+      <edge id="16899" source="JACK" target="MAUDE" weight="1" />
+      <edge id="16900" source="JACK" target="JOE" weight="1" />
+      <edge id="16901" source="JACK" target="SALESMAN" weight="1" />
+      <edge id="16902" source="JACK" target="MARTY" weight="2" />
+      <edge id="16903" source="JACK" target="CAL" weight="2" />
+      <edge id="16904" source="JACK" target="BOB" weight="1" />
+      <edge id="16905" source="JACK" target="WALT" weight="1" />
+      <edge id="16906" source="TOWNSMAN" target="DOC WILSON" weight="1" />
+      <edge id="16907" source="TOWNSMAN" target="BILL" weight="1" />
+      <edge id="16908" source="TOWNSMAN" target="WALT" weight="1" />
+      <edge id="16909" source="DOC WILSON" target="TOWNSMAN" weight="1" />
+      <edge id="16910" source="DOC WILSON" target="BILL" weight="1" />
+      <edge id="16911" source="DOC WILSON" target="WALT" weight="3" />
+      <edge id="16912" source="DOC WILSON" target="MARTY" weight="2" />
+      <edge id="16913" source="DOC WILSON" target="GIRL ON A SCOOTER" weight="1" />
+      <edge id="16914" source="DOC WILSON" target="BOB" weight="1" />
+      <edge id="16915" source="DOC WILSON" target="FIRST A.D." weight="1" />
+      <edge id="16916" source="DOC WILSON" target="CAL" weight="1" />
+      <edge id="16917" source="DOC WILSON" target="CLAIRE" weight="1" />
+      <edge id="16918" source="DOC WILSON" target="DOUG" weight="2" />
+      <edge id="16919" source="DOC WILSON" target="CARLA" weight="2" />
+      <edge id="16920" source="DOC WILSON" target="MAUDE" weight="1" />
+      <edge id="16921" source="DOC WILSON" target="BARTENDER" weight="1" />
+      <edge id="16922" source="DOC WILSON" target="KID ON SCOOTER" weight="1" />
+      <edge id="16923" source="DOC WILSON" target="JOE" weight="1" />
+      <edge id="16924" source="BILL" target="TOWNSMAN" weight="1" />
+      <edge id="16925" source="BILL" target="DOC WILSON" weight="1" />
+      <edge id="16926" source="BILL" target="WALT" weight="10" />
+      <edge id="16927" source="BILL" target="UBERTO" weight="1" />
+      <edge id="16928" source="BILL" target="SCOTT" weight="3" />
+      <edge id="16929" source="BILL" target="CARLA" weight="2" />
+      <edge id="16930" source="BILL" target="COSTUME DESIGNER" weight="2" />
+      <edge id="16931" source="BILL" target="JOE" weight="4" />
+      <edge id="16932" source="BILL" target="A.D." weight="1" />
+      <edge id="16933" source="BILL" target="MAYOR" weight="1" />
+      <edge id="16934" source="BILL" target="FIRST A.D." weight="3" />
+      <edge id="16935" source="BILL" target="BI" weight="1" />
+      <edge id="16936" source="BILL" target="ELECTRICIAN" weight="1" />
+      <edge id="16937" source="BILL" target="DELIVERY MAN" weight="1" />
+      <edge id="16938" source="BILL" target="GIRL P.A." weight="1" />
+      <edge id="16939" source="BILL" target="BOB" weight="2" />
+      <edge id="16940" source="BILL" target="CHUCKIE" weight="1" />
+      <edge id="16941" source="BILL" target="SECRETARY" weight="1" />
+      <edge id="16942" source="BILL" target="MARTY" weight="3" />
+      <edge id="16943" source="BILL" target="CLAIRE" weight="1" />
+      <edge id="16944" source="BILL" target="PROD. ASST." weight="1" />
+      <edge id="16945" source="WALT" target="TOWNSMAN" weight="1" />
+      <edge id="16946" source="WALT" target="DOC WILSON" weight="3" />
+      <edge id="16947" source="WALT" target="BILL" weight="10" />
+      <edge id="16948" source="WALT" target="UBERTO" weight="2" />
+      <edge id="16949" source="WALT" target="SCOTT" weight="2" />
+      <edge id="16950" source="WALT" target="CARLA" weight="5" />
+      <edge id="16951" source="WALT" target="JOE" weight="10" />
+      <edge id="16952" source="WALT" target="MAYOR" weight="2" />
+      <edge id="16953" source="WALT" target="FIRST A.D." weight="7" />
+      <edge id="16954" source="WALT" target="SECRETARY" weight="3" />
+      <edge id="16955" source="WALT" target="COSTUME DESIGNER" weight="3" />
+      <edge id="16956" source="WALT" target="A.D." weight="1" />
+      <edge id="16957" source="WALT" target="BI" weight="1" />
+      <edge id="16958" source="WALT" target="BOB" weight="5" />
+      <edge id="16959" source="WALT" target="CLAIRE" weight="6" />
+      <edge id="16960" source="WALT" target="PROD. ASST." weight="2" />
+      <edge id="16961" source="WALT" target="MARTY" weight="9" />
+      <edge id="16962" source="WALT" target="GIRL ON A SCOOTER" weight="1" />
+      <edge id="16963" source="WALT" target="CAL" weight="2" />
+      <edge id="16964" source="WALT" target="DOUG" weight="2" />
+      <edge id="16965" source="WALT" target="JACK" weight="1" />
+      <edge id="16966" source="WALT" target="TV REPORTER" weight="1" />
+      <edge id="16967" source="WALT" target="TECHNICIAN" weight="1" />
+      <edge id="16968" source="WALT" target="HOWIE" weight="1" />
+      <edge id="16969" source="UBERTO" target="WALT" weight="2" />
+      <edge id="16970" source="UBERTO" target="BILL" weight="1" />
+      <edge id="16971" source="UBERTO" target="SECRETARY" weight="1" />
+      <edge id="16972" source="UBERTO" target="COSTUME DESIGNER" weight="1" />
+      <edge id="16973" source="UBERTO" target="FIRST A.D." weight="1" />
+      <edge id="16974" source="UBERTO" target="JOE" weight="1" />
+      <edge id="16975" source="UBERTO" target="ANN" weight="1" />
+      <edge id="16976" source="UBERTO" target="LITTLE KID" weight="1" />
+      <edge id="16977" source="SCOTT" target="WALT" weight="2" />
+      <edge id="16978" source="SCOTT" target="BILL" weight="3" />
+      <edge id="16979" source="SCOTT" target="CARLA" weight="1" />
+      <edge id="16980" source="SCOTT" target="FIRST A.D." weight="1" />
+      <edge id="16981" source="SCOTT" target="JOE" weight="2" />
+      <edge id="16982" source="SCOTT" target="ELECTRICIAN" weight="1" />
+      <edge id="16983" source="SCOTT" target="DELIVERY MAN" weight="1" />
+      <edge id="16984" source="SCOTT" target="GIRL P.A." weight="1" />
+      <edge id="16985" source="SCOTT" target="BOB" weight="1" />
+      <edge id="16986" source="SCOTT" target="CHUCKIE" weight="1" />
+      <edge id="16987" source="SCOTT" target="P.A." weight="1" />
+      <edge id="16988" source="JOE" target="CARLA" weight="3" />
+      <edge id="16989" source="JOE" target="MAYOR" weight="2" />
+      <edge id="16990" source="JOE" target="WALT" weight="10" />
+      <edge id="16991" source="JOE" target="FIRST A.D." weight="5" />
+      <edge id="16992" source="JOE" target="SECRETARY" weight="1" />
+      <edge id="16993" source="JOE" target="A.D." weight="1" />
+      <edge id="16994" source="JOE" target="BILL" weight="4" />
+      <edge id="16995" source="JOE" target="BI" weight="1" />
+      <edge id="16996" source="JOE" target="ELECTRICIAN" weight="1" />
+      <edge id="16997" source="JOE" target="SCOTT" weight="2" />
+      <edge id="16998" source="JOE" target="DELIVERY MAN" weight="1" />
+      <edge id="16999" source="JOE" target="GIRL P.A." weight="1" />
+      <edge id="17000" source="JOE" target="BOB" weight="5" />
+      <edge id="17001" source="JOE" target="CHUCKIE" weight="1" />
+      <edge id="17002" source="JOE" target="ANN" weight="20" />
+      <edge id="17003" source="JOE" target="MAUDE" weight="1" />
+      <edge id="17004" source="JOE" target="CLAIRE" weight="8" />
+      <edge id="17005" source="JOE" target="CAL" weight="3" />
+      <edge id="17006" source="JOE" target="OWNER" weight="1" />
+      <edge id="17007" source="JOE" target="DOUG" weight="4" />
+      <edge id="17008" source="JOE" target="POSTMAN" weight="1" />
+      <edge id="17009" source="JOE" target="UBERTO" weight="1" />
+      <edge id="17010" source="JOE" target="LITTLE KID" weight="1" />
+      <edge id="17011" source="JOE" target="MARTY" weight="7" />
+      <edge id="17012" source="JOE" target="MORRIS" weight="2" />
+      <edge id="17013" source="JOE" target="SPUD" weight="2" />
+      <edge id="17014" source="JOE" target="JACK" weight="1" />
+      <edge id="17015" source="JOE" target="PROD. ASST." weight="1" />
+      <edge id="17016" source="JOE" target="TV REPORTER" weight="2" />
+      <edge id="17017" source="JOE" target="TROOPER" weight="1" />
+      <edge id="17018" source="JOE" target="P.A." weight="1" />
+      <edge id="17019" source="JOE" target="KID ON SCOOTER" weight="1" />
+      <edge id="17020" source="JOE" target="DOC WILSON" weight="1" />
+      <edge id="17021" source="JOE" target="BELLHOP" weight="1" />
+      <edge id="17022" source="JOE" target="STATION MASTER" weight="1" />
+      <edge id="17023" source="JOE" target="JUDGE" weight="2" />
+      <edge id="17024" source="JOE" target="SHERRY" weight="1" />
+      <edge id="17025" source="JOE" target="TECHNICIAN" weight="1" />
+      <edge id="17026" source="JOE" target="HOWIE" weight="1" />
+      <edge id="17027" source="MAYOR" target="JOE" weight="2" />
+      <edge id="17028" source="MAYOR" target="CARLA" weight="1" />
+      <edge id="17029" source="MAYOR" target="WALT" weight="2" />
+      <edge id="17030" source="MAYOR" target="FIRST A.D." weight="2" />
+      <edge id="17031" source="MAYOR" target="SECRETARY" weight="1" />
+      <edge id="17032" source="MAYOR" target="A.D." weight="1" />
+      <edge id="17033" source="MAYOR" target="BILL" weight="1" />
+      <edge id="17034" source="MAYOR" target="BI" weight="1" />
+      <edge id="17035" source="MAYOR" target="SHERRY" weight="3" />
+      <edge id="17036" source="MAYOR" target="CAL" weight="1" />
+      <edge id="17037" source="MAYOR" target="DOUG" weight="2" />
+      <edge id="17038" source="MAYOR" target="MARTY" weight="1" />
+      <edge id="17039" source="MAYOR" target="POSTMAN" weight="1" />
+      <edge id="17040" source="MAYOR" target="PAINTER" weight="1" />
+      <edge id="17041" source="FIRST A.D." target="JOE" weight="5" />
+      <edge id="17042" source="FIRST A.D." target="CARLA" weight="2" />
+      <edge id="17043" source="FIRST A.D." target="MAYOR" weight="2" />
+      <edge id="17044" source="FIRST A.D." target="WALT" weight="7" />
+      <edge id="17045" source="FIRST A.D." target="SECRETARY" weight="3" />
+      <edge id="17046" source="FIRST A.D." target="A.D." weight="1" />
+      <edge id="17047" source="FIRST A.D." target="BILL" weight="3" />
+      <edge id="17048" source="FIRST A.D." target="BI" weight="1" />
+      <edge id="17049" source="FIRST A.D." target="ELECTRICIAN" weight="1" />
+      <edge id="17050" source="FIRST A.D." target="SCOTT" weight="1" />
+      <edge id="17051" source="FIRST A.D." target="DELIVERY MAN" weight="1" />
+      <edge id="17052" source="FIRST A.D." target="GIRL P.A." weight="1" />
+      <edge id="17053" source="FIRST A.D." target="BOB" weight="4" />
+      <edge id="17054" source="FIRST A.D." target="CHUCKIE" weight="1" />
+      <edge id="17055" source="FIRST A.D." target="UBERTO" weight="1" />
+      <edge id="17056" source="FIRST A.D." target="COSTUME DESIGNER" weight="2" />
+      <edge id="17057" source="FIRST A.D." target="DOUG" weight="3" />
+      <edge id="17058" source="FIRST A.D." target="ANN" weight="2" />
+      <edge id="17059" source="FIRST A.D." target="CLAIRE" weight="4" />
+      <edge id="17060" source="FIRST A.D." target="MARTY" weight="3" />
+      <edge id="17061" source="FIRST A.D." target="DOC WILSON" weight="1" />
+      <edge id="17062" source="FIRST A.D." target="CAL" weight="2" />
+      <edge id="17063" source="FIRST A.D." target="DOC MORTON" weight="1" />
+      <edge id="17064" source="FIRST A.D." target="FIREMAN" weight="1" />
+      <edge id="17065" source="FIRST A.D." target="SISTER" weight="1" />
+      <edge id="17066" source="SECRETARY" target="JOE" weight="1" />
+      <edge id="17067" source="SECRETARY" target="CARLA" weight="1" />
+      <edge id="17068" source="SECRETARY" target="MAYOR" weight="1" />
+      <edge id="17069" source="SECRETARY" target="WALT" weight="3" />
+      <edge id="17070" source="SECRETARY" target="FIRST A.D." weight="3" />
+      <edge id="17071" source="SECRETARY" target="UBERTO" weight="1" />
+      <edge id="17072" source="SECRETARY" target="COSTUME DESIGNER" weight="2" />
+      <edge id="17073" source="SECRETARY" target="BILL" weight="1" />
+      <edge id="17074" source="COSTUME DESIGNER" target="BILL" weight="2" />
+      <edge id="17075" source="COSTUME DESIGNER" target="WALT" weight="3" />
+      <edge id="17076" source="COSTUME DESIGNER" target="CARLA" weight="1" />
+      <edge id="17077" source="COSTUME DESIGNER" target="SECRETARY" weight="2" />
+      <edge id="17078" source="COSTUME DESIGNER" target="UBERTO" weight="1" />
+      <edge id="17079" source="COSTUME DESIGNER" target="FIRST A.D." weight="2" />
+      <edge id="17080" source="A.D." target="WALT" weight="1" />
+      <edge id="17081" source="A.D." target="JOE" weight="1" />
+      <edge id="17082" source="A.D." target="MAYOR" weight="1" />
+      <edge id="17083" source="A.D." target="BILL" weight="1" />
+      <edge id="17084" source="A.D." target="FIRST A.D." weight="1" />
+      <edge id="17085" source="A.D." target="BI" weight="1" />
+      <edge id="17086" source="BI" target="WALT" weight="1" />
+      <edge id="17087" source="BI" target="JOE" weight="1" />
+      <edge id="17088" source="BI" target="A.D." weight="1" />
+      <edge id="17089" source="BI" target="MAYOR" weight="1" />
+      <edge id="17090" source="BI" target="BILL" weight="1" />
+      <edge id="17091" source="BI" target="FIRST A.D." weight="1" />
+      <edge id="17092" source="ELECTRICIAN" target="FIRST A.D." weight="1" />
+      <edge id="17093" source="ELECTRICIAN" target="BILL" weight="1" />
+      <edge id="17094" source="ELECTRICIAN" target="JOE" weight="1" />
+      <edge id="17095" source="ELECTRICIAN" target="SCOTT" weight="1" />
+      <edge id="17096" source="ELECTRICIAN" target="DELIVERY MAN" weight="1" />
+      <edge id="17097" source="ELECTRICIAN" target="GIRL P.A." weight="1" />
+      <edge id="17098" source="ELECTRICIAN" target="BOB" weight="1" />
+      <edge id="17099" source="ELECTRICIAN" target="CHUCKIE" weight="1" />
+      <edge id="17100" source="DELIVERY MAN" target="FIRST A.D." weight="1" />
+      <edge id="17101" source="DELIVERY MAN" target="BILL" weight="1" />
+      <edge id="17102" source="DELIVERY MAN" target="JOE" weight="1" />
+      <edge id="17103" source="DELIVERY MAN" target="ELECTRICIAN" weight="1" />
+      <edge id="17104" source="DELIVERY MAN" target="SCOTT" weight="1" />
+      <edge id="17105" source="DELIVERY MAN" target="GIRL P.A." weight="1" />
+      <edge id="17106" source="DELIVERY MAN" target="BOB" weight="1" />
+      <edge id="17107" source="DELIVERY MAN" target="CHUCKIE" weight="1" />
+      <edge id="17108" source="GIRL P.A." target="FIRST A.D." weight="1" />
+      <edge id="17109" source="GIRL P.A." target="BILL" weight="1" />
+      <edge id="17110" source="GIRL P.A." target="JOE" weight="1" />
+      <edge id="17111" source="GIRL P.A." target="ELECTRICIAN" weight="1" />
+      <edge id="17112" source="GIRL P.A." target="SCOTT" weight="1" />
+      <edge id="17113" source="GIRL P.A." target="DELIVERY MAN" weight="1" />
+      <edge id="17114" source="GIRL P.A." target="BOB" weight="1" />
+      <edge id="17115" source="GIRL P.A." target="CHUCKIE" weight="1" />
+      <edge id="17116" source="BOB" target="FIRST A.D." weight="4" />
+      <edge id="17117" source="BOB" target="BILL" weight="2" />
+      <edge id="17118" source="BOB" target="JOE" weight="5" />
+      <edge id="17119" source="BOB" target="ELECTRICIAN" weight="1" />
+      <edge id="17120" source="BOB" target="SCOTT" weight="1" />
+      <edge id="17121" source="BOB" target="DELIVERY MAN" weight="1" />
+      <edge id="17122" source="BOB" target="GIRL P.A." weight="1" />
+      <edge id="17123" source="BOB" target="CHUCKIE" weight="1" />
+      <edge id="17124" source="BOB" target="WALT" weight="5" />
+      <edge id="17125" source="BOB" target="CLAIRE" weight="4" />
+      <edge id="17126" source="BOB" target="CARLA" weight="4" />
+      <edge id="17127" source="BOB" target="SPUD" weight="1" />
+      <edge id="17128" source="BOB" target="MORRIS" weight="1" />
+      <edge id="17129" source="BOB" target="MARTY" weight="5" />
+      <edge id="17130" source="BOB" target="DOC WILSON" weight="1" />
+      <edge id="17131" source="BOB" target="CAL" weight="3" />
+      <edge id="17132" source="BOB" target="DOUG" weight="2" />
+      <edge id="17133" source="BOB" target="JACK" weight="1" />
+      <edge id="17134" source="BOB" target="ANN" weight="2" />
+      <edge id="17135" source="BOB" target="TV REPORTER" weight="1" />
+      <edge id="17136" source="BOB" target="TROOPER" weight="1" />
+      <edge id="17137" source="BOB" target="DOC MORTON" weight="1" />
+      <edge id="17138" source="BOB" target="FIREMAN" weight="1" />
+      <edge id="17139" source="BOB" target="SISTER" weight="1" />
+      <edge id="17140" source="CHUCKIE" target="FIRST A.D." weight="1" />
+      <edge id="17141" source="CHUCKIE" target="BILL" weight="1" />
+      <edge id="17142" source="CHUCKIE" target="JOE" weight="1" />
+      <edge id="17143" source="CHUCKIE" target="ELECTRICIAN" weight="1" />
+      <edge id="17144" source="CHUCKIE" target="SCOTT" weight="1" />
+      <edge id="17145" source="CHUCKIE" target="DELIVERY MAN" weight="1" />
+      <edge id="17146" source="CHUCKIE" target="GIRL P.A." weight="1" />
+      <edge id="17147" source="CHUCKIE" target="BOB" weight="1" />
+      <edge id="17148" source="CLAIRE" target="BOB" weight="4" />
+      <edge id="17149" source="CLAIRE" target="WALT" weight="6" />
+      <edge id="17150" source="CLAIRE" target="JOE" weight="8" />
+      <edge id="17151" source="CLAIRE" target="PROD. ASST." weight="1" />
+      <edge id="17152" source="CLAIRE" target="MARTY" weight="5" />
+      <edge id="17153" source="CLAIRE" target="BILL" weight="1" />
+      <edge id="17154" source="CLAIRE" target="ANN" weight="4" />
+      <edge id="17155" source="CLAIRE" target="FIRST A.D." weight="4" />
+      <edge id="17156" source="CLAIRE" target="DOC WILSON" weight="1" />
+      <edge id="17157" source="CLAIRE" target="CAL" weight="2" />
+      <edge id="17158" source="CLAIRE" target="CARLA" weight="2" />
+      <edge id="17159" source="CLAIRE" target="DOC MORTON" weight="1" />
+      <edge id="17160" source="CLAIRE" target="FIREMAN" weight="1" />
+      <edge id="17161" source="CLAIRE" target="SISTER" weight="1" />
+      <edge id="17162" source="CAL" target="ANN" weight="4" />
+      <edge id="17163" source="CAL" target="JOE" weight="3" />
+      <edge id="17164" source="CAL" target="SHERRY" weight="1" />
+      <edge id="17165" source="CAL" target="MAYOR" weight="1" />
+      <edge id="17166" source="CAL" target="DOUG" weight="3" />
+      <edge id="17167" source="CAL" target="MARTY" weight="4" />
+      <edge id="17168" source="CAL" target="DOC WILSON" weight="1" />
+      <edge id="17169" source="CAL" target="WALT" weight="2" />
+      <edge id="17170" source="CAL" target="BOB" weight="3" />
+      <edge id="17171" source="CAL" target="FIRST A.D." weight="2" />
+      <edge id="17172" source="CAL" target="CLAIRE" weight="2" />
+      <edge id="17173" source="CAL" target="CARLA" weight="2" />
+      <edge id="17174" source="CAL" target="JACK" weight="2" />
+      <edge id="17175" source="CAL" target="SALESMAN" weight="1" />
+      <edge id="17176" source="CAL" target="BAILIFF" weight="1" />
+      <edge id="17177" source="CAL" target="JUDGE" weight="1" />
+      <edge id="17178" source="CAL" target="DOC MORTON" weight="1" />
+      <edge id="17179" source="CAL" target="FIREMAN" weight="1" />
+      <edge id="17180" source="CAL" target="SISTER" weight="1" />
+      <edge id="17181" source="OWNER" target="ANN" weight="1" />
+      <edge id="17182" source="OWNER" target="JOE" weight="1" />
+      <edge id="17183" source="SHERRY" target="MAYOR" weight="3" />
+      <edge id="17184" source="SHERRY" target="CAL" weight="1" />
+      <edge id="17185" source="SHERRY" target="DOUG" weight="2" />
+      <edge id="17186" source="SHERRY" target="MARTY" weight="1" />
+      <edge id="17187" source="SHERRY" target="POSTMAN" weight="1" />
+      <edge id="17188" source="SHERRY" target="PAINTER" weight="1" />
+      <edge id="17189" source="SHERRY" target="ANN" weight="1" />
+      <edge id="17190" source="SHERRY" target="JOE" weight="1" />
+      <edge id="17191" source="POSTMAN" target="JOE" weight="1" />
+      <edge id="17192" source="POSTMAN" target="ANN" weight="1" />
+      <edge id="17193" source="POSTMAN" target="MAYOR" weight="1" />
+      <edge id="17194" source="POSTMAN" target="MARTY" weight="1" />
+      <edge id="17195" source="POSTMAN" target="SHERRY" weight="1" />
+      <edge id="17196" source="POSTMAN" target="PAINTER" weight="1" />
+      <edge id="17197" source="POSTMAN" target="DOUG" weight="1" />
+      <edge id="17198" source="PROD. ASST." target="WALT" weight="2" />
+      <edge id="17199" source="PROD. ASST." target="CLAIRE" weight="1" />
+      <edge id="17200" source="PROD. ASST." target="JOE" weight="1" />
+      <edge id="17201" source="PROD. ASST." target="BILL" weight="1" />
+      <edge id="17202" source="PROD. ASST." target="MARTY" weight="1" />
+      <edge id="17203" source="MARTY" target="WALT" weight="9" />
+      <edge id="17204" source="MARTY" target="DOC WILSON" weight="2" />
+      <edge id="17205" source="MARTY" target="GIRL ON A SCOOTER" weight="1" />
+      <edge id="17206" source="MARTY" target="CLAIRE" weight="5" />
+      <edge id="17207" source="MARTY" target="BILL" weight="3" />
+      <edge id="17208" source="MARTY" target="JOE" weight="7" />
+      <edge id="17209" source="MARTY" target="MAYOR" weight="1" />
+      <edge id="17210" source="MARTY" target="POSTMAN" weight="1" />
+      <edge id="17211" source="MARTY" target="SHERRY" weight="1" />
+      <edge id="17212" source="MARTY" target="PAINTER" weight="1" />
+      <edge id="17213" source="MARTY" target="DOUG" weight="6" />
+      <edge id="17214" source="MARTY" target="FIRST A.D." weight="3" />
+      <edge id="17215" source="MARTY" target="PROD. ASST." weight="1" />
+      <edge id="17216" source="MARTY" target="BOB" weight="5" />
+      <edge id="17217" source="MARTY" target="CAL" weight="4" />
+      <edge id="17218" source="MARTY" target="CARLA" weight="4" />
+      <edge id="17219" source="MARTY" target="JACK" weight="2" />
+      <edge id="17220" source="MARTY" target="SALESMAN" weight="1" />
+      <edge id="17221" source="MARTY" target="ANN" weight="2" />
+      <edge id="17222" source="MARTY" target="TV REPORTER" weight="2" />
+      <edge id="17223" source="MARTY" target="TROOPER" weight="1" />
+      <edge id="17224" source="MARTY" target="TECHNICIAN" weight="1" />
+      <edge id="17225" source="MARTY" target="HOWIE" weight="1" />
+      <edge id="17226" source="GIRL ON A SCOOTER" target="WALT" weight="1" />
+      <edge id="17227" source="GIRL ON A SCOOTER" target="MARTY" weight="1" />
+      <edge id="17228" source="GIRL ON A SCOOTER" target="DOC WILSON" weight="1" />
+      <edge id="17229" source="LITTLE KID" target="UBERTO" weight="1" />
+      <edge id="17230" source="LITTLE KID" target="JOE" weight="1" />
+      <edge id="17231" source="LITTLE KID" target="ANN" weight="1" />
+      <edge id="17232" source="PAINTER" target="MAYOR" weight="1" />
+      <edge id="17233" source="PAINTER" target="MARTY" weight="1" />
+      <edge id="17234" source="PAINTER" target="POSTMAN" weight="1" />
+      <edge id="17235" source="PAINTER" target="SHERRY" weight="1" />
+      <edge id="17236" source="PAINTER" target="DOUG" weight="1" />
+      <edge id="17237" source="BARTENDER" target="DOUG" weight="1" />
+      <edge id="17238" source="BARTENDER" target="DOC WILSON" weight="1" />
+      <edge id="17239" source="BARTENDER" target="CARLA" weight="1" />
+      <edge id="17240" source="SALESMAN" target="CARLA" weight="1" />
+      <edge id="17241" source="SALESMAN" target="DOUG" weight="1" />
+      <edge id="17242" source="SALESMAN" target="JACK" weight="1" />
+      <edge id="17243" source="SALESMAN" target="MARTY" weight="1" />
+      <edge id="17244" source="SALESMAN" target="CAL" weight="1" />
+      <edge id="17245" source="TV REPORTER" target="ANN" weight="1" />
+      <edge id="17246" source="TV REPORTER" target="JOE" weight="2" />
+      <edge id="17247" source="TV REPORTER" target="MARTY" weight="2" />
+      <edge id="17248" source="TV REPORTER" target="TROOPER" weight="1" />
+      <edge id="17249" source="TV REPORTER" target="DOUG" weight="2" />
+      <edge id="17250" source="TV REPORTER" target="BOB" weight="1" />
+      <edge id="17251" source="TV REPORTER" target="TECHNICIAN" weight="1" />
+      <edge id="17252" source="TV REPORTER" target="WALT" weight="1" />
+      <edge id="17253" source="TV REPORTER" target="HOWIE" weight="1" />
+      <edge id="17254" source="TROOPER" target="ANN" weight="1" />
+      <edge id="17255" source="TROOPER" target="JOE" weight="1" />
+      <edge id="17256" source="TROOPER" target="TV REPORTER" weight="1" />
+      <edge id="17257" source="TROOPER" target="MARTY" weight="1" />
+      <edge id="17258" source="TROOPER" target="DOUG" weight="1" />
+      <edge id="17259" source="TROOPER" target="BOB" weight="1" />
+      <edge id="17260" source="BAILIFF" target="CAL" weight="1" />
+      <edge id="17261" source="BAILIFF" target="JUDGE" weight="1" />
+      <edge id="17262" source="JUDGE" target="CAL" weight="1" />
+      <edge id="17263" source="JUDGE" target="BAILIFF" weight="1" />
+      <edge id="17264" source="JUDGE" target="JOE" weight="2" />
+      <edge id="17265" source="JUDGE" target="BELLHOP" weight="1" />
+      <edge id="17266" source="JUDGE" target="STATION MASTER" weight="1" />
+      <edge id="17267" source="JUDGE" target="DOUG" weight="1" />
+      <edge id="17268" source="P.A." target="SCOTT" weight="1" />
+      <edge id="17269" source="P.A." target="JOE" weight="1" />
+      <edge id="17270" source="KID ON SCOOTER" target="DOC WILSON" weight="1" />
+      <edge id="17271" source="KID ON SCOOTER" target="JOE" weight="1" />
+      <edge id="17272" source="BELLHOP" target="JOE" weight="1" />
+      <edge id="17273" source="BELLHOP" target="STATION MASTER" weight="1" />
+      <edge id="17274" source="BELLHOP" target="JUDGE" weight="1" />
+      <edge id="17275" source="STATION MASTER" target="JOE" weight="1" />
+      <edge id="17276" source="STATION MASTER" target="BELLHOP" weight="1" />
+      <edge id="17277" source="STATION MASTER" target="JUDGE" weight="1" />
+      <edge id="17278" source="TECHNICIAN" target="DOUG" weight="1" />
+      <edge id="17279" source="TECHNICIAN" target="TV REPORTER" weight="1" />
+      <edge id="17280" source="TECHNICIAN" target="WALT" weight="1" />
+      <edge id="17281" source="TECHNICIAN" target="MARTY" weight="1" />
+      <edge id="17282" source="TECHNICIAN" target="JOE" weight="1" />
+      <edge id="17283" source="TECHNICIAN" target="HOWIE" weight="1" />
+      <edge id="17284" source="HOWIE" target="DOUG" weight="1" />
+      <edge id="17285" source="HOWIE" target="TV REPORTER" weight="1" />
+      <edge id="17286" source="HOWIE" target="TECHNICIAN" weight="1" />
+      <edge id="17287" source="HOWIE" target="WALT" weight="1" />
+      <edge id="17288" source="HOWIE" target="MARTY" weight="1" />
+      <edge id="17289" source="HOWIE" target="JOE" weight="1" />
+      <edge id="17290" source="DOC MORTON" target="FIREMAN" weight="1" />
+      <edge id="17291" source="DOC MORTON" target="BOB" weight="1" />
+      <edge id="17292" source="DOC MORTON" target="CLAIRE" weight="1" />
+      <edge id="17293" source="DOC MORTON" target="SISTER" weight="1" />
+      <edge id="17294" source="DOC MORTON" target="FIRST A.D." weight="1" />
+      <edge id="17295" source="DOC MORTON" target="CAL" weight="1" />
+      <edge id="17296" source="DOC MORTON" target="ANN" weight="1" />
+      <edge id="17297" source="FIREMAN" target="DOC MORTON" weight="1" />
+      <edge id="17298" source="FIREMAN" target="BOB" weight="1" />
+      <edge id="17299" source="FIREMAN" target="CLAIRE" weight="1" />
+      <edge id="17300" source="FIREMAN" target="SISTER" weight="1" />
+      <edge id="17301" source="FIREMAN" target="FIRST A.D." weight="1" />
+      <edge id="17302" source="FIREMAN" target="CAL" weight="1" />
+      <edge id="17303" source="FIREMAN" target="ANN" weight="1" />
+      <edge id="17304" source="SISTER" target="DOC MORTON" weight="1" />
+      <edge id="17305" source="SISTER" target="FIREMAN" weight="1" />
+      <edge id="17306" source="SISTER" target="BOB" weight="1" />
+      <edge id="17307" source="SISTER" target="CLAIRE" weight="1" />
+      <edge id="17308" source="SISTER" target="FIRST A.D." weight="1" />
+      <edge id="17309" source="SISTER" target="CAL" weight="1" />
+      <edge id="17310" source="SISTER" target="ANN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

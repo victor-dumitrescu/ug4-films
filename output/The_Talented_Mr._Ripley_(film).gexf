@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="RIPLEY" label="RIPLEY" />
+      <node id="FRAN" label="FRAN" />
+      <node id="HERBERT GREENLEAF" label="HERBERT GREENLEAF" />
+      <node id="EMILY GREENLEAF" label="EMILY GREENLEAF" />
+      <node id="BOYFRIEND" label="BOYFRIEND" />
+      <node id="CHAUFFEUR" label="CHAUFFEUR" />
+      <node id="CARETAKER" label="CARETAKER" />
+      <node id="MEREDITH" label="MEREDITH" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="DICKIE" label="DICKIE" />
+      <node id="MARGE" label="MARGE" />
+      <node id="SILVANA" label="SILVANA" />
+      <node id="FAUSTO" label="FAUSTO" />
+      <node id="CLERK" label="CLERK" />
+      <node id="FREDDIE" label="FREDDIE" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="ALDO" label="ALDO" />
+      <node id="GUCCI ASSISTANT" label="GUCCI ASSISTANT" />
+      <node id="JOAN" label="JOAN" />
+      <node id="PETER" label="PETER" />
+      <node id="SIGNORA BUFFI" label="SIGNORA BUFFI" />
+      <node id="ROVERINI" label="ROVERINI" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="VERRECCHIA" label="VERRECCHIA" />
+      <node id="MACCARRON" label="MACCARRON" />
+    </nodes>
+    <edges>
+      <edge id="24491" source="RIPLEY" target="FRAN" weight="1" />
+      <edge id="24492" source="RIPLEY" target="HERBERT GREENLEAF" weight="6" />
+      <edge id="24493" source="RIPLEY" target="EMILY GREENLEAF" weight="2" />
+      <edge id="24494" source="RIPLEY" target="BOYFRIEND" weight="1" />
+      <edge id="24495" source="RIPLEY" target="CHAUFFEUR" weight="1" />
+      <edge id="24496" source="RIPLEY" target="CARETAKER" weight="1" />
+      <edge id="24497" source="RIPLEY" target="MEREDITH" weight="10" />
+      <edge id="24498" source="RIPLEY" target="DICKIE" weight="19" />
+      <edge id="24499" source="RIPLEY" target="MARGE" weight="24" />
+      <edge id="24500" source="RIPLEY" target="CLERK" weight="1" />
+      <edge id="24501" source="RIPLEY" target="FREDDIE" weight="3" />
+      <edge id="24502" source="RIPLEY" target="RECEPTIONIST" weight="1" />
+      <edge id="24503" source="RIPLEY" target="ALDO" weight="1" />
+      <edge id="24504" source="RIPLEY" target="GUCCI ASSISTANT" weight="1" />
+      <edge id="24505" source="RIPLEY" target="JOAN" weight="1" />
+      <edge id="24506" source="RIPLEY" target="PETER" weight="14" />
+      <edge id="24507" source="RIPLEY" target="SIGNORA BUFFI" weight="1" />
+      <edge id="24508" source="RIPLEY" target="ROVERINI" weight="4" />
+      <edge id="24509" source="RIPLEY" target="POLICEMAN" weight="1" />
+      <edge id="24510" source="RIPLEY" target="VERRECCHIA" weight="2" />
+      <edge id="24511" source="RIPLEY" target="MACCARRON" weight="2" />
+      <edge id="24512" source="FRAN" target="HERBERT GREENLEAF" weight="2" />
+      <edge id="24513" source="FRAN" target="RIPLEY" weight="1" />
+      <edge id="24514" source="FRAN" target="EMILY GREENLEAF" weight="2" />
+      <edge id="24515" source="HERBERT GREENLEAF" target="FRAN" weight="2" />
+      <edge id="24516" source="HERBERT GREENLEAF" target="RIPLEY" weight="6" />
+      <edge id="24517" source="HERBERT GREENLEAF" target="EMILY GREENLEAF" weight="3" />
+      <edge id="24518" source="HERBERT GREENLEAF" target="BOYFRIEND" weight="1" />
+      <edge id="24519" source="HERBERT GREENLEAF" target="MARGE" weight="2" />
+      <edge id="24520" source="HERBERT GREENLEAF" target="MACCARRON" weight="1" />
+      <edge id="24521" source="EMILY GREENLEAF" target="FRAN" weight="2" />
+      <edge id="24522" source="EMILY GREENLEAF" target="HERBERT GREENLEAF" weight="3" />
+      <edge id="24523" source="EMILY GREENLEAF" target="RIPLEY" weight="2" />
+      <edge id="24524" source="EMILY GREENLEAF" target="BOYFRIEND" weight="1" />
+      <edge id="24525" source="BOYFRIEND" target="RIPLEY" weight="1" />
+      <edge id="24526" source="BOYFRIEND" target="EMILY GREENLEAF" weight="1" />
+      <edge id="24527" source="BOYFRIEND" target="HERBERT GREENLEAF" weight="1" />
+      <edge id="24528" source="CHAUFFEUR" target="RIPLEY" weight="1" />
+      <edge id="24529" source="CHAUFFEUR" target="CARETAKER" weight="1" />
+      <edge id="24530" source="CARETAKER" target="CHAUFFEUR" weight="1" />
+      <edge id="24531" source="CARETAKER" target="RIPLEY" weight="1" />
+      <edge id="24532" source="MEREDITH" target="RIPLEY" weight="10" />
+      <edge id="24533" source="MEREDITH" target="GUCCI ASSISTANT" weight="1" />
+      <edge id="24534" source="MEREDITH" target="PETER" weight="1" />
+      <edge id="24535" source="MEREDITH" target="MARGE" weight="1" />
+      <edge id="24536" source="DICKIE" target="RIPLEY" weight="19" />
+      <edge id="24537" source="DICKIE" target="MARGE" weight="10" />
+      <edge id="24538" source="DICKIE" target="SILVANA" weight="3" />
+      <edge id="24539" source="DICKIE" target="FAUSTO" weight="1" />
+      <edge id="24540" source="DICKIE" target="CLERK" weight="1" />
+      <edge id="24541" source="DICKIE" target="FREDDIE" weight="3" />
+      <edge id="24542" source="MARGE" target="RIPLEY" weight="24" />
+      <edge id="24543" source="MARGE" target="DICKIE" weight="10" />
+      <edge id="24544" source="MARGE" target="SILVANA" weight="1" />
+      <edge id="24545" source="MARGE" target="FREDDIE" weight="1" />
+      <edge id="24546" source="MARGE" target="PETER" weight="7" />
+      <edge id="24547" source="MARGE" target="MEREDITH" weight="1" />
+      <edge id="24548" source="MARGE" target="ROVERINI" weight="1" />
+      <edge id="24549" source="MARGE" target="HERBERT GREENLEAF" weight="2" />
+      <edge id="24550" source="MARGE" target="MACCARRON" weight="1" />
+      <edge id="24551" source="SILVANA" target="DICKIE" weight="3" />
+      <edge id="24552" source="SILVANA" target="MARGE" weight="1" />
+      <edge id="24553" source="FAUSTO" target="DICKIE" weight="1" />
+      <edge id="24554" source="CLERK" target="DICKIE" weight="1" />
+      <edge id="24555" source="CLERK" target="RIPLEY" weight="1" />
+      <edge id="24556" source="FREDDIE" target="RIPLEY" weight="3" />
+      <edge id="24557" source="FREDDIE" target="DICKIE" weight="3" />
+      <edge id="24558" source="FREDDIE" target="MARGE" weight="1" />
+      <edge id="24559" source="RECEPTIONIST" target="RIPLEY" weight="1" />
+      <edge id="24560" source="ALDO" target="RIPLEY" weight="1" />
+      <edge id="24561" source="GUCCI ASSISTANT" target="RIPLEY" weight="1" />
+      <edge id="24562" source="GUCCI ASSISTANT" target="MEREDITH" weight="1" />
+      <edge id="24563" source="JOAN" target="RIPLEY" weight="1" />
+      <edge id="24564" source="PETER" target="MARGE" weight="7" />
+      <edge id="24565" source="PETER" target="RIPLEY" weight="14" />
+      <edge id="24566" source="PETER" target="MEREDITH" weight="1" />
+      <edge id="24567" source="PETER" target="POLICEMAN" weight="1" />
+      <edge id="24568" source="PETER" target="VERRECCHIA" weight="2" />
+      <edge id="24569" source="SIGNORA BUFFI" target="RIPLEY" weight="1" />
+      <edge id="24570" source="ROVERINI" target="RIPLEY" weight="4" />
+      <edge id="24571" source="ROVERINI" target="MARGE" weight="1" />
+      <edge id="24572" source="POLICEMAN" target="PETER" weight="1" />
+      <edge id="24573" source="POLICEMAN" target="RIPLEY" weight="1" />
+      <edge id="24574" source="POLICEMAN" target="VERRECCHIA" weight="1" />
+      <edge id="24575" source="VERRECCHIA" target="PETER" weight="2" />
+      <edge id="24576" source="VERRECCHIA" target="RIPLEY" weight="2" />
+      <edge id="24577" source="VERRECCHIA" target="POLICEMAN" weight="1" />
+      <edge id="24578" source="MACCARRON" target="RIPLEY" weight="2" />
+      <edge id="24579" source="MACCARRON" target="MARGE" weight="1" />
+      <edge id="24580" source="MACCARRON" target="HERBERT GREENLEAF" weight="1" />
+    </edges>
+  </graph>
+</gexf>

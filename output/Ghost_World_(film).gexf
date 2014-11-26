@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="SPEAKER" label="SPEAKER" />
+      <node id="EBONY" label="EBONY" />
+      <node id="VANILLA" label="VANILLA" />
+      <node id="JADE" label="JADE" />
+      <node id="ENID" label="ENID" />
+      <node id="REBECCA" label="REBECCA" />
+      <node id="MELORRA" label="MELORRA" />
+      <node id="TODD" label="TODD" />
+      <node id="JOHN" label="JOHN" />
+      <node id="WAITER" label="WAITER" />
+      <node id="AL" label="AL" />
+      <node id="NASAL-VOICED GIRL" label="NASAL-VOICED GIRL" />
+      <node id="DONNA" label="DONNA" />
+      <node id="NASAL-VOICED GIRL/ANOTHER GIRL" label="NASAL-VOICED GIRL/ANOTHER GIRL" />
+      <node id="OOMIE" label="OOMIE" />
+      <node id="ENID &amp; REBECCA" label="ENID &amp; REBECCA" />
+      <node id="JOEY" label="JOEY" />
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="BOSS" label="BOSS" />
+      <node id="JOSH" label="JOSH" />
+      <node id="DOUG" label="DOUG" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="ROBERTA" label="ROBERTA" />
+      <node id="JOE" label="JOE" />
+      <node id="SEYMOUR" label="SEYMOUR" />
+      <node id="DAD" label="DAD" />
+      <node id="MAN" label="MAN" />
+      <node id="CREEP #1" label="CREEP #1" />
+      <node id="CREEP #2" label="CREEP #2" />
+      <node id="JOHN ELLIS" label="JOHN ELLIS" />
+      <node id="PHILLIP" label="PHILLIP" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="MASTERPIECE EMPLOYEE #1" label="MASTERPIECE EMPLOYEE #1" />
+      <node id="CUSTOMER" label="CUSTOMER" />
+      <node id="MASTERPIECE EMPLOYEE #2" label="MASTERPIECE EMPLOYEE #2" />
+      <node id="JEROME" label="JEROME" />
+      <node id="STEVEN" label="STEVEN" />
+      <node id="GERROLD" label="GERROLD" />
+      <node id="PAUL" label="PAUL" />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="YUPPIE #1" label="YUPPIE #1" />
+      <node id="FELDMAN" label="FELDMAN" />
+      <node id="YUPPIE #2" label="YUPPIE #2" />
+      <node id="TV COMMERCIAL" label="TV COMMERCIAL" />
+      <node id="COLLEGE SOPHOMORE" label="COLLEGE SOPHOMORE" />
+      <node id="GUY" label="GUY" />
+      <node id="DISC JOCKEY" label="DISC JOCKEY" />
+      <node id="M.C." label="M.C." />
+      <node id="CUTE GIRL" label="CUTE GIRL" />
+      <node id="LANCE" label="LANCE" />
+      <node id="SNOTTY GIRL" label="SNOTTY GIRL" />
+      <node id="HIPPY-ISH BOY" label="HIPPY-ISH BOY" />
+      <node id="BLACK GIRL" label="BLACK GIRL" />
+      <node id="MANAGER" label="MANAGER" />
+      <node id="LOSER" label="LOSER" />
+      <node id="CUSTOMER #2" label="CUSTOMER #2" />
+      <node id="HIPSTER" label="HIPSTER" />
+      <node id="GIRL" label="GIRL" />
+      <node id="BOY" label="BOY" />
+      <node id="VOICE ON MACHINE" label="VOICE ON MACHINE" />
+      <node id="MAXINE" label="MAXINE" />
+      <node id="DANA" label="DANA" />
+      <node id="DIRECTOR" label="DIRECTOR" />
+      <node id="EX-HIPPY COLLEAGUE" label="EX-HIPPY COLLEAGUE" />
+      <node id="COLLEAGUE" label="COLLEAGUE" />
+      <node id="EXECUTIVE" label="EXECUTIVE" />
+      <node id="THERAPIST" label="THERAPIST" />
+      <node id="MOTHER" label="MOTHER" />
+    </nodes>
+    <edges>
+      <edge id="8175" source="SPEAKER" target="EBONY" weight="1" />
+      <edge id="8176" source="SPEAKER" target="VANILLA" weight="1" />
+      <edge id="8177" source="SPEAKER" target="JADE" weight="1" />
+      <edge id="8178" source="EBONY" target="SPEAKER" weight="1" />
+      <edge id="8179" source="EBONY" target="VANILLA" weight="1" />
+      <edge id="8180" source="EBONY" target="JADE" weight="1" />
+      <edge id="8181" source="VANILLA" target="SPEAKER" weight="1" />
+      <edge id="8182" source="VANILLA" target="EBONY" weight="1" />
+      <edge id="8183" source="VANILLA" target="JADE" weight="1" />
+      <edge id="8184" source="JADE" target="SPEAKER" weight="1" />
+      <edge id="8185" source="JADE" target="EBONY" weight="1" />
+      <edge id="8186" source="JADE" target="VANILLA" weight="1" />
+      <edge id="8187" source="ENID" target="REBECCA" weight="39" />
+      <edge id="8188" source="ENID" target="MELORRA" weight="2" />
+      <edge id="8189" source="ENID" target="TODD" weight="1" />
+      <edge id="8190" source="ENID" target="JOHN" weight="1" />
+      <edge id="8191" source="ENID" target="WAITER" weight="1" />
+      <edge id="8192" source="ENID" target="AL" weight="3" />
+      <edge id="8193" source="ENID" target="NASAL-VOICED GIRL" weight="1" />
+      <edge id="8194" source="ENID" target="DONNA" weight="1" />
+      <edge id="8195" source="ENID" target="NASAL-VOICED GIRL/ANOTHER GIRL" weight="1" />
+      <edge id="8196" source="ENID" target="OOMIE" weight="1" />
+      <edge id="8197" source="ENID" target="ENID &amp; REBECCA" weight="2" />
+      <edge id="8198" source="ENID" target="JOEY" weight="1" />
+      <edge id="8199" source="ENID" target="ANNOUNCER" weight="1" />
+      <edge id="8200" source="ENID" target="BOSS" weight="2" />
+      <edge id="8201" source="ENID" target="JOSH" weight="10" />
+      <edge id="8202" source="ENID" target="DOUG" weight="1" />
+      <edge id="8203" source="ENID" target="JOE" weight="4" />
+      <edge id="8204" source="ENID" target="SEYMOUR" weight="20" />
+      <edge id="8205" source="ENID" target="DAD" weight="6" />
+      <edge id="8206" source="ENID" target="MAN" weight="1" />
+      <edge id="8207" source="ENID" target="CREEP #1" weight="1" />
+      <edge id="8208" source="ENID" target="CREEP #2" weight="1" />
+      <edge id="8209" source="ENID" target="JOHN ELLIS" weight="1" />
+      <edge id="8210" source="ENID" target="ROBERTA" weight="5" />
+      <edge id="8211" source="ENID" target="PHILLIP" weight="1" />
+      <edge id="8212" source="ENID" target="MARGARET" weight="2" />
+      <edge id="8213" source="ENID" target="MASTERPIECE EMPLOYEE #1" weight="1" />
+      <edge id="8214" source="ENID" target="CUSTOMER" weight="3" />
+      <edge id="8215" source="ENID" target="MASTERPIECE EMPLOYEE #2" weight="1" />
+      <edge id="8216" source="ENID" target="JEROME" weight="1" />
+      <edge id="8217" source="ENID" target="STEVEN" weight="1" />
+      <edge id="8218" source="ENID" target="GERROLD" weight="1" />
+      <edge id="8219" source="ENID" target="PAUL" weight="1" />
+      <edge id="8220" source="ENID" target="CASHIER" weight="1" />
+      <edge id="8221" source="ENID" target="YUPPIE #1" weight="1" />
+      <edge id="8222" source="ENID" target="FELDMAN" weight="1" />
+      <edge id="8223" source="ENID" target="YUPPIE #2" weight="1" />
+      <edge id="8224" source="ENID" target="TV COMMERCIAL" weight="1" />
+      <edge id="8225" source="ENID" target="COLLEGE SOPHOMORE" weight="1" />
+      <edge id="8226" source="ENID" target="GUY" weight="1" />
+      <edge id="8227" source="ENID" target="DISC JOCKEY" weight="1" />
+      <edge id="8228" source="ENID" target="M.C." weight="1" />
+      <edge id="8229" source="ENID" target="CUTE GIRL" weight="1" />
+      <edge id="8230" source="ENID" target="LANCE" weight="1" />
+      <edge id="8231" source="ENID" target="SNOTTY GIRL" weight="1" />
+      <edge id="8232" source="ENID" target="HIPPY-ISH BOY" weight="1" />
+      <edge id="8233" source="ENID" target="BLACK GIRL" weight="1" />
+      <edge id="8234" source="ENID" target="MANAGER" weight="1" />
+      <edge id="8235" source="ENID" target="LOSER" weight="1" />
+      <edge id="8236" source="ENID" target="CUSTOMER #2" weight="1" />
+      <edge id="8237" source="ENID" target="HIPSTER" weight="1" />
+      <edge id="8238" source="ENID" target="GIRL" weight="1" />
+      <edge id="8239" source="ENID" target="BOY" weight="1" />
+      <edge id="8240" source="ENID" target="VOICE ON MACHINE" weight="1" />
+      <edge id="8241" source="ENID" target="MAXINE" weight="2" />
+      <edge id="8242" source="ENID" target="DANA" weight="1" />
+      <edge id="8243" source="ENID" target="EX-HIPPY COLLEAGUE" weight="1" />
+      <edge id="8244" source="REBECCA" target="ENID" weight="39" />
+      <edge id="8245" source="REBECCA" target="MELORRA" weight="2" />
+      <edge id="8246" source="REBECCA" target="TODD" weight="1" />
+      <edge id="8247" source="REBECCA" target="JOHN" weight="1" />
+      <edge id="8248" source="REBECCA" target="WAITER" weight="1" />
+      <edge id="8249" source="REBECCA" target="AL" weight="3" />
+      <edge id="8250" source="REBECCA" target="NASAL-VOICED GIRL" weight="1" />
+      <edge id="8251" source="REBECCA" target="DONNA" weight="1" />
+      <edge id="8252" source="REBECCA" target="NASAL-VOICED GIRL/ANOTHER GIRL" weight="1" />
+      <edge id="8253" source="REBECCA" target="OOMIE" weight="1" />
+      <edge id="8254" source="REBECCA" target="ENID &amp; REBECCA" weight="2" />
+      <edge id="8255" source="REBECCA" target="JOEY" weight="1" />
+      <edge id="8256" source="REBECCA" target="ANNOUNCER" weight="1" />
+      <edge id="8257" source="REBECCA" target="BOSS" weight="1" />
+      <edge id="8258" source="REBECCA" target="JOSH" weight="5" />
+      <edge id="8259" source="REBECCA" target="DOUG" weight="1" />
+      <edge id="8260" source="REBECCA" target="JOE" weight="2" />
+      <edge id="8261" source="REBECCA" target="SEYMOUR" weight="4" />
+      <edge id="8262" source="REBECCA" target="DAD" weight="1" />
+      <edge id="8263" source="REBECCA" target="MAN" weight="1" />
+      <edge id="8264" source="REBECCA" target="CREEP #1" weight="1" />
+      <edge id="8265" source="REBECCA" target="CREEP #2" weight="1" />
+      <edge id="8266" source="REBECCA" target="JOHN ELLIS" weight="1" />
+      <edge id="8267" source="REBECCA" target="MASTERPIECE EMPLOYEE #1" weight="1" />
+      <edge id="8268" source="REBECCA" target="CUSTOMER" weight="2" />
+      <edge id="8269" source="REBECCA" target="MASTERPIECE EMPLOYEE #2" weight="1" />
+      <edge id="8270" source="REBECCA" target="JEROME" weight="1" />
+      <edge id="8271" source="REBECCA" target="STEVEN" weight="1" />
+      <edge id="8272" source="REBECCA" target="GERROLD" weight="1" />
+      <edge id="8273" source="REBECCA" target="PAUL" weight="1" />
+      <edge id="8274" source="REBECCA" target="YUPPIE #1" weight="1" />
+      <edge id="8275" source="REBECCA" target="FELDMAN" weight="1" />
+      <edge id="8276" source="REBECCA" target="YUPPIE #2" weight="1" />
+      <edge id="8277" source="REBECCA" target="COLLEGE SOPHOMORE" weight="1" />
+      <edge id="8278" source="REBECCA" target="GUY" weight="1" />
+      <edge id="8279" source="REBECCA" target="HIPSTER" weight="1" />
+      <edge id="8280" source="REBECCA" target="GIRL" weight="1" />
+      <edge id="8281" source="REBECCA" target="BOY" weight="1" />
+      <edge id="8282" source="REBECCA" target="MAXINE" weight="1" />
+      <edge id="8283" source="MELORRA" target="REBECCA" weight="2" />
+      <edge id="8284" source="MELORRA" target="ENID" weight="2" />
+      <edge id="8285" source="MELORRA" target="TODD" weight="1" />
+      <edge id="8286" source="TODD" target="REBECCA" weight="1" />
+      <edge id="8287" source="TODD" target="ENID" weight="1" />
+      <edge id="8288" source="TODD" target="MELORRA" weight="1" />
+      <edge id="8289" source="JOHN" target="REBECCA" weight="1" />
+      <edge id="8290" source="JOHN" target="ENID" weight="1" />
+      <edge id="8291" source="WAITER" target="REBECCA" weight="1" />
+      <edge id="8292" source="WAITER" target="ENID" weight="1" />
+      <edge id="8293" source="WAITER" target="AL" weight="1" />
+      <edge id="8294" source="AL" target="REBECCA" weight="3" />
+      <edge id="8295" source="AL" target="ENID" weight="3" />
+      <edge id="8296" source="AL" target="WAITER" weight="1" />
+      <edge id="8297" source="AL" target="JOSH" weight="1" />
+      <edge id="8298" source="NASAL-VOICED GIRL" target="DONNA" weight="1" />
+      <edge id="8299" source="NASAL-VOICED GIRL" target="NASAL-VOICED GIRL/ANOTHER GIRL" weight="1" />
+      <edge id="8300" source="NASAL-VOICED GIRL" target="ENID" weight="1" />
+      <edge id="8301" source="NASAL-VOICED GIRL" target="REBECCA" weight="1" />
+      <edge id="8302" source="NASAL-VOICED GIRL" target="OOMIE" weight="1" />
+      <edge id="8303" source="DONNA" target="NASAL-VOICED GIRL" weight="1" />
+      <edge id="8304" source="DONNA" target="NASAL-VOICED GIRL/ANOTHER GIRL" weight="1" />
+      <edge id="8305" source="DONNA" target="ENID" weight="1" />
+      <edge id="8306" source="DONNA" target="REBECCA" weight="1" />
+      <edge id="8307" source="DONNA" target="OOMIE" weight="1" />
+      <edge id="8308" source="NASAL-VOICED GIRL/ANOTHER GIRL" target="NASAL-VOICED GIRL" weight="1" />
+      <edge id="8309" source="NASAL-VOICED GIRL/ANOTHER GIRL" target="DONNA" weight="1" />
+      <edge id="8310" source="NASAL-VOICED GIRL/ANOTHER GIRL" target="ENID" weight="1" />
+      <edge id="8311" source="NASAL-VOICED GIRL/ANOTHER GIRL" target="REBECCA" weight="1" />
+      <edge id="8312" source="NASAL-VOICED GIRL/ANOTHER GIRL" target="OOMIE" weight="1" />
+      <edge id="8313" source="OOMIE" target="NASAL-VOICED GIRL" weight="1" />
+      <edge id="8314" source="OOMIE" target="DONNA" weight="1" />
+      <edge id="8315" source="OOMIE" target="NASAL-VOICED GIRL/ANOTHER GIRL" weight="1" />
+      <edge id="8316" source="OOMIE" target="ENID" weight="1" />
+      <edge id="8317" source="OOMIE" target="REBECCA" weight="1" />
+      <edge id="8318" source="ENID &amp; REBECCA" target="REBECCA" weight="2" />
+      <edge id="8319" source="ENID &amp; REBECCA" target="ENID" weight="2" />
+      <edge id="8320" source="ENID &amp; REBECCA" target="JOEY" weight="1" />
+      <edge id="8321" source="ENID &amp; REBECCA" target="ANNOUNCER" weight="1" />
+      <edge id="8322" source="JOEY" target="REBECCA" weight="1" />
+      <edge id="8323" source="JOEY" target="ENID" weight="1" />
+      <edge id="8324" source="JOEY" target="ENID &amp; REBECCA" weight="1" />
+      <edge id="8325" source="JOEY" target="ANNOUNCER" weight="1" />
+      <edge id="8326" source="ANNOUNCER" target="REBECCA" weight="1" />
+      <edge id="8327" source="ANNOUNCER" target="ENID" weight="1" />
+      <edge id="8328" source="ANNOUNCER" target="ENID &amp; REBECCA" weight="1" />
+      <edge id="8329" source="ANNOUNCER" target="JOEY" weight="1" />
+      <edge id="8330" source="BOSS" target="ENID" weight="2" />
+      <edge id="8331" source="BOSS" target="JOSH" weight="3" />
+      <edge id="8332" source="BOSS" target="DOUG" weight="1" />
+      <edge id="8333" source="BOSS" target="REBECCA" weight="1" />
+      <edge id="8334" source="BOSS" target="SEYMOUR" weight="1" />
+      <edge id="8335" source="JOSH" target="BOSS" weight="3" />
+      <edge id="8336" source="JOSH" target="ENID" weight="10" />
+      <edge id="8337" source="JOSH" target="DOUG" weight="1" />
+      <edge id="8338" source="JOSH" target="REBECCA" weight="5" />
+      <edge id="8339" source="JOSH" target="AL" weight="1" />
+      <edge id="8340" source="JOSH" target="SEYMOUR" weight="1" />
+      <edge id="8341" source="DOUG" target="BOSS" weight="1" />
+      <edge id="8342" source="DOUG" target="ENID" weight="1" />
+      <edge id="8343" source="DOUG" target="JOSH" weight="1" />
+      <edge id="8344" source="DOUG" target="REBECCA" weight="1" />
+      <edge id="8345" source="ROBERTA" target="PHILLIP" weight="1" />
+      <edge id="8346" source="ROBERTA" target="ENID" weight="5" />
+      <edge id="8347" source="ROBERTA" target="MARGARET" weight="2" />
+      <edge id="8348" source="ROBERTA" target="SNOTTY GIRL" weight="1" />
+      <edge id="8349" source="ROBERTA" target="HIPPY-ISH BOY" weight="1" />
+      <edge id="8350" source="ROBERTA" target="BLACK GIRL" weight="1" />
+      <edge id="8351" source="ROBERTA" target="DIRECTOR" weight="1" />
+      <edge id="8352" source="ROBERTA" target="EX-HIPPY COLLEAGUE" weight="1" />
+      <edge id="8353" source="JOE" target="REBECCA" weight="2" />
+      <edge id="8354" source="JOE" target="ENID" weight="4" />
+      <edge id="8355" source="JOE" target="SEYMOUR" weight="5" />
+      <edge id="8356" source="JOE" target="JEROME" weight="1" />
+      <edge id="8357" source="JOE" target="STEVEN" weight="1" />
+      <edge id="8358" source="JOE" target="GERROLD" weight="1" />
+      <edge id="8359" source="JOE" target="PAUL" weight="1" />
+      <edge id="8360" source="SEYMOUR" target="REBECCA" weight="4" />
+      <edge id="8361" source="SEYMOUR" target="ENID" weight="20" />
+      <edge id="8362" source="SEYMOUR" target="JOE" weight="5" />
+      <edge id="8363" source="SEYMOUR" target="JEROME" weight="1" />
+      <edge id="8364" source="SEYMOUR" target="STEVEN" weight="1" />
+      <edge id="8365" source="SEYMOUR" target="GERROLD" weight="1" />
+      <edge id="8366" source="SEYMOUR" target="PAUL" weight="1" />
+      <edge id="8367" source="SEYMOUR" target="CASHIER" weight="1" />
+      <edge id="8368" source="SEYMOUR" target="DISC JOCKEY" weight="1" />
+      <edge id="8369" source="SEYMOUR" target="M.C." weight="1" />
+      <edge id="8370" source="SEYMOUR" target="CUTE GIRL" weight="1" />
+      <edge id="8371" source="SEYMOUR" target="LANCE" weight="1" />
+      <edge id="8372" source="SEYMOUR" target="VOICE ON MACHINE" weight="1" />
+      <edge id="8373" source="SEYMOUR" target="DANA" weight="3" />
+      <edge id="8374" source="SEYMOUR" target="COLLEAGUE" weight="1" />
+      <edge id="8375" source="SEYMOUR" target="MAXINE" weight="1" />
+      <edge id="8376" source="SEYMOUR" target="JOSH" weight="1" />
+      <edge id="8377" source="SEYMOUR" target="BOSS" weight="1" />
+      <edge id="8378" source="SEYMOUR" target="THERAPIST" weight="1" />
+      <edge id="8379" source="SEYMOUR" target="MOTHER" weight="1" />
+      <edge id="8380" source="DAD" target="ENID" weight="6" />
+      <edge id="8381" source="DAD" target="REBECCA" weight="1" />
+      <edge id="8382" source="DAD" target="TV COMMERCIAL" weight="1" />
+      <edge id="8383" source="DAD" target="MAXINE" weight="1" />
+      <edge id="8384" source="MAN" target="REBECCA" weight="1" />
+      <edge id="8385" source="MAN" target="ENID" weight="1" />
+      <edge id="8386" source="CREEP #1" target="ENID" weight="1" />
+      <edge id="8387" source="CREEP #1" target="CREEP #2" weight="1" />
+      <edge id="8388" source="CREEP #1" target="JOHN ELLIS" weight="1" />
+      <edge id="8389" source="CREEP #1" target="REBECCA" weight="1" />
+      <edge id="8390" source="CREEP #2" target="CREEP #1" weight="1" />
+      <edge id="8391" source="CREEP #2" target="ENID" weight="1" />
+      <edge id="8392" source="CREEP #2" target="JOHN ELLIS" weight="1" />
+      <edge id="8393" source="CREEP #2" target="REBECCA" weight="1" />
+      <edge id="8394" source="JOHN ELLIS" target="CREEP #1" weight="1" />
+      <edge id="8395" source="JOHN ELLIS" target="ENID" weight="1" />
+      <edge id="8396" source="JOHN ELLIS" target="CREEP #2" weight="1" />
+      <edge id="8397" source="JOHN ELLIS" target="REBECCA" weight="1" />
+      <edge id="8398" source="PHILLIP" target="ROBERTA" weight="1" />
+      <edge id="8399" source="PHILLIP" target="ENID" weight="1" />
+      <edge id="8400" source="PHILLIP" target="MARGARET" weight="1" />
+      <edge id="8401" source="MARGARET" target="ROBERTA" weight="2" />
+      <edge id="8402" source="MARGARET" target="PHILLIP" weight="1" />
+      <edge id="8403" source="MARGARET" target="ENID" weight="2" />
+      <edge id="8404" source="MASTERPIECE EMPLOYEE #1" target="CUSTOMER" weight="1" />
+      <edge id="8405" source="MASTERPIECE EMPLOYEE #1" target="REBECCA" weight="1" />
+      <edge id="8406" source="MASTERPIECE EMPLOYEE #1" target="ENID" weight="1" />
+      <edge id="8407" source="MASTERPIECE EMPLOYEE #1" target="MASTERPIECE EMPLOYEE #2" weight="1" />
+      <edge id="8408" source="CUSTOMER" target="MASTERPIECE EMPLOYEE #1" weight="1" />
+      <edge id="8409" source="CUSTOMER" target="REBECCA" weight="2" />
+      <edge id="8410" source="CUSTOMER" target="ENID" weight="3" />
+      <edge id="8411" source="CUSTOMER" target="MASTERPIECE EMPLOYEE #2" weight="1" />
+      <edge id="8412" source="CUSTOMER" target="MANAGER" weight="1" />
+      <edge id="8413" source="CUSTOMER" target="LOSER" weight="1" />
+      <edge id="8414" source="CUSTOMER" target="CUSTOMER #2" weight="1" />
+      <edge id="8415" source="MASTERPIECE EMPLOYEE #2" target="MASTERPIECE EMPLOYEE #1" weight="1" />
+      <edge id="8416" source="MASTERPIECE EMPLOYEE #2" target="CUSTOMER" weight="1" />
+      <edge id="8417" source="MASTERPIECE EMPLOYEE #2" target="REBECCA" weight="1" />
+      <edge id="8418" source="MASTERPIECE EMPLOYEE #2" target="ENID" weight="1" />
+      <edge id="8419" source="JEROME" target="STEVEN" weight="1" />
+      <edge id="8420" source="JEROME" target="REBECCA" weight="1" />
+      <edge id="8421" source="JEROME" target="ENID" weight="1" />
+      <edge id="8422" source="JEROME" target="GERROLD" weight="1" />
+      <edge id="8423" source="JEROME" target="JOE" weight="1" />
+      <edge id="8424" source="JEROME" target="SEYMOUR" weight="1" />
+      <edge id="8425" source="JEROME" target="PAUL" weight="1" />
+      <edge id="8426" source="STEVEN" target="JEROME" weight="1" />
+      <edge id="8427" source="STEVEN" target="REBECCA" weight="1" />
+      <edge id="8428" source="STEVEN" target="ENID" weight="1" />
+      <edge id="8429" source="STEVEN" target="GERROLD" weight="1" />
+      <edge id="8430" source="STEVEN" target="JOE" weight="1" />
+      <edge id="8431" source="STEVEN" target="SEYMOUR" weight="1" />
+      <edge id="8432" source="STEVEN" target="PAUL" weight="1" />
+      <edge id="8433" source="GERROLD" target="JEROME" weight="1" />
+      <edge id="8434" source="GERROLD" target="STEVEN" weight="1" />
+      <edge id="8435" source="GERROLD" target="REBECCA" weight="1" />
+      <edge id="8436" source="GERROLD" target="ENID" weight="1" />
+      <edge id="8437" source="GERROLD" target="JOE" weight="1" />
+      <edge id="8438" source="GERROLD" target="SEYMOUR" weight="1" />
+      <edge id="8439" source="GERROLD" target="PAUL" weight="1" />
+      <edge id="8440" source="PAUL" target="JEROME" weight="1" />
+      <edge id="8441" source="PAUL" target="STEVEN" weight="1" />
+      <edge id="8442" source="PAUL" target="REBECCA" weight="1" />
+      <edge id="8443" source="PAUL" target="ENID" weight="1" />
+      <edge id="8444" source="PAUL" target="GERROLD" weight="1" />
+      <edge id="8445" source="PAUL" target="JOE" weight="1" />
+      <edge id="8446" source="PAUL" target="SEYMOUR" weight="1" />
+      <edge id="8447" source="CASHIER" target="ENID" weight="1" />
+      <edge id="8448" source="CASHIER" target="SEYMOUR" weight="1" />
+      <edge id="8449" source="YUPPIE #1" target="REBECCA" weight="1" />
+      <edge id="8450" source="YUPPIE #1" target="ENID" weight="1" />
+      <edge id="8451" source="YUPPIE #1" target="FELDMAN" weight="1" />
+      <edge id="8452" source="YUPPIE #1" target="YUPPIE #2" weight="1" />
+      <edge id="8453" source="FELDMAN" target="YUPPIE #1" weight="1" />
+      <edge id="8454" source="FELDMAN" target="REBECCA" weight="1" />
+      <edge id="8455" source="FELDMAN" target="ENID" weight="1" />
+      <edge id="8456" source="FELDMAN" target="YUPPIE #2" weight="1" />
+      <edge id="8457" source="YUPPIE #2" target="YUPPIE #1" weight="1" />
+      <edge id="8458" source="YUPPIE #2" target="REBECCA" weight="1" />
+      <edge id="8459" source="YUPPIE #2" target="ENID" weight="1" />
+      <edge id="8460" source="YUPPIE #2" target="FELDMAN" weight="1" />
+      <edge id="8461" source="TV COMMERCIAL" target="DAD" weight="1" />
+      <edge id="8462" source="TV COMMERCIAL" target="ENID" weight="1" />
+      <edge id="8463" source="COLLEGE SOPHOMORE" target="REBECCA" weight="1" />
+      <edge id="8464" source="COLLEGE SOPHOMORE" target="ENID" weight="1" />
+      <edge id="8465" source="COLLEGE SOPHOMORE" target="GUY" weight="1" />
+      <edge id="8466" source="GUY" target="REBECCA" weight="1" />
+      <edge id="8467" source="GUY" target="ENID" weight="1" />
+      <edge id="8468" source="GUY" target="COLLEGE SOPHOMORE" weight="1" />
+      <edge id="8469" source="DISC JOCKEY" target="SEYMOUR" weight="1" />
+      <edge id="8470" source="DISC JOCKEY" target="ENID" weight="1" />
+      <edge id="8471" source="M.C." target="SEYMOUR" weight="1" />
+      <edge id="8472" source="M.C." target="ENID" weight="1" />
+      <edge id="8473" source="M.C." target="CUTE GIRL" weight="1" />
+      <edge id="8474" source="M.C." target="LANCE" weight="1" />
+      <edge id="8475" source="CUTE GIRL" target="SEYMOUR" weight="1" />
+      <edge id="8476" source="CUTE GIRL" target="M.C." weight="1" />
+      <edge id="8477" source="CUTE GIRL" target="ENID" weight="1" />
+      <edge id="8478" source="CUTE GIRL" target="LANCE" weight="1" />
+      <edge id="8479" source="LANCE" target="SEYMOUR" weight="1" />
+      <edge id="8480" source="LANCE" target="M.C." weight="1" />
+      <edge id="8481" source="LANCE" target="ENID" weight="1" />
+      <edge id="8482" source="LANCE" target="CUTE GIRL" weight="1" />
+      <edge id="8483" source="SNOTTY GIRL" target="ROBERTA" weight="1" />
+      <edge id="8484" source="SNOTTY GIRL" target="HIPPY-ISH BOY" weight="1" />
+      <edge id="8485" source="SNOTTY GIRL" target="BLACK GIRL" weight="1" />
+      <edge id="8486" source="SNOTTY GIRL" target="ENID" weight="1" />
+      <edge id="8487" source="HIPPY-ISH BOY" target="ROBERTA" weight="1" />
+      <edge id="8488" source="HIPPY-ISH BOY" target="SNOTTY GIRL" weight="1" />
+      <edge id="8489" source="HIPPY-ISH BOY" target="BLACK GIRL" weight="1" />
+      <edge id="8490" source="HIPPY-ISH BOY" target="ENID" weight="1" />
+      <edge id="8491" source="BLACK GIRL" target="ROBERTA" weight="1" />
+      <edge id="8492" source="BLACK GIRL" target="SNOTTY GIRL" weight="1" />
+      <edge id="8493" source="BLACK GIRL" target="HIPPY-ISH BOY" weight="1" />
+      <edge id="8494" source="BLACK GIRL" target="ENID" weight="1" />
+      <edge id="8495" source="MANAGER" target="ENID" weight="1" />
+      <edge id="8496" source="MANAGER" target="LOSER" weight="1" />
+      <edge id="8497" source="MANAGER" target="CUSTOMER" weight="1" />
+      <edge id="8498" source="MANAGER" target="CUSTOMER #2" weight="1" />
+      <edge id="8499" source="LOSER" target="MANAGER" weight="1" />
+      <edge id="8500" source="LOSER" target="ENID" weight="1" />
+      <edge id="8501" source="LOSER" target="CUSTOMER" weight="1" />
+      <edge id="8502" source="LOSER" target="CUSTOMER #2" weight="1" />
+      <edge id="8503" source="CUSTOMER #2" target="MANAGER" weight="1" />
+      <edge id="8504" source="CUSTOMER #2" target="ENID" weight="1" />
+      <edge id="8505" source="CUSTOMER #2" target="LOSER" weight="1" />
+      <edge id="8506" source="CUSTOMER #2" target="CUSTOMER" weight="1" />
+      <edge id="8507" source="HIPSTER" target="REBECCA" weight="1" />
+      <edge id="8508" source="HIPSTER" target="ENID" weight="1" />
+      <edge id="8509" source="HIPSTER" target="GIRL" weight="1" />
+      <edge id="8510" source="HIPSTER" target="BOY" weight="1" />
+      <edge id="8511" source="GIRL" target="REBECCA" weight="1" />
+      <edge id="8512" source="GIRL" target="ENID" weight="1" />
+      <edge id="8513" source="GIRL" target="HIPSTER" weight="1" />
+      <edge id="8514" source="GIRL" target="BOY" weight="1" />
+      <edge id="8515" source="BOY" target="REBECCA" weight="1" />
+      <edge id="8516" source="BOY" target="ENID" weight="1" />
+      <edge id="8517" source="BOY" target="HIPSTER" weight="1" />
+      <edge id="8518" source="BOY" target="GIRL" weight="1" />
+      <edge id="8519" source="VOICE ON MACHINE" target="ENID" weight="1" />
+      <edge id="8520" source="VOICE ON MACHINE" target="SEYMOUR" weight="1" />
+      <edge id="8521" source="MAXINE" target="DAD" weight="1" />
+      <edge id="8522" source="MAXINE" target="ENID" weight="2" />
+      <edge id="8523" source="MAXINE" target="SEYMOUR" weight="1" />
+      <edge id="8524" source="MAXINE" target="REBECCA" weight="1" />
+      <edge id="8525" source="DANA" target="SEYMOUR" weight="3" />
+      <edge id="8526" source="DANA" target="ENID" weight="1" />
+      <edge id="8527" source="DANA" target="COLLEAGUE" weight="1" />
+      <edge id="8528" source="DIRECTOR" target="ROBERTA" weight="1" />
+      <edge id="8529" source="EX-HIPPY COLLEAGUE" target="ENID" weight="1" />
+      <edge id="8530" source="EX-HIPPY COLLEAGUE" target="ROBERTA" weight="1" />
+      <edge id="8531" source="COLLEAGUE" target="DANA" weight="1" />
+      <edge id="8532" source="COLLEAGUE" target="SEYMOUR" weight="1" />
+      <edge id="8533" source="THERAPIST" target="SEYMOUR" weight="1" />
+      <edge id="8534" source="THERAPIST" target="MOTHER" weight="1" />
+      <edge id="8535" source="MOTHER" target="SEYMOUR" weight="1" />
+      <edge id="8536" source="MOTHER" target="THERAPIST" weight="1" />
+    </edges>
+  </graph>
+</gexf>

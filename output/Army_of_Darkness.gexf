@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="ASH" label="ASH" />
+      <node id="WARRIOR #1" label="WARRIOR #1" />
+      <node id="WISEMAN JOHN" label="WISEMAN JOHN" />
+      <node id="ARTHUR" label="ARTHUR" />
+      <node id="WARRIOR #2 AND #3" label="WARRIOR #2 AND #3" />
+      <node id="GOLD TOOTHED WARRIOR" label="GOLD TOOTHED WARRIOR" />
+      <node id="GOLD TOOTH" label="GOLD TOOTH" />
+      <node id="SHEILA" label="SHEILA" />
+      <node id="VILLAGE WOMAN #1" label="VILLAGE WOMAN #1" />
+      <node id="DUKE HENRY" label="DUKE HENRY" />
+      <node id="OLD WOMAN" label="OLD WOMAN" />
+      <node id="HENRY'S WARRIOR #1" label="HENRY'S WARRIOR #1" />
+      <node id="TOWER GUARD" label="TOWER GUARD" />
+      <node id="HENRY" label="HENRY" />
+      <node id="POSSESSED WOMAN" label="POSSESSED WOMAN" />
+      <node id="POSSESSED WOMAN'S HEAD" label="POSSESSED WOMAN'S HEAD" />
+      <node id="WISEMAN #1" label="WISEMAN #1" />
+      <node id="GOOD ASH" label="GOOD ASH" />
+      <node id="BAD ASH" label="BAD ASH" />
+      <node id="EVIL ASH" label="EVIL ASH" />
+      <node id="EVIL ASH HEAD" label="EVIL ASH HEAD" />
+      <node id="VILLAGERS" label="VILLAGERS" />
+      <node id="SCOUT" label="SCOUT" />
+      <node id="WISEMAN" label="WISEMAN" />
+      <node id="WARRIORS" label="WARRIORS" />
+      <node id="BLACKSMITH" label="BLACKSMITH" />
+      <node id="WARRIOR #7" label="WARRIOR #7" />
+      <node id="WARRIOR #8" label="WARRIOR #8" />
+      <node id="HENRY WARRIOR #1" label="HENRY WARRIOR #1" />
+      <node id="HENRY WARRIOR #2" label="HENRY WARRIOR #2" />
+      <node id="WARRIOR #9" label="WARRIOR #9" />
+      <node id="WARRIOR" label="WARRIOR" />
+      <node id="SKELETON CAPTAIN" label="SKELETON CAPTAIN" />
+      <node id="SKELETON CAPTAIN #1" label="SKELETON CAPTAIN #1" />
+      <node id="NEW DEADITE CAPTAIN" label="NEW DEADITE CAPTAIN" />
+      <node id="WARRIOR #2" label="WARRIOR #2" />
+      <node id="EVIL SHEILA" label="EVIL SHEILA" />
+      <node id="SKELETON ASH" label="SKELETON ASH" />
+      <node id="GUARD" label="GUARD" />
+    </nodes>
+    <edges>
+      <edge id="1159" source="ASH" target="WARRIOR #1" weight="2" />
+      <edge id="1160" source="ASH" target="WISEMAN JOHN" weight="5" />
+      <edge id="1161" source="ASH" target="ARTHUR" weight="7" />
+      <edge id="1162" source="ASH" target="WARRIOR #2 AND #3" weight="1" />
+      <edge id="1163" source="ASH" target="GOLD TOOTHED WARRIOR" weight="1" />
+      <edge id="1164" source="ASH" target="SHEILA" weight="3" />
+      <edge id="1165" source="ASH" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1166" source="ASH" target="DUKE HENRY" weight="1" />
+      <edge id="1167" source="ASH" target="OLD WOMAN" weight="1" />
+      <edge id="1168" source="ASH" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1169" source="ASH" target="TOWER GUARD" weight="1" />
+      <edge id="1170" source="ASH" target="HENRY" weight="2" />
+      <edge id="1171" source="ASH" target="POSSESSED WOMAN" weight="1" />
+      <edge id="1172" source="ASH" target="WISEMAN #1" weight="1" />
+      <edge id="1173" source="ASH" target="GOOD ASH" weight="1" />
+      <edge id="1174" source="ASH" target="BAD ASH" weight="1" />
+      <edge id="1175" source="ASH" target="EVIL ASH" weight="1" />
+      <edge id="1176" source="ASH" target="EVIL ASH HEAD" weight="1" />
+      <edge id="1177" source="ASH" target="SCOUT" weight="2" />
+      <edge id="1178" source="ASH" target="WISEMAN" weight="1" />
+      <edge id="1179" source="ASH" target="GOLD TOOTH" weight="1" />
+      <edge id="1180" source="ASH" target="WARRIORS" weight="1" />
+      <edge id="1181" source="ASH" target="BLACKSMITH" weight="1" />
+      <edge id="1182" source="ASH" target="WARRIOR #7" weight="1" />
+      <edge id="1183" source="ASH" target="WARRIOR #8" weight="1" />
+      <edge id="1184" source="ASH" target="HENRY WARRIOR #1" weight="1" />
+      <edge id="1185" source="ASH" target="HENRY WARRIOR #2" weight="1" />
+      <edge id="1186" source="ASH" target="WARRIOR #9" weight="1" />
+      <edge id="1187" source="ASH" target="EVIL SHEILA" weight="1" />
+      <edge id="1188" source="ASH" target="SKELETON ASH" weight="1" />
+      <edge id="1189" source="ASH" target="GUARD" weight="1" />
+      <edge id="1190" source="WARRIOR #1" target="ASH" weight="2" />
+      <edge id="1191" source="WARRIOR #1" target="WISEMAN JOHN" weight="2" />
+      <edge id="1192" source="WARRIOR #1" target="ARTHUR" weight="2" />
+      <edge id="1193" source="WARRIOR #1" target="WARRIOR #2 AND #3" weight="1" />
+      <edge id="1194" source="WARRIOR #1" target="GOLD TOOTHED WARRIOR" weight="1" />
+      <edge id="1195" source="WARRIOR #1" target="WISEMAN #1" weight="1" />
+      <edge id="1196" source="WISEMAN JOHN" target="WARRIOR #1" weight="2" />
+      <edge id="1197" source="WISEMAN JOHN" target="ASH" weight="5" />
+      <edge id="1198" source="WISEMAN JOHN" target="ARTHUR" weight="3" />
+      <edge id="1199" source="WISEMAN JOHN" target="WARRIOR #2 AND #3" weight="1" />
+      <edge id="1200" source="WISEMAN JOHN" target="GOLD TOOTHED WARRIOR" weight="1" />
+      <edge id="1201" source="WISEMAN JOHN" target="SHEILA" weight="2" />
+      <edge id="1202" source="WISEMAN JOHN" target="POSSESSED WOMAN" weight="2" />
+      <edge id="1203" source="WISEMAN JOHN" target="POSSESSED WOMAN'S HEAD" weight="1" />
+      <edge id="1204" source="WISEMAN JOHN" target="WISEMAN #1" weight="1" />
+      <edge id="1205" source="WISEMAN JOHN" target="SCOUT" weight="1" />
+      <edge id="1206" source="WISEMAN JOHN" target="WISEMAN" weight="1" />
+      <edge id="1207" source="WISEMAN JOHN" target="GOLD TOOTH" weight="1" />
+      <edge id="1208" source="WISEMAN JOHN" target="WARRIORS" weight="1" />
+      <edge id="1209" source="WISEMAN JOHN" target="BLACKSMITH" weight="1" />
+      <edge id="1210" source="WISEMAN JOHN" target="WARRIOR #7" weight="1" />
+      <edge id="1211" source="WISEMAN JOHN" target="WARRIOR #8" weight="1" />
+      <edge id="1212" source="ARTHUR" target="WARRIOR #1" weight="2" />
+      <edge id="1213" source="ARTHUR" target="ASH" weight="7" />
+      <edge id="1214" source="ARTHUR" target="WISEMAN JOHN" weight="3" />
+      <edge id="1215" source="ARTHUR" target="WARRIOR #2 AND #3" weight="1" />
+      <edge id="1216" source="ARTHUR" target="GOLD TOOTHED WARRIOR" weight="1" />
+      <edge id="1217" source="ARTHUR" target="SHEILA" weight="2" />
+      <edge id="1218" source="ARTHUR" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1219" source="ARTHUR" target="DUKE HENRY" weight="1" />
+      <edge id="1220" source="ARTHUR" target="OLD WOMAN" weight="1" />
+      <edge id="1221" source="ARTHUR" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1222" source="ARTHUR" target="TOWER GUARD" weight="1" />
+      <edge id="1223" source="ARTHUR" target="HENRY" weight="1" />
+      <edge id="1224" source="ARTHUR" target="WISEMAN #1" weight="1" />
+      <edge id="1225" source="ARTHUR" target="SCOUT" weight="2" />
+      <edge id="1226" source="ARTHUR" target="WISEMAN" weight="1" />
+      <edge id="1227" source="ARTHUR" target="GOLD TOOTH" weight="1" />
+      <edge id="1228" source="ARTHUR" target="WARRIORS" weight="1" />
+      <edge id="1229" source="ARTHUR" target="BLACKSMITH" weight="1" />
+      <edge id="1230" source="ARTHUR" target="WARRIOR #7" weight="1" />
+      <edge id="1231" source="ARTHUR" target="WARRIOR #8" weight="1" />
+      <edge id="1232" source="ARTHUR" target="SKELETON CAPTAIN #1" weight="1" />
+      <edge id="1233" source="ARTHUR" target="EVIL ASH" weight="1" />
+      <edge id="1234" source="ARTHUR" target="NEW DEADITE CAPTAIN" weight="1" />
+      <edge id="1235" source="WARRIOR #2 AND #3" target="WARRIOR #1" weight="1" />
+      <edge id="1236" source="WARRIOR #2 AND #3" target="ASH" weight="1" />
+      <edge id="1237" source="WARRIOR #2 AND #3" target="WISEMAN JOHN" weight="1" />
+      <edge id="1238" source="WARRIOR #2 AND #3" target="ARTHUR" weight="1" />
+      <edge id="1239" source="WARRIOR #2 AND #3" target="GOLD TOOTHED WARRIOR" weight="1" />
+      <edge id="1240" source="GOLD TOOTHED WARRIOR" target="WARRIOR #1" weight="1" />
+      <edge id="1241" source="GOLD TOOTHED WARRIOR" target="ASH" weight="1" />
+      <edge id="1242" source="GOLD TOOTHED WARRIOR" target="WISEMAN JOHN" weight="1" />
+      <edge id="1243" source="GOLD TOOTHED WARRIOR" target="ARTHUR" weight="1" />
+      <edge id="1244" source="GOLD TOOTHED WARRIOR" target="WARRIOR #2 AND #3" weight="1" />
+      <edge id="1245" source="GOLD TOOTH" target="WISEMAN JOHN" weight="1" />
+      <edge id="1246" source="GOLD TOOTH" target="ASH" weight="1" />
+      <edge id="1247" source="GOLD TOOTH" target="ARTHUR" weight="1" />
+      <edge id="1248" source="GOLD TOOTH" target="SHEILA" weight="1" />
+      <edge id="1249" source="GOLD TOOTH" target="SCOUT" weight="1" />
+      <edge id="1250" source="GOLD TOOTH" target="WISEMAN" weight="1" />
+      <edge id="1251" source="GOLD TOOTH" target="WARRIORS" weight="1" />
+      <edge id="1252" source="GOLD TOOTH" target="BLACKSMITH" weight="1" />
+      <edge id="1253" source="GOLD TOOTH" target="WARRIOR #7" weight="1" />
+      <edge id="1254" source="GOLD TOOTH" target="WARRIOR #8" weight="1" />
+      <edge id="1255" source="SHEILA" target="ARTHUR" weight="2" />
+      <edge id="1256" source="SHEILA" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1257" source="SHEILA" target="DUKE HENRY" weight="1" />
+      <edge id="1258" source="SHEILA" target="ASH" weight="3" />
+      <edge id="1259" source="SHEILA" target="OLD WOMAN" weight="1" />
+      <edge id="1260" source="SHEILA" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1261" source="SHEILA" target="TOWER GUARD" weight="1" />
+      <edge id="1262" source="SHEILA" target="HENRY" weight="1" />
+      <edge id="1263" source="SHEILA" target="WISEMAN JOHN" weight="2" />
+      <edge id="1264" source="SHEILA" target="POSSESSED WOMAN" weight="1" />
+      <edge id="1265" source="SHEILA" target="SCOUT" weight="1" />
+      <edge id="1266" source="SHEILA" target="WISEMAN" weight="1" />
+      <edge id="1267" source="SHEILA" target="GOLD TOOTH" weight="1" />
+      <edge id="1268" source="SHEILA" target="WARRIORS" weight="1" />
+      <edge id="1269" source="SHEILA" target="BLACKSMITH" weight="1" />
+      <edge id="1270" source="SHEILA" target="WARRIOR #7" weight="1" />
+      <edge id="1271" source="SHEILA" target="WARRIOR #8" weight="1" />
+      <edge id="1272" source="SHEILA" target="EVIL ASH" weight="1" />
+      <edge id="1273" source="VILLAGE WOMAN #1" target="SHEILA" weight="1" />
+      <edge id="1274" source="VILLAGE WOMAN #1" target="ARTHUR" weight="1" />
+      <edge id="1275" source="VILLAGE WOMAN #1" target="DUKE HENRY" weight="1" />
+      <edge id="1276" source="VILLAGE WOMAN #1" target="ASH" weight="1" />
+      <edge id="1277" source="VILLAGE WOMAN #1" target="OLD WOMAN" weight="1" />
+      <edge id="1278" source="VILLAGE WOMAN #1" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1279" source="VILLAGE WOMAN #1" target="TOWER GUARD" weight="1" />
+      <edge id="1280" source="VILLAGE WOMAN #1" target="HENRY" weight="1" />
+      <edge id="1281" source="DUKE HENRY" target="SHEILA" weight="1" />
+      <edge id="1282" source="DUKE HENRY" target="ARTHUR" weight="1" />
+      <edge id="1283" source="DUKE HENRY" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1284" source="DUKE HENRY" target="ASH" weight="1" />
+      <edge id="1285" source="DUKE HENRY" target="OLD WOMAN" weight="1" />
+      <edge id="1286" source="DUKE HENRY" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1287" source="DUKE HENRY" target="TOWER GUARD" weight="1" />
+      <edge id="1288" source="DUKE HENRY" target="HENRY" weight="1" />
+      <edge id="1289" source="OLD WOMAN" target="SHEILA" weight="1" />
+      <edge id="1290" source="OLD WOMAN" target="ARTHUR" weight="1" />
+      <edge id="1291" source="OLD WOMAN" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1292" source="OLD WOMAN" target="DUKE HENRY" weight="1" />
+      <edge id="1293" source="OLD WOMAN" target="ASH" weight="1" />
+      <edge id="1294" source="OLD WOMAN" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1295" source="OLD WOMAN" target="TOWER GUARD" weight="1" />
+      <edge id="1296" source="OLD WOMAN" target="HENRY" weight="1" />
+      <edge id="1297" source="HENRY'S WARRIOR #1" target="SHEILA" weight="1" />
+      <edge id="1298" source="HENRY'S WARRIOR #1" target="ARTHUR" weight="1" />
+      <edge id="1299" source="HENRY'S WARRIOR #1" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1300" source="HENRY'S WARRIOR #1" target="DUKE HENRY" weight="1" />
+      <edge id="1301" source="HENRY'S WARRIOR #1" target="ASH" weight="1" />
+      <edge id="1302" source="HENRY'S WARRIOR #1" target="OLD WOMAN" weight="1" />
+      <edge id="1303" source="HENRY'S WARRIOR #1" target="TOWER GUARD" weight="1" />
+      <edge id="1304" source="HENRY'S WARRIOR #1" target="HENRY" weight="1" />
+      <edge id="1305" source="TOWER GUARD" target="SHEILA" weight="1" />
+      <edge id="1306" source="TOWER GUARD" target="ARTHUR" weight="1" />
+      <edge id="1307" source="TOWER GUARD" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1308" source="TOWER GUARD" target="DUKE HENRY" weight="1" />
+      <edge id="1309" source="TOWER GUARD" target="ASH" weight="1" />
+      <edge id="1310" source="TOWER GUARD" target="OLD WOMAN" weight="1" />
+      <edge id="1311" source="TOWER GUARD" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1312" source="TOWER GUARD" target="HENRY" weight="1" />
+      <edge id="1313" source="HENRY" target="SHEILA" weight="1" />
+      <edge id="1314" source="HENRY" target="ARTHUR" weight="1" />
+      <edge id="1315" source="HENRY" target="VILLAGE WOMAN #1" weight="1" />
+      <edge id="1316" source="HENRY" target="DUKE HENRY" weight="1" />
+      <edge id="1317" source="HENRY" target="ASH" weight="2" />
+      <edge id="1318" source="HENRY" target="OLD WOMAN" weight="1" />
+      <edge id="1319" source="HENRY" target="HENRY'S WARRIOR #1" weight="1" />
+      <edge id="1320" source="HENRY" target="TOWER GUARD" weight="1" />
+      <edge id="1321" source="HENRY" target="HENRY WARRIOR #1" weight="1" />
+      <edge id="1322" source="HENRY" target="HENRY WARRIOR #2" weight="1" />
+      <edge id="1323" source="POSSESSED WOMAN" target="SHEILA" weight="1" />
+      <edge id="1324" source="POSSESSED WOMAN" target="ASH" weight="1" />
+      <edge id="1325" source="POSSESSED WOMAN" target="WISEMAN JOHN" weight="2" />
+      <edge id="1326" source="POSSESSED WOMAN" target="POSSESSED WOMAN'S HEAD" weight="1" />
+      <edge id="1327" source="POSSESSED WOMAN'S HEAD" target="POSSESSED WOMAN" weight="1" />
+      <edge id="1328" source="POSSESSED WOMAN'S HEAD" target="WISEMAN JOHN" weight="1" />
+      <edge id="1329" source="WISEMAN #1" target="ASH" weight="1" />
+      <edge id="1330" source="WISEMAN #1" target="WISEMAN JOHN" weight="1" />
+      <edge id="1331" source="WISEMAN #1" target="WARRIOR #1" weight="1" />
+      <edge id="1332" source="WISEMAN #1" target="ARTHUR" weight="1" />
+      <edge id="1333" source="GOOD ASH" target="ASH" weight="1" />
+      <edge id="1334" source="GOOD ASH" target="BAD ASH" weight="1" />
+      <edge id="1335" source="GOOD ASH" target="EVIL ASH" weight="1" />
+      <edge id="1336" source="BAD ASH" target="ASH" weight="1" />
+      <edge id="1337" source="BAD ASH" target="GOOD ASH" weight="1" />
+      <edge id="1338" source="BAD ASH" target="EVIL ASH" weight="1" />
+      <edge id="1339" source="EVIL ASH" target="ASH" weight="1" />
+      <edge id="1340" source="EVIL ASH" target="GOOD ASH" weight="1" />
+      <edge id="1341" source="EVIL ASH" target="BAD ASH" weight="1" />
+      <edge id="1342" source="EVIL ASH" target="SHEILA" weight="1" />
+      <edge id="1343" source="EVIL ASH" target="SKELETON CAPTAIN" weight="1" />
+      <edge id="1344" source="EVIL ASH" target="SKELETON CAPTAIN #1" weight="2" />
+      <edge id="1345" source="EVIL ASH" target="ARTHUR" weight="1" />
+      <edge id="1346" source="EVIL ASH" target="NEW DEADITE CAPTAIN" weight="1" />
+      <edge id="1347" source="EVIL ASH" target="WARRIOR #2" weight="1" />
+      <edge id="1348" source="EVIL ASH HEAD" target="ASH" weight="1" />
+      <edge id="1349" source="SCOUT" target="WISEMAN JOHN" weight="1" />
+      <edge id="1350" source="SCOUT" target="ASH" weight="2" />
+      <edge id="1351" source="SCOUT" target="ARTHUR" weight="2" />
+      <edge id="1352" source="SCOUT" target="SHEILA" weight="1" />
+      <edge id="1353" source="SCOUT" target="WISEMAN" weight="1" />
+      <edge id="1354" source="SCOUT" target="GOLD TOOTH" weight="1" />
+      <edge id="1355" source="SCOUT" target="WARRIORS" weight="1" />
+      <edge id="1356" source="SCOUT" target="BLACKSMITH" weight="1" />
+      <edge id="1357" source="SCOUT" target="WARRIOR #7" weight="1" />
+      <edge id="1358" source="SCOUT" target="WARRIOR #8" weight="1" />
+      <edge id="1359" source="WISEMAN" target="WISEMAN JOHN" weight="1" />
+      <edge id="1360" source="WISEMAN" target="ASH" weight="1" />
+      <edge id="1361" source="WISEMAN" target="ARTHUR" weight="1" />
+      <edge id="1362" source="WISEMAN" target="SHEILA" weight="1" />
+      <edge id="1363" source="WISEMAN" target="SCOUT" weight="1" />
+      <edge id="1364" source="WISEMAN" target="GOLD TOOTH" weight="1" />
+      <edge id="1365" source="WISEMAN" target="WARRIORS" weight="1" />
+      <edge id="1366" source="WISEMAN" target="BLACKSMITH" weight="1" />
+      <edge id="1367" source="WISEMAN" target="WARRIOR #7" weight="1" />
+      <edge id="1368" source="WISEMAN" target="WARRIOR #8" weight="1" />
+      <edge id="1369" source="WARRIORS" target="WISEMAN JOHN" weight="1" />
+      <edge id="1370" source="WARRIORS" target="ASH" weight="1" />
+      <edge id="1371" source="WARRIORS" target="ARTHUR" weight="1" />
+      <edge id="1372" source="WARRIORS" target="SHEILA" weight="1" />
+      <edge id="1373" source="WARRIORS" target="SCOUT" weight="1" />
+      <edge id="1374" source="WARRIORS" target="WISEMAN" weight="1" />
+      <edge id="1375" source="WARRIORS" target="GOLD TOOTH" weight="1" />
+      <edge id="1376" source="WARRIORS" target="BLACKSMITH" weight="1" />
+      <edge id="1377" source="WARRIORS" target="WARRIOR #7" weight="1" />
+      <edge id="1378" source="WARRIORS" target="WARRIOR #8" weight="1" />
+      <edge id="1379" source="BLACKSMITH" target="WISEMAN JOHN" weight="1" />
+      <edge id="1380" source="BLACKSMITH" target="ASH" weight="1" />
+      <edge id="1381" source="BLACKSMITH" target="ARTHUR" weight="1" />
+      <edge id="1382" source="BLACKSMITH" target="SHEILA" weight="1" />
+      <edge id="1383" source="BLACKSMITH" target="SCOUT" weight="1" />
+      <edge id="1384" source="BLACKSMITH" target="WISEMAN" weight="1" />
+      <edge id="1385" source="BLACKSMITH" target="GOLD TOOTH" weight="1" />
+      <edge id="1386" source="BLACKSMITH" target="WARRIORS" weight="1" />
+      <edge id="1387" source="BLACKSMITH" target="WARRIOR #7" weight="1" />
+      <edge id="1388" source="BLACKSMITH" target="WARRIOR #8" weight="1" />
+      <edge id="1389" source="WARRIOR #7" target="WISEMAN JOHN" weight="1" />
+      <edge id="1390" source="WARRIOR #7" target="ASH" weight="1" />
+      <edge id="1391" source="WARRIOR #7" target="ARTHUR" weight="1" />
+      <edge id="1392" source="WARRIOR #7" target="SHEILA" weight="1" />
+      <edge id="1393" source="WARRIOR #7" target="SCOUT" weight="1" />
+      <edge id="1394" source="WARRIOR #7" target="WISEMAN" weight="1" />
+      <edge id="1395" source="WARRIOR #7" target="GOLD TOOTH" weight="1" />
+      <edge id="1396" source="WARRIOR #7" target="WARRIORS" weight="1" />
+      <edge id="1397" source="WARRIOR #7" target="BLACKSMITH" weight="1" />
+      <edge id="1398" source="WARRIOR #7" target="WARRIOR #8" weight="1" />
+      <edge id="1399" source="WARRIOR #8" target="WISEMAN JOHN" weight="1" />
+      <edge id="1400" source="WARRIOR #8" target="ASH" weight="1" />
+      <edge id="1401" source="WARRIOR #8" target="ARTHUR" weight="1" />
+      <edge id="1402" source="WARRIOR #8" target="SHEILA" weight="1" />
+      <edge id="1403" source="WARRIOR #8" target="SCOUT" weight="1" />
+      <edge id="1404" source="WARRIOR #8" target="WISEMAN" weight="1" />
+      <edge id="1405" source="WARRIOR #8" target="GOLD TOOTH" weight="1" />
+      <edge id="1406" source="WARRIOR #8" target="WARRIORS" weight="1" />
+      <edge id="1407" source="WARRIOR #8" target="BLACKSMITH" weight="1" />
+      <edge id="1408" source="WARRIOR #8" target="WARRIOR #7" weight="1" />
+      <edge id="1409" source="HENRY WARRIOR #1" target="HENRY WARRIOR #2" weight="1" />
+      <edge id="1410" source="HENRY WARRIOR #1" target="HENRY" weight="1" />
+      <edge id="1411" source="HENRY WARRIOR #1" target="ASH" weight="1" />
+      <edge id="1412" source="HENRY WARRIOR #2" target="HENRY WARRIOR #1" weight="1" />
+      <edge id="1413" source="HENRY WARRIOR #2" target="HENRY" weight="1" />
+      <edge id="1414" source="HENRY WARRIOR #2" target="ASH" weight="1" />
+      <edge id="1415" source="WARRIOR #9" target="ASH" weight="1" />
+      <edge id="1416" source="SKELETON CAPTAIN" target="EVIL ASH" weight="1" />
+      <edge id="1417" source="SKELETON CAPTAIN" target="SKELETON CAPTAIN #1" weight="1" />
+      <edge id="1418" source="SKELETON CAPTAIN #1" target="SKELETON CAPTAIN" weight="1" />
+      <edge id="1419" source="SKELETON CAPTAIN #1" target="EVIL ASH" weight="2" />
+      <edge id="1420" source="SKELETON CAPTAIN #1" target="ARTHUR" weight="1" />
+      <edge id="1421" source="SKELETON CAPTAIN #1" target="NEW DEADITE CAPTAIN" weight="1" />
+      <edge id="1422" source="NEW DEADITE CAPTAIN" target="ARTHUR" weight="1" />
+      <edge id="1423" source="NEW DEADITE CAPTAIN" target="SKELETON CAPTAIN #1" weight="1" />
+      <edge id="1424" source="NEW DEADITE CAPTAIN" target="EVIL ASH" weight="1" />
+      <edge id="1425" source="WARRIOR #2" target="EVIL ASH" weight="1" />
+      <edge id="1426" source="EVIL SHEILA" target="ASH" weight="1" />
+      <edge id="1427" source="EVIL SHEILA" target="SKELETON ASH" weight="1" />
+      <edge id="1428" source="EVIL SHEILA" target="GUARD" weight="1" />
+      <edge id="1429" source="SKELETON ASH" target="EVIL SHEILA" weight="1" />
+      <edge id="1430" source="SKELETON ASH" target="ASH" weight="1" />
+      <edge id="1431" source="SKELETON ASH" target="GUARD" weight="1" />
+      <edge id="1432" source="GUARD" target="EVIL SHEILA" weight="1" />
+      <edge id="1433" source="GUARD" target="ASH" weight="1" />
+      <edge id="1434" source="GUARD" target="SKELETON ASH" weight="1" />
+    </edges>
+  </graph>
+</gexf>

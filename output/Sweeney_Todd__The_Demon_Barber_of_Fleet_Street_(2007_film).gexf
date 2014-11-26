@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GENTLEMAN" label="GENTLEMAN" />
+      <node id="BANKER" label="BANKER" />
+      <node id="GHOSTS" label="GHOSTS" />
+      <node id="GENERAL" label="GENERAL" />
+      <node id="PRIEST" label="PRIEST" />
+      <node id="TOURIST" label="TOURIST" />
+      <node id="STUDENT" label="STUDENT" />
+      <node id="ANTHONY" label="ANTHONY" />
+      <node id="TODD" label="TODD" />
+      <node id="MRS. LOVETT" label="MRS. LOVETT" />
+      <node id="JOHANNA" label="JOHANNA" />
+      <node id="BEGGAR WOMAN" label="BEGGAR WOMAN" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="BEADLE" label="BEADLE" />
+      <node id="TOBY" label="TOBY" />
+      <node id="PIRELLI" label="PIRELLI" />
+      <node id="EAGER CUSTOMER" label="EAGER CUSTOMER" />
+      <node id="GENTLEMAN, BANKER AND GENERAL" label="GENTLEMAN, BANKER AND GENERAL" />
+      <node id="GENTLEMAN, STUDENT AND TOURIST" label="GENTLEMAN, STUDENT AND TOURIST" />
+      <node id="BOTH" label="BOTH" />
+      <node id="CUSTOMERS" label="CUSTOMERS" />
+      <node id="MRS. LOVETT AND TOBY" label="MRS. LOVETT AND TOBY" />
+      <node id="FOGG" label="FOGG" />
+      <node id="OTHER GHOSTS" label="OTHER GHOSTS" />
+      <node id="BEGGAR WOMAN, JUDGE AND GHOSTS" label="BEGGAR WOMAN, JUDGE AND GHOSTS" />
+      <node id="PIRELLI AND BEADLE" label="PIRELLI AND BEADLE" />
+      <node id="TODD AND MRS. LOVETT" label="TODD AND MRS. LOVETT" />
+    </nodes>
+    <edges>
+      <edge id="17535" source="GENTLEMAN" target="BANKER" weight="4" />
+      <edge id="17536" source="GENTLEMAN" target="GHOSTS" weight="3" />
+      <edge id="17537" source="GENTLEMAN" target="GENERAL" weight="3" />
+      <edge id="17538" source="GENTLEMAN" target="PRIEST" weight="1" />
+      <edge id="17539" source="GENTLEMAN" target="TOURIST" weight="2" />
+      <edge id="17540" source="GENTLEMAN" target="STUDENT" weight="2" />
+      <edge id="17541" source="GENTLEMAN" target="MRS. LOVETT" weight="2" />
+      <edge id="17542" source="GENTLEMAN" target="GENTLEMAN, BANKER AND GENERAL" weight="2" />
+      <edge id="17543" source="GENTLEMAN" target="TODD" weight="3" />
+      <edge id="17544" source="GENTLEMAN" target="TOBY" weight="1" />
+      <edge id="17545" source="GENTLEMAN" target="GENTLEMAN, STUDENT AND TOURIST" weight="1" />
+      <edge id="17546" source="GENTLEMAN" target="OTHER GHOSTS" weight="1" />
+      <edge id="17547" source="GENTLEMAN" target="BOTH" weight="1" />
+      <edge id="17548" source="GENTLEMAN" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17549" source="GENTLEMAN" target="JUDGE" weight="1" />
+      <edge id="17550" source="GENTLEMAN" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17551" source="GENTLEMAN" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17552" source="GENTLEMAN" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17553" source="BANKER" target="GENTLEMAN" weight="4" />
+      <edge id="17554" source="BANKER" target="GHOSTS" weight="3" />
+      <edge id="17555" source="BANKER" target="GENERAL" weight="3" />
+      <edge id="17556" source="BANKER" target="PRIEST" weight="1" />
+      <edge id="17557" source="BANKER" target="TOURIST" weight="1" />
+      <edge id="17558" source="BANKER" target="STUDENT" weight="1" />
+      <edge id="17559" source="BANKER" target="MRS. LOVETT" weight="2" />
+      <edge id="17560" source="BANKER" target="GENTLEMAN, BANKER AND GENERAL" weight="2" />
+      <edge id="17561" source="BANKER" target="TODD" weight="2" />
+      <edge id="17562" source="BANKER" target="OTHER GHOSTS" weight="1" />
+      <edge id="17563" source="BANKER" target="BOTH" weight="1" />
+      <edge id="17564" source="BANKER" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17565" source="BANKER" target="JUDGE" weight="1" />
+      <edge id="17566" source="BANKER" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17567" source="BANKER" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17568" source="BANKER" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17569" source="GHOSTS" target="GENTLEMAN" weight="3" />
+      <edge id="17570" source="GHOSTS" target="BANKER" weight="3" />
+      <edge id="17571" source="GHOSTS" target="GENERAL" weight="2" />
+      <edge id="17572" source="GHOSTS" target="PRIEST" weight="1" />
+      <edge id="17573" source="GHOSTS" target="TOURIST" weight="1" />
+      <edge id="17574" source="GHOSTS" target="STUDENT" weight="1" />
+      <edge id="17575" source="GHOSTS" target="MRS. LOVETT" weight="3" />
+      <edge id="17576" source="GHOSTS" target="TODD" weight="3" />
+      <edge id="17577" source="GHOSTS" target="GENTLEMAN, BANKER AND GENERAL" weight="1" />
+      <edge id="17578" source="GHOSTS" target="OTHER GHOSTS" weight="1" />
+      <edge id="17579" source="GHOSTS" target="BOTH" weight="1" />
+      <edge id="17580" source="GHOSTS" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17581" source="GHOSTS" target="JUDGE" weight="1" />
+      <edge id="17582" source="GHOSTS" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17583" source="GHOSTS" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17584" source="GHOSTS" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17585" source="GENERAL" target="GENTLEMAN" weight="3" />
+      <edge id="17586" source="GENERAL" target="BANKER" weight="3" />
+      <edge id="17587" source="GENERAL" target="GHOSTS" weight="2" />
+      <edge id="17588" source="GENERAL" target="PRIEST" weight="1" />
+      <edge id="17589" source="GENERAL" target="TOURIST" weight="1" />
+      <edge id="17590" source="GENERAL" target="STUDENT" weight="1" />
+      <edge id="17591" source="GENERAL" target="MRS. LOVETT" weight="1" />
+      <edge id="17592" source="GENERAL" target="GENTLEMAN, BANKER AND GENERAL" weight="2" />
+      <edge id="17593" source="GENERAL" target="TODD" weight="1" />
+      <edge id="17594" source="GENERAL" target="OTHER GHOSTS" weight="1" />
+      <edge id="17595" source="PRIEST" target="GENTLEMAN" weight="1" />
+      <edge id="17596" source="PRIEST" target="BANKER" weight="1" />
+      <edge id="17597" source="PRIEST" target="GHOSTS" weight="1" />
+      <edge id="17598" source="PRIEST" target="GENERAL" weight="1" />
+      <edge id="17599" source="PRIEST" target="TOURIST" weight="1" />
+      <edge id="17600" source="PRIEST" target="STUDENT" weight="1" />
+      <edge id="17601" source="TOURIST" target="GENTLEMAN" weight="2" />
+      <edge id="17602" source="TOURIST" target="BANKER" weight="1" />
+      <edge id="17603" source="TOURIST" target="GHOSTS" weight="1" />
+      <edge id="17604" source="TOURIST" target="GENERAL" weight="1" />
+      <edge id="17605" source="TOURIST" target="PRIEST" weight="1" />
+      <edge id="17606" source="TOURIST" target="STUDENT" weight="2" />
+      <edge id="17607" source="TOURIST" target="TOBY" weight="1" />
+      <edge id="17608" source="TOURIST" target="TODD" weight="1" />
+      <edge id="17609" source="TOURIST" target="GENTLEMAN, STUDENT AND TOURIST" weight="1" />
+      <edge id="17610" source="STUDENT" target="GENTLEMAN" weight="2" />
+      <edge id="17611" source="STUDENT" target="BANKER" weight="1" />
+      <edge id="17612" source="STUDENT" target="GHOSTS" weight="1" />
+      <edge id="17613" source="STUDENT" target="GENERAL" weight="1" />
+      <edge id="17614" source="STUDENT" target="PRIEST" weight="1" />
+      <edge id="17615" source="STUDENT" target="TOURIST" weight="2" />
+      <edge id="17616" source="STUDENT" target="TOBY" weight="1" />
+      <edge id="17617" source="STUDENT" target="TODD" weight="1" />
+      <edge id="17618" source="STUDENT" target="GENTLEMAN, STUDENT AND TOURIST" weight="1" />
+      <edge id="17619" source="ANTHONY" target="TODD" weight="11" />
+      <edge id="17620" source="ANTHONY" target="JOHANNA" weight="2" />
+      <edge id="17621" source="ANTHONY" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17622" source="ANTHONY" target="JUDGE" weight="4" />
+      <edge id="17623" source="ANTHONY" target="BEADLE" weight="1" />
+      <edge id="17624" source="ANTHONY" target="MRS. LOVETT" weight="3" />
+      <edge id="17625" source="ANTHONY" target="BOTH" weight="1" />
+      <edge id="17626" source="ANTHONY" target="FOGG" weight="1" />
+      <edge id="17627" source="TODD" target="ANTHONY" weight="11" />
+      <edge id="17628" source="TODD" target="MRS. LOVETT" weight="18" />
+      <edge id="17629" source="TODD" target="GHOSTS" weight="3" />
+      <edge id="17630" source="TODD" target="TOBY" weight="3" />
+      <edge id="17631" source="TODD" target="PIRELLI" weight="2" />
+      <edge id="17632" source="TODD" target="BEADLE" weight="2" />
+      <edge id="17633" source="TODD" target="EAGER CUSTOMER" weight="1" />
+      <edge id="17634" source="TODD" target="GENTLEMAN" weight="3" />
+      <edge id="17635" source="TODD" target="BANKER" weight="2" />
+      <edge id="17636" source="TODD" target="GENERAL" weight="1" />
+      <edge id="17637" source="TODD" target="GENTLEMAN, BANKER AND GENERAL" weight="1" />
+      <edge id="17638" source="TODD" target="STUDENT" weight="1" />
+      <edge id="17639" source="TODD" target="TOURIST" weight="1" />
+      <edge id="17640" source="TODD" target="GENTLEMAN, STUDENT AND TOURIST" weight="1" />
+      <edge id="17641" source="TODD" target="JUDGE" weight="3" />
+      <edge id="17642" source="TODD" target="BOTH" weight="3" />
+      <edge id="17643" source="TODD" target="BEGGAR WOMAN" weight="2" />
+      <edge id="17644" source="TODD" target="JOHANNA" weight="1" />
+      <edge id="17645" source="TODD" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17646" source="TODD" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17647" source="TODD" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17648" source="MRS. LOVETT" target="TODD" weight="18" />
+      <edge id="17649" source="MRS. LOVETT" target="GHOSTS" weight="3" />
+      <edge id="17650" source="MRS. LOVETT" target="TOBY" weight="11" />
+      <edge id="17651" source="MRS. LOVETT" target="PIRELLI" weight="2" />
+      <edge id="17652" source="MRS. LOVETT" target="BEADLE" weight="2" />
+      <edge id="17653" source="MRS. LOVETT" target="EAGER CUSTOMER" weight="1" />
+      <edge id="17654" source="MRS. LOVETT" target="GENTLEMAN" weight="2" />
+      <edge id="17655" source="MRS. LOVETT" target="BANKER" weight="2" />
+      <edge id="17656" source="MRS. LOVETT" target="GENERAL" weight="1" />
+      <edge id="17657" source="MRS. LOVETT" target="GENTLEMAN, BANKER AND GENERAL" weight="1" />
+      <edge id="17658" source="MRS. LOVETT" target="ANTHONY" weight="3" />
+      <edge id="17659" source="MRS. LOVETT" target="JUDGE" weight="2" />
+      <edge id="17660" source="MRS. LOVETT" target="BOTH" weight="3" />
+      <edge id="17661" source="MRS. LOVETT" target="CUSTOMERS" weight="3" />
+      <edge id="17662" source="MRS. LOVETT" target="MRS. LOVETT AND TOBY" weight="1" />
+      <edge id="17663" source="MRS. LOVETT" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17664" source="MRS. LOVETT" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17665" source="MRS. LOVETT" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17666" source="MRS. LOVETT" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17667" source="JOHANNA" target="BEGGAR WOMAN" weight="2" />
+      <edge id="17668" source="JOHANNA" target="ANTHONY" weight="2" />
+      <edge id="17669" source="JOHANNA" target="JUDGE" weight="3" />
+      <edge id="17670" source="JOHANNA" target="TODD" weight="1" />
+      <edge id="17671" source="BEGGAR WOMAN" target="JOHANNA" weight="2" />
+      <edge id="17672" source="BEGGAR WOMAN" target="ANTHONY" weight="1" />
+      <edge id="17673" source="BEGGAR WOMAN" target="JUDGE" weight="3" />
+      <edge id="17674" source="BEGGAR WOMAN" target="TODD" weight="2" />
+      <edge id="17675" source="BEGGAR WOMAN" target="MRS. LOVETT" weight="1" />
+      <edge id="17676" source="BEGGAR WOMAN" target="BOTH" weight="1" />
+      <edge id="17677" source="BEGGAR WOMAN" target="GENTLEMAN" weight="1" />
+      <edge id="17678" source="BEGGAR WOMAN" target="BANKER" weight="1" />
+      <edge id="17679" source="BEGGAR WOMAN" target="GHOSTS" weight="1" />
+      <edge id="17680" source="BEGGAR WOMAN" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17681" source="BEGGAR WOMAN" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17682" source="BEGGAR WOMAN" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17683" source="JUDGE" target="JOHANNA" weight="3" />
+      <edge id="17684" source="JUDGE" target="BEGGAR WOMAN" weight="3" />
+      <edge id="17685" source="JUDGE" target="ANTHONY" weight="4" />
+      <edge id="17686" source="JUDGE" target="BEADLE" weight="1" />
+      <edge id="17687" source="JUDGE" target="MRS. LOVETT" weight="2" />
+      <edge id="17688" source="JUDGE" target="TODD" weight="3" />
+      <edge id="17689" source="JUDGE" target="BOTH" weight="2" />
+      <edge id="17690" source="JUDGE" target="GENTLEMAN" weight="1" />
+      <edge id="17691" source="JUDGE" target="BANKER" weight="1" />
+      <edge id="17692" source="JUDGE" target="GHOSTS" weight="1" />
+      <edge id="17693" source="JUDGE" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17694" source="JUDGE" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17695" source="JUDGE" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17696" source="BEADLE" target="ANTHONY" weight="1" />
+      <edge id="17697" source="BEADLE" target="MRS. LOVETT" weight="2" />
+      <edge id="17698" source="BEADLE" target="TODD" weight="2" />
+      <edge id="17699" source="BEADLE" target="TOBY" weight="1" />
+      <edge id="17700" source="BEADLE" target="PIRELLI" weight="1" />
+      <edge id="17701" source="BEADLE" target="EAGER CUSTOMER" weight="1" />
+      <edge id="17702" source="BEADLE" target="JUDGE" weight="1" />
+      <edge id="17703" source="TOBY" target="MRS. LOVETT" weight="11" />
+      <edge id="17704" source="TOBY" target="TODD" weight="3" />
+      <edge id="17705" source="TOBY" target="PIRELLI" weight="2" />
+      <edge id="17706" source="TOBY" target="BEADLE" weight="1" />
+      <edge id="17707" source="TOBY" target="EAGER CUSTOMER" weight="1" />
+      <edge id="17708" source="TOBY" target="GENTLEMAN" weight="1" />
+      <edge id="17709" source="TOBY" target="STUDENT" weight="1" />
+      <edge id="17710" source="TOBY" target="TOURIST" weight="1" />
+      <edge id="17711" source="TOBY" target="GENTLEMAN, STUDENT AND TOURIST" weight="1" />
+      <edge id="17712" source="TOBY" target="CUSTOMERS" weight="2" />
+      <edge id="17713" source="TOBY" target="MRS. LOVETT AND TOBY" weight="1" />
+      <edge id="17714" source="PIRELLI" target="MRS. LOVETT" weight="2" />
+      <edge id="17715" source="PIRELLI" target="TODD" weight="2" />
+      <edge id="17716" source="PIRELLI" target="TOBY" weight="2" />
+      <edge id="17717" source="PIRELLI" target="BEADLE" weight="1" />
+      <edge id="17718" source="PIRELLI" target="EAGER CUSTOMER" weight="1" />
+      <edge id="17719" source="EAGER CUSTOMER" target="MRS. LOVETT" weight="1" />
+      <edge id="17720" source="EAGER CUSTOMER" target="TODD" weight="1" />
+      <edge id="17721" source="EAGER CUSTOMER" target="TOBY" weight="1" />
+      <edge id="17722" source="EAGER CUSTOMER" target="PIRELLI" weight="1" />
+      <edge id="17723" source="EAGER CUSTOMER" target="BEADLE" weight="1" />
+      <edge id="17724" source="GENTLEMAN, BANKER AND GENERAL" target="MRS. LOVETT" weight="1" />
+      <edge id="17725" source="GENTLEMAN, BANKER AND GENERAL" target="GENTLEMAN" weight="2" />
+      <edge id="17726" source="GENTLEMAN, BANKER AND GENERAL" target="BANKER" weight="2" />
+      <edge id="17727" source="GENTLEMAN, BANKER AND GENERAL" target="GENERAL" weight="2" />
+      <edge id="17728" source="GENTLEMAN, BANKER AND GENERAL" target="TODD" weight="1" />
+      <edge id="17729" source="GENTLEMAN, BANKER AND GENERAL" target="OTHER GHOSTS" weight="1" />
+      <edge id="17730" source="GENTLEMAN, BANKER AND GENERAL" target="GHOSTS" weight="1" />
+      <edge id="17731" source="GENTLEMAN, STUDENT AND TOURIST" target="TOBY" weight="1" />
+      <edge id="17732" source="GENTLEMAN, STUDENT AND TOURIST" target="TODD" weight="1" />
+      <edge id="17733" source="GENTLEMAN, STUDENT AND TOURIST" target="GENTLEMAN" weight="1" />
+      <edge id="17734" source="GENTLEMAN, STUDENT AND TOURIST" target="STUDENT" weight="1" />
+      <edge id="17735" source="GENTLEMAN, STUDENT AND TOURIST" target="TOURIST" weight="1" />
+      <edge id="17736" source="BOTH" target="MRS. LOVETT" weight="3" />
+      <edge id="17737" source="BOTH" target="TODD" weight="3" />
+      <edge id="17738" source="BOTH" target="JUDGE" weight="2" />
+      <edge id="17739" source="BOTH" target="ANTHONY" weight="1" />
+      <edge id="17740" source="BOTH" target="GENTLEMAN" weight="1" />
+      <edge id="17741" source="BOTH" target="BANKER" weight="1" />
+      <edge id="17742" source="BOTH" target="GHOSTS" weight="1" />
+      <edge id="17743" source="BOTH" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17744" source="BOTH" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17745" source="BOTH" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17746" source="BOTH" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17747" source="CUSTOMERS" target="TOBY" weight="2" />
+      <edge id="17748" source="CUSTOMERS" target="MRS. LOVETT" weight="3" />
+      <edge id="17749" source="CUSTOMERS" target="MRS. LOVETT AND TOBY" weight="1" />
+      <edge id="17750" source="MRS. LOVETT AND TOBY" target="MRS. LOVETT" weight="1" />
+      <edge id="17751" source="MRS. LOVETT AND TOBY" target="CUSTOMERS" weight="1" />
+      <edge id="17752" source="MRS. LOVETT AND TOBY" target="TOBY" weight="1" />
+      <edge id="17753" source="FOGG" target="ANTHONY" weight="1" />
+      <edge id="17754" source="OTHER GHOSTS" target="GENTLEMAN" weight="1" />
+      <edge id="17755" source="OTHER GHOSTS" target="BANKER" weight="1" />
+      <edge id="17756" source="OTHER GHOSTS" target="GENERAL" weight="1" />
+      <edge id="17757" source="OTHER GHOSTS" target="GENTLEMAN, BANKER AND GENERAL" weight="1" />
+      <edge id="17758" source="OTHER GHOSTS" target="GHOSTS" weight="1" />
+      <edge id="17759" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="MRS. LOVETT" weight="1" />
+      <edge id="17760" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="TODD" weight="1" />
+      <edge id="17761" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="BOTH" weight="1" />
+      <edge id="17762" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="GENTLEMAN" weight="1" />
+      <edge id="17763" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="BANKER" weight="1" />
+      <edge id="17764" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="GHOSTS" weight="1" />
+      <edge id="17765" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17766" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="JUDGE" weight="1" />
+      <edge id="17767" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="PIRELLI AND BEADLE" weight="1" />
+      <edge id="17768" source="BEGGAR WOMAN, JUDGE AND GHOSTS" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17769" source="PIRELLI AND BEADLE" target="MRS. LOVETT" weight="1" />
+      <edge id="17770" source="PIRELLI AND BEADLE" target="TODD" weight="1" />
+      <edge id="17771" source="PIRELLI AND BEADLE" target="BOTH" weight="1" />
+      <edge id="17772" source="PIRELLI AND BEADLE" target="GENTLEMAN" weight="1" />
+      <edge id="17773" source="PIRELLI AND BEADLE" target="BANKER" weight="1" />
+      <edge id="17774" source="PIRELLI AND BEADLE" target="GHOSTS" weight="1" />
+      <edge id="17775" source="PIRELLI AND BEADLE" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17776" source="PIRELLI AND BEADLE" target="JUDGE" weight="1" />
+      <edge id="17777" source="PIRELLI AND BEADLE" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17778" source="PIRELLI AND BEADLE" target="TODD AND MRS. LOVETT" weight="1" />
+      <edge id="17779" source="TODD AND MRS. LOVETT" target="MRS. LOVETT" weight="1" />
+      <edge id="17780" source="TODD AND MRS. LOVETT" target="TODD" weight="1" />
+      <edge id="17781" source="TODD AND MRS. LOVETT" target="BOTH" weight="1" />
+      <edge id="17782" source="TODD AND MRS. LOVETT" target="GENTLEMAN" weight="1" />
+      <edge id="17783" source="TODD AND MRS. LOVETT" target="BANKER" weight="1" />
+      <edge id="17784" source="TODD AND MRS. LOVETT" target="GHOSTS" weight="1" />
+      <edge id="17785" source="TODD AND MRS. LOVETT" target="BEGGAR WOMAN" weight="1" />
+      <edge id="17786" source="TODD AND MRS. LOVETT" target="JUDGE" weight="1" />
+      <edge id="17787" source="TODD AND MRS. LOVETT" target="BEGGAR WOMAN, JUDGE AND GHOSTS" weight="1" />
+      <edge id="17788" source="TODD AND MRS. LOVETT" target="PIRELLI AND BEADLE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

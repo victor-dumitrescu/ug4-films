@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="JUNO" label="JUNO" />
+      <node id="WHISPERED VOICE" label="WHISPERED VOICE" />
+      <node id="ROLLO" label="ROLLO" />
+      <node id="TOUGH GIRL" label="TOUGH GIRL" />
+      <node id="LEAH" label="LEAH" />
+      <node id="BLEEKER" label="BLEEKER" />
+      <node id="NERD" label="NERD" />
+      <node id="STEVE RENDAZO" label="STEVE RENDAZO" />
+      <node id="MR. TINKER" label="MR. TINKER" />
+      <node id="GIRL LAB PARTNER" label="GIRL LAB PARTNER" />
+      <node id="GUY LAB PARTNER" label="GUY LAB PARTNER" />
+      <node id="MAC" label="MAC" />
+      <node id="BREN" label="BREN" />
+      <node id="LONE PROTESTER" label="LONE PROTESTER" />
+      <node id="SU-CHIN" label="SU-CHIN" />
+      <node id="PUNK RECEPTIONIST" label="PUNK RECEPTIONIST" />
+      <node id="BLEEKER'S MOM" label="BLEEKER'S MOM" />
+      <node id="VANESSA" label="VANESSA" />
+      <node id="MARK" label="MARK" />
+      <node id="GERTA" label="GERTA" />
+      <node id="JUNO AND MARK" label="JUNO AND MARK" />
+      <node id="VIJAY" label="VIJAY" />
+      <node id="ULTRASOUND TECH" label="ULTRASOUND TECH" />
+      <node id="ALL THREE" label="ALL THREE" />
+      <node id="WOMAN #1" label="WOMAN #1" />
+      <node id="WOMAN #2" label="WOMAN #2" />
+      <node id="MRS. BLEEKER" label="MRS. BLEEKER" />
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="NURSE" label="NURSE" />
+      <node id="JUNO AND BLEEKER TOGETHER" label="JUNO AND BLEEKER TOGETHER" />
+    </nodes>
+    <edges>
+      <edge id="10505" source="JUNO" target="WHISPERED VOICE" weight="1" />
+      <edge id="10506" source="JUNO" target="ROLLO" weight="2" />
+      <edge id="10507" source="JUNO" target="TOUGH GIRL" weight="1" />
+      <edge id="10508" source="JUNO" target="LEAH" weight="13" />
+      <edge id="10509" source="JUNO" target="BLEEKER" weight="10" />
+      <edge id="10510" source="JUNO" target="STEVE RENDAZO" weight="1" />
+      <edge id="10511" source="JUNO" target="MR. TINKER" weight="1" />
+      <edge id="10512" source="JUNO" target="GIRL LAB PARTNER" weight="1" />
+      <edge id="10513" source="JUNO" target="GUY LAB PARTNER" weight="1" />
+      <edge id="10514" source="JUNO" target="MAC" weight="8" />
+      <edge id="10515" source="JUNO" target="BREN" weight="5" />
+      <edge id="10516" source="JUNO" target="LONE PROTESTER" weight="1" />
+      <edge id="10517" source="JUNO" target="SU-CHIN" weight="1" />
+      <edge id="10518" source="JUNO" target="PUNK RECEPTIONIST" weight="1" />
+      <edge id="10519" source="JUNO" target="BLEEKER'S MOM" weight="3" />
+      <edge id="10520" source="JUNO" target="VANESSA" weight="9" />
+      <edge id="10521" source="JUNO" target="MARK" weight="16" />
+      <edge id="10522" source="JUNO" target="GERTA" weight="2" />
+      <edge id="10523" source="JUNO" target="JUNO AND MARK" weight="1" />
+      <edge id="10524" source="JUNO" target="ULTRASOUND TECH" weight="1" />
+      <edge id="10525" source="JUNO" target="ALL THREE" weight="1" />
+      <edge id="10526" source="JUNO" target="WOMAN #1" weight="1" />
+      <edge id="10527" source="JUNO" target="WOMAN #2" weight="1" />
+      <edge id="10528" source="JUNO" target="VIJAY" weight="1" />
+      <edge id="10529" source="JUNO" target="MRS. BLEEKER" weight="1" />
+      <edge id="10530" source="JUNO" target="ANNOUNCER" weight="1" />
+      <edge id="10531" source="JUNO" target="JUNO AND BLEEKER TOGETHER" weight="1" />
+      <edge id="10532" source="WHISPERED VOICE" target="JUNO" weight="1" />
+      <edge id="10533" source="ROLLO" target="JUNO" weight="2" />
+      <edge id="10534" source="ROLLO" target="TOUGH GIRL" weight="1" />
+      <edge id="10535" source="TOUGH GIRL" target="ROLLO" weight="1" />
+      <edge id="10536" source="TOUGH GIRL" target="JUNO" weight="1" />
+      <edge id="10537" source="LEAH" target="JUNO" weight="13" />
+      <edge id="10538" source="LEAH" target="STEVE RENDAZO" weight="1" />
+      <edge id="10539" source="LEAH" target="BREN" weight="2" />
+      <edge id="10540" source="LEAH" target="MAC" weight="1" />
+      <edge id="10541" source="LEAH" target="ULTRASOUND TECH" weight="1" />
+      <edge id="10542" source="LEAH" target="ALL THREE" weight="1" />
+      <edge id="10543" source="LEAH" target="WOMAN #1" weight="1" />
+      <edge id="10544" source="LEAH" target="WOMAN #2" weight="1" />
+      <edge id="10545" source="LEAH" target="VANESSA" weight="1" />
+      <edge id="10546" source="LEAH" target="BLEEKER" weight="1" />
+      <edge id="10547" source="BLEEKER" target="JUNO" weight="10" />
+      <edge id="10548" source="BLEEKER" target="MR. TINKER" weight="1" />
+      <edge id="10549" source="BLEEKER" target="GIRL LAB PARTNER" weight="1" />
+      <edge id="10550" source="BLEEKER" target="GUY LAB PARTNER" weight="1" />
+      <edge id="10551" source="BLEEKER" target="BLEEKER'S MOM" weight="2" />
+      <edge id="10552" source="BLEEKER" target="VIJAY" weight="1" />
+      <edge id="10553" source="BLEEKER" target="LEAH" weight="1" />
+      <edge id="10554" source="BLEEKER" target="JUNO AND BLEEKER TOGETHER" weight="1" />
+      <edge id="10555" source="STEVE RENDAZO" target="JUNO" weight="1" />
+      <edge id="10556" source="STEVE RENDAZO" target="LEAH" weight="1" />
+      <edge id="10557" source="MR. TINKER" target="JUNO" weight="1" />
+      <edge id="10558" source="MR. TINKER" target="BLEEKER" weight="1" />
+      <edge id="10559" source="MR. TINKER" target="GIRL LAB PARTNER" weight="1" />
+      <edge id="10560" source="MR. TINKER" target="GUY LAB PARTNER" weight="1" />
+      <edge id="10561" source="GIRL LAB PARTNER" target="MR. TINKER" weight="1" />
+      <edge id="10562" source="GIRL LAB PARTNER" target="JUNO" weight="1" />
+      <edge id="10563" source="GIRL LAB PARTNER" target="BLEEKER" weight="1" />
+      <edge id="10564" source="GIRL LAB PARTNER" target="GUY LAB PARTNER" weight="1" />
+      <edge id="10565" source="GUY LAB PARTNER" target="MR. TINKER" weight="1" />
+      <edge id="10566" source="GUY LAB PARTNER" target="JUNO" weight="1" />
+      <edge id="10567" source="GUY LAB PARTNER" target="BLEEKER" weight="1" />
+      <edge id="10568" source="GUY LAB PARTNER" target="GIRL LAB PARTNER" weight="1" />
+      <edge id="10569" source="MAC" target="JUNO" weight="8" />
+      <edge id="10570" source="MAC" target="BREN" weight="2" />
+      <edge id="10571" source="MAC" target="LEAH" weight="1" />
+      <edge id="10572" source="MAC" target="VANESSA" weight="5" />
+      <edge id="10573" source="MAC" target="MARK" weight="2" />
+      <edge id="10574" source="MAC" target="GERTA" weight="2" />
+      <edge id="10575" source="BREN" target="MAC" weight="2" />
+      <edge id="10576" source="BREN" target="JUNO" weight="5" />
+      <edge id="10577" source="BREN" target="LEAH" weight="2" />
+      <edge id="10578" source="BREN" target="ULTRASOUND TECH" weight="1" />
+      <edge id="10579" source="BREN" target="ALL THREE" weight="1" />
+      <edge id="10580" source="BREN" target="NURSE" weight="1" />
+      <edge id="10581" source="BREN" target="VANESSA" weight="1" />
+      <edge id="10582" source="LONE PROTESTER" target="JUNO" weight="1" />
+      <edge id="10583" source="LONE PROTESTER" target="SU-CHIN" weight="1" />
+      <edge id="10584" source="SU-CHIN" target="LONE PROTESTER" weight="1" />
+      <edge id="10585" source="SU-CHIN" target="JUNO" weight="1" />
+      <edge id="10586" source="PUNK RECEPTIONIST" target="JUNO" weight="1" />
+      <edge id="10587" source="BLEEKER'S MOM" target="JUNO" weight="3" />
+      <edge id="10588" source="BLEEKER'S MOM" target="BLEEKER" weight="2" />
+      <edge id="10589" source="VANESSA" target="JUNO" weight="9" />
+      <edge id="10590" source="VANESSA" target="MAC" weight="5" />
+      <edge id="10591" source="VANESSA" target="MARK" weight="10" />
+      <edge id="10592" source="VANESSA" target="GERTA" weight="2" />
+      <edge id="10593" source="VANESSA" target="JUNO AND MARK" weight="1" />
+      <edge id="10594" source="VANESSA" target="LEAH" weight="1" />
+      <edge id="10595" source="VANESSA" target="NURSE" weight="1" />
+      <edge id="10596" source="VANESSA" target="BREN" weight="1" />
+      <edge id="10597" source="MARK" target="VANESSA" weight="10" />
+      <edge id="10598" source="MARK" target="JUNO" weight="16" />
+      <edge id="10599" source="MARK" target="GERTA" weight="2" />
+      <edge id="10600" source="MARK" target="MAC" weight="2" />
+      <edge id="10601" source="MARK" target="JUNO AND MARK" weight="1" />
+      <edge id="10602" source="GERTA" target="MARK" weight="2" />
+      <edge id="10603" source="GERTA" target="JUNO" weight="2" />
+      <edge id="10604" source="GERTA" target="MAC" weight="2" />
+      <edge id="10605" source="GERTA" target="VANESSA" weight="2" />
+      <edge id="10606" source="JUNO AND MARK" target="MARK" weight="1" />
+      <edge id="10607" source="JUNO AND MARK" target="VANESSA" weight="1" />
+      <edge id="10608" source="JUNO AND MARK" target="JUNO" weight="1" />
+      <edge id="10609" source="VIJAY" target="BLEEKER" weight="1" />
+      <edge id="10610" source="VIJAY" target="JUNO" weight="1" />
+      <edge id="10611" source="VIJAY" target="MRS. BLEEKER" weight="1" />
+      <edge id="10612" source="VIJAY" target="ANNOUNCER" weight="1" />
+      <edge id="10613" source="ULTRASOUND TECH" target="ALL THREE" weight="1" />
+      <edge id="10614" source="ULTRASOUND TECH" target="BREN" weight="1" />
+      <edge id="10615" source="ULTRASOUND TECH" target="LEAH" weight="1" />
+      <edge id="10616" source="ULTRASOUND TECH" target="JUNO" weight="1" />
+      <edge id="10617" source="ALL THREE" target="ULTRASOUND TECH" weight="1" />
+      <edge id="10618" source="ALL THREE" target="BREN" weight="1" />
+      <edge id="10619" source="ALL THREE" target="LEAH" weight="1" />
+      <edge id="10620" source="ALL THREE" target="JUNO" weight="1" />
+      <edge id="10621" source="WOMAN #1" target="LEAH" weight="1" />
+      <edge id="10622" source="WOMAN #1" target="JUNO" weight="1" />
+      <edge id="10623" source="WOMAN #1" target="WOMAN #2" weight="1" />
+      <edge id="10624" source="WOMAN #2" target="LEAH" weight="1" />
+      <edge id="10625" source="WOMAN #2" target="JUNO" weight="1" />
+      <edge id="10626" source="WOMAN #2" target="WOMAN #1" weight="1" />
+      <edge id="10627" source="MRS. BLEEKER" target="JUNO" weight="1" />
+      <edge id="10628" source="MRS. BLEEKER" target="VIJAY" weight="1" />
+      <edge id="10629" source="MRS. BLEEKER" target="ANNOUNCER" weight="1" />
+      <edge id="10630" source="ANNOUNCER" target="JUNO" weight="1" />
+      <edge id="10631" source="ANNOUNCER" target="VIJAY" weight="1" />
+      <edge id="10632" source="ANNOUNCER" target="MRS. BLEEKER" weight="1" />
+      <edge id="10633" source="NURSE" target="VANESSA" weight="1" />
+      <edge id="10634" source="NURSE" target="BREN" weight="1" />
+      <edge id="10635" source="JUNO AND BLEEKER TOGETHER" target="JUNO" weight="1" />
+      <edge id="10636" source="JUNO AND BLEEKER TOGETHER" target="BLEEKER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

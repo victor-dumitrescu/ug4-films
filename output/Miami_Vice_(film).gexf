@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="NICHOLAS" label="NICHOLAS" />
+      <node id="CROCKETT" label="CROCKETT" />
+      <node id="TUBBS" label="TUBBS" />
+      <node id="GINA" label="GINA" />
+      <node id="RICK" label="RICK" />
+      <node id="FRANK" label="FRANK" />
+      <node id="UGO" label="UGO" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="TRUDY" label="TRUDY" />
+      <node id="ZITO" label="ZITO" />
+      <node id="STEVENS" label="STEVENS" />
+      <node id="MACHINE VOICE" label="MACHINE VOICE" />
+      <node id="FBI AGENT VOICE" label="FBI AGENT VOICE" />
+      <node id="FBI AGENT" label="FBI AGENT" />
+      <node id="VOICE" label="VOICE" />
+      <node id="FUJIMA" label="FUJIMA" />
+      <node id="SWITEK" label="SWITEK" />
+      <node id="RUSSIAN #1" label="RUSSIAN #1" />
+      <node id="ARYAN BROTHER" label="ARYAN BROTHER" />
+      <node id="ARYAN BROTHER #1" label="ARYAN BROTHER #1" />
+      <node id="ARYAN BROTHER #2" label="ARYAN BROTHER #2" />
+      <node id="RUSSIAN" label="RUSSIAN" />
+      <node id="CASTILLO" label="CASTILLO" />
+      <node id="BASTIDE" label="BASTIDE" />
+      <node id="JEAN-LOUIS" label="JEAN-LOUIS" />
+      <node id="BAD GUY" label="BAD GUY" />
+      <node id="JOSÉ YERO" label="JOSÉ YERO" />
+      <node id="ISABELLA" label="ISABELLA" />
+      <node id="MONTOYA" label="MONTOYA" />
+      <node id="AIR TRAFFIC CONTROLLER" label="AIR TRAFFIC CONTROLLER" />
+      <node id="AWAC" label="AWAC" />
+      <node id="RADAR OFFICER" label="RADAR OFFICER" />
+      <node id="AWAC RADAR OFFICER" label="AWAC RADAR OFFICER" />
+      <node id="EL TIBURON" label="EL TIBURON" />
+      <node id="COLEMAN" label="COLEMAN" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="LOU DOBBS" label="LOU DOBBS" />
+      <node id="LONG-HAIRED NLR GUY" label="LONG-HAIRED NLR GUY" />
+      <node id="YERO" label="YERO" />
+      <node id="PA" label="PA" />
+      <node id="SWAT SERGEANT" label="SWAT SERGEANT" />
+    </nodes>
+    <edges>
+      <edge id="11955" source="NICHOLAS" target="CROCKETT" weight="2" />
+      <edge id="11956" source="NICHOLAS" target="TUBBS" weight="2" />
+      <edge id="11957" source="CROCKETT" target="NICHOLAS" weight="2" />
+      <edge id="11958" source="CROCKETT" target="TUBBS" weight="29" />
+      <edge id="11959" source="CROCKETT" target="GINA" weight="3" />
+      <edge id="11960" source="CROCKETT" target="RICK" weight="1" />
+      <edge id="11961" source="CROCKETT" target="FRANK" weight="1" />
+      <edge id="11962" source="CROCKETT" target="UGO" weight="1" />
+      <edge id="11963" source="CROCKETT" target="BARTENDER" weight="1" />
+      <edge id="11964" source="CROCKETT" target="TRUDY" weight="4" />
+      <edge id="11965" source="CROCKETT" target="ZITO" weight="3" />
+      <edge id="11966" source="CROCKETT" target="STEVENS" weight="4" />
+      <edge id="11967" source="CROCKETT" target="MACHINE VOICE" weight="1" />
+      <edge id="11968" source="CROCKETT" target="FBI AGENT VOICE" weight="1" />
+      <edge id="11969" source="CROCKETT" target="FBI AGENT" weight="1" />
+      <edge id="11970" source="CROCKETT" target="VOICE" weight="1" />
+      <edge id="11971" source="CROCKETT" target="FUJIMA" weight="4" />
+      <edge id="11972" source="CROCKETT" target="CASTILLO" weight="4" />
+      <edge id="11973" source="CROCKETT" target="JOSÉ YERO" weight="6" />
+      <edge id="11974" source="CROCKETT" target="ISABELLA" weight="13" />
+      <edge id="11975" source="CROCKETT" target="JEAN-LOUIS" weight="1" />
+      <edge id="11976" source="CROCKETT" target="SWITEK" weight="2" />
+      <edge id="11977" source="CROCKETT" target="SWAT SERGEANT" weight="1" />
+      <edge id="11978" source="TUBBS" target="NICHOLAS" weight="2" />
+      <edge id="11979" source="TUBBS" target="CROCKETT" weight="29" />
+      <edge id="11980" source="TUBBS" target="GINA" weight="12" />
+      <edge id="11981" source="TUBBS" target="RICK" weight="1" />
+      <edge id="11982" source="TUBBS" target="FRANK" weight="1" />
+      <edge id="11983" source="TUBBS" target="UGO" weight="1" />
+      <edge id="11984" source="TUBBS" target="BARTENDER" weight="1" />
+      <edge id="11985" source="TUBBS" target="TRUDY" weight="5" />
+      <edge id="11986" source="TUBBS" target="ZITO" weight="2" />
+      <edge id="11987" source="TUBBS" target="STEVENS" weight="4" />
+      <edge id="11988" source="TUBBS" target="MACHINE VOICE" weight="1" />
+      <edge id="11989" source="TUBBS" target="FBI AGENT VOICE" weight="1" />
+      <edge id="11990" source="TUBBS" target="FBI AGENT" weight="1" />
+      <edge id="11991" source="TUBBS" target="VOICE" weight="1" />
+      <edge id="11992" source="TUBBS" target="FUJIMA" weight="4" />
+      <edge id="11993" source="TUBBS" target="CASTILLO" weight="6" />
+      <edge id="11994" source="TUBBS" target="BASTIDE" weight="1" />
+      <edge id="11995" source="TUBBS" target="JEAN-LOUIS" weight="2" />
+      <edge id="11996" source="TUBBS" target="BAD GUY" weight="1" />
+      <edge id="11997" source="TUBBS" target="JOSÉ YERO" weight="5" />
+      <edge id="11998" source="TUBBS" target="ISABELLA" weight="3" />
+      <edge id="11999" source="TUBBS" target="MONTOYA" weight="1" />
+      <edge id="12000" source="TUBBS" target="SWITEK" weight="2" />
+      <edge id="12001" source="TUBBS" target="LOU DOBBS" weight="1" />
+      <edge id="12002" source="TUBBS" target="ARYAN BROTHER" weight="2" />
+      <edge id="12003" source="TUBBS" target="LONG-HAIRED NLR GUY" weight="1" />
+      <edge id="12004" source="GINA" target="CROCKETT" weight="3" />
+      <edge id="12005" source="GINA" target="TUBBS" weight="12" />
+      <edge id="12006" source="GINA" target="UGO" weight="1" />
+      <edge id="12007" source="GINA" target="BARTENDER" weight="1" />
+      <edge id="12008" source="GINA" target="TRUDY" weight="2" />
+      <edge id="12009" source="GINA" target="ZITO" weight="1" />
+      <edge id="12010" source="GINA" target="STEVENS" weight="1" />
+      <edge id="12011" source="GINA" target="LOU DOBBS" weight="1" />
+      <edge id="12012" source="GINA" target="ARYAN BROTHER" weight="1" />
+      <edge id="12013" source="RICK" target="TUBBS" weight="1" />
+      <edge id="12014" source="RICK" target="CROCKETT" weight="1" />
+      <edge id="12015" source="RICK" target="FRANK" weight="1" />
+      <edge id="12016" source="FRANK" target="TUBBS" weight="1" />
+      <edge id="12017" source="FRANK" target="RICK" weight="1" />
+      <edge id="12018" source="FRANK" target="CROCKETT" weight="1" />
+      <edge id="12019" source="UGO" target="TUBBS" weight="1" />
+      <edge id="12020" source="UGO" target="CROCKETT" weight="1" />
+      <edge id="12021" source="UGO" target="BARTENDER" weight="1" />
+      <edge id="12022" source="UGO" target="GINA" weight="1" />
+      <edge id="12023" source="UGO" target="TRUDY" weight="1" />
+      <edge id="12024" source="UGO" target="ZITO" weight="1" />
+      <edge id="12025" source="UGO" target="STEVENS" weight="1" />
+      <edge id="12026" source="BARTENDER" target="UGO" weight="1" />
+      <edge id="12027" source="BARTENDER" target="TUBBS" weight="1" />
+      <edge id="12028" source="BARTENDER" target="CROCKETT" weight="1" />
+      <edge id="12029" source="BARTENDER" target="GINA" weight="1" />
+      <edge id="12030" source="BARTENDER" target="TRUDY" weight="1" />
+      <edge id="12031" source="BARTENDER" target="ZITO" weight="1" />
+      <edge id="12032" source="BARTENDER" target="STEVENS" weight="1" />
+      <edge id="12033" source="TRUDY" target="UGO" weight="1" />
+      <edge id="12034" source="TRUDY" target="TUBBS" weight="5" />
+      <edge id="12035" source="TRUDY" target="CROCKETT" weight="4" />
+      <edge id="12036" source="TRUDY" target="BARTENDER" weight="1" />
+      <edge id="12037" source="TRUDY" target="GINA" weight="2" />
+      <edge id="12038" source="TRUDY" target="ZITO" weight="2" />
+      <edge id="12039" source="TRUDY" target="STEVENS" weight="1" />
+      <edge id="12040" source="TRUDY" target="JEAN-LOUIS" weight="1" />
+      <edge id="12041" source="TRUDY" target="SWITEK" weight="2" />
+      <edge id="12042" source="TRUDY" target="JOSÉ YERO" weight="1" />
+      <edge id="12043" source="TRUDY" target="ISABELLA" weight="1" />
+      <edge id="12044" source="TRUDY" target="ARYAN BROTHER" weight="1" />
+      <edge id="12045" source="ZITO" target="UGO" weight="1" />
+      <edge id="12046" source="ZITO" target="TUBBS" weight="2" />
+      <edge id="12047" source="ZITO" target="CROCKETT" weight="3" />
+      <edge id="12048" source="ZITO" target="BARTENDER" weight="1" />
+      <edge id="12049" source="ZITO" target="GINA" weight="1" />
+      <edge id="12050" source="ZITO" target="TRUDY" weight="2" />
+      <edge id="12051" source="ZITO" target="STEVENS" weight="1" />
+      <edge id="12052" source="ZITO" target="JOSÉ YERO" weight="1" />
+      <edge id="12053" source="ZITO" target="ISABELLA" weight="1" />
+      <edge id="12054" source="ZITO" target="SWITEK" weight="1" />
+      <edge id="12055" source="STEVENS" target="UGO" weight="1" />
+      <edge id="12056" source="STEVENS" target="TUBBS" weight="4" />
+      <edge id="12057" source="STEVENS" target="CROCKETT" weight="4" />
+      <edge id="12058" source="STEVENS" target="BARTENDER" weight="1" />
+      <edge id="12059" source="STEVENS" target="GINA" weight="1" />
+      <edge id="12060" source="STEVENS" target="TRUDY" weight="1" />
+      <edge id="12061" source="STEVENS" target="ZITO" weight="1" />
+      <edge id="12062" source="STEVENS" target="MACHINE VOICE" weight="1" />
+      <edge id="12063" source="STEVENS" target="FBI AGENT VOICE" weight="1" />
+      <edge id="12064" source="STEVENS" target="FBI AGENT" weight="1" />
+      <edge id="12065" source="STEVENS" target="VOICE" weight="1" />
+      <edge id="12066" source="STEVENS" target="FUJIMA" weight="1" />
+      <edge id="12067" source="MACHINE VOICE" target="STEVENS" weight="1" />
+      <edge id="12068" source="MACHINE VOICE" target="CROCKETT" weight="1" />
+      <edge id="12069" source="MACHINE VOICE" target="TUBBS" weight="1" />
+      <edge id="12070" source="MACHINE VOICE" target="FBI AGENT VOICE" weight="1" />
+      <edge id="12071" source="MACHINE VOICE" target="FBI AGENT" weight="1" />
+      <edge id="12072" source="MACHINE VOICE" target="VOICE" weight="1" />
+      <edge id="12073" source="MACHINE VOICE" target="FUJIMA" weight="1" />
+      <edge id="12074" source="FBI AGENT VOICE" target="STEVENS" weight="1" />
+      <edge id="12075" source="FBI AGENT VOICE" target="CROCKETT" weight="1" />
+      <edge id="12076" source="FBI AGENT VOICE" target="TUBBS" weight="1" />
+      <edge id="12077" source="FBI AGENT VOICE" target="MACHINE VOICE" weight="1" />
+      <edge id="12078" source="FBI AGENT VOICE" target="FBI AGENT" weight="1" />
+      <edge id="12079" source="FBI AGENT VOICE" target="VOICE" weight="1" />
+      <edge id="12080" source="FBI AGENT VOICE" target="FUJIMA" weight="1" />
+      <edge id="12081" source="FBI AGENT" target="STEVENS" weight="1" />
+      <edge id="12082" source="FBI AGENT" target="CROCKETT" weight="1" />
+      <edge id="12083" source="FBI AGENT" target="TUBBS" weight="1" />
+      <edge id="12084" source="FBI AGENT" target="MACHINE VOICE" weight="1" />
+      <edge id="12085" source="FBI AGENT" target="FBI AGENT VOICE" weight="1" />
+      <edge id="12086" source="FBI AGENT" target="VOICE" weight="1" />
+      <edge id="12087" source="FBI AGENT" target="FUJIMA" weight="1" />
+      <edge id="12088" source="VOICE" target="STEVENS" weight="1" />
+      <edge id="12089" source="VOICE" target="CROCKETT" weight="1" />
+      <edge id="12090" source="VOICE" target="TUBBS" weight="1" />
+      <edge id="12091" source="VOICE" target="MACHINE VOICE" weight="1" />
+      <edge id="12092" source="VOICE" target="FBI AGENT VOICE" weight="1" />
+      <edge id="12093" source="VOICE" target="FBI AGENT" weight="1" />
+      <edge id="12094" source="VOICE" target="FUJIMA" weight="1" />
+      <edge id="12095" source="FUJIMA" target="STEVENS" weight="1" />
+      <edge id="12096" source="FUJIMA" target="CROCKETT" weight="4" />
+      <edge id="12097" source="FUJIMA" target="TUBBS" weight="4" />
+      <edge id="12098" source="FUJIMA" target="MACHINE VOICE" weight="1" />
+      <edge id="12099" source="FUJIMA" target="FBI AGENT VOICE" weight="1" />
+      <edge id="12100" source="FUJIMA" target="FBI AGENT" weight="1" />
+      <edge id="12101" source="FUJIMA" target="VOICE" weight="1" />
+      <edge id="12102" source="FUJIMA" target="CASTILLO" weight="2" />
+      <edge id="12103" source="SWITEK" target="CROCKETT" weight="2" />
+      <edge id="12104" source="SWITEK" target="TRUDY" weight="2" />
+      <edge id="12105" source="SWITEK" target="TUBBS" weight="2" />
+      <edge id="12106" source="SWITEK" target="JOSÉ YERO" weight="1" />
+      <edge id="12107" source="SWITEK" target="ISABELLA" weight="1" />
+      <edge id="12108" source="SWITEK" target="ZITO" weight="1" />
+      <edge id="12109" source="RUSSIAN #1" target="ARYAN BROTHER" weight="1" />
+      <edge id="12110" source="RUSSIAN #1" target="ARYAN BROTHER #1" weight="1" />
+      <edge id="12111" source="RUSSIAN #1" target="ARYAN BROTHER #2" weight="1" />
+      <edge id="12112" source="RUSSIAN #1" target="RUSSIAN" weight="1" />
+      <edge id="12113" source="ARYAN BROTHER" target="RUSSIAN #1" weight="1" />
+      <edge id="12114" source="ARYAN BROTHER" target="ARYAN BROTHER #1" weight="1" />
+      <edge id="12115" source="ARYAN BROTHER" target="ARYAN BROTHER #2" weight="1" />
+      <edge id="12116" source="ARYAN BROTHER" target="RUSSIAN" weight="1" />
+      <edge id="12117" source="ARYAN BROTHER" target="COLEMAN" weight="1" />
+      <edge id="12118" source="ARYAN BROTHER" target="EL TIBURON" weight="1" />
+      <edge id="12119" source="ARYAN BROTHER" target="TUBBS" weight="2" />
+      <edge id="12120" source="ARYAN BROTHER" target="LONG-HAIRED NLR GUY" weight="1" />
+      <edge id="12121" source="ARYAN BROTHER" target="TRUDY" weight="1" />
+      <edge id="12122" source="ARYAN BROTHER" target="GINA" weight="1" />
+      <edge id="12123" source="ARYAN BROTHER #1" target="RUSSIAN #1" weight="1" />
+      <edge id="12124" source="ARYAN BROTHER #1" target="ARYAN BROTHER" weight="1" />
+      <edge id="12125" source="ARYAN BROTHER #1" target="ARYAN BROTHER #2" weight="1" />
+      <edge id="12126" source="ARYAN BROTHER #1" target="RUSSIAN" weight="1" />
+      <edge id="12127" source="ARYAN BROTHER #2" target="RUSSIAN #1" weight="1" />
+      <edge id="12128" source="ARYAN BROTHER #2" target="ARYAN BROTHER" weight="1" />
+      <edge id="12129" source="ARYAN BROTHER #2" target="ARYAN BROTHER #1" weight="1" />
+      <edge id="12130" source="ARYAN BROTHER #2" target="RUSSIAN" weight="1" />
+      <edge id="12131" source="RUSSIAN" target="RUSSIAN #1" weight="1" />
+      <edge id="12132" source="RUSSIAN" target="ARYAN BROTHER" weight="1" />
+      <edge id="12133" source="RUSSIAN" target="ARYAN BROTHER #1" weight="1" />
+      <edge id="12134" source="RUSSIAN" target="ARYAN BROTHER #2" weight="1" />
+      <edge id="12135" source="CASTILLO" target="TUBBS" weight="6" />
+      <edge id="12136" source="CASTILLO" target="FUJIMA" weight="2" />
+      <edge id="12137" source="CASTILLO" target="CROCKETT" weight="4" />
+      <edge id="12138" source="BASTIDE" target="TUBBS" weight="1" />
+      <edge id="12139" source="JEAN-LOUIS" target="TUBBS" weight="2" />
+      <edge id="12140" source="JEAN-LOUIS" target="BAD GUY" weight="1" />
+      <edge id="12141" source="JEAN-LOUIS" target="CROCKETT" weight="1" />
+      <edge id="12142" source="JEAN-LOUIS" target="TRUDY" weight="1" />
+      <edge id="12143" source="BAD GUY" target="TUBBS" weight="1" />
+      <edge id="12144" source="BAD GUY" target="JEAN-LOUIS" weight="1" />
+      <edge id="12145" source="JOSÉ YERO" target="CROCKETT" weight="6" />
+      <edge id="12146" source="JOSÉ YERO" target="TUBBS" weight="5" />
+      <edge id="12147" source="JOSÉ YERO" target="ISABELLA" weight="2" />
+      <edge id="12148" source="JOSÉ YERO" target="MONTOYA" weight="1" />
+      <edge id="12149" source="JOSÉ YERO" target="EL TIBURON" weight="1" />
+      <edge id="12150" source="JOSÉ YERO" target="SWITEK" weight="1" />
+      <edge id="12151" source="JOSÉ YERO" target="TRUDY" weight="1" />
+      <edge id="12152" source="JOSÉ YERO" target="ZITO" weight="1" />
+      <edge id="12153" source="ISABELLA" target="CROCKETT" weight="13" />
+      <edge id="12154" source="ISABELLA" target="TUBBS" weight="3" />
+      <edge id="12155" source="ISABELLA" target="JOSÉ YERO" weight="2" />
+      <edge id="12156" source="ISABELLA" target="MONTOYA" weight="1" />
+      <edge id="12157" source="ISABELLA" target="SWITEK" weight="1" />
+      <edge id="12158" source="ISABELLA" target="TRUDY" weight="1" />
+      <edge id="12159" source="ISABELLA" target="ZITO" weight="1" />
+      <edge id="12160" source="MONTOYA" target="TUBBS" weight="1" />
+      <edge id="12161" source="MONTOYA" target="ISABELLA" weight="1" />
+      <edge id="12162" source="MONTOYA" target="JOSÉ YERO" weight="1" />
+      <edge id="12163" source="AIR TRAFFIC CONTROLLER" target="AWAC" weight="1" />
+      <edge id="12164" source="AWAC" target="AIR TRAFFIC CONTROLLER" weight="1" />
+      <edge id="12165" source="RADAR OFFICER" target="AWAC RADAR OFFICER" weight="1" />
+      <edge id="12166" source="AWAC RADAR OFFICER" target="RADAR OFFICER" weight="1" />
+      <edge id="12167" source="EL TIBURON" target="JOSÉ YERO" weight="1" />
+      <edge id="12168" source="EL TIBURON" target="ARYAN BROTHER" weight="1" />
+      <edge id="12169" source="EL TIBURON" target="COLEMAN" weight="1" />
+      <edge id="12170" source="COLEMAN" target="ARYAN BROTHER" weight="1" />
+      <edge id="12171" source="COLEMAN" target="EL TIBURON" weight="1" />
+      <edge id="12172" source="LOU DOBBS" target="TUBBS" weight="1" />
+      <edge id="12173" source="LOU DOBBS" target="GINA" weight="1" />
+      <edge id="12174" source="LONG-HAIRED NLR GUY" target="TUBBS" weight="1" />
+      <edge id="12175" source="LONG-HAIRED NLR GUY" target="ARYAN BROTHER" weight="1" />
+      <edge id="12176" source="SWAT SERGEANT" target="CROCKETT" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="KENNETH" label="KENNETH" />
+      <node id="DELLA" label="DELLA" />
+      <node id="TAMMI" label="TAMMI" />
+      <node id="TERRI" label="TERRI" />
+      <node id="MARY" label="MARY" />
+      <node id="OPERATOR" label="OPERATOR" />
+      <node id="MEGHAN" label="MEGHAN" />
+      <node id="LOCAL AD" label="LOCAL AD" />
+      <node id="CASSIE" label="CASSIE" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="ANGRY DRIVER" label="ANGRY DRIVER" />
+      <node id="RENT-A-COP" label="RENT-A-COP" />
+      <node id="PERFUME SALES LADY" label="PERFUME SALES LADY" />
+      <node id="SALES ASSISTANT" label="SALES ASSISTANT" />
+      <node id="OVERWEIGHT SALES ASSISTANT" label="OVERWEIGHT SALES ASSISTANT" />
+      <node id="LYNN" label="LYNN" />
+      <node id="PH SALES ASSISTANT" label="PH SALES ASSISTANT" />
+      <node id="CLEANING LADY" label="CLEANING LADY" />
+      <node id="CAROL SINGERS" label="CAROL SINGERS" />
+      <node id="CHUCKIE" label="CHUCKIE" />
+      <node id="HUEY" label="HUEY" />
+      <node id="TOMAS" label="TOMAS" />
+      <node id="VINH" label="VINH" />
+    </nodes>
+    <edges>
+      <edge id="25863" source="KENNETH" target="DELLA" weight="3" />
+      <edge id="25864" source="DELLA" target="KENNETH" weight="3" />
+      <edge id="25865" source="DELLA" target="TAMMI" weight="1" />
+      <edge id="25866" source="DELLA" target="TERRI" weight="1" />
+      <edge id="25867" source="DELLA" target="MARY" weight="1" />
+      <edge id="25868" source="DELLA" target="OPERATOR" weight="1" />
+      <edge id="25869" source="DELLA" target="MEGHAN" weight="1" />
+      <edge id="25870" source="DELLA" target="LOCAL AD" weight="1" />
+      <edge id="25871" source="DELLA" target="CASSIE" weight="2" />
+      <edge id="25872" source="DELLA" target="MOTHER" weight="1" />
+      <edge id="25873" source="DELLA" target="RENT-A-COP" weight="2" />
+      <edge id="25874" source="DELLA" target="PERFUME SALES LADY" weight="1" />
+      <edge id="25875" source="DELLA" target="SALES ASSISTANT" weight="1" />
+      <edge id="25876" source="DELLA" target="OVERWEIGHT SALES ASSISTANT" weight="1" />
+      <edge id="25877" source="DELLA" target="LYNN" weight="1" />
+      <edge id="25878" source="DELLA" target="PH SALES ASSISTANT" weight="1" />
+      <edge id="25879" source="DELLA" target="CLEANING LADY" weight="1" />
+      <edge id="25880" source="DELLA" target="CHUCKIE" weight="5" />
+      <edge id="25881" source="DELLA" target="HUEY" weight="3" />
+      <edge id="25882" source="DELLA" target="TOMAS" weight="4" />
+      <edge id="25883" source="DELLA" target="VINH" weight="5" />
+      <edge id="25884" source="DELLA" target="CAROL SINGERS" weight="1" />
+      <edge id="25885" source="TAMMI" target="TERRI" weight="1" />
+      <edge id="25886" source="TAMMI" target="DELLA" weight="1" />
+      <edge id="25887" source="TERRI" target="TAMMI" weight="1" />
+      <edge id="25888" source="TERRI" target="DELLA" weight="1" />
+      <edge id="25889" source="MARY" target="DELLA" weight="1" />
+      <edge id="25890" source="OPERATOR" target="DELLA" weight="1" />
+      <edge id="25891" source="OPERATOR" target="MEGHAN" weight="1" />
+      <edge id="25892" source="OPERATOR" target="LOCAL AD" weight="1" />
+      <edge id="25893" source="OPERATOR" target="CASSIE" weight="1" />
+      <edge id="25894" source="MEGHAN" target="OPERATOR" weight="1" />
+      <edge id="25895" source="MEGHAN" target="DELLA" weight="1" />
+      <edge id="25896" source="MEGHAN" target="LOCAL AD" weight="1" />
+      <edge id="25897" source="MEGHAN" target="CASSIE" weight="1" />
+      <edge id="25898" source="LOCAL AD" target="OPERATOR" weight="1" />
+      <edge id="25899" source="LOCAL AD" target="DELLA" weight="1" />
+      <edge id="25900" source="LOCAL AD" target="MEGHAN" weight="1" />
+      <edge id="25901" source="LOCAL AD" target="CASSIE" weight="1" />
+      <edge id="25902" source="CASSIE" target="OPERATOR" weight="1" />
+      <edge id="25903" source="CASSIE" target="DELLA" weight="2" />
+      <edge id="25904" source="CASSIE" target="MEGHAN" weight="1" />
+      <edge id="25905" source="CASSIE" target="LOCAL AD" weight="1" />
+      <edge id="25906" source="MOTHER" target="DELLA" weight="1" />
+      <edge id="25907" source="RENT-A-COP" target="DELLA" weight="2" />
+      <edge id="25908" source="RENT-A-COP" target="CHUCKIE" weight="1" />
+      <edge id="25909" source="RENT-A-COP" target="HUEY" weight="1" />
+      <edge id="25910" source="RENT-A-COP" target="TOMAS" weight="1" />
+      <edge id="25911" source="RENT-A-COP" target="VINH" weight="1" />
+      <edge id="25912" source="RENT-A-COP" target="CAROL SINGERS" weight="1" />
+      <edge id="25913" source="PERFUME SALES LADY" target="DELLA" weight="1" />
+      <edge id="25914" source="SALES ASSISTANT" target="DELLA" weight="1" />
+      <edge id="25915" source="OVERWEIGHT SALES ASSISTANT" target="DELLA" weight="1" />
+      <edge id="25916" source="LYNN" target="DELLA" weight="1" />
+      <edge id="25917" source="PH SALES ASSISTANT" target="DELLA" weight="1" />
+      <edge id="25918" source="CLEANING LADY" target="DELLA" weight="1" />
+      <edge id="25919" source="CAROL SINGERS" target="CHUCKIE" weight="1" />
+      <edge id="25920" source="CAROL SINGERS" target="DELLA" weight="1" />
+      <edge id="25921" source="CAROL SINGERS" target="HUEY" weight="1" />
+      <edge id="25922" source="CAROL SINGERS" target="TOMAS" weight="1" />
+      <edge id="25923" source="CAROL SINGERS" target="VINH" weight="1" />
+      <edge id="25924" source="CAROL SINGERS" target="RENT-A-COP" weight="1" />
+      <edge id="25925" source="CHUCKIE" target="DELLA" weight="5" />
+      <edge id="25926" source="CHUCKIE" target="HUEY" weight="6" />
+      <edge id="25927" source="CHUCKIE" target="TOMAS" weight="9" />
+      <edge id="25928" source="CHUCKIE" target="VINH" weight="10" />
+      <edge id="25929" source="CHUCKIE" target="RENT-A-COP" weight="1" />
+      <edge id="25930" source="CHUCKIE" target="CAROL SINGERS" weight="1" />
+      <edge id="25931" source="HUEY" target="CHUCKIE" weight="6" />
+      <edge id="25932" source="HUEY" target="DELLA" weight="3" />
+      <edge id="25933" source="HUEY" target="TOMAS" weight="6" />
+      <edge id="25934" source="HUEY" target="VINH" weight="6" />
+      <edge id="25935" source="HUEY" target="RENT-A-COP" weight="1" />
+      <edge id="25936" source="HUEY" target="CAROL SINGERS" weight="1" />
+      <edge id="25937" source="TOMAS" target="CHUCKIE" weight="9" />
+      <edge id="25938" source="TOMAS" target="DELLA" weight="4" />
+      <edge id="25939" source="TOMAS" target="HUEY" weight="6" />
+      <edge id="25940" source="TOMAS" target="VINH" weight="9" />
+      <edge id="25941" source="TOMAS" target="RENT-A-COP" weight="1" />
+      <edge id="25942" source="TOMAS" target="CAROL SINGERS" weight="1" />
+      <edge id="25943" source="VINH" target="CHUCKIE" weight="10" />
+      <edge id="25944" source="VINH" target="DELLA" weight="5" />
+      <edge id="25945" source="VINH" target="HUEY" weight="6" />
+      <edge id="25946" source="VINH" target="TOMAS" weight="9" />
+      <edge id="25947" source="VINH" target="RENT-A-COP" weight="1" />
+      <edge id="25948" source="VINH" target="CAROL SINGERS" weight="1" />
+    </edges>
+  </graph>
+</gexf>

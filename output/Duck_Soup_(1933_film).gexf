@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MRS. TEASDALE" label="MRS. TEASDALE" />
+      <node id="NOTABLE" label="NOTABLE" />
+      <node id="FIRST CABINET MEMBER" label="FIRST CABINET MEMBER" />
+      <node id="SECOND CABINET MEMBER" label="SECOND CABINET MEMBER" />
+      <node id="THIRD CABINET MEMBER" label="THIRD CABINET MEMBER" />
+      <node id="SERVANT" label="SERVANT" />
+      <node id="TRENTINO" label="TRENTINO" />
+      <node id="VERA" label="VERA" />
+      <node id="BOB" label="BOB" />
+      <node id="ALL" label="ALL" />
+      <node id="MRS.  TEASDALE" label="MRS.  TEASDALE" />
+      <node id="GROUCHO" label="GROUCHO" />
+      <node id="ENSEMBLE" label="ENSEMBLE" />
+      <node id="DIGNITARY" label="DIGNITARY" />
+      <node id="GUARDS" label="GUARDS" />
+      <node id="SPEAKER" label="SPEAKER" />
+      <node id="MEMBERS" label="MEMBERS" />
+      <node id="CHICO" label="CHICO" />
+      <node id="GUARD'S VOICE" label="GUARD'S VOICE" />
+      <node id="GUESTS" label="GUESTS" />
+      <node id="TRENTINO'S VOICE" label="TRENTINO'S VOICE" />
+      <node id="GIRL" label="GIRL" />
+      <node id="USHER" label="USHER" />
+      <node id="VALET" label="VALET" />
+      <node id="HERO" label="HERO" />
+      <node id="RADIO POLICE ANNOUNCER" label="RADIO POLICE ANNOUNCER" />
+      <node id="RADIO ANNOUNCER" label="RADIO ANNOUNCER" />
+      <node id="A GENERAL" label="A GENERAL" />
+      <node id="A FEW GENERALS" label="A FEW GENERALS" />
+      <node id="GENERAL" label="GENERAL" />
+      <node id="ONE GENERAL" label="ONE GENERAL" />
+      <node id="ZEPPO" label="ZEPPO" />
+      <node id="SOLO" label="SOLO" />
+      <node id="A WOMAN GUEST" label="A WOMAN GUEST" />
+      <node id="AMBASSADOR TRENTINO" label="AMBASSADOR TRENTINO" />
+    </nodes>
+    <edges>
+      <edge id="5853" source="MRS. TEASDALE" target="NOTABLE" weight="1" />
+      <edge id="5854" source="MRS. TEASDALE" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5855" source="MRS. TEASDALE" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5856" source="MRS. TEASDALE" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5857" source="MRS. TEASDALE" target="SERVANT" weight="1" />
+      <edge id="5858" source="MRS. TEASDALE" target="TRENTINO" weight="4" />
+      <edge id="5859" source="MRS. TEASDALE" target="VERA" weight="5" />
+      <edge id="5860" source="MRS. TEASDALE" target="BOB" weight="2" />
+      <edge id="5861" source="MRS. TEASDALE" target="ALL" weight="2" />
+      <edge id="5862" source="MRS. TEASDALE" target="MRS.  TEASDALE" weight="3" />
+      <edge id="5863" source="MRS. TEASDALE" target="GROUCHO" weight="6" />
+      <edge id="5864" source="MRS. TEASDALE" target="ENSEMBLE" weight="1" />
+      <edge id="5865" source="MRS. TEASDALE" target="DIGNITARY" weight="1" />
+      <edge id="5866" source="MRS. TEASDALE" target="GUARDS" weight="1" />
+      <edge id="5867" source="MRS. TEASDALE" target="GUARD'S VOICE" weight="1" />
+      <edge id="5868" source="MRS. TEASDALE" target="GUESTS" weight="1" />
+      <edge id="5869" source="MRS. TEASDALE" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="5870" source="MRS. TEASDALE" target="USHER" weight="1" />
+      <edge id="5871" source="MRS. TEASDALE" target="CHICO" weight="3" />
+      <edge id="5872" source="MRS. TEASDALE" target="VALET" weight="1" />
+      <edge id="5873" source="MRS. TEASDALE" target="HERO" weight="1" />
+      <edge id="5874" source="MRS. TEASDALE" target="RADIO POLICE ANNOUNCER" weight="1" />
+      <edge id="5875" source="MRS. TEASDALE" target="RADIO ANNOUNCER" weight="1" />
+      <edge id="5876" source="MRS. TEASDALE" target="ZEPPO" weight="1" />
+      <edge id="5877" source="MRS. TEASDALE" target="SOLO" weight="1" />
+      <edge id="5878" source="MRS. TEASDALE" target="A WOMAN GUEST" weight="1" />
+      <edge id="5879" source="MRS. TEASDALE" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="5880" source="NOTABLE" target="MRS. TEASDALE" weight="1" />
+      <edge id="5881" source="NOTABLE" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5882" source="NOTABLE" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5883" source="NOTABLE" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5884" source="NOTABLE" target="SERVANT" weight="1" />
+      <edge id="5885" source="NOTABLE" target="TRENTINO" weight="1" />
+      <edge id="5886" source="NOTABLE" target="VERA" weight="1" />
+      <edge id="5887" source="NOTABLE" target="BOB" weight="1" />
+      <edge id="5888" source="NOTABLE" target="ALL" weight="1" />
+      <edge id="5889" source="NOTABLE" target="MRS.  TEASDALE" weight="1" />
+      <edge id="5890" source="NOTABLE" target="GROUCHO" weight="1" />
+      <edge id="5891" source="NOTABLE" target="ENSEMBLE" weight="1" />
+      <edge id="5892" source="NOTABLE" target="DIGNITARY" weight="1" />
+      <edge id="5893" source="NOTABLE" target="GUARDS" weight="1" />
+      <edge id="5894" source="FIRST CABINET MEMBER" target="MRS. TEASDALE" weight="1" />
+      <edge id="5895" source="FIRST CABINET MEMBER" target="NOTABLE" weight="1" />
+      <edge id="5896" source="FIRST CABINET MEMBER" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5897" source="FIRST CABINET MEMBER" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5898" source="FIRST CABINET MEMBER" target="SERVANT" weight="1" />
+      <edge id="5899" source="FIRST CABINET MEMBER" target="TRENTINO" weight="1" />
+      <edge id="5900" source="FIRST CABINET MEMBER" target="VERA" weight="1" />
+      <edge id="5901" source="FIRST CABINET MEMBER" target="BOB" weight="1" />
+      <edge id="5902" source="FIRST CABINET MEMBER" target="ALL" weight="1" />
+      <edge id="5903" source="FIRST CABINET MEMBER" target="MRS.  TEASDALE" weight="1" />
+      <edge id="5904" source="FIRST CABINET MEMBER" target="GROUCHO" weight="1" />
+      <edge id="5905" source="FIRST CABINET MEMBER" target="ENSEMBLE" weight="1" />
+      <edge id="5906" source="FIRST CABINET MEMBER" target="DIGNITARY" weight="1" />
+      <edge id="5907" source="FIRST CABINET MEMBER" target="GUARDS" weight="1" />
+      <edge id="5908" source="SECOND CABINET MEMBER" target="MRS. TEASDALE" weight="1" />
+      <edge id="5909" source="SECOND CABINET MEMBER" target="NOTABLE" weight="1" />
+      <edge id="5910" source="SECOND CABINET MEMBER" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5911" source="SECOND CABINET MEMBER" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5912" source="SECOND CABINET MEMBER" target="SERVANT" weight="1" />
+      <edge id="5913" source="SECOND CABINET MEMBER" target="TRENTINO" weight="1" />
+      <edge id="5914" source="SECOND CABINET MEMBER" target="VERA" weight="1" />
+      <edge id="5915" source="SECOND CABINET MEMBER" target="BOB" weight="1" />
+      <edge id="5916" source="SECOND CABINET MEMBER" target="ALL" weight="1" />
+      <edge id="5917" source="SECOND CABINET MEMBER" target="MRS.  TEASDALE" weight="1" />
+      <edge id="5918" source="SECOND CABINET MEMBER" target="GROUCHO" weight="1" />
+      <edge id="5919" source="SECOND CABINET MEMBER" target="ENSEMBLE" weight="1" />
+      <edge id="5920" source="SECOND CABINET MEMBER" target="DIGNITARY" weight="1" />
+      <edge id="5921" source="SECOND CABINET MEMBER" target="GUARDS" weight="1" />
+      <edge id="5922" source="THIRD CABINET MEMBER" target="MRS. TEASDALE" weight="1" />
+      <edge id="5923" source="THIRD CABINET MEMBER" target="NOTABLE" weight="1" />
+      <edge id="5924" source="THIRD CABINET MEMBER" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5925" source="THIRD CABINET MEMBER" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5926" source="THIRD CABINET MEMBER" target="SERVANT" weight="1" />
+      <edge id="5927" source="THIRD CABINET MEMBER" target="TRENTINO" weight="1" />
+      <edge id="5928" source="THIRD CABINET MEMBER" target="VERA" weight="1" />
+      <edge id="5929" source="THIRD CABINET MEMBER" target="BOB" weight="1" />
+      <edge id="5930" source="THIRD CABINET MEMBER" target="ALL" weight="1" />
+      <edge id="5931" source="THIRD CABINET MEMBER" target="MRS.  TEASDALE" weight="1" />
+      <edge id="5932" source="THIRD CABINET MEMBER" target="GROUCHO" weight="1" />
+      <edge id="5933" source="THIRD CABINET MEMBER" target="ENSEMBLE" weight="1" />
+      <edge id="5934" source="THIRD CABINET MEMBER" target="DIGNITARY" weight="1" />
+      <edge id="5935" source="THIRD CABINET MEMBER" target="GUARDS" weight="1" />
+      <edge id="5936" source="SERVANT" target="MRS. TEASDALE" weight="1" />
+      <edge id="5937" source="SERVANT" target="NOTABLE" weight="1" />
+      <edge id="5938" source="SERVANT" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5939" source="SERVANT" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5940" source="SERVANT" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5941" source="SERVANT" target="TRENTINO" weight="1" />
+      <edge id="5942" source="SERVANT" target="VERA" weight="1" />
+      <edge id="5943" source="SERVANT" target="BOB" weight="1" />
+      <edge id="5944" source="SERVANT" target="ALL" weight="1" />
+      <edge id="5945" source="SERVANT" target="MRS.  TEASDALE" weight="1" />
+      <edge id="5946" source="SERVANT" target="GROUCHO" weight="1" />
+      <edge id="5947" source="SERVANT" target="ENSEMBLE" weight="1" />
+      <edge id="5948" source="SERVANT" target="DIGNITARY" weight="1" />
+      <edge id="5949" source="SERVANT" target="GUARDS" weight="1" />
+      <edge id="5950" source="TRENTINO" target="MRS. TEASDALE" weight="4" />
+      <edge id="5951" source="TRENTINO" target="NOTABLE" weight="1" />
+      <edge id="5952" source="TRENTINO" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5953" source="TRENTINO" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5954" source="TRENTINO" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5955" source="TRENTINO" target="SERVANT" weight="1" />
+      <edge id="5956" source="TRENTINO" target="VERA" weight="4" />
+      <edge id="5957" source="TRENTINO" target="BOB" weight="4" />
+      <edge id="5958" source="TRENTINO" target="ALL" weight="1" />
+      <edge id="5959" source="TRENTINO" target="MRS.  TEASDALE" weight="3" />
+      <edge id="5960" source="TRENTINO" target="GROUCHO" weight="6" />
+      <edge id="5961" source="TRENTINO" target="ENSEMBLE" weight="1" />
+      <edge id="5962" source="TRENTINO" target="DIGNITARY" weight="1" />
+      <edge id="5963" source="TRENTINO" target="GUARDS" weight="1" />
+      <edge id="5964" source="TRENTINO" target="SPEAKER" weight="1" />
+      <edge id="5965" source="TRENTINO" target="MEMBERS" weight="1" />
+      <edge id="5966" source="TRENTINO" target="CHICO" weight="3" />
+      <edge id="5967" source="TRENTINO" target="GUARD'S VOICE" weight="1" />
+      <edge id="5968" source="TRENTINO" target="GUESTS" weight="1" />
+      <edge id="5969" source="TRENTINO" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="5970" source="TRENTINO" target="USHER" weight="1" />
+      <edge id="5971" source="TRENTINO" target="VALET" weight="1" />
+      <edge id="5972" source="TRENTINO" target="HERO" weight="1" />
+      <edge id="5973" source="TRENTINO" target="A GENERAL" weight="1" />
+      <edge id="5974" source="TRENTINO" target="A FEW GENERALS" weight="1" />
+      <edge id="5975" source="TRENTINO" target="GENERAL" weight="1" />
+      <edge id="5976" source="TRENTINO" target="ONE GENERAL" weight="1" />
+      <edge id="5977" source="TRENTINO" target="ZEPPO" weight="1" />
+      <edge id="5978" source="VERA" target="MRS. TEASDALE" weight="5" />
+      <edge id="5979" source="VERA" target="NOTABLE" weight="1" />
+      <edge id="5980" source="VERA" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="5981" source="VERA" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="5982" source="VERA" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="5983" source="VERA" target="SERVANT" weight="1" />
+      <edge id="5984" source="VERA" target="TRENTINO" weight="4" />
+      <edge id="5985" source="VERA" target="BOB" weight="2" />
+      <edge id="5986" source="VERA" target="ALL" weight="1" />
+      <edge id="5987" source="VERA" target="MRS.  TEASDALE" weight="3" />
+      <edge id="5988" source="VERA" target="GROUCHO" weight="5" />
+      <edge id="5989" source="VERA" target="ENSEMBLE" weight="1" />
+      <edge id="5990" source="VERA" target="DIGNITARY" weight="1" />
+      <edge id="5991" source="VERA" target="GUARDS" weight="1" />
+      <edge id="5992" source="VERA" target="GUARD'S VOICE" weight="1" />
+      <edge id="5993" source="VERA" target="GUESTS" weight="1" />
+      <edge id="5994" source="VERA" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="5995" source="VERA" target="USHER" weight="1" />
+      <edge id="5996" source="VERA" target="CHICO" weight="2" />
+      <edge id="5997" source="VERA" target="VALET" weight="1" />
+      <edge id="5998" source="VERA" target="HERO" weight="1" />
+      <edge id="5999" source="VERA" target="RADIO POLICE ANNOUNCER" weight="1" />
+      <edge id="6000" source="VERA" target="RADIO ANNOUNCER" weight="1" />
+      <edge id="6001" source="BOB" target="MRS. TEASDALE" weight="2" />
+      <edge id="6002" source="BOB" target="NOTABLE" weight="1" />
+      <edge id="6003" source="BOB" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6004" source="BOB" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6005" source="BOB" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6006" source="BOB" target="SERVANT" weight="1" />
+      <edge id="6007" source="BOB" target="TRENTINO" weight="4" />
+      <edge id="6008" source="BOB" target="VERA" weight="2" />
+      <edge id="6009" source="BOB" target="ALL" weight="1" />
+      <edge id="6010" source="BOB" target="MRS.  TEASDALE" weight="2" />
+      <edge id="6011" source="BOB" target="GROUCHO" weight="5" />
+      <edge id="6012" source="BOB" target="ENSEMBLE" weight="1" />
+      <edge id="6013" source="BOB" target="DIGNITARY" weight="1" />
+      <edge id="6014" source="BOB" target="GUARDS" weight="1" />
+      <edge id="6015" source="BOB" target="SPEAKER" weight="1" />
+      <edge id="6016" source="BOB" target="MEMBERS" weight="1" />
+      <edge id="6017" source="BOB" target="CHICO" weight="3" />
+      <edge id="6018" source="BOB" target="GIRL" weight="1" />
+      <edge id="6019" source="BOB" target="A GENERAL" weight="1" />
+      <edge id="6020" source="BOB" target="A FEW GENERALS" weight="1" />
+      <edge id="6021" source="BOB" target="GENERAL" weight="1" />
+      <edge id="6022" source="BOB" target="ONE GENERAL" weight="1" />
+      <edge id="6023" source="BOB" target="ZEPPO" weight="1" />
+      <edge id="6024" source="ALL" target="MRS. TEASDALE" weight="2" />
+      <edge id="6025" source="ALL" target="NOTABLE" weight="1" />
+      <edge id="6026" source="ALL" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6027" source="ALL" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6028" source="ALL" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6029" source="ALL" target="SERVANT" weight="1" />
+      <edge id="6030" source="ALL" target="TRENTINO" weight="1" />
+      <edge id="6031" source="ALL" target="VERA" weight="1" />
+      <edge id="6032" source="ALL" target="BOB" weight="1" />
+      <edge id="6033" source="ALL" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6034" source="ALL" target="GROUCHO" weight="2" />
+      <edge id="6035" source="ALL" target="ENSEMBLE" weight="1" />
+      <edge id="6036" source="ALL" target="DIGNITARY" weight="1" />
+      <edge id="6037" source="ALL" target="GUARDS" weight="1" />
+      <edge id="6038" source="ALL" target="ZEPPO" weight="1" />
+      <edge id="6039" source="ALL" target="SOLO" weight="1" />
+      <edge id="6040" source="ALL" target="A WOMAN GUEST" weight="1" />
+      <edge id="6041" source="ALL" target="CHICO" weight="1" />
+      <edge id="6042" source="ALL" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6043" source="MRS.  TEASDALE" target="MRS. TEASDALE" weight="3" />
+      <edge id="6044" source="MRS.  TEASDALE" target="NOTABLE" weight="1" />
+      <edge id="6045" source="MRS.  TEASDALE" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6046" source="MRS.  TEASDALE" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6047" source="MRS.  TEASDALE" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6048" source="MRS.  TEASDALE" target="SERVANT" weight="1" />
+      <edge id="6049" source="MRS.  TEASDALE" target="TRENTINO" weight="3" />
+      <edge id="6050" source="MRS.  TEASDALE" target="VERA" weight="3" />
+      <edge id="6051" source="MRS.  TEASDALE" target="BOB" weight="2" />
+      <edge id="6052" source="MRS.  TEASDALE" target="ALL" weight="1" />
+      <edge id="6053" source="MRS.  TEASDALE" target="GROUCHO" weight="3" />
+      <edge id="6054" source="MRS.  TEASDALE" target="ENSEMBLE" weight="1" />
+      <edge id="6055" source="MRS.  TEASDALE" target="DIGNITARY" weight="1" />
+      <edge id="6056" source="MRS.  TEASDALE" target="GUARDS" weight="1" />
+      <edge id="6057" source="MRS.  TEASDALE" target="USHER" weight="1" />
+      <edge id="6058" source="MRS.  TEASDALE" target="CHICO" weight="1" />
+      <edge id="6059" source="MRS.  TEASDALE" target="VALET" weight="1" />
+      <edge id="6060" source="MRS.  TEASDALE" target="HERO" weight="1" />
+      <edge id="6061" source="GROUCHO" target="MRS. TEASDALE" weight="6" />
+      <edge id="6062" source="GROUCHO" target="NOTABLE" weight="1" />
+      <edge id="6063" source="GROUCHO" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6064" source="GROUCHO" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6065" source="GROUCHO" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6066" source="GROUCHO" target="SERVANT" weight="1" />
+      <edge id="6067" source="GROUCHO" target="TRENTINO" weight="6" />
+      <edge id="6068" source="GROUCHO" target="VERA" weight="5" />
+      <edge id="6069" source="GROUCHO" target="BOB" weight="5" />
+      <edge id="6070" source="GROUCHO" target="ALL" weight="2" />
+      <edge id="6071" source="GROUCHO" target="MRS.  TEASDALE" weight="3" />
+      <edge id="6072" source="GROUCHO" target="ENSEMBLE" weight="1" />
+      <edge id="6073" source="GROUCHO" target="DIGNITARY" weight="1" />
+      <edge id="6074" source="GROUCHO" target="GUARDS" weight="1" />
+      <edge id="6075" source="GROUCHO" target="SPEAKER" weight="1" />
+      <edge id="6076" source="GROUCHO" target="MEMBERS" weight="1" />
+      <edge id="6077" source="GROUCHO" target="CHICO" weight="6" />
+      <edge id="6078" source="GROUCHO" target="GUARD'S VOICE" weight="1" />
+      <edge id="6079" source="GROUCHO" target="GUESTS" weight="1" />
+      <edge id="6080" source="GROUCHO" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="6081" source="GROUCHO" target="GIRL" weight="1" />
+      <edge id="6082" source="GROUCHO" target="USHER" weight="1" />
+      <edge id="6083" source="GROUCHO" target="VALET" weight="1" />
+      <edge id="6084" source="GROUCHO" target="HERO" weight="1" />
+      <edge id="6085" source="GROUCHO" target="RADIO POLICE ANNOUNCER" weight="1" />
+      <edge id="6086" source="GROUCHO" target="RADIO ANNOUNCER" weight="1" />
+      <edge id="6087" source="GROUCHO" target="A GENERAL" weight="1" />
+      <edge id="6088" source="GROUCHO" target="A FEW GENERALS" weight="1" />
+      <edge id="6089" source="GROUCHO" target="GENERAL" weight="1" />
+      <edge id="6090" source="GROUCHO" target="ONE GENERAL" weight="1" />
+      <edge id="6091" source="GROUCHO" target="ZEPPO" weight="2" />
+      <edge id="6092" source="GROUCHO" target="SOLO" weight="1" />
+      <edge id="6093" source="GROUCHO" target="A WOMAN GUEST" weight="1" />
+      <edge id="6094" source="GROUCHO" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6095" source="ENSEMBLE" target="MRS. TEASDALE" weight="1" />
+      <edge id="6096" source="ENSEMBLE" target="NOTABLE" weight="1" />
+      <edge id="6097" source="ENSEMBLE" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6098" source="ENSEMBLE" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6099" source="ENSEMBLE" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6100" source="ENSEMBLE" target="SERVANT" weight="1" />
+      <edge id="6101" source="ENSEMBLE" target="TRENTINO" weight="1" />
+      <edge id="6102" source="ENSEMBLE" target="VERA" weight="1" />
+      <edge id="6103" source="ENSEMBLE" target="BOB" weight="1" />
+      <edge id="6104" source="ENSEMBLE" target="ALL" weight="1" />
+      <edge id="6105" source="ENSEMBLE" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6106" source="ENSEMBLE" target="GROUCHO" weight="1" />
+      <edge id="6107" source="ENSEMBLE" target="DIGNITARY" weight="1" />
+      <edge id="6108" source="ENSEMBLE" target="GUARDS" weight="1" />
+      <edge id="6109" source="DIGNITARY" target="MRS. TEASDALE" weight="1" />
+      <edge id="6110" source="DIGNITARY" target="NOTABLE" weight="1" />
+      <edge id="6111" source="DIGNITARY" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6112" source="DIGNITARY" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6113" source="DIGNITARY" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6114" source="DIGNITARY" target="SERVANT" weight="1" />
+      <edge id="6115" source="DIGNITARY" target="TRENTINO" weight="1" />
+      <edge id="6116" source="DIGNITARY" target="VERA" weight="1" />
+      <edge id="6117" source="DIGNITARY" target="BOB" weight="1" />
+      <edge id="6118" source="DIGNITARY" target="ALL" weight="1" />
+      <edge id="6119" source="DIGNITARY" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6120" source="DIGNITARY" target="GROUCHO" weight="1" />
+      <edge id="6121" source="DIGNITARY" target="ENSEMBLE" weight="1" />
+      <edge id="6122" source="DIGNITARY" target="GUARDS" weight="1" />
+      <edge id="6123" source="GUARDS" target="MRS. TEASDALE" weight="1" />
+      <edge id="6124" source="GUARDS" target="NOTABLE" weight="1" />
+      <edge id="6125" source="GUARDS" target="FIRST CABINET MEMBER" weight="1" />
+      <edge id="6126" source="GUARDS" target="SECOND CABINET MEMBER" weight="1" />
+      <edge id="6127" source="GUARDS" target="THIRD CABINET MEMBER" weight="1" />
+      <edge id="6128" source="GUARDS" target="SERVANT" weight="1" />
+      <edge id="6129" source="GUARDS" target="TRENTINO" weight="1" />
+      <edge id="6130" source="GUARDS" target="VERA" weight="1" />
+      <edge id="6131" source="GUARDS" target="BOB" weight="1" />
+      <edge id="6132" source="GUARDS" target="ALL" weight="1" />
+      <edge id="6133" source="GUARDS" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6134" source="GUARDS" target="GROUCHO" weight="1" />
+      <edge id="6135" source="GUARDS" target="ENSEMBLE" weight="1" />
+      <edge id="6136" source="GUARDS" target="DIGNITARY" weight="1" />
+      <edge id="6137" source="SPEAKER" target="TRENTINO" weight="1" />
+      <edge id="6138" source="SPEAKER" target="BOB" weight="1" />
+      <edge id="6139" source="SPEAKER" target="MEMBERS" weight="1" />
+      <edge id="6140" source="SPEAKER" target="GROUCHO" weight="1" />
+      <edge id="6141" source="SPEAKER" target="CHICO" weight="1" />
+      <edge id="6142" source="MEMBERS" target="SPEAKER" weight="1" />
+      <edge id="6143" source="MEMBERS" target="TRENTINO" weight="1" />
+      <edge id="6144" source="MEMBERS" target="BOB" weight="1" />
+      <edge id="6145" source="MEMBERS" target="GROUCHO" weight="1" />
+      <edge id="6146" source="MEMBERS" target="CHICO" weight="1" />
+      <edge id="6147" source="CHICO" target="SPEAKER" weight="1" />
+      <edge id="6148" source="CHICO" target="TRENTINO" weight="3" />
+      <edge id="6149" source="CHICO" target="BOB" weight="3" />
+      <edge id="6150" source="CHICO" target="MEMBERS" weight="1" />
+      <edge id="6151" source="CHICO" target="GROUCHO" weight="6" />
+      <edge id="6152" source="CHICO" target="GIRL" weight="1" />
+      <edge id="6153" source="CHICO" target="USHER" weight="1" />
+      <edge id="6154" source="CHICO" target="MRS. TEASDALE" weight="3" />
+      <edge id="6155" source="CHICO" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6156" source="CHICO" target="VERA" weight="2" />
+      <edge id="6157" source="CHICO" target="VALET" weight="1" />
+      <edge id="6158" source="CHICO" target="HERO" weight="1" />
+      <edge id="6159" source="CHICO" target="RADIO POLICE ANNOUNCER" weight="1" />
+      <edge id="6160" source="CHICO" target="RADIO ANNOUNCER" weight="1" />
+      <edge id="6161" source="CHICO" target="A GENERAL" weight="1" />
+      <edge id="6162" source="CHICO" target="A FEW GENERALS" weight="1" />
+      <edge id="6163" source="CHICO" target="GENERAL" weight="1" />
+      <edge id="6164" source="CHICO" target="ONE GENERAL" weight="1" />
+      <edge id="6165" source="CHICO" target="ZEPPO" weight="2" />
+      <edge id="6166" source="CHICO" target="ALL" weight="1" />
+      <edge id="6167" source="CHICO" target="SOLO" weight="1" />
+      <edge id="6168" source="CHICO" target="A WOMAN GUEST" weight="1" />
+      <edge id="6169" source="CHICO" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6170" source="GUARD'S VOICE" target="GUESTS" weight="1" />
+      <edge id="6171" source="GUARD'S VOICE" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="6172" source="GUARD'S VOICE" target="TRENTINO" weight="1" />
+      <edge id="6173" source="GUARD'S VOICE" target="MRS. TEASDALE" weight="1" />
+      <edge id="6174" source="GUARD'S VOICE" target="GROUCHO" weight="1" />
+      <edge id="6175" source="GUARD'S VOICE" target="VERA" weight="1" />
+      <edge id="6176" source="GUESTS" target="GUARD'S VOICE" weight="1" />
+      <edge id="6177" source="GUESTS" target="TRENTINO'S VOICE" weight="1" />
+      <edge id="6178" source="GUESTS" target="TRENTINO" weight="1" />
+      <edge id="6179" source="GUESTS" target="MRS. TEASDALE" weight="1" />
+      <edge id="6180" source="GUESTS" target="GROUCHO" weight="1" />
+      <edge id="6181" source="GUESTS" target="VERA" weight="1" />
+      <edge id="6182" source="TRENTINO'S VOICE" target="GUARD'S VOICE" weight="1" />
+      <edge id="6183" source="TRENTINO'S VOICE" target="GUESTS" weight="1" />
+      <edge id="6184" source="TRENTINO'S VOICE" target="TRENTINO" weight="1" />
+      <edge id="6185" source="TRENTINO'S VOICE" target="MRS. TEASDALE" weight="1" />
+      <edge id="6186" source="TRENTINO'S VOICE" target="GROUCHO" weight="1" />
+      <edge id="6187" source="TRENTINO'S VOICE" target="VERA" weight="1" />
+      <edge id="6188" source="GIRL" target="BOB" weight="1" />
+      <edge id="6189" source="GIRL" target="CHICO" weight="1" />
+      <edge id="6190" source="GIRL" target="GROUCHO" weight="1" />
+      <edge id="6191" source="USHER" target="CHICO" weight="1" />
+      <edge id="6192" source="USHER" target="TRENTINO" weight="1" />
+      <edge id="6193" source="USHER" target="MRS. TEASDALE" weight="1" />
+      <edge id="6194" source="USHER" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6195" source="USHER" target="VERA" weight="1" />
+      <edge id="6196" source="USHER" target="GROUCHO" weight="1" />
+      <edge id="6197" source="USHER" target="VALET" weight="1" />
+      <edge id="6198" source="USHER" target="HERO" weight="1" />
+      <edge id="6199" source="VALET" target="USHER" weight="1" />
+      <edge id="6200" source="VALET" target="CHICO" weight="1" />
+      <edge id="6201" source="VALET" target="TRENTINO" weight="1" />
+      <edge id="6202" source="VALET" target="MRS. TEASDALE" weight="1" />
+      <edge id="6203" source="VALET" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6204" source="VALET" target="VERA" weight="1" />
+      <edge id="6205" source="VALET" target="GROUCHO" weight="1" />
+      <edge id="6206" source="VALET" target="HERO" weight="1" />
+      <edge id="6207" source="HERO" target="USHER" weight="1" />
+      <edge id="6208" source="HERO" target="CHICO" weight="1" />
+      <edge id="6209" source="HERO" target="TRENTINO" weight="1" />
+      <edge id="6210" source="HERO" target="MRS. TEASDALE" weight="1" />
+      <edge id="6211" source="HERO" target="MRS.  TEASDALE" weight="1" />
+      <edge id="6212" source="HERO" target="VERA" weight="1" />
+      <edge id="6213" source="HERO" target="GROUCHO" weight="1" />
+      <edge id="6214" source="HERO" target="VALET" weight="1" />
+      <edge id="6215" source="RADIO POLICE ANNOUNCER" target="CHICO" weight="1" />
+      <edge id="6216" source="RADIO POLICE ANNOUNCER" target="VERA" weight="1" />
+      <edge id="6217" source="RADIO POLICE ANNOUNCER" target="RADIO ANNOUNCER" weight="1" />
+      <edge id="6218" source="RADIO POLICE ANNOUNCER" target="MRS. TEASDALE" weight="1" />
+      <edge id="6219" source="RADIO POLICE ANNOUNCER" target="GROUCHO" weight="1" />
+      <edge id="6220" source="RADIO ANNOUNCER" target="CHICO" weight="1" />
+      <edge id="6221" source="RADIO ANNOUNCER" target="VERA" weight="1" />
+      <edge id="6222" source="RADIO ANNOUNCER" target="RADIO POLICE ANNOUNCER" weight="1" />
+      <edge id="6223" source="RADIO ANNOUNCER" target="MRS. TEASDALE" weight="1" />
+      <edge id="6224" source="RADIO ANNOUNCER" target="GROUCHO" weight="1" />
+      <edge id="6225" source="A GENERAL" target="GROUCHO" weight="1" />
+      <edge id="6226" source="A GENERAL" target="BOB" weight="1" />
+      <edge id="6227" source="A GENERAL" target="A FEW GENERALS" weight="1" />
+      <edge id="6228" source="A GENERAL" target="CHICO" weight="1" />
+      <edge id="6229" source="A GENERAL" target="GENERAL" weight="1" />
+      <edge id="6230" source="A GENERAL" target="TRENTINO" weight="1" />
+      <edge id="6231" source="A GENERAL" target="ONE GENERAL" weight="1" />
+      <edge id="6232" source="A GENERAL" target="ZEPPO" weight="1" />
+      <edge id="6233" source="A FEW GENERALS" target="GROUCHO" weight="1" />
+      <edge id="6234" source="A FEW GENERALS" target="BOB" weight="1" />
+      <edge id="6235" source="A FEW GENERALS" target="A GENERAL" weight="1" />
+      <edge id="6236" source="A FEW GENERALS" target="CHICO" weight="1" />
+      <edge id="6237" source="A FEW GENERALS" target="GENERAL" weight="1" />
+      <edge id="6238" source="A FEW GENERALS" target="TRENTINO" weight="1" />
+      <edge id="6239" source="A FEW GENERALS" target="ONE GENERAL" weight="1" />
+      <edge id="6240" source="A FEW GENERALS" target="ZEPPO" weight="1" />
+      <edge id="6241" source="GENERAL" target="GROUCHO" weight="1" />
+      <edge id="6242" source="GENERAL" target="BOB" weight="1" />
+      <edge id="6243" source="GENERAL" target="A GENERAL" weight="1" />
+      <edge id="6244" source="GENERAL" target="A FEW GENERALS" weight="1" />
+      <edge id="6245" source="GENERAL" target="CHICO" weight="1" />
+      <edge id="6246" source="GENERAL" target="TRENTINO" weight="1" />
+      <edge id="6247" source="GENERAL" target="ONE GENERAL" weight="1" />
+      <edge id="6248" source="GENERAL" target="ZEPPO" weight="1" />
+      <edge id="6249" source="ONE GENERAL" target="GROUCHO" weight="1" />
+      <edge id="6250" source="ONE GENERAL" target="BOB" weight="1" />
+      <edge id="6251" source="ONE GENERAL" target="A GENERAL" weight="1" />
+      <edge id="6252" source="ONE GENERAL" target="A FEW GENERALS" weight="1" />
+      <edge id="6253" source="ONE GENERAL" target="CHICO" weight="1" />
+      <edge id="6254" source="ONE GENERAL" target="GENERAL" weight="1" />
+      <edge id="6255" source="ONE GENERAL" target="TRENTINO" weight="1" />
+      <edge id="6256" source="ONE GENERAL" target="ZEPPO" weight="1" />
+      <edge id="6257" source="ZEPPO" target="GROUCHO" weight="2" />
+      <edge id="6258" source="ZEPPO" target="BOB" weight="1" />
+      <edge id="6259" source="ZEPPO" target="A GENERAL" weight="1" />
+      <edge id="6260" source="ZEPPO" target="A FEW GENERALS" weight="1" />
+      <edge id="6261" source="ZEPPO" target="CHICO" weight="2" />
+      <edge id="6262" source="ZEPPO" target="GENERAL" weight="1" />
+      <edge id="6263" source="ZEPPO" target="TRENTINO" weight="1" />
+      <edge id="6264" source="ZEPPO" target="ONE GENERAL" weight="1" />
+      <edge id="6265" source="ZEPPO" target="ALL" weight="1" />
+      <edge id="6266" source="ZEPPO" target="SOLO" weight="1" />
+      <edge id="6267" source="ZEPPO" target="MRS. TEASDALE" weight="1" />
+      <edge id="6268" source="ZEPPO" target="A WOMAN GUEST" weight="1" />
+      <edge id="6269" source="ZEPPO" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6270" source="SOLO" target="ALL" weight="1" />
+      <edge id="6271" source="SOLO" target="ZEPPO" weight="1" />
+      <edge id="6272" source="SOLO" target="GROUCHO" weight="1" />
+      <edge id="6273" source="SOLO" target="MRS. TEASDALE" weight="1" />
+      <edge id="6274" source="SOLO" target="A WOMAN GUEST" weight="1" />
+      <edge id="6275" source="SOLO" target="CHICO" weight="1" />
+      <edge id="6276" source="SOLO" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6277" source="A WOMAN GUEST" target="ALL" weight="1" />
+      <edge id="6278" source="A WOMAN GUEST" target="ZEPPO" weight="1" />
+      <edge id="6279" source="A WOMAN GUEST" target="SOLO" weight="1" />
+      <edge id="6280" source="A WOMAN GUEST" target="GROUCHO" weight="1" />
+      <edge id="6281" source="A WOMAN GUEST" target="MRS. TEASDALE" weight="1" />
+      <edge id="6282" source="A WOMAN GUEST" target="CHICO" weight="1" />
+      <edge id="6283" source="A WOMAN GUEST" target="AMBASSADOR TRENTINO" weight="1" />
+      <edge id="6284" source="AMBASSADOR TRENTINO" target="ALL" weight="1" />
+      <edge id="6285" source="AMBASSADOR TRENTINO" target="ZEPPO" weight="1" />
+      <edge id="6286" source="AMBASSADOR TRENTINO" target="SOLO" weight="1" />
+      <edge id="6287" source="AMBASSADOR TRENTINO" target="GROUCHO" weight="1" />
+      <edge id="6288" source="AMBASSADOR TRENTINO" target="MRS. TEASDALE" weight="1" />
+      <edge id="6289" source="AMBASSADOR TRENTINO" target="A WOMAN GUEST" weight="1" />
+      <edge id="6290" source="AMBASSADOR TRENTINO" target="CHICO" weight="1" />
+    </edges>
+  </graph>
+</gexf>

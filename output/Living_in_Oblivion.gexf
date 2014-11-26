@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="BERT" label="BERT" />
+      <node id="CYBIL" label="CYBIL" />
+      <node id="WOLF" label="WOLF" />
+      <node id="GAFFER" label="GAFFER" />
+      <node id="AC" label="AC" />
+      <node id="JEFF" label="JEFF" />
+      <node id="NICOLE" label="NICOLE" />
+      <node id="CORA" label="CORA" />
+      <node id="NICK" label="NICK" />
+      <node id="WANDA" label="WANDA" />
+      <node id="SOUND" label="SOUND" />
+      <node id="CLAPPER" label="CLAPPER" />
+      <node id="BOOM" label="BOOM" />
+      <node id="WALKIE" label="WALKIE" />
+      <node id="SCRIPT" label="SCRIPT" />
+      <node id="PALOMINO" label="PALOMINO" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="LORDE" label="LORDE" />
+      <node id="TITO" label="TITO" />
+      <node id="SACHIKO" label="SACHIKO" />
+      <node id="CHAD" label="CHAD" />
+      <node id="MAN" label="MAN" />
+    </nodes>
+    <edges>
+      <edge id="11087" source="BERT" target="CYBIL" weight="2" />
+      <edge id="11088" source="BERT" target="WOLF" weight="1" />
+      <edge id="11089" source="BERT" target="GAFFER" weight="1" />
+      <edge id="11090" source="BERT" target="AC" weight="1" />
+      <edge id="11091" source="CYBIL" target="BERT" weight="2" />
+      <edge id="11092" source="CYBIL" target="WOLF" weight="1" />
+      <edge id="11093" source="CYBIL" target="GAFFER" weight="1" />
+      <edge id="11094" source="CYBIL" target="AC" weight="1" />
+      <edge id="11095" source="CYBIL" target="NICK" weight="1" />
+      <edge id="11096" source="CYBIL" target="NICOLE" weight="1" />
+      <edge id="11097" source="CYBIL" target="SCRIPT" weight="1" />
+      <edge id="11098" source="WOLF" target="CYBIL" weight="1" />
+      <edge id="11099" source="WOLF" target="GAFFER" weight="9" />
+      <edge id="11100" source="WOLF" target="AC" weight="17" />
+      <edge id="11101" source="WOLF" target="BERT" weight="1" />
+      <edge id="11102" source="WOLF" target="NICK" weight="25" />
+      <edge id="11103" source="WOLF" target="WANDA" weight="25" />
+      <edge id="11104" source="WOLF" target="SOUND" weight="14" />
+      <edge id="11105" source="WOLF" target="CLAPPER" weight="11" />
+      <edge id="11106" source="WOLF" target="BOOM" weight="4" />
+      <edge id="11107" source="WOLF" target="PALOMINO" weight="8" />
+      <edge id="11108" source="WOLF" target="NICOLE" weight="9" />
+      <edge id="11109" source="WOLF" target="SCRIPT" weight="2" />
+      <edge id="11110" source="WOLF" target="TITO" weight="5" />
+      <edge id="11111" source="WOLF" target="CORA" weight="3" />
+      <edge id="11112" source="GAFFER" target="WOLF" weight="9" />
+      <edge id="11113" source="GAFFER" target="CYBIL" weight="1" />
+      <edge id="11114" source="GAFFER" target="AC" weight="10" />
+      <edge id="11115" source="GAFFER" target="BERT" weight="1" />
+      <edge id="11116" source="GAFFER" target="WANDA" weight="6" />
+      <edge id="11117" source="GAFFER" target="SOUND" weight="5" />
+      <edge id="11118" source="GAFFER" target="CLAPPER" weight="4" />
+      <edge id="11119" source="GAFFER" target="NICK" weight="6" />
+      <edge id="11120" source="GAFFER" target="PALOMINO" weight="2" />
+      <edge id="11121" source="GAFFER" target="BOOM" weight="2" />
+      <edge id="11122" source="GAFFER" target="NICOLE" weight="4" />
+      <edge id="11123" source="GAFFER" target="TITO" weight="4" />
+      <edge id="11124" source="GAFFER" target="CORA" weight="1" />
+      <edge id="11125" source="AC" target="WOLF" weight="17" />
+      <edge id="11126" source="AC" target="CYBIL" weight="1" />
+      <edge id="11127" source="AC" target="GAFFER" weight="10" />
+      <edge id="11128" source="AC" target="BERT" weight="1" />
+      <edge id="11129" source="AC" target="WANDA" weight="22" />
+      <edge id="11130" source="AC" target="NICK" weight="22" />
+      <edge id="11131" source="AC" target="SOUND" weight="21" />
+      <edge id="11132" source="AC" target="CLAPPER" weight="18" />
+      <edge id="11133" source="AC" target="BOOM" weight="4" />
+      <edge id="11134" source="AC" target="WALKIE" weight="2" />
+      <edge id="11135" source="AC" target="CORA" weight="3" />
+      <edge id="11136" source="AC" target="SCRIPT" weight="2" />
+      <edge id="11137" source="AC" target="NICOLE" weight="7" />
+      <edge id="11138" source="AC" target="PALOMINO" weight="6" />
+      <edge id="11139" source="AC" target="TITO" weight="4" />
+      <edge id="11140" source="JEFF" target="NICOLE" weight="1" />
+      <edge id="11141" source="JEFF" target="NICK" weight="2" />
+      <edge id="11142" source="JEFF" target="PALOMINO" weight="1" />
+      <edge id="11143" source="JEFF" target="WANDA" weight="1" />
+      <edge id="11144" source="NICOLE" target="JEFF" weight="1" />
+      <edge id="11145" source="NICOLE" target="CORA" weight="14" />
+      <edge id="11146" source="NICOLE" target="NICK" weight="21" />
+      <edge id="11147" source="NICOLE" target="SCRIPT" weight="5" />
+      <edge id="11148" source="NICOLE" target="CYBIL" weight="1" />
+      <edge id="11149" source="NICOLE" target="AC" weight="7" />
+      <edge id="11150" source="NICOLE" target="PALOMINO" weight="15" />
+      <edge id="11151" source="NICOLE" target="WOMAN" weight="1" />
+      <edge id="11152" source="NICOLE" target="LORDE" weight="1" />
+      <edge id="11153" source="NICOLE" target="WANDA" weight="15" />
+      <edge id="11154" source="NICOLE" target="WOLF" weight="9" />
+      <edge id="11155" source="NICOLE" target="SOUND" weight="6" />
+      <edge id="11156" source="NICOLE" target="CLAPPER" weight="5" />
+      <edge id="11157" source="NICOLE" target="SACHIKO" weight="1" />
+      <edge id="11158" source="NICOLE" target="TITO" weight="5" />
+      <edge id="11159" source="NICOLE" target="GAFFER" weight="4" />
+      <edge id="11160" source="NICOLE" target="MAN" weight="1" />
+      <edge id="11161" source="CORA" target="NICOLE" weight="14" />
+      <edge id="11162" source="CORA" target="NICK" weight="10" />
+      <edge id="11163" source="CORA" target="WANDA" weight="5" />
+      <edge id="11164" source="CORA" target="AC" weight="3" />
+      <edge id="11165" source="CORA" target="SCRIPT" weight="1" />
+      <edge id="11166" source="CORA" target="SOUND" weight="2" />
+      <edge id="11167" source="CORA" target="CLAPPER" weight="1" />
+      <edge id="11168" source="CORA" target="GAFFER" weight="1" />
+      <edge id="11169" source="CORA" target="WOLF" weight="3" />
+      <edge id="11170" source="CORA" target="TITO" weight="2" />
+      <edge id="11171" source="NICK" target="WANDA" weight="38" />
+      <edge id="11172" source="NICK" target="WOLF" weight="25" />
+      <edge id="11173" source="NICK" target="SOUND" weight="22" />
+      <edge id="11174" source="NICK" target="AC" weight="22" />
+      <edge id="11175" source="NICK" target="CLAPPER" weight="18" />
+      <edge id="11176" source="NICK" target="BOOM" weight="3" />
+      <edge id="11177" source="NICK" target="WALKIE" weight="1" />
+      <edge id="11178" source="NICK" target="NICOLE" weight="21" />
+      <edge id="11179" source="NICK" target="SCRIPT" weight="5" />
+      <edge id="11180" source="NICK" target="CYBIL" weight="1" />
+      <edge id="11181" source="NICK" target="GAFFER" weight="6" />
+      <edge id="11182" source="NICK" target="CORA" weight="10" />
+      <edge id="11183" source="NICK" target="JEFF" weight="2" />
+      <edge id="11184" source="NICK" target="PALOMINO" weight="15" />
+      <edge id="11185" source="NICK" target="LORDE" weight="1" />
+      <edge id="11186" source="NICK" target="SACHIKO" weight="1" />
+      <edge id="11187" source="NICK" target="TITO" weight="7" />
+      <edge id="11188" source="WANDA" target="NICK" weight="38" />
+      <edge id="11189" source="WANDA" target="WOLF" weight="25" />
+      <edge id="11190" source="WANDA" target="SOUND" weight="23" />
+      <edge id="11191" source="WANDA" target="AC" weight="22" />
+      <edge id="11192" source="WANDA" target="CLAPPER" weight="18" />
+      <edge id="11193" source="WANDA" target="BOOM" weight="3" />
+      <edge id="11194" source="WANDA" target="WALKIE" weight="2" />
+      <edge id="11195" source="WANDA" target="GAFFER" weight="6" />
+      <edge id="11196" source="WANDA" target="CORA" weight="5" />
+      <edge id="11197" source="WANDA" target="SCRIPT" weight="5" />
+      <edge id="11198" source="WANDA" target="PALOMINO" weight="11" />
+      <edge id="11199" source="WANDA" target="NICOLE" weight="15" />
+      <edge id="11200" source="WANDA" target="TITO" weight="5" />
+      <edge id="11201" source="WANDA" target="JEFF" weight="1" />
+      <edge id="11202" source="WANDA" target="CHAD" weight="1" />
+      <edge id="11203" source="SOUND" target="WANDA" weight="23" />
+      <edge id="11204" source="SOUND" target="NICK" weight="22" />
+      <edge id="11205" source="SOUND" target="WOLF" weight="14" />
+      <edge id="11206" source="SOUND" target="AC" weight="21" />
+      <edge id="11207" source="SOUND" target="CLAPPER" weight="18" />
+      <edge id="11208" source="SOUND" target="BOOM" weight="4" />
+      <edge id="11209" source="SOUND" target="WALKIE" weight="1" />
+      <edge id="11210" source="SOUND" target="GAFFER" weight="5" />
+      <edge id="11211" source="SOUND" target="CORA" weight="2" />
+      <edge id="11212" source="SOUND" target="SCRIPT" weight="2" />
+      <edge id="11213" source="SOUND" target="PALOMINO" weight="6" />
+      <edge id="11214" source="SOUND" target="NICOLE" weight="6" />
+      <edge id="11215" source="SOUND" target="TITO" weight="2" />
+      <edge id="11216" source="CLAPPER" target="WANDA" weight="18" />
+      <edge id="11217" source="CLAPPER" target="NICK" weight="18" />
+      <edge id="11218" source="CLAPPER" target="WOLF" weight="11" />
+      <edge id="11219" source="CLAPPER" target="SOUND" weight="18" />
+      <edge id="11220" source="CLAPPER" target="AC" weight="18" />
+      <edge id="11221" source="CLAPPER" target="BOOM" weight="1" />
+      <edge id="11222" source="CLAPPER" target="WALKIE" weight="1" />
+      <edge id="11223" source="CLAPPER" target="GAFFER" weight="4" />
+      <edge id="11224" source="CLAPPER" target="CORA" weight="1" />
+      <edge id="11225" source="CLAPPER" target="SCRIPT" weight="2" />
+      <edge id="11226" source="CLAPPER" target="PALOMINO" weight="5" />
+      <edge id="11227" source="CLAPPER" target="NICOLE" weight="5" />
+      <edge id="11228" source="CLAPPER" target="TITO" weight="2" />
+      <edge id="11229" source="BOOM" target="WOLF" weight="4" />
+      <edge id="11230" source="BOOM" target="WANDA" weight="3" />
+      <edge id="11231" source="BOOM" target="NICK" weight="3" />
+      <edge id="11232" source="BOOM" target="SOUND" weight="4" />
+      <edge id="11233" source="BOOM" target="AC" weight="4" />
+      <edge id="11234" source="BOOM" target="CLAPPER" weight="1" />
+      <edge id="11235" source="BOOM" target="GAFFER" weight="2" />
+      <edge id="11236" source="WALKIE" target="SOUND" weight="1" />
+      <edge id="11237" source="WALKIE" target="WANDA" weight="2" />
+      <edge id="11238" source="WALKIE" target="NICK" weight="1" />
+      <edge id="11239" source="WALKIE" target="AC" weight="2" />
+      <edge id="11240" source="WALKIE" target="CLAPPER" weight="1" />
+      <edge id="11241" source="SCRIPT" target="NICK" weight="5" />
+      <edge id="11242" source="SCRIPT" target="NICOLE" weight="5" />
+      <edge id="11243" source="SCRIPT" target="CYBIL" weight="1" />
+      <edge id="11244" source="SCRIPT" target="CORA" weight="1" />
+      <edge id="11245" source="SCRIPT" target="AC" weight="2" />
+      <edge id="11246" source="SCRIPT" target="WANDA" weight="5" />
+      <edge id="11247" source="SCRIPT" target="SOUND" weight="2" />
+      <edge id="11248" source="SCRIPT" target="CLAPPER" weight="2" />
+      <edge id="11249" source="SCRIPT" target="WOLF" weight="2" />
+      <edge id="11250" source="SCRIPT" target="PALOMINO" weight="4" />
+      <edge id="11251" source="PALOMINO" target="WOMAN" weight="1" />
+      <edge id="11252" source="PALOMINO" target="NICOLE" weight="15" />
+      <edge id="11253" source="PALOMINO" target="NICK" weight="15" />
+      <edge id="11254" source="PALOMINO" target="JEFF" weight="1" />
+      <edge id="11255" source="PALOMINO" target="LORDE" weight="1" />
+      <edge id="11256" source="PALOMINO" target="WANDA" weight="11" />
+      <edge id="11257" source="PALOMINO" target="WOLF" weight="8" />
+      <edge id="11258" source="PALOMINO" target="SOUND" weight="6" />
+      <edge id="11259" source="PALOMINO" target="AC" weight="6" />
+      <edge id="11260" source="PALOMINO" target="CLAPPER" weight="5" />
+      <edge id="11261" source="PALOMINO" target="SCRIPT" weight="4" />
+      <edge id="11262" source="PALOMINO" target="GAFFER" weight="2" />
+      <edge id="11263" source="WOMAN" target="PALOMINO" weight="1" />
+      <edge id="11264" source="WOMAN" target="NICOLE" weight="1" />
+      <edge id="11265" source="LORDE" target="NICK" weight="1" />
+      <edge id="11266" source="LORDE" target="NICOLE" weight="1" />
+      <edge id="11267" source="LORDE" target="PALOMINO" weight="1" />
+      <edge id="11268" source="TITO" target="AC" weight="4" />
+      <edge id="11269" source="TITO" target="NICK" weight="7" />
+      <edge id="11270" source="TITO" target="NICOLE" weight="5" />
+      <edge id="11271" source="TITO" target="SACHIKO" weight="1" />
+      <edge id="11272" source="TITO" target="WOLF" weight="5" />
+      <edge id="11273" source="TITO" target="WANDA" weight="5" />
+      <edge id="11274" source="TITO" target="GAFFER" weight="4" />
+      <edge id="11275" source="TITO" target="SOUND" weight="2" />
+      <edge id="11276" source="TITO" target="CLAPPER" weight="2" />
+      <edge id="11277" source="TITO" target="CORA" weight="2" />
+      <edge id="11278" source="SACHIKO" target="NICK" weight="1" />
+      <edge id="11279" source="SACHIKO" target="NICOLE" weight="1" />
+      <edge id="11280" source="SACHIKO" target="TITO" weight="1" />
+      <edge id="11281" source="CHAD" target="WANDA" weight="1" />
+      <edge id="11282" source="MAN" target="NICOLE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

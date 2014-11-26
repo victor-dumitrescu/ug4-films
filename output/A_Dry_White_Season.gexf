@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="BEN" label="BEN" />
+      <node id="JOHAN" label="JOHAN" />
+      <node id="GORDON" label="GORDON" />
+      <node id="JONATHAN" label="JONATHAN" />
+      <node id="LEADER" label="LEADER" />
+      <node id="MAN WITH SIDEBURNS" label="MAN WITH SIDEBURNS" />
+      <node id="MRS. COETZEE" label="MRS. COETZEE" />
+      <node id="SUSAN" label="SUSAN" />
+      <node id="STUDENT LEADER" label="STUDENT LEADER" />
+      <node id="STUDENTS" label="STUDENTS" />
+      <node id="COMMANDANT" label="COMMANDANT" />
+      <node id="GIRL" label="GIRL" />
+      <node id="LARGE WOMAN" label="LARGE WOMAN" />
+      <node id="MAN #1" label="MAN #1" />
+      <node id="MAN #2" label="MAN #2" />
+      <node id="MAN IN KHAKI UNIFORM" label="MAN IN KHAKI UNIFORM" />
+      <node id="WOMAN #1" label="WOMAN #1" />
+      <node id="MAN #3" label="MAN #3" />
+      <node id="MAN IN BLUE OVERALLS" label="MAN IN BLUE OVERALLS" />
+      <node id="VOICE" label="VOICE" />
+      <node id="SMARTLY-DRESSED MAN" label="SMARTLY-DRESSED MAN" />
+      <node id="YOUNG WOMAN" label="YOUNG WOMAN" />
+      <node id="STANLEY" label="STANLEY" />
+      <node id="SERGEANT VAN ZYL" label="SERGEANT VAN ZYL" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="JULIUS" label="JULIUS" />
+      <node id="EMILY" label="EMILY" />
+      <node id="LEWINSON" label="LEWINSON" />
+      <node id="SUPERINTENDENT" label="SUPERINTENDENT" />
+      <node id="CLOETE" label="CLOETE" />
+      <node id="ROBERT" label="ROBERT" />
+      <node id="BOY" label="BOY" />
+      <node id="WELLINGTON" label="WELLINGTON" />
+      <node id="SUZETTE" label="SUZETTE" />
+      <node id="CHRIS" label="CHRIS" />
+      <node id="LIEUTENANT VENTER" label="LIEUTENANT VENTER" />
+      <node id="STOLZ" label="STOLZ" />
+      <node id="OFFICE VOICE" label="OFFICE VOICE" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="VILJOEN" label="VILJOEN" />
+      <node id="VIVIERS" label="VIVIERS" />
+      <node id="MRS. CLOETE" label="MRS. CLOETE" />
+      <node id="MRS. BESTER" label="MRS. BESTER" />
+      <node id="BESTER" label="BESTER" />
+      <node id="CAPTAIN STOLZ" label="CAPTAIN STOLZ" />
+      <node id="SEROKE" label="SEROKE" />
+      <node id="PRIEST" label="PRIEST" />
+      <node id="SENIOR OFFICER" label="SENIOR OFFICER" />
+      <node id="COMMENTARY" label="COMMENTARY" />
+      <node id="NEWSCASTER" label="NEWSCASTER" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="DE VILLIERS" label="DE VILLIERS" />
+      <node id="DR. JANSEN" label="DR. JANSEN" />
+      <node id="DR. HERZOG" label="DR. HERZOG" />
+      <node id="DE VILIERS" label="DE VILIERS" />
+      <node id="LOUW" label="LOUW" />
+      <node id="MAGISTRATE" label="MAGISTRATE" />
+      <node id="ARCHIBALD" label="ARCHIBALD" />
+      <node id="GRACE" label="GRACE" />
+      <node id="REPORTERS" label="REPORTERS" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="MELANIE" label="MELANIE" />
+      <node id="BRUWER" label="BRUWER" />
+      <node id="PROPRIETOR" label="PROPRIETOR" />
+      <node id="TOM" label="TOM" />
+      <node id="FATHER-IN-LAW" label="FATHER-IN-LAW" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="MOTHER-IN-LAW" label="MOTHER-IN-LAW" />
+      <node id="COLORED WOMAN" label="COLORED WOMAN" />
+      <node id="SADIE" label="SADIE" />
+      <node id="CROWD" label="CROWD" />
+      <node id="JAIMIE" label="JAIMIE" />
+      <node id="OTHER POLICEMAN" label="OTHER POLICEMAN" />
+      <node id="DR. HASSIEM" label="DR. HASSIEM" />
+      <node id="INDIAN WOMAN" label="INDIAN WOMAN" />
+      <node id="OFFICIAL" label="OFFICIAL" />
+      <node id="MALE" label="MALE" />
+    </nodes>
+    <edges>
+      <edge id="1" source="BEN" target="JOHAN" weight="16" />
+      <edge id="2" source="BEN" target="GORDON" weight="6" />
+      <edge id="3" source="BEN" target="JONATHAN" weight="1" />
+      <edge id="4" source="BEN" target="MRS. COETZEE" weight="1" />
+      <edge id="5" source="BEN" target="SUSAN" weight="18" />
+      <edge id="6" source="BEN" target="CLOETE" weight="5" />
+      <edge id="7" source="BEN" target="SUZETTE" weight="9" />
+      <edge id="8" source="BEN" target="CHRIS" weight="2" />
+      <edge id="9" source="BEN" target="OFFICE VOICE" weight="1" />
+      <edge id="10" source="BEN" target="EMILY" weight="5" />
+      <edge id="11" source="BEN" target="STANLEY" weight="23" />
+      <edge id="12" source="BEN" target="VILJOEN" weight="3" />
+      <edge id="13" source="BEN" target="STOLZ" weight="6" />
+      <edge id="14" source="BEN" target="VIVIERS" weight="4" />
+      <edge id="15" source="BEN" target="MRS. CLOETE" weight="1" />
+      <edge id="16" source="BEN" target="MRS. BESTER" weight="1" />
+      <edge id="17" source="BEN" target="BESTER" weight="2" />
+      <edge id="18" source="BEN" target="MARGARET" weight="1" />
+      <edge id="19" source="BEN" target="PRIEST" weight="1" />
+      <edge id="20" source="BEN" target="BOY" weight="1" />
+      <edge id="21" source="BEN" target="LEWINSON" weight="2" />
+      <edge id="22" source="BEN" target="REPORTERS" weight="1" />
+      <edge id="23" source="BEN" target="REPORTER" weight="1" />
+      <edge id="24" source="BEN" target="MELANIE" weight="6" />
+      <edge id="25" source="BEN" target="BRUWER" weight="2" />
+      <edge id="26" source="BEN" target="PROPRIETOR" weight="1" />
+      <edge id="27" source="BEN" target="TOM" weight="1" />
+      <edge id="28" source="BEN" target="FATHER-IN-LAW" weight="4" />
+      <edge id="29" source="BEN" target="MOTHER" weight="1" />
+      <edge id="30" source="BEN" target="MOTHER-IN-LAW" weight="1" />
+      <edge id="31" source="BEN" target="JULIUS" weight="2" />
+      <edge id="32" source="BEN" target="COLORED WOMAN" weight="1" />
+      <edge id="33" source="BEN" target="SADIE" weight="1" />
+      <edge id="34" source="BEN" target="SEROKE" weight="1" />
+      <edge id="35" source="BEN" target="WOMAN" weight="1" />
+      <edge id="36" source="BEN" target="DR. HASSIEM" weight="2" />
+      <edge id="37" source="BEN" target="INDIAN WOMAN" weight="1" />
+      <edge id="38" source="BEN" target="OFFICIAL" weight="1" />
+      <edge id="39" source="BEN" target="MALE" weight="1" />
+      <edge id="40" source="JOHAN" target="BEN" weight="16" />
+      <edge id="41" source="JOHAN" target="GORDON" weight="3" />
+      <edge id="42" source="JOHAN" target="JONATHAN" weight="1" />
+      <edge id="43" source="JOHAN" target="SUSAN" weight="8" />
+      <edge id="44" source="JOHAN" target="SUZETTE" weight="3" />
+      <edge id="45" source="JOHAN" target="CHRIS" weight="1" />
+      <edge id="46" source="JOHAN" target="OFFICE VOICE" weight="1" />
+      <edge id="47" source="JOHAN" target="STANLEY" weight="2" />
+      <edge id="48" source="JOHAN" target="FATHER-IN-LAW" weight="2" />
+      <edge id="49" source="JOHAN" target="MOTHER" weight="1" />
+      <edge id="50" source="JOHAN" target="MOTHER-IN-LAW" weight="1" />
+      <edge id="51" source="JOHAN" target="JULIUS" weight="1" />
+      <edge id="52" source="JOHAN" target="STOLZ" weight="2" />
+      <edge id="53" source="JOHAN" target="INDIAN WOMAN" weight="1" />
+      <edge id="54" source="JOHAN" target="OFFICIAL" weight="1" />
+      <edge id="55" source="GORDON" target="BEN" weight="6" />
+      <edge id="56" source="GORDON" target="JOHAN" weight="3" />
+      <edge id="57" source="GORDON" target="JONATHAN" weight="1" />
+      <edge id="58" source="GORDON" target="SUSAN" weight="2" />
+      <edge id="59" source="GORDON" target="GIRL" weight="1" />
+      <edge id="60" source="GORDON" target="STANLEY" weight="3" />
+      <edge id="61" source="GORDON" target="JULIUS" weight="2" />
+      <edge id="62" source="GORDON" target="EMILY" weight="2" />
+      <edge id="63" source="GORDON" target="CLOETE" weight="1" />
+      <edge id="64" source="GORDON" target="WELLINGTON" weight="1" />
+      <edge id="65" source="GORDON" target="LIEUTENANT VENTER" weight="3" />
+      <edge id="66" source="GORDON" target="STOLZ" weight="3" />
+      <edge id="67" source="GORDON" target="OFFICE VOICE" weight="1" />
+      <edge id="68" source="GORDON" target="CAPTAIN STOLZ" weight="1" />
+      <edge id="69" source="GORDON" target="SEROKE" weight="1" />
+      <edge id="70" source="JONATHAN" target="BEN" weight="1" />
+      <edge id="71" source="JONATHAN" target="JOHAN" weight="1" />
+      <edge id="72" source="JONATHAN" target="GORDON" weight="1" />
+      <edge id="73" source="JONATHAN" target="STUDENT LEADER" weight="1" />
+      <edge id="74" source="JONATHAN" target="STUDENTS" weight="1" />
+      <edge id="75" source="JONATHAN" target="COMMANDANT" weight="1" />
+      <edge id="76" source="JONATHAN" target="GIRL" weight="1" />
+      <edge id="77" source="LEADER" target="MAN WITH SIDEBURNS" weight="1" />
+      <edge id="78" source="MAN WITH SIDEBURNS" target="LEADER" weight="1" />
+      <edge id="79" source="MRS. COETZEE" target="BEN" weight="1" />
+      <edge id="80" source="MRS. COETZEE" target="SUSAN" weight="1" />
+      <edge id="81" source="SUSAN" target="MRS. COETZEE" weight="1" />
+      <edge id="82" source="SUSAN" target="BEN" weight="18" />
+      <edge id="83" source="SUSAN" target="GORDON" weight="2" />
+      <edge id="84" source="SUSAN" target="SUZETTE" weight="4" />
+      <edge id="85" source="SUSAN" target="CHRIS" weight="1" />
+      <edge id="86" source="SUSAN" target="JOHAN" weight="8" />
+      <edge id="87" source="SUSAN" target="OFFICE VOICE" weight="1" />
+      <edge id="88" source="SUSAN" target="CLOETE" weight="1" />
+      <edge id="89" source="SUSAN" target="VIVIERS" weight="1" />
+      <edge id="90" source="SUSAN" target="BESTER" weight="1" />
+      <edge id="91" source="SUSAN" target="STANLEY" weight="2" />
+      <edge id="92" source="SUSAN" target="STOLZ" weight="1" />
+      <edge id="93" source="SUSAN" target="FATHER-IN-LAW" weight="1" />
+      <edge id="94" source="SUSAN" target="MOTHER" weight="1" />
+      <edge id="95" source="SUSAN" target="MOTHER-IN-LAW" weight="1" />
+      <edge id="96" source="SUSAN" target="JULIUS" weight="1" />
+      <edge id="97" source="STUDENT LEADER" target="STUDENTS" weight="1" />
+      <edge id="98" source="STUDENT LEADER" target="COMMANDANT" weight="1" />
+      <edge id="99" source="STUDENT LEADER" target="JONATHAN" weight="1" />
+      <edge id="100" source="STUDENT LEADER" target="GIRL" weight="1" />
+      <edge id="101" source="STUDENTS" target="STUDENT LEADER" weight="1" />
+      <edge id="102" source="STUDENTS" target="COMMANDANT" weight="1" />
+      <edge id="103" source="STUDENTS" target="JONATHAN" weight="1" />
+      <edge id="104" source="STUDENTS" target="GIRL" weight="1" />
+      <edge id="105" source="COMMANDANT" target="STUDENT LEADER" weight="1" />
+      <edge id="106" source="COMMANDANT" target="STUDENTS" weight="1" />
+      <edge id="107" source="COMMANDANT" target="JONATHAN" weight="1" />
+      <edge id="108" source="COMMANDANT" target="GIRL" weight="1" />
+      <edge id="109" source="GIRL" target="STUDENT LEADER" weight="1" />
+      <edge id="110" source="GIRL" target="STUDENTS" weight="1" />
+      <edge id="111" source="GIRL" target="COMMANDANT" weight="1" />
+      <edge id="112" source="GIRL" target="JONATHAN" weight="1" />
+      <edge id="113" source="GIRL" target="GORDON" weight="1" />
+      <edge id="114" source="LARGE WOMAN" target="MAN #1" weight="1" />
+      <edge id="115" source="LARGE WOMAN" target="MAN #2" weight="1" />
+      <edge id="116" source="LARGE WOMAN" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="117" source="LARGE WOMAN" target="WOMAN #1" weight="1" />
+      <edge id="118" source="LARGE WOMAN" target="MAN #3" weight="1" />
+      <edge id="119" source="LARGE WOMAN" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="120" source="LARGE WOMAN" target="VOICE" weight="1" />
+      <edge id="121" source="LARGE WOMAN" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="122" source="LARGE WOMAN" target="YOUNG WOMAN" weight="1" />
+      <edge id="123" source="MAN #1" target="LARGE WOMAN" weight="1" />
+      <edge id="124" source="MAN #1" target="MAN #2" weight="1" />
+      <edge id="125" source="MAN #1" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="126" source="MAN #1" target="WOMAN #1" weight="1" />
+      <edge id="127" source="MAN #1" target="MAN #3" weight="1" />
+      <edge id="128" source="MAN #1" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="129" source="MAN #1" target="VOICE" weight="1" />
+      <edge id="130" source="MAN #1" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="131" source="MAN #1" target="YOUNG WOMAN" weight="1" />
+      <edge id="132" source="MAN #2" target="LARGE WOMAN" weight="1" />
+      <edge id="133" source="MAN #2" target="MAN #1" weight="1" />
+      <edge id="134" source="MAN #2" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="135" source="MAN #2" target="WOMAN #1" weight="1" />
+      <edge id="136" source="MAN #2" target="MAN #3" weight="1" />
+      <edge id="137" source="MAN #2" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="138" source="MAN #2" target="VOICE" weight="1" />
+      <edge id="139" source="MAN #2" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="140" source="MAN #2" target="YOUNG WOMAN" weight="1" />
+      <edge id="141" source="MAN IN KHAKI UNIFORM" target="LARGE WOMAN" weight="1" />
+      <edge id="142" source="MAN IN KHAKI UNIFORM" target="MAN #1" weight="1" />
+      <edge id="143" source="MAN IN KHAKI UNIFORM" target="MAN #2" weight="1" />
+      <edge id="144" source="MAN IN KHAKI UNIFORM" target="WOMAN #1" weight="1" />
+      <edge id="145" source="MAN IN KHAKI UNIFORM" target="MAN #3" weight="1" />
+      <edge id="146" source="MAN IN KHAKI UNIFORM" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="147" source="MAN IN KHAKI UNIFORM" target="VOICE" weight="1" />
+      <edge id="148" source="MAN IN KHAKI UNIFORM" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="149" source="MAN IN KHAKI UNIFORM" target="YOUNG WOMAN" weight="1" />
+      <edge id="150" source="WOMAN #1" target="LARGE WOMAN" weight="1" />
+      <edge id="151" source="WOMAN #1" target="MAN #1" weight="1" />
+      <edge id="152" source="WOMAN #1" target="MAN #2" weight="1" />
+      <edge id="153" source="WOMAN #1" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="154" source="WOMAN #1" target="MAN #3" weight="1" />
+      <edge id="155" source="WOMAN #1" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="156" source="WOMAN #1" target="VOICE" weight="1" />
+      <edge id="157" source="WOMAN #1" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="158" source="WOMAN #1" target="YOUNG WOMAN" weight="1" />
+      <edge id="159" source="MAN #3" target="LARGE WOMAN" weight="1" />
+      <edge id="160" source="MAN #3" target="MAN #1" weight="1" />
+      <edge id="161" source="MAN #3" target="MAN #2" weight="1" />
+      <edge id="162" source="MAN #3" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="163" source="MAN #3" target="WOMAN #1" weight="1" />
+      <edge id="164" source="MAN #3" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="165" source="MAN #3" target="VOICE" weight="1" />
+      <edge id="166" source="MAN #3" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="167" source="MAN #3" target="YOUNG WOMAN" weight="1" />
+      <edge id="168" source="MAN IN BLUE OVERALLS" target="LARGE WOMAN" weight="1" />
+      <edge id="169" source="MAN IN BLUE OVERALLS" target="MAN #1" weight="1" />
+      <edge id="170" source="MAN IN BLUE OVERALLS" target="MAN #2" weight="1" />
+      <edge id="171" source="MAN IN BLUE OVERALLS" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="172" source="MAN IN BLUE OVERALLS" target="WOMAN #1" weight="1" />
+      <edge id="173" source="MAN IN BLUE OVERALLS" target="MAN #3" weight="1" />
+      <edge id="174" source="MAN IN BLUE OVERALLS" target="VOICE" weight="1" />
+      <edge id="175" source="MAN IN BLUE OVERALLS" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="176" source="MAN IN BLUE OVERALLS" target="YOUNG WOMAN" weight="1" />
+      <edge id="177" source="VOICE" target="LARGE WOMAN" weight="1" />
+      <edge id="178" source="VOICE" target="MAN #1" weight="1" />
+      <edge id="179" source="VOICE" target="MAN #2" weight="1" />
+      <edge id="180" source="VOICE" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="181" source="VOICE" target="WOMAN #1" weight="1" />
+      <edge id="182" source="VOICE" target="MAN #3" weight="1" />
+      <edge id="183" source="VOICE" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="184" source="VOICE" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="185" source="VOICE" target="YOUNG WOMAN" weight="1" />
+      <edge id="186" source="SMARTLY-DRESSED MAN" target="LARGE WOMAN" weight="1" />
+      <edge id="187" source="SMARTLY-DRESSED MAN" target="MAN #1" weight="1" />
+      <edge id="188" source="SMARTLY-DRESSED MAN" target="MAN #2" weight="1" />
+      <edge id="189" source="SMARTLY-DRESSED MAN" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="190" source="SMARTLY-DRESSED MAN" target="WOMAN #1" weight="1" />
+      <edge id="191" source="SMARTLY-DRESSED MAN" target="MAN #3" weight="1" />
+      <edge id="192" source="SMARTLY-DRESSED MAN" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="193" source="SMARTLY-DRESSED MAN" target="VOICE" weight="1" />
+      <edge id="194" source="SMARTLY-DRESSED MAN" target="YOUNG WOMAN" weight="1" />
+      <edge id="195" source="YOUNG WOMAN" target="LARGE WOMAN" weight="1" />
+      <edge id="196" source="YOUNG WOMAN" target="MAN #1" weight="1" />
+      <edge id="197" source="YOUNG WOMAN" target="MAN #2" weight="1" />
+      <edge id="198" source="YOUNG WOMAN" target="MAN IN KHAKI UNIFORM" weight="1" />
+      <edge id="199" source="YOUNG WOMAN" target="WOMAN #1" weight="1" />
+      <edge id="200" source="YOUNG WOMAN" target="MAN #3" weight="1" />
+      <edge id="201" source="YOUNG WOMAN" target="MAN IN BLUE OVERALLS" weight="1" />
+      <edge id="202" source="YOUNG WOMAN" target="VOICE" weight="1" />
+      <edge id="203" source="YOUNG WOMAN" target="SMARTLY-DRESSED MAN" weight="1" />
+      <edge id="204" source="STANLEY" target="SERGEANT VAN ZYL" weight="1" />
+      <edge id="205" source="STANLEY" target="WOMAN" weight="1" />
+      <edge id="206" source="STANLEY" target="GORDON" weight="3" />
+      <edge id="207" source="STANLEY" target="JULIUS" weight="2" />
+      <edge id="208" source="STANLEY" target="EMILY" weight="5" />
+      <edge id="209" source="STANLEY" target="BOY" weight="2" />
+      <edge id="210" source="STANLEY" target="WELLINGTON" weight="1" />
+      <edge id="211" source="STANLEY" target="BEN" weight="23" />
+      <edge id="212" source="STANLEY" target="SUSAN" weight="2" />
+      <edge id="213" source="STANLEY" target="JOHAN" weight="2" />
+      <edge id="214" source="STANLEY" target="MARGARET" weight="1" />
+      <edge id="215" source="STANLEY" target="PRIEST" weight="1" />
+      <edge id="216" source="STANLEY" target="REPORTERS" weight="1" />
+      <edge id="217" source="STANLEY" target="REPORTER" weight="1" />
+      <edge id="218" source="STANLEY" target="MELANIE" weight="1" />
+      <edge id="219" source="STANLEY" target="COLORED WOMAN" weight="1" />
+      <edge id="220" source="STANLEY" target="SADIE" weight="1" />
+      <edge id="221" source="STANLEY" target="SEROKE" weight="1" />
+      <edge id="222" source="STANLEY" target="JAIMIE" weight="1" />
+      <edge id="223" source="STANLEY" target="OTHER POLICEMAN" weight="1" />
+      <edge id="224" source="STANLEY" target="FATHER-IN-LAW" weight="1" />
+      <edge id="225" source="STANLEY" target="CHRIS" weight="1" />
+      <edge id="226" source="STANLEY" target="MALE" weight="1" />
+      <edge id="227" source="SERGEANT VAN ZYL" target="STANLEY" weight="1" />
+      <edge id="228" source="SERGEANT VAN ZYL" target="WOMAN" weight="1" />
+      <edge id="229" source="WOMAN" target="STANLEY" weight="1" />
+      <edge id="230" source="WOMAN" target="SERGEANT VAN ZYL" weight="1" />
+      <edge id="231" source="WOMAN" target="EMILY" weight="1" />
+      <edge id="232" source="WOMAN" target="CROWD" weight="1" />
+      <edge id="233" source="WOMAN" target="BEN" weight="1" />
+      <edge id="234" source="JULIUS" target="STANLEY" weight="2" />
+      <edge id="235" source="JULIUS" target="GORDON" weight="2" />
+      <edge id="236" source="JULIUS" target="EMILY" weight="2" />
+      <edge id="237" source="JULIUS" target="BEN" weight="2" />
+      <edge id="238" source="JULIUS" target="SUSAN" weight="1" />
+      <edge id="239" source="JULIUS" target="JOHAN" weight="1" />
+      <edge id="240" source="EMILY" target="STANLEY" weight="5" />
+      <edge id="241" source="EMILY" target="GORDON" weight="2" />
+      <edge id="242" source="EMILY" target="JULIUS" weight="2" />
+      <edge id="243" source="EMILY" target="ROBERT" weight="1" />
+      <edge id="244" source="EMILY" target="BEN" weight="5" />
+      <edge id="245" source="EMILY" target="MARGARET" weight="1" />
+      <edge id="246" source="EMILY" target="PRIEST" weight="1" />
+      <edge id="247" source="EMILY" target="DE VILLIERS" weight="1" />
+      <edge id="248" source="EMILY" target="MAGISTRATE" weight="1" />
+      <edge id="249" source="EMILY" target="GRACE" weight="1" />
+      <edge id="250" source="EMILY" target="LOUW" weight="1" />
+      <edge id="251" source="EMILY" target="WOMAN" weight="1" />
+      <edge id="252" source="EMILY" target="CROWD" weight="1" />
+      <edge id="253" source="LEWINSON" target="BEN" weight="2" />
+      <edge id="254" source="CLOETE" target="GORDON" weight="1" />
+      <edge id="255" source="CLOETE" target="BEN" weight="5" />
+      <edge id="256" source="CLOETE" target="SUSAN" weight="1" />
+      <edge id="257" source="CLOETE" target="VIVIERS" weight="2" />
+      <edge id="258" source="CLOETE" target="BESTER" weight="1" />
+      <edge id="259" source="CLOETE" target="SUZETTE" weight="1" />
+      <edge id="260" source="ROBERT" target="EMILY" weight="1" />
+      <edge id="261" source="BOY" target="STANLEY" weight="2" />
+      <edge id="262" source="BOY" target="BEN" weight="1" />
+      <edge id="263" source="WELLINGTON" target="STANLEY" weight="1" />
+      <edge id="264" source="WELLINGTON" target="GORDON" weight="1" />
+      <edge id="265" source="SUZETTE" target="SUSAN" weight="4" />
+      <edge id="266" source="SUZETTE" target="BEN" weight="9" />
+      <edge id="267" source="SUZETTE" target="CHRIS" weight="1" />
+      <edge id="268" source="SUZETTE" target="JOHAN" weight="3" />
+      <edge id="269" source="SUZETTE" target="CLOETE" weight="1" />
+      <edge id="270" source="SUZETTE" target="VIVIERS" weight="1" />
+      <edge id="271" source="SUZETTE" target="BESTER" weight="1" />
+      <edge id="272" source="SUZETTE" target="FATHER-IN-LAW" weight="2" />
+      <edge id="273" source="SUZETTE" target="VILJOEN" weight="1" />
+      <edge id="274" source="SUZETTE" target="STOLZ" weight="1" />
+      <edge id="275" source="CHRIS" target="SUSAN" weight="1" />
+      <edge id="276" source="CHRIS" target="BEN" weight="2" />
+      <edge id="277" source="CHRIS" target="SUZETTE" weight="1" />
+      <edge id="278" source="CHRIS" target="JOHAN" weight="1" />
+      <edge id="279" source="CHRIS" target="STANLEY" weight="1" />
+      <edge id="280" source="CHRIS" target="FATHER-IN-LAW" weight="1" />
+      <edge id="281" source="LIEUTENANT VENTER" target="GORDON" weight="3" />
+      <edge id="282" source="LIEUTENANT VENTER" target="STOLZ" weight="3" />
+      <edge id="283" source="LIEUTENANT VENTER" target="CAPTAIN STOLZ" weight="1" />
+      <edge id="284" source="LIEUTENANT VENTER" target="SEROKE" weight="1" />
+      <edge id="285" source="STOLZ" target="GORDON" weight="3" />
+      <edge id="286" source="STOLZ" target="LIEUTENANT VENTER" weight="3" />
+      <edge id="287" source="STOLZ" target="VILJOEN" weight="3" />
+      <edge id="288" source="STOLZ" target="BEN" weight="6" />
+      <edge id="289" source="STOLZ" target="CAPTAIN STOLZ" weight="1" />
+      <edge id="290" source="STOLZ" target="SEROKE" weight="1" />
+      <edge id="291" source="STOLZ" target="DE VILLIERS" weight="1" />
+      <edge id="292" source="STOLZ" target="DR. JANSEN" weight="1" />
+      <edge id="293" source="STOLZ" target="DR. HERZOG" weight="1" />
+      <edge id="294" source="STOLZ" target="DE VILIERS" weight="1" />
+      <edge id="295" source="STOLZ" target="LOUW" weight="1" />
+      <edge id="296" source="STOLZ" target="MAGISTRATE" weight="1" />
+      <edge id="297" source="STOLZ" target="ARCHIBALD" weight="1" />
+      <edge id="298" source="STOLZ" target="MELANIE" weight="1" />
+      <edge id="299" source="STOLZ" target="SUSAN" weight="1" />
+      <edge id="300" source="STOLZ" target="JOHAN" weight="2" />
+      <edge id="301" source="STOLZ" target="INDIAN WOMAN" weight="1" />
+      <edge id="302" source="STOLZ" target="OFFICIAL" weight="1" />
+      <edge id="303" source="STOLZ" target="SUZETTE" weight="1" />
+      <edge id="304" source="OFFICE VOICE" target="GORDON" weight="1" />
+      <edge id="305" source="OFFICE VOICE" target="BEN" weight="1" />
+      <edge id="306" source="OFFICE VOICE" target="JOHAN" weight="1" />
+      <edge id="307" source="OFFICE VOICE" target="SUSAN" weight="1" />
+      <edge id="308" source="VILJOEN" target="BEN" weight="3" />
+      <edge id="309" source="VILJOEN" target="STOLZ" weight="3" />
+      <edge id="310" source="VILJOEN" target="SUZETTE" weight="1" />
+      <edge id="311" source="VIVIERS" target="BEN" weight="4" />
+      <edge id="312" source="VIVIERS" target="MRS. CLOETE" weight="1" />
+      <edge id="313" source="VIVIERS" target="MRS. BESTER" weight="1" />
+      <edge id="314" source="VIVIERS" target="SUSAN" weight="1" />
+      <edge id="315" source="VIVIERS" target="CLOETE" weight="2" />
+      <edge id="316" source="VIVIERS" target="BESTER" weight="1" />
+      <edge id="317" source="VIVIERS" target="SUZETTE" weight="1" />
+      <edge id="318" source="MRS. CLOETE" target="BEN" weight="1" />
+      <edge id="319" source="MRS. CLOETE" target="VIVIERS" weight="1" />
+      <edge id="320" source="MRS. CLOETE" target="MRS. BESTER" weight="1" />
+      <edge id="321" source="MRS. BESTER" target="BEN" weight="1" />
+      <edge id="322" source="MRS. BESTER" target="VIVIERS" weight="1" />
+      <edge id="323" source="MRS. BESTER" target="MRS. CLOETE" weight="1" />
+      <edge id="324" source="BESTER" target="SUSAN" weight="1" />
+      <edge id="325" source="BESTER" target="CLOETE" weight="1" />
+      <edge id="326" source="BESTER" target="BEN" weight="2" />
+      <edge id="327" source="BESTER" target="VIVIERS" weight="1" />
+      <edge id="328" source="BESTER" target="SUZETTE" weight="1" />
+      <edge id="329" source="BESTER" target="TOM" weight="1" />
+      <edge id="330" source="CAPTAIN STOLZ" target="LIEUTENANT VENTER" weight="1" />
+      <edge id="331" source="CAPTAIN STOLZ" target="STOLZ" weight="1" />
+      <edge id="332" source="CAPTAIN STOLZ" target="GORDON" weight="1" />
+      <edge id="333" source="CAPTAIN STOLZ" target="SEROKE" weight="1" />
+      <edge id="334" source="SEROKE" target="CAPTAIN STOLZ" weight="1" />
+      <edge id="335" source="SEROKE" target="LIEUTENANT VENTER" weight="1" />
+      <edge id="336" source="SEROKE" target="STOLZ" weight="1" />
+      <edge id="337" source="SEROKE" target="GORDON" weight="1" />
+      <edge id="338" source="SEROKE" target="COLORED WOMAN" weight="1" />
+      <edge id="339" source="SEROKE" target="STANLEY" weight="1" />
+      <edge id="340" source="SEROKE" target="BEN" weight="1" />
+      <edge id="341" source="SEROKE" target="SADIE" weight="1" />
+      <edge id="342" source="PRIEST" target="SENIOR OFFICER" weight="1" />
+      <edge id="343" source="PRIEST" target="BEN" weight="1" />
+      <edge id="344" source="PRIEST" target="EMILY" weight="1" />
+      <edge id="345" source="PRIEST" target="STANLEY" weight="1" />
+      <edge id="346" source="PRIEST" target="MARGARET" weight="1" />
+      <edge id="347" source="SENIOR OFFICER" target="PRIEST" weight="1" />
+      <edge id="348" source="COMMENTARY" target="NEWSCASTER" weight="1" />
+      <edge id="349" source="NEWSCASTER" target="COMMENTARY" weight="1" />
+      <edge id="350" source="MARGARET" target="BEN" weight="1" />
+      <edge id="351" source="MARGARET" target="EMILY" weight="1" />
+      <edge id="352" source="MARGARET" target="STANLEY" weight="1" />
+      <edge id="353" source="MARGARET" target="PRIEST" weight="1" />
+      <edge id="354" source="DE VILLIERS" target="DR. JANSEN" weight="1" />
+      <edge id="355" source="DE VILLIERS" target="DR. HERZOG" weight="1" />
+      <edge id="356" source="DE VILLIERS" target="DE VILIERS" weight="1" />
+      <edge id="357" source="DE VILLIERS" target="LOUW" weight="2" />
+      <edge id="358" source="DE VILLIERS" target="MAGISTRATE" weight="2" />
+      <edge id="359" source="DE VILLIERS" target="STOLZ" weight="1" />
+      <edge id="360" source="DE VILLIERS" target="ARCHIBALD" weight="1" />
+      <edge id="361" source="DE VILLIERS" target="EMILY" weight="1" />
+      <edge id="362" source="DE VILLIERS" target="GRACE" weight="1" />
+      <edge id="363" source="DR. JANSEN" target="DE VILLIERS" weight="1" />
+      <edge id="364" source="DR. JANSEN" target="DR. HERZOG" weight="1" />
+      <edge id="365" source="DR. JANSEN" target="DE VILIERS" weight="1" />
+      <edge id="366" source="DR. JANSEN" target="LOUW" weight="1" />
+      <edge id="367" source="DR. JANSEN" target="MAGISTRATE" weight="1" />
+      <edge id="368" source="DR. JANSEN" target="STOLZ" weight="1" />
+      <edge id="369" source="DR. JANSEN" target="ARCHIBALD" weight="1" />
+      <edge id="370" source="DR. HERZOG" target="DE VILLIERS" weight="1" />
+      <edge id="371" source="DR. HERZOG" target="DR. JANSEN" weight="1" />
+      <edge id="372" source="DR. HERZOG" target="DE VILIERS" weight="1" />
+      <edge id="373" source="DR. HERZOG" target="LOUW" weight="1" />
+      <edge id="374" source="DR. HERZOG" target="MAGISTRATE" weight="1" />
+      <edge id="375" source="DR. HERZOG" target="STOLZ" weight="1" />
+      <edge id="376" source="DR. HERZOG" target="ARCHIBALD" weight="1" />
+      <edge id="377" source="DE VILIERS" target="DE VILLIERS" weight="1" />
+      <edge id="378" source="DE VILIERS" target="DR. JANSEN" weight="1" />
+      <edge id="379" source="DE VILIERS" target="DR. HERZOG" weight="1" />
+      <edge id="380" source="DE VILIERS" target="LOUW" weight="1" />
+      <edge id="381" source="DE VILIERS" target="MAGISTRATE" weight="1" />
+      <edge id="382" source="DE VILIERS" target="STOLZ" weight="1" />
+      <edge id="383" source="DE VILIERS" target="ARCHIBALD" weight="1" />
+      <edge id="384" source="LOUW" target="DE VILLIERS" weight="2" />
+      <edge id="385" source="LOUW" target="DR. JANSEN" weight="1" />
+      <edge id="386" source="LOUW" target="DR. HERZOG" weight="1" />
+      <edge id="387" source="LOUW" target="DE VILIERS" weight="1" />
+      <edge id="388" source="LOUW" target="MAGISTRATE" weight="2" />
+      <edge id="389" source="LOUW" target="STOLZ" weight="1" />
+      <edge id="390" source="LOUW" target="ARCHIBALD" weight="1" />
+      <edge id="391" source="LOUW" target="EMILY" weight="1" />
+      <edge id="392" source="LOUW" target="GRACE" weight="1" />
+      <edge id="393" source="MAGISTRATE" target="DE VILLIERS" weight="2" />
+      <edge id="394" source="MAGISTRATE" target="DR. JANSEN" weight="1" />
+      <edge id="395" source="MAGISTRATE" target="DR. HERZOG" weight="1" />
+      <edge id="396" source="MAGISTRATE" target="DE VILIERS" weight="1" />
+      <edge id="397" source="MAGISTRATE" target="LOUW" weight="2" />
+      <edge id="398" source="MAGISTRATE" target="STOLZ" weight="1" />
+      <edge id="399" source="MAGISTRATE" target="ARCHIBALD" weight="1" />
+      <edge id="400" source="MAGISTRATE" target="EMILY" weight="1" />
+      <edge id="401" source="MAGISTRATE" target="GRACE" weight="1" />
+      <edge id="402" source="ARCHIBALD" target="DE VILLIERS" weight="1" />
+      <edge id="403" source="ARCHIBALD" target="DR. JANSEN" weight="1" />
+      <edge id="404" source="ARCHIBALD" target="DR. HERZOG" weight="1" />
+      <edge id="405" source="ARCHIBALD" target="DE VILIERS" weight="1" />
+      <edge id="406" source="ARCHIBALD" target="LOUW" weight="1" />
+      <edge id="407" source="ARCHIBALD" target="MAGISTRATE" weight="1" />
+      <edge id="408" source="ARCHIBALD" target="STOLZ" weight="1" />
+      <edge id="409" source="GRACE" target="EMILY" weight="1" />
+      <edge id="410" source="GRACE" target="DE VILLIERS" weight="1" />
+      <edge id="411" source="GRACE" target="MAGISTRATE" weight="1" />
+      <edge id="412" source="GRACE" target="LOUW" weight="1" />
+      <edge id="413" source="REPORTERS" target="STANLEY" weight="1" />
+      <edge id="414" source="REPORTERS" target="BEN" weight="1" />
+      <edge id="415" source="REPORTERS" target="REPORTER" weight="1" />
+      <edge id="416" source="REPORTERS" target="MELANIE" weight="1" />
+      <edge id="417" source="REPORTER" target="STANLEY" weight="1" />
+      <edge id="418" source="REPORTER" target="BEN" weight="1" />
+      <edge id="419" source="REPORTER" target="REPORTERS" weight="1" />
+      <edge id="420" source="REPORTER" target="MELANIE" weight="1" />
+      <edge id="421" source="MELANIE" target="STANLEY" weight="1" />
+      <edge id="422" source="MELANIE" target="BEN" weight="6" />
+      <edge id="423" source="MELANIE" target="REPORTERS" weight="1" />
+      <edge id="424" source="MELANIE" target="REPORTER" weight="1" />
+      <edge id="425" source="MELANIE" target="BRUWER" weight="1" />
+      <edge id="426" source="MELANIE" target="STOLZ" weight="1" />
+      <edge id="427" source="BRUWER" target="MELANIE" weight="1" />
+      <edge id="428" source="BRUWER" target="BEN" weight="2" />
+      <edge id="429" source="PROPRIETOR" target="BEN" weight="1" />
+      <edge id="430" source="TOM" target="BESTER" weight="1" />
+      <edge id="431" source="TOM" target="BEN" weight="1" />
+      <edge id="432" source="FATHER-IN-LAW" target="SUSAN" weight="1" />
+      <edge id="433" source="FATHER-IN-LAW" target="MOTHER" weight="1" />
+      <edge id="434" source="FATHER-IN-LAW" target="JOHAN" weight="2" />
+      <edge id="435" source="FATHER-IN-LAW" target="BEN" weight="4" />
+      <edge id="436" source="FATHER-IN-LAW" target="MOTHER-IN-LAW" weight="1" />
+      <edge id="437" source="FATHER-IN-LAW" target="SUZETTE" weight="2" />
+      <edge id="438" source="FATHER-IN-LAW" target="STANLEY" weight="1" />
+      <edge id="439" source="FATHER-IN-LAW" target="CHRIS" weight="1" />
+      <edge id="440" source="MOTHER" target="FATHER-IN-LAW" weight="1" />
+      <edge id="441" source="MOTHER" target="SUSAN" weight="1" />
+      <edge id="442" source="MOTHER" target="JOHAN" weight="1" />
+      <edge id="443" source="MOTHER" target="BEN" weight="1" />
+      <edge id="444" source="MOTHER" target="MOTHER-IN-LAW" weight="1" />
+      <edge id="445" source="MOTHER-IN-LAW" target="FATHER-IN-LAW" weight="1" />
+      <edge id="446" source="MOTHER-IN-LAW" target="SUSAN" weight="1" />
+      <edge id="447" source="MOTHER-IN-LAW" target="MOTHER" weight="1" />
+      <edge id="448" source="MOTHER-IN-LAW" target="JOHAN" weight="1" />
+      <edge id="449" source="MOTHER-IN-LAW" target="BEN" weight="1" />
+      <edge id="450" source="COLORED WOMAN" target="STANLEY" weight="1" />
+      <edge id="451" source="COLORED WOMAN" target="BEN" weight="1" />
+      <edge id="452" source="COLORED WOMAN" target="SADIE" weight="1" />
+      <edge id="453" source="COLORED WOMAN" target="SEROKE" weight="1" />
+      <edge id="454" source="SADIE" target="COLORED WOMAN" weight="1" />
+      <edge id="455" source="SADIE" target="STANLEY" weight="1" />
+      <edge id="456" source="SADIE" target="BEN" weight="1" />
+      <edge id="457" source="SADIE" target="SEROKE" weight="1" />
+      <edge id="458" source="CROWD" target="EMILY" weight="1" />
+      <edge id="459" source="CROWD" target="WOMAN" weight="1" />
+      <edge id="460" source="JAIMIE" target="STANLEY" weight="1" />
+      <edge id="461" source="JAIMIE" target="OTHER POLICEMAN" weight="1" />
+      <edge id="462" source="OTHER POLICEMAN" target="STANLEY" weight="1" />
+      <edge id="463" source="OTHER POLICEMAN" target="JAIMIE" weight="1" />
+      <edge id="464" source="DR. HASSIEM" target="BEN" weight="2" />
+      <edge id="465" source="INDIAN WOMAN" target="BEN" weight="1" />
+      <edge id="466" source="INDIAN WOMAN" target="OFFICIAL" weight="1" />
+      <edge id="467" source="INDIAN WOMAN" target="JOHAN" weight="1" />
+      <edge id="468" source="INDIAN WOMAN" target="STOLZ" weight="1" />
+      <edge id="469" source="OFFICIAL" target="BEN" weight="1" />
+      <edge id="470" source="OFFICIAL" target="INDIAN WOMAN" weight="1" />
+      <edge id="471" source="OFFICIAL" target="JOHAN" weight="1" />
+      <edge id="472" source="OFFICIAL" target="STOLZ" weight="1" />
+      <edge id="473" source="MALE" target="STANLEY" weight="1" />
+      <edge id="474" source="MALE" target="BEN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+      <node id="MAYA" label="MAYA" />
+      <node id="RADIO DJ #1" label="RADIO DJ #1" />
+      <node id="RADIO DJ #2" label="RADIO DJ #2" />
+      <node id="LAREAUX" label="LAREAUX" />
+      <node id="TOWNSEND" label="TOWNSEND" />
+      <node id="DR. ALLEN" label="DR. ALLEN" />
+      <node id="BIRDSON" label="BIRDSON" />
+      <node id="PATIENT" label="PATIENT" />
+      <node id="FATHER JEREMY" label="FATHER JEREMY" />
+      <node id="DEFENSE ATTORNEY" label="DEFENSE ATTORNEY" />
+      <node id="MR. SILBERMAN" label="MR. SILBERMAN" />
+      <node id="MICHAEL" label="MICHAEL" />
+      <node id="PETER" label="PETER" />
+      <node id="SMYTHE" label="SMYTHE" />
+      <node id="SALLY" label="SALLY" />
+      <node id="TECH DIRECTOR" label="TECH DIRECTOR" />
+      <node id="P.A." label="P.A." />
+      <node id="CLAIRE" label="CLAIRE" />
+      <node id="FATHER JAMES" label="FATHER JAMES" />
+      <node id="WILLIAM" label="WILLIAM" />
+      <node id="SUSAN" label="SUSAN" />
+      <node id="JAMES" label="JAMES" />
+      <node id="FATHER FRANK" label="FATHER FRANK" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="MRS. QUINTANA" label="MRS. QUINTANA" />
+      <node id="MRS. LEVOTSKY" label="MRS. LEVOTSKY" />
+      <node id="VIZNICK" label="VIZNICK" />
+      <node id="GUARD #1" label="GUARD #1" />
+      <node id="CRANKY WOMAN" label="CRANKY WOMAN" />
+      <node id="ORDERLY" label="ORDERLY" />
+      <node id="YOUNG MAN" label="YOUNG MAN" />
+      <node id="LAUREN" label="LAUREN" />
+      <node id="SECOND YOUNG WOMAN" label="SECOND YOUNG WOMAN" />
+      <node id="SECOND YOUNG MAN" label="SECOND YOUNG MAN" />
+      <node id="JOSEF" label="JOSEF" />
+      <node id="THE CLASS" label="THE CLASS" />
+      <node id="LITTLE GIRL" label="LITTLE GIRL" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="MELVIN" label="MELVIN" />
+      <node id="LITHUANIAN PRIEST" label="LITHUANIAN PRIEST" />
+      <node id="DAY-CARE WORKER" label="DAY-CARE WORKER" />
+      <node id="DEEJAY" label="DEEJAY" />
+      <node id="OWNER" label="OWNER" />
+      <node id="FATHER THOMAS" label="FATHER THOMAS" />
+      <node id="VOICES" label="VOICES" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="IRKED MOTORIST" label="IRKED MOTORIST" />
+      <node id="NEWSCASTER" label="NEWSCASTER" />
+      <node id="READER" label="READER" />
+    </nodes>
+    <edges>
+      <edge id="11283" source="MAYA" target="RADIO DJ #1" weight="1" />
+      <edge id="11284" source="MAYA" target="RADIO DJ #2" weight="1" />
+      <edge id="11285" source="MAYA" target="LAREAUX" weight="5" />
+      <edge id="11286" source="MAYA" target="TOWNSEND" weight="4" />
+      <edge id="11287" source="MAYA" target="DR. ALLEN" weight="2" />
+      <edge id="11288" source="MAYA" target="PETER" weight="26" />
+      <edge id="11289" source="MAYA" target="FATHER FRANK" weight="6" />
+      <edge id="11290" source="MAYA" target="FATHER JAMES" weight="2" />
+      <edge id="11291" source="MAYA" target="FATHER JEREMY" weight="3" />
+      <edge id="11292" source="MAYA" target="RECEPTIONIST" weight="2" />
+      <edge id="11293" source="MAYA" target="SECRETARY" weight="1" />
+      <edge id="11294" source="MAYA" target="MRS. QUINTANA" weight="1" />
+      <edge id="11295" source="MAYA" target="ORDERLY" weight="2" />
+      <edge id="11296" source="MAYA" target="THE CLASS" weight="1" />
+      <edge id="11297" source="MAYA" target="SMYTHE" weight="1" />
+      <edge id="11298" source="MAYA" target="LITTLE GIRL" weight="1" />
+      <edge id="11299" source="MAYA" target="MOTHER" weight="1" />
+      <edge id="11300" source="MAYA" target="DAY-CARE WORKER" weight="1" />
+      <edge id="11301" source="MAYA" target="BIRDSON" weight="2" />
+      <edge id="11302" source="MAYA" target="CLAIRE" weight="1" />
+      <edge id="11303" source="MAYA" target="VOICES" weight="1" />
+      <edge id="11304" source="MAYA" target="FATHER THOMAS" weight="2" />
+      <edge id="11305" source="MAYA" target="WOMAN" weight="1" />
+      <edge id="11306" source="MAYA" target="IRKED MOTORIST" weight="1" />
+      <edge id="11307" source="MAYA" target="READER" weight="1" />
+      <edge id="11308" source="MAYA" target="WILLIAM" weight="1" />
+      <edge id="11309" source="RADIO DJ #1" target="RADIO DJ #2" weight="1" />
+      <edge id="11310" source="RADIO DJ #1" target="MAYA" weight="1" />
+      <edge id="11311" source="RADIO DJ #1" target="LAREAUX" weight="1" />
+      <edge id="11312" source="RADIO DJ #1" target="TOWNSEND" weight="1" />
+      <edge id="11313" source="RADIO DJ #2" target="RADIO DJ #1" weight="1" />
+      <edge id="11314" source="RADIO DJ #2" target="MAYA" weight="1" />
+      <edge id="11315" source="RADIO DJ #2" target="LAREAUX" weight="1" />
+      <edge id="11316" source="RADIO DJ #2" target="TOWNSEND" weight="1" />
+      <edge id="11317" source="LAREAUX" target="RADIO DJ #1" weight="1" />
+      <edge id="11318" source="LAREAUX" target="RADIO DJ #2" weight="1" />
+      <edge id="11319" source="LAREAUX" target="MAYA" weight="5" />
+      <edge id="11320" source="LAREAUX" target="TOWNSEND" weight="1" />
+      <edge id="11321" source="LAREAUX" target="DR. ALLEN" weight="1" />
+      <edge id="11322" source="LAREAUX" target="BIRDSON" weight="1" />
+      <edge id="11323" source="LAREAUX" target="FATHER FRANK" weight="2" />
+      <edge id="11324" source="LAREAUX" target="FATHER JAMES" weight="1" />
+      <edge id="11325" source="LAREAUX" target="FATHER JEREMY" weight="2" />
+      <edge id="11326" source="LAREAUX" target="PETER" weight="2" />
+      <edge id="11327" source="LAREAUX" target="FATHER THOMAS" weight="1" />
+      <edge id="11328" source="TOWNSEND" target="RADIO DJ #1" weight="1" />
+      <edge id="11329" source="TOWNSEND" target="RADIO DJ #2" weight="1" />
+      <edge id="11330" source="TOWNSEND" target="MAYA" weight="4" />
+      <edge id="11331" source="TOWNSEND" target="LAREAUX" weight="1" />
+      <edge id="11332" source="TOWNSEND" target="FATHER FRANK" weight="1" />
+      <edge id="11333" source="TOWNSEND" target="YOUNG MAN" weight="1" />
+      <edge id="11334" source="TOWNSEND" target="LAUREN" weight="1" />
+      <edge id="11335" source="TOWNSEND" target="CLAIRE" weight="1" />
+      <edge id="11336" source="TOWNSEND" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11337" source="TOWNSEND" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11338" source="TOWNSEND" target="PETER" weight="1" />
+      <edge id="11339" source="DR. ALLEN" target="LAREAUX" weight="1" />
+      <edge id="11340" source="DR. ALLEN" target="MAYA" weight="2" />
+      <edge id="11341" source="DR. ALLEN" target="FATHER JEREMY" weight="1" />
+      <edge id="11342" source="DR. ALLEN" target="BIRDSON" weight="1" />
+      <edge id="11343" source="DR. ALLEN" target="PETER" weight="1" />
+      <edge id="11344" source="DR. ALLEN" target="ORDERLY" weight="1" />
+      <edge id="11345" source="BIRDSON" target="LAREAUX" weight="1" />
+      <edge id="11346" source="BIRDSON" target="DR. ALLEN" weight="1" />
+      <edge id="11347" source="BIRDSON" target="FATHER JEREMY" weight="1" />
+      <edge id="11348" source="BIRDSON" target="MAYA" weight="2" />
+      <edge id="11349" source="BIRDSON" target="PETER" weight="1" />
+      <edge id="11350" source="FATHER JEREMY" target="DR. ALLEN" weight="1" />
+      <edge id="11351" source="FATHER JEREMY" target="BIRDSON" weight="1" />
+      <edge id="11352" source="FATHER JEREMY" target="FATHER FRANK" weight="1" />
+      <edge id="11353" source="FATHER JEREMY" target="MAYA" weight="3" />
+      <edge id="11354" source="FATHER JEREMY" target="LAREAUX" weight="2" />
+      <edge id="11355" source="FATHER JEREMY" target="FATHER JAMES" weight="2" />
+      <edge id="11356" source="FATHER JEREMY" target="CLAIRE" weight="1" />
+      <edge id="11357" source="FATHER JEREMY" target="PETER" weight="2" />
+      <edge id="11358" source="FATHER JEREMY" target="FATHER THOMAS" weight="1" />
+      <edge id="11359" source="DEFENSE ATTORNEY" target="MR. SILBERMAN" weight="1" />
+      <edge id="11360" source="DEFENSE ATTORNEY" target="VIZNICK" weight="1" />
+      <edge id="11361" source="MR. SILBERMAN" target="DEFENSE ATTORNEY" weight="1" />
+      <edge id="11362" source="MICHAEL" target="PETER" weight="2" />
+      <edge id="11363" source="MICHAEL" target="MELVIN" weight="1" />
+      <edge id="11364" source="PETER" target="MICHAEL" weight="2" />
+      <edge id="11365" source="PETER" target="SMYTHE" weight="7" />
+      <edge id="11366" source="PETER" target="SALLY" weight="2" />
+      <edge id="11367" source="PETER" target="TECH DIRECTOR" weight="1" />
+      <edge id="11368" source="PETER" target="CLAIRE" weight="13" />
+      <edge id="11369" source="PETER" target="FATHER JAMES" weight="6" />
+      <edge id="11370" source="PETER" target="MAYA" weight="26" />
+      <edge id="11371" source="PETER" target="WILLIAM" weight="3" />
+      <edge id="11372" source="PETER" target="SUSAN" weight="2" />
+      <edge id="11373" source="PETER" target="JAMES" weight="1" />
+      <edge id="11374" source="PETER" target="MRS. QUINTANA" weight="3" />
+      <edge id="11375" source="PETER" target="GUARD #1" weight="1" />
+      <edge id="11376" source="PETER" target="DR. ALLEN" weight="1" />
+      <edge id="11377" source="PETER" target="ORDERLY" weight="1" />
+      <edge id="11378" source="PETER" target="YOUNG MAN" weight="1" />
+      <edge id="11379" source="PETER" target="LAUREN" weight="1" />
+      <edge id="11380" source="PETER" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11381" source="PETER" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11382" source="PETER" target="TOWNSEND" weight="1" />
+      <edge id="11383" source="PETER" target="JOSEF" weight="1" />
+      <edge id="11384" source="PETER" target="FATHER JEREMY" weight="2" />
+      <edge id="11385" source="PETER" target="THE CLASS" weight="1" />
+      <edge id="11386" source="PETER" target="MELVIN" weight="1" />
+      <edge id="11387" source="PETER" target="DAY-CARE WORKER" weight="1" />
+      <edge id="11388" source="PETER" target="BIRDSON" weight="1" />
+      <edge id="11389" source="PETER" target="FATHER FRANK" weight="3" />
+      <edge id="11390" source="PETER" target="LAREAUX" weight="2" />
+      <edge id="11391" source="PETER" target="FATHER THOMAS" weight="2" />
+      <edge id="11392" source="PETER" target="WOMAN" weight="1" />
+      <edge id="11393" source="PETER" target="IRKED MOTORIST" weight="1" />
+      <edge id="11394" source="PETER" target="READER" weight="1" />
+      <edge id="11395" source="SMYTHE" target="PETER" weight="7" />
+      <edge id="11396" source="SMYTHE" target="GUARD #1" weight="1" />
+      <edge id="11397" source="SMYTHE" target="CLAIRE" weight="1" />
+      <edge id="11398" source="SMYTHE" target="WILLIAM" weight="1" />
+      <edge id="11399" source="SMYTHE" target="SUSAN" weight="1" />
+      <edge id="11400" source="SMYTHE" target="MRS. QUINTANA" weight="1" />
+      <edge id="11401" source="SMYTHE" target="THE CLASS" weight="1" />
+      <edge id="11402" source="SMYTHE" target="MAYA" weight="1" />
+      <edge id="11403" source="SALLY" target="PETER" weight="2" />
+      <edge id="11404" source="SALLY" target="TECH DIRECTOR" weight="1" />
+      <edge id="11405" source="TECH DIRECTOR" target="P.A." weight="1" />
+      <edge id="11406" source="TECH DIRECTOR" target="SALLY" weight="1" />
+      <edge id="11407" source="TECH DIRECTOR" target="PETER" weight="1" />
+      <edge id="11408" source="P.A." target="TECH DIRECTOR" weight="1" />
+      <edge id="11409" source="CLAIRE" target="PETER" weight="13" />
+      <edge id="11410" source="CLAIRE" target="FATHER JAMES" weight="3" />
+      <edge id="11411" source="CLAIRE" target="WILLIAM" weight="3" />
+      <edge id="11412" source="CLAIRE" target="SUSAN" weight="2" />
+      <edge id="11413" source="CLAIRE" target="JAMES" weight="1" />
+      <edge id="11414" source="CLAIRE" target="YOUNG MAN" weight="1" />
+      <edge id="11415" source="CLAIRE" target="LAUREN" weight="1" />
+      <edge id="11416" source="CLAIRE" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11417" source="CLAIRE" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11418" source="CLAIRE" target="TOWNSEND" weight="1" />
+      <edge id="11419" source="CLAIRE" target="SMYTHE" weight="1" />
+      <edge id="11420" source="CLAIRE" target="JOSEF" weight="1" />
+      <edge id="11421" source="CLAIRE" target="FATHER JEREMY" weight="1" />
+      <edge id="11422" source="CLAIRE" target="MAYA" weight="1" />
+      <edge id="11423" source="FATHER JAMES" target="PETER" weight="6" />
+      <edge id="11424" source="FATHER JAMES" target="CLAIRE" weight="3" />
+      <edge id="11425" source="FATHER JAMES" target="WILLIAM" weight="2" />
+      <edge id="11426" source="FATHER JAMES" target="SUSAN" weight="1" />
+      <edge id="11427" source="FATHER JAMES" target="JAMES" weight="1" />
+      <edge id="11428" source="FATHER JAMES" target="FATHER FRANK" weight="1" />
+      <edge id="11429" source="FATHER JAMES" target="MAYA" weight="2" />
+      <edge id="11430" source="FATHER JAMES" target="LAREAUX" weight="1" />
+      <edge id="11431" source="FATHER JAMES" target="FATHER JEREMY" weight="2" />
+      <edge id="11432" source="FATHER JAMES" target="READER" weight="1" />
+      <edge id="11433" source="WILLIAM" target="CLAIRE" weight="3" />
+      <edge id="11434" source="WILLIAM" target="PETER" weight="3" />
+      <edge id="11435" source="WILLIAM" target="SUSAN" weight="2" />
+      <edge id="11436" source="WILLIAM" target="FATHER JAMES" weight="2" />
+      <edge id="11437" source="WILLIAM" target="JAMES" weight="1" />
+      <edge id="11438" source="WILLIAM" target="SMYTHE" weight="1" />
+      <edge id="11439" source="WILLIAM" target="READER" weight="1" />
+      <edge id="11440" source="WILLIAM" target="MAYA" weight="1" />
+      <edge id="11441" source="SUSAN" target="WILLIAM" weight="2" />
+      <edge id="11442" source="SUSAN" target="CLAIRE" weight="2" />
+      <edge id="11443" source="SUSAN" target="PETER" weight="2" />
+      <edge id="11444" source="SUSAN" target="FATHER JAMES" weight="1" />
+      <edge id="11445" source="SUSAN" target="JAMES" weight="1" />
+      <edge id="11446" source="SUSAN" target="SMYTHE" weight="1" />
+      <edge id="11447" source="JAMES" target="WILLIAM" weight="1" />
+      <edge id="11448" source="JAMES" target="CLAIRE" weight="1" />
+      <edge id="11449" source="JAMES" target="PETER" weight="1" />
+      <edge id="11450" source="JAMES" target="SUSAN" weight="1" />
+      <edge id="11451" source="JAMES" target="FATHER JAMES" weight="1" />
+      <edge id="11452" source="FATHER FRANK" target="MAYA" weight="6" />
+      <edge id="11453" source="FATHER FRANK" target="LAREAUX" weight="2" />
+      <edge id="11454" source="FATHER FRANK" target="FATHER JAMES" weight="1" />
+      <edge id="11455" source="FATHER FRANK" target="FATHER JEREMY" weight="1" />
+      <edge id="11456" source="FATHER FRANK" target="TOWNSEND" weight="1" />
+      <edge id="11457" source="FATHER FRANK" target="PETER" weight="3" />
+      <edge id="11458" source="FATHER FRANK" target="FATHER THOMAS" weight="1" />
+      <edge id="11459" source="RECEPTIONIST" target="MAYA" weight="2" />
+      <edge id="11460" source="SECRETARY" target="MAYA" weight="1" />
+      <edge id="11461" source="MRS. QUINTANA" target="PETER" weight="3" />
+      <edge id="11462" source="MRS. QUINTANA" target="MAYA" weight="1" />
+      <edge id="11463" source="MRS. QUINTANA" target="SMYTHE" weight="1" />
+      <edge id="11464" source="VIZNICK" target="DEFENSE ATTORNEY" weight="1" />
+      <edge id="11465" source="GUARD #1" target="PETER" weight="1" />
+      <edge id="11466" source="GUARD #1" target="SMYTHE" weight="1" />
+      <edge id="11467" source="ORDERLY" target="MAYA" weight="2" />
+      <edge id="11468" source="ORDERLY" target="PETER" weight="1" />
+      <edge id="11469" source="ORDERLY" target="DR. ALLEN" weight="1" />
+      <edge id="11470" source="YOUNG MAN" target="LAUREN" weight="1" />
+      <edge id="11471" source="YOUNG MAN" target="CLAIRE" weight="1" />
+      <edge id="11472" source="YOUNG MAN" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11473" source="YOUNG MAN" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11474" source="YOUNG MAN" target="PETER" weight="1" />
+      <edge id="11475" source="YOUNG MAN" target="TOWNSEND" weight="1" />
+      <edge id="11476" source="LAUREN" target="YOUNG MAN" weight="1" />
+      <edge id="11477" source="LAUREN" target="CLAIRE" weight="1" />
+      <edge id="11478" source="LAUREN" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11479" source="LAUREN" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11480" source="LAUREN" target="PETER" weight="1" />
+      <edge id="11481" source="LAUREN" target="TOWNSEND" weight="1" />
+      <edge id="11482" source="SECOND YOUNG WOMAN" target="YOUNG MAN" weight="1" />
+      <edge id="11483" source="SECOND YOUNG WOMAN" target="LAUREN" weight="1" />
+      <edge id="11484" source="SECOND YOUNG WOMAN" target="CLAIRE" weight="1" />
+      <edge id="11485" source="SECOND YOUNG WOMAN" target="SECOND YOUNG MAN" weight="1" />
+      <edge id="11486" source="SECOND YOUNG WOMAN" target="PETER" weight="1" />
+      <edge id="11487" source="SECOND YOUNG WOMAN" target="TOWNSEND" weight="1" />
+      <edge id="11488" source="SECOND YOUNG MAN" target="YOUNG MAN" weight="1" />
+      <edge id="11489" source="SECOND YOUNG MAN" target="LAUREN" weight="1" />
+      <edge id="11490" source="SECOND YOUNG MAN" target="CLAIRE" weight="1" />
+      <edge id="11491" source="SECOND YOUNG MAN" target="SECOND YOUNG WOMAN" weight="1" />
+      <edge id="11492" source="SECOND YOUNG MAN" target="PETER" weight="1" />
+      <edge id="11493" source="SECOND YOUNG MAN" target="TOWNSEND" weight="1" />
+      <edge id="11494" source="JOSEF" target="CLAIRE" weight="1" />
+      <edge id="11495" source="JOSEF" target="PETER" weight="1" />
+      <edge id="11496" source="THE CLASS" target="MAYA" weight="1" />
+      <edge id="11497" source="THE CLASS" target="SMYTHE" weight="1" />
+      <edge id="11498" source="THE CLASS" target="PETER" weight="1" />
+      <edge id="11499" source="LITTLE GIRL" target="MAYA" weight="1" />
+      <edge id="11500" source="LITTLE GIRL" target="MOTHER" weight="1" />
+      <edge id="11501" source="MOTHER" target="MAYA" weight="1" />
+      <edge id="11502" source="MOTHER" target="LITTLE GIRL" weight="1" />
+      <edge id="11503" source="MELVIN" target="MICHAEL" weight="1" />
+      <edge id="11504" source="MELVIN" target="PETER" weight="1" />
+      <edge id="11505" source="DAY-CARE WORKER" target="PETER" weight="1" />
+      <edge id="11506" source="DAY-CARE WORKER" target="MAYA" weight="1" />
+      <edge id="11507" source="DEEJAY" target="OWNER" weight="1" />
+      <edge id="11508" source="OWNER" target="DEEJAY" weight="1" />
+      <edge id="11509" source="FATHER THOMAS" target="PETER" weight="2" />
+      <edge id="11510" source="FATHER THOMAS" target="FATHER FRANK" weight="1" />
+      <edge id="11511" source="FATHER THOMAS" target="VOICES" weight="1" />
+      <edge id="11512" source="FATHER THOMAS" target="MAYA" weight="2" />
+      <edge id="11513" source="FATHER THOMAS" target="LAREAUX" weight="1" />
+      <edge id="11514" source="FATHER THOMAS" target="FATHER JEREMY" weight="1" />
+      <edge id="11515" source="VOICES" target="FATHER THOMAS" weight="1" />
+      <edge id="11516" source="VOICES" target="MAYA" weight="1" />
+      <edge id="11517" source="WOMAN" target="MAYA" weight="1" />
+      <edge id="11518" source="WOMAN" target="PETER" weight="1" />
+      <edge id="11519" source="WOMAN" target="IRKED MOTORIST" weight="1" />
+      <edge id="11520" source="IRKED MOTORIST" target="MAYA" weight="1" />
+      <edge id="11521" source="IRKED MOTORIST" target="PETER" weight="1" />
+      <edge id="11522" source="IRKED MOTORIST" target="WOMAN" weight="1" />
+      <edge id="11523" source="READER" target="MAYA" weight="1" />
+      <edge id="11524" source="READER" target="FATHER JAMES" weight="1" />
+      <edge id="11525" source="READER" target="PETER" weight="1" />
+      <edge id="11526" source="READER" target="WILLIAM" weight="1" />
+    </edges>
+  </graph>
+</gexf>

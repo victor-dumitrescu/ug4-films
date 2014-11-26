@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="BARNES" label="BARNES" />
+      <node id="EXEC" label="EXEC" />
+      <node id="FRANK" label="FRANK" />
+      <node id="HELMSMAN" label="HELMSMAN" />
+      <node id="NAVIGATOR" label="NAVIGATOR" />
+      <node id="MCBRIDE" label="MCBRIDE" />
+      <node id="DEMARCO" label="DEMARCO" />
+      <node id="KIRKHILL" label="KIRKHILL" />
+      <node id="BUD" label="BUD" />
+      <node id="CATFISH" label="CATFISH" />
+      <node id="JAMMER" label="JAMMER" />
+      <node id="P.A." label="P.A." />
+      <node id="ONE NIGHT" label="ONE NIGHT" />
+      <node id="SONNY" label="SONNY" />
+      <node id="FINLER" label="FINLER" />
+      <node id="HIPPY" label="HIPPY" />
+      <node id="PILOT" label="PILOT" />
+      <node id="COFFEY" label="COFFEY" />
+      <node id="LINDSEY" label="LINDSEY" />
+      <node id="BUD/HIPPY" label="BUD/HIPPY" />
+      <node id="MONK" label="MONK" />
+      <node id="LINSEY" label="LINSEY" />
+      <node id="WILHITE" label="WILHITE" />
+      <node id="SCHOENICK" label="SCHOENICK" />
+      <node id="ANCHORMAN" label="ANCHORMAN" />
+      <node id="TYLER" label="TYLER" />
+      <node id="NEWS ANCHOR" label="NEWS ANCHOR" />
+      <node id="NEWSCASTER" label="NEWSCASTER" />
+      <node id="ANOTHER NEWSCASTER" label="ANOTHER NEWSCASTER" />
+      <node id="YOUNG WOMAN" label="YOUNG WOMAN" />
+      <node id="CONSTRUCTION WORKER" label="CONSTRUCTION WORKER" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="MAN" label="MAN" />
+      <node id="BENDIX" label="BENDIX" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="BERG" label="BERG" />
+      <node id="GUY" label="GUY" />
+    </nodes>
+    <edges>
+      <edge id="18139" source="CAPTAIN" target="BARNES" weight="1" />
+      <edge id="18140" source="CAPTAIN" target="EXEC" weight="4" />
+      <edge id="18141" source="CAPTAIN" target="FRANK" weight="1" />
+      <edge id="18142" source="CAPTAIN" target="HELMSMAN" weight="4" />
+      <edge id="18143" source="CAPTAIN" target="NAVIGATOR" weight="2" />
+      <edge id="18144" source="BARNES" target="CAPTAIN" weight="1" />
+      <edge id="18145" source="BARNES" target="EXEC" weight="1" />
+      <edge id="18146" source="BARNES" target="FRANK" weight="1" />
+      <edge id="18147" source="BARNES" target="HELMSMAN" weight="1" />
+      <edge id="18148" source="BARNES" target="NAVIGATOR" weight="1" />
+      <edge id="18149" source="EXEC" target="CAPTAIN" weight="4" />
+      <edge id="18150" source="EXEC" target="BARNES" weight="1" />
+      <edge id="18151" source="EXEC" target="FRANK" weight="1" />
+      <edge id="18152" source="EXEC" target="HELMSMAN" weight="4" />
+      <edge id="18153" source="EXEC" target="NAVIGATOR" weight="2" />
+      <edge id="18154" source="FRANK" target="CAPTAIN" weight="1" />
+      <edge id="18155" source="FRANK" target="BARNES" weight="1" />
+      <edge id="18156" source="FRANK" target="EXEC" weight="1" />
+      <edge id="18157" source="FRANK" target="HELMSMAN" weight="1" />
+      <edge id="18158" source="FRANK" target="NAVIGATOR" weight="1" />
+      <edge id="18159" source="HELMSMAN" target="CAPTAIN" weight="4" />
+      <edge id="18160" source="HELMSMAN" target="BARNES" weight="1" />
+      <edge id="18161" source="HELMSMAN" target="EXEC" weight="4" />
+      <edge id="18162" source="HELMSMAN" target="FRANK" weight="1" />
+      <edge id="18163" source="HELMSMAN" target="NAVIGATOR" weight="2" />
+      <edge id="18164" source="NAVIGATOR" target="CAPTAIN" weight="2" />
+      <edge id="18165" source="NAVIGATOR" target="BARNES" weight="1" />
+      <edge id="18166" source="NAVIGATOR" target="EXEC" weight="2" />
+      <edge id="18167" source="NAVIGATOR" target="FRANK" weight="1" />
+      <edge id="18168" source="NAVIGATOR" target="HELMSMAN" weight="2" />
+      <edge id="18169" source="MCBRIDE" target="DEMARCO" weight="3" />
+      <edge id="18170" source="MCBRIDE" target="KIRKHILL" weight="2" />
+      <edge id="18171" source="MCBRIDE" target="LINDSEY" weight="2" />
+      <edge id="18172" source="MCBRIDE" target="BUD" weight="1" />
+      <edge id="18173" source="MCBRIDE" target="CATFISH" weight="1" />
+      <edge id="18174" source="MCBRIDE" target="ONE NIGHT" weight="1" />
+      <edge id="18175" source="MCBRIDE" target="MONK" weight="1" />
+      <edge id="18176" source="MCBRIDE" target="LINSEY" weight="1" />
+      <edge id="18177" source="MCBRIDE" target="BENDIX" weight="1" />
+      <edge id="18178" source="DEMARCO" target="MCBRIDE" weight="3" />
+      <edge id="18179" source="DEMARCO" target="KIRKHILL" weight="3" />
+      <edge id="18180" source="DEMARCO" target="ONE NIGHT" weight="1" />
+      <edge id="18181" source="DEMARCO" target="BUD" weight="1" />
+      <edge id="18182" source="DEMARCO" target="HIPPY" weight="1" />
+      <edge id="18183" source="DEMARCO" target="CATFISH" weight="1" />
+      <edge id="18184" source="DEMARCO" target="FINLER" weight="1" />
+      <edge id="18185" source="DEMARCO" target="COFFEY" weight="1" />
+      <edge id="18186" source="DEMARCO" target="BENDIX" weight="1" />
+      <edge id="18187" source="KIRKHILL" target="MCBRIDE" weight="2" />
+      <edge id="18188" source="KIRKHILL" target="DEMARCO" weight="3" />
+      <edge id="18189" source="KIRKHILL" target="ONE NIGHT" weight="1" />
+      <edge id="18190" source="KIRKHILL" target="BUD" weight="1" />
+      <edge id="18191" source="KIRKHILL" target="HIPPY" weight="1" />
+      <edge id="18192" source="KIRKHILL" target="CATFISH" weight="1" />
+      <edge id="18193" source="KIRKHILL" target="FINLER" weight="1" />
+      <edge id="18194" source="BUD" target="CATFISH" weight="17" />
+      <edge id="18195" source="BUD" target="JAMMER" weight="6" />
+      <edge id="18196" source="BUD" target="P.A." weight="1" />
+      <edge id="18197" source="BUD" target="ONE NIGHT" weight="11" />
+      <edge id="18198" source="BUD" target="SONNY" weight="9" />
+      <edge id="18199" source="BUD" target="FINLER" weight="4" />
+      <edge id="18200" source="BUD" target="DEMARCO" weight="1" />
+      <edge id="18201" source="BUD" target="HIPPY" weight="20" />
+      <edge id="18202" source="BUD" target="KIRKHILL" weight="1" />
+      <edge id="18203" source="BUD" target="LINDSEY" weight="31" />
+      <edge id="18204" source="BUD" target="LINSEY" weight="1" />
+      <edge id="18205" source="BUD" target="COFFEY" weight="10" />
+      <edge id="18206" source="BUD" target="MONK" weight="4" />
+      <edge id="18207" source="BUD" target="WILHITE" weight="1" />
+      <edge id="18208" source="BUD" target="NEWSCASTER" weight="1" />
+      <edge id="18209" source="BUD" target="ANOTHER NEWSCASTER" weight="1" />
+      <edge id="18210" source="BUD" target="YOUNG WOMAN" weight="1" />
+      <edge id="18211" source="BUD" target="CONSTRUCTION WORKER" weight="1" />
+      <edge id="18212" source="BUD" target="WOMAN" weight="1" />
+      <edge id="18213" source="BUD" target="MCBRIDE" weight="1" />
+      <edge id="18214" source="BUD" target="REPORTER" weight="1" />
+      <edge id="18215" source="BUD" target="BERG" weight="1" />
+      <edge id="18216" source="BUD" target="BENDIX" weight="1" />
+      <edge id="18217" source="CATFISH" target="BUD" weight="17" />
+      <edge id="18218" source="CATFISH" target="FINLER" weight="5" />
+      <edge id="18219" source="CATFISH" target="SONNY" weight="8" />
+      <edge id="18220" source="CATFISH" target="JAMMER" weight="4" />
+      <edge id="18221" source="CATFISH" target="ONE NIGHT" weight="7" />
+      <edge id="18222" source="CATFISH" target="DEMARCO" weight="1" />
+      <edge id="18223" source="CATFISH" target="HIPPY" weight="12" />
+      <edge id="18224" source="CATFISH" target="KIRKHILL" weight="1" />
+      <edge id="18225" source="CATFISH" target="LINDSEY" weight="16" />
+      <edge id="18226" source="CATFISH" target="COFFEY" weight="6" />
+      <edge id="18227" source="CATFISH" target="MONK" weight="5" />
+      <edge id="18228" source="CATFISH" target="ANCHORMAN" weight="1" />
+      <edge id="18229" source="CATFISH" target="TYLER" weight="1" />
+      <edge id="18230" source="CATFISH" target="MCBRIDE" weight="1" />
+      <edge id="18231" source="CATFISH" target="LINSEY" weight="1" />
+      <edge id="18232" source="CATFISH" target="BENDIX" weight="1" />
+      <edge id="18233" source="JAMMER" target="BUD" weight="6" />
+      <edge id="18234" source="JAMMER" target="FINLER" weight="2" />
+      <edge id="18235" source="JAMMER" target="SONNY" weight="2" />
+      <edge id="18236" source="JAMMER" target="CATFISH" weight="4" />
+      <edge id="18237" source="JAMMER" target="ONE NIGHT" weight="2" />
+      <edge id="18238" source="JAMMER" target="HIPPY" weight="1" />
+      <edge id="18239" source="JAMMER" target="LINDSEY" weight="2" />
+      <edge id="18240" source="JAMMER" target="COFFEY" weight="2" />
+      <edge id="18241" source="JAMMER" target="MONK" weight="1" />
+      <edge id="18242" source="P.A." target="BUD" weight="1" />
+      <edge id="18243" source="ONE NIGHT" target="BUD" weight="11" />
+      <edge id="18244" source="ONE NIGHT" target="SONNY" weight="3" />
+      <edge id="18245" source="ONE NIGHT" target="FINLER" weight="2" />
+      <edge id="18246" source="ONE NIGHT" target="CATFISH" weight="7" />
+      <edge id="18247" source="ONE NIGHT" target="JAMMER" weight="2" />
+      <edge id="18248" source="ONE NIGHT" target="DEMARCO" weight="1" />
+      <edge id="18249" source="ONE NIGHT" target="HIPPY" weight="12" />
+      <edge id="18250" source="ONE NIGHT" target="KIRKHILL" weight="1" />
+      <edge id="18251" source="ONE NIGHT" target="LINDSEY" weight="11" />
+      <edge id="18252" source="ONE NIGHT" target="COFFEY" weight="3" />
+      <edge id="18253" source="ONE NIGHT" target="WILHITE" weight="1" />
+      <edge id="18254" source="ONE NIGHT" target="MONK" weight="3" />
+      <edge id="18255" source="ONE NIGHT" target="MCBRIDE" weight="1" />
+      <edge id="18256" source="ONE NIGHT" target="LINSEY" weight="1" />
+      <edge id="18257" source="SONNY" target="BUD" weight="9" />
+      <edge id="18258" source="SONNY" target="ONE NIGHT" weight="3" />
+      <edge id="18259" source="SONNY" target="FINLER" weight="4" />
+      <edge id="18260" source="SONNY" target="CATFISH" weight="8" />
+      <edge id="18261" source="SONNY" target="JAMMER" weight="2" />
+      <edge id="18262" source="SONNY" target="HIPPY" weight="5" />
+      <edge id="18263" source="SONNY" target="COFFEY" weight="2" />
+      <edge id="18264" source="SONNY" target="MONK" weight="1" />
+      <edge id="18265" source="SONNY" target="ANCHORMAN" weight="1" />
+      <edge id="18266" source="SONNY" target="TYLER" weight="1" />
+      <edge id="18267" source="SONNY" target="LINDSEY" weight="2" />
+      <edge id="18268" source="FINLER" target="SONNY" weight="4" />
+      <edge id="18269" source="FINLER" target="CATFISH" weight="5" />
+      <edge id="18270" source="FINLER" target="JAMMER" weight="2" />
+      <edge id="18271" source="FINLER" target="ONE NIGHT" weight="2" />
+      <edge id="18272" source="FINLER" target="BUD" weight="4" />
+      <edge id="18273" source="FINLER" target="DEMARCO" weight="1" />
+      <edge id="18274" source="FINLER" target="HIPPY" weight="3" />
+      <edge id="18275" source="FINLER" target="KIRKHILL" weight="1" />
+      <edge id="18276" source="FINLER" target="COFFEY" weight="1" />
+      <edge id="18277" source="FINLER" target="MONK" weight="1" />
+      <edge id="18278" source="FINLER" target="ANCHORMAN" weight="1" />
+      <edge id="18279" source="FINLER" target="TYLER" weight="1" />
+      <edge id="18280" source="HIPPY" target="DEMARCO" weight="1" />
+      <edge id="18281" source="HIPPY" target="ONE NIGHT" weight="12" />
+      <edge id="18282" source="HIPPY" target="BUD" weight="20" />
+      <edge id="18283" source="HIPPY" target="KIRKHILL" weight="1" />
+      <edge id="18284" source="HIPPY" target="CATFISH" weight="12" />
+      <edge id="18285" source="HIPPY" target="FINLER" weight="3" />
+      <edge id="18286" source="HIPPY" target="LINDSEY" weight="23" />
+      <edge id="18287" source="HIPPY" target="JAMMER" weight="1" />
+      <edge id="18288" source="HIPPY" target="SONNY" weight="5" />
+      <edge id="18289" source="HIPPY" target="COFFEY" weight="4" />
+      <edge id="18290" source="HIPPY" target="MONK" weight="8" />
+      <edge id="18291" source="HIPPY" target="WILHITE" weight="1" />
+      <edge id="18292" source="HIPPY" target="ANCHORMAN" weight="1" />
+      <edge id="18293" source="HIPPY" target="TYLER" weight="1" />
+      <edge id="18294" source="HIPPY" target="SCHOENICK" weight="1" />
+      <edge id="18295" source="HIPPY" target="BENDIX" weight="1" />
+      <edge id="18296" source="PILOT" target="COFFEY" weight="1" />
+      <edge id="18297" source="COFFEY" target="PILOT" weight="1" />
+      <edge id="18298" source="COFFEY" target="LINDSEY" weight="9" />
+      <edge id="18299" source="COFFEY" target="CATFISH" weight="6" />
+      <edge id="18300" source="COFFEY" target="MONK" weight="3" />
+      <edge id="18301" source="COFFEY" target="JAMMER" weight="2" />
+      <edge id="18302" source="COFFEY" target="SONNY" weight="2" />
+      <edge id="18303" source="COFFEY" target="HIPPY" weight="4" />
+      <edge id="18304" source="COFFEY" target="BUD" weight="10" />
+      <edge id="18305" source="COFFEY" target="FINLER" weight="1" />
+      <edge id="18306" source="COFFEY" target="WILHITE" weight="1" />
+      <edge id="18307" source="COFFEY" target="ONE NIGHT" weight="3" />
+      <edge id="18308" source="COFFEY" target="SCHOENICK" weight="3" />
+      <edge id="18309" source="COFFEY" target="DEMARCO" weight="1" />
+      <edge id="18310" source="LINDSEY" target="BUD" weight="31" />
+      <edge id="18311" source="LINDSEY" target="HIPPY" weight="23" />
+      <edge id="18312" source="LINDSEY" target="COFFEY" weight="9" />
+      <edge id="18313" source="LINDSEY" target="MCBRIDE" weight="2" />
+      <edge id="18314" source="LINDSEY" target="CATFISH" weight="16" />
+      <edge id="18315" source="LINDSEY" target="MONK" weight="12" />
+      <edge id="18316" source="LINDSEY" target="JAMMER" weight="2" />
+      <edge id="18317" source="LINDSEY" target="LINSEY" weight="2" />
+      <edge id="18318" source="LINDSEY" target="ONE NIGHT" weight="11" />
+      <edge id="18319" source="LINDSEY" target="WILHITE" weight="1" />
+      <edge id="18320" source="LINDSEY" target="SCHOENICK" weight="2" />
+      <edge id="18321" source="LINDSEY" target="NEWS ANCHOR" weight="1" />
+      <edge id="18322" source="LINDSEY" target="SONNY" weight="2" />
+      <edge id="18323" source="LINDSEY" target="BENDIX" weight="1" />
+      <edge id="18324" source="MONK" target="CATFISH" weight="5" />
+      <edge id="18325" source="MONK" target="LINDSEY" weight="12" />
+      <edge id="18326" source="MONK" target="COFFEY" weight="3" />
+      <edge id="18327" source="MONK" target="SONNY" weight="1" />
+      <edge id="18328" source="MONK" target="HIPPY" weight="8" />
+      <edge id="18329" source="MONK" target="BUD" weight="4" />
+      <edge id="18330" source="MONK" target="FINLER" weight="1" />
+      <edge id="18331" source="MONK" target="WILHITE" weight="1" />
+      <edge id="18332" source="MONK" target="SCHOENICK" weight="2" />
+      <edge id="18333" source="MONK" target="JAMMER" weight="1" />
+      <edge id="18334" source="MONK" target="ONE NIGHT" weight="3" />
+      <edge id="18335" source="MONK" target="MCBRIDE" weight="1" />
+      <edge id="18336" source="MONK" target="LINSEY" weight="1" />
+      <edge id="18337" source="LINSEY" target="LINDSEY" weight="2" />
+      <edge id="18338" source="LINSEY" target="BUD" weight="1" />
+      <edge id="18339" source="LINSEY" target="MCBRIDE" weight="1" />
+      <edge id="18340" source="LINSEY" target="CATFISH" weight="1" />
+      <edge id="18341" source="LINSEY" target="ONE NIGHT" weight="1" />
+      <edge id="18342" source="LINSEY" target="MONK" weight="1" />
+      <edge id="18343" source="WILHITE" target="COFFEY" weight="1" />
+      <edge id="18344" source="WILHITE" target="LINDSEY" weight="1" />
+      <edge id="18345" source="WILHITE" target="HIPPY" weight="1" />
+      <edge id="18346" source="WILHITE" target="BUD" weight="1" />
+      <edge id="18347" source="WILHITE" target="ONE NIGHT" weight="1" />
+      <edge id="18348" source="WILHITE" target="MONK" weight="1" />
+      <edge id="18349" source="WILHITE" target="SCHOENICK" weight="1" />
+      <edge id="18350" source="SCHOENICK" target="COFFEY" weight="3" />
+      <edge id="18351" source="SCHOENICK" target="LINDSEY" weight="2" />
+      <edge id="18352" source="SCHOENICK" target="WILHITE" weight="1" />
+      <edge id="18353" source="SCHOENICK" target="MONK" weight="2" />
+      <edge id="18354" source="SCHOENICK" target="HIPPY" weight="1" />
+      <edge id="18355" source="ANCHORMAN" target="CATFISH" weight="1" />
+      <edge id="18356" source="ANCHORMAN" target="HIPPY" weight="1" />
+      <edge id="18357" source="ANCHORMAN" target="FINLER" weight="1" />
+      <edge id="18358" source="ANCHORMAN" target="SONNY" weight="1" />
+      <edge id="18359" source="ANCHORMAN" target="TYLER" weight="1" />
+      <edge id="18360" source="TYLER" target="CATFISH" weight="1" />
+      <edge id="18361" source="TYLER" target="HIPPY" weight="1" />
+      <edge id="18362" source="TYLER" target="ANCHORMAN" weight="1" />
+      <edge id="18363" source="TYLER" target="FINLER" weight="1" />
+      <edge id="18364" source="TYLER" target="SONNY" weight="1" />
+      <edge id="18365" source="NEWS ANCHOR" target="LINDSEY" weight="1" />
+      <edge id="18366" source="NEWSCASTER" target="ANOTHER NEWSCASTER" weight="1" />
+      <edge id="18367" source="NEWSCASTER" target="BUD" weight="1" />
+      <edge id="18368" source="NEWSCASTER" target="YOUNG WOMAN" weight="1" />
+      <edge id="18369" source="NEWSCASTER" target="CONSTRUCTION WORKER" weight="1" />
+      <edge id="18370" source="NEWSCASTER" target="WOMAN" weight="1" />
+      <edge id="18371" source="ANOTHER NEWSCASTER" target="NEWSCASTER" weight="1" />
+      <edge id="18372" source="ANOTHER NEWSCASTER" target="BUD" weight="1" />
+      <edge id="18373" source="ANOTHER NEWSCASTER" target="YOUNG WOMAN" weight="1" />
+      <edge id="18374" source="ANOTHER NEWSCASTER" target="CONSTRUCTION WORKER" weight="1" />
+      <edge id="18375" source="ANOTHER NEWSCASTER" target="WOMAN" weight="1" />
+      <edge id="18376" source="YOUNG WOMAN" target="NEWSCASTER" weight="1" />
+      <edge id="18377" source="YOUNG WOMAN" target="ANOTHER NEWSCASTER" weight="1" />
+      <edge id="18378" source="YOUNG WOMAN" target="BUD" weight="1" />
+      <edge id="18379" source="YOUNG WOMAN" target="CONSTRUCTION WORKER" weight="1" />
+      <edge id="18380" source="YOUNG WOMAN" target="WOMAN" weight="1" />
+      <edge id="18381" source="CONSTRUCTION WORKER" target="NEWSCASTER" weight="1" />
+      <edge id="18382" source="CONSTRUCTION WORKER" target="ANOTHER NEWSCASTER" weight="1" />
+      <edge id="18383" source="CONSTRUCTION WORKER" target="BUD" weight="1" />
+      <edge id="18384" source="CONSTRUCTION WORKER" target="YOUNG WOMAN" weight="1" />
+      <edge id="18385" source="CONSTRUCTION WORKER" target="WOMAN" weight="1" />
+      <edge id="18386" source="WOMAN" target="NEWSCASTER" weight="1" />
+      <edge id="18387" source="WOMAN" target="ANOTHER NEWSCASTER" weight="1" />
+      <edge id="18388" source="WOMAN" target="BUD" weight="1" />
+      <edge id="18389" source="WOMAN" target="YOUNG WOMAN" weight="1" />
+      <edge id="18390" source="WOMAN" target="CONSTRUCTION WORKER" weight="1" />
+      <edge id="18391" source="BENDIX" target="MCBRIDE" weight="1" />
+      <edge id="18392" source="BENDIX" target="DEMARCO" weight="1" />
+      <edge id="18393" source="BENDIX" target="LINDSEY" weight="1" />
+      <edge id="18394" source="BENDIX" target="CATFISH" weight="1" />
+      <edge id="18395" source="BENDIX" target="HIPPY" weight="1" />
+      <edge id="18396" source="BENDIX" target="BUD" weight="1" />
+      <edge id="18397" source="REPORTER" target="BUD" weight="1" />
+      <edge id="18398" source="REPORTER" target="BERG" weight="1" />
+      <edge id="18399" source="BERG" target="BUD" weight="1" />
+      <edge id="18400" source="BERG" target="REPORTER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

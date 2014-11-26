@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="STEVEN" label="STEVEN" />
+      <node id="RED HAIRED BOY" label="RED HAIRED BOY" />
+      <node id="LITTLE GIRL" label="LITTLE GIRL" />
+      <node id="YOUNG STEVEN" label="YOUNG STEVEN" />
+      <node id="STEVEN'S MOM" label="STEVEN'S MOM" />
+      <node id="STEVEN'S BROTHER" label="STEVEN'S BROTHER" />
+      <node id="STEVEN'S DAD" label="STEVEN'S DAD" />
+      <node id="MANDI" label="MANDI" />
+      <node id="VARIOUS POLICEMAN" label="VARIOUS POLICEMAN" />
+      <node id="STEPHANIE" label="STEPHANIE" />
+      <node id="DEBBIE" label="DEBBIE" />
+      <node id="MRS. BASCOMBE" label="MRS. BASCOMBE" />
+      <node id="NEIL" label="NEIL" />
+      <node id="SARA" label="SARA" />
+      <node id="MOUSTACHED MAN" label="MOUSTACHED MAN" />
+      <node id="LITTLE BOY" label="LITTLE BOY" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+      <node id="LAWYER" label="LAWYER" />
+      <node id="PRODUCE MANAGER" label="PRODUCE MANAGER" />
+      <node id="SALESWOMAN" label="SALESWOMAN" />
+      <node id="KEMPLE" label="KEMPLE" />
+      <node id="CHERUBIC SECRETARY" label="CHERUBIC SECRETARY" />
+      <node id="COP" label="COP" />
+      <node id="INMATES" label="INMATES" />
+      <node id="GARY" label="GARY" />
+      <node id="ARNIE" label="ARNIE" />
+      <node id="PHILLIP" label="PHILLIP" />
+      <node id="CLEAVON" label="CLEAVON" />
+      <node id="CORRECTIONS OFFICER" label="CORRECTIONS OFFICER" />
+      <node id="LARGE PRISONER" label="LARGE PRISONER" />
+      <node id="BALD PRISONER" label="BALD PRISONER" />
+      <node id="LATINO MAN" label="LATINO MAN" />
+      <node id="GUARD" label="GUARD" />
+      <node id="VOICES" label="VOICES" />
+      <node id="YARD GUARD" label="YARD GUARD" />
+      <node id="TAXI DRIVER" label="TAXI DRIVER" />
+      <node id="DUTY OFFICER" label="DUTY OFFICER" />
+      <node id="HOUSEWIFE" label="HOUSEWIFE" />
+      <node id="RELEASE OFFICER" label="RELEASE OFFICER" />
+      <node id="BAYLOR" label="BAYLOR" />
+      <node id="BLAKE" label="BLAKE" />
+      <node id="EUDORA" label="EUDORA" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="EVANS" label="EVANS" />
+      <node id="LINDHOLM" label="LINDHOLM" />
+      <node id="RHEBA" label="RHEBA" />
+      <node id="MARK" label="MARK" />
+      <node id="BIRKHEIM" label="BIRKHEIM" />
+      <node id="MRS. LINDHOLM" label="MRS. LINDHOLM" />
+      <node id="FACELIFT WIFE" label="FACELIFT WIFE" />
+      <node id="BLONDE WIFE" label="BLONDE WIFE" />
+      <node id="VERA" label="VERA" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="CLIENT" label="CLIENT" />
+      <node id="AUTOMATED TELLER" label="AUTOMATED TELLER" />
+      <node id="BLONDE INMATE" label="BLONDE INMATE" />
+      <node id="JAIL GUARD" label="JAIL GUARD" />
+      <node id="HELEN" label="HELEN" />
+      <node id="HOUSTON COP" label="HOUSTON COP" />
+      <node id="DRIVING COP" label="DRIVING COP" />
+      <node id="FIRST PRISONER" label="FIRST PRISONER" />
+      <node id="SECOND PRISONER" label="SECOND PRISONER" />
+      <node id="LEAD OFFICER" label="LEAD OFFICER" />
+      <node id="NEW CELLMATE" label="NEW CELLMATE" />
+      <node id="PHYSICIAN" label="PHYSICIAN" />
+      <node id="NIGHT GUARD" label="NIGHT GUARD" />
+      <node id="HOUSTON JUDGE" label="HOUSTON JUDGE" />
+      <node id="ATTORNEY" label="ATTORNEY" />
+      <node id="CLERK" label="CLERK" />
+      <node id="JULIE" label="JULIE" />
+      <node id="SWAT COMMANDER" label="SWAT COMMANDER" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="BUNKMATE" label="BUNKMATE" />
+      <node id="MALE NURSE" label="MALE NURSE" />
+      <node id="YOUNG DOCTOR" label="YOUNG DOCTOR" />
+      <node id="SAMUEL" label="SAMUEL" />
+      <node id="CARETAKER" label="CARETAKER" />
+      <node id="BOSSY GUARD" label="BOSSY GUARD" />
+      <node id="LAWRENCE" label="LAWRENCE" />
+      <node id="ORDERLY" label="ORDERLY" />
+    </nodes>
+    <edges>
+      <edge id="9225" source="DOCTOR" target="STEVEN" weight="3" />
+      <edge id="9226" source="DOCTOR" target="PHILLIP" weight="1" />
+      <edge id="9227" source="STEVEN" target="DOCTOR" weight="3" />
+      <edge id="9228" source="STEVEN" target="STEVEN'S MOM" weight="1" />
+      <edge id="9229" source="STEVEN" target="STEVEN'S BROTHER" weight="1" />
+      <edge id="9230" source="STEVEN" target="YOUNG STEVEN" weight="2" />
+      <edge id="9231" source="STEVEN" target="STEVEN'S DAD" weight="1" />
+      <edge id="9232" source="STEVEN" target="MANDI" weight="1" />
+      <edge id="9233" source="STEVEN" target="VARIOUS POLICEMAN" weight="1" />
+      <edge id="9234" source="STEVEN" target="STEPHANIE" weight="3" />
+      <edge id="9235" source="STEVEN" target="DEBBIE" weight="7" />
+      <edge id="9236" source="STEVEN" target="MRS. BASCOMBE" weight="1" />
+      <edge id="9237" source="STEVEN" target="NEIL" weight="1" />
+      <edge id="9238" source="STEVEN" target="SARA" weight="1" />
+      <edge id="9239" source="STEVEN" target="MOUSTACHED MAN" weight="3" />
+      <edge id="9240" source="STEVEN" target="LITTLE GIRL" weight="1" />
+      <edge id="9241" source="STEVEN" target="LITTLE BOY" weight="1" />
+      <edge id="9242" source="STEVEN" target="RED HAIRED BOY" weight="1" />
+      <edge id="9243" source="STEVEN" target="PARAMEDIC" weight="1" />
+      <edge id="9244" source="STEVEN" target="LAWYER" weight="3" />
+      <edge id="9245" source="STEVEN" target="PRODUCE MANAGER" weight="1" />
+      <edge id="9246" source="STEVEN" target="SALESWOMAN" weight="1" />
+      <edge id="9247" source="STEVEN" target="KEMPLE" weight="5" />
+      <edge id="9248" source="STEVEN" target="CHERUBIC SECRETARY" weight="1" />
+      <edge id="9249" source="STEVEN" target="GARY" weight="1" />
+      <edge id="9250" source="STEVEN" target="ARNIE" weight="1" />
+      <edge id="9251" source="STEVEN" target="PHILLIP" weight="28" />
+      <edge id="9252" source="STEVEN" target="CLEAVON" weight="3" />
+      <edge id="9253" source="STEVEN" target="CORRECTIONS OFFICER" weight="1" />
+      <edge id="9254" source="STEVEN" target="GUARD" weight="1" />
+      <edge id="9255" source="STEVEN" target="TAXI DRIVER" weight="2" />
+      <edge id="9256" source="STEVEN" target="DUTY OFFICER" weight="1" />
+      <edge id="9257" source="STEVEN" target="HOUSEWIFE" weight="1" />
+      <edge id="9258" source="STEVEN" target="RELEASE OFFICER" weight="1" />
+      <edge id="9259" source="STEVEN" target="BAYLOR" weight="1" />
+      <edge id="9260" source="STEVEN" target="BLAKE" weight="1" />
+      <edge id="9261" source="STEVEN" target="EUDORA" weight="2" />
+      <edge id="9262" source="STEVEN" target="JUDGE" weight="2" />
+      <edge id="9263" source="STEVEN" target="EVANS" weight="1" />
+      <edge id="9264" source="STEVEN" target="LINDHOLM" weight="7" />
+      <edge id="9265" source="STEVEN" target="RHEBA" weight="2" />
+      <edge id="9266" source="STEVEN" target="MARK" weight="1" />
+      <edge id="9267" source="STEVEN" target="BIRKHEIM" weight="2" />
+      <edge id="9268" source="STEVEN" target="MRS. LINDHOLM" weight="1" />
+      <edge id="9269" source="STEVEN" target="FACELIFT WIFE" weight="1" />
+      <edge id="9270" source="STEVEN" target="BLONDE WIFE" weight="1" />
+      <edge id="9271" source="STEVEN" target="VERA" weight="2" />
+      <edge id="9272" source="STEVEN" target="SECRETARY" weight="1" />
+      <edge id="9273" source="STEVEN" target="BLONDE INMATE" weight="1" />
+      <edge id="9274" source="STEVEN" target="HELEN" weight="1" />
+      <edge id="9275" source="STEVEN" target="HOUSTON COP" weight="2" />
+      <edge id="9276" source="STEVEN" target="NEW CELLMATE" weight="1" />
+      <edge id="9277" source="STEVEN" target="PHYSICIAN" weight="1" />
+      <edge id="9278" source="STEVEN" target="HOUSTON JUDGE" weight="1" />
+      <edge id="9279" source="STEVEN" target="ATTORNEY" weight="1" />
+      <edge id="9280" source="STEVEN" target="CLERK" weight="1" />
+      <edge id="9281" source="STEVEN" target="JULIE" weight="1" />
+      <edge id="9282" source="STEVEN" target="SWAT COMMANDER" weight="1" />
+      <edge id="9283" source="STEVEN" target="POLICEMAN" weight="1" />
+      <edge id="9284" source="STEVEN" target="YOUNG DOCTOR" weight="2" />
+      <edge id="9285" source="STEVEN" target="CARETAKER" weight="1" />
+      <edge id="9286" source="STEVEN" target="BOSSY GUARD" weight="1" />
+      <edge id="9287" source="STEVEN" target="BUNKMATE" weight="1" />
+      <edge id="9288" source="STEVEN" target="LAWRENCE" weight="1" />
+      <edge id="9289" source="RED HAIRED BOY" target="LITTLE GIRL" weight="2" />
+      <edge id="9290" source="RED HAIRED BOY" target="YOUNG STEVEN" weight="2" />
+      <edge id="9291" source="RED HAIRED BOY" target="STEVEN'S MOM" weight="1" />
+      <edge id="9292" source="RED HAIRED BOY" target="LITTLE BOY" weight="1" />
+      <edge id="9293" source="RED HAIRED BOY" target="STEVEN" weight="1" />
+      <edge id="9294" source="LITTLE GIRL" target="RED HAIRED BOY" weight="2" />
+      <edge id="9295" source="LITTLE GIRL" target="YOUNG STEVEN" weight="2" />
+      <edge id="9296" source="LITTLE GIRL" target="STEVEN'S MOM" weight="1" />
+      <edge id="9297" source="LITTLE GIRL" target="LITTLE BOY" weight="1" />
+      <edge id="9298" source="LITTLE GIRL" target="STEVEN" weight="1" />
+      <edge id="9299" source="YOUNG STEVEN" target="RED HAIRED BOY" weight="2" />
+      <edge id="9300" source="YOUNG STEVEN" target="LITTLE GIRL" weight="2" />
+      <edge id="9301" source="YOUNG STEVEN" target="STEVEN'S MOM" weight="2" />
+      <edge id="9302" source="YOUNG STEVEN" target="STEVEN'S BROTHER" weight="1" />
+      <edge id="9303" source="YOUNG STEVEN" target="STEVEN'S DAD" weight="1" />
+      <edge id="9304" source="YOUNG STEVEN" target="STEVEN" weight="2" />
+      <edge id="9305" source="YOUNG STEVEN" target="LITTLE BOY" weight="1" />
+      <edge id="9306" source="STEVEN'S MOM" target="RED HAIRED BOY" weight="1" />
+      <edge id="9307" source="STEVEN'S MOM" target="LITTLE GIRL" weight="1" />
+      <edge id="9308" source="STEVEN'S MOM" target="YOUNG STEVEN" weight="2" />
+      <edge id="9309" source="STEVEN'S MOM" target="STEVEN'S BROTHER" weight="1" />
+      <edge id="9310" source="STEVEN'S MOM" target="STEVEN'S DAD" weight="1" />
+      <edge id="9311" source="STEVEN'S MOM" target="STEVEN" weight="1" />
+      <edge id="9312" source="STEVEN'S BROTHER" target="STEVEN'S MOM" weight="1" />
+      <edge id="9313" source="STEVEN'S BROTHER" target="YOUNG STEVEN" weight="1" />
+      <edge id="9314" source="STEVEN'S BROTHER" target="STEVEN'S DAD" weight="1" />
+      <edge id="9315" source="STEVEN'S BROTHER" target="STEVEN" weight="1" />
+      <edge id="9316" source="STEVEN'S DAD" target="STEVEN'S MOM" weight="1" />
+      <edge id="9317" source="STEVEN'S DAD" target="STEVEN'S BROTHER" weight="1" />
+      <edge id="9318" source="STEVEN'S DAD" target="YOUNG STEVEN" weight="1" />
+      <edge id="9319" source="STEVEN'S DAD" target="STEVEN" weight="1" />
+      <edge id="9320" source="MANDI" target="STEVEN" weight="1" />
+      <edge id="9321" source="MANDI" target="VARIOUS POLICEMAN" weight="1" />
+      <edge id="9322" source="VARIOUS POLICEMAN" target="MANDI" weight="1" />
+      <edge id="9323" source="VARIOUS POLICEMAN" target="STEVEN" weight="1" />
+      <edge id="9324" source="STEPHANIE" target="STEVEN" weight="3" />
+      <edge id="9325" source="STEPHANIE" target="DEBBIE" weight="2" />
+      <edge id="9326" source="STEPHANIE" target="NEIL" weight="1" />
+      <edge id="9327" source="STEPHANIE" target="SARA" weight="1" />
+      <edge id="9328" source="DEBBIE" target="STEVEN" weight="7" />
+      <edge id="9329" source="DEBBIE" target="STEPHANIE" weight="2" />
+      <edge id="9330" source="DEBBIE" target="NEIL" weight="1" />
+      <edge id="9331" source="DEBBIE" target="SARA" weight="1" />
+      <edge id="9332" source="DEBBIE" target="KEMPLE" weight="1" />
+      <edge id="9333" source="DEBBIE" target="COP" weight="1" />
+      <edge id="9334" source="MRS. BASCOMBE" target="STEVEN" weight="1" />
+      <edge id="9335" source="NEIL" target="STEPHANIE" weight="1" />
+      <edge id="9336" source="NEIL" target="DEBBIE" weight="1" />
+      <edge id="9337" source="NEIL" target="STEVEN" weight="1" />
+      <edge id="9338" source="NEIL" target="SARA" weight="1" />
+      <edge id="9339" source="SARA" target="STEPHANIE" weight="1" />
+      <edge id="9340" source="SARA" target="DEBBIE" weight="1" />
+      <edge id="9341" source="SARA" target="STEVEN" weight="1" />
+      <edge id="9342" source="SARA" target="NEIL" weight="1" />
+      <edge id="9343" source="MOUSTACHED MAN" target="STEVEN" weight="3" />
+      <edge id="9344" source="LITTLE BOY" target="LITTLE GIRL" weight="1" />
+      <edge id="9345" source="LITTLE BOY" target="RED HAIRED BOY" weight="1" />
+      <edge id="9346" source="LITTLE BOY" target="YOUNG STEVEN" weight="1" />
+      <edge id="9347" source="LITTLE BOY" target="STEVEN" weight="1" />
+      <edge id="9348" source="PARAMEDIC" target="STEVEN" weight="1" />
+      <edge id="9349" source="LAWYER" target="STEVEN" weight="3" />
+      <edge id="9350" source="LAWYER" target="JUDGE" weight="2" />
+      <edge id="9351" source="LAWYER" target="EVANS" weight="1" />
+      <edge id="9352" source="PRODUCE MANAGER" target="STEVEN" weight="1" />
+      <edge id="9353" source="SALESWOMAN" target="STEVEN" weight="1" />
+      <edge id="9354" source="KEMPLE" target="STEVEN" weight="5" />
+      <edge id="9355" source="KEMPLE" target="DEBBIE" weight="1" />
+      <edge id="9356" source="KEMPLE" target="COP" weight="1" />
+      <edge id="9357" source="KEMPLE" target="HELEN" weight="1" />
+      <edge id="9358" source="CHERUBIC SECRETARY" target="STEVEN" weight="1" />
+      <edge id="9359" source="COP" target="DEBBIE" weight="1" />
+      <edge id="9360" source="COP" target="KEMPLE" weight="1" />
+      <edge id="9361" source="GARY" target="STEVEN" weight="1" />
+      <edge id="9362" source="ARNIE" target="STEVEN" weight="1" />
+      <edge id="9363" source="PHILLIP" target="STEVEN" weight="28" />
+      <edge id="9364" source="PHILLIP" target="CLEAVON" weight="3" />
+      <edge id="9365" source="PHILLIP" target="CORRECTIONS OFFICER" weight="1" />
+      <edge id="9366" source="PHILLIP" target="LARGE PRISONER" weight="1" />
+      <edge id="9367" source="PHILLIP" target="BALD PRISONER" weight="1" />
+      <edge id="9368" source="PHILLIP" target="GUARD" weight="1" />
+      <edge id="9369" source="PHILLIP" target="YARD GUARD" weight="1" />
+      <edge id="9370" source="PHILLIP" target="RELEASE OFFICER" weight="1" />
+      <edge id="9371" source="PHILLIP" target="BAYLOR" weight="1" />
+      <edge id="9372" source="PHILLIP" target="BLAKE" weight="1" />
+      <edge id="9373" source="PHILLIP" target="EUDORA" weight="1" />
+      <edge id="9374" source="PHILLIP" target="SWAT COMMANDER" weight="1" />
+      <edge id="9375" source="PHILLIP" target="POLICEMAN" weight="1" />
+      <edge id="9376" source="PHILLIP" target="SAMUEL" weight="1" />
+      <edge id="9377" source="PHILLIP" target="DOCTOR" weight="1" />
+      <edge id="9378" source="PHILLIP" target="BOSSY GUARD" weight="1" />
+      <edge id="9379" source="CLEAVON" target="PHILLIP" weight="3" />
+      <edge id="9380" source="CLEAVON" target="STEVEN" weight="3" />
+      <edge id="9381" source="CLEAVON" target="CORRECTIONS OFFICER" weight="1" />
+      <edge id="9382" source="CLEAVON" target="GUARD" weight="1" />
+      <edge id="9383" source="CLEAVON" target="VOICES" weight="1" />
+      <edge id="9384" source="CLEAVON" target="BUNKMATE" weight="1" />
+      <edge id="9385" source="CORRECTIONS OFFICER" target="PHILLIP" weight="1" />
+      <edge id="9386" source="CORRECTIONS OFFICER" target="CLEAVON" weight="1" />
+      <edge id="9387" source="CORRECTIONS OFFICER" target="STEVEN" weight="1" />
+      <edge id="9388" source="CORRECTIONS OFFICER" target="FIRST PRISONER" weight="1" />
+      <edge id="9389" source="CORRECTIONS OFFICER" target="SECOND PRISONER" weight="1" />
+      <edge id="9390" source="LARGE PRISONER" target="PHILLIP" weight="1" />
+      <edge id="9391" source="LARGE PRISONER" target="BALD PRISONER" weight="1" />
+      <edge id="9392" source="BALD PRISONER" target="LARGE PRISONER" weight="1" />
+      <edge id="9393" source="BALD PRISONER" target="PHILLIP" weight="1" />
+      <edge id="9394" source="GUARD" target="CLEAVON" weight="1" />
+      <edge id="9395" source="GUARD" target="VOICES" weight="1" />
+      <edge id="9396" source="GUARD" target="PHILLIP" weight="1" />
+      <edge id="9397" source="GUARD" target="STEVEN" weight="1" />
+      <edge id="9398" source="VOICES" target="GUARD" weight="1" />
+      <edge id="9399" source="VOICES" target="CLEAVON" weight="1" />
+      <edge id="9400" source="YARD GUARD" target="PHILLIP" weight="1" />
+      <edge id="9401" source="TAXI DRIVER" target="STEVEN" weight="2" />
+      <edge id="9402" source="DUTY OFFICER" target="STEVEN" weight="1" />
+      <edge id="9403" source="HOUSEWIFE" target="STEVEN" weight="1" />
+      <edge id="9404" source="RELEASE OFFICER" target="STEVEN" weight="1" />
+      <edge id="9405" source="RELEASE OFFICER" target="PHILLIP" weight="1" />
+      <edge id="9406" source="BAYLOR" target="BLAKE" weight="1" />
+      <edge id="9407" source="BAYLOR" target="PHILLIP" weight="1" />
+      <edge id="9408" source="BAYLOR" target="STEVEN" weight="1" />
+      <edge id="9409" source="BLAKE" target="BAYLOR" weight="1" />
+      <edge id="9410" source="BLAKE" target="PHILLIP" weight="1" />
+      <edge id="9411" source="BLAKE" target="STEVEN" weight="1" />
+      <edge id="9412" source="EUDORA" target="STEVEN" weight="2" />
+      <edge id="9413" source="EUDORA" target="PHILLIP" weight="1" />
+      <edge id="9414" source="JUDGE" target="STEVEN" weight="2" />
+      <edge id="9415" source="JUDGE" target="LAWYER" weight="2" />
+      <edge id="9416" source="JUDGE" target="EVANS" weight="1" />
+      <edge id="9417" source="EVANS" target="JUDGE" weight="1" />
+      <edge id="9418" source="EVANS" target="STEVEN" weight="1" />
+      <edge id="9419" source="EVANS" target="LAWYER" weight="1" />
+      <edge id="9420" source="LINDHOLM" target="STEVEN" weight="7" />
+      <edge id="9421" source="LINDHOLM" target="MRS. LINDHOLM" weight="1" />
+      <edge id="9422" source="LINDHOLM" target="FACELIFT WIFE" weight="1" />
+      <edge id="9423" source="LINDHOLM" target="BLONDE WIFE" weight="1" />
+      <edge id="9424" source="LINDHOLM" target="BIRKHEIM" weight="1" />
+      <edge id="9425" source="RHEBA" target="STEVEN" weight="2" />
+      <edge id="9426" source="MARK" target="BIRKHEIM" weight="1" />
+      <edge id="9427" source="MARK" target="STEVEN" weight="1" />
+      <edge id="9428" source="BIRKHEIM" target="MARK" weight="1" />
+      <edge id="9429" source="BIRKHEIM" target="STEVEN" weight="2" />
+      <edge id="9430" source="BIRKHEIM" target="LINDHOLM" weight="1" />
+      <edge id="9431" source="MRS. LINDHOLM" target="LINDHOLM" weight="1" />
+      <edge id="9432" source="MRS. LINDHOLM" target="STEVEN" weight="1" />
+      <edge id="9433" source="MRS. LINDHOLM" target="FACELIFT WIFE" weight="1" />
+      <edge id="9434" source="MRS. LINDHOLM" target="BLONDE WIFE" weight="1" />
+      <edge id="9435" source="FACELIFT WIFE" target="LINDHOLM" weight="1" />
+      <edge id="9436" source="FACELIFT WIFE" target="MRS. LINDHOLM" weight="1" />
+      <edge id="9437" source="FACELIFT WIFE" target="STEVEN" weight="1" />
+      <edge id="9438" source="FACELIFT WIFE" target="BLONDE WIFE" weight="1" />
+      <edge id="9439" source="BLONDE WIFE" target="LINDHOLM" weight="1" />
+      <edge id="9440" source="BLONDE WIFE" target="MRS. LINDHOLM" weight="1" />
+      <edge id="9441" source="BLONDE WIFE" target="STEVEN" weight="1" />
+      <edge id="9442" source="BLONDE WIFE" target="FACELIFT WIFE" weight="1" />
+      <edge id="9443" source="VERA" target="STEVEN" weight="2" />
+      <edge id="9444" source="SECRETARY" target="STEVEN" weight="1" />
+      <edge id="9445" source="BLONDE INMATE" target="STEVEN" weight="1" />
+      <edge id="9446" source="HELEN" target="KEMPLE" weight="1" />
+      <edge id="9447" source="HELEN" target="STEVEN" weight="1" />
+      <edge id="9448" source="HOUSTON COP" target="STEVEN" weight="2" />
+      <edge id="9449" source="HOUSTON COP" target="DRIVING COP" weight="1" />
+      <edge id="9450" source="DRIVING COP" target="HOUSTON COP" weight="1" />
+      <edge id="9451" source="FIRST PRISONER" target="CORRECTIONS OFFICER" weight="1" />
+      <edge id="9452" source="FIRST PRISONER" target="SECOND PRISONER" weight="1" />
+      <edge id="9453" source="SECOND PRISONER" target="CORRECTIONS OFFICER" weight="1" />
+      <edge id="9454" source="SECOND PRISONER" target="FIRST PRISONER" weight="1" />
+      <edge id="9455" source="NEW CELLMATE" target="STEVEN" weight="1" />
+      <edge id="9456" source="PHYSICIAN" target="STEVEN" weight="1" />
+      <edge id="9457" source="HOUSTON JUDGE" target="ATTORNEY" weight="1" />
+      <edge id="9458" source="HOUSTON JUDGE" target="STEVEN" weight="1" />
+      <edge id="9459" source="ATTORNEY" target="HOUSTON JUDGE" weight="1" />
+      <edge id="9460" source="ATTORNEY" target="STEVEN" weight="1" />
+      <edge id="9461" source="CLERK" target="STEVEN" weight="1" />
+      <edge id="9462" source="CLERK" target="JULIE" weight="1" />
+      <edge id="9463" source="JULIE" target="CLERK" weight="1" />
+      <edge id="9464" source="JULIE" target="STEVEN" weight="1" />
+      <edge id="9465" source="SWAT COMMANDER" target="PHILLIP" weight="1" />
+      <edge id="9466" source="SWAT COMMANDER" target="STEVEN" weight="1" />
+      <edge id="9467" source="POLICEMAN" target="STEVEN" weight="1" />
+      <edge id="9468" source="POLICEMAN" target="PHILLIP" weight="1" />
+      <edge id="9469" source="BUNKMATE" target="STEVEN" weight="1" />
+      <edge id="9470" source="BUNKMATE" target="CLEAVON" weight="1" />
+      <edge id="9471" source="YOUNG DOCTOR" target="STEVEN" weight="2" />
+      <edge id="9472" source="SAMUEL" target="PHILLIP" weight="1" />
+      <edge id="9473" source="SAMUEL" target="BOSSY GUARD" weight="1" />
+      <edge id="9474" source="CARETAKER" target="STEVEN" weight="1" />
+      <edge id="9475" source="BOSSY GUARD" target="SAMUEL" weight="1" />
+      <edge id="9476" source="BOSSY GUARD" target="PHILLIP" weight="1" />
+      <edge id="9477" source="BOSSY GUARD" target="STEVEN" weight="1" />
+      <edge id="9478" source="LAWRENCE" target="STEVEN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

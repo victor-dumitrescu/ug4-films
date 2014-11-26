@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="LELAND TURBO" label="LELAND TURBO" />
+      <node id="CRABBY" label="CRABBY" />
+      <node id="FINN" label="FINN" />
+      <node id="COMBAT SHIP" label="COMBAT SHIP" />
+      <node id="PROFESSOR ZUNDAPP" label="PROFESSOR ZUNDAPP" />
+      <node id="PACER" label="PACER" />
+      <node id="NOSY PACER" label="NOSY PACER" />
+      <node id="GREM" label="GREM" />
+      <node id="ACER" label="ACER" />
+      <node id="MATER" label="MATER" />
+      <node id="OTIS" label="OTIS" />
+      <node id="LUIGI" label="LUIGI" />
+      <node id="FLO" label="FLO" />
+      <node id="FILLMORE" label="FILLMORE" />
+      <node id="SARGE" label="SARGE" />
+      <node id="SHERIFF" label="SHERIFF" />
+      <node id="LIZZIE" label="LIZZIE" />
+      <node id="MCQUEEN" label="MCQUEEN" />
+      <node id="RAMONE" label="RAMONE" />
+      <node id="MACK" label="MACK" />
+      <node id="SALLY" label="SALLY" />
+      <node id="GUIDO" label="GUIDO" />
+      <node id="MEL DORADO" label="MEL DORADO" />
+      <node id="MILES AXLEROD" label="MILES AXLEROD" />
+      <node id="FRANCESCO" label="FRANCESCO" />
+      <node id="CALLER" label="CALLER" />
+      <node id="MATER'S VOICE" label="MATER'S VOICE" />
+      <node id="LEWIS HAMILTON" label="LEWIS HAMILTON" />
+      <node id="JEFF GORVETTE" label="JEFF GORVETTE" />
+      <node id="VOICE" label="VOICE" />
+      <node id="HOLLEY" label="HOLLEY" />
+      <node id="SUSHI CHEF" label="SUSHI CHEF" />
+      <node id="ROD REDLINE" label="ROD REDLINE" />
+      <node id="GREM AND ACER" label="GREM AND ACER" />
+      <node id="BRENT MUSTANGBURGER" label="BRENT MUSTANGBURGER" />
+      <node id="DAVID HOBBSCAP" label="DAVID HOBBSCAP" />
+      <node id="DARRELL CARTRIP" label="DARRELL CARTRIP" />
+      <node id="PRESS" label="PRESS" />
+      <node id="SECURITY CAR" label="SECURITY CAR" />
+      <node id="SIDDELEY" label="SIDDELEY" />
+      <node id="MERCHANTS" label="MERCHANTS" />
+      <node id="TOMBER" label="TOMBER" />
+      <node id="UNCLE TOPOLINO" label="UNCLE TOPOLINO" />
+      <node id="MAMA TOPOLINO" label="MAMA TOPOLINO" />
+      <node id="STEPHENSON" label="STEPHENSON" />
+      <node id="MATER'S COMPUTER" label="MATER'S COMPUTER" />
+      <node id="ITALIAN TRACK ANNOUNCER" label="ITALIAN TRACK ANNOUNCER" />
+      <node id="ALEXANDER HUGO" label="ALEXANDER HUGO" />
+      <node id="IVAN THE TOW TRUCK" label="IVAN THE TOW TRUCK" />
+      <node id="ANOTHER HUGO" label="ANOTHER HUGO" />
+      <node id="VICTOR HUGO" label="VICTOR HUGO" />
+      <node id="CIGARETTE GIRL CAR" label="CIGARETTE GIRL CAR" />
+      <node id="VLADIMIR TRUNKOV" label="VLADIMIR TRUNKOV" />
+      <node id="TUBBS PACER" label="TUBBS PACER" />
+      <node id="ENGINE VOICE" label="ENGINE VOICE" />
+      <node id="LEMONHEADS" label="LEMONHEADS" />
+      <node id="ITALIAN MOTORBOAT" label="ITALIAN MOTORBOAT" />
+      <node id="ITALIAN SECURITY #1" label="ITALIAN SECURITY #1" />
+      <node id="ITALIAN SECURITY #2" label="ITALIAN SECURITY #2" />
+      <node id="PRESS LIAISON" label="PRESS LIAISON" />
+      <node id="DISSATISFIED CACOPHONY" label="DISSATISFIED CACOPHONY" />
+      <node id="EVERYONE" label="EVERYONE" />
+      <node id="BOMB'S COMPUTER VOICE" label="BOMB'S COMPUTER VOICE" />
+      <node id="J. CURBY GREMLIN" label="J. CURBY GREMLIN" />
+      <node id="BRITISH CORPORAL" label="BRITISH CORPORAL" />
+      <node id="QUEEN" label="QUEEN" />
+      <node id="QUEEN'S GUARD" label="QUEEN'S GUARD" />
+      <node id="QUEEN'S GUARDS" label="QUEEN'S GUARDS" />
+      <node id="PRINCE WHEELIAM" label="PRINCE WHEELIAM" />
+      <node id="GUARD" label="GUARD" />
+      <node id="THE BOMB'S COMPUTER VOICE" label="THE BOMB'S COMPUTER VOICE" />
+      <node id="LORD STEWARD" label="LORD STEWARD" />
+      <node id="MINNY" label="MINNY" />
+      <node id="VAN" label="VAN" />
+    </nodes>
+    <edges>
+      <edge id="2357" source="CRABBY" target="FINN" weight="1" />
+      <edge id="2358" source="CRABBY" target="COMBAT SHIP" weight="1" />
+      <edge id="2359" source="FINN" target="CRABBY" weight="1" />
+      <edge id="2360" source="FINN" target="COMBAT SHIP" weight="3" />
+      <edge id="2361" source="FINN" target="PROFESSOR ZUNDAPP" weight="5" />
+      <edge id="2362" source="FINN" target="PACER" weight="1" />
+      <edge id="2363" source="FINN" target="NOSY PACER" weight="1" />
+      <edge id="2364" source="FINN" target="GREM" weight="5" />
+      <edge id="2365" source="FINN" target="ACER" weight="5" />
+      <edge id="2366" source="FINN" target="VOICE" weight="1" />
+      <edge id="2367" source="FINN" target="MILES AXLEROD" weight="2" />
+      <edge id="2368" source="FINN" target="HOLLEY" weight="24" />
+      <edge id="2369" source="FINN" target="MATER" weight="21" />
+      <edge id="2370" source="FINN" target="SUSHI CHEF" weight="1" />
+      <edge id="2371" source="FINN" target="MCQUEEN" weight="6" />
+      <edge id="2372" source="FINN" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="2373" source="FINN" target="FRANCESCO" weight="1" />
+      <edge id="2374" source="FINN" target="SARGE" weight="3" />
+      <edge id="2375" source="FINN" target="LUIGI" weight="4" />
+      <edge id="2376" source="FINN" target="FILLMORE" weight="2" />
+      <edge id="2377" source="FINN" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2378" source="FINN" target="DARRELL CARTRIP" weight="1" />
+      <edge id="2379" source="FINN" target="SECURITY CAR" weight="1" />
+      <edge id="2380" source="FINN" target="SIDDELEY" weight="2" />
+      <edge id="2381" source="FINN" target="MERCHANTS" weight="1" />
+      <edge id="2382" source="FINN" target="TOMBER" weight="2" />
+      <edge id="2383" source="FINN" target="MATER'S COMPUTER" weight="4" />
+      <edge id="2384" source="FINN" target="ALEXANDER HUGO" weight="1" />
+      <edge id="2385" source="FINN" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="2386" source="FINN" target="ANOTHER HUGO" weight="1" />
+      <edge id="2387" source="FINN" target="ENGINE VOICE" weight="2" />
+      <edge id="2388" source="FINN" target="JEFF GORVETTE" weight="1" />
+      <edge id="2389" source="FINN" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2390" source="FINN" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2391" source="FINN" target="SALLY" weight="1" />
+      <edge id="2392" source="FINN" target="FLO" weight="2" />
+      <edge id="2393" source="FINN" target="EVERYONE" weight="1" />
+      <edge id="2394" source="FINN" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2395" source="FINN" target="VICTOR HUGO" weight="1" />
+      <edge id="2396" source="FINN" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2397" source="FINN" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2398" source="FINN" target="GUIDO" weight="1" />
+      <edge id="2399" source="FINN" target="SHERIFF" weight="1" />
+      <edge id="2400" source="FINN" target="TUBBS PACER" weight="1" />
+      <edge id="2401" source="FINN" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2402" source="FINN" target="QUEEN" weight="1" />
+      <edge id="2403" source="FINN" target="QUEEN'S GUARD" weight="1" />
+      <edge id="2404" source="FINN" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="2405" source="FINN" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="2406" source="FINN" target="GUARD" weight="1" />
+      <edge id="2407" source="FINN" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2408" source="FINN" target="MINNY" weight="1" />
+      <edge id="2409" source="FINN" target="VAN" weight="1" />
+      <edge id="2410" source="FINN" target="RAMONE" weight="1" />
+      <edge id="2411" source="FINN" target="LIZZIE" weight="1" />
+      <edge id="2412" source="FINN" target="MACK" weight="1" />
+      <edge id="2413" source="COMBAT SHIP" target="CRABBY" weight="1" />
+      <edge id="2414" source="COMBAT SHIP" target="FINN" weight="3" />
+      <edge id="2415" source="COMBAT SHIP" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2416" source="COMBAT SHIP" target="PACER" weight="1" />
+      <edge id="2417" source="COMBAT SHIP" target="NOSY PACER" weight="1" />
+      <edge id="2418" source="COMBAT SHIP" target="GREM" weight="1" />
+      <edge id="2419" source="COMBAT SHIP" target="ACER" weight="1" />
+      <edge id="2420" source="PROFESSOR ZUNDAPP" target="FINN" weight="5" />
+      <edge id="2421" source="PROFESSOR ZUNDAPP" target="PACER" weight="1" />
+      <edge id="2422" source="PROFESSOR ZUNDAPP" target="NOSY PACER" weight="1" />
+      <edge id="2423" source="PROFESSOR ZUNDAPP" target="GREM" weight="4" />
+      <edge id="2424" source="PROFESSOR ZUNDAPP" target="ACER" weight="4" />
+      <edge id="2425" source="PROFESSOR ZUNDAPP" target="COMBAT SHIP" weight="1" />
+      <edge id="2426" source="PROFESSOR ZUNDAPP" target="ROD REDLINE" weight="1" />
+      <edge id="2427" source="PROFESSOR ZUNDAPP" target="BRENT MUSTANGBURGER" weight="4" />
+      <edge id="2428" source="PROFESSOR ZUNDAPP" target="MCQUEEN" weight="6" />
+      <edge id="2429" source="PROFESSOR ZUNDAPP" target="FRANCESCO" weight="3" />
+      <edge id="2430" source="PROFESSOR ZUNDAPP" target="SARGE" weight="2" />
+      <edge id="2431" source="PROFESSOR ZUNDAPP" target="LUIGI" weight="2" />
+      <edge id="2432" source="PROFESSOR ZUNDAPP" target="FILLMORE" weight="1" />
+      <edge id="2433" source="PROFESSOR ZUNDAPP" target="MATER" weight="7" />
+      <edge id="2434" source="PROFESSOR ZUNDAPP" target="HOLLEY" weight="4" />
+      <edge id="2435" source="PROFESSOR ZUNDAPP" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2436" source="PROFESSOR ZUNDAPP" target="DARRELL CARTRIP" weight="3" />
+      <edge id="2437" source="PROFESSOR ZUNDAPP" target="TUBBS PACER" weight="2" />
+      <edge id="2438" source="PROFESSOR ZUNDAPP" target="VICTOR HUGO" weight="2" />
+      <edge id="2439" source="PROFESSOR ZUNDAPP" target="VOICE" weight="1" />
+      <edge id="2440" source="PROFESSOR ZUNDAPP" target="ENGINE VOICE" weight="1" />
+      <edge id="2441" source="PROFESSOR ZUNDAPP" target="VLADIMIR TRUNKOV" weight="4" />
+      <edge id="2442" source="PROFESSOR ZUNDAPP" target="MILES AXLEROD" weight="1" />
+      <edge id="2443" source="PROFESSOR ZUNDAPP" target="ALEXANDER HUGO" weight="1" />
+      <edge id="2444" source="PROFESSOR ZUNDAPP" target="LEMONHEADS" weight="1" />
+      <edge id="2445" source="PROFESSOR ZUNDAPP" target="MATER'S COMPUTER" weight="4" />
+      <edge id="2446" source="PROFESSOR ZUNDAPP" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="2447" source="PROFESSOR ZUNDAPP" target="JEFF GORVETTE" weight="1" />
+      <edge id="2448" source="PROFESSOR ZUNDAPP" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2449" source="PROFESSOR ZUNDAPP" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2450" source="PROFESSOR ZUNDAPP" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2451" source="PROFESSOR ZUNDAPP" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2452" source="PROFESSOR ZUNDAPP" target="GUIDO" weight="1" />
+      <edge id="2453" source="PROFESSOR ZUNDAPP" target="SHERIFF" weight="1" />
+      <edge id="2454" source="PROFESSOR ZUNDAPP" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2455" source="PACER" target="FINN" weight="1" />
+      <edge id="2456" source="PACER" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2457" source="PACER" target="NOSY PACER" weight="1" />
+      <edge id="2458" source="PACER" target="GREM" weight="1" />
+      <edge id="2459" source="PACER" target="ACER" weight="1" />
+      <edge id="2460" source="PACER" target="COMBAT SHIP" weight="1" />
+      <edge id="2461" source="NOSY PACER" target="FINN" weight="1" />
+      <edge id="2462" source="NOSY PACER" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2463" source="NOSY PACER" target="PACER" weight="1" />
+      <edge id="2464" source="NOSY PACER" target="GREM" weight="1" />
+      <edge id="2465" source="NOSY PACER" target="ACER" weight="1" />
+      <edge id="2466" source="NOSY PACER" target="COMBAT SHIP" weight="1" />
+      <edge id="2467" source="GREM" target="FINN" weight="5" />
+      <edge id="2468" source="GREM" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="2469" source="GREM" target="PACER" weight="1" />
+      <edge id="2470" source="GREM" target="NOSY PACER" weight="1" />
+      <edge id="2471" source="GREM" target="ACER" weight="6" />
+      <edge id="2472" source="GREM" target="COMBAT SHIP" weight="1" />
+      <edge id="2473" source="GREM" target="MATER" weight="5" />
+      <edge id="2474" source="GREM" target="ROD REDLINE" weight="2" />
+      <edge id="2475" source="GREM" target="GREM AND ACER" weight="1" />
+      <edge id="2476" source="GREM" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="2477" source="GREM" target="MCQUEEN" weight="1" />
+      <edge id="2478" source="GREM" target="FRANCESCO" weight="1" />
+      <edge id="2479" source="GREM" target="SARGE" weight="1" />
+      <edge id="2480" source="GREM" target="LUIGI" weight="1" />
+      <edge id="2481" source="GREM" target="FILLMORE" weight="1" />
+      <edge id="2482" source="GREM" target="HOLLEY" weight="3" />
+      <edge id="2483" source="GREM" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2484" source="GREM" target="DARRELL CARTRIP" weight="1" />
+      <edge id="2485" source="GREM" target="SECURITY CAR" weight="1" />
+      <edge id="2486" source="GREM" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2487" source="ACER" target="FINN" weight="5" />
+      <edge id="2488" source="ACER" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="2489" source="ACER" target="PACER" weight="1" />
+      <edge id="2490" source="ACER" target="NOSY PACER" weight="1" />
+      <edge id="2491" source="ACER" target="GREM" weight="6" />
+      <edge id="2492" source="ACER" target="COMBAT SHIP" weight="1" />
+      <edge id="2493" source="ACER" target="MATER" weight="4" />
+      <edge id="2494" source="ACER" target="ROD REDLINE" weight="2" />
+      <edge id="2495" source="ACER" target="GREM AND ACER" weight="1" />
+      <edge id="2496" source="ACER" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="2497" source="ACER" target="MCQUEEN" weight="1" />
+      <edge id="2498" source="ACER" target="FRANCESCO" weight="1" />
+      <edge id="2499" source="ACER" target="SARGE" weight="1" />
+      <edge id="2500" source="ACER" target="LUIGI" weight="1" />
+      <edge id="2501" source="ACER" target="FILLMORE" weight="1" />
+      <edge id="2502" source="ACER" target="HOLLEY" weight="3" />
+      <edge id="2503" source="ACER" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2504" source="ACER" target="DARRELL CARTRIP" weight="1" />
+      <edge id="2505" source="ACER" target="ENGINE VOICE" weight="1" />
+      <edge id="2506" source="ACER" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2507" source="MATER" target="OTIS" weight="3" />
+      <edge id="2508" source="MATER" target="LUIGI" weight="7" />
+      <edge id="2509" source="MATER" target="FLO" weight="3" />
+      <edge id="2510" source="MATER" target="FILLMORE" weight="3" />
+      <edge id="2511" source="MATER" target="SARGE" weight="5" />
+      <edge id="2512" source="MATER" target="SHERIFF" weight="2" />
+      <edge id="2513" source="MATER" target="LIZZIE" weight="2" />
+      <edge id="2514" source="MATER" target="MCQUEEN" weight="24" />
+      <edge id="2515" source="MATER" target="MACK" weight="2" />
+      <edge id="2516" source="MATER" target="SALLY" weight="2" />
+      <edge id="2517" source="MATER" target="GUIDO" weight="2" />
+      <edge id="2518" source="MATER" target="MEL DORADO" weight="1" />
+      <edge id="2519" source="MATER" target="MILES AXLEROD" weight="4" />
+      <edge id="2520" source="MATER" target="FRANCESCO" weight="6" />
+      <edge id="2521" source="MATER" target="CALLER" weight="1" />
+      <edge id="2522" source="MATER" target="MATER'S VOICE" weight="1" />
+      <edge id="2523" source="MATER" target="LEWIS HAMILTON" weight="2" />
+      <edge id="2524" source="MATER" target="JEFF GORVETTE" weight="2" />
+      <edge id="2525" source="MATER" target="VOICE" weight="1" />
+      <edge id="2526" source="MATER" target="HOLLEY" weight="19" />
+      <edge id="2527" source="MATER" target="FINN" weight="21" />
+      <edge id="2528" source="MATER" target="SUSHI CHEF" weight="1" />
+      <edge id="2529" source="MATER" target="ROD REDLINE" weight="2" />
+      <edge id="2530" source="MATER" target="GREM" weight="5" />
+      <edge id="2531" source="MATER" target="ACER" weight="4" />
+      <edge id="2532" source="MATER" target="GREM AND ACER" weight="1" />
+      <edge id="2533" source="MATER" target="BRENT MUSTANGBURGER" weight="5" />
+      <edge id="2534" source="MATER" target="DAVID HOBBSCAP" weight="2" />
+      <edge id="2535" source="MATER" target="DARRELL CARTRIP" weight="4" />
+      <edge id="2536" source="MATER" target="PROFESSOR ZUNDAPP" weight="7" />
+      <edge id="2537" source="MATER" target="PRESS" weight="1" />
+      <edge id="2538" source="MATER" target="SECURITY CAR" weight="1" />
+      <edge id="2539" source="MATER" target="SIDDELEY" weight="2" />
+      <edge id="2540" source="MATER" target="MERCHANTS" weight="1" />
+      <edge id="2541" source="MATER" target="TOMBER" weight="2" />
+      <edge id="2542" source="MATER" target="MATER'S COMPUTER" weight="6" />
+      <edge id="2543" source="MATER" target="ALEXANDER HUGO" weight="3" />
+      <edge id="2544" source="MATER" target="IVAN THE TOW TRUCK" weight="2" />
+      <edge id="2545" source="MATER" target="ANOTHER HUGO" weight="1" />
+      <edge id="2546" source="MATER" target="CIGARETTE GIRL CAR" weight="1" />
+      <edge id="2547" source="MATER" target="LEMONHEADS" weight="1" />
+      <edge id="2548" source="MATER" target="VLADIMIR TRUNKOV" weight="2" />
+      <edge id="2549" source="MATER" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="2550" source="MATER" target="ITALIAN SECURITY #1" weight="1" />
+      <edge id="2551" source="MATER" target="ITALIAN SECURITY #2" weight="1" />
+      <edge id="2552" source="MATER" target="PRESS LIAISON" weight="1" />
+      <edge id="2553" source="MATER" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2554" source="MATER" target="EVERYONE" weight="1" />
+      <edge id="2555" source="MATER" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2556" source="MATER" target="VICTOR HUGO" weight="1" />
+      <edge id="2557" source="MATER" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2558" source="MATER" target="TUBBS PACER" weight="1" />
+      <edge id="2559" source="MATER" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2560" source="MATER" target="QUEEN" weight="2" />
+      <edge id="2561" source="MATER" target="QUEEN'S GUARD" weight="1" />
+      <edge id="2562" source="MATER" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="2563" source="MATER" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="2564" source="MATER" target="GUARD" weight="1" />
+      <edge id="2565" source="MATER" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2566" source="MATER" target="LORD STEWARD" weight="1" />
+      <edge id="2567" source="MATER" target="MINNY" weight="1" />
+      <edge id="2568" source="MATER" target="VAN" weight="1" />
+      <edge id="2569" source="MATER" target="RAMONE" weight="1" />
+      <edge id="2570" source="OTIS" target="MATER" weight="3" />
+      <edge id="2571" source="OTIS" target="LUIGI" weight="1" />
+      <edge id="2572" source="OTIS" target="FLO" weight="1" />
+      <edge id="2573" source="OTIS" target="FILLMORE" weight="1" />
+      <edge id="2574" source="OTIS" target="SARGE" weight="1" />
+      <edge id="2575" source="OTIS" target="SHERIFF" weight="1" />
+      <edge id="2576" source="OTIS" target="LIZZIE" weight="1" />
+      <edge id="2577" source="OTIS" target="MCQUEEN" weight="2" />
+      <edge id="2578" source="OTIS" target="RAMONE" weight="1" />
+      <edge id="2579" source="OTIS" target="FRANCESCO" weight="1" />
+      <edge id="2580" source="LUIGI" target="FLO" weight="3" />
+      <edge id="2581" source="LUIGI" target="FILLMORE" weight="5" />
+      <edge id="2582" source="LUIGI" target="SARGE" weight="4" />
+      <edge id="2583" source="LUIGI" target="SHERIFF" weight="2" />
+      <edge id="2584" source="LUIGI" target="LIZZIE" weight="2" />
+      <edge id="2585" source="LUIGI" target="MCQUEEN" weight="8" />
+      <edge id="2586" source="LUIGI" target="MATER" weight="7" />
+      <edge id="2587" source="LUIGI" target="OTIS" weight="1" />
+      <edge id="2588" source="LUIGI" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2589" source="LUIGI" target="JEFF GORVETTE" weight="1" />
+      <edge id="2590" source="LUIGI" target="FRANCESCO" weight="3" />
+      <edge id="2591" source="LUIGI" target="BRENT MUSTANGBURGER" weight="2" />
+      <edge id="2592" source="LUIGI" target="HOLLEY" weight="3" />
+      <edge id="2593" source="LUIGI" target="FINN" weight="4" />
+      <edge id="2594" source="LUIGI" target="DAVID HOBBSCAP" weight="2" />
+      <edge id="2595" source="LUIGI" target="DARRELL CARTRIP" weight="2" />
+      <edge id="2596" source="LUIGI" target="PROFESSOR ZUNDAPP" weight="2" />
+      <edge id="2597" source="LUIGI" target="GREM" weight="1" />
+      <edge id="2598" source="LUIGI" target="ACER" weight="1" />
+      <edge id="2599" source="LUIGI" target="MILES AXLEROD" weight="1" />
+      <edge id="2600" source="LUIGI" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="2601" source="LUIGI" target="SALLY" weight="1" />
+      <edge id="2602" source="LUIGI" target="EVERYONE" weight="1" />
+      <edge id="2603" source="LUIGI" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2604" source="LUIGI" target="VICTOR HUGO" weight="1" />
+      <edge id="2605" source="LUIGI" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2606" source="LUIGI" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2607" source="LUIGI" target="GUIDO" weight="1" />
+      <edge id="2608" source="LUIGI" target="TUBBS PACER" weight="1" />
+      <edge id="2609" source="LUIGI" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2610" source="LUIGI" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2611" source="LUIGI" target="MINNY" weight="1" />
+      <edge id="2612" source="LUIGI" target="VAN" weight="1" />
+      <edge id="2613" source="LUIGI" target="RAMONE" weight="1" />
+      <edge id="2614" source="LUIGI" target="MACK" weight="1" />
+      <edge id="2615" source="FLO" target="LUIGI" weight="3" />
+      <edge id="2616" source="FLO" target="FILLMORE" weight="2" />
+      <edge id="2617" source="FLO" target="SARGE" weight="2" />
+      <edge id="2618" source="FLO" target="SHERIFF" weight="2" />
+      <edge id="2619" source="FLO" target="LIZZIE" weight="2" />
+      <edge id="2620" source="FLO" target="MCQUEEN" weight="4" />
+      <edge id="2621" source="FLO" target="MATER" weight="3" />
+      <edge id="2622" source="FLO" target="OTIS" weight="1" />
+      <edge id="2623" source="FLO" target="RAMONE" weight="2" />
+      <edge id="2624" source="FLO" target="SALLY" weight="3" />
+      <edge id="2625" source="FLO" target="MILES AXLEROD" weight="1" />
+      <edge id="2626" source="FLO" target="EVERYONE" weight="1" />
+      <edge id="2627" source="FLO" target="FINN" weight="2" />
+      <edge id="2628" source="FLO" target="MINNY" weight="1" />
+      <edge id="2629" source="FLO" target="VAN" weight="1" />
+      <edge id="2630" source="FLO" target="HOLLEY" weight="1" />
+      <edge id="2631" source="FLO" target="MACK" weight="1" />
+      <edge id="2632" source="FLO" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2633" source="FLO" target="JEFF GORVETTE" weight="1" />
+      <edge id="2634" source="FLO" target="FRANCESCO" weight="1" />
+      <edge id="2635" source="FILLMORE" target="LUIGI" weight="5" />
+      <edge id="2636" source="FILLMORE" target="FLO" weight="2" />
+      <edge id="2637" source="FILLMORE" target="SARGE" weight="4" />
+      <edge id="2638" source="FILLMORE" target="SHERIFF" weight="1" />
+      <edge id="2639" source="FILLMORE" target="LIZZIE" weight="2" />
+      <edge id="2640" source="FILLMORE" target="MCQUEEN" weight="5" />
+      <edge id="2641" source="FILLMORE" target="MATER" weight="3" />
+      <edge id="2642" source="FILLMORE" target="OTIS" weight="1" />
+      <edge id="2643" source="FILLMORE" target="BRENT MUSTANGBURGER" weight="2" />
+      <edge id="2644" source="FILLMORE" target="FRANCESCO" weight="2" />
+      <edge id="2645" source="FILLMORE" target="HOLLEY" weight="2" />
+      <edge id="2646" source="FILLMORE" target="FINN" weight="2" />
+      <edge id="2647" source="FILLMORE" target="DAVID HOBBSCAP" weight="2" />
+      <edge id="2648" source="FILLMORE" target="DARRELL CARTRIP" weight="2" />
+      <edge id="2649" source="FILLMORE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2650" source="FILLMORE" target="GREM" weight="1" />
+      <edge id="2651" source="FILLMORE" target="ACER" weight="1" />
+      <edge id="2652" source="FILLMORE" target="UNCLE TOPOLINO" weight="1" />
+      <edge id="2653" source="FILLMORE" target="MAMA TOPOLINO" weight="1" />
+      <edge id="2654" source="FILLMORE" target="MILES AXLEROD" weight="1" />
+      <edge id="2655" source="FILLMORE" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="2656" source="FILLMORE" target="MINNY" weight="1" />
+      <edge id="2657" source="FILLMORE" target="VAN" weight="1" />
+      <edge id="2658" source="FILLMORE" target="RAMONE" weight="1" />
+      <edge id="2659" source="FILLMORE" target="MACK" weight="1" />
+      <edge id="2660" source="SARGE" target="LUIGI" weight="4" />
+      <edge id="2661" source="SARGE" target="FLO" weight="2" />
+      <edge id="2662" source="SARGE" target="FILLMORE" weight="4" />
+      <edge id="2663" source="SARGE" target="SHERIFF" weight="2" />
+      <edge id="2664" source="SARGE" target="LIZZIE" weight="2" />
+      <edge id="2665" source="SARGE" target="MCQUEEN" weight="6" />
+      <edge id="2666" source="SARGE" target="MATER" weight="5" />
+      <edge id="2667" source="SARGE" target="OTIS" weight="1" />
+      <edge id="2668" source="SARGE" target="SALLY" weight="1" />
+      <edge id="2669" source="SARGE" target="GUIDO" weight="2" />
+      <edge id="2670" source="SARGE" target="MEL DORADO" weight="1" />
+      <edge id="2671" source="SARGE" target="MILES AXLEROD" weight="1" />
+      <edge id="2672" source="SARGE" target="FRANCESCO" weight="2" />
+      <edge id="2673" source="SARGE" target="CALLER" weight="1" />
+      <edge id="2674" source="SARGE" target="MATER'S VOICE" weight="1" />
+      <edge id="2675" source="SARGE" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="2676" source="SARGE" target="HOLLEY" weight="3" />
+      <edge id="2677" source="SARGE" target="FINN" weight="3" />
+      <edge id="2678" source="SARGE" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2679" source="SARGE" target="DARRELL CARTRIP" weight="1" />
+      <edge id="2680" source="SARGE" target="PROFESSOR ZUNDAPP" weight="2" />
+      <edge id="2681" source="SARGE" target="GREM" weight="1" />
+      <edge id="2682" source="SARGE" target="ACER" weight="1" />
+      <edge id="2683" source="SARGE" target="UNCLE TOPOLINO" weight="1" />
+      <edge id="2684" source="SARGE" target="MAMA TOPOLINO" weight="1" />
+      <edge id="2685" source="SARGE" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2686" source="SARGE" target="VICTOR HUGO" weight="1" />
+      <edge id="2687" source="SARGE" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2688" source="SARGE" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2689" source="SARGE" target="TUBBS PACER" weight="1" />
+      <edge id="2690" source="SARGE" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2691" source="SARGE" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2692" source="SARGE" target="MINNY" weight="1" />
+      <edge id="2693" source="SARGE" target="VAN" weight="1" />
+      <edge id="2694" source="SARGE" target="RAMONE" weight="1" />
+      <edge id="2695" source="SARGE" target="MACK" weight="1" />
+      <edge id="2696" source="SHERIFF" target="LUIGI" weight="2" />
+      <edge id="2697" source="SHERIFF" target="FLO" weight="2" />
+      <edge id="2698" source="SHERIFF" target="FILLMORE" weight="1" />
+      <edge id="2699" source="SHERIFF" target="SARGE" weight="2" />
+      <edge id="2700" source="SHERIFF" target="LIZZIE" weight="1" />
+      <edge id="2701" source="SHERIFF" target="MCQUEEN" weight="3" />
+      <edge id="2702" source="SHERIFF" target="MATER" weight="2" />
+      <edge id="2703" source="SHERIFF" target="OTIS" weight="1" />
+      <edge id="2704" source="SHERIFF" target="HOLLEY" weight="1" />
+      <edge id="2705" source="SHERIFF" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2706" source="SHERIFF" target="FINN" weight="1" />
+      <edge id="2707" source="SHERIFF" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2708" source="SHERIFF" target="VICTOR HUGO" weight="1" />
+      <edge id="2709" source="SHERIFF" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2710" source="SHERIFF" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2711" source="SHERIFF" target="GUIDO" weight="1" />
+      <edge id="2712" source="SHERIFF" target="TUBBS PACER" weight="1" />
+      <edge id="2713" source="SHERIFF" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2714" source="SHERIFF" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2715" source="SHERIFF" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2716" source="SHERIFF" target="JEFF GORVETTE" weight="1" />
+      <edge id="2717" source="SHERIFF" target="FRANCESCO" weight="1" />
+      <edge id="2718" source="SHERIFF" target="SALLY" weight="1" />
+      <edge id="2719" source="LIZZIE" target="LUIGI" weight="2" />
+      <edge id="2720" source="LIZZIE" target="FLO" weight="2" />
+      <edge id="2721" source="LIZZIE" target="FILLMORE" weight="2" />
+      <edge id="2722" source="LIZZIE" target="SARGE" weight="2" />
+      <edge id="2723" source="LIZZIE" target="SHERIFF" weight="1" />
+      <edge id="2724" source="LIZZIE" target="MCQUEEN" weight="2" />
+      <edge id="2725" source="LIZZIE" target="MATER" weight="2" />
+      <edge id="2726" source="LIZZIE" target="OTIS" weight="1" />
+      <edge id="2727" source="LIZZIE" target="MINNY" weight="1" />
+      <edge id="2728" source="LIZZIE" target="VAN" weight="1" />
+      <edge id="2729" source="LIZZIE" target="HOLLEY" weight="1" />
+      <edge id="2730" source="LIZZIE" target="FINN" weight="1" />
+      <edge id="2731" source="LIZZIE" target="RAMONE" weight="1" />
+      <edge id="2732" source="LIZZIE" target="MACK" weight="1" />
+      <edge id="2733" source="MCQUEEN" target="LUIGI" weight="8" />
+      <edge id="2734" source="MCQUEEN" target="FLO" weight="4" />
+      <edge id="2735" source="MCQUEEN" target="FILLMORE" weight="5" />
+      <edge id="2736" source="MCQUEEN" target="SARGE" weight="6" />
+      <edge id="2737" source="MCQUEEN" target="SHERIFF" weight="3" />
+      <edge id="2738" source="MCQUEEN" target="LIZZIE" weight="2" />
+      <edge id="2739" source="MCQUEEN" target="MATER" weight="24" />
+      <edge id="2740" source="MCQUEEN" target="OTIS" weight="2" />
+      <edge id="2741" source="MCQUEEN" target="MACK" weight="2" />
+      <edge id="2742" source="MCQUEEN" target="SALLY" weight="3" />
+      <edge id="2743" source="MCQUEEN" target="GUIDO" weight="2" />
+      <edge id="2744" source="MCQUEEN" target="MEL DORADO" weight="1" />
+      <edge id="2745" source="MCQUEEN" target="MILES AXLEROD" weight="7" />
+      <edge id="2746" source="MCQUEEN" target="FRANCESCO" weight="9" />
+      <edge id="2747" source="MCQUEEN" target="CALLER" weight="1" />
+      <edge id="2748" source="MCQUEEN" target="MATER'S VOICE" weight="1" />
+      <edge id="2749" source="MCQUEEN" target="LEWIS HAMILTON" weight="3" />
+      <edge id="2750" source="MCQUEEN" target="JEFF GORVETTE" weight="3" />
+      <edge id="2751" source="MCQUEEN" target="VOICE" weight="1" />
+      <edge id="2752" source="MCQUEEN" target="HOLLEY" weight="5" />
+      <edge id="2753" source="MCQUEEN" target="FINN" weight="6" />
+      <edge id="2754" source="MCQUEEN" target="SUSHI CHEF" weight="1" />
+      <edge id="2755" source="MCQUEEN" target="BRENT MUSTANGBURGER" weight="7" />
+      <edge id="2756" source="MCQUEEN" target="DAVID HOBBSCAP" weight="3" />
+      <edge id="2757" source="MCQUEEN" target="DARRELL CARTRIP" weight="5" />
+      <edge id="2758" source="MCQUEEN" target="PROFESSOR ZUNDAPP" weight="6" />
+      <edge id="2759" source="MCQUEEN" target="GREM" weight="1" />
+      <edge id="2760" source="MCQUEEN" target="ACER" weight="1" />
+      <edge id="2761" source="MCQUEEN" target="PRESS" weight="1" />
+      <edge id="2762" source="MCQUEEN" target="UNCLE TOPOLINO" weight="1" />
+      <edge id="2763" source="MCQUEEN" target="MAMA TOPOLINO" weight="1" />
+      <edge id="2764" source="MCQUEEN" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="2765" source="MCQUEEN" target="VLADIMIR TRUNKOV" weight="3" />
+      <edge id="2766" source="MCQUEEN" target="ALEXANDER HUGO" weight="1" />
+      <edge id="2767" source="MCQUEEN" target="LEMONHEADS" weight="1" />
+      <edge id="2768" source="MCQUEEN" target="MATER'S COMPUTER" weight="3" />
+      <edge id="2769" source="MCQUEEN" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="2770" source="MCQUEEN" target="ITALIAN SECURITY #1" weight="1" />
+      <edge id="2771" source="MCQUEEN" target="ITALIAN SECURITY #2" weight="1" />
+      <edge id="2772" source="MCQUEEN" target="PRESS LIAISON" weight="1" />
+      <edge id="2773" source="MCQUEEN" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="2774" source="MCQUEEN" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2775" source="MCQUEEN" target="RAMONE" weight="2" />
+      <edge id="2776" source="MCQUEEN" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2777" source="MCQUEEN" target="VICTOR HUGO" weight="1" />
+      <edge id="2778" source="MCQUEEN" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2779" source="MCQUEEN" target="TUBBS PACER" weight="1" />
+      <edge id="2780" source="MCQUEEN" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2781" source="MCQUEEN" target="QUEEN" weight="2" />
+      <edge id="2782" source="MCQUEEN" target="QUEEN'S GUARD" weight="1" />
+      <edge id="2783" source="MCQUEEN" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="2784" source="MCQUEEN" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="2785" source="MCQUEEN" target="GUARD" weight="1" />
+      <edge id="2786" source="MCQUEEN" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2787" source="MCQUEEN" target="LORD STEWARD" weight="1" />
+      <edge id="2788" source="MCQUEEN" target="MINNY" weight="1" />
+      <edge id="2789" source="MCQUEEN" target="VAN" weight="1" />
+      <edge id="2790" source="RAMONE" target="OTIS" weight="1" />
+      <edge id="2791" source="RAMONE" target="MCQUEEN" weight="2" />
+      <edge id="2792" source="RAMONE" target="FLO" weight="2" />
+      <edge id="2793" source="RAMONE" target="SALLY" weight="1" />
+      <edge id="2794" source="RAMONE" target="MILES AXLEROD" weight="1" />
+      <edge id="2795" source="RAMONE" target="MATER" weight="1" />
+      <edge id="2796" source="RAMONE" target="MINNY" weight="1" />
+      <edge id="2797" source="RAMONE" target="VAN" weight="1" />
+      <edge id="2798" source="RAMONE" target="HOLLEY" weight="1" />
+      <edge id="2799" source="RAMONE" target="FINN" weight="1" />
+      <edge id="2800" source="RAMONE" target="LUIGI" weight="1" />
+      <edge id="2801" source="RAMONE" target="LIZZIE" weight="1" />
+      <edge id="2802" source="RAMONE" target="MACK" weight="1" />
+      <edge id="2803" source="RAMONE" target="FILLMORE" weight="1" />
+      <edge id="2804" source="RAMONE" target="SARGE" weight="1" />
+      <edge id="2805" source="MACK" target="MATER" weight="2" />
+      <edge id="2806" source="MACK" target="MCQUEEN" weight="2" />
+      <edge id="2807" source="MACK" target="MINNY" weight="1" />
+      <edge id="2808" source="MACK" target="VAN" weight="1" />
+      <edge id="2809" source="MACK" target="HOLLEY" weight="1" />
+      <edge id="2810" source="MACK" target="FINN" weight="1" />
+      <edge id="2811" source="MACK" target="LUIGI" weight="1" />
+      <edge id="2812" source="MACK" target="FLO" weight="1" />
+      <edge id="2813" source="MACK" target="RAMONE" weight="1" />
+      <edge id="2814" source="MACK" target="LIZZIE" weight="1" />
+      <edge id="2815" source="MACK" target="FILLMORE" weight="1" />
+      <edge id="2816" source="MACK" target="SARGE" weight="1" />
+      <edge id="2817" source="SALLY" target="MCQUEEN" weight="3" />
+      <edge id="2818" source="SALLY" target="MATER" weight="2" />
+      <edge id="2819" source="SALLY" target="GUIDO" weight="1" />
+      <edge id="2820" source="SALLY" target="SARGE" weight="1" />
+      <edge id="2821" source="SALLY" target="MEL DORADO" weight="1" />
+      <edge id="2822" source="SALLY" target="MILES AXLEROD" weight="2" />
+      <edge id="2823" source="SALLY" target="FRANCESCO" weight="2" />
+      <edge id="2824" source="SALLY" target="CALLER" weight="1" />
+      <edge id="2825" source="SALLY" target="MATER'S VOICE" weight="1" />
+      <edge id="2826" source="SALLY" target="RAMONE" weight="1" />
+      <edge id="2827" source="SALLY" target="FLO" weight="3" />
+      <edge id="2828" source="SALLY" target="LUIGI" weight="1" />
+      <edge id="2829" source="SALLY" target="EVERYONE" weight="1" />
+      <edge id="2830" source="SALLY" target="FINN" weight="1" />
+      <edge id="2831" source="SALLY" target="SHERIFF" weight="1" />
+      <edge id="2832" source="SALLY" target="LEWIS HAMILTON" weight="1" />
+      <edge id="2833" source="SALLY" target="JEFF GORVETTE" weight="1" />
+      <edge id="2834" source="GUIDO" target="SALLY" weight="1" />
+      <edge id="2835" source="GUIDO" target="MCQUEEN" weight="2" />
+      <edge id="2836" source="GUIDO" target="MATER" weight="2" />
+      <edge id="2837" source="GUIDO" target="SARGE" weight="2" />
+      <edge id="2838" source="GUIDO" target="MEL DORADO" weight="1" />
+      <edge id="2839" source="GUIDO" target="MILES AXLEROD" weight="1" />
+      <edge id="2840" source="GUIDO" target="FRANCESCO" weight="1" />
+      <edge id="2841" source="GUIDO" target="CALLER" weight="1" />
+      <edge id="2842" source="GUIDO" target="MATER'S VOICE" weight="1" />
+      <edge id="2843" source="GUIDO" target="HOLLEY" weight="1" />
+      <edge id="2844" source="GUIDO" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2845" source="GUIDO" target="FINN" weight="1" />
+      <edge id="2846" source="GUIDO" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2847" source="GUIDO" target="VICTOR HUGO" weight="1" />
+      <edge id="2848" source="GUIDO" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2849" source="GUIDO" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="2850" source="GUIDO" target="SHERIFF" weight="1" />
+      <edge id="2851" source="GUIDO" target="TUBBS PACER" weight="1" />
+      <edge id="2852" source="GUIDO" target="BRITISH CORPORAL" weight="1" />
+      <edge id="2853" source="GUIDO" target="LUIGI" weight="1" />
+      <edge id="2854" source="GUIDO" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2855" source="MEL DORADO" target="SALLY" weight="1" />
+      <edge id="2856" source="MEL DORADO" target="MCQUEEN" weight="1" />
+      <edge id="2857" source="MEL DORADO" target="MATER" weight="1" />
+      <edge id="2858" source="MEL DORADO" target="GUIDO" weight="1" />
+      <edge id="2859" source="MEL DORADO" target="SARGE" weight="1" />
+      <edge id="2860" source="MEL DORADO" target="MILES AXLEROD" weight="1" />
+      <edge id="2861" source="MEL DORADO" target="FRANCESCO" weight="1" />
+      <edge id="2862" source="MEL DORADO" target="CALLER" weight="1" />
+      <edge id="2863" source="MEL DORADO" target="MATER'S VOICE" weight="1" />
+      <edge id="2864" source="MILES AXLEROD" target="SALLY" weight="2" />
+      <edge id="2865" source="MILES AXLEROD" target="MCQUEEN" weight="7" />
+      <edge id="2866" source="MILES AXLEROD" target="MATER" weight="4" />
+      <edge id="2867" source="MILES AXLEROD" target="GUIDO" weight="1" />
+      <edge id="2868" source="MILES AXLEROD" target="SARGE" weight="1" />
+      <edge id="2869" source="MILES AXLEROD" target="MEL DORADO" weight="1" />
+      <edge id="2870" source="MILES AXLEROD" target="FRANCESCO" weight="4" />
+      <edge id="2871" source="MILES AXLEROD" target="CALLER" weight="1" />
+      <edge id="2872" source="MILES AXLEROD" target="MATER'S VOICE" weight="1" />
+      <edge id="2873" source="MILES AXLEROD" target="VOICE" weight="1" />
+      <edge id="2874" source="MILES AXLEROD" target="HOLLEY" weight="2" />
+      <edge id="2875" source="MILES AXLEROD" target="FINN" weight="2" />
+      <edge id="2876" source="MILES AXLEROD" target="SUSHI CHEF" weight="1" />
+      <edge id="2877" source="MILES AXLEROD" target="DARRELL CARTRIP" weight="2" />
+      <edge id="2878" source="MILES AXLEROD" target="PRESS" weight="1" />
+      <edge id="2879" source="MILES AXLEROD" target="BRENT MUSTANGBURGER" weight="3" />
+      <edge id="2880" source="MILES AXLEROD" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2881" source="MILES AXLEROD" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="2882" source="MILES AXLEROD" target="LUIGI" weight="1" />
+      <edge id="2883" source="MILES AXLEROD" target="FILLMORE" weight="1" />
+      <edge id="2884" source="MILES AXLEROD" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2885" source="MILES AXLEROD" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2886" source="MILES AXLEROD" target="RAMONE" weight="1" />
+      <edge id="2887" source="MILES AXLEROD" target="FLO" weight="1" />
+      <edge id="2888" source="MILES AXLEROD" target="QUEEN" weight="1" />
+      <edge id="2889" source="MILES AXLEROD" target="QUEEN'S GUARD" weight="1" />
+      <edge id="2890" source="MILES AXLEROD" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="2891" source="MILES AXLEROD" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="2892" source="MILES AXLEROD" target="GUARD" weight="1" />
+      <edge id="2893" source="MILES AXLEROD" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="2894" source="FRANCESCO" target="SALLY" weight="2" />
+      <edge id="2895" source="FRANCESCO" target="MCQUEEN" weight="9" />
+      <edge id="2896" source="FRANCESCO" target="MATER" weight="6" />
+      <edge id="2897" source="FRANCESCO" target="GUIDO" weight="1" />
+      <edge id="2898" source="FRANCESCO" target="SARGE" weight="2" />
+      <edge id="2899" source="FRANCESCO" target="MEL DORADO" weight="1" />
+      <edge id="2900" source="FRANCESCO" target="MILES AXLEROD" weight="4" />
+      <edge id="2901" source="FRANCESCO" target="CALLER" weight="1" />
+      <edge id="2902" source="FRANCESCO" target="MATER'S VOICE" weight="1" />
+      <edge id="2903" source="FRANCESCO" target="LUIGI" weight="3" />
+      <edge id="2904" source="FRANCESCO" target="LEWIS HAMILTON" weight="2" />
+      <edge id="2905" source="FRANCESCO" target="JEFF GORVETTE" weight="2" />
+      <edge id="2906" source="FRANCESCO" target="BRENT MUSTANGBURGER" weight="5" />
+      <edge id="2907" source="FRANCESCO" target="FILLMORE" weight="2" />
+      <edge id="2908" source="FRANCESCO" target="HOLLEY" weight="2" />
+      <edge id="2909" source="FRANCESCO" target="FINN" weight="1" />
+      <edge id="2910" source="FRANCESCO" target="DAVID HOBBSCAP" weight="2" />
+      <edge id="2911" source="FRANCESCO" target="DARRELL CARTRIP" weight="4" />
+      <edge id="2912" source="FRANCESCO" target="PROFESSOR ZUNDAPP" weight="3" />
+      <edge id="2913" source="FRANCESCO" target="GREM" weight="1" />
+      <edge id="2914" source="FRANCESCO" target="ACER" weight="1" />
+      <edge id="2915" source="FRANCESCO" target="PRESS" weight="1" />
+      <edge id="2916" source="FRANCESCO" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="2917" source="FRANCESCO" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2918" source="FRANCESCO" target="MATER'S COMPUTER" weight="1" />
+      <edge id="2919" source="FRANCESCO" target="SHERIFF" weight="1" />
+      <edge id="2920" source="FRANCESCO" target="FLO" weight="1" />
+      <edge id="2921" source="FRANCESCO" target="OTIS" weight="1" />
+      <edge id="2922" source="CALLER" target="SALLY" weight="1" />
+      <edge id="2923" source="CALLER" target="MCQUEEN" weight="1" />
+      <edge id="2924" source="CALLER" target="MATER" weight="1" />
+      <edge id="2925" source="CALLER" target="GUIDO" weight="1" />
+      <edge id="2926" source="CALLER" target="SARGE" weight="1" />
+      <edge id="2927" source="CALLER" target="MEL DORADO" weight="1" />
+      <edge id="2928" source="CALLER" target="MILES AXLEROD" weight="1" />
+      <edge id="2929" source="CALLER" target="FRANCESCO" weight="1" />
+      <edge id="2930" source="CALLER" target="MATER'S VOICE" weight="1" />
+      <edge id="2931" source="MATER'S VOICE" target="SALLY" weight="1" />
+      <edge id="2932" source="MATER'S VOICE" target="MCQUEEN" weight="1" />
+      <edge id="2933" source="MATER'S VOICE" target="MATER" weight="1" />
+      <edge id="2934" source="MATER'S VOICE" target="GUIDO" weight="1" />
+      <edge id="2935" source="MATER'S VOICE" target="SARGE" weight="1" />
+      <edge id="2936" source="MATER'S VOICE" target="MEL DORADO" weight="1" />
+      <edge id="2937" source="MATER'S VOICE" target="MILES AXLEROD" weight="1" />
+      <edge id="2938" source="MATER'S VOICE" target="FRANCESCO" weight="1" />
+      <edge id="2939" source="MATER'S VOICE" target="CALLER" weight="1" />
+      <edge id="2940" source="LEWIS HAMILTON" target="LUIGI" weight="1" />
+      <edge id="2941" source="LEWIS HAMILTON" target="MCQUEEN" weight="3" />
+      <edge id="2942" source="LEWIS HAMILTON" target="MATER" weight="2" />
+      <edge id="2943" source="LEWIS HAMILTON" target="JEFF GORVETTE" weight="3" />
+      <edge id="2944" source="LEWIS HAMILTON" target="FRANCESCO" weight="2" />
+      <edge id="2945" source="LEWIS HAMILTON" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2946" source="LEWIS HAMILTON" target="FINN" weight="1" />
+      <edge id="2947" source="LEWIS HAMILTON" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2948" source="LEWIS HAMILTON" target="SHERIFF" weight="1" />
+      <edge id="2949" source="LEWIS HAMILTON" target="SALLY" weight="1" />
+      <edge id="2950" source="LEWIS HAMILTON" target="FLO" weight="1" />
+      <edge id="2951" source="JEFF GORVETTE" target="LUIGI" weight="1" />
+      <edge id="2952" source="JEFF GORVETTE" target="MCQUEEN" weight="3" />
+      <edge id="2953" source="JEFF GORVETTE" target="MATER" weight="2" />
+      <edge id="2954" source="JEFF GORVETTE" target="LEWIS HAMILTON" weight="3" />
+      <edge id="2955" source="JEFF GORVETTE" target="FRANCESCO" weight="2" />
+      <edge id="2956" source="JEFF GORVETTE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2957" source="JEFF GORVETTE" target="FINN" weight="1" />
+      <edge id="2958" source="JEFF GORVETTE" target="DISSATISFIED CACOPHONY" weight="1" />
+      <edge id="2959" source="JEFF GORVETTE" target="SHERIFF" weight="1" />
+      <edge id="2960" source="JEFF GORVETTE" target="SALLY" weight="1" />
+      <edge id="2961" source="JEFF GORVETTE" target="FLO" weight="1" />
+      <edge id="2962" source="VOICE" target="MILES AXLEROD" weight="1" />
+      <edge id="2963" source="VOICE" target="HOLLEY" weight="1" />
+      <edge id="2964" source="VOICE" target="FINN" weight="1" />
+      <edge id="2965" source="VOICE" target="MATER" weight="1" />
+      <edge id="2966" source="VOICE" target="SUSHI CHEF" weight="1" />
+      <edge id="2967" source="VOICE" target="MCQUEEN" weight="1" />
+      <edge id="2968" source="VOICE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="2969" source="VOICE" target="TUBBS PACER" weight="1" />
+      <edge id="2970" source="VOICE" target="VICTOR HUGO" weight="1" />
+      <edge id="2971" source="VOICE" target="ENGINE VOICE" weight="1" />
+      <edge id="2972" source="VOICE" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="2973" source="HOLLEY" target="VOICE" weight="1" />
+      <edge id="2974" source="HOLLEY" target="MILES AXLEROD" weight="2" />
+      <edge id="2975" source="HOLLEY" target="FINN" weight="24" />
+      <edge id="2976" source="HOLLEY" target="MATER" weight="19" />
+      <edge id="2977" source="HOLLEY" target="SUSHI CHEF" weight="1" />
+      <edge id="2978" source="HOLLEY" target="MCQUEEN" weight="5" />
+      <edge id="2979" source="HOLLEY" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="2980" source="HOLLEY" target="FRANCESCO" weight="2" />
+      <edge id="2981" source="HOLLEY" target="SARGE" weight="3" />
+      <edge id="2982" source="HOLLEY" target="LUIGI" weight="3" />
+      <edge id="2983" source="HOLLEY" target="FILLMORE" weight="2" />
+      <edge id="2984" source="HOLLEY" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="2985" source="HOLLEY" target="DARRELL CARTRIP" weight="1" />
+      <edge id="2986" source="HOLLEY" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="2987" source="HOLLEY" target="GREM" weight="3" />
+      <edge id="2988" source="HOLLEY" target="ACER" weight="3" />
+      <edge id="2989" source="HOLLEY" target="SIDDELEY" weight="2" />
+      <edge id="2990" source="HOLLEY" target="MERCHANTS" weight="1" />
+      <edge id="2991" source="HOLLEY" target="TOMBER" weight="2" />
+      <edge id="2992" source="HOLLEY" target="MATER'S COMPUTER" weight="4" />
+      <edge id="2993" source="HOLLEY" target="ALEXANDER HUGO" weight="3" />
+      <edge id="2994" source="HOLLEY" target="IVAN THE TOW TRUCK" weight="2" />
+      <edge id="2995" source="HOLLEY" target="ANOTHER HUGO" weight="1" />
+      <edge id="2996" source="HOLLEY" target="VICTOR HUGO" weight="2" />
+      <edge id="2997" source="HOLLEY" target="CIGARETTE GIRL CAR" weight="1" />
+      <edge id="2998" source="HOLLEY" target="ENGINE VOICE" weight="1" />
+      <edge id="2999" source="HOLLEY" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3000" source="HOLLEY" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3001" source="HOLLEY" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3002" source="HOLLEY" target="GUIDO" weight="1" />
+      <edge id="3003" source="HOLLEY" target="SHERIFF" weight="1" />
+      <edge id="3004" source="HOLLEY" target="TUBBS PACER" weight="1" />
+      <edge id="3005" source="HOLLEY" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3006" source="HOLLEY" target="QUEEN" weight="1" />
+      <edge id="3007" source="HOLLEY" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3008" source="HOLLEY" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3009" source="HOLLEY" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3010" source="HOLLEY" target="GUARD" weight="1" />
+      <edge id="3011" source="HOLLEY" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3012" source="HOLLEY" target="MINNY" weight="1" />
+      <edge id="3013" source="HOLLEY" target="VAN" weight="1" />
+      <edge id="3014" source="HOLLEY" target="FLO" weight="1" />
+      <edge id="3015" source="HOLLEY" target="RAMONE" weight="1" />
+      <edge id="3016" source="HOLLEY" target="LIZZIE" weight="1" />
+      <edge id="3017" source="HOLLEY" target="MACK" weight="1" />
+      <edge id="3018" source="SUSHI CHEF" target="VOICE" weight="1" />
+      <edge id="3019" source="SUSHI CHEF" target="MILES AXLEROD" weight="1" />
+      <edge id="3020" source="SUSHI CHEF" target="HOLLEY" weight="1" />
+      <edge id="3021" source="SUSHI CHEF" target="FINN" weight="1" />
+      <edge id="3022" source="SUSHI CHEF" target="MATER" weight="1" />
+      <edge id="3023" source="SUSHI CHEF" target="MCQUEEN" weight="1" />
+      <edge id="3024" source="ROD REDLINE" target="MATER" weight="2" />
+      <edge id="3025" source="ROD REDLINE" target="GREM" weight="2" />
+      <edge id="3026" source="ROD REDLINE" target="ACER" weight="2" />
+      <edge id="3027" source="ROD REDLINE" target="GREM AND ACER" weight="1" />
+      <edge id="3028" source="ROD REDLINE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3029" source="GREM AND ACER" target="MATER" weight="1" />
+      <edge id="3030" source="GREM AND ACER" target="ROD REDLINE" weight="1" />
+      <edge id="3031" source="GREM AND ACER" target="GREM" weight="1" />
+      <edge id="3032" source="GREM AND ACER" target="ACER" weight="1" />
+      <edge id="3033" source="BRENT MUSTANGBURGER" target="DAVID HOBBSCAP" weight="5" />
+      <edge id="3034" source="BRENT MUSTANGBURGER" target="DARRELL CARTRIP" weight="7" />
+      <edge id="3035" source="BRENT MUSTANGBURGER" target="MCQUEEN" weight="7" />
+      <edge id="3036" source="BRENT MUSTANGBURGER" target="FRANCESCO" weight="5" />
+      <edge id="3037" source="BRENT MUSTANGBURGER" target="SARGE" weight="1" />
+      <edge id="3038" source="BRENT MUSTANGBURGER" target="LUIGI" weight="2" />
+      <edge id="3039" source="BRENT MUSTANGBURGER" target="FILLMORE" weight="2" />
+      <edge id="3040" source="BRENT MUSTANGBURGER" target="MATER" weight="5" />
+      <edge id="3041" source="BRENT MUSTANGBURGER" target="HOLLEY" weight="1" />
+      <edge id="3042" source="BRENT MUSTANGBURGER" target="FINN" weight="1" />
+      <edge id="3043" source="BRENT MUSTANGBURGER" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="3044" source="BRENT MUSTANGBURGER" target="GREM" weight="1" />
+      <edge id="3045" source="BRENT MUSTANGBURGER" target="ACER" weight="1" />
+      <edge id="3046" source="BRENT MUSTANGBURGER" target="PRESS" weight="1" />
+      <edge id="3047" source="BRENT MUSTANGBURGER" target="MILES AXLEROD" weight="3" />
+      <edge id="3048" source="BRENT MUSTANGBURGER" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="3049" source="BRENT MUSTANGBURGER" target="VLADIMIR TRUNKOV" weight="2" />
+      <edge id="3050" source="BRENT MUSTANGBURGER" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3051" source="BRENT MUSTANGBURGER" target="LEMONHEADS" weight="1" />
+      <edge id="3052" source="BRENT MUSTANGBURGER" target="MATER'S COMPUTER" weight="2" />
+      <edge id="3053" source="BRENT MUSTANGBURGER" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3054" source="DAVID HOBBSCAP" target="BRENT MUSTANGBURGER" weight="5" />
+      <edge id="3055" source="DAVID HOBBSCAP" target="DARRELL CARTRIP" weight="4" />
+      <edge id="3056" source="DAVID HOBBSCAP" target="MCQUEEN" weight="3" />
+      <edge id="3057" source="DAVID HOBBSCAP" target="FRANCESCO" weight="2" />
+      <edge id="3058" source="DAVID HOBBSCAP" target="SARGE" weight="1" />
+      <edge id="3059" source="DAVID HOBBSCAP" target="LUIGI" weight="2" />
+      <edge id="3060" source="DAVID HOBBSCAP" target="FILLMORE" weight="2" />
+      <edge id="3061" source="DAVID HOBBSCAP" target="MATER" weight="2" />
+      <edge id="3062" source="DAVID HOBBSCAP" target="HOLLEY" weight="1" />
+      <edge id="3063" source="DAVID HOBBSCAP" target="FINN" weight="1" />
+      <edge id="3064" source="DAVID HOBBSCAP" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3065" source="DAVID HOBBSCAP" target="GREM" weight="1" />
+      <edge id="3066" source="DAVID HOBBSCAP" target="ACER" weight="1" />
+      <edge id="3067" source="DAVID HOBBSCAP" target="MILES AXLEROD" weight="1" />
+      <edge id="3068" source="DAVID HOBBSCAP" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="3069" source="DAVID HOBBSCAP" target="ENGINE VOICE" weight="1" />
+      <edge id="3070" source="DARRELL CARTRIP" target="BRENT MUSTANGBURGER" weight="7" />
+      <edge id="3071" source="DARRELL CARTRIP" target="DAVID HOBBSCAP" weight="4" />
+      <edge id="3072" source="DARRELL CARTRIP" target="MCQUEEN" weight="5" />
+      <edge id="3073" source="DARRELL CARTRIP" target="FRANCESCO" weight="4" />
+      <edge id="3074" source="DARRELL CARTRIP" target="SARGE" weight="1" />
+      <edge id="3075" source="DARRELL CARTRIP" target="LUIGI" weight="2" />
+      <edge id="3076" source="DARRELL CARTRIP" target="FILLMORE" weight="2" />
+      <edge id="3077" source="DARRELL CARTRIP" target="MATER" weight="4" />
+      <edge id="3078" source="DARRELL CARTRIP" target="HOLLEY" weight="1" />
+      <edge id="3079" source="DARRELL CARTRIP" target="FINN" weight="1" />
+      <edge id="3080" source="DARRELL CARTRIP" target="PROFESSOR ZUNDAPP" weight="3" />
+      <edge id="3081" source="DARRELL CARTRIP" target="GREM" weight="1" />
+      <edge id="3082" source="DARRELL CARTRIP" target="ACER" weight="1" />
+      <edge id="3083" source="DARRELL CARTRIP" target="PRESS" weight="1" />
+      <edge id="3084" source="DARRELL CARTRIP" target="MILES AXLEROD" weight="2" />
+      <edge id="3085" source="DARRELL CARTRIP" target="ITALIAN TRACK ANNOUNCER" weight="1" />
+      <edge id="3086" source="DARRELL CARTRIP" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3087" source="DARRELL CARTRIP" target="LEMONHEADS" weight="1" />
+      <edge id="3088" source="DARRELL CARTRIP" target="MATER'S COMPUTER" weight="2" />
+      <edge id="3089" source="DARRELL CARTRIP" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3090" source="DARRELL CARTRIP" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3091" source="PRESS" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3092" source="PRESS" target="FRANCESCO" weight="1" />
+      <edge id="3093" source="PRESS" target="MCQUEEN" weight="1" />
+      <edge id="3094" source="PRESS" target="MATER" weight="1" />
+      <edge id="3095" source="PRESS" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="3096" source="PRESS" target="MILES AXLEROD" weight="1" />
+      <edge id="3097" source="SECURITY CAR" target="MATER" weight="1" />
+      <edge id="3098" source="SECURITY CAR" target="FINN" weight="1" />
+      <edge id="3099" source="SECURITY CAR" target="GREM" weight="1" />
+      <edge id="3100" source="SIDDELEY" target="MATER" weight="2" />
+      <edge id="3101" source="SIDDELEY" target="FINN" weight="2" />
+      <edge id="3102" source="SIDDELEY" target="HOLLEY" weight="2" />
+      <edge id="3103" source="MERCHANTS" target="FINN" weight="1" />
+      <edge id="3104" source="MERCHANTS" target="HOLLEY" weight="1" />
+      <edge id="3105" source="MERCHANTS" target="MATER" weight="1" />
+      <edge id="3106" source="TOMBER" target="MATER" weight="2" />
+      <edge id="3107" source="TOMBER" target="FINN" weight="2" />
+      <edge id="3108" source="TOMBER" target="HOLLEY" weight="2" />
+      <edge id="3109" source="UNCLE TOPOLINO" target="SARGE" weight="1" />
+      <edge id="3110" source="UNCLE TOPOLINO" target="FILLMORE" weight="1" />
+      <edge id="3111" source="UNCLE TOPOLINO" target="MCQUEEN" weight="1" />
+      <edge id="3112" source="UNCLE TOPOLINO" target="MAMA TOPOLINO" weight="1" />
+      <edge id="3113" source="MAMA TOPOLINO" target="SARGE" weight="1" />
+      <edge id="3114" source="MAMA TOPOLINO" target="FILLMORE" weight="1" />
+      <edge id="3115" source="MAMA TOPOLINO" target="UNCLE TOPOLINO" weight="1" />
+      <edge id="3116" source="MAMA TOPOLINO" target="MCQUEEN" weight="1" />
+      <edge id="3117" source="MATER'S COMPUTER" target="FINN" weight="4" />
+      <edge id="3118" source="MATER'S COMPUTER" target="HOLLEY" weight="4" />
+      <edge id="3119" source="MATER'S COMPUTER" target="MATER" weight="6" />
+      <edge id="3120" source="MATER'S COMPUTER" target="ALEXANDER HUGO" weight="2" />
+      <edge id="3121" source="MATER'S COMPUTER" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3122" source="MATER'S COMPUTER" target="ANOTHER HUGO" weight="1" />
+      <edge id="3123" source="MATER'S COMPUTER" target="MCQUEEN" weight="3" />
+      <edge id="3124" source="MATER'S COMPUTER" target="DARRELL CARTRIP" weight="2" />
+      <edge id="3125" source="MATER'S COMPUTER" target="LEMONHEADS" weight="1" />
+      <edge id="3126" source="MATER'S COMPUTER" target="BRENT MUSTANGBURGER" weight="2" />
+      <edge id="3127" source="MATER'S COMPUTER" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="3128" source="MATER'S COMPUTER" target="VLADIMIR TRUNKOV" weight="2" />
+      <edge id="3129" source="MATER'S COMPUTER" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3130" source="MATER'S COMPUTER" target="GREM" weight="1" />
+      <edge id="3131" source="MATER'S COMPUTER" target="ACER" weight="1" />
+      <edge id="3132" source="MATER'S COMPUTER" target="FRANCESCO" weight="1" />
+      <edge id="3133" source="MATER'S COMPUTER" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3134" source="MATER'S COMPUTER" target="VICTOR HUGO" weight="1" />
+      <edge id="3135" source="MATER'S COMPUTER" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3136" source="MATER'S COMPUTER" target="GUIDO" weight="1" />
+      <edge id="3137" source="MATER'S COMPUTER" target="SHERIFF" weight="1" />
+      <edge id="3138" source="MATER'S COMPUTER" target="TUBBS PACER" weight="1" />
+      <edge id="3139" source="MATER'S COMPUTER" target="SARGE" weight="1" />
+      <edge id="3140" source="MATER'S COMPUTER" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3141" source="MATER'S COMPUTER" target="LUIGI" weight="1" />
+      <edge id="3142" source="ITALIAN TRACK ANNOUNCER" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="3143" source="ITALIAN TRACK ANNOUNCER" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3144" source="ITALIAN TRACK ANNOUNCER" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="3145" source="ITALIAN TRACK ANNOUNCER" target="MILES AXLEROD" weight="1" />
+      <edge id="3146" source="ITALIAN TRACK ANNOUNCER" target="FRANCESCO" weight="1" />
+      <edge id="3147" source="ITALIAN TRACK ANNOUNCER" target="LUIGI" weight="1" />
+      <edge id="3148" source="ITALIAN TRACK ANNOUNCER" target="FILLMORE" weight="1" />
+      <edge id="3149" source="ITALIAN TRACK ANNOUNCER" target="MCQUEEN" weight="1" />
+      <edge id="3150" source="ALEXANDER HUGO" target="HOLLEY" weight="3" />
+      <edge id="3151" source="ALEXANDER HUGO" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3152" source="ALEXANDER HUGO" target="ANOTHER HUGO" weight="1" />
+      <edge id="3153" source="ALEXANDER HUGO" target="FINN" weight="1" />
+      <edge id="3154" source="ALEXANDER HUGO" target="MATER" weight="3" />
+      <edge id="3155" source="ALEXANDER HUGO" target="MATER'S COMPUTER" weight="2" />
+      <edge id="3156" source="ALEXANDER HUGO" target="VICTOR HUGO" weight="1" />
+      <edge id="3157" source="ALEXANDER HUGO" target="CIGARETTE GIRL CAR" weight="1" />
+      <edge id="3158" source="ALEXANDER HUGO" target="MCQUEEN" weight="1" />
+      <edge id="3159" source="ALEXANDER HUGO" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3160" source="ALEXANDER HUGO" target="LEMONHEADS" weight="1" />
+      <edge id="3161" source="ALEXANDER HUGO" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="3162" source="ALEXANDER HUGO" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3163" source="ALEXANDER HUGO" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3164" source="ALEXANDER HUGO" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3165" source="IVAN THE TOW TRUCK" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3166" source="IVAN THE TOW TRUCK" target="HOLLEY" weight="2" />
+      <edge id="3167" source="IVAN THE TOW TRUCK" target="ANOTHER HUGO" weight="1" />
+      <edge id="3168" source="IVAN THE TOW TRUCK" target="FINN" weight="1" />
+      <edge id="3169" source="IVAN THE TOW TRUCK" target="MATER" weight="2" />
+      <edge id="3170" source="IVAN THE TOW TRUCK" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3171" source="IVAN THE TOW TRUCK" target="ITALIAN SECURITY #1" weight="1" />
+      <edge id="3172" source="IVAN THE TOW TRUCK" target="ITALIAN SECURITY #2" weight="1" />
+      <edge id="3173" source="IVAN THE TOW TRUCK" target="PRESS LIAISON" weight="1" />
+      <edge id="3174" source="IVAN THE TOW TRUCK" target="MCQUEEN" weight="1" />
+      <edge id="3175" source="ANOTHER HUGO" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3176" source="ANOTHER HUGO" target="HOLLEY" weight="1" />
+      <edge id="3177" source="ANOTHER HUGO" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3178" source="ANOTHER HUGO" target="FINN" weight="1" />
+      <edge id="3179" source="ANOTHER HUGO" target="MATER" weight="1" />
+      <edge id="3180" source="ANOTHER HUGO" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3181" source="VICTOR HUGO" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3182" source="VICTOR HUGO" target="HOLLEY" weight="2" />
+      <edge id="3183" source="VICTOR HUGO" target="VLADIMIR TRUNKOV" weight="3" />
+      <edge id="3184" source="VICTOR HUGO" target="TUBBS PACER" weight="3" />
+      <edge id="3185" source="VICTOR HUGO" target="PROFESSOR ZUNDAPP" weight="2" />
+      <edge id="3186" source="VICTOR HUGO" target="VOICE" weight="1" />
+      <edge id="3187" source="VICTOR HUGO" target="ENGINE VOICE" weight="1" />
+      <edge id="3188" source="VICTOR HUGO" target="MCQUEEN" weight="1" />
+      <edge id="3189" source="VICTOR HUGO" target="MATER" weight="1" />
+      <edge id="3190" source="VICTOR HUGO" target="FINN" weight="1" />
+      <edge id="3191" source="VICTOR HUGO" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3192" source="VICTOR HUGO" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3193" source="VICTOR HUGO" target="GUIDO" weight="1" />
+      <edge id="3194" source="VICTOR HUGO" target="SHERIFF" weight="1" />
+      <edge id="3195" source="VICTOR HUGO" target="SARGE" weight="1" />
+      <edge id="3196" source="VICTOR HUGO" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3197" source="VICTOR HUGO" target="LUIGI" weight="1" />
+      <edge id="3198" source="VICTOR HUGO" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3199" source="CIGARETTE GIRL CAR" target="MATER" weight="1" />
+      <edge id="3200" source="CIGARETTE GIRL CAR" target="HOLLEY" weight="1" />
+      <edge id="3201" source="CIGARETTE GIRL CAR" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3202" source="VLADIMIR TRUNKOV" target="TUBBS PACER" weight="4" />
+      <edge id="3203" source="VLADIMIR TRUNKOV" target="VICTOR HUGO" weight="3" />
+      <edge id="3204" source="VLADIMIR TRUNKOV" target="PROFESSOR ZUNDAPP" weight="4" />
+      <edge id="3205" source="VLADIMIR TRUNKOV" target="VOICE" weight="1" />
+      <edge id="3206" source="VLADIMIR TRUNKOV" target="ENGINE VOICE" weight="1" />
+      <edge id="3207" source="VLADIMIR TRUNKOV" target="BRENT MUSTANGBURGER" weight="2" />
+      <edge id="3208" source="VLADIMIR TRUNKOV" target="MCQUEEN" weight="3" />
+      <edge id="3209" source="VLADIMIR TRUNKOV" target="FRANCESCO" weight="1" />
+      <edge id="3210" source="VLADIMIR TRUNKOV" target="MILES AXLEROD" weight="1" />
+      <edge id="3211" source="VLADIMIR TRUNKOV" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3212" source="VLADIMIR TRUNKOV" target="MATER" weight="2" />
+      <edge id="3213" source="VLADIMIR TRUNKOV" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3214" source="VLADIMIR TRUNKOV" target="LEMONHEADS" weight="1" />
+      <edge id="3215" source="VLADIMIR TRUNKOV" target="MATER'S COMPUTER" weight="2" />
+      <edge id="3216" source="VLADIMIR TRUNKOV" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3217" source="VLADIMIR TRUNKOV" target="HOLLEY" weight="1" />
+      <edge id="3218" source="VLADIMIR TRUNKOV" target="FINN" weight="1" />
+      <edge id="3219" source="VLADIMIR TRUNKOV" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3220" source="VLADIMIR TRUNKOV" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3221" source="VLADIMIR TRUNKOV" target="GUIDO" weight="1" />
+      <edge id="3222" source="VLADIMIR TRUNKOV" target="SHERIFF" weight="1" />
+      <edge id="3223" source="VLADIMIR TRUNKOV" target="SARGE" weight="1" />
+      <edge id="3224" source="VLADIMIR TRUNKOV" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3225" source="VLADIMIR TRUNKOV" target="LUIGI" weight="1" />
+      <edge id="3226" source="TUBBS PACER" target="VLADIMIR TRUNKOV" weight="4" />
+      <edge id="3227" source="TUBBS PACER" target="VICTOR HUGO" weight="3" />
+      <edge id="3228" source="TUBBS PACER" target="PROFESSOR ZUNDAPP" weight="2" />
+      <edge id="3229" source="TUBBS PACER" target="VOICE" weight="1" />
+      <edge id="3230" source="TUBBS PACER" target="ENGINE VOICE" weight="1" />
+      <edge id="3231" source="TUBBS PACER" target="HOLLEY" weight="1" />
+      <edge id="3232" source="TUBBS PACER" target="MCQUEEN" weight="1" />
+      <edge id="3233" source="TUBBS PACER" target="MATER" weight="1" />
+      <edge id="3234" source="TUBBS PACER" target="FINN" weight="1" />
+      <edge id="3235" source="TUBBS PACER" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3236" source="TUBBS PACER" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3237" source="TUBBS PACER" target="GUIDO" weight="1" />
+      <edge id="3238" source="TUBBS PACER" target="SHERIFF" weight="1" />
+      <edge id="3239" source="TUBBS PACER" target="SARGE" weight="1" />
+      <edge id="3240" source="TUBBS PACER" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3241" source="TUBBS PACER" target="LUIGI" weight="1" />
+      <edge id="3242" source="TUBBS PACER" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3243" source="ENGINE VOICE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3244" source="ENGINE VOICE" target="TUBBS PACER" weight="1" />
+      <edge id="3245" source="ENGINE VOICE" target="VICTOR HUGO" weight="1" />
+      <edge id="3246" source="ENGINE VOICE" target="VOICE" weight="1" />
+      <edge id="3247" source="ENGINE VOICE" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3248" source="ENGINE VOICE" target="DAVID HOBBSCAP" weight="1" />
+      <edge id="3249" source="ENGINE VOICE" target="FINN" weight="2" />
+      <edge id="3250" source="ENGINE VOICE" target="HOLLEY" weight="1" />
+      <edge id="3251" source="ENGINE VOICE" target="ACER" weight="1" />
+      <edge id="3252" source="LEMONHEADS" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3253" source="LEMONHEADS" target="MATER" weight="1" />
+      <edge id="3254" source="LEMONHEADS" target="MCQUEEN" weight="1" />
+      <edge id="3255" source="LEMONHEADS" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3256" source="LEMONHEADS" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="3257" source="LEMONHEADS" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3258" source="LEMONHEADS" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3259" source="LEMONHEADS" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3260" source="LEMONHEADS" target="ITALIAN MOTORBOAT" weight="1" />
+      <edge id="3261" source="ITALIAN MOTORBOAT" target="ALEXANDER HUGO" weight="1" />
+      <edge id="3262" source="ITALIAN MOTORBOAT" target="MATER" weight="1" />
+      <edge id="3263" source="ITALIAN MOTORBOAT" target="MCQUEEN" weight="1" />
+      <edge id="3264" source="ITALIAN MOTORBOAT" target="DARRELL CARTRIP" weight="1" />
+      <edge id="3265" source="ITALIAN MOTORBOAT" target="LEMONHEADS" weight="1" />
+      <edge id="3266" source="ITALIAN MOTORBOAT" target="BRENT MUSTANGBURGER" weight="1" />
+      <edge id="3267" source="ITALIAN MOTORBOAT" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3268" source="ITALIAN MOTORBOAT" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3269" source="ITALIAN MOTORBOAT" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3270" source="ITALIAN SECURITY #1" target="MATER" weight="1" />
+      <edge id="3271" source="ITALIAN SECURITY #1" target="ITALIAN SECURITY #2" weight="1" />
+      <edge id="3272" source="ITALIAN SECURITY #1" target="PRESS LIAISON" weight="1" />
+      <edge id="3273" source="ITALIAN SECURITY #1" target="MCQUEEN" weight="1" />
+      <edge id="3274" source="ITALIAN SECURITY #1" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3275" source="ITALIAN SECURITY #2" target="MATER" weight="1" />
+      <edge id="3276" source="ITALIAN SECURITY #2" target="ITALIAN SECURITY #1" weight="1" />
+      <edge id="3277" source="ITALIAN SECURITY #2" target="PRESS LIAISON" weight="1" />
+      <edge id="3278" source="ITALIAN SECURITY #2" target="MCQUEEN" weight="1" />
+      <edge id="3279" source="ITALIAN SECURITY #2" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3280" source="PRESS LIAISON" target="MATER" weight="1" />
+      <edge id="3281" source="PRESS LIAISON" target="ITALIAN SECURITY #1" weight="1" />
+      <edge id="3282" source="PRESS LIAISON" target="ITALIAN SECURITY #2" weight="1" />
+      <edge id="3283" source="PRESS LIAISON" target="MCQUEEN" weight="1" />
+      <edge id="3284" source="PRESS LIAISON" target="IVAN THE TOW TRUCK" weight="1" />
+      <edge id="3285" source="DISSATISFIED CACOPHONY" target="MATER" weight="1" />
+      <edge id="3286" source="DISSATISFIED CACOPHONY" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3287" source="DISSATISFIED CACOPHONY" target="FINN" weight="1" />
+      <edge id="3288" source="DISSATISFIED CACOPHONY" target="JEFF GORVETTE" weight="1" />
+      <edge id="3289" source="DISSATISFIED CACOPHONY" target="LEWIS HAMILTON" weight="1" />
+      <edge id="3290" source="DISSATISFIED CACOPHONY" target="MCQUEEN" weight="1" />
+      <edge id="3291" source="EVERYONE" target="LUIGI" weight="1" />
+      <edge id="3292" source="EVERYONE" target="MATER" weight="1" />
+      <edge id="3293" source="EVERYONE" target="SALLY" weight="1" />
+      <edge id="3294" source="EVERYONE" target="FLO" weight="1" />
+      <edge id="3295" source="EVERYONE" target="FINN" weight="1" />
+      <edge id="3296" source="BOMB'S COMPUTER VOICE" target="HOLLEY" weight="1" />
+      <edge id="3297" source="BOMB'S COMPUTER VOICE" target="MCQUEEN" weight="1" />
+      <edge id="3298" source="BOMB'S COMPUTER VOICE" target="MATER" weight="1" />
+      <edge id="3299" source="BOMB'S COMPUTER VOICE" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3300" source="BOMB'S COMPUTER VOICE" target="FINN" weight="1" />
+      <edge id="3301" source="BOMB'S COMPUTER VOICE" target="VICTOR HUGO" weight="1" />
+      <edge id="3302" source="BOMB'S COMPUTER VOICE" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3303" source="BOMB'S COMPUTER VOICE" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3304" source="BOMB'S COMPUTER VOICE" target="GUIDO" weight="1" />
+      <edge id="3305" source="BOMB'S COMPUTER VOICE" target="SHERIFF" weight="1" />
+      <edge id="3306" source="BOMB'S COMPUTER VOICE" target="TUBBS PACER" weight="1" />
+      <edge id="3307" source="BOMB'S COMPUTER VOICE" target="SARGE" weight="1" />
+      <edge id="3308" source="BOMB'S COMPUTER VOICE" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3309" source="BOMB'S COMPUTER VOICE" target="LUIGI" weight="1" />
+      <edge id="3310" source="BOMB'S COMPUTER VOICE" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3311" source="J. CURBY GREMLIN" target="HOLLEY" weight="1" />
+      <edge id="3312" source="J. CURBY GREMLIN" target="MCQUEEN" weight="1" />
+      <edge id="3313" source="J. CURBY GREMLIN" target="MATER" weight="1" />
+      <edge id="3314" source="J. CURBY GREMLIN" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3315" source="J. CURBY GREMLIN" target="FINN" weight="1" />
+      <edge id="3316" source="J. CURBY GREMLIN" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3317" source="J. CURBY GREMLIN" target="VICTOR HUGO" weight="1" />
+      <edge id="3318" source="J. CURBY GREMLIN" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3319" source="J. CURBY GREMLIN" target="GUIDO" weight="1" />
+      <edge id="3320" source="J. CURBY GREMLIN" target="SHERIFF" weight="1" />
+      <edge id="3321" source="J. CURBY GREMLIN" target="TUBBS PACER" weight="1" />
+      <edge id="3322" source="J. CURBY GREMLIN" target="SARGE" weight="1" />
+      <edge id="3323" source="J. CURBY GREMLIN" target="BRITISH CORPORAL" weight="1" />
+      <edge id="3324" source="J. CURBY GREMLIN" target="LUIGI" weight="1" />
+      <edge id="3325" source="J. CURBY GREMLIN" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3326" source="BRITISH CORPORAL" target="HOLLEY" weight="1" />
+      <edge id="3327" source="BRITISH CORPORAL" target="MCQUEEN" weight="1" />
+      <edge id="3328" source="BRITISH CORPORAL" target="MATER" weight="1" />
+      <edge id="3329" source="BRITISH CORPORAL" target="PROFESSOR ZUNDAPP" weight="1" />
+      <edge id="3330" source="BRITISH CORPORAL" target="FINN" weight="1" />
+      <edge id="3331" source="BRITISH CORPORAL" target="BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3332" source="BRITISH CORPORAL" target="VICTOR HUGO" weight="1" />
+      <edge id="3333" source="BRITISH CORPORAL" target="VLADIMIR TRUNKOV" weight="1" />
+      <edge id="3334" source="BRITISH CORPORAL" target="J. CURBY GREMLIN" weight="1" />
+      <edge id="3335" source="BRITISH CORPORAL" target="GUIDO" weight="1" />
+      <edge id="3336" source="BRITISH CORPORAL" target="SHERIFF" weight="1" />
+      <edge id="3337" source="BRITISH CORPORAL" target="TUBBS PACER" weight="1" />
+      <edge id="3338" source="BRITISH CORPORAL" target="SARGE" weight="1" />
+      <edge id="3339" source="BRITISH CORPORAL" target="LUIGI" weight="1" />
+      <edge id="3340" source="BRITISH CORPORAL" target="MATER'S COMPUTER" weight="1" />
+      <edge id="3341" source="QUEEN" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3342" source="QUEEN" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3343" source="QUEEN" target="MCQUEEN" weight="2" />
+      <edge id="3344" source="QUEEN" target="MATER" weight="2" />
+      <edge id="3345" source="QUEEN" target="FINN" weight="1" />
+      <edge id="3346" source="QUEEN" target="MILES AXLEROD" weight="1" />
+      <edge id="3347" source="QUEEN" target="HOLLEY" weight="1" />
+      <edge id="3348" source="QUEEN" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3349" source="QUEEN" target="GUARD" weight="1" />
+      <edge id="3350" source="QUEEN" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3351" source="QUEEN" target="LORD STEWARD" weight="1" />
+      <edge id="3352" source="QUEEN'S GUARD" target="QUEEN" weight="1" />
+      <edge id="3353" source="QUEEN'S GUARD" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3354" source="QUEEN'S GUARD" target="MCQUEEN" weight="1" />
+      <edge id="3355" source="QUEEN'S GUARD" target="MATER" weight="1" />
+      <edge id="3356" source="QUEEN'S GUARD" target="FINN" weight="1" />
+      <edge id="3357" source="QUEEN'S GUARD" target="MILES AXLEROD" weight="1" />
+      <edge id="3358" source="QUEEN'S GUARD" target="HOLLEY" weight="1" />
+      <edge id="3359" source="QUEEN'S GUARD" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3360" source="QUEEN'S GUARD" target="GUARD" weight="1" />
+      <edge id="3361" source="QUEEN'S GUARD" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3362" source="QUEEN'S GUARDS" target="QUEEN" weight="1" />
+      <edge id="3363" source="QUEEN'S GUARDS" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3364" source="QUEEN'S GUARDS" target="MCQUEEN" weight="1" />
+      <edge id="3365" source="QUEEN'S GUARDS" target="MATER" weight="1" />
+      <edge id="3366" source="QUEEN'S GUARDS" target="FINN" weight="1" />
+      <edge id="3367" source="QUEEN'S GUARDS" target="MILES AXLEROD" weight="1" />
+      <edge id="3368" source="QUEEN'S GUARDS" target="HOLLEY" weight="1" />
+      <edge id="3369" source="QUEEN'S GUARDS" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3370" source="QUEEN'S GUARDS" target="GUARD" weight="1" />
+      <edge id="3371" source="QUEEN'S GUARDS" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3372" source="PRINCE WHEELIAM" target="QUEEN" weight="1" />
+      <edge id="3373" source="PRINCE WHEELIAM" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3374" source="PRINCE WHEELIAM" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3375" source="PRINCE WHEELIAM" target="MCQUEEN" weight="1" />
+      <edge id="3376" source="PRINCE WHEELIAM" target="MATER" weight="1" />
+      <edge id="3377" source="PRINCE WHEELIAM" target="FINN" weight="1" />
+      <edge id="3378" source="PRINCE WHEELIAM" target="MILES AXLEROD" weight="1" />
+      <edge id="3379" source="PRINCE WHEELIAM" target="HOLLEY" weight="1" />
+      <edge id="3380" source="PRINCE WHEELIAM" target="GUARD" weight="1" />
+      <edge id="3381" source="PRINCE WHEELIAM" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3382" source="GUARD" target="QUEEN" weight="1" />
+      <edge id="3383" source="GUARD" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3384" source="GUARD" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3385" source="GUARD" target="MCQUEEN" weight="1" />
+      <edge id="3386" source="GUARD" target="MATER" weight="1" />
+      <edge id="3387" source="GUARD" target="FINN" weight="1" />
+      <edge id="3388" source="GUARD" target="MILES AXLEROD" weight="1" />
+      <edge id="3389" source="GUARD" target="HOLLEY" weight="1" />
+      <edge id="3390" source="GUARD" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3391" source="GUARD" target="THE BOMB'S COMPUTER VOICE" weight="1" />
+      <edge id="3392" source="THE BOMB'S COMPUTER VOICE" target="QUEEN" weight="1" />
+      <edge id="3393" source="THE BOMB'S COMPUTER VOICE" target="QUEEN'S GUARD" weight="1" />
+      <edge id="3394" source="THE BOMB'S COMPUTER VOICE" target="QUEEN'S GUARDS" weight="1" />
+      <edge id="3395" source="THE BOMB'S COMPUTER VOICE" target="MCQUEEN" weight="1" />
+      <edge id="3396" source="THE BOMB'S COMPUTER VOICE" target="MATER" weight="1" />
+      <edge id="3397" source="THE BOMB'S COMPUTER VOICE" target="FINN" weight="1" />
+      <edge id="3398" source="THE BOMB'S COMPUTER VOICE" target="MILES AXLEROD" weight="1" />
+      <edge id="3399" source="THE BOMB'S COMPUTER VOICE" target="HOLLEY" weight="1" />
+      <edge id="3400" source="THE BOMB'S COMPUTER VOICE" target="PRINCE WHEELIAM" weight="1" />
+      <edge id="3401" source="THE BOMB'S COMPUTER VOICE" target="GUARD" weight="1" />
+      <edge id="3402" source="LORD STEWARD" target="MCQUEEN" weight="1" />
+      <edge id="3403" source="LORD STEWARD" target="QUEEN" weight="1" />
+      <edge id="3404" source="LORD STEWARD" target="MATER" weight="1" />
+      <edge id="3405" source="MINNY" target="MATER" weight="1" />
+      <edge id="3406" source="MINNY" target="VAN" weight="1" />
+      <edge id="3407" source="MINNY" target="HOLLEY" weight="1" />
+      <edge id="3408" source="MINNY" target="FINN" weight="1" />
+      <edge id="3409" source="MINNY" target="LUIGI" weight="1" />
+      <edge id="3410" source="MINNY" target="FLO" weight="1" />
+      <edge id="3411" source="MINNY" target="RAMONE" weight="1" />
+      <edge id="3412" source="MINNY" target="LIZZIE" weight="1" />
+      <edge id="3413" source="MINNY" target="MACK" weight="1" />
+      <edge id="3414" source="MINNY" target="MCQUEEN" weight="1" />
+      <edge id="3415" source="MINNY" target="FILLMORE" weight="1" />
+      <edge id="3416" source="MINNY" target="SARGE" weight="1" />
+      <edge id="3417" source="VAN" target="MATER" weight="1" />
+      <edge id="3418" source="VAN" target="MINNY" weight="1" />
+      <edge id="3419" source="VAN" target="HOLLEY" weight="1" />
+      <edge id="3420" source="VAN" target="FINN" weight="1" />
+      <edge id="3421" source="VAN" target="LUIGI" weight="1" />
+      <edge id="3422" source="VAN" target="FLO" weight="1" />
+      <edge id="3423" source="VAN" target="RAMONE" weight="1" />
+      <edge id="3424" source="VAN" target="LIZZIE" weight="1" />
+      <edge id="3425" source="VAN" target="MACK" weight="1" />
+      <edge id="3426" source="VAN" target="MCQUEEN" weight="1" />
+      <edge id="3427" source="VAN" target="FILLMORE" weight="1" />
+      <edge id="3428" source="VAN" target="SARGE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

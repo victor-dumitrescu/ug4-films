@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="2ND BOY" label="2ND BOY" />
+      <node id="STEVIE" label="STEVIE" />
+      <node id="3RD BOY" label="3RD BOY" />
+      <node id="FIRE CAPTAIN" label="FIRE CAPTAIN" />
+      <node id="BRONSCHWEIG" label="BRONSCHWEIG" />
+      <node id="DR. BRONSCHWEIG" label="DR. BRONSCHWEIG" />
+      <node id="FBI AGENT" label="FBI AGENT" />
+      <node id="S.A.C. MICHAUD" label="S.A.C. MICHAUD" />
+      <node id="SCULLY" label="SCULLY" />
+      <node id="MULDER" label="MULDER" />
+      <node id="SECURITY GUARD" label="SECURITY GUARD" />
+      <node id="LAST AGENT OUT" label="LAST AGENT OUT" />
+      <node id="WINDBREAKERED AGENT" label="WINDBREAKERED AGENT" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="CASSIDY" label="CASSIDY" />
+      <node id="SKINNER" label="SKINNER" />
+      <node id="BARMAID" label="BARMAID" />
+      <node id="WATCHFUL MAN'S VOICE" label="WATCHFUL MAN'S VOICE" />
+      <node id="KURTZWEIL" label="KURTZWEIL" />
+      <node id="CIGARETTE SMOKING MAN" label="CIGARETTE SMOKING MAN" />
+      <node id="YOUNG NAVAL GUARD" label="YOUNG NAVAL GUARD" />
+      <node id="DETECTIVE" label="DETECTIVE" />
+      <node id="MULDER'S VOICE" label="MULDER'S VOICE" />
+      <node id="FIELD AGENT" label="FIELD AGENT" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="VALET'S VOICE" label="VALET'S VOICE" />
+      <node id="WELL-MANICURED MAN" label="WELL-MANICURED MAN" />
+      <node id="VALET" label="VALET" />
+      <node id="STRUGHOLD" label="STRUGHOLD" />
+      <node id="GROUP ELDER" label="GROUP ELDER" />
+      <node id="2ND ELDER" label="2ND ELDER" />
+      <node id="ELDER" label="ELDER" />
+      <node id="4TH BOY" label="4TH BOY" />
+      <node id="1ST PARAMEDIC" label="1ST PARAMEDIC" />
+      <node id="2ND PARAMEDIC" label="2ND PARAMEDIC" />
+      <node id="BYERS" label="BYERS" />
+      <node id="LANGLY" label="LANGLY" />
+      <node id="FROHIKE" label="FROHIKE" />
+      <node id="MAN WHO SHOT MULDER" label="MAN WHO SHOT MULDER" />
+      <node id="JANA CASSIDY'S VOICE" label="JANA CASSIDY'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="24895" source="2ND BOY" target="STEVIE" weight="1" />
+      <edge id="24896" source="2ND BOY" target="3RD BOY" weight="2" />
+      <edge id="24897" source="2ND BOY" target="SCULLY" weight="1" />
+      <edge id="24898" source="2ND BOY" target="MULDER" weight="1" />
+      <edge id="24899" source="2ND BOY" target="4TH BOY" weight="1" />
+      <edge id="24900" source="STEVIE" target="3RD BOY" weight="1" />
+      <edge id="24901" source="STEVIE" target="2ND BOY" weight="1" />
+      <edge id="24902" source="3RD BOY" target="STEVIE" weight="1" />
+      <edge id="24903" source="3RD BOY" target="2ND BOY" weight="2" />
+      <edge id="24904" source="3RD BOY" target="SCULLY" weight="1" />
+      <edge id="24905" source="3RD BOY" target="MULDER" weight="1" />
+      <edge id="24906" source="3RD BOY" target="4TH BOY" weight="1" />
+      <edge id="24907" source="FIRE CAPTAIN" target="BRONSCHWEIG" weight="1" />
+      <edge id="24908" source="FIRE CAPTAIN" target="DR. BRONSCHWEIG" weight="1" />
+      <edge id="24909" source="BRONSCHWEIG" target="FIRE CAPTAIN" weight="1" />
+      <edge id="24910" source="BRONSCHWEIG" target="DR. BRONSCHWEIG" weight="1" />
+      <edge id="24911" source="DR. BRONSCHWEIG" target="BRONSCHWEIG" weight="1" />
+      <edge id="24912" source="DR. BRONSCHWEIG" target="FIRE CAPTAIN" weight="1" />
+      <edge id="24913" source="DR. BRONSCHWEIG" target="CIGARETTE SMOKING MAN" weight="2" />
+      <edge id="24914" source="DR. BRONSCHWEIG" target="TECHNICIAN" weight="1" />
+      <edge id="24915" source="FBI AGENT" target="S.A.C. MICHAUD" weight="1" />
+      <edge id="24916" source="S.A.C. MICHAUD" target="FBI AGENT" weight="1" />
+      <edge id="24917" source="S.A.C. MICHAUD" target="SCULLY" weight="2" />
+      <edge id="24918" source="S.A.C. MICHAUD" target="MULDER" weight="1" />
+      <edge id="24919" source="SCULLY" target="MULDER" weight="29" />
+      <edge id="24920" source="SCULLY" target="SECURITY GUARD" weight="1" />
+      <edge id="24921" source="SCULLY" target="S.A.C. MICHAUD" weight="2" />
+      <edge id="24922" source="SCULLY" target="LAST AGENT OUT" weight="1" />
+      <edge id="24923" source="SCULLY" target="WINDBREAKERED AGENT" weight="1" />
+      <edge id="24924" source="SCULLY" target="SKINNER" weight="1" />
+      <edge id="24925" source="SCULLY" target="MULDER'S VOICE" weight="1" />
+      <edge id="24926" source="SCULLY" target="FIELD AGENT" weight="1" />
+      <edge id="24927" source="SCULLY" target="2ND BOY" weight="1" />
+      <edge id="24928" source="SCULLY" target="3RD BOY" weight="1" />
+      <edge id="24929" source="SCULLY" target="4TH BOY" weight="1" />
+      <edge id="24930" source="SCULLY" target="CASSIDY" weight="2" />
+      <edge id="24931" source="MULDER" target="SCULLY" weight="29" />
+      <edge id="24932" source="MULDER" target="S.A.C. MICHAUD" weight="1" />
+      <edge id="24933" source="MULDER" target="LAST AGENT OUT" weight="1" />
+      <edge id="24934" source="MULDER" target="WINDBREAKERED AGENT" weight="1" />
+      <edge id="24935" source="MULDER" target="WOMAN'S VOICE" weight="1" />
+      <edge id="24936" source="MULDER" target="CASSIDY" weight="1" />
+      <edge id="24937" source="MULDER" target="SKINNER" weight="2" />
+      <edge id="24938" source="MULDER" target="BARMAID" weight="1" />
+      <edge id="24939" source="MULDER" target="WATCHFUL MAN'S VOICE" weight="1" />
+      <edge id="24940" source="MULDER" target="KURTZWEIL" weight="7" />
+      <edge id="24941" source="MULDER" target="YOUNG NAVAL GUARD" weight="1" />
+      <edge id="24942" source="MULDER" target="DETECTIVE" weight="1" />
+      <edge id="24943" source="MULDER" target="FIELD AGENT" weight="1" />
+      <edge id="24944" source="MULDER" target="2ND BOY" weight="1" />
+      <edge id="24945" source="MULDER" target="3RD BOY" weight="1" />
+      <edge id="24946" source="MULDER" target="4TH BOY" weight="1" />
+      <edge id="24947" source="MULDER" target="2ND PARAMEDIC" weight="1" />
+      <edge id="24948" source="MULDER" target="1ST PARAMEDIC" weight="1" />
+      <edge id="24949" source="MULDER" target="BYERS" weight="1" />
+      <edge id="24950" source="MULDER" target="LANGLY" weight="1" />
+      <edge id="24951" source="MULDER" target="FROHIKE" weight="1" />
+      <edge id="24952" source="MULDER" target="WELL-MANICURED MAN" weight="3" />
+      <edge id="24953" source="MULDER" target="CIGARETTE SMOKING MAN" weight="1" />
+      <edge id="24954" source="SECURITY GUARD" target="SCULLY" weight="1" />
+      <edge id="24955" source="LAST AGENT OUT" target="SCULLY" weight="1" />
+      <edge id="24956" source="LAST AGENT OUT" target="MULDER" weight="1" />
+      <edge id="24957" source="LAST AGENT OUT" target="WINDBREAKERED AGENT" weight="1" />
+      <edge id="24958" source="WINDBREAKERED AGENT" target="SCULLY" weight="1" />
+      <edge id="24959" source="WINDBREAKERED AGENT" target="LAST AGENT OUT" weight="1" />
+      <edge id="24960" source="WINDBREAKERED AGENT" target="MULDER" weight="1" />
+      <edge id="24961" source="WOMAN'S VOICE" target="CASSIDY" weight="1" />
+      <edge id="24962" source="WOMAN'S VOICE" target="MULDER" weight="1" />
+      <edge id="24963" source="CASSIDY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="24964" source="CASSIDY" target="MULDER" weight="1" />
+      <edge id="24965" source="CASSIDY" target="SCULLY" weight="2" />
+      <edge id="24966" source="SKINNER" target="MULDER" weight="2" />
+      <edge id="24967" source="SKINNER" target="SCULLY" weight="1" />
+      <edge id="24968" source="SKINNER" target="BYERS" weight="1" />
+      <edge id="24969" source="SKINNER" target="LANGLY" weight="1" />
+      <edge id="24970" source="SKINNER" target="FROHIKE" weight="1" />
+      <edge id="24971" source="BARMAID" target="MULDER" weight="1" />
+      <edge id="24972" source="WATCHFUL MAN'S VOICE" target="MULDER" weight="1" />
+      <edge id="24973" source="WATCHFUL MAN'S VOICE" target="KURTZWEIL" weight="1" />
+      <edge id="24974" source="KURTZWEIL" target="WATCHFUL MAN'S VOICE" weight="1" />
+      <edge id="24975" source="KURTZWEIL" target="MULDER" weight="7" />
+      <edge id="24976" source="KURTZWEIL" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="24977" source="CIGARETTE SMOKING MAN" target="DR. BRONSCHWEIG" weight="2" />
+      <edge id="24978" source="CIGARETTE SMOKING MAN" target="WELL-MANICURED MAN" weight="2" />
+      <edge id="24979" source="CIGARETTE SMOKING MAN" target="STRUGHOLD" weight="1" />
+      <edge id="24980" source="CIGARETTE SMOKING MAN" target="GROUP ELDER" weight="1" />
+      <edge id="24981" source="CIGARETTE SMOKING MAN" target="2ND ELDER" weight="1" />
+      <edge id="24982" source="CIGARETTE SMOKING MAN" target="ELDER" weight="1" />
+      <edge id="24983" source="CIGARETTE SMOKING MAN" target="MULDER" weight="1" />
+      <edge id="24984" source="YOUNG NAVAL GUARD" target="MULDER" weight="1" />
+      <edge id="24985" source="DETECTIVE" target="MULDER" weight="1" />
+      <edge id="24986" source="MULDER'S VOICE" target="SCULLY" weight="1" />
+      <edge id="24987" source="FIELD AGENT" target="MULDER" weight="1" />
+      <edge id="24988" source="FIELD AGENT" target="SCULLY" weight="1" />
+      <edge id="24989" source="TECHNICIAN" target="DR. BRONSCHWEIG" weight="1" />
+      <edge id="24990" source="WELL-MANICURED MAN" target="CIGARETTE SMOKING MAN" weight="2" />
+      <edge id="24991" source="WELL-MANICURED MAN" target="VALET" weight="1" />
+      <edge id="24992" source="WELL-MANICURED MAN" target="STRUGHOLD" weight="1" />
+      <edge id="24993" source="WELL-MANICURED MAN" target="GROUP ELDER" weight="1" />
+      <edge id="24994" source="WELL-MANICURED MAN" target="2ND ELDER" weight="1" />
+      <edge id="24995" source="WELL-MANICURED MAN" target="ELDER" weight="1" />
+      <edge id="24996" source="WELL-MANICURED MAN" target="KURTZWEIL" weight="1" />
+      <edge id="24997" source="WELL-MANICURED MAN" target="MULDER" weight="3" />
+      <edge id="24998" source="VALET" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="24999" source="STRUGHOLD" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="25000" source="STRUGHOLD" target="GROUP ELDER" weight="1" />
+      <edge id="25001" source="STRUGHOLD" target="CIGARETTE SMOKING MAN" weight="1" />
+      <edge id="25002" source="STRUGHOLD" target="2ND ELDER" weight="1" />
+      <edge id="25003" source="STRUGHOLD" target="ELDER" weight="1" />
+      <edge id="25004" source="GROUP ELDER" target="STRUGHOLD" weight="1" />
+      <edge id="25005" source="GROUP ELDER" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="25006" source="GROUP ELDER" target="CIGARETTE SMOKING MAN" weight="1" />
+      <edge id="25007" source="GROUP ELDER" target="2ND ELDER" weight="1" />
+      <edge id="25008" source="GROUP ELDER" target="ELDER" weight="1" />
+      <edge id="25009" source="2ND ELDER" target="STRUGHOLD" weight="1" />
+      <edge id="25010" source="2ND ELDER" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="25011" source="2ND ELDER" target="GROUP ELDER" weight="1" />
+      <edge id="25012" source="2ND ELDER" target="CIGARETTE SMOKING MAN" weight="1" />
+      <edge id="25013" source="2ND ELDER" target="ELDER" weight="1" />
+      <edge id="25014" source="ELDER" target="STRUGHOLD" weight="1" />
+      <edge id="25015" source="ELDER" target="WELL-MANICURED MAN" weight="1" />
+      <edge id="25016" source="ELDER" target="GROUP ELDER" weight="1" />
+      <edge id="25017" source="ELDER" target="CIGARETTE SMOKING MAN" weight="1" />
+      <edge id="25018" source="ELDER" target="2ND ELDER" weight="1" />
+      <edge id="25019" source="4TH BOY" target="SCULLY" weight="1" />
+      <edge id="25020" source="4TH BOY" target="MULDER" weight="1" />
+      <edge id="25021" source="4TH BOY" target="2ND BOY" weight="1" />
+      <edge id="25022" source="4TH BOY" target="3RD BOY" weight="1" />
+      <edge id="25023" source="1ST PARAMEDIC" target="MULDER" weight="1" />
+      <edge id="25024" source="1ST PARAMEDIC" target="2ND PARAMEDIC" weight="1" />
+      <edge id="25025" source="2ND PARAMEDIC" target="MULDER" weight="1" />
+      <edge id="25026" source="2ND PARAMEDIC" target="1ST PARAMEDIC" weight="1" />
+      <edge id="25027" source="BYERS" target="LANGLY" weight="1" />
+      <edge id="25028" source="BYERS" target="FROHIKE" weight="1" />
+      <edge id="25029" source="BYERS" target="MULDER" weight="1" />
+      <edge id="25030" source="BYERS" target="SKINNER" weight="1" />
+      <edge id="25031" source="LANGLY" target="BYERS" weight="1" />
+      <edge id="25032" source="LANGLY" target="FROHIKE" weight="1" />
+      <edge id="25033" source="LANGLY" target="MULDER" weight="1" />
+      <edge id="25034" source="LANGLY" target="SKINNER" weight="1" />
+      <edge id="25035" source="FROHIKE" target="BYERS" weight="1" />
+      <edge id="25036" source="FROHIKE" target="LANGLY" weight="1" />
+      <edge id="25037" source="FROHIKE" target="MULDER" weight="1" />
+      <edge id="25038" source="FROHIKE" target="SKINNER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

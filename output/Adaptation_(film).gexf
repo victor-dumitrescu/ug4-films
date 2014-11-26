@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="KAUFMAN" label="KAUFMAN" />
+      <node id="BRITISH NARRATOR" label="BRITISH NARRATOR" />
+      <node id="RUSSELL" label="RUSSELL" />
+      <node id="RANDY" label="RANDY" />
+      <node id="ORLEAN" label="ORLEAN" />
+      <node id="TONY" label="TONY" />
+      <node id="RADIO VOICE" label="RADIO VOICE" />
+      <node id="VALERIE" label="VALERIE" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="LAROCHE" label="LAROCHE" />
+      <node id="BOY" label="BOY" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="VINSON" label="VINSON" />
+      <node id="DONALD" label="DONALD" />
+      <node id="MIKE OWEN" label="MIKE OWEN" />
+      <node id="LERNER" label="LERNER" />
+      <node id="BAXLEY" label="BAXLEY" />
+      <node id="SENSUOUS FEMALE NARRATOR" label="SENSUOUS FEMALE NARRATOR" />
+      <node id="ALICE" label="ALICE" />
+      <node id="THERAPIST" label="THERAPIST" />
+      <node id="TEENAGED LAROCHE" label="TEENAGED LAROCHE" />
+      <node id="DARWIN" label="DARWIN" />
+      <node id="HUSBAND" label="HUSBAND" />
+      <node id="CUSTOMER #1" label="CUSTOMER #1" />
+      <node id="CUSTOMER #2" label="CUSTOMER #2" />
+      <node id="CUSTOMER #3" label="CUSTOMER #3" />
+      <node id="JERRY" label="JERRY" />
+      <node id="UNCLE JIM" label="UNCLE JIM" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="STEWARDESS" label="STEWARDESS" />
+      <node id="SURVEYOR" label="SURVEYOR" />
+      <node id="BOTANIST" label="BOTANIST" />
+      <node id="SAILOR" label="SAILOR" />
+      <node id="GUY ON BENCH" label="GUY ON BENCH" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="ORLEAN PHOTO" label="ORLEAN PHOTO" />
+      <node id="MOTES" label="MOTES" />
+      <node id="KAUFMAN'S VOICE" label="KAUFMAN'S VOICE" />
+      <node id="REGISTRAR" label="REGISTRAR" />
+      <node id="MCKEE" label="MCKEE" />
+      <node id="POLICE OFFICER" label="POLICE OFFICER" />
+    </nodes>
+    <edges>
+      <edge id="743" source="KAUFMAN" target="VALERIE" weight="4" />
+      <edge id="744" source="KAUFMAN" target="MARGARET" weight="2" />
+      <edge id="745" source="KAUFMAN" target="DONALD" weight="18" />
+      <edge id="746" source="KAUFMAN" target="ALICE" weight="3" />
+      <edge id="747" source="KAUFMAN" target="THERAPIST" weight="1" />
+      <edge id="748" source="KAUFMAN" target="JERRY" weight="3" />
+      <edge id="749" source="KAUFMAN" target="WOMAN" weight="1" />
+      <edge id="750" source="KAUFMAN" target="STEWARDESS" weight="1" />
+      <edge id="751" source="KAUFMAN" target="MIKE OWEN" weight="5" />
+      <edge id="752" source="KAUFMAN" target="GUY ON BENCH" weight="1" />
+      <edge id="753" source="KAUFMAN" target="DRIVER" weight="1" />
+      <edge id="754" source="KAUFMAN" target="ORLEAN PHOTO" weight="1" />
+      <edge id="755" source="KAUFMAN" target="ORLEAN" weight="8" />
+      <edge id="756" source="KAUFMAN" target="MCKEE" weight="5" />
+      <edge id="757" source="KAUFMAN" target="LAROCHE" weight="4" />
+      <edge id="758" source="KAUFMAN" target="POLICE OFFICER" weight="1" />
+      <edge id="759" source="RUSSELL" target="RANDY" weight="2" />
+      <edge id="760" source="RUSSELL" target="TONY" weight="1" />
+      <edge id="761" source="RUSSELL" target="LAROCHE" weight="1" />
+      <edge id="762" source="RUSSELL" target="VINSON" weight="1" />
+      <edge id="763" source="RANDY" target="RUSSELL" weight="2" />
+      <edge id="764" source="RANDY" target="TONY" weight="1" />
+      <edge id="765" source="RANDY" target="LAROCHE" weight="1" />
+      <edge id="766" source="RANDY" target="VINSON" weight="1" />
+      <edge id="767" source="ORLEAN" target="LAROCHE" weight="21" />
+      <edge id="768" source="ORLEAN" target="BAXLEY" weight="1" />
+      <edge id="769" source="ORLEAN" target="LERNER" weight="1" />
+      <edge id="770" source="ORLEAN" target="HUSBAND" weight="1" />
+      <edge id="771" source="ORLEAN" target="VALERIE" weight="1" />
+      <edge id="772" source="ORLEAN" target="KAUFMAN" weight="8" />
+      <edge id="773" source="ORLEAN" target="MOTES" weight="1" />
+      <edge id="774" source="ORLEAN" target="DONALD" weight="2" />
+      <edge id="775" source="ORLEAN" target="MIKE OWEN" weight="1" />
+      <edge id="776" source="TONY" target="RADIO VOICE" weight="2" />
+      <edge id="777" source="TONY" target="LAROCHE" weight="1" />
+      <edge id="778" source="TONY" target="RUSSELL" weight="1" />
+      <edge id="779" source="TONY" target="RANDY" weight="1" />
+      <edge id="780" source="TONY" target="VINSON" weight="1" />
+      <edge id="781" source="RADIO VOICE" target="TONY" weight="2" />
+      <edge id="782" source="VALERIE" target="KAUFMAN" weight="4" />
+      <edge id="783" source="VALERIE" target="LAROCHE" weight="1" />
+      <edge id="784" source="VALERIE" target="ORLEAN" weight="1" />
+      <edge id="785" source="MARGARET" target="KAUFMAN" weight="2" />
+      <edge id="786" source="LAROCHE" target="TONY" weight="1" />
+      <edge id="787" source="LAROCHE" target="RUSSELL" weight="1" />
+      <edge id="788" source="LAROCHE" target="RANDY" weight="1" />
+      <edge id="789" source="LAROCHE" target="VINSON" weight="1" />
+      <edge id="790" source="LAROCHE" target="MIKE OWEN" weight="2" />
+      <edge id="791" source="LAROCHE" target="LERNER" weight="2" />
+      <edge id="792" source="LAROCHE" target="BAXLEY" weight="2" />
+      <edge id="793" source="LAROCHE" target="ORLEAN" weight="21" />
+      <edge id="794" source="LAROCHE" target="CUSTOMER #1" weight="1" />
+      <edge id="795" source="LAROCHE" target="CUSTOMER #2" weight="1" />
+      <edge id="796" source="LAROCHE" target="CUSTOMER #3" weight="1" />
+      <edge id="797" source="LAROCHE" target="UNCLE JIM" weight="1" />
+      <edge id="798" source="LAROCHE" target="MOTHER" weight="1" />
+      <edge id="799" source="LAROCHE" target="VALERIE" weight="1" />
+      <edge id="800" source="LAROCHE" target="DONALD" weight="2" />
+      <edge id="801" source="LAROCHE" target="KAUFMAN" weight="4" />
+      <edge id="802" source="BOY" target="MOTHER" weight="3" />
+      <edge id="803" source="MOTHER" target="BOY" weight="3" />
+      <edge id="804" source="MOTHER" target="TEENAGED LAROCHE" weight="1" />
+      <edge id="805" source="MOTHER" target="UNCLE JIM" weight="1" />
+      <edge id="806" source="MOTHER" target="LAROCHE" weight="1" />
+      <edge id="807" source="VINSON" target="TONY" weight="1" />
+      <edge id="808" source="VINSON" target="LAROCHE" weight="1" />
+      <edge id="809" source="VINSON" target="RUSSELL" weight="1" />
+      <edge id="810" source="VINSON" target="RANDY" weight="1" />
+      <edge id="811" source="DONALD" target="KAUFMAN" weight="18" />
+      <edge id="812" source="DONALD" target="LAROCHE" weight="2" />
+      <edge id="813" source="DONALD" target="ORLEAN" weight="2" />
+      <edge id="814" source="DONALD" target="MIKE OWEN" weight="1" />
+      <edge id="815" source="MIKE OWEN" target="LAROCHE" weight="2" />
+      <edge id="816" source="MIKE OWEN" target="KAUFMAN" weight="5" />
+      <edge id="817" source="MIKE OWEN" target="DONALD" weight="1" />
+      <edge id="818" source="MIKE OWEN" target="ORLEAN" weight="1" />
+      <edge id="819" source="LERNER" target="LAROCHE" weight="2" />
+      <edge id="820" source="LERNER" target="BAXLEY" weight="1" />
+      <edge id="821" source="LERNER" target="ORLEAN" weight="1" />
+      <edge id="822" source="BAXLEY" target="LAROCHE" weight="2" />
+      <edge id="823" source="BAXLEY" target="LERNER" weight="1" />
+      <edge id="824" source="BAXLEY" target="ORLEAN" weight="1" />
+      <edge id="825" source="ALICE" target="KAUFMAN" weight="3" />
+      <edge id="826" source="THERAPIST" target="KAUFMAN" weight="1" />
+      <edge id="827" source="TEENAGED LAROCHE" target="MOTHER" weight="1" />
+      <edge id="828" source="HUSBAND" target="ORLEAN" weight="1" />
+      <edge id="829" source="CUSTOMER #1" target="LAROCHE" weight="1" />
+      <edge id="830" source="CUSTOMER #1" target="CUSTOMER #2" weight="1" />
+      <edge id="831" source="CUSTOMER #1" target="CUSTOMER #3" weight="1" />
+      <edge id="832" source="CUSTOMER #2" target="CUSTOMER #1" weight="1" />
+      <edge id="833" source="CUSTOMER #2" target="LAROCHE" weight="1" />
+      <edge id="834" source="CUSTOMER #2" target="CUSTOMER #3" weight="1" />
+      <edge id="835" source="CUSTOMER #3" target="CUSTOMER #1" weight="1" />
+      <edge id="836" source="CUSTOMER #3" target="LAROCHE" weight="1" />
+      <edge id="837" source="CUSTOMER #3" target="CUSTOMER #2" weight="1" />
+      <edge id="838" source="JERRY" target="KAUFMAN" weight="3" />
+      <edge id="839" source="UNCLE JIM" target="LAROCHE" weight="1" />
+      <edge id="840" source="UNCLE JIM" target="MOTHER" weight="1" />
+      <edge id="841" source="WOMAN" target="KAUFMAN" weight="1" />
+      <edge id="842" source="STEWARDESS" target="KAUFMAN" weight="1" />
+      <edge id="843" source="GUY ON BENCH" target="KAUFMAN" weight="1" />
+      <edge id="844" source="DRIVER" target="KAUFMAN" weight="1" />
+      <edge id="845" source="ORLEAN PHOTO" target="KAUFMAN" weight="1" />
+      <edge id="846" source="MOTES" target="ORLEAN" weight="1" />
+      <edge id="847" source="MCKEE" target="KAUFMAN" weight="5" />
+      <edge id="848" source="POLICE OFFICER" target="KAUFMAN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

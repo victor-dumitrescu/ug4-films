@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MRS. BRUCE" label="MRS. BRUCE" />
+      <node id="BOYS SINGING" label="BOYS SINGING" />
+      <node id="HAWK" label="HAWK" />
+      <node id="LEX" label="LEX" />
+      <node id="JAM" label="JAM" />
+      <node id="TRIP" label="TRIP" />
+      <node id="ALL FOUR BOYS" label="ALL FOUR BOYS" />
+      <node id="GIRL #1" label="GIRL #1" />
+      <node id="BETH" label="BETH" />
+      <node id="STUDY HALL TEACHER" label="STUDY HALL TEACHER" />
+      <node id="PRINCIPAL'S VOICE" label="PRINCIPAL'S VOICE" />
+      <node id="WHOLE CLASS" label="WHOLE CLASS" />
+      <node id="MRS. BRUCE'S VOICE" label="MRS. BRUCE'S VOICE" />
+      <node id="VOICE" label="VOICE" />
+      <node id="ELVIS" label="ELVIS" />
+      <node id="DJ'S VOICE" label="DJ'S VOICE" />
+      <node id="MR.J" label="MR.J" />
+      <node id="TRIP ON RADIO" label="TRIP ON RADIO" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="NERD" label="NERD" />
+      <node id="MISS HIBBS" label="MISS HIBBS" />
+      <node id="FATHER MCNULTY" label="FATHER MCNULTY" />
+      <node id="DELIVERY BOY" label="DELIVERY BOY" />
+      <node id="NUN" label="NUN" />
+      <node id="KENNY" label="KENNY" />
+      <node id="BOBBY" label="BOBBY" />
+      <node id="CHRISTINE" label="CHRISTINE" />
+      <node id="BARBARA" label="BARBARA" />
+      <node id="STELLA ON BOARD" label="STELLA ON BOARD" />
+      <node id="SIMPLE SIMON" label="SIMPLE SIMON" />
+      <node id="SIMPLE SIMON'S VOICE" label="SIMPLE SIMON'S VOICE" />
+      <node id="TRIP'S VOICE" label="TRIP'S VOICE" />
+      <node id="LEADER" label="LEADER" />
+      <node id="PARISHIONERS" label="PARISHIONERS" />
+      <node id="PRIEST" label="PRIEST" />
+      <node id="DAD" label="DAD" />
+      <node id="MOM" label="MOM" />
+      <node id="SCALPER" label="SCALPER" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="SIX YEAR OLD #1" label="SIX YEAR OLD #1" />
+      <node id="SIX YEAR OLD #2" label="SIX YEAR OLD #2" />
+      <node id="LITTLE KID" label="LITTLE KID" />
+      <node id="CHONGO" label="CHONGO" />
+      <node id="SECURITY GUARD'S VOICE" label="SECURITY GUARD'S VOICE" />
+      <node id="SECURITY GUARD" label="SECURITY GUARD" />
+      <node id="ROADIE" label="ROADIE" />
+      <node id="EMCEE" label="EMCEE" />
+      <node id="ROADIE #2" label="ROADIE #2" />
+      <node id="AMANDA" label="AMANDA" />
+      <node id="PRIEST'S VOICE" label="PRIEST'S VOICE" />
+      <node id="LEX'S VOICE" label="LEX'S VOICE" />
+      <node id="HAWK'S VOICE" label="HAWK'S VOICE" />
+      <node id="JAM'S VOICE" label="JAM'S VOICE" />
+      <node id="MAN WITH COAT" label="MAN WITH COAT" />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="BEEFY JERK #1" label="BEEFY JERK #1" />
+      <node id="BEEFY JERK #2" label="BEEFY JERK #2" />
+      <node id="COP #1" label="COP #1" />
+      <node id="COP #2" label="COP #2" />
+      <node id="LEAD IDIOT" label="LEAD IDIOT" />
+      <node id="SURLY MOM" label="SURLY MOM" />
+      <node id="TICKET TAKER" label="TICKET TAKER" />
+    </nodes>
+    <edges>
+      <edge id="4975" source="MRS. BRUCE" target="BOYS SINGING" weight="1" />
+      <edge id="4976" source="MRS. BRUCE" target="HAWK" weight="4" />
+      <edge id="4977" source="MRS. BRUCE" target="LEX" weight="4" />
+      <edge id="4978" source="MRS. BRUCE" target="JAM" weight="8" />
+      <edge id="4979" source="MRS. BRUCE" target="TRIP" weight="4" />
+      <edge id="4980" source="MRS. BRUCE" target="ALL FOUR BOYS" weight="1" />
+      <edge id="4981" source="MRS. BRUCE" target="VOICE" weight="1" />
+      <edge id="4982" source="MRS. BRUCE" target="ELVIS" weight="1" />
+      <edge id="4983" source="MRS. BRUCE" target="FATHER MCNULTY" weight="1" />
+      <edge id="4984" source="MRS. BRUCE" target="LEADER" weight="1" />
+      <edge id="4985" source="MRS. BRUCE" target="PARISHIONERS" weight="1" />
+      <edge id="4986" source="MRS. BRUCE" target="PRIEST" weight="2" />
+      <edge id="4987" source="MRS. BRUCE" target="LEAD IDIOT" weight="1" />
+      <edge id="4988" source="BOYS SINGING" target="HAWK" weight="1" />
+      <edge id="4989" source="BOYS SINGING" target="LEX" weight="1" />
+      <edge id="4990" source="BOYS SINGING" target="JAM" weight="1" />
+      <edge id="4991" source="BOYS SINGING" target="TRIP" weight="1" />
+      <edge id="4992" source="BOYS SINGING" target="ALL FOUR BOYS" weight="1" />
+      <edge id="4993" source="BOYS SINGING" target="MRS. BRUCE" weight="1" />
+      <edge id="4994" source="HAWK" target="BOYS SINGING" weight="1" />
+      <edge id="4995" source="HAWK" target="LEX" weight="21" />
+      <edge id="4996" source="HAWK" target="JAM" weight="18" />
+      <edge id="4997" source="HAWK" target="TRIP" weight="22" />
+      <edge id="4998" source="HAWK" target="ALL FOUR BOYS" weight="2" />
+      <edge id="4999" source="HAWK" target="MRS. BRUCE" weight="4" />
+      <edge id="5000" source="HAWK" target="GIRL #1" weight="1" />
+      <edge id="5001" source="HAWK" target="VOICE" weight="2" />
+      <edge id="5002" source="HAWK" target="ELVIS" weight="4" />
+      <edge id="5003" source="HAWK" target="DJ'S VOICE" weight="1" />
+      <edge id="5004" source="HAWK" target="MR.J" weight="1" />
+      <edge id="5005" source="HAWK" target="DELIVERY BOY" weight="1" />
+      <edge id="5006" source="HAWK" target="FATHER MCNULTY" weight="2" />
+      <edge id="5007" source="HAWK" target="NUN" weight="2" />
+      <edge id="5008" source="HAWK" target="KENNY" weight="2" />
+      <edge id="5009" source="HAWK" target="CHRISTINE" weight="2" />
+      <edge id="5010" source="HAWK" target="BOBBY" weight="1" />
+      <edge id="5011" source="HAWK" target="BARBARA" weight="1" />
+      <edge id="5012" source="HAWK" target="STELLA ON BOARD" weight="1" />
+      <edge id="5013" source="HAWK" target="SIMPLE SIMON" weight="1" />
+      <edge id="5014" source="HAWK" target="LEADER" weight="1" />
+      <edge id="5015" source="HAWK" target="SCALPER" weight="1" />
+      <edge id="5016" source="HAWK" target="BARTENDER" weight="2" />
+      <edge id="5017" source="HAWK" target="EMCEE" weight="2" />
+      <edge id="5018" source="HAWK" target="AMANDA" weight="3" />
+      <edge id="5019" source="HAWK" target="SURLY MOM" weight="1" />
+      <edge id="5020" source="HAWK" target="TICKET TAKER" weight="1" />
+      <edge id="5021" source="LEX" target="BOYS SINGING" weight="1" />
+      <edge id="5022" source="LEX" target="HAWK" weight="21" />
+      <edge id="5023" source="LEX" target="JAM" weight="13" />
+      <edge id="5024" source="LEX" target="TRIP" weight="20" />
+      <edge id="5025" source="LEX" target="ALL FOUR BOYS" weight="2" />
+      <edge id="5026" source="LEX" target="MRS. BRUCE" weight="4" />
+      <edge id="5027" source="LEX" target="GIRL #1" weight="1" />
+      <edge id="5028" source="LEX" target="VOICE" weight="1" />
+      <edge id="5029" source="LEX" target="ELVIS" weight="3" />
+      <edge id="5030" source="LEX" target="DJ'S VOICE" weight="1" />
+      <edge id="5031" source="LEX" target="MR.J" weight="1" />
+      <edge id="5032" source="LEX" target="DELIVERY BOY" weight="1" />
+      <edge id="5033" source="LEX" target="KENNY" weight="2" />
+      <edge id="5034" source="LEX" target="CHRISTINE" weight="4" />
+      <edge id="5035" source="LEX" target="BOBBY" weight="1" />
+      <edge id="5036" source="LEX" target="BARBARA" weight="1" />
+      <edge id="5037" source="LEX" target="STELLA ON BOARD" weight="1" />
+      <edge id="5038" source="LEX" target="LEADER" weight="1" />
+      <edge id="5039" source="LEX" target="SECURITY GUARD'S VOICE" weight="2" />
+      <edge id="5040" source="LEX" target="SECURITY GUARD" weight="1" />
+      <edge id="5041" source="LEX" target="ROADIE" weight="1" />
+      <edge id="5042" source="LEX" target="BEEFY JERK #1" weight="1" />
+      <edge id="5043" source="LEX" target="BEEFY JERK #2" weight="1" />
+      <edge id="5044" source="LEX" target="SURLY MOM" weight="1" />
+      <edge id="5045" source="JAM" target="BOYS SINGING" weight="1" />
+      <edge id="5046" source="JAM" target="HAWK" weight="18" />
+      <edge id="5047" source="JAM" target="LEX" weight="13" />
+      <edge id="5048" source="JAM" target="TRIP" weight="11" />
+      <edge id="5049" source="JAM" target="ALL FOUR BOYS" weight="2" />
+      <edge id="5050" source="JAM" target="MRS. BRUCE" weight="8" />
+      <edge id="5051" source="JAM" target="BETH" weight="4" />
+      <edge id="5052" source="JAM" target="STUDY HALL TEACHER" weight="1" />
+      <edge id="5053" source="JAM" target="PRINCIPAL'S VOICE" weight="1" />
+      <edge id="5054" source="JAM" target="WHOLE CLASS" weight="1" />
+      <edge id="5055" source="JAM" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5056" source="JAM" target="VOICE" weight="1" />
+      <edge id="5057" source="JAM" target="ELVIS" weight="2" />
+      <edge id="5058" source="JAM" target="FATHER MCNULTY" weight="1" />
+      <edge id="5059" source="JAM" target="NUN" weight="1" />
+      <edge id="5060" source="JAM" target="KENNY" weight="2" />
+      <edge id="5061" source="JAM" target="CHRISTINE" weight="2" />
+      <edge id="5062" source="JAM" target="BOBBY" weight="1" />
+      <edge id="5063" source="JAM" target="BARBARA" weight="1" />
+      <edge id="5064" source="JAM" target="STELLA ON BOARD" weight="1" />
+      <edge id="5065" source="JAM" target="LEADER" weight="1" />
+      <edge id="5066" source="JAM" target="PARISHIONERS" weight="1" />
+      <edge id="5067" source="JAM" target="PRIEST" weight="4" />
+      <edge id="5068" source="JAM" target="PRIEST'S VOICE" weight="1" />
+      <edge id="5069" source="JAM" target="LEAD IDIOT" weight="1" />
+      <edge id="5070" source="JAM" target="SURLY MOM" weight="1" />
+      <edge id="5071" source="JAM" target="TICKET TAKER" weight="1" />
+      <edge id="5072" source="TRIP" target="BOYS SINGING" weight="1" />
+      <edge id="5073" source="TRIP" target="HAWK" weight="22" />
+      <edge id="5074" source="TRIP" target="LEX" weight="20" />
+      <edge id="5075" source="TRIP" target="JAM" weight="11" />
+      <edge id="5076" source="TRIP" target="ALL FOUR BOYS" weight="2" />
+      <edge id="5077" source="TRIP" target="MRS. BRUCE" weight="4" />
+      <edge id="5078" source="TRIP" target="GIRL #1" weight="1" />
+      <edge id="5079" source="TRIP" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5080" source="TRIP" target="VOICE" weight="2" />
+      <edge id="5081" source="TRIP" target="ELVIS" weight="3" />
+      <edge id="5082" source="TRIP" target="DJ'S VOICE" weight="1" />
+      <edge id="5083" source="TRIP" target="MR.J" weight="1" />
+      <edge id="5084" source="TRIP" target="DELIVERY BOY" weight="1" />
+      <edge id="5085" source="TRIP" target="CHRISTINE" weight="1" />
+      <edge id="5086" source="TRIP" target="LEADER" weight="1" />
+      <edge id="5087" source="TRIP" target="SCALPER" weight="1" />
+      <edge id="5088" source="TRIP" target="SIX YEAR OLD #1" weight="1" />
+      <edge id="5089" source="TRIP" target="SIX YEAR OLD #2" weight="1" />
+      <edge id="5090" source="TRIP" target="LITTLE KID" weight="3" />
+      <edge id="5091" source="TRIP" target="CHONGO" weight="3" />
+      <edge id="5092" source="TRIP" target="LEX'S VOICE" weight="1" />
+      <edge id="5093" source="TRIP" target="HAWK'S VOICE" weight="1" />
+      <edge id="5094" source="TRIP" target="JAM'S VOICE" weight="1" />
+      <edge id="5095" source="TRIP" target="MAN WITH COAT" weight="2" />
+      <edge id="5096" source="TRIP" target="CASHIER" weight="2" />
+      <edge id="5097" source="TRIP" target="SURLY MOM" weight="1" />
+      <edge id="5098" source="TRIP" target="TICKET TAKER" weight="1" />
+      <edge id="5099" source="ALL FOUR BOYS" target="BOYS SINGING" weight="1" />
+      <edge id="5100" source="ALL FOUR BOYS" target="HAWK" weight="2" />
+      <edge id="5101" source="ALL FOUR BOYS" target="LEX" weight="2" />
+      <edge id="5102" source="ALL FOUR BOYS" target="JAM" weight="2" />
+      <edge id="5103" source="ALL FOUR BOYS" target="TRIP" weight="2" />
+      <edge id="5104" source="ALL FOUR BOYS" target="MRS. BRUCE" weight="1" />
+      <edge id="5105" source="ALL FOUR BOYS" target="SURLY MOM" weight="1" />
+      <edge id="5106" source="ALL FOUR BOYS" target="ELVIS" weight="1" />
+      <edge id="5107" source="GIRL #1" target="TRIP" weight="1" />
+      <edge id="5108" source="GIRL #1" target="HAWK" weight="1" />
+      <edge id="5109" source="GIRL #1" target="LEX" weight="1" />
+      <edge id="5110" source="BETH" target="JAM" weight="4" />
+      <edge id="5111" source="BETH" target="STUDY HALL TEACHER" weight="1" />
+      <edge id="5112" source="BETH" target="PRINCIPAL'S VOICE" weight="1" />
+      <edge id="5113" source="BETH" target="WHOLE CLASS" weight="1" />
+      <edge id="5114" source="BETH" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5115" source="BETH" target="DAD" weight="1" />
+      <edge id="5116" source="BETH" target="MOM" weight="1" />
+      <edge id="5117" source="BETH" target="PRIEST" weight="2" />
+      <edge id="5118" source="STUDY HALL TEACHER" target="JAM" weight="1" />
+      <edge id="5119" source="STUDY HALL TEACHER" target="BETH" weight="1" />
+      <edge id="5120" source="STUDY HALL TEACHER" target="PRINCIPAL'S VOICE" weight="1" />
+      <edge id="5121" source="STUDY HALL TEACHER" target="WHOLE CLASS" weight="1" />
+      <edge id="5122" source="STUDY HALL TEACHER" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5123" source="PRINCIPAL'S VOICE" target="JAM" weight="1" />
+      <edge id="5124" source="PRINCIPAL'S VOICE" target="BETH" weight="1" />
+      <edge id="5125" source="PRINCIPAL'S VOICE" target="STUDY HALL TEACHER" weight="1" />
+      <edge id="5126" source="PRINCIPAL'S VOICE" target="WHOLE CLASS" weight="1" />
+      <edge id="5127" source="PRINCIPAL'S VOICE" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5128" source="WHOLE CLASS" target="JAM" weight="1" />
+      <edge id="5129" source="WHOLE CLASS" target="BETH" weight="1" />
+      <edge id="5130" source="WHOLE CLASS" target="STUDY HALL TEACHER" weight="1" />
+      <edge id="5131" source="WHOLE CLASS" target="PRINCIPAL'S VOICE" weight="1" />
+      <edge id="5132" source="WHOLE CLASS" target="MRS. BRUCE'S VOICE" weight="1" />
+      <edge id="5133" source="MRS. BRUCE'S VOICE" target="JAM" weight="1" />
+      <edge id="5134" source="MRS. BRUCE'S VOICE" target="BETH" weight="1" />
+      <edge id="5135" source="MRS. BRUCE'S VOICE" target="STUDY HALL TEACHER" weight="1" />
+      <edge id="5136" source="MRS. BRUCE'S VOICE" target="PRINCIPAL'S VOICE" weight="1" />
+      <edge id="5137" source="MRS. BRUCE'S VOICE" target="WHOLE CLASS" weight="1" />
+      <edge id="5138" source="MRS. BRUCE'S VOICE" target="TRIP" weight="1" />
+      <edge id="5139" source="VOICE" target="MRS. BRUCE" weight="1" />
+      <edge id="5140" source="VOICE" target="JAM" weight="1" />
+      <edge id="5141" source="VOICE" target="LEX" weight="1" />
+      <edge id="5142" source="VOICE" target="TRIP" weight="2" />
+      <edge id="5143" source="VOICE" target="HAWK" weight="2" />
+      <edge id="5144" source="VOICE" target="ELVIS" weight="1" />
+      <edge id="5145" source="VOICE" target="SCALPER" weight="1" />
+      <edge id="5146" source="ELVIS" target="MRS. BRUCE" weight="1" />
+      <edge id="5147" source="ELVIS" target="JAM" weight="2" />
+      <edge id="5148" source="ELVIS" target="LEX" weight="3" />
+      <edge id="5149" source="ELVIS" target="TRIP" weight="3" />
+      <edge id="5150" source="ELVIS" target="HAWK" weight="4" />
+      <edge id="5151" source="ELVIS" target="VOICE" weight="1" />
+      <edge id="5152" source="ELVIS" target="SURLY MOM" weight="1" />
+      <edge id="5153" source="ELVIS" target="ALL FOUR BOYS" weight="1" />
+      <edge id="5154" source="DJ'S VOICE" target="TRIP" weight="1" />
+      <edge id="5155" source="DJ'S VOICE" target="HAWK" weight="1" />
+      <edge id="5156" source="DJ'S VOICE" target="LEX" weight="1" />
+      <edge id="5157" source="DJ'S VOICE" target="MR.J" weight="1" />
+      <edge id="5158" source="MR.J" target="TRIP" weight="1" />
+      <edge id="5159" source="MR.J" target="HAWK" weight="1" />
+      <edge id="5160" source="MR.J" target="DJ'S VOICE" weight="1" />
+      <edge id="5161" source="MR.J" target="LEX" weight="1" />
+      <edge id="5162" source="FATHER MCNULTY" target="MRS. BRUCE" weight="1" />
+      <edge id="5163" source="FATHER MCNULTY" target="NUN" weight="2" />
+      <edge id="5164" source="FATHER MCNULTY" target="HAWK" weight="2" />
+      <edge id="5165" source="FATHER MCNULTY" target="JAM" weight="1" />
+      <edge id="5166" source="DELIVERY BOY" target="LEX" weight="1" />
+      <edge id="5167" source="DELIVERY BOY" target="HAWK" weight="1" />
+      <edge id="5168" source="DELIVERY BOY" target="TRIP" weight="1" />
+      <edge id="5169" source="NUN" target="FATHER MCNULTY" weight="2" />
+      <edge id="5170" source="NUN" target="HAWK" weight="2" />
+      <edge id="5171" source="NUN" target="JAM" weight="1" />
+      <edge id="5172" source="KENNY" target="BOBBY" weight="2" />
+      <edge id="5173" source="KENNY" target="LEX" weight="2" />
+      <edge id="5174" source="KENNY" target="JAM" weight="2" />
+      <edge id="5175" source="KENNY" target="HAWK" weight="2" />
+      <edge id="5176" source="KENNY" target="CHRISTINE" weight="1" />
+      <edge id="5177" source="KENNY" target="BARBARA" weight="1" />
+      <edge id="5178" source="KENNY" target="STELLA ON BOARD" weight="1" />
+      <edge id="5179" source="BOBBY" target="KENNY" weight="2" />
+      <edge id="5180" source="BOBBY" target="HAWK" weight="1" />
+      <edge id="5181" source="BOBBY" target="CHRISTINE" weight="1" />
+      <edge id="5182" source="BOBBY" target="JAM" weight="1" />
+      <edge id="5183" source="BOBBY" target="BARBARA" weight="1" />
+      <edge id="5184" source="BOBBY" target="LEX" weight="1" />
+      <edge id="5185" source="BOBBY" target="STELLA ON BOARD" weight="1" />
+      <edge id="5186" source="CHRISTINE" target="KENNY" weight="1" />
+      <edge id="5187" source="CHRISTINE" target="HAWK" weight="2" />
+      <edge id="5188" source="CHRISTINE" target="BOBBY" weight="1" />
+      <edge id="5189" source="CHRISTINE" target="JAM" weight="2" />
+      <edge id="5190" source="CHRISTINE" target="BARBARA" weight="1" />
+      <edge id="5191" source="CHRISTINE" target="LEX" weight="4" />
+      <edge id="5192" source="CHRISTINE" target="STELLA ON BOARD" weight="1" />
+      <edge id="5193" source="CHRISTINE" target="TRIP" weight="1" />
+      <edge id="5194" source="CHRISTINE" target="BEEFY JERK #1" weight="2" />
+      <edge id="5195" source="CHRISTINE" target="BEEFY JERK #2" weight="2" />
+      <edge id="5196" source="BARBARA" target="KENNY" weight="1" />
+      <edge id="5197" source="BARBARA" target="HAWK" weight="1" />
+      <edge id="5198" source="BARBARA" target="CHRISTINE" weight="1" />
+      <edge id="5199" source="BARBARA" target="BOBBY" weight="1" />
+      <edge id="5200" source="BARBARA" target="JAM" weight="1" />
+      <edge id="5201" source="BARBARA" target="LEX" weight="1" />
+      <edge id="5202" source="BARBARA" target="STELLA ON BOARD" weight="1" />
+      <edge id="5203" source="STELLA ON BOARD" target="KENNY" weight="1" />
+      <edge id="5204" source="STELLA ON BOARD" target="HAWK" weight="1" />
+      <edge id="5205" source="STELLA ON BOARD" target="CHRISTINE" weight="1" />
+      <edge id="5206" source="STELLA ON BOARD" target="BOBBY" weight="1" />
+      <edge id="5207" source="STELLA ON BOARD" target="JAM" weight="1" />
+      <edge id="5208" source="STELLA ON BOARD" target="BARBARA" weight="1" />
+      <edge id="5209" source="STELLA ON BOARD" target="LEX" weight="1" />
+      <edge id="5210" source="SIMPLE SIMON" target="HAWK" weight="1" />
+      <edge id="5211" source="SIMPLE SIMON" target="SIMPLE SIMON'S VOICE" weight="1" />
+      <edge id="5212" source="SIMPLE SIMON" target="TRIP'S VOICE" weight="1" />
+      <edge id="5213" source="SIMPLE SIMON'S VOICE" target="TRIP'S VOICE" weight="1" />
+      <edge id="5214" source="SIMPLE SIMON'S VOICE" target="SIMPLE SIMON" weight="1" />
+      <edge id="5215" source="TRIP'S VOICE" target="SIMPLE SIMON'S VOICE" weight="1" />
+      <edge id="5216" source="TRIP'S VOICE" target="SIMPLE SIMON" weight="1" />
+      <edge id="5217" source="LEADER" target="LEX" weight="1" />
+      <edge id="5218" source="LEADER" target="HAWK" weight="1" />
+      <edge id="5219" source="LEADER" target="TRIP" weight="1" />
+      <edge id="5220" source="LEADER" target="JAM" weight="1" />
+      <edge id="5221" source="LEADER" target="MRS. BRUCE" weight="1" />
+      <edge id="5222" source="PARISHIONERS" target="JAM" weight="1" />
+      <edge id="5223" source="PARISHIONERS" target="MRS. BRUCE" weight="1" />
+      <edge id="5224" source="PARISHIONERS" target="PRIEST" weight="1" />
+      <edge id="5225" source="PRIEST" target="JAM" weight="4" />
+      <edge id="5226" source="PRIEST" target="MRS. BRUCE" weight="2" />
+      <edge id="5227" source="PRIEST" target="PARISHIONERS" weight="1" />
+      <edge id="5228" source="PRIEST" target="BETH" weight="2" />
+      <edge id="5229" source="DAD" target="BETH" weight="1" />
+      <edge id="5230" source="DAD" target="MOM" weight="1" />
+      <edge id="5231" source="MOM" target="BETH" weight="1" />
+      <edge id="5232" source="MOM" target="DAD" weight="1" />
+      <edge id="5233" source="SCALPER" target="VOICE" weight="1" />
+      <edge id="5234" source="SCALPER" target="HAWK" weight="1" />
+      <edge id="5235" source="SCALPER" target="TRIP" weight="1" />
+      <edge id="5236" source="BARTENDER" target="HAWK" weight="2" />
+      <edge id="5237" source="BARTENDER" target="EMCEE" weight="1" />
+      <edge id="5238" source="SIX YEAR OLD #1" target="TRIP" weight="1" />
+      <edge id="5239" source="SIX YEAR OLD #1" target="SIX YEAR OLD #2" weight="1" />
+      <edge id="5240" source="SIX YEAR OLD #2" target="TRIP" weight="1" />
+      <edge id="5241" source="SIX YEAR OLD #2" target="SIX YEAR OLD #1" weight="1" />
+      <edge id="5242" source="LITTLE KID" target="TRIP" weight="3" />
+      <edge id="5243" source="LITTLE KID" target="CHONGO" weight="3" />
+      <edge id="5244" source="CHONGO" target="TRIP" weight="3" />
+      <edge id="5245" source="CHONGO" target="LITTLE KID" weight="3" />
+      <edge id="5246" source="SECURITY GUARD'S VOICE" target="LEX" weight="2" />
+      <edge id="5247" source="SECURITY GUARD'S VOICE" target="SECURITY GUARD" weight="1" />
+      <edge id="5248" source="SECURITY GUARD'S VOICE" target="ROADIE" weight="1" />
+      <edge id="5249" source="SECURITY GUARD" target="SECURITY GUARD'S VOICE" weight="1" />
+      <edge id="5250" source="SECURITY GUARD" target="LEX" weight="1" />
+      <edge id="5251" source="SECURITY GUARD" target="ROADIE" weight="1" />
+      <edge id="5252" source="ROADIE" target="SECURITY GUARD'S VOICE" weight="1" />
+      <edge id="5253" source="ROADIE" target="LEX" weight="1" />
+      <edge id="5254" source="ROADIE" target="SECURITY GUARD" weight="1" />
+      <edge id="5255" source="EMCEE" target="HAWK" weight="2" />
+      <edge id="5256" source="EMCEE" target="BARTENDER" weight="1" />
+      <edge id="5257" source="EMCEE" target="AMANDA" weight="1" />
+      <edge id="5258" source="AMANDA" target="EMCEE" weight="1" />
+      <edge id="5259" source="AMANDA" target="HAWK" weight="3" />
+      <edge id="5260" source="PRIEST'S VOICE" target="JAM" weight="1" />
+      <edge id="5261" source="LEX'S VOICE" target="HAWK'S VOICE" weight="1" />
+      <edge id="5262" source="LEX'S VOICE" target="JAM'S VOICE" weight="1" />
+      <edge id="5263" source="LEX'S VOICE" target="TRIP" weight="1" />
+      <edge id="5264" source="LEX'S VOICE" target="MAN WITH COAT" weight="1" />
+      <edge id="5265" source="LEX'S VOICE" target="CASHIER" weight="1" />
+      <edge id="5266" source="HAWK'S VOICE" target="LEX'S VOICE" weight="1" />
+      <edge id="5267" source="HAWK'S VOICE" target="JAM'S VOICE" weight="1" />
+      <edge id="5268" source="HAWK'S VOICE" target="TRIP" weight="1" />
+      <edge id="5269" source="HAWK'S VOICE" target="MAN WITH COAT" weight="1" />
+      <edge id="5270" source="HAWK'S VOICE" target="CASHIER" weight="1" />
+      <edge id="5271" source="JAM'S VOICE" target="LEX'S VOICE" weight="1" />
+      <edge id="5272" source="JAM'S VOICE" target="HAWK'S VOICE" weight="1" />
+      <edge id="5273" source="JAM'S VOICE" target="TRIP" weight="1" />
+      <edge id="5274" source="JAM'S VOICE" target="MAN WITH COAT" weight="1" />
+      <edge id="5275" source="JAM'S VOICE" target="CASHIER" weight="1" />
+      <edge id="5276" source="MAN WITH COAT" target="LEX'S VOICE" weight="1" />
+      <edge id="5277" source="MAN WITH COAT" target="HAWK'S VOICE" weight="1" />
+      <edge id="5278" source="MAN WITH COAT" target="JAM'S VOICE" weight="1" />
+      <edge id="5279" source="MAN WITH COAT" target="TRIP" weight="2" />
+      <edge id="5280" source="MAN WITH COAT" target="CASHIER" weight="2" />
+      <edge id="5281" source="CASHIER" target="LEX'S VOICE" weight="1" />
+      <edge id="5282" source="CASHIER" target="HAWK'S VOICE" weight="1" />
+      <edge id="5283" source="CASHIER" target="JAM'S VOICE" weight="1" />
+      <edge id="5284" source="CASHIER" target="TRIP" weight="2" />
+      <edge id="5285" source="CASHIER" target="MAN WITH COAT" weight="2" />
+      <edge id="5286" source="CASHIER" target="COP #1" weight="1" />
+      <edge id="5287" source="CASHIER" target="COP #2" weight="1" />
+      <edge id="5288" source="BEEFY JERK #1" target="CHRISTINE" weight="2" />
+      <edge id="5289" source="BEEFY JERK #1" target="BEEFY JERK #2" weight="2" />
+      <edge id="5290" source="BEEFY JERK #1" target="LEX" weight="1" />
+      <edge id="5291" source="BEEFY JERK #2" target="BEEFY JERK #1" weight="2" />
+      <edge id="5292" source="BEEFY JERK #2" target="CHRISTINE" weight="2" />
+      <edge id="5293" source="BEEFY JERK #2" target="LEX" weight="1" />
+      <edge id="5294" source="COP #1" target="CASHIER" weight="1" />
+      <edge id="5295" source="COP #1" target="COP #2" weight="1" />
+      <edge id="5296" source="COP #2" target="COP #1" weight="1" />
+      <edge id="5297" source="COP #2" target="CASHIER" weight="1" />
+      <edge id="5298" source="LEAD IDIOT" target="JAM" weight="1" />
+      <edge id="5299" source="LEAD IDIOT" target="MRS. BRUCE" weight="1" />
+      <edge id="5300" source="SURLY MOM" target="HAWK" weight="1" />
+      <edge id="5301" source="SURLY MOM" target="TRIP" weight="1" />
+      <edge id="5302" source="SURLY MOM" target="LEX" weight="1" />
+      <edge id="5303" source="SURLY MOM" target="JAM" weight="1" />
+      <edge id="5304" source="SURLY MOM" target="ALL FOUR BOYS" weight="1" />
+      <edge id="5305" source="SURLY MOM" target="ELVIS" weight="1" />
+      <edge id="5306" source="TICKET TAKER" target="HAWK" weight="1" />
+      <edge id="5307" source="TICKET TAKER" target="JAM" weight="1" />
+      <edge id="5308" source="TICKET TAKER" target="TRIP" weight="1" />
+    </edges>
+  </graph>
+</gexf>

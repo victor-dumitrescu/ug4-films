@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="VOICE ONE" label="VOICE ONE" />
+      <node id="VOICE TWO" label="VOICE TWO" />
+      <node id="DICKEY" label="DICKEY" />
+      <node id="KYLE" label="KYLE" />
+      <node id="HUSBAND" label="HUSBAND" />
+      <node id="WIFE" label="WIFE" />
+      <node id="BANDIT" label="BANDIT" />
+      <node id="A WOMAN'S VOICE" label="A WOMAN'S VOICE" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="MALE VOICE" label="MALE VOICE" />
+      <node id="WAYNETTE" label="WAYNETTE" />
+      <node id="SCRAWNY KID" label="SCRAWNY KID" />
+      <node id="CLEDUS" label="CLEDUS" />
+      <node id="GIRL" label="GIRL" />
+      <node id="KATE" label="KATE" />
+      <node id="CLAYTON" label="CLAYTON" />
+      <node id="FIRST KID" label="FIRST KID" />
+      <node id="SECOND KID" label="SECOND KID" />
+      <node id="VOICE" label="VOICE" />
+      <node id="BRANFORD" label="BRANFORD" />
+      <node id="A VOICE" label="A VOICE" />
+      <node id="SILVER TONGUED DEVIL" label="SILVER TONGUED DEVIL" />
+      <node id="DEPUTY" label="DEPUTY" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="TRUCKER #1" label="TRUCKER #1" />
+      <node id="TRUCKER #2" label="TRUCKER #2" />
+      <node id="TRUCKER #3" label="TRUCKER #3" />
+      <node id="OWNER" label="OWNER" />
+      <node id="A POLICE CALL" label="A POLICE CALL" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="DIXIE CHICKEN" label="DIXIE CHICKEN" />
+      <node id="SHERIFF CLAYTON" label="SHERIFF CLAYTON" />
+      <node id="MISSISSIPPI COP'S VOICE" label="MISSISSIPPI COP'S VOICE" />
+      <node id="VOICE FROM MISSISSIPPI HPC" label="VOICE FROM MISSISSIPPI HPC" />
+      <node id="TOW TRUCK DRIVER" label="TOW TRUCK DRIVER" />
+      <node id="DISC JOCKEY" label="DISC JOCKEY" />
+      <node id="BIKER" label="BIKER" />
+      <node id="ANOTHER BIKER" label="ANOTHER BIKER" />
+      <node id="FIRST MADAME" label="FIRST MADAME" />
+      <node id="MISTER B" label="MISTER B" />
+      <node id="WEIGHT STATION WORKER" label="WEIGHT STATION WORKER" />
+      <node id="HIGHWAY PATROLMAN" label="HIGHWAY PATROLMAN" />
+      <node id="HOT PANTS" label="HOT PANTS" />
+      <node id="CHOPPER PILOT'S VOICE" label="CHOPPER PILOT'S VOICE" />
+      <node id="COMMANDER'S VOICE" label="COMMANDER'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="15537" source="VOICE ONE" target="VOICE TWO" weight="2" />
+      <edge id="15538" source="VOICE ONE" target="CLAYTON" weight="1" />
+      <edge id="15539" source="VOICE ONE" target="KATE" weight="1" />
+      <edge id="15540" source="VOICE ONE" target="BANDIT" weight="1" />
+      <edge id="15541" source="VOICE ONE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15542" source="VOICE ONE" target="FIRST MADAME" weight="1" />
+      <edge id="15543" source="VOICE ONE" target="VOICE" weight="1" />
+      <edge id="15544" source="VOICE ONE" target="MISTER B" weight="1" />
+      <edge id="15545" source="VOICE ONE" target="CLEDUS" weight="1" />
+      <edge id="15546" source="VOICE ONE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15547" source="VOICE ONE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15548" source="VOICE ONE" target="HOT PANTS" weight="1" />
+      <edge id="15549" source="VOICE ONE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15550" source="VOICE ONE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15551" source="VOICE ONE" target="KYLE" weight="1" />
+      <edge id="15552" source="VOICE ONE" target="DICKEY" weight="1" />
+      <edge id="15553" source="VOICE TWO" target="VOICE ONE" weight="2" />
+      <edge id="15554" source="VOICE TWO" target="CLAYTON" weight="1" />
+      <edge id="15555" source="VOICE TWO" target="KATE" weight="1" />
+      <edge id="15556" source="VOICE TWO" target="BANDIT" weight="1" />
+      <edge id="15557" source="VOICE TWO" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15558" source="VOICE TWO" target="FIRST MADAME" weight="1" />
+      <edge id="15559" source="VOICE TWO" target="VOICE" weight="1" />
+      <edge id="15560" source="VOICE TWO" target="MISTER B" weight="1" />
+      <edge id="15561" source="VOICE TWO" target="CLEDUS" weight="1" />
+      <edge id="15562" source="VOICE TWO" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15563" source="VOICE TWO" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15564" source="VOICE TWO" target="HOT PANTS" weight="1" />
+      <edge id="15565" source="VOICE TWO" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15566" source="VOICE TWO" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15567" source="VOICE TWO" target="KYLE" weight="1" />
+      <edge id="15568" source="VOICE TWO" target="DICKEY" weight="1" />
+      <edge id="15569" source="DICKEY" target="KYLE" weight="2" />
+      <edge id="15570" source="DICKEY" target="HUSBAND" weight="1" />
+      <edge id="15571" source="DICKEY" target="WIFE" weight="1" />
+      <edge id="15572" source="DICKEY" target="BANDIT" weight="2" />
+      <edge id="15573" source="DICKEY" target="CLAYTON" weight="1" />
+      <edge id="15574" source="DICKEY" target="KATE" weight="1" />
+      <edge id="15575" source="DICKEY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15576" source="DICKEY" target="FIRST MADAME" weight="1" />
+      <edge id="15577" source="DICKEY" target="VOICE" weight="1" />
+      <edge id="15578" source="DICKEY" target="MISTER B" weight="1" />
+      <edge id="15579" source="DICKEY" target="CLEDUS" weight="1" />
+      <edge id="15580" source="DICKEY" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15581" source="DICKEY" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15582" source="DICKEY" target="HOT PANTS" weight="1" />
+      <edge id="15583" source="DICKEY" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15584" source="DICKEY" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15585" source="DICKEY" target="VOICE ONE" weight="1" />
+      <edge id="15586" source="DICKEY" target="VOICE TWO" weight="1" />
+      <edge id="15587" source="KYLE" target="DICKEY" weight="2" />
+      <edge id="15588" source="KYLE" target="HUSBAND" weight="1" />
+      <edge id="15589" source="KYLE" target="WIFE" weight="1" />
+      <edge id="15590" source="KYLE" target="BANDIT" weight="2" />
+      <edge id="15591" source="KYLE" target="CLAYTON" weight="1" />
+      <edge id="15592" source="KYLE" target="KATE" weight="1" />
+      <edge id="15593" source="KYLE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15594" source="KYLE" target="FIRST MADAME" weight="1" />
+      <edge id="15595" source="KYLE" target="VOICE" weight="1" />
+      <edge id="15596" source="KYLE" target="MISTER B" weight="1" />
+      <edge id="15597" source="KYLE" target="CLEDUS" weight="1" />
+      <edge id="15598" source="KYLE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15599" source="KYLE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15600" source="KYLE" target="HOT PANTS" weight="1" />
+      <edge id="15601" source="KYLE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15602" source="KYLE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15603" source="KYLE" target="VOICE ONE" weight="1" />
+      <edge id="15604" source="KYLE" target="VOICE TWO" weight="1" />
+      <edge id="15605" source="HUSBAND" target="DICKEY" weight="1" />
+      <edge id="15606" source="HUSBAND" target="KYLE" weight="1" />
+      <edge id="15607" source="HUSBAND" target="WIFE" weight="1" />
+      <edge id="15608" source="HUSBAND" target="BANDIT" weight="1" />
+      <edge id="15609" source="WIFE" target="DICKEY" weight="1" />
+      <edge id="15610" source="WIFE" target="KYLE" weight="1" />
+      <edge id="15611" source="WIFE" target="HUSBAND" weight="1" />
+      <edge id="15612" source="WIFE" target="BANDIT" weight="1" />
+      <edge id="15613" source="BANDIT" target="DICKEY" weight="2" />
+      <edge id="15614" source="BANDIT" target="KYLE" weight="2" />
+      <edge id="15615" source="BANDIT" target="HUSBAND" weight="1" />
+      <edge id="15616" source="BANDIT" target="WIFE" weight="1" />
+      <edge id="15617" source="BANDIT" target="A WOMAN'S VOICE" weight="1" />
+      <edge id="15618" source="BANDIT" target="WOMAN'S VOICE" weight="3" />
+      <edge id="15619" source="BANDIT" target="MALE VOICE" weight="1" />
+      <edge id="15620" source="BANDIT" target="WAYNETTE" weight="1" />
+      <edge id="15621" source="BANDIT" target="SCRAWNY KID" weight="1" />
+      <edge id="15622" source="BANDIT" target="CLEDUS" weight="25" />
+      <edge id="15623" source="BANDIT" target="GIRL" weight="1" />
+      <edge id="15624" source="BANDIT" target="KATE" weight="24" />
+      <edge id="15625" source="BANDIT" target="CLAYTON" weight="8" />
+      <edge id="15626" source="BANDIT" target="FIRST KID" weight="1" />
+      <edge id="15627" source="BANDIT" target="SECOND KID" weight="1" />
+      <edge id="15628" source="BANDIT" target="VOICE" weight="4" />
+      <edge id="15629" source="BANDIT" target="A VOICE" weight="2" />
+      <edge id="15630" source="BANDIT" target="SILVER TONGUED DEVIL" weight="1" />
+      <edge id="15631" source="BANDIT" target="DEPUTY" weight="1" />
+      <edge id="15632" source="BANDIT" target="BRANFORD" weight="1" />
+      <edge id="15633" source="BANDIT" target="WAITRESS" weight="1" />
+      <edge id="15634" source="BANDIT" target="TRUCKER #1" weight="1" />
+      <edge id="15635" source="BANDIT" target="TRUCKER #2" weight="1" />
+      <edge id="15636" source="BANDIT" target="TRUCKER #3" weight="1" />
+      <edge id="15637" source="BANDIT" target="OWNER" weight="3" />
+      <edge id="15638" source="BANDIT" target="A POLICE CALL" weight="1" />
+      <edge id="15639" source="BANDIT" target="ATTENDANT" weight="2" />
+      <edge id="15640" source="BANDIT" target="DIXIE CHICKEN" weight="1" />
+      <edge id="15641" source="BANDIT" target="VOICE FROM MISSISSIPPI HPC" weight="1" />
+      <edge id="15642" source="BANDIT" target="DISC JOCKEY" weight="1" />
+      <edge id="15643" source="BANDIT" target="BIKER" weight="1" />
+      <edge id="15644" source="BANDIT" target="ANOTHER BIKER" weight="1" />
+      <edge id="15645" source="BANDIT" target="FIRST MADAME" weight="1" />
+      <edge id="15646" source="BANDIT" target="MISTER B" weight="1" />
+      <edge id="15647" source="BANDIT" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15648" source="BANDIT" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15649" source="BANDIT" target="HOT PANTS" weight="1" />
+      <edge id="15650" source="BANDIT" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15651" source="BANDIT" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15652" source="BANDIT" target="VOICE ONE" weight="1" />
+      <edge id="15653" source="BANDIT" target="VOICE TWO" weight="1" />
+      <edge id="15654" source="A WOMAN'S VOICE" target="BANDIT" weight="1" />
+      <edge id="15655" source="A WOMAN'S VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15656" source="A WOMAN'S VOICE" target="MALE VOICE" weight="1" />
+      <edge id="15657" source="WOMAN'S VOICE" target="A WOMAN'S VOICE" weight="1" />
+      <edge id="15658" source="WOMAN'S VOICE" target="BANDIT" weight="3" />
+      <edge id="15659" source="WOMAN'S VOICE" target="MALE VOICE" weight="1" />
+      <edge id="15660" source="WOMAN'S VOICE" target="KATE" weight="2" />
+      <edge id="15661" source="WOMAN'S VOICE" target="WAITRESS" weight="1" />
+      <edge id="15662" source="WOMAN'S VOICE" target="TRUCKER #1" weight="1" />
+      <edge id="15663" source="WOMAN'S VOICE" target="TRUCKER #2" weight="1" />
+      <edge id="15664" source="WOMAN'S VOICE" target="TRUCKER #3" weight="1" />
+      <edge id="15665" source="WOMAN'S VOICE" target="OWNER" weight="1" />
+      <edge id="15666" source="WOMAN'S VOICE" target="CLAYTON" weight="1" />
+      <edge id="15667" source="WOMAN'S VOICE" target="FIRST MADAME" weight="1" />
+      <edge id="15668" source="WOMAN'S VOICE" target="VOICE" weight="1" />
+      <edge id="15669" source="WOMAN'S VOICE" target="MISTER B" weight="1" />
+      <edge id="15670" source="WOMAN'S VOICE" target="CLEDUS" weight="1" />
+      <edge id="15671" source="WOMAN'S VOICE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15672" source="WOMAN'S VOICE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15673" source="WOMAN'S VOICE" target="HOT PANTS" weight="1" />
+      <edge id="15674" source="WOMAN'S VOICE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15675" source="WOMAN'S VOICE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15676" source="WOMAN'S VOICE" target="KYLE" weight="1" />
+      <edge id="15677" source="WOMAN'S VOICE" target="DICKEY" weight="1" />
+      <edge id="15678" source="WOMAN'S VOICE" target="VOICE ONE" weight="1" />
+      <edge id="15679" source="WOMAN'S VOICE" target="VOICE TWO" weight="1" />
+      <edge id="15680" source="MALE VOICE" target="A WOMAN'S VOICE" weight="1" />
+      <edge id="15681" source="MALE VOICE" target="BANDIT" weight="1" />
+      <edge id="15682" source="MALE VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15683" source="WAYNETTE" target="BANDIT" weight="1" />
+      <edge id="15684" source="WAYNETTE" target="SCRAWNY KID" weight="1" />
+      <edge id="15685" source="WAYNETTE" target="CLEDUS" weight="1" />
+      <edge id="15686" source="SCRAWNY KID" target="BANDIT" weight="1" />
+      <edge id="15687" source="SCRAWNY KID" target="WAYNETTE" weight="1" />
+      <edge id="15688" source="SCRAWNY KID" target="CLEDUS" weight="1" />
+      <edge id="15689" source="CLEDUS" target="BANDIT" weight="25" />
+      <edge id="15690" source="CLEDUS" target="WAYNETTE" weight="1" />
+      <edge id="15691" source="CLEDUS" target="SCRAWNY KID" weight="1" />
+      <edge id="15692" source="CLEDUS" target="GIRL" weight="1" />
+      <edge id="15693" source="CLEDUS" target="KATE" weight="16" />
+      <edge id="15694" source="CLEDUS" target="CLAYTON" weight="6" />
+      <edge id="15695" source="CLEDUS" target="FIRST KID" weight="1" />
+      <edge id="15696" source="CLEDUS" target="SECOND KID" weight="1" />
+      <edge id="15697" source="CLEDUS" target="VOICE" weight="3" />
+      <edge id="15698" source="CLEDUS" target="ATTENDANT" weight="2" />
+      <edge id="15699" source="CLEDUS" target="A VOICE" weight="1" />
+      <edge id="15700" source="CLEDUS" target="DIXIE CHICKEN" weight="1" />
+      <edge id="15701" source="CLEDUS" target="OWNER" weight="2" />
+      <edge id="15702" source="CLEDUS" target="DISC JOCKEY" weight="1" />
+      <edge id="15703" source="CLEDUS" target="BIKER" weight="1" />
+      <edge id="15704" source="CLEDUS" target="ANOTHER BIKER" weight="1" />
+      <edge id="15705" source="CLEDUS" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15706" source="CLEDUS" target="FIRST MADAME" weight="1" />
+      <edge id="15707" source="CLEDUS" target="MISTER B" weight="1" />
+      <edge id="15708" source="CLEDUS" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15709" source="CLEDUS" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15710" source="CLEDUS" target="HOT PANTS" weight="1" />
+      <edge id="15711" source="CLEDUS" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15712" source="CLEDUS" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15713" source="CLEDUS" target="KYLE" weight="1" />
+      <edge id="15714" source="CLEDUS" target="DICKEY" weight="1" />
+      <edge id="15715" source="CLEDUS" target="VOICE ONE" weight="1" />
+      <edge id="15716" source="CLEDUS" target="VOICE TWO" weight="1" />
+      <edge id="15717" source="GIRL" target="BANDIT" weight="1" />
+      <edge id="15718" source="GIRL" target="CLEDUS" weight="1" />
+      <edge id="15719" source="KATE" target="BANDIT" weight="24" />
+      <edge id="15720" source="KATE" target="CLEDUS" weight="16" />
+      <edge id="15721" source="KATE" target="CLAYTON" weight="7" />
+      <edge id="15722" source="KATE" target="FIRST KID" weight="1" />
+      <edge id="15723" source="KATE" target="SECOND KID" weight="1" />
+      <edge id="15724" source="KATE" target="VOICE" weight="4" />
+      <edge id="15725" source="KATE" target="A VOICE" weight="2" />
+      <edge id="15726" source="KATE" target="SILVER TONGUED DEVIL" weight="1" />
+      <edge id="15727" source="KATE" target="WAITRESS" weight="1" />
+      <edge id="15728" source="KATE" target="TRUCKER #1" weight="1" />
+      <edge id="15729" source="KATE" target="TRUCKER #2" weight="1" />
+      <edge id="15730" source="KATE" target="WOMAN'S VOICE" weight="2" />
+      <edge id="15731" source="KATE" target="TRUCKER #3" weight="1" />
+      <edge id="15732" source="KATE" target="OWNER" weight="3" />
+      <edge id="15733" source="KATE" target="A POLICE CALL" weight="1" />
+      <edge id="15734" source="KATE" target="ATTENDANT" weight="2" />
+      <edge id="15735" source="KATE" target="DIXIE CHICKEN" weight="1" />
+      <edge id="15736" source="KATE" target="VOICE FROM MISSISSIPPI HPC" weight="1" />
+      <edge id="15737" source="KATE" target="DISC JOCKEY" weight="1" />
+      <edge id="15738" source="KATE" target="BIKER" weight="1" />
+      <edge id="15739" source="KATE" target="ANOTHER BIKER" weight="1" />
+      <edge id="15740" source="KATE" target="FIRST MADAME" weight="1" />
+      <edge id="15741" source="KATE" target="MISTER B" weight="1" />
+      <edge id="15742" source="KATE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15743" source="KATE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15744" source="KATE" target="HOT PANTS" weight="1" />
+      <edge id="15745" source="KATE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15746" source="KATE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15747" source="KATE" target="KYLE" weight="1" />
+      <edge id="15748" source="KATE" target="DICKEY" weight="1" />
+      <edge id="15749" source="KATE" target="VOICE ONE" weight="1" />
+      <edge id="15750" source="KATE" target="VOICE TWO" weight="1" />
+      <edge id="15751" source="CLAYTON" target="BANDIT" weight="8" />
+      <edge id="15752" source="CLAYTON" target="KATE" weight="7" />
+      <edge id="15753" source="CLAYTON" target="CLEDUS" weight="6" />
+      <edge id="15754" source="CLAYTON" target="FIRST KID" weight="1" />
+      <edge id="15755" source="CLAYTON" target="SECOND KID" weight="1" />
+      <edge id="15756" source="CLAYTON" target="VOICE" weight="2" />
+      <edge id="15757" source="CLAYTON" target="BRANFORD" weight="3" />
+      <edge id="15758" source="CLAYTON" target="DEPUTY" weight="1" />
+      <edge id="15759" source="CLAYTON" target="ATTENDANT" weight="1" />
+      <edge id="15760" source="CLAYTON" target="A VOICE" weight="1" />
+      <edge id="15761" source="CLAYTON" target="TOW TRUCK DRIVER" weight="1" />
+      <edge id="15762" source="CLAYTON" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15763" source="CLAYTON" target="FIRST MADAME" weight="1" />
+      <edge id="15764" source="CLAYTON" target="MISTER B" weight="1" />
+      <edge id="15765" source="CLAYTON" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15766" source="CLAYTON" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15767" source="CLAYTON" target="HOT PANTS" weight="1" />
+      <edge id="15768" source="CLAYTON" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15769" source="CLAYTON" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15770" source="CLAYTON" target="KYLE" weight="1" />
+      <edge id="15771" source="CLAYTON" target="DICKEY" weight="1" />
+      <edge id="15772" source="CLAYTON" target="VOICE ONE" weight="1" />
+      <edge id="15773" source="CLAYTON" target="VOICE TWO" weight="1" />
+      <edge id="15774" source="FIRST KID" target="BANDIT" weight="1" />
+      <edge id="15775" source="FIRST KID" target="KATE" weight="1" />
+      <edge id="15776" source="FIRST KID" target="CLEDUS" weight="1" />
+      <edge id="15777" source="FIRST KID" target="CLAYTON" weight="1" />
+      <edge id="15778" source="FIRST KID" target="SECOND KID" weight="1" />
+      <edge id="15779" source="SECOND KID" target="BANDIT" weight="1" />
+      <edge id="15780" source="SECOND KID" target="KATE" weight="1" />
+      <edge id="15781" source="SECOND KID" target="CLEDUS" weight="1" />
+      <edge id="15782" source="SECOND KID" target="CLAYTON" weight="1" />
+      <edge id="15783" source="SECOND KID" target="FIRST KID" weight="1" />
+      <edge id="15784" source="VOICE" target="BANDIT" weight="4" />
+      <edge id="15785" source="VOICE" target="CLEDUS" weight="3" />
+      <edge id="15786" source="VOICE" target="KATE" weight="4" />
+      <edge id="15787" source="VOICE" target="CLAYTON" weight="2" />
+      <edge id="15788" source="VOICE" target="A VOICE" weight="1" />
+      <edge id="15789" source="VOICE" target="SILVER TONGUED DEVIL" weight="1" />
+      <edge id="15790" source="VOICE" target="DIXIE CHICKEN" weight="1" />
+      <edge id="15791" source="VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15792" source="VOICE" target="FIRST MADAME" weight="1" />
+      <edge id="15793" source="VOICE" target="MISTER B" weight="1" />
+      <edge id="15794" source="VOICE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15795" source="VOICE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15796" source="VOICE" target="HOT PANTS" weight="1" />
+      <edge id="15797" source="VOICE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15798" source="VOICE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15799" source="VOICE" target="KYLE" weight="1" />
+      <edge id="15800" source="VOICE" target="DICKEY" weight="1" />
+      <edge id="15801" source="VOICE" target="VOICE ONE" weight="1" />
+      <edge id="15802" source="VOICE" target="VOICE TWO" weight="1" />
+      <edge id="15803" source="BRANFORD" target="CLAYTON" weight="3" />
+      <edge id="15804" source="BRANFORD" target="BANDIT" weight="1" />
+      <edge id="15805" source="BRANFORD" target="DEPUTY" weight="1" />
+      <edge id="15806" source="A VOICE" target="BANDIT" weight="2" />
+      <edge id="15807" source="A VOICE" target="KATE" weight="2" />
+      <edge id="15808" source="A VOICE" target="VOICE" weight="1" />
+      <edge id="15809" source="A VOICE" target="SILVER TONGUED DEVIL" weight="1" />
+      <edge id="15810" source="A VOICE" target="CLEDUS" weight="1" />
+      <edge id="15811" source="A VOICE" target="ATTENDANT" weight="1" />
+      <edge id="15812" source="A VOICE" target="CLAYTON" weight="1" />
+      <edge id="15813" source="SILVER TONGUED DEVIL" target="BANDIT" weight="1" />
+      <edge id="15814" source="SILVER TONGUED DEVIL" target="KATE" weight="1" />
+      <edge id="15815" source="SILVER TONGUED DEVIL" target="A VOICE" weight="1" />
+      <edge id="15816" source="SILVER TONGUED DEVIL" target="VOICE" weight="1" />
+      <edge id="15817" source="DEPUTY" target="BANDIT" weight="1" />
+      <edge id="15818" source="DEPUTY" target="CLAYTON" weight="1" />
+      <edge id="15819" source="DEPUTY" target="BRANFORD" weight="1" />
+      <edge id="15820" source="WAITRESS" target="BANDIT" weight="1" />
+      <edge id="15821" source="WAITRESS" target="KATE" weight="1" />
+      <edge id="15822" source="WAITRESS" target="TRUCKER #1" weight="1" />
+      <edge id="15823" source="WAITRESS" target="TRUCKER #2" weight="1" />
+      <edge id="15824" source="WAITRESS" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15825" source="WAITRESS" target="TRUCKER #3" weight="1" />
+      <edge id="15826" source="WAITRESS" target="OWNER" weight="1" />
+      <edge id="15827" source="TRUCKER #1" target="BANDIT" weight="1" />
+      <edge id="15828" source="TRUCKER #1" target="KATE" weight="1" />
+      <edge id="15829" source="TRUCKER #1" target="WAITRESS" weight="1" />
+      <edge id="15830" source="TRUCKER #1" target="TRUCKER #2" weight="1" />
+      <edge id="15831" source="TRUCKER #1" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15832" source="TRUCKER #1" target="TRUCKER #3" weight="1" />
+      <edge id="15833" source="TRUCKER #1" target="OWNER" weight="1" />
+      <edge id="15834" source="TRUCKER #2" target="BANDIT" weight="1" />
+      <edge id="15835" source="TRUCKER #2" target="KATE" weight="1" />
+      <edge id="15836" source="TRUCKER #2" target="WAITRESS" weight="1" />
+      <edge id="15837" source="TRUCKER #2" target="TRUCKER #1" weight="1" />
+      <edge id="15838" source="TRUCKER #2" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15839" source="TRUCKER #2" target="TRUCKER #3" weight="1" />
+      <edge id="15840" source="TRUCKER #2" target="OWNER" weight="1" />
+      <edge id="15841" source="TRUCKER #3" target="BANDIT" weight="1" />
+      <edge id="15842" source="TRUCKER #3" target="KATE" weight="1" />
+      <edge id="15843" source="TRUCKER #3" target="WAITRESS" weight="1" />
+      <edge id="15844" source="TRUCKER #3" target="TRUCKER #1" weight="1" />
+      <edge id="15845" source="TRUCKER #3" target="TRUCKER #2" weight="1" />
+      <edge id="15846" source="TRUCKER #3" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15847" source="TRUCKER #3" target="OWNER" weight="1" />
+      <edge id="15848" source="OWNER" target="BANDIT" weight="3" />
+      <edge id="15849" source="OWNER" target="KATE" weight="3" />
+      <edge id="15850" source="OWNER" target="WAITRESS" weight="1" />
+      <edge id="15851" source="OWNER" target="TRUCKER #1" weight="1" />
+      <edge id="15852" source="OWNER" target="TRUCKER #2" weight="1" />
+      <edge id="15853" source="OWNER" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15854" source="OWNER" target="TRUCKER #3" weight="1" />
+      <edge id="15855" source="OWNER" target="CLEDUS" weight="2" />
+      <edge id="15856" source="OWNER" target="DISC JOCKEY" weight="1" />
+      <edge id="15857" source="OWNER" target="BIKER" weight="1" />
+      <edge id="15858" source="OWNER" target="ANOTHER BIKER" weight="1" />
+      <edge id="15859" source="OWNER" target="ATTENDANT" weight="1" />
+      <edge id="15860" source="A POLICE CALL" target="BANDIT" weight="1" />
+      <edge id="15861" source="A POLICE CALL" target="KATE" weight="1" />
+      <edge id="15862" source="ATTENDANT" target="BANDIT" weight="2" />
+      <edge id="15863" source="ATTENDANT" target="CLEDUS" weight="2" />
+      <edge id="15864" source="ATTENDANT" target="KATE" weight="2" />
+      <edge id="15865" source="ATTENDANT" target="A VOICE" weight="1" />
+      <edge id="15866" source="ATTENDANT" target="CLAYTON" weight="1" />
+      <edge id="15867" source="ATTENDANT" target="OWNER" weight="1" />
+      <edge id="15868" source="DIXIE CHICKEN" target="BANDIT" weight="1" />
+      <edge id="15869" source="DIXIE CHICKEN" target="CLEDUS" weight="1" />
+      <edge id="15870" source="DIXIE CHICKEN" target="VOICE" weight="1" />
+      <edge id="15871" source="DIXIE CHICKEN" target="KATE" weight="1" />
+      <edge id="15872" source="SHERIFF CLAYTON" target="MISSISSIPPI COP'S VOICE" weight="1" />
+      <edge id="15873" source="MISSISSIPPI COP'S VOICE" target="SHERIFF CLAYTON" weight="1" />
+      <edge id="15874" source="VOICE FROM MISSISSIPPI HPC" target="BANDIT" weight="1" />
+      <edge id="15875" source="VOICE FROM MISSISSIPPI HPC" target="KATE" weight="1" />
+      <edge id="15876" source="TOW TRUCK DRIVER" target="CLAYTON" weight="1" />
+      <edge id="15877" source="DISC JOCKEY" target="CLEDUS" weight="1" />
+      <edge id="15878" source="DISC JOCKEY" target="OWNER" weight="1" />
+      <edge id="15879" source="DISC JOCKEY" target="BANDIT" weight="1" />
+      <edge id="15880" source="DISC JOCKEY" target="KATE" weight="1" />
+      <edge id="15881" source="DISC JOCKEY" target="BIKER" weight="1" />
+      <edge id="15882" source="DISC JOCKEY" target="ANOTHER BIKER" weight="1" />
+      <edge id="15883" source="BIKER" target="CLEDUS" weight="1" />
+      <edge id="15884" source="BIKER" target="OWNER" weight="1" />
+      <edge id="15885" source="BIKER" target="BANDIT" weight="1" />
+      <edge id="15886" source="BIKER" target="KATE" weight="1" />
+      <edge id="15887" source="BIKER" target="DISC JOCKEY" weight="1" />
+      <edge id="15888" source="BIKER" target="ANOTHER BIKER" weight="1" />
+      <edge id="15889" source="ANOTHER BIKER" target="CLEDUS" weight="1" />
+      <edge id="15890" source="ANOTHER BIKER" target="OWNER" weight="1" />
+      <edge id="15891" source="ANOTHER BIKER" target="BANDIT" weight="1" />
+      <edge id="15892" source="ANOTHER BIKER" target="KATE" weight="1" />
+      <edge id="15893" source="ANOTHER BIKER" target="DISC JOCKEY" weight="1" />
+      <edge id="15894" source="ANOTHER BIKER" target="BIKER" weight="1" />
+      <edge id="15895" source="FIRST MADAME" target="CLAYTON" weight="1" />
+      <edge id="15896" source="FIRST MADAME" target="KATE" weight="1" />
+      <edge id="15897" source="FIRST MADAME" target="BANDIT" weight="1" />
+      <edge id="15898" source="FIRST MADAME" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15899" source="FIRST MADAME" target="VOICE" weight="1" />
+      <edge id="15900" source="FIRST MADAME" target="MISTER B" weight="1" />
+      <edge id="15901" source="FIRST MADAME" target="CLEDUS" weight="1" />
+      <edge id="15902" source="FIRST MADAME" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15903" source="FIRST MADAME" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15904" source="FIRST MADAME" target="HOT PANTS" weight="1" />
+      <edge id="15905" source="FIRST MADAME" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15906" source="FIRST MADAME" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15907" source="FIRST MADAME" target="KYLE" weight="1" />
+      <edge id="15908" source="FIRST MADAME" target="DICKEY" weight="1" />
+      <edge id="15909" source="FIRST MADAME" target="VOICE ONE" weight="1" />
+      <edge id="15910" source="FIRST MADAME" target="VOICE TWO" weight="1" />
+      <edge id="15911" source="MISTER B" target="CLAYTON" weight="1" />
+      <edge id="15912" source="MISTER B" target="KATE" weight="1" />
+      <edge id="15913" source="MISTER B" target="BANDIT" weight="1" />
+      <edge id="15914" source="MISTER B" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15915" source="MISTER B" target="FIRST MADAME" weight="1" />
+      <edge id="15916" source="MISTER B" target="VOICE" weight="1" />
+      <edge id="15917" source="MISTER B" target="CLEDUS" weight="1" />
+      <edge id="15918" source="MISTER B" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15919" source="MISTER B" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15920" source="MISTER B" target="HOT PANTS" weight="1" />
+      <edge id="15921" source="MISTER B" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15922" source="MISTER B" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15923" source="MISTER B" target="KYLE" weight="1" />
+      <edge id="15924" source="MISTER B" target="DICKEY" weight="1" />
+      <edge id="15925" source="MISTER B" target="VOICE ONE" weight="1" />
+      <edge id="15926" source="MISTER B" target="VOICE TWO" weight="1" />
+      <edge id="15927" source="WEIGHT STATION WORKER" target="CLAYTON" weight="1" />
+      <edge id="15928" source="WEIGHT STATION WORKER" target="KATE" weight="1" />
+      <edge id="15929" source="WEIGHT STATION WORKER" target="BANDIT" weight="1" />
+      <edge id="15930" source="WEIGHT STATION WORKER" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15931" source="WEIGHT STATION WORKER" target="FIRST MADAME" weight="1" />
+      <edge id="15932" source="WEIGHT STATION WORKER" target="VOICE" weight="1" />
+      <edge id="15933" source="WEIGHT STATION WORKER" target="MISTER B" weight="1" />
+      <edge id="15934" source="WEIGHT STATION WORKER" target="CLEDUS" weight="1" />
+      <edge id="15935" source="WEIGHT STATION WORKER" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15936" source="WEIGHT STATION WORKER" target="HOT PANTS" weight="1" />
+      <edge id="15937" source="WEIGHT STATION WORKER" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15938" source="WEIGHT STATION WORKER" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15939" source="WEIGHT STATION WORKER" target="KYLE" weight="1" />
+      <edge id="15940" source="WEIGHT STATION WORKER" target="DICKEY" weight="1" />
+      <edge id="15941" source="WEIGHT STATION WORKER" target="VOICE ONE" weight="1" />
+      <edge id="15942" source="WEIGHT STATION WORKER" target="VOICE TWO" weight="1" />
+      <edge id="15943" source="HIGHWAY PATROLMAN" target="CLAYTON" weight="1" />
+      <edge id="15944" source="HIGHWAY PATROLMAN" target="KATE" weight="1" />
+      <edge id="15945" source="HIGHWAY PATROLMAN" target="BANDIT" weight="1" />
+      <edge id="15946" source="HIGHWAY PATROLMAN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15947" source="HIGHWAY PATROLMAN" target="FIRST MADAME" weight="1" />
+      <edge id="15948" source="HIGHWAY PATROLMAN" target="VOICE" weight="1" />
+      <edge id="15949" source="HIGHWAY PATROLMAN" target="MISTER B" weight="1" />
+      <edge id="15950" source="HIGHWAY PATROLMAN" target="CLEDUS" weight="1" />
+      <edge id="15951" source="HIGHWAY PATROLMAN" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15952" source="HIGHWAY PATROLMAN" target="HOT PANTS" weight="1" />
+      <edge id="15953" source="HIGHWAY PATROLMAN" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15954" source="HIGHWAY PATROLMAN" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15955" source="HIGHWAY PATROLMAN" target="KYLE" weight="1" />
+      <edge id="15956" source="HIGHWAY PATROLMAN" target="DICKEY" weight="1" />
+      <edge id="15957" source="HIGHWAY PATROLMAN" target="VOICE ONE" weight="1" />
+      <edge id="15958" source="HIGHWAY PATROLMAN" target="VOICE TWO" weight="1" />
+      <edge id="15959" source="HOT PANTS" target="CLAYTON" weight="1" />
+      <edge id="15960" source="HOT PANTS" target="KATE" weight="1" />
+      <edge id="15961" source="HOT PANTS" target="BANDIT" weight="1" />
+      <edge id="15962" source="HOT PANTS" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15963" source="HOT PANTS" target="FIRST MADAME" weight="1" />
+      <edge id="15964" source="HOT PANTS" target="VOICE" weight="1" />
+      <edge id="15965" source="HOT PANTS" target="MISTER B" weight="1" />
+      <edge id="15966" source="HOT PANTS" target="CLEDUS" weight="1" />
+      <edge id="15967" source="HOT PANTS" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15968" source="HOT PANTS" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15969" source="HOT PANTS" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="15970" source="HOT PANTS" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15971" source="HOT PANTS" target="KYLE" weight="1" />
+      <edge id="15972" source="HOT PANTS" target="DICKEY" weight="1" />
+      <edge id="15973" source="HOT PANTS" target="VOICE ONE" weight="1" />
+      <edge id="15974" source="HOT PANTS" target="VOICE TWO" weight="1" />
+      <edge id="15975" source="CHOPPER PILOT'S VOICE" target="CLAYTON" weight="1" />
+      <edge id="15976" source="CHOPPER PILOT'S VOICE" target="KATE" weight="1" />
+      <edge id="15977" source="CHOPPER PILOT'S VOICE" target="BANDIT" weight="1" />
+      <edge id="15978" source="CHOPPER PILOT'S VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15979" source="CHOPPER PILOT'S VOICE" target="FIRST MADAME" weight="1" />
+      <edge id="15980" source="CHOPPER PILOT'S VOICE" target="VOICE" weight="1" />
+      <edge id="15981" source="CHOPPER PILOT'S VOICE" target="MISTER B" weight="1" />
+      <edge id="15982" source="CHOPPER PILOT'S VOICE" target="CLEDUS" weight="1" />
+      <edge id="15983" source="CHOPPER PILOT'S VOICE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="15984" source="CHOPPER PILOT'S VOICE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="15985" source="CHOPPER PILOT'S VOICE" target="HOT PANTS" weight="1" />
+      <edge id="15986" source="CHOPPER PILOT'S VOICE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="15987" source="CHOPPER PILOT'S VOICE" target="KYLE" weight="1" />
+      <edge id="15988" source="CHOPPER PILOT'S VOICE" target="DICKEY" weight="1" />
+      <edge id="15989" source="CHOPPER PILOT'S VOICE" target="VOICE ONE" weight="1" />
+      <edge id="15990" source="CHOPPER PILOT'S VOICE" target="VOICE TWO" weight="1" />
+      <edge id="15991" source="COMMANDER'S VOICE" target="CLAYTON" weight="1" />
+      <edge id="15992" source="COMMANDER'S VOICE" target="KATE" weight="1" />
+      <edge id="15993" source="COMMANDER'S VOICE" target="BANDIT" weight="1" />
+      <edge id="15994" source="COMMANDER'S VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="15995" source="COMMANDER'S VOICE" target="FIRST MADAME" weight="1" />
+      <edge id="15996" source="COMMANDER'S VOICE" target="VOICE" weight="1" />
+      <edge id="15997" source="COMMANDER'S VOICE" target="MISTER B" weight="1" />
+      <edge id="15998" source="COMMANDER'S VOICE" target="CLEDUS" weight="1" />
+      <edge id="15999" source="COMMANDER'S VOICE" target="WEIGHT STATION WORKER" weight="1" />
+      <edge id="16000" source="COMMANDER'S VOICE" target="HIGHWAY PATROLMAN" weight="1" />
+      <edge id="16001" source="COMMANDER'S VOICE" target="HOT PANTS" weight="1" />
+      <edge id="16002" source="COMMANDER'S VOICE" target="CHOPPER PILOT'S VOICE" weight="1" />
+      <edge id="16003" source="COMMANDER'S VOICE" target="KYLE" weight="1" />
+      <edge id="16004" source="COMMANDER'S VOICE" target="DICKEY" weight="1" />
+      <edge id="16005" source="COMMANDER'S VOICE" target="VOICE ONE" weight="1" />
+      <edge id="16006" source="COMMANDER'S VOICE" target="VOICE TWO" weight="1" />
+    </edges>
+  </graph>
+</gexf>

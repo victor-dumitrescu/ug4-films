@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="#1 DAUGHTER" label="#1 DAUGHTER" />
+      <node id="#2 DAUGHTER" label="#2 DAUGHTER" />
+      <node id="ANNE" label="ANNE" />
+      <node id="TREVES" label="TREVES" />
+      <node id="OLDER MAN" label="OLDER MAN" />
+      <node id="BARKER" label="BARKER" />
+      <node id="THE LADS" label="THE LADS" />
+      <node id="BOBBIES" label="BOBBIES" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="SKELETON MAN" label="SKELETON MAN" />
+      <node id="FAT LADY" label="FAT LADY" />
+      <node id="DWARVES" label="DWARVES" />
+      <node id="FATHER" label="FATHER" />
+      <node id="BOBBY" label="BOBBY" />
+      <node id="OWNER" label="OWNER" />
+      <node id="ALDERMAN" label="ALDERMAN" />
+      <node id="FOX" label="FOX" />
+      <node id="HODGES" label="HODGES" />
+      <node id="PIERCE" label="PIERCE" />
+      <node id="HODGES &amp; PIERCE" label="HODGES &amp; PIERCE" />
+      <node id="BOY" label="BOY" />
+      <node id="CABMAN" label="CABMAN" />
+      <node id="MATRON" label="MATRON" />
+      <node id="THE FIRST" label="THE FIRST" />
+      <node id="THE SECOND" label="THE SECOND" />
+      <node id="THE THIRD" label="THE THIRD" />
+      <node id="BYTES" label="BYTES" />
+      <node id="MOTHERSHEAD" label="MOTHERSHEAD" />
+      <node id="NORA" label="NORA" />
+      <node id="NURSE" label="NURSE" />
+      <node id="CARR" label="CARR" />
+      <node id="OTHER NURSES" label="OTHER NURSES" />
+      <node id="NIGHT PORTER" label="NIGHT PORTER" />
+      <node id="YOUNG PORTER" label="YOUNG PORTER" />
+      <node id="MILKMAN" label="MILKMAN" />
+      <node id="MERRICK" label="MERRICK" />
+      <node id="DIERRICK" label="DIERRICK" />
+      <node id="BROADNECK" label="BROADNECK" />
+      <node id="#1 DOCTOR" label="#1 DOCTOR" />
+      <node id="#2 DOCTOR" label="#2 DOCTOR" />
+      <node id="#3 DOCTOR" label="#3 DOCTOR" />
+      <node id="#4 DOCTOR" label="#4 DOCTOR" />
+      <node id="1ST WOMAN" label="1ST WOMAN" />
+      <node id="2ND WOMAN" label="2ND WOMAN" />
+      <node id="YOUNG MAN IN CROWD" label="YOUNG MAN IN CROWD" />
+      <node id="KATHLEEN" label="KATHLEEN" />
+      <node id="ANNNE" label="ANNNE" />
+      <node id="KENDAL" label="KENDAL" />
+      <node id="GIRL" label="GIRL" />
+      <node id="MUMMY" label="MUMMY" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="THE LADY" label="THE LADY" />
+      <node id="LADY WADDINGTON" label="LADY WADDINGTON" />
+      <node id="CARR GOMM" label="CARR GOMM" />
+      <node id="1ST FOOTMAN" label="1ST FOOTMAN" />
+      <node id="ALIX" label="ALIX" />
+      <node id="MAN" label="MAN" />
+      <node id="WHORES" label="WHORES" />
+      <node id="WHORE" label="WHORE" />
+      <node id="ONE MAN" label="ONE MAN" />
+      <node id="ONE OF THE CROWD" label="ONE OF THE CROWD" />
+      <node id="PLUMED DWARF" label="PLUMED DWARF" />
+      <node id="CONDUCTOR" label="CONDUCTOR" />
+      <node id="FIRST-MATE" label="FIRST-MATE" />
+      <node id="TICKET TAKER" label="TICKET TAKER" />
+      <node id="YOUNG WOMAN" label="YOUNG WOMAN" />
+      <node id="YOUNG MAN" label="YOUNG MAN" />
+      <node id="MOTHER'S VOICE" label="MOTHER'S VOICE" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="LITTLE JIM" label="LITTLE JIM" />
+      <node id="BOYS" label="BOYS" />
+      <node id="SERGEANT" label="SERGEANT" />
+      <node id="CHORUS" label="CHORUS" />
+      <node id="K. HEN" label="K. HEN" />
+      <node id="KATH" label="KATH" />
+      <node id="MRS. KENDAL" label="MRS. KENDAL" />
+      <node id="JOHN'S MUM" label="JOHN'S MUM" />
+    </nodes>
+    <edges>
+      <edge id="20597" source="#1 DAUGHTER" target="#2 DAUGHTER" weight="1" />
+      <edge id="20598" source="#1 DAUGHTER" target="ANNE" weight="1" />
+      <edge id="20599" source="#1 DAUGHTER" target="TREVES" weight="1" />
+      <edge id="20600" source="#1 DAUGHTER" target="OLDER MAN" weight="1" />
+      <edge id="20601" source="#1 DAUGHTER" target="BARKER" weight="1" />
+      <edge id="20602" source="#1 DAUGHTER" target="THE LADS" weight="1" />
+      <edge id="20603" source="#1 DAUGHTER" target="BOBBIES" weight="1" />
+      <edge id="20604" source="#1 DAUGHTER" target="WOMAN" weight="1" />
+      <edge id="20605" source="#1 DAUGHTER" target="SKELETON MAN" weight="1" />
+      <edge id="20606" source="#1 DAUGHTER" target="FAT LADY" weight="1" />
+      <edge id="20607" source="#1 DAUGHTER" target="DWARVES" weight="1" />
+      <edge id="20608" source="#1 DAUGHTER" target="FATHER" weight="1" />
+      <edge id="20609" source="#1 DAUGHTER" target="BOBBY" weight="1" />
+      <edge id="20610" source="#1 DAUGHTER" target="OWNER" weight="1" />
+      <edge id="20611" source="#1 DAUGHTER" target="ALDERMAN" weight="1" />
+      <edge id="20612" source="#2 DAUGHTER" target="#1 DAUGHTER" weight="1" />
+      <edge id="20613" source="#2 DAUGHTER" target="ANNE" weight="1" />
+      <edge id="20614" source="#2 DAUGHTER" target="TREVES" weight="1" />
+      <edge id="20615" source="#2 DAUGHTER" target="OLDER MAN" weight="1" />
+      <edge id="20616" source="#2 DAUGHTER" target="BARKER" weight="1" />
+      <edge id="20617" source="#2 DAUGHTER" target="THE LADS" weight="1" />
+      <edge id="20618" source="#2 DAUGHTER" target="BOBBIES" weight="1" />
+      <edge id="20619" source="#2 DAUGHTER" target="WOMAN" weight="1" />
+      <edge id="20620" source="#2 DAUGHTER" target="SKELETON MAN" weight="1" />
+      <edge id="20621" source="#2 DAUGHTER" target="FAT LADY" weight="1" />
+      <edge id="20622" source="#2 DAUGHTER" target="DWARVES" weight="1" />
+      <edge id="20623" source="#2 DAUGHTER" target="FATHER" weight="1" />
+      <edge id="20624" source="#2 DAUGHTER" target="BOBBY" weight="1" />
+      <edge id="20625" source="#2 DAUGHTER" target="OWNER" weight="1" />
+      <edge id="20626" source="#2 DAUGHTER" target="ALDERMAN" weight="1" />
+      <edge id="20627" source="ANNE" target="#1 DAUGHTER" weight="1" />
+      <edge id="20628" source="ANNE" target="#2 DAUGHTER" weight="1" />
+      <edge id="20629" source="ANNE" target="TREVES" weight="6" />
+      <edge id="20630" source="ANNE" target="OLDER MAN" weight="1" />
+      <edge id="20631" source="ANNE" target="BARKER" weight="1" />
+      <edge id="20632" source="ANNE" target="THE LADS" weight="1" />
+      <edge id="20633" source="ANNE" target="BOBBIES" weight="1" />
+      <edge id="20634" source="ANNE" target="WOMAN" weight="1" />
+      <edge id="20635" source="ANNE" target="SKELETON MAN" weight="1" />
+      <edge id="20636" source="ANNE" target="FAT LADY" weight="1" />
+      <edge id="20637" source="ANNE" target="DWARVES" weight="1" />
+      <edge id="20638" source="ANNE" target="FATHER" weight="1" />
+      <edge id="20639" source="ANNE" target="BOBBY" weight="1" />
+      <edge id="20640" source="ANNE" target="OWNER" weight="1" />
+      <edge id="20641" source="ANNE" target="ALDERMAN" weight="1" />
+      <edge id="20642" source="ANNE" target="FOX" weight="1" />
+      <edge id="20643" source="ANNE" target="THE FIRST" weight="1" />
+      <edge id="20644" source="ANNE" target="THE SECOND" weight="1" />
+      <edge id="20645" source="ANNE" target="THE THIRD" weight="1" />
+      <edge id="20646" source="ANNE" target="BYTES" weight="1" />
+      <edge id="20647" source="ANNE" target="CARR" weight="2" />
+      <edge id="20648" source="ANNE" target="MOTHERSHEAD" weight="2" />
+      <edge id="20649" source="ANNE" target="KATHLEEN" weight="1" />
+      <edge id="20650" source="ANNE" target="NORA" weight="1" />
+      <edge id="20651" source="ANNE" target="MERRICK" weight="3" />
+      <edge id="20652" source="ANNE" target="ANNNE" weight="1" />
+      <edge id="20653" source="TREVES" target="#1 DAUGHTER" weight="1" />
+      <edge id="20654" source="TREVES" target="#2 DAUGHTER" weight="1" />
+      <edge id="20655" source="TREVES" target="ANNE" weight="6" />
+      <edge id="20656" source="TREVES" target="OLDER MAN" weight="1" />
+      <edge id="20657" source="TREVES" target="BARKER" weight="1" />
+      <edge id="20658" source="TREVES" target="THE LADS" weight="1" />
+      <edge id="20659" source="TREVES" target="BOBBIES" weight="1" />
+      <edge id="20660" source="TREVES" target="WOMAN" weight="1" />
+      <edge id="20661" source="TREVES" target="SKELETON MAN" weight="1" />
+      <edge id="20662" source="TREVES" target="FAT LADY" weight="1" />
+      <edge id="20663" source="TREVES" target="DWARVES" weight="1" />
+      <edge id="20664" source="TREVES" target="FATHER" weight="1" />
+      <edge id="20665" source="TREVES" target="BOBBY" weight="2" />
+      <edge id="20666" source="TREVES" target="OWNER" weight="3" />
+      <edge id="20667" source="TREVES" target="ALDERMAN" weight="1" />
+      <edge id="20668" source="TREVES" target="FOX" weight="6" />
+      <edge id="20669" source="TREVES" target="HODGES" weight="1" />
+      <edge id="20670" source="TREVES" target="PIERCE" weight="1" />
+      <edge id="20671" source="TREVES" target="HODGES &amp; PIERCE" weight="1" />
+      <edge id="20672" source="TREVES" target="BOY" weight="2" />
+      <edge id="20673" source="TREVES" target="CABMAN" weight="1" />
+      <edge id="20674" source="TREVES" target="MATRON" weight="1" />
+      <edge id="20675" source="TREVES" target="THE FIRST" weight="1" />
+      <edge id="20676" source="TREVES" target="THE SECOND" weight="1" />
+      <edge id="20677" source="TREVES" target="THE THIRD" weight="1" />
+      <edge id="20678" source="TREVES" target="BYTES" weight="3" />
+      <edge id="20679" source="TREVES" target="NURSE" weight="1" />
+      <edge id="20680" source="TREVES" target="CARR" weight="13" />
+      <edge id="20681" source="TREVES" target="NORA" weight="5" />
+      <edge id="20682" source="TREVES" target="MOTHERSHEAD" weight="12" />
+      <edge id="20683" source="TREVES" target="MILKMAN" weight="1" />
+      <edge id="20684" source="TREVES" target="MERRICK" weight="20" />
+      <edge id="20685" source="TREVES" target="DIERRICK" weight="1" />
+      <edge id="20686" source="TREVES" target="BROADNECK" weight="3" />
+      <edge id="20687" source="TREVES" target="#1 DOCTOR" weight="1" />
+      <edge id="20688" source="TREVES" target="#2 DOCTOR" weight="1" />
+      <edge id="20689" source="TREVES" target="#3 DOCTOR" weight="1" />
+      <edge id="20690" source="TREVES" target="#4 DOCTOR" weight="1" />
+      <edge id="20691" source="TREVES" target="1ST WOMAN" weight="1" />
+      <edge id="20692" source="TREVES" target="2ND WOMAN" weight="1" />
+      <edge id="20693" source="TREVES" target="KATHLEEN" weight="1" />
+      <edge id="20694" source="TREVES" target="ANNNE" weight="1" />
+      <edge id="20695" source="TREVES" target="KENDAL" weight="2" />
+      <edge id="20696" source="TREVES" target="LADY WADDINGTON" weight="1" />
+      <edge id="20697" source="TREVES" target="1ST FOOTMAN" weight="1" />
+      <edge id="20698" source="TREVES" target="ALIX" weight="1" />
+      <edge id="20699" source="TREVES" target="MAN" weight="1" />
+      <edge id="20700" source="TREVES" target="NIGHT PORTER" weight="2" />
+      <edge id="20701" source="TREVES" target="WHORES" weight="1" />
+      <edge id="20702" source="TREVES" target="WHORE" weight="1" />
+      <edge id="20703" source="TREVES" target="ONE MAN" weight="1" />
+      <edge id="20704" source="TREVES" target="ONE OF THE CROWD" weight="1" />
+      <edge id="20705" source="TREVES" target="YOUNG PORTER" weight="1" />
+      <edge id="20706" source="TREVES" target="SERGEANT" weight="1" />
+      <edge id="20707" source="TREVES" target="CHORUS" weight="1" />
+      <edge id="20708" source="TREVES" target="MRS. KENDAL" weight="1" />
+      <edge id="20709" source="TREVES" target="JOHN'S MUM" weight="1" />
+      <edge id="20710" source="OLDER MAN" target="#1 DAUGHTER" weight="1" />
+      <edge id="20711" source="OLDER MAN" target="#2 DAUGHTER" weight="1" />
+      <edge id="20712" source="OLDER MAN" target="ANNE" weight="1" />
+      <edge id="20713" source="OLDER MAN" target="TREVES" weight="1" />
+      <edge id="20714" source="OLDER MAN" target="BARKER" weight="1" />
+      <edge id="20715" source="OLDER MAN" target="THE LADS" weight="1" />
+      <edge id="20716" source="OLDER MAN" target="BOBBIES" weight="1" />
+      <edge id="20717" source="OLDER MAN" target="WOMAN" weight="1" />
+      <edge id="20718" source="OLDER MAN" target="SKELETON MAN" weight="1" />
+      <edge id="20719" source="OLDER MAN" target="FAT LADY" weight="1" />
+      <edge id="20720" source="OLDER MAN" target="DWARVES" weight="1" />
+      <edge id="20721" source="OLDER MAN" target="FATHER" weight="1" />
+      <edge id="20722" source="OLDER MAN" target="BOBBY" weight="1" />
+      <edge id="20723" source="OLDER MAN" target="OWNER" weight="1" />
+      <edge id="20724" source="OLDER MAN" target="ALDERMAN" weight="1" />
+      <edge id="20725" source="BARKER" target="#1 DAUGHTER" weight="1" />
+      <edge id="20726" source="BARKER" target="#2 DAUGHTER" weight="1" />
+      <edge id="20727" source="BARKER" target="ANNE" weight="1" />
+      <edge id="20728" source="BARKER" target="TREVES" weight="1" />
+      <edge id="20729" source="BARKER" target="OLDER MAN" weight="1" />
+      <edge id="20730" source="BARKER" target="THE LADS" weight="1" />
+      <edge id="20731" source="BARKER" target="BOBBIES" weight="1" />
+      <edge id="20732" source="BARKER" target="WOMAN" weight="1" />
+      <edge id="20733" source="BARKER" target="SKELETON MAN" weight="1" />
+      <edge id="20734" source="BARKER" target="FAT LADY" weight="1" />
+      <edge id="20735" source="BARKER" target="DWARVES" weight="1" />
+      <edge id="20736" source="BARKER" target="FATHER" weight="1" />
+      <edge id="20737" source="BARKER" target="BOBBY" weight="1" />
+      <edge id="20738" source="BARKER" target="OWNER" weight="1" />
+      <edge id="20739" source="BARKER" target="ALDERMAN" weight="1" />
+      <edge id="20740" source="THE LADS" target="#1 DAUGHTER" weight="1" />
+      <edge id="20741" source="THE LADS" target="#2 DAUGHTER" weight="1" />
+      <edge id="20742" source="THE LADS" target="ANNE" weight="1" />
+      <edge id="20743" source="THE LADS" target="TREVES" weight="1" />
+      <edge id="20744" source="THE LADS" target="OLDER MAN" weight="1" />
+      <edge id="20745" source="THE LADS" target="BARKER" weight="1" />
+      <edge id="20746" source="THE LADS" target="BOBBIES" weight="1" />
+      <edge id="20747" source="THE LADS" target="WOMAN" weight="1" />
+      <edge id="20748" source="THE LADS" target="SKELETON MAN" weight="1" />
+      <edge id="20749" source="THE LADS" target="FAT LADY" weight="1" />
+      <edge id="20750" source="THE LADS" target="DWARVES" weight="1" />
+      <edge id="20751" source="THE LADS" target="FATHER" weight="1" />
+      <edge id="20752" source="THE LADS" target="BOBBY" weight="1" />
+      <edge id="20753" source="THE LADS" target="OWNER" weight="1" />
+      <edge id="20754" source="THE LADS" target="ALDERMAN" weight="1" />
+      <edge id="20755" source="BOBBIES" target="#1 DAUGHTER" weight="1" />
+      <edge id="20756" source="BOBBIES" target="#2 DAUGHTER" weight="1" />
+      <edge id="20757" source="BOBBIES" target="ANNE" weight="1" />
+      <edge id="20758" source="BOBBIES" target="TREVES" weight="1" />
+      <edge id="20759" source="BOBBIES" target="OLDER MAN" weight="1" />
+      <edge id="20760" source="BOBBIES" target="BARKER" weight="1" />
+      <edge id="20761" source="BOBBIES" target="THE LADS" weight="1" />
+      <edge id="20762" source="BOBBIES" target="WOMAN" weight="1" />
+      <edge id="20763" source="BOBBIES" target="SKELETON MAN" weight="1" />
+      <edge id="20764" source="BOBBIES" target="FAT LADY" weight="1" />
+      <edge id="20765" source="BOBBIES" target="DWARVES" weight="1" />
+      <edge id="20766" source="BOBBIES" target="FATHER" weight="1" />
+      <edge id="20767" source="BOBBIES" target="BOBBY" weight="1" />
+      <edge id="20768" source="BOBBIES" target="OWNER" weight="1" />
+      <edge id="20769" source="BOBBIES" target="ALDERMAN" weight="1" />
+      <edge id="20770" source="WOMAN" target="#1 DAUGHTER" weight="1" />
+      <edge id="20771" source="WOMAN" target="#2 DAUGHTER" weight="1" />
+      <edge id="20772" source="WOMAN" target="ANNE" weight="1" />
+      <edge id="20773" source="WOMAN" target="TREVES" weight="1" />
+      <edge id="20774" source="WOMAN" target="OLDER MAN" weight="1" />
+      <edge id="20775" source="WOMAN" target="BARKER" weight="1" />
+      <edge id="20776" source="WOMAN" target="THE LADS" weight="1" />
+      <edge id="20777" source="WOMAN" target="BOBBIES" weight="1" />
+      <edge id="20778" source="WOMAN" target="SKELETON MAN" weight="1" />
+      <edge id="20779" source="WOMAN" target="FAT LADY" weight="1" />
+      <edge id="20780" source="WOMAN" target="DWARVES" weight="1" />
+      <edge id="20781" source="WOMAN" target="FATHER" weight="1" />
+      <edge id="20782" source="WOMAN" target="BOBBY" weight="1" />
+      <edge id="20783" source="WOMAN" target="OWNER" weight="1" />
+      <edge id="20784" source="WOMAN" target="ALDERMAN" weight="1" />
+      <edge id="20785" source="WOMAN" target="DRIVER" weight="1" />
+      <edge id="20786" source="WOMAN" target="MERRICK" weight="1" />
+      <edge id="20787" source="WOMAN" target="THE LADY" weight="1" />
+      <edge id="20788" source="SKELETON MAN" target="#1 DAUGHTER" weight="1" />
+      <edge id="20789" source="SKELETON MAN" target="#2 DAUGHTER" weight="1" />
+      <edge id="20790" source="SKELETON MAN" target="ANNE" weight="1" />
+      <edge id="20791" source="SKELETON MAN" target="TREVES" weight="1" />
+      <edge id="20792" source="SKELETON MAN" target="OLDER MAN" weight="1" />
+      <edge id="20793" source="SKELETON MAN" target="BARKER" weight="1" />
+      <edge id="20794" source="SKELETON MAN" target="THE LADS" weight="1" />
+      <edge id="20795" source="SKELETON MAN" target="BOBBIES" weight="1" />
+      <edge id="20796" source="SKELETON MAN" target="WOMAN" weight="1" />
+      <edge id="20797" source="SKELETON MAN" target="FAT LADY" weight="1" />
+      <edge id="20798" source="SKELETON MAN" target="DWARVES" weight="1" />
+      <edge id="20799" source="SKELETON MAN" target="FATHER" weight="1" />
+      <edge id="20800" source="SKELETON MAN" target="BOBBY" weight="1" />
+      <edge id="20801" source="SKELETON MAN" target="OWNER" weight="1" />
+      <edge id="20802" source="SKELETON MAN" target="ALDERMAN" weight="1" />
+      <edge id="20803" source="FAT LADY" target="#1 DAUGHTER" weight="1" />
+      <edge id="20804" source="FAT LADY" target="#2 DAUGHTER" weight="1" />
+      <edge id="20805" source="FAT LADY" target="ANNE" weight="1" />
+      <edge id="20806" source="FAT LADY" target="TREVES" weight="1" />
+      <edge id="20807" source="FAT LADY" target="OLDER MAN" weight="1" />
+      <edge id="20808" source="FAT LADY" target="BARKER" weight="1" />
+      <edge id="20809" source="FAT LADY" target="THE LADS" weight="1" />
+      <edge id="20810" source="FAT LADY" target="BOBBIES" weight="1" />
+      <edge id="20811" source="FAT LADY" target="WOMAN" weight="1" />
+      <edge id="20812" source="FAT LADY" target="SKELETON MAN" weight="1" />
+      <edge id="20813" source="FAT LADY" target="DWARVES" weight="1" />
+      <edge id="20814" source="FAT LADY" target="FATHER" weight="1" />
+      <edge id="20815" source="FAT LADY" target="BOBBY" weight="1" />
+      <edge id="20816" source="FAT LADY" target="OWNER" weight="1" />
+      <edge id="20817" source="FAT LADY" target="ALDERMAN" weight="1" />
+      <edge id="20818" source="DWARVES" target="#1 DAUGHTER" weight="1" />
+      <edge id="20819" source="DWARVES" target="#2 DAUGHTER" weight="1" />
+      <edge id="20820" source="DWARVES" target="ANNE" weight="1" />
+      <edge id="20821" source="DWARVES" target="TREVES" weight="1" />
+      <edge id="20822" source="DWARVES" target="OLDER MAN" weight="1" />
+      <edge id="20823" source="DWARVES" target="BARKER" weight="1" />
+      <edge id="20824" source="DWARVES" target="THE LADS" weight="1" />
+      <edge id="20825" source="DWARVES" target="BOBBIES" weight="1" />
+      <edge id="20826" source="DWARVES" target="WOMAN" weight="1" />
+      <edge id="20827" source="DWARVES" target="SKELETON MAN" weight="1" />
+      <edge id="20828" source="DWARVES" target="FAT LADY" weight="1" />
+      <edge id="20829" source="DWARVES" target="FATHER" weight="1" />
+      <edge id="20830" source="DWARVES" target="BOBBY" weight="1" />
+      <edge id="20831" source="DWARVES" target="OWNER" weight="1" />
+      <edge id="20832" source="DWARVES" target="ALDERMAN" weight="1" />
+      <edge id="20833" source="FATHER" target="#1 DAUGHTER" weight="1" />
+      <edge id="20834" source="FATHER" target="#2 DAUGHTER" weight="1" />
+      <edge id="20835" source="FATHER" target="ANNE" weight="1" />
+      <edge id="20836" source="FATHER" target="TREVES" weight="1" />
+      <edge id="20837" source="FATHER" target="OLDER MAN" weight="1" />
+      <edge id="20838" source="FATHER" target="BARKER" weight="1" />
+      <edge id="20839" source="FATHER" target="THE LADS" weight="1" />
+      <edge id="20840" source="FATHER" target="BOBBIES" weight="1" />
+      <edge id="20841" source="FATHER" target="WOMAN" weight="1" />
+      <edge id="20842" source="FATHER" target="SKELETON MAN" weight="1" />
+      <edge id="20843" source="FATHER" target="FAT LADY" weight="1" />
+      <edge id="20844" source="FATHER" target="DWARVES" weight="1" />
+      <edge id="20845" source="FATHER" target="BOBBY" weight="1" />
+      <edge id="20846" source="FATHER" target="OWNER" weight="1" />
+      <edge id="20847" source="FATHER" target="ALDERMAN" weight="1" />
+      <edge id="20848" source="BOBBY" target="#1 DAUGHTER" weight="1" />
+      <edge id="20849" source="BOBBY" target="#2 DAUGHTER" weight="1" />
+      <edge id="20850" source="BOBBY" target="ANNE" weight="1" />
+      <edge id="20851" source="BOBBY" target="TREVES" weight="2" />
+      <edge id="20852" source="BOBBY" target="OLDER MAN" weight="1" />
+      <edge id="20853" source="BOBBY" target="BARKER" weight="1" />
+      <edge id="20854" source="BOBBY" target="THE LADS" weight="1" />
+      <edge id="20855" source="BOBBY" target="BOBBIES" weight="1" />
+      <edge id="20856" source="BOBBY" target="WOMAN" weight="1" />
+      <edge id="20857" source="BOBBY" target="SKELETON MAN" weight="1" />
+      <edge id="20858" source="BOBBY" target="FAT LADY" weight="1" />
+      <edge id="20859" source="BOBBY" target="DWARVES" weight="1" />
+      <edge id="20860" source="BOBBY" target="FATHER" weight="1" />
+      <edge id="20861" source="BOBBY" target="OWNER" weight="1" />
+      <edge id="20862" source="BOBBY" target="ALDERMAN" weight="1" />
+      <edge id="20863" source="BOBBY" target="MOTHERSHEAD" weight="1" />
+      <edge id="20864" source="OWNER" target="#1 DAUGHTER" weight="1" />
+      <edge id="20865" source="OWNER" target="#2 DAUGHTER" weight="1" />
+      <edge id="20866" source="OWNER" target="ANNE" weight="1" />
+      <edge id="20867" source="OWNER" target="TREVES" weight="3" />
+      <edge id="20868" source="OWNER" target="OLDER MAN" weight="1" />
+      <edge id="20869" source="OWNER" target="BARKER" weight="1" />
+      <edge id="20870" source="OWNER" target="THE LADS" weight="1" />
+      <edge id="20871" source="OWNER" target="BOBBIES" weight="1" />
+      <edge id="20872" source="OWNER" target="WOMAN" weight="1" />
+      <edge id="20873" source="OWNER" target="SKELETON MAN" weight="1" />
+      <edge id="20874" source="OWNER" target="FAT LADY" weight="1" />
+      <edge id="20875" source="OWNER" target="DWARVES" weight="1" />
+      <edge id="20876" source="OWNER" target="FATHER" weight="1" />
+      <edge id="20877" source="OWNER" target="BOBBY" weight="1" />
+      <edge id="20878" source="OWNER" target="ALDERMAN" weight="1" />
+      <edge id="20879" source="OWNER" target="BOY" weight="2" />
+      <edge id="20880" source="ALDERMAN" target="#1 DAUGHTER" weight="1" />
+      <edge id="20881" source="ALDERMAN" target="#2 DAUGHTER" weight="1" />
+      <edge id="20882" source="ALDERMAN" target="ANNE" weight="1" />
+      <edge id="20883" source="ALDERMAN" target="TREVES" weight="1" />
+      <edge id="20884" source="ALDERMAN" target="OLDER MAN" weight="1" />
+      <edge id="20885" source="ALDERMAN" target="BARKER" weight="1" />
+      <edge id="20886" source="ALDERMAN" target="THE LADS" weight="1" />
+      <edge id="20887" source="ALDERMAN" target="BOBBIES" weight="1" />
+      <edge id="20888" source="ALDERMAN" target="WOMAN" weight="1" />
+      <edge id="20889" source="ALDERMAN" target="SKELETON MAN" weight="1" />
+      <edge id="20890" source="ALDERMAN" target="FAT LADY" weight="1" />
+      <edge id="20891" source="ALDERMAN" target="DWARVES" weight="1" />
+      <edge id="20892" source="ALDERMAN" target="FATHER" weight="1" />
+      <edge id="20893" source="ALDERMAN" target="BOBBY" weight="1" />
+      <edge id="20894" source="ALDERMAN" target="OWNER" weight="1" />
+      <edge id="20895" source="FOX" target="TREVES" weight="6" />
+      <edge id="20896" source="FOX" target="HODGES" weight="1" />
+      <edge id="20897" source="FOX" target="PIERCE" weight="1" />
+      <edge id="20898" source="FOX" target="HODGES &amp; PIERCE" weight="1" />
+      <edge id="20899" source="FOX" target="BOY" weight="1" />
+      <edge id="20900" source="FOX" target="CABMAN" weight="1" />
+      <edge id="20901" source="FOX" target="MATRON" weight="1" />
+      <edge id="20902" source="FOX" target="THE FIRST" weight="1" />
+      <edge id="20903" source="FOX" target="THE SECOND" weight="1" />
+      <edge id="20904" source="FOX" target="THE THIRD" weight="1" />
+      <edge id="20905" source="FOX" target="ANNE" weight="1" />
+      <edge id="20906" source="FOX" target="#1 DOCTOR" weight="1" />
+      <edge id="20907" source="FOX" target="#2 DOCTOR" weight="1" />
+      <edge id="20908" source="FOX" target="#3 DOCTOR" weight="1" />
+      <edge id="20909" source="FOX" target="#4 DOCTOR" weight="1" />
+      <edge id="20910" source="FOX" target="1ST WOMAN" weight="1" />
+      <edge id="20911" source="FOX" target="2ND WOMAN" weight="1" />
+      <edge id="20912" source="HODGES" target="TREVES" weight="1" />
+      <edge id="20913" source="HODGES" target="FOX" weight="1" />
+      <edge id="20914" source="HODGES" target="PIERCE" weight="1" />
+      <edge id="20915" source="HODGES" target="HODGES &amp; PIERCE" weight="1" />
+      <edge id="20916" source="PIERCE" target="TREVES" weight="1" />
+      <edge id="20917" source="PIERCE" target="FOX" weight="1" />
+      <edge id="20918" source="PIERCE" target="HODGES" weight="1" />
+      <edge id="20919" source="PIERCE" target="HODGES &amp; PIERCE" weight="1" />
+      <edge id="20920" source="HODGES &amp; PIERCE" target="TREVES" weight="1" />
+      <edge id="20921" source="HODGES &amp; PIERCE" target="FOX" weight="1" />
+      <edge id="20922" source="HODGES &amp; PIERCE" target="HODGES" weight="1" />
+      <edge id="20923" source="HODGES &amp; PIERCE" target="PIERCE" weight="1" />
+      <edge id="20924" source="BOY" target="TREVES" weight="2" />
+      <edge id="20925" source="BOY" target="FOX" weight="1" />
+      <edge id="20926" source="BOY" target="OWNER" weight="2" />
+      <edge id="20927" source="BOY" target="BYTES" weight="2" />
+      <edge id="20928" source="BOY" target="MERRICK" weight="3" />
+      <edge id="20929" source="BOY" target="PLUMED DWARF" weight="1" />
+      <edge id="20930" source="BOY" target="MOTHER'S VOICE" weight="1" />
+      <edge id="20931" source="BOY" target="MOTHER" weight="1" />
+      <edge id="20932" source="BOY" target="LITTLE JIM" weight="1" />
+      <edge id="20933" source="BOY" target="BOYS" weight="1" />
+      <edge id="20934" source="CABMAN" target="TREVES" weight="1" />
+      <edge id="20935" source="CABMAN" target="MATRON" weight="1" />
+      <edge id="20936" source="CABMAN" target="FOX" weight="1" />
+      <edge id="20937" source="MATRON" target="CABMAN" weight="1" />
+      <edge id="20938" source="MATRON" target="TREVES" weight="1" />
+      <edge id="20939" source="MATRON" target="FOX" weight="1" />
+      <edge id="20940" source="THE FIRST" target="FOX" weight="1" />
+      <edge id="20941" source="THE FIRST" target="TREVES" weight="1" />
+      <edge id="20942" source="THE FIRST" target="THE SECOND" weight="1" />
+      <edge id="20943" source="THE FIRST" target="THE THIRD" weight="1" />
+      <edge id="20944" source="THE FIRST" target="ANNE" weight="1" />
+      <edge id="20945" source="THE SECOND" target="FOX" weight="1" />
+      <edge id="20946" source="THE SECOND" target="TREVES" weight="1" />
+      <edge id="20947" source="THE SECOND" target="THE FIRST" weight="1" />
+      <edge id="20948" source="THE SECOND" target="THE THIRD" weight="1" />
+      <edge id="20949" source="THE SECOND" target="ANNE" weight="1" />
+      <edge id="20950" source="THE THIRD" target="FOX" weight="1" />
+      <edge id="20951" source="THE THIRD" target="TREVES" weight="1" />
+      <edge id="20952" source="THE THIRD" target="THE FIRST" weight="1" />
+      <edge id="20953" source="THE THIRD" target="THE SECOND" weight="1" />
+      <edge id="20954" source="THE THIRD" target="ANNE" weight="1" />
+      <edge id="20955" source="BYTES" target="BOY" weight="2" />
+      <edge id="20956" source="BYTES" target="TREVES" weight="3" />
+      <edge id="20957" source="BYTES" target="CARR" weight="1" />
+      <edge id="20958" source="BYTES" target="ANNE" weight="1" />
+      <edge id="20959" source="BYTES" target="MAN" weight="1" />
+      <edge id="20960" source="BYTES" target="NIGHT PORTER" weight="1" />
+      <edge id="20961" source="BYTES" target="MERRICK" weight="3" />
+      <edge id="20962" source="BYTES" target="WHORES" weight="1" />
+      <edge id="20963" source="BYTES" target="WHORE" weight="1" />
+      <edge id="20964" source="BYTES" target="ONE MAN" weight="1" />
+      <edge id="20965" source="BYTES" target="ONE OF THE CROWD" weight="1" />
+      <edge id="20966" source="BYTES" target="YOUNG PORTER" weight="1" />
+      <edge id="20967" source="BYTES" target="MOTHERSHEAD" weight="1" />
+      <edge id="20968" source="MOTHERSHEAD" target="NORA" weight="4" />
+      <edge id="20969" source="MOTHERSHEAD" target="TREVES" weight="12" />
+      <edge id="20970" source="MOTHERSHEAD" target="MILKMAN" weight="1" />
+      <edge id="20971" source="MOTHERSHEAD" target="MERRICK" weight="8" />
+      <edge id="20972" source="MOTHERSHEAD" target="NIGHT PORTER" weight="3" />
+      <edge id="20973" source="MOTHERSHEAD" target="CARR" weight="4" />
+      <edge id="20974" source="MOTHERSHEAD" target="KATHLEEN" weight="1" />
+      <edge id="20975" source="MOTHERSHEAD" target="ANNE" weight="2" />
+      <edge id="20976" source="MOTHERSHEAD" target="ANNNE" weight="1" />
+      <edge id="20977" source="MOTHERSHEAD" target="LADY WADDINGTON" weight="1" />
+      <edge id="20978" source="MOTHERSHEAD" target="BROADNECK" weight="2" />
+      <edge id="20979" source="MOTHERSHEAD" target="1ST FOOTMAN" weight="1" />
+      <edge id="20980" source="MOTHERSHEAD" target="ALIX" weight="1" />
+      <edge id="20981" source="MOTHERSHEAD" target="MAN" weight="1" />
+      <edge id="20982" source="MOTHERSHEAD" target="BYTES" weight="1" />
+      <edge id="20983" source="MOTHERSHEAD" target="WHORES" weight="1" />
+      <edge id="20984" source="MOTHERSHEAD" target="WHORE" weight="1" />
+      <edge id="20985" source="MOTHERSHEAD" target="ONE MAN" weight="1" />
+      <edge id="20986" source="MOTHERSHEAD" target="ONE OF THE CROWD" weight="1" />
+      <edge id="20987" source="MOTHERSHEAD" target="YOUNG PORTER" weight="1" />
+      <edge id="20988" source="MOTHERSHEAD" target="BOBBY" weight="1" />
+      <edge id="20989" source="NORA" target="MOTHERSHEAD" weight="4" />
+      <edge id="20990" source="NORA" target="CARR" weight="2" />
+      <edge id="20991" source="NORA" target="TREVES" weight="5" />
+      <edge id="20992" source="NORA" target="OTHER NURSES" weight="1" />
+      <edge id="20993" source="NORA" target="KATHLEEN" weight="1" />
+      <edge id="20994" source="NORA" target="MERRICK" weight="3" />
+      <edge id="20995" source="NORA" target="ANNE" weight="1" />
+      <edge id="20996" source="NORA" target="ANNNE" weight="1" />
+      <edge id="20997" source="NORA" target="KENDAL" weight="1" />
+      <edge id="20998" source="NORA" target="LADY WADDINGTON" weight="1" />
+      <edge id="20999" source="NURSE" target="TREVES" weight="1" />
+      <edge id="21000" source="CARR" target="TREVES" weight="13" />
+      <edge id="21001" source="CARR" target="NORA" weight="2" />
+      <edge id="21002" source="CARR" target="BYTES" weight="1" />
+      <edge id="21003" source="CARR" target="ANNE" weight="2" />
+      <edge id="21004" source="CARR" target="MERRICK" weight="6" />
+      <edge id="21005" source="CARR" target="DIERRICK" weight="1" />
+      <edge id="21006" source="CARR" target="BROADNECK" weight="4" />
+      <edge id="21007" source="CARR" target="MOTHERSHEAD" weight="4" />
+      <edge id="21008" source="CARR" target="KATHLEEN" weight="1" />
+      <edge id="21009" source="CARR" target="ANNNE" weight="1" />
+      <edge id="21010" source="CARR" target="1ST FOOTMAN" weight="1" />
+      <edge id="21011" source="CARR" target="ALIX" weight="1" />
+      <edge id="21012" source="CARR" target="NIGHT PORTER" weight="1" />
+      <edge id="21013" source="OTHER NURSES" target="NORA" weight="1" />
+      <edge id="21014" source="NIGHT PORTER" target="YOUNG PORTER" weight="2" />
+      <edge id="21015" source="NIGHT PORTER" target="MOTHERSHEAD" weight="3" />
+      <edge id="21016" source="NIGHT PORTER" target="MERRICK" weight="3" />
+      <edge id="21017" source="NIGHT PORTER" target="YOUNG MAN IN CROWD" weight="1" />
+      <edge id="21018" source="NIGHT PORTER" target="MAN" weight="1" />
+      <edge id="21019" source="NIGHT PORTER" target="BYTES" weight="1" />
+      <edge id="21020" source="NIGHT PORTER" target="WHORES" weight="1" />
+      <edge id="21021" source="NIGHT PORTER" target="WHORE" weight="1" />
+      <edge id="21022" source="NIGHT PORTER" target="ONE MAN" weight="1" />
+      <edge id="21023" source="NIGHT PORTER" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21024" source="NIGHT PORTER" target="TREVES" weight="2" />
+      <edge id="21025" source="NIGHT PORTER" target="CARR" weight="1" />
+      <edge id="21026" source="YOUNG PORTER" target="NIGHT PORTER" weight="2" />
+      <edge id="21027" source="YOUNG PORTER" target="MAN" weight="1" />
+      <edge id="21028" source="YOUNG PORTER" target="BYTES" weight="1" />
+      <edge id="21029" source="YOUNG PORTER" target="MERRICK" weight="1" />
+      <edge id="21030" source="YOUNG PORTER" target="WHORES" weight="1" />
+      <edge id="21031" source="YOUNG PORTER" target="WHORE" weight="1" />
+      <edge id="21032" source="YOUNG PORTER" target="ONE MAN" weight="1" />
+      <edge id="21033" source="YOUNG PORTER" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21034" source="YOUNG PORTER" target="TREVES" weight="1" />
+      <edge id="21035" source="YOUNG PORTER" target="MOTHERSHEAD" weight="1" />
+      <edge id="21036" source="MILKMAN" target="TREVES" weight="1" />
+      <edge id="21037" source="MILKMAN" target="MOTHERSHEAD" weight="1" />
+      <edge id="21038" source="MILKMAN" target="MERRICK" weight="1" />
+      <edge id="21039" source="MERRICK" target="MILKMAN" weight="1" />
+      <edge id="21040" source="MERRICK" target="TREVES" weight="20" />
+      <edge id="21041" source="MERRICK" target="MOTHERSHEAD" weight="8" />
+      <edge id="21042" source="MERRICK" target="CARR" weight="6" />
+      <edge id="21043" source="MERRICK" target="DIERRICK" weight="1" />
+      <edge id="21044" source="MERRICK" target="NIGHT PORTER" weight="3" />
+      <edge id="21045" source="MERRICK" target="YOUNG MAN IN CROWD" weight="1" />
+      <edge id="21046" source="MERRICK" target="KATHLEEN" weight="1" />
+      <edge id="21047" source="MERRICK" target="NORA" weight="3" />
+      <edge id="21048" source="MERRICK" target="ANNE" weight="3" />
+      <edge id="21049" source="MERRICK" target="ANNNE" weight="1" />
+      <edge id="21050" source="MERRICK" target="KENDAL" weight="2" />
+      <edge id="21051" source="MERRICK" target="WOMAN" weight="1" />
+      <edge id="21052" source="MERRICK" target="DRIVER" weight="1" />
+      <edge id="21053" source="MERRICK" target="THE LADY" weight="1" />
+      <edge id="21054" source="MERRICK" target="LADY WADDINGTON" weight="1" />
+      <edge id="21055" source="MERRICK" target="BROADNECK" weight="3" />
+      <edge id="21056" source="MERRICK" target="1ST FOOTMAN" weight="1" />
+      <edge id="21057" source="MERRICK" target="ALIX" weight="1" />
+      <edge id="21058" source="MERRICK" target="MAN" weight="1" />
+      <edge id="21059" source="MERRICK" target="BYTES" weight="3" />
+      <edge id="21060" source="MERRICK" target="WHORES" weight="1" />
+      <edge id="21061" source="MERRICK" target="WHORE" weight="1" />
+      <edge id="21062" source="MERRICK" target="ONE MAN" weight="1" />
+      <edge id="21063" source="MERRICK" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21064" source="MERRICK" target="YOUNG PORTER" weight="1" />
+      <edge id="21065" source="MERRICK" target="BOY" weight="3" />
+      <edge id="21066" source="MERRICK" target="PLUMED DWARF" weight="3" />
+      <edge id="21067" source="MERRICK" target="MOTHER'S VOICE" weight="1" />
+      <edge id="21068" source="MERRICK" target="MOTHER" weight="1" />
+      <edge id="21069" source="MERRICK" target="LITTLE JIM" weight="1" />
+      <edge id="21070" source="MERRICK" target="BOYS" weight="1" />
+      <edge id="21071" source="MERRICK" target="SERGEANT" weight="1" />
+      <edge id="21072" source="MERRICK" target="CHORUS" weight="1" />
+      <edge id="21073" source="MERRICK" target="MRS. KENDAL" weight="1" />
+      <edge id="21074" source="MERRICK" target="JOHN'S MUM" weight="1" />
+      <edge id="21075" source="DIERRICK" target="MERRICK" weight="1" />
+      <edge id="21076" source="DIERRICK" target="TREVES" weight="1" />
+      <edge id="21077" source="DIERRICK" target="CARR" weight="1" />
+      <edge id="21078" source="BROADNECK" target="TREVES" weight="3" />
+      <edge id="21079" source="BROADNECK" target="CARR" weight="4" />
+      <edge id="21080" source="BROADNECK" target="MOTHERSHEAD" weight="2" />
+      <edge id="21081" source="BROADNECK" target="MERRICK" weight="3" />
+      <edge id="21082" source="BROADNECK" target="CARR GOMM" weight="1" />
+      <edge id="21083" source="BROADNECK" target="1ST FOOTMAN" weight="1" />
+      <edge id="21084" source="BROADNECK" target="ALIX" weight="1" />
+      <edge id="21085" source="#1 DOCTOR" target="#2 DOCTOR" weight="1" />
+      <edge id="21086" source="#1 DOCTOR" target="#3 DOCTOR" weight="1" />
+      <edge id="21087" source="#1 DOCTOR" target="#4 DOCTOR" weight="1" />
+      <edge id="21088" source="#1 DOCTOR" target="FOX" weight="1" />
+      <edge id="21089" source="#1 DOCTOR" target="TREVES" weight="1" />
+      <edge id="21090" source="#1 DOCTOR" target="1ST WOMAN" weight="1" />
+      <edge id="21091" source="#1 DOCTOR" target="2ND WOMAN" weight="1" />
+      <edge id="21092" source="#2 DOCTOR" target="#1 DOCTOR" weight="1" />
+      <edge id="21093" source="#2 DOCTOR" target="#3 DOCTOR" weight="1" />
+      <edge id="21094" source="#2 DOCTOR" target="#4 DOCTOR" weight="1" />
+      <edge id="21095" source="#2 DOCTOR" target="FOX" weight="1" />
+      <edge id="21096" source="#2 DOCTOR" target="TREVES" weight="1" />
+      <edge id="21097" source="#2 DOCTOR" target="1ST WOMAN" weight="1" />
+      <edge id="21098" source="#2 DOCTOR" target="2ND WOMAN" weight="1" />
+      <edge id="21099" source="#3 DOCTOR" target="#1 DOCTOR" weight="1" />
+      <edge id="21100" source="#3 DOCTOR" target="#2 DOCTOR" weight="1" />
+      <edge id="21101" source="#3 DOCTOR" target="#4 DOCTOR" weight="1" />
+      <edge id="21102" source="#3 DOCTOR" target="FOX" weight="1" />
+      <edge id="21103" source="#3 DOCTOR" target="TREVES" weight="1" />
+      <edge id="21104" source="#3 DOCTOR" target="1ST WOMAN" weight="1" />
+      <edge id="21105" source="#3 DOCTOR" target="2ND WOMAN" weight="1" />
+      <edge id="21106" source="#4 DOCTOR" target="#1 DOCTOR" weight="1" />
+      <edge id="21107" source="#4 DOCTOR" target="#2 DOCTOR" weight="1" />
+      <edge id="21108" source="#4 DOCTOR" target="#3 DOCTOR" weight="1" />
+      <edge id="21109" source="#4 DOCTOR" target="FOX" weight="1" />
+      <edge id="21110" source="#4 DOCTOR" target="TREVES" weight="1" />
+      <edge id="21111" source="#4 DOCTOR" target="1ST WOMAN" weight="1" />
+      <edge id="21112" source="#4 DOCTOR" target="2ND WOMAN" weight="1" />
+      <edge id="21113" source="1ST WOMAN" target="#1 DOCTOR" weight="1" />
+      <edge id="21114" source="1ST WOMAN" target="#2 DOCTOR" weight="1" />
+      <edge id="21115" source="1ST WOMAN" target="#3 DOCTOR" weight="1" />
+      <edge id="21116" source="1ST WOMAN" target="#4 DOCTOR" weight="1" />
+      <edge id="21117" source="1ST WOMAN" target="FOX" weight="1" />
+      <edge id="21118" source="1ST WOMAN" target="TREVES" weight="1" />
+      <edge id="21119" source="1ST WOMAN" target="2ND WOMAN" weight="1" />
+      <edge id="21120" source="2ND WOMAN" target="#1 DOCTOR" weight="1" />
+      <edge id="21121" source="2ND WOMAN" target="#2 DOCTOR" weight="1" />
+      <edge id="21122" source="2ND WOMAN" target="#3 DOCTOR" weight="1" />
+      <edge id="21123" source="2ND WOMAN" target="#4 DOCTOR" weight="1" />
+      <edge id="21124" source="2ND WOMAN" target="FOX" weight="1" />
+      <edge id="21125" source="2ND WOMAN" target="TREVES" weight="1" />
+      <edge id="21126" source="2ND WOMAN" target="1ST WOMAN" weight="1" />
+      <edge id="21127" source="YOUNG MAN IN CROWD" target="NIGHT PORTER" weight="1" />
+      <edge id="21128" source="YOUNG MAN IN CROWD" target="MERRICK" weight="1" />
+      <edge id="21129" source="KATHLEEN" target="TREVES" weight="1" />
+      <edge id="21130" source="KATHLEEN" target="CARR" weight="1" />
+      <edge id="21131" source="KATHLEEN" target="MOTHERSHEAD" weight="1" />
+      <edge id="21132" source="KATHLEEN" target="NORA" weight="1" />
+      <edge id="21133" source="KATHLEEN" target="MERRICK" weight="1" />
+      <edge id="21134" source="KATHLEEN" target="ANNE" weight="1" />
+      <edge id="21135" source="KATHLEEN" target="ANNNE" weight="1" />
+      <edge id="21136" source="ANNNE" target="TREVES" weight="1" />
+      <edge id="21137" source="ANNNE" target="CARR" weight="1" />
+      <edge id="21138" source="ANNNE" target="MOTHERSHEAD" weight="1" />
+      <edge id="21139" source="ANNNE" target="KATHLEEN" weight="1" />
+      <edge id="21140" source="ANNNE" target="NORA" weight="1" />
+      <edge id="21141" source="ANNNE" target="MERRICK" weight="1" />
+      <edge id="21142" source="ANNNE" target="ANNE" weight="1" />
+      <edge id="21143" source="KENDAL" target="NORA" weight="1" />
+      <edge id="21144" source="KENDAL" target="MERRICK" weight="2" />
+      <edge id="21145" source="KENDAL" target="TREVES" weight="2" />
+      <edge id="21146" source="GIRL" target="MUMMY" weight="1" />
+      <edge id="21147" source="MUMMY" target="GIRL" weight="1" />
+      <edge id="21148" source="DRIVER" target="WOMAN" weight="1" />
+      <edge id="21149" source="DRIVER" target="MERRICK" weight="1" />
+      <edge id="21150" source="DRIVER" target="THE LADY" weight="1" />
+      <edge id="21151" source="THE LADY" target="WOMAN" weight="1" />
+      <edge id="21152" source="THE LADY" target="DRIVER" weight="1" />
+      <edge id="21153" source="THE LADY" target="MERRICK" weight="1" />
+      <edge id="21154" source="LADY WADDINGTON" target="MOTHERSHEAD" weight="1" />
+      <edge id="21155" source="LADY WADDINGTON" target="TREVES" weight="1" />
+      <edge id="21156" source="LADY WADDINGTON" target="MERRICK" weight="1" />
+      <edge id="21157" source="LADY WADDINGTON" target="NORA" weight="1" />
+      <edge id="21158" source="CARR GOMM" target="BROADNECK" weight="1" />
+      <edge id="21159" source="1ST FOOTMAN" target="BROADNECK" weight="1" />
+      <edge id="21160" source="1ST FOOTMAN" target="CARR" weight="1" />
+      <edge id="21161" source="1ST FOOTMAN" target="ALIX" weight="1" />
+      <edge id="21162" source="1ST FOOTMAN" target="MERRICK" weight="1" />
+      <edge id="21163" source="1ST FOOTMAN" target="TREVES" weight="1" />
+      <edge id="21164" source="1ST FOOTMAN" target="MOTHERSHEAD" weight="1" />
+      <edge id="21165" source="ALIX" target="BROADNECK" weight="1" />
+      <edge id="21166" source="ALIX" target="CARR" weight="1" />
+      <edge id="21167" source="ALIX" target="1ST FOOTMAN" weight="1" />
+      <edge id="21168" source="ALIX" target="MERRICK" weight="1" />
+      <edge id="21169" source="ALIX" target="TREVES" weight="1" />
+      <edge id="21170" source="ALIX" target="MOTHERSHEAD" weight="1" />
+      <edge id="21171" source="MAN" target="NIGHT PORTER" weight="1" />
+      <edge id="21172" source="MAN" target="BYTES" weight="1" />
+      <edge id="21173" source="MAN" target="MERRICK" weight="1" />
+      <edge id="21174" source="MAN" target="WHORES" weight="1" />
+      <edge id="21175" source="MAN" target="WHORE" weight="1" />
+      <edge id="21176" source="MAN" target="ONE MAN" weight="1" />
+      <edge id="21177" source="MAN" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21178" source="MAN" target="TREVES" weight="1" />
+      <edge id="21179" source="MAN" target="YOUNG PORTER" weight="1" />
+      <edge id="21180" source="MAN" target="MOTHERSHEAD" weight="1" />
+      <edge id="21181" source="WHORES" target="MAN" weight="1" />
+      <edge id="21182" source="WHORES" target="NIGHT PORTER" weight="1" />
+      <edge id="21183" source="WHORES" target="BYTES" weight="1" />
+      <edge id="21184" source="WHORES" target="MERRICK" weight="1" />
+      <edge id="21185" source="WHORES" target="WHORE" weight="1" />
+      <edge id="21186" source="WHORES" target="ONE MAN" weight="1" />
+      <edge id="21187" source="WHORES" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21188" source="WHORES" target="TREVES" weight="1" />
+      <edge id="21189" source="WHORES" target="YOUNG PORTER" weight="1" />
+      <edge id="21190" source="WHORES" target="MOTHERSHEAD" weight="1" />
+      <edge id="21191" source="WHORE" target="MAN" weight="1" />
+      <edge id="21192" source="WHORE" target="NIGHT PORTER" weight="1" />
+      <edge id="21193" source="WHORE" target="BYTES" weight="1" />
+      <edge id="21194" source="WHORE" target="MERRICK" weight="1" />
+      <edge id="21195" source="WHORE" target="WHORES" weight="1" />
+      <edge id="21196" source="WHORE" target="ONE MAN" weight="1" />
+      <edge id="21197" source="WHORE" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21198" source="WHORE" target="TREVES" weight="1" />
+      <edge id="21199" source="WHORE" target="YOUNG PORTER" weight="1" />
+      <edge id="21200" source="WHORE" target="MOTHERSHEAD" weight="1" />
+      <edge id="21201" source="ONE MAN" target="MAN" weight="1" />
+      <edge id="21202" source="ONE MAN" target="NIGHT PORTER" weight="1" />
+      <edge id="21203" source="ONE MAN" target="BYTES" weight="1" />
+      <edge id="21204" source="ONE MAN" target="MERRICK" weight="1" />
+      <edge id="21205" source="ONE MAN" target="WHORES" weight="1" />
+      <edge id="21206" source="ONE MAN" target="WHORE" weight="1" />
+      <edge id="21207" source="ONE MAN" target="ONE OF THE CROWD" weight="1" />
+      <edge id="21208" source="ONE MAN" target="TREVES" weight="1" />
+      <edge id="21209" source="ONE MAN" target="YOUNG PORTER" weight="1" />
+      <edge id="21210" source="ONE MAN" target="MOTHERSHEAD" weight="1" />
+      <edge id="21211" source="ONE OF THE CROWD" target="MAN" weight="1" />
+      <edge id="21212" source="ONE OF THE CROWD" target="NIGHT PORTER" weight="1" />
+      <edge id="21213" source="ONE OF THE CROWD" target="BYTES" weight="1" />
+      <edge id="21214" source="ONE OF THE CROWD" target="MERRICK" weight="1" />
+      <edge id="21215" source="ONE OF THE CROWD" target="WHORES" weight="1" />
+      <edge id="21216" source="ONE OF THE CROWD" target="WHORE" weight="1" />
+      <edge id="21217" source="ONE OF THE CROWD" target="ONE MAN" weight="1" />
+      <edge id="21218" source="ONE OF THE CROWD" target="TREVES" weight="1" />
+      <edge id="21219" source="ONE OF THE CROWD" target="YOUNG PORTER" weight="1" />
+      <edge id="21220" source="ONE OF THE CROWD" target="MOTHERSHEAD" weight="1" />
+      <edge id="21221" source="PLUMED DWARF" target="MERRICK" weight="3" />
+      <edge id="21222" source="PLUMED DWARF" target="BOY" weight="1" />
+      <edge id="21223" source="CONDUCTOR" target="FIRST-MATE" weight="1" />
+      <edge id="21224" source="FIRST-MATE" target="CONDUCTOR" weight="1" />
+      <edge id="21225" source="YOUNG WOMAN" target="YOUNG MAN" weight="1" />
+      <edge id="21226" source="YOUNG MAN" target="YOUNG WOMAN" weight="1" />
+      <edge id="21227" source="MOTHER'S VOICE" target="BOY" weight="1" />
+      <edge id="21228" source="MOTHER'S VOICE" target="MOTHER" weight="1" />
+      <edge id="21229" source="MOTHER'S VOICE" target="LITTLE JIM" weight="1" />
+      <edge id="21230" source="MOTHER'S VOICE" target="BOYS" weight="1" />
+      <edge id="21231" source="MOTHER'S VOICE" target="MERRICK" weight="1" />
+      <edge id="21232" source="MOTHER" target="MOTHER'S VOICE" weight="1" />
+      <edge id="21233" source="MOTHER" target="BOY" weight="1" />
+      <edge id="21234" source="MOTHER" target="LITTLE JIM" weight="1" />
+      <edge id="21235" source="MOTHER" target="BOYS" weight="1" />
+      <edge id="21236" source="MOTHER" target="MERRICK" weight="1" />
+      <edge id="21237" source="LITTLE JIM" target="MOTHER'S VOICE" weight="1" />
+      <edge id="21238" source="LITTLE JIM" target="BOY" weight="1" />
+      <edge id="21239" source="LITTLE JIM" target="MOTHER" weight="1" />
+      <edge id="21240" source="LITTLE JIM" target="BOYS" weight="1" />
+      <edge id="21241" source="LITTLE JIM" target="MERRICK" weight="1" />
+      <edge id="21242" source="BOYS" target="MOTHER'S VOICE" weight="1" />
+      <edge id="21243" source="BOYS" target="BOY" weight="1" />
+      <edge id="21244" source="BOYS" target="MOTHER" weight="1" />
+      <edge id="21245" source="BOYS" target="LITTLE JIM" weight="1" />
+      <edge id="21246" source="BOYS" target="MERRICK" weight="1" />
+      <edge id="21247" source="SERGEANT" target="TREVES" weight="1" />
+      <edge id="21248" source="SERGEANT" target="MERRICK" weight="1" />
+      <edge id="21249" source="CHORUS" target="K. HEN" weight="1" />
+      <edge id="21250" source="CHORUS" target="KATH" weight="1" />
+      <edge id="21251" source="CHORUS" target="MRS. KENDAL" weight="1" />
+      <edge id="21252" source="CHORUS" target="TREVES" weight="1" />
+      <edge id="21253" source="CHORUS" target="MERRICK" weight="1" />
+      <edge id="21254" source="CHORUS" target="JOHN'S MUM" weight="1" />
+      <edge id="21255" source="K. HEN" target="CHORUS" weight="1" />
+      <edge id="21256" source="K. HEN" target="KATH" weight="1" />
+      <edge id="21257" source="KATH" target="CHORUS" weight="1" />
+      <edge id="21258" source="KATH" target="K. HEN" weight="1" />
+      <edge id="21259" source="MRS. KENDAL" target="CHORUS" weight="1" />
+      <edge id="21260" source="MRS. KENDAL" target="TREVES" weight="1" />
+      <edge id="21261" source="MRS. KENDAL" target="MERRICK" weight="1" />
+      <edge id="21262" source="MRS. KENDAL" target="JOHN'S MUM" weight="1" />
+      <edge id="21263" source="JOHN'S MUM" target="CHORUS" weight="1" />
+      <edge id="21264" source="JOHN'S MUM" target="MRS. KENDAL" weight="1" />
+      <edge id="21265" source="JOHN'S MUM" target="TREVES" weight="1" />
+      <edge id="21266" source="JOHN'S MUM" target="MERRICK" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="WATSON" label="WATSON" />
+      <node id="MAN" label="MAN" />
+      <node id="HOLMES" label="HOLMES" />
+      <node id="THUG" label="THUG" />
+      <node id="MAN #1" label="MAN #1" />
+      <node id="BLACKWOOD" label="BLACKWOOD" />
+      <node id="LESTRADE" label="LESTRADE" />
+      <node id="CAPTAIN PHILIPS" label="CAPTAIN PHILIPS" />
+      <node id="MRS. HUDSON" label="MRS. HUDSON" />
+      <node id="MARY" label="MARY" />
+      <node id="WAITER" label="WAITER" />
+      <node id="McMURDO" label="McMURDO" />
+      <node id="GUARD CAPTAIN" label="GUARD CAPTAIN" />
+      <node id="CHARLIE" label="CHARLIE" />
+      <node id="GUARD #2" label="GUARD #2" />
+      <node id="GUARD" label="GUARD" />
+      <node id="IRENE" label="IRENE" />
+      <node id="MORIARTY" label="MORIARTY" />
+      <node id="BEGGAR" label="BEGGAR" />
+      <node id="COACH DRIVER" label="COACH DRIVER" />
+      <node id="MAN WITH ROSES" label="MAN WITH ROSES" />
+      <node id="VOICE" label="VOICE" />
+      <node id="CONSTABLE CLARK" label="CONSTABLE CLARK" />
+      <node id="GROUNDSKEEPER" label="GROUNDSKEEPER" />
+      <node id="PALM READER" label="PALM READER" />
+      <node id="DREDGER" label="DREDGER" />
+      <node id="BIG MAN" label="BIG MAN" />
+      <node id="PRISON GUARD" label="PRISON GUARD" />
+      <node id="ANONYMOUS MAN" label="ANONYMOUS MAN" />
+      <node id="SIR THOMAS" label="SIR THOMAS" />
+      <node id="STANDISH" label="STANDISH" />
+      <node id="LORD COWARD" label="LORD COWARD" />
+      <node id="PERIGRINE" label="PERIGRINE" />
+      <node id="POLICE OFFICER" label="POLICE OFFICER" />
+      <node id="TANNER" label="TANNER" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="SHERLOCK" label="SHERLOCK" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="SERGEANT" label="SERGEANT" />
+    </nodes>
+    <edges>
+      <edge id="14413" source="WATSON" target="MAN" weight="2" />
+      <edge id="14414" source="WATSON" target="HOLMES" weight="33" />
+      <edge id="14415" source="WATSON" target="MAN #1" weight="1" />
+      <edge id="14416" source="WATSON" target="BLACKWOOD" weight="2" />
+      <edge id="14417" source="WATSON" target="LESTRADE" weight="2" />
+      <edge id="14418" source="WATSON" target="CAPTAIN PHILIPS" weight="1" />
+      <edge id="14419" source="WATSON" target="MRS. HUDSON" weight="2" />
+      <edge id="14420" source="WATSON" target="MARY" weight="6" />
+      <edge id="14421" source="WATSON" target="WAITER" weight="1" />
+      <edge id="14422" source="WATSON" target="VOICE" weight="1" />
+      <edge id="14423" source="WATSON" target="CONSTABLE CLARK" weight="4" />
+      <edge id="14424" source="WATSON" target="GROUNDSKEEPER" weight="1" />
+      <edge id="14425" source="WATSON" target="PALM READER" weight="1" />
+      <edge id="14426" source="WATSON" target="DREDGER" weight="1" />
+      <edge id="14427" source="WATSON" target="BIG MAN" weight="1" />
+      <edge id="14428" source="WATSON" target="PRISON GUARD" weight="1" />
+      <edge id="14429" source="WATSON" target="TANNER" weight="3" />
+      <edge id="14430" source="WATSON" target="DOCTOR" weight="1" />
+      <edge id="14431" source="WATSON" target="IRENE" weight="9" />
+      <edge id="14432" source="WATSON" target="DRIVER" weight="1" />
+      <edge id="14433" source="MAN" target="WATSON" weight="2" />
+      <edge id="14434" source="MAN" target="HOLMES" weight="2" />
+      <edge id="14435" source="MAN" target="CONSTABLE CLARK" weight="1" />
+      <edge id="14436" source="HOLMES" target="WATSON" weight="33" />
+      <edge id="14437" source="HOLMES" target="MAN" weight="2" />
+      <edge id="14438" source="HOLMES" target="THUG" weight="1" />
+      <edge id="14439" source="HOLMES" target="MAN #1" weight="1" />
+      <edge id="14440" source="HOLMES" target="BLACKWOOD" weight="5" />
+      <edge id="14441" source="HOLMES" target="LESTRADE" weight="7" />
+      <edge id="14442" source="HOLMES" target="MRS. HUDSON" weight="1" />
+      <edge id="14443" source="HOLMES" target="MARY" weight="3" />
+      <edge id="14444" source="HOLMES" target="WAITER" weight="1" />
+      <edge id="14445" source="HOLMES" target="McMURDO" weight="1" />
+      <edge id="14446" source="HOLMES" target="GUARD" weight="1" />
+      <edge id="14447" source="HOLMES" target="IRENE" weight="14" />
+      <edge id="14448" source="HOLMES" target="VOICE" weight="1" />
+      <edge id="14449" source="HOLMES" target="CONSTABLE CLARK" weight="6" />
+      <edge id="14450" source="HOLMES" target="GROUNDSKEEPER" weight="1" />
+      <edge id="14451" source="HOLMES" target="PALM READER" weight="1" />
+      <edge id="14452" source="HOLMES" target="DREDGER" weight="1" />
+      <edge id="14453" source="HOLMES" target="BIG MAN" weight="1" />
+      <edge id="14454" source="HOLMES" target="PRISON GUARD" weight="1" />
+      <edge id="14455" source="HOLMES" target="SIR THOMAS" weight="1" />
+      <edge id="14456" source="HOLMES" target="STANDISH" weight="1" />
+      <edge id="14457" source="HOLMES" target="LORD COWARD" weight="2" />
+      <edge id="14458" source="HOLMES" target="POLICE OFFICER" weight="1" />
+      <edge id="14459" source="HOLMES" target="TANNER" weight="3" />
+      <edge id="14460" source="HOLMES" target="SHERLOCK" weight="1" />
+      <edge id="14461" source="HOLMES" target="DRIVER" weight="1" />
+      <edge id="14462" source="THUG" target="HOLMES" weight="1" />
+      <edge id="14463" source="MAN #1" target="HOLMES" weight="1" />
+      <edge id="14464" source="MAN #1" target="WATSON" weight="1" />
+      <edge id="14465" source="BLACKWOOD" target="WATSON" weight="2" />
+      <edge id="14466" source="BLACKWOOD" target="HOLMES" weight="5" />
+      <edge id="14467" source="BLACKWOOD" target="LESTRADE" weight="1" />
+      <edge id="14468" source="BLACKWOOD" target="GUARD CAPTAIN" weight="1" />
+      <edge id="14469" source="BLACKWOOD" target="GUARD #2" weight="1" />
+      <edge id="14470" source="BLACKWOOD" target="STANDISH" weight="1" />
+      <edge id="14471" source="BLACKWOOD" target="LORD COWARD" weight="1" />
+      <edge id="14472" source="BLACKWOOD" target="SHERLOCK" weight="1" />
+      <edge id="14473" source="BLACKWOOD" target="IRENE" weight="2" />
+      <edge id="14474" source="LESTRADE" target="WATSON" weight="2" />
+      <edge id="14475" source="LESTRADE" target="BLACKWOOD" weight="1" />
+      <edge id="14476" source="LESTRADE" target="HOLMES" weight="7" />
+      <edge id="14477" source="LESTRADE" target="GROUNDSKEEPER" weight="1" />
+      <edge id="14478" source="LESTRADE" target="LORD COWARD" weight="1" />
+      <edge id="14479" source="CAPTAIN PHILIPS" target="WATSON" weight="1" />
+      <edge id="14480" source="MRS. HUDSON" target="WATSON" weight="2" />
+      <edge id="14481" source="MRS. HUDSON" target="HOLMES" weight="1" />
+      <edge id="14482" source="MARY" target="WATSON" weight="6" />
+      <edge id="14483" source="MARY" target="HOLMES" weight="3" />
+      <edge id="14484" source="MARY" target="WAITER" weight="1" />
+      <edge id="14485" source="MARY" target="DOCTOR" weight="1" />
+      <edge id="14486" source="MARY" target="CONSTABLE CLARK" weight="1" />
+      <edge id="14487" source="MARY" target="DRIVER" weight="1" />
+      <edge id="14488" source="WAITER" target="WATSON" weight="1" />
+      <edge id="14489" source="WAITER" target="HOLMES" weight="1" />
+      <edge id="14490" source="WAITER" target="MARY" weight="1" />
+      <edge id="14491" source="McMURDO" target="HOLMES" weight="1" />
+      <edge id="14492" source="GUARD CAPTAIN" target="CHARLIE" weight="1" />
+      <edge id="14493" source="GUARD CAPTAIN" target="BLACKWOOD" weight="1" />
+      <edge id="14494" source="GUARD CAPTAIN" target="GUARD #2" weight="1" />
+      <edge id="14495" source="CHARLIE" target="GUARD CAPTAIN" weight="1" />
+      <edge id="14496" source="GUARD #2" target="GUARD CAPTAIN" weight="1" />
+      <edge id="14497" source="GUARD #2" target="BLACKWOOD" weight="1" />
+      <edge id="14498" source="GUARD" target="HOLMES" weight="1" />
+      <edge id="14499" source="IRENE" target="HOLMES" weight="14" />
+      <edge id="14500" source="IRENE" target="MORIARTY" weight="1" />
+      <edge id="14501" source="IRENE" target="MAN WITH ROSES" weight="1" />
+      <edge id="14502" source="IRENE" target="WATSON" weight="9" />
+      <edge id="14503" source="IRENE" target="TANNER" weight="2" />
+      <edge id="14504" source="IRENE" target="SHERLOCK" weight="1" />
+      <edge id="14505" source="IRENE" target="BLACKWOOD" weight="2" />
+      <edge id="14506" source="MORIARTY" target="IRENE" weight="1" />
+      <edge id="14507" source="BEGGAR" target="COACH DRIVER" weight="1" />
+      <edge id="14508" source="COACH DRIVER" target="BEGGAR" weight="1" />
+      <edge id="14509" source="MAN WITH ROSES" target="IRENE" weight="1" />
+      <edge id="14510" source="VOICE" target="HOLMES" weight="1" />
+      <edge id="14511" source="VOICE" target="WATSON" weight="1" />
+      <edge id="14512" source="VOICE" target="CONSTABLE CLARK" weight="1" />
+      <edge id="14513" source="CONSTABLE CLARK" target="HOLMES" weight="6" />
+      <edge id="14514" source="CONSTABLE CLARK" target="WATSON" weight="4" />
+      <edge id="14515" source="CONSTABLE CLARK" target="VOICE" weight="1" />
+      <edge id="14516" source="CONSTABLE CLARK" target="POLICE OFFICER" weight="1" />
+      <edge id="14517" source="CONSTABLE CLARK" target="MARY" weight="1" />
+      <edge id="14518" source="CONSTABLE CLARK" target="DRIVER" weight="1" />
+      <edge id="14519" source="CONSTABLE CLARK" target="SERGEANT" weight="1" />
+      <edge id="14520" source="CONSTABLE CLARK" target="MAN" weight="1" />
+      <edge id="14521" source="GROUNDSKEEPER" target="WATSON" weight="1" />
+      <edge id="14522" source="GROUNDSKEEPER" target="HOLMES" weight="1" />
+      <edge id="14523" source="GROUNDSKEEPER" target="LESTRADE" weight="1" />
+      <edge id="14524" source="PALM READER" target="WATSON" weight="1" />
+      <edge id="14525" source="PALM READER" target="HOLMES" weight="1" />
+      <edge id="14526" source="DREDGER" target="HOLMES" weight="1" />
+      <edge id="14527" source="DREDGER" target="WATSON" weight="1" />
+      <edge id="14528" source="BIG MAN" target="WATSON" weight="1" />
+      <edge id="14529" source="BIG MAN" target="HOLMES" weight="1" />
+      <edge id="14530" source="BIG MAN" target="PRISON GUARD" weight="1" />
+      <edge id="14531" source="PRISON GUARD" target="WATSON" weight="1" />
+      <edge id="14532" source="PRISON GUARD" target="HOLMES" weight="1" />
+      <edge id="14533" source="PRISON GUARD" target="BIG MAN" weight="1" />
+      <edge id="14534" source="SIR THOMAS" target="HOLMES" weight="1" />
+      <edge id="14535" source="SIR THOMAS" target="STANDISH" weight="1" />
+      <edge id="14536" source="SIR THOMAS" target="LORD COWARD" weight="1" />
+      <edge id="14537" source="SIR THOMAS" target="PERIGRINE" weight="1" />
+      <edge id="14538" source="STANDISH" target="SIR THOMAS" weight="1" />
+      <edge id="14539" source="STANDISH" target="HOLMES" weight="1" />
+      <edge id="14540" source="STANDISH" target="LORD COWARD" weight="2" />
+      <edge id="14541" source="STANDISH" target="BLACKWOOD" weight="1" />
+      <edge id="14542" source="LORD COWARD" target="SIR THOMAS" weight="1" />
+      <edge id="14543" source="LORD COWARD" target="HOLMES" weight="2" />
+      <edge id="14544" source="LORD COWARD" target="STANDISH" weight="2" />
+      <edge id="14545" source="LORD COWARD" target="BLACKWOOD" weight="1" />
+      <edge id="14546" source="LORD COWARD" target="LESTRADE" weight="1" />
+      <edge id="14547" source="PERIGRINE" target="SIR THOMAS" weight="1" />
+      <edge id="14548" source="POLICE OFFICER" target="CONSTABLE CLARK" weight="1" />
+      <edge id="14549" source="POLICE OFFICER" target="HOLMES" weight="1" />
+      <edge id="14550" source="TANNER" target="HOLMES" weight="3" />
+      <edge id="14551" source="TANNER" target="WATSON" weight="3" />
+      <edge id="14552" source="TANNER" target="IRENE" weight="2" />
+      <edge id="14553" source="DOCTOR" target="WATSON" weight="1" />
+      <edge id="14554" source="DOCTOR" target="MARY" weight="1" />
+      <edge id="14555" source="SHERLOCK" target="IRENE" weight="1" />
+      <edge id="14556" source="SHERLOCK" target="HOLMES" weight="1" />
+      <edge id="14557" source="SHERLOCK" target="BLACKWOOD" weight="1" />
+      <edge id="14558" source="DRIVER" target="WATSON" weight="1" />
+      <edge id="14559" source="DRIVER" target="HOLMES" weight="1" />
+      <edge id="14560" source="DRIVER" target="MARY" weight="1" />
+      <edge id="14561" source="DRIVER" target="CONSTABLE CLARK" weight="1" />
+      <edge id="14562" source="SERGEANT" target="CONSTABLE CLARK" weight="1" />
+    </edges>
+  </graph>
+</gexf>

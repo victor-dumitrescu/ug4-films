@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="MR. SMITH" label="MR. SMITH" />
+      <node id="MS. JONES" label="MS. JONES" />
+      <node id="GENE" label="GENE" />
+      <node id="LYNN" label="LYNN" />
+      <node id="MR. JONES" label="MR. JONES" />
+      <node id="MS JONES" label="MS JONES" />
+      <node id="LITTLE GIRL" label="LITTLE GIRL" />
+      <node id="CABBIE" label="CABBIE" />
+      <node id="DOORMAN" label="DOORMAN" />
+      <node id="GUSTINO" label="GUSTINO" />
+      <node id="BRENDAN GRANT" label="BRENDAN GRANT" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="ELEANOR GRANT" label="ELEANOR GRANT" />
+      <node id="KRISTA" label="KRISTA" />
+      <node id="CHIEF AIDE" label="CHIEF AIDE" />
+      <node id="KRIST" label="KRIST" />
+      <node id="BODYGUARD" label="BODYGUARD" />
+      <node id="HUEY" label="HUEY" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="HECTOR" label="HECTOR" />
+      <node id="A REPORTER" label="A REPORTER" />
+      <node id="OFFICER TRUST" label="OFFICER TRUST" />
+      <node id="WAITER M" label="WAITER M" />
+      <node id="TOM BRADLEY" label="TOM BRADLEY" />
+      <node id="HALL GUARD" label="HALL GUARD" />
+      <node id="MYSTERY MAN" label="MYSTERY MAN" />
+      <node id="MR.SMITH" label="MR.SMITH" />
+      <node id="GAME SHOW HOST" label="GAME SHOW HOST" />
+      <node id="T.V. NEWS TECHNICIAN 1" label="T.V. NEWS TECHNICIAN 1" />
+      <node id="T.V. REPORTER" label="T.V. REPORTER" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="JANITOR" label="JANITOR" />
+      <node id="IRENE" label="IRENE" />
+      <node id="FRANCO" label="FRANCO" />
+      <node id="POLITICO" label="POLITICO" />
+      <node id="T.V. NEWS TECHNICIAN" label="T.V. NEWS TECHNICIAN" />
+    </nodes>
+    <edges>
+      <edge id="12693" source="ANNOUNCER" target="MR. SMITH" weight="1" />
+      <edge id="12694" source="ANNOUNCER" target="MS. JONES" weight="1" />
+      <edge id="12695" source="MR. SMITH" target="ANNOUNCER" weight="1" />
+      <edge id="12696" source="MR. SMITH" target="MS. JONES" weight="10" />
+      <edge id="12697" source="MR. SMITH" target="MR. JONES" weight="1" />
+      <edge id="12698" source="MR. SMITH" target="GENE" weight="17" />
+      <edge id="12699" source="MR. SMITH" target="LYNN" weight="6" />
+      <edge id="12700" source="MR. SMITH" target="MS JONES" weight="1" />
+      <edge id="12701" source="MR. SMITH" target="LITTLE GIRL" weight="1" />
+      <edge id="12702" source="MR. SMITH" target="WOMAN" weight="1" />
+      <edge id="12703" source="MR. SMITH" target="ELEANOR GRANT" weight="2" />
+      <edge id="12704" source="MR. SMITH" target="KRISTA" weight="3" />
+      <edge id="12705" source="MR. SMITH" target="OFFICER TRUST" weight="5" />
+      <edge id="12706" source="MR. SMITH" target="WAITER M" weight="1" />
+      <edge id="12707" source="MR. SMITH" target="TOM BRADLEY" weight="1" />
+      <edge id="12708" source="MR. SMITH" target="BRENDAN GRANT" weight="2" />
+      <edge id="12709" source="MR. SMITH" target="MYSTERY MAN" weight="2" />
+      <edge id="12710" source="MR. SMITH" target="MR.SMITH" weight="1" />
+      <edge id="12711" source="MR. SMITH" target="HUEY" weight="3" />
+      <edge id="12712" source="MS. JONES" target="ANNOUNCER" weight="1" />
+      <edge id="12713" source="MS. JONES" target="MR. SMITH" weight="10" />
+      <edge id="12714" source="MS. JONES" target="MR. JONES" weight="1" />
+      <edge id="12715" source="MS. JONES" target="GENE" weight="6" />
+      <edge id="12716" source="MS. JONES" target="LYNN" weight="9" />
+      <edge id="12717" source="MS. JONES" target="MS JONES" weight="1" />
+      <edge id="12718" source="MS. JONES" target="LITTLE GIRL" weight="1" />
+      <edge id="12719" source="MS. JONES" target="HUEY" weight="3" />
+      <edge id="12720" source="GENE" target="LYNN" weight="10" />
+      <edge id="12721" source="GENE" target="MR. SMITH" weight="17" />
+      <edge id="12722" source="GENE" target="MS. JONES" weight="6" />
+      <edge id="12723" source="GENE" target="MS JONES" weight="1" />
+      <edge id="12724" source="GENE" target="LITTLE GIRL" weight="1" />
+      <edge id="12725" source="GENE" target="CABBIE" weight="3" />
+      <edge id="12726" source="GENE" target="GUSTINO" weight="2" />
+      <edge id="12727" source="GENE" target="WOMAN" weight="1" />
+      <edge id="12728" source="GENE" target="ELEANOR GRANT" weight="8" />
+      <edge id="12729" source="GENE" target="KRISTA" weight="5" />
+      <edge id="12730" source="GENE" target="HUEY" weight="9" />
+      <edge id="12731" source="GENE" target="HECTOR" weight="1" />
+      <edge id="12732" source="GENE" target="OFFICER TRUST" weight="2" />
+      <edge id="12733" source="GENE" target="WAITER M" weight="1" />
+      <edge id="12734" source="GENE" target="TOM BRADLEY" weight="1" />
+      <edge id="12735" source="GENE" target="HALL GUARD" weight="1" />
+      <edge id="12736" source="GENE" target="BRENDAN GRANT" weight="3" />
+      <edge id="12737" source="GENE" target="MYSTERY MAN" weight="1" />
+      <edge id="12738" source="GENE" target="MR.SMITH" weight="1" />
+      <edge id="12739" source="GENE" target="GAME SHOW HOST" weight="1" />
+      <edge id="12740" source="GENE" target="T.V. NEWS TECHNICIAN 1" weight="1" />
+      <edge id="12741" source="GENE" target="T.V. REPORTER" weight="1" />
+      <edge id="12742" source="GENE" target="WAITRESS" weight="1" />
+      <edge id="12743" source="GENE" target="BARTENDER" weight="1" />
+      <edge id="12744" source="GENE" target="IRENE" weight="1" />
+      <edge id="12745" source="GENE" target="T.V. NEWS TECHNICIAN" weight="1" />
+      <edge id="12746" source="LYNN" target="GENE" weight="10" />
+      <edge id="12747" source="LYNN" target="MR. SMITH" weight="6" />
+      <edge id="12748" source="LYNN" target="MS. JONES" weight="9" />
+      <edge id="12749" source="LYNN" target="MS JONES" weight="1" />
+      <edge id="12750" source="LYNN" target="LITTLE GIRL" weight="1" />
+      <edge id="12751" source="LYNN" target="HUEY" weight="4" />
+      <edge id="12752" source="LYNN" target="ELEANOR GRANT" weight="1" />
+      <edge id="12753" source="MR. JONES" target="MS. JONES" weight="1" />
+      <edge id="12754" source="MR. JONES" target="MR. SMITH" weight="1" />
+      <edge id="12755" source="MS JONES" target="MS. JONES" weight="1" />
+      <edge id="12756" source="MS JONES" target="LYNN" weight="1" />
+      <edge id="12757" source="MS JONES" target="MR. SMITH" weight="1" />
+      <edge id="12758" source="MS JONES" target="GENE" weight="1" />
+      <edge id="12759" source="LITTLE GIRL" target="MR. SMITH" weight="1" />
+      <edge id="12760" source="LITTLE GIRL" target="MS. JONES" weight="1" />
+      <edge id="12761" source="LITTLE GIRL" target="LYNN" weight="1" />
+      <edge id="12762" source="LITTLE GIRL" target="GENE" weight="1" />
+      <edge id="12763" source="CABBIE" target="GENE" weight="3" />
+      <edge id="12764" source="CABBIE" target="DOORMAN" weight="1" />
+      <edge id="12765" source="DOORMAN" target="CABBIE" weight="1" />
+      <edge id="12766" source="GUSTINO" target="GENE" weight="2" />
+      <edge id="12767" source="GUSTINO" target="HUEY" weight="1" />
+      <edge id="12768" source="GUSTINO" target="HECTOR" weight="1" />
+      <edge id="12769" source="BRENDAN GRANT" target="A REPORTER" weight="1" />
+      <edge id="12770" source="BRENDAN GRANT" target="HALL GUARD" weight="1" />
+      <edge id="12771" source="BRENDAN GRANT" target="KRISTA" weight="2" />
+      <edge id="12772" source="BRENDAN GRANT" target="GENE" weight="3" />
+      <edge id="12773" source="BRENDAN GRANT" target="MYSTERY MAN" weight="3" />
+      <edge id="12774" source="BRENDAN GRANT" target="MR. SMITH" weight="2" />
+      <edge id="12775" source="BRENDAN GRANT" target="OFFICER TRUST" weight="2" />
+      <edge id="12776" source="BRENDAN GRANT" target="ELEANOR GRANT" weight="2" />
+      <edge id="12777" source="BRENDAN GRANT" target="T.V. NEWS TECHNICIAN" weight="1" />
+      <edge id="12778" source="WOMAN" target="GENE" weight="1" />
+      <edge id="12779" source="WOMAN" target="MR. SMITH" weight="1" />
+      <edge id="12780" source="ELEANOR GRANT" target="KRISTA" weight="4" />
+      <edge id="12781" source="ELEANOR GRANT" target="CHIEF AIDE" weight="1" />
+      <edge id="12782" source="ELEANOR GRANT" target="KRIST" weight="1" />
+      <edge id="12783" source="ELEANOR GRANT" target="BODYGUARD" weight="1" />
+      <edge id="12784" source="ELEANOR GRANT" target="GENE" weight="8" />
+      <edge id="12785" source="ELEANOR GRANT" target="MR. SMITH" weight="2" />
+      <edge id="12786" source="ELEANOR GRANT" target="OFFICER TRUST" weight="1" />
+      <edge id="12787" source="ELEANOR GRANT" target="WAITER M" weight="1" />
+      <edge id="12788" source="ELEANOR GRANT" target="TOM BRADLEY" weight="1" />
+      <edge id="12789" source="ELEANOR GRANT" target="FRANCO" weight="2" />
+      <edge id="12790" source="ELEANOR GRANT" target="BRENDAN GRANT" weight="2" />
+      <edge id="12791" source="ELEANOR GRANT" target="MYSTERY MAN" weight="1" />
+      <edge id="12792" source="ELEANOR GRANT" target="T.V. NEWS TECHNICIAN" weight="1" />
+      <edge id="12793" source="ELEANOR GRANT" target="HUEY" weight="2" />
+      <edge id="12794" source="ELEANOR GRANT" target="LYNN" weight="1" />
+      <edge id="12795" source="KRISTA" target="ELEANOR GRANT" weight="4" />
+      <edge id="12796" source="KRISTA" target="CHIEF AIDE" weight="1" />
+      <edge id="12797" source="KRISTA" target="KRIST" weight="1" />
+      <edge id="12798" source="KRISTA" target="BODYGUARD" weight="1" />
+      <edge id="12799" source="KRISTA" target="GENE" weight="5" />
+      <edge id="12800" source="KRISTA" target="MR. SMITH" weight="3" />
+      <edge id="12801" source="KRISTA" target="OFFICER TRUST" weight="2" />
+      <edge id="12802" source="KRISTA" target="WAITER M" weight="1" />
+      <edge id="12803" source="KRISTA" target="TOM BRADLEY" weight="1" />
+      <edge id="12804" source="KRISTA" target="HALL GUARD" weight="1" />
+      <edge id="12805" source="KRISTA" target="BRENDAN GRANT" weight="2" />
+      <edge id="12806" source="KRISTA" target="MYSTERY MAN" weight="1" />
+      <edge id="12807" source="CHIEF AIDE" target="ELEANOR GRANT" weight="1" />
+      <edge id="12808" source="CHIEF AIDE" target="KRISTA" weight="1" />
+      <edge id="12809" source="CHIEF AIDE" target="KRIST" weight="1" />
+      <edge id="12810" source="CHIEF AIDE" target="BODYGUARD" weight="1" />
+      <edge id="12811" source="KRIST" target="ELEANOR GRANT" weight="1" />
+      <edge id="12812" source="KRIST" target="KRISTA" weight="1" />
+      <edge id="12813" source="KRIST" target="CHIEF AIDE" weight="1" />
+      <edge id="12814" source="KRIST" target="BODYGUARD" weight="1" />
+      <edge id="12815" source="BODYGUARD" target="ELEANOR GRANT" weight="1" />
+      <edge id="12816" source="BODYGUARD" target="KRISTA" weight="1" />
+      <edge id="12817" source="BODYGUARD" target="CHIEF AIDE" weight="1" />
+      <edge id="12818" source="BODYGUARD" target="KRIST" weight="1" />
+      <edge id="12819" source="HUEY" target="GENE" weight="9" />
+      <edge id="12820" source="HUEY" target="GUSTINO" weight="1" />
+      <edge id="12821" source="HUEY" target="MR. SMITH" weight="3" />
+      <edge id="12822" source="HUEY" target="MS. JONES" weight="3" />
+      <edge id="12823" source="HUEY" target="LYNN" weight="4" />
+      <edge id="12824" source="HUEY" target="JANITOR" weight="1" />
+      <edge id="12825" source="HUEY" target="IRENE" weight="1" />
+      <edge id="12826" source="HUEY" target="ELEANOR GRANT" weight="2" />
+      <edge id="12827" source="REPORTER" target="BARTENDER" weight="1" />
+      <edge id="12828" source="BARTENDER" target="REPORTER" weight="1" />
+      <edge id="12829" source="BARTENDER" target="GAME SHOW HOST" weight="1" />
+      <edge id="12830" source="BARTENDER" target="GENE" weight="1" />
+      <edge id="12831" source="BARTENDER" target="T.V. NEWS TECHNICIAN 1" weight="1" />
+      <edge id="12832" source="BARTENDER" target="T.V. REPORTER" weight="1" />
+      <edge id="12833" source="BARTENDER" target="WAITRESS" weight="1" />
+      <edge id="12834" source="HECTOR" target="GENE" weight="1" />
+      <edge id="12835" source="HECTOR" target="GUSTINO" weight="1" />
+      <edge id="12836" source="A REPORTER" target="BRENDAN GRANT" weight="1" />
+      <edge id="12837" source="OFFICER TRUST" target="MR. SMITH" weight="5" />
+      <edge id="12838" source="OFFICER TRUST" target="GENE" weight="2" />
+      <edge id="12839" source="OFFICER TRUST" target="WAITER M" weight="1" />
+      <edge id="12840" source="OFFICER TRUST" target="TOM BRADLEY" weight="1" />
+      <edge id="12841" source="OFFICER TRUST" target="KRISTA" weight="2" />
+      <edge id="12842" source="OFFICER TRUST" target="ELEANOR GRANT" weight="1" />
+      <edge id="12843" source="OFFICER TRUST" target="BRENDAN GRANT" weight="2" />
+      <edge id="12844" source="OFFICER TRUST" target="MYSTERY MAN" weight="2" />
+      <edge id="12845" source="WAITER M" target="MR. SMITH" weight="1" />
+      <edge id="12846" source="WAITER M" target="GENE" weight="1" />
+      <edge id="12847" source="WAITER M" target="OFFICER TRUST" weight="1" />
+      <edge id="12848" source="WAITER M" target="TOM BRADLEY" weight="1" />
+      <edge id="12849" source="WAITER M" target="KRISTA" weight="1" />
+      <edge id="12850" source="WAITER M" target="ELEANOR GRANT" weight="1" />
+      <edge id="12851" source="TOM BRADLEY" target="MR. SMITH" weight="1" />
+      <edge id="12852" source="TOM BRADLEY" target="GENE" weight="1" />
+      <edge id="12853" source="TOM BRADLEY" target="OFFICER TRUST" weight="1" />
+      <edge id="12854" source="TOM BRADLEY" target="WAITER M" weight="1" />
+      <edge id="12855" source="TOM BRADLEY" target="KRISTA" weight="1" />
+      <edge id="12856" source="TOM BRADLEY" target="ELEANOR GRANT" weight="1" />
+      <edge id="12857" source="HALL GUARD" target="KRISTA" weight="1" />
+      <edge id="12858" source="HALL GUARD" target="GENE" weight="1" />
+      <edge id="12859" source="HALL GUARD" target="BRENDAN GRANT" weight="1" />
+      <edge id="12860" source="MYSTERY MAN" target="GENE" weight="1" />
+      <edge id="12861" source="MYSTERY MAN" target="KRISTA" weight="1" />
+      <edge id="12862" source="MYSTERY MAN" target="BRENDAN GRANT" weight="3" />
+      <edge id="12863" source="MYSTERY MAN" target="MR. SMITH" weight="2" />
+      <edge id="12864" source="MYSTERY MAN" target="OFFICER TRUST" weight="2" />
+      <edge id="12865" source="MYSTERY MAN" target="ELEANOR GRANT" weight="1" />
+      <edge id="12866" source="MR.SMITH" target="GENE" weight="1" />
+      <edge id="12867" source="MR.SMITH" target="MR. SMITH" weight="1" />
+      <edge id="12868" source="GAME SHOW HOST" target="GENE" weight="1" />
+      <edge id="12869" source="GAME SHOW HOST" target="T.V. NEWS TECHNICIAN 1" weight="1" />
+      <edge id="12870" source="GAME SHOW HOST" target="T.V. REPORTER" weight="1" />
+      <edge id="12871" source="GAME SHOW HOST" target="WAITRESS" weight="1" />
+      <edge id="12872" source="GAME SHOW HOST" target="BARTENDER" weight="1" />
+      <edge id="12873" source="T.V. NEWS TECHNICIAN 1" target="GAME SHOW HOST" weight="1" />
+      <edge id="12874" source="T.V. NEWS TECHNICIAN 1" target="GENE" weight="1" />
+      <edge id="12875" source="T.V. NEWS TECHNICIAN 1" target="T.V. REPORTER" weight="1" />
+      <edge id="12876" source="T.V. NEWS TECHNICIAN 1" target="WAITRESS" weight="1" />
+      <edge id="12877" source="T.V. NEWS TECHNICIAN 1" target="BARTENDER" weight="1" />
+      <edge id="12878" source="T.V. REPORTER" target="GAME SHOW HOST" weight="1" />
+      <edge id="12879" source="T.V. REPORTER" target="GENE" weight="1" />
+      <edge id="12880" source="T.V. REPORTER" target="T.V. NEWS TECHNICIAN 1" weight="1" />
+      <edge id="12881" source="T.V. REPORTER" target="WAITRESS" weight="1" />
+      <edge id="12882" source="T.V. REPORTER" target="BARTENDER" weight="1" />
+      <edge id="12883" source="WAITRESS" target="GAME SHOW HOST" weight="1" />
+      <edge id="12884" source="WAITRESS" target="GENE" weight="1" />
+      <edge id="12885" source="WAITRESS" target="T.V. NEWS TECHNICIAN 1" weight="1" />
+      <edge id="12886" source="WAITRESS" target="T.V. REPORTER" weight="1" />
+      <edge id="12887" source="WAITRESS" target="BARTENDER" weight="1" />
+      <edge id="12888" source="JANITOR" target="HUEY" weight="1" />
+      <edge id="12889" source="IRENE" target="HUEY" weight="1" />
+      <edge id="12890" source="IRENE" target="GENE" weight="1" />
+      <edge id="12891" source="FRANCO" target="ELEANOR GRANT" weight="2" />
+      <edge id="12892" source="T.V. NEWS TECHNICIAN" target="BRENDAN GRANT" weight="1" />
+      <edge id="12893" source="T.V. NEWS TECHNICIAN" target="ELEANOR GRANT" weight="1" />
+      <edge id="12894" source="T.V. NEWS TECHNICIAN" target="GENE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

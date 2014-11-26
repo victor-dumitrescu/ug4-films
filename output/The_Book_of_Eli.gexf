@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="ELI" label="ELI" />
+      <node id="YOUNG WOMAN" label="YOUNG WOMAN" />
+      <node id="BANDIT LEADER" label="BANDIT LEADER" />
+      <node id="BANDIT #2" label="BANDIT #2" />
+      <node id="BANDIT #3" label="BANDIT #3" />
+      <node id="CHAIN GANG BOSS" label="CHAIN GANG BOSS" />
+      <node id="ENGINEER" label="ENGINEER" />
+      <node id="CARNEGIE" label="CARNEGIE" />
+      <node id="REDRIDGE" label="REDRIDGE" />
+      <node id="DISCONTENTED VILLAGER" label="DISCONTENTED VILLAGER" />
+      <node id="HOG" label="HOG" />
+      <node id="CLAUDIA" label="CLAUDIA" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="BURLY PATRON" label="BURLY PATRON" />
+      <node id="SOLARA" label="SOLARA" />
+      <node id="CARNEGIE GUNMAN" label="CARNEGIE GUNMAN" />
+      <node id="FEMALE VOICE" label="FEMALE VOICE" />
+      <node id="SLUMPED FEMALE" label="SLUMPED FEMALE" />
+      <node id="BRIGAND LEADER" label="BRIGAND LEADER" />
+      <node id="RIFLE BANDIT" label="RIFLE BANDIT" />
+      <node id="ELDERLY MAN" label="ELDERLY MAN" />
+      <node id="ELDERLY WOMAN" label="ELDERLY WOMAN" />
+      <node id="MARTHA" label="MARTHA" />
+      <node id="GEORGE" label="GEORGE" />
+      <node id="CARNEGIE GUNMAN #2" label="CARNEGIE GUNMAN #2" />
+      <node id="CARNEGIE GUNMAN #3" label="CARNEGIE GUNMAN #3" />
+      <node id="CARNEGIE GUNMAN #4" label="CARNEGIE GUNMAN #4" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="VOICE" label="VOICE" />
+      <node id="ALCATRAZ GUARD" label="ALCATRAZ GUARD" />
+      <node id="SOLDIER" label="SOLDIER" />
+      <node id="THIN MAN" label="THIN MAN" />
+      <node id="LOMBARDI" label="LOMBARDI" />
+    </nodes>
+    <edges>
+      <edge id="19757" source="ELI" target="YOUNG WOMAN" weight="2" />
+      <edge id="19758" source="ELI" target="BANDIT LEADER" weight="1" />
+      <edge id="19759" source="ELI" target="BANDIT #2" weight="1" />
+      <edge id="19760" source="ELI" target="BANDIT #3" weight="1" />
+      <edge id="19761" source="ELI" target="CHAIN GANG BOSS" weight="1" />
+      <edge id="19762" source="ELI" target="ENGINEER" weight="3" />
+      <edge id="19763" source="ELI" target="BARTENDER" weight="2" />
+      <edge id="19764" source="ELI" target="HOG" weight="2" />
+      <edge id="19765" source="ELI" target="BURLY PATRON" weight="1" />
+      <edge id="19766" source="ELI" target="CARNEGIE" weight="4" />
+      <edge id="19767" source="ELI" target="SOLARA" weight="24" />
+      <edge id="19768" source="ELI" target="CARNEGIE GUNMAN" weight="1" />
+      <edge id="19769" source="ELI" target="REDRIDGE" weight="4" />
+      <edge id="19770" source="ELI" target="CLAUDIA" weight="1" />
+      <edge id="19771" source="ELI" target="SLUMPED FEMALE" weight="1" />
+      <edge id="19772" source="ELI" target="BRIGAND LEADER" weight="1" />
+      <edge id="19773" source="ELI" target="RIFLE BANDIT" weight="1" />
+      <edge id="19774" source="ELI" target="ELDERLY MAN" weight="1" />
+      <edge id="19775" source="ELI" target="ELDERLY WOMAN" weight="1" />
+      <edge id="19776" source="ELI" target="MARTHA" weight="4" />
+      <edge id="19777" source="ELI" target="GEORGE" weight="4" />
+      <edge id="19778" source="ELI" target="CARNEGIE GUNMAN #4" weight="1" />
+      <edge id="19779" source="ELI" target="DRIVER" weight="1" />
+      <edge id="19780" source="ELI" target="VOICE" weight="1" />
+      <edge id="19781" source="ELI" target="ALCATRAZ GUARD" weight="1" />
+      <edge id="19782" source="ELI" target="SOLDIER" weight="1" />
+      <edge id="19783" source="ELI" target="THIN MAN" weight="1" />
+      <edge id="19784" source="ELI" target="LOMBARDI" weight="4" />
+      <edge id="19785" source="YOUNG WOMAN" target="ELI" weight="2" />
+      <edge id="19786" source="YOUNG WOMAN" target="BANDIT LEADER" weight="1" />
+      <edge id="19787" source="YOUNG WOMAN" target="BANDIT #2" weight="1" />
+      <edge id="19788" source="YOUNG WOMAN" target="BANDIT #3" weight="1" />
+      <edge id="19789" source="YOUNG WOMAN" target="SLUMPED FEMALE" weight="1" />
+      <edge id="19790" source="YOUNG WOMAN" target="SOLARA" weight="1" />
+      <edge id="19791" source="YOUNG WOMAN" target="BRIGAND LEADER" weight="1" />
+      <edge id="19792" source="YOUNG WOMAN" target="RIFLE BANDIT" weight="1" />
+      <edge id="19793" source="BANDIT LEADER" target="YOUNG WOMAN" weight="1" />
+      <edge id="19794" source="BANDIT LEADER" target="ELI" weight="1" />
+      <edge id="19795" source="BANDIT LEADER" target="BANDIT #2" weight="1" />
+      <edge id="19796" source="BANDIT LEADER" target="BANDIT #3" weight="1" />
+      <edge id="19797" source="BANDIT #2" target="YOUNG WOMAN" weight="1" />
+      <edge id="19798" source="BANDIT #2" target="ELI" weight="1" />
+      <edge id="19799" source="BANDIT #2" target="BANDIT LEADER" weight="1" />
+      <edge id="19800" source="BANDIT #2" target="BANDIT #3" weight="1" />
+      <edge id="19801" source="BANDIT #3" target="YOUNG WOMAN" weight="1" />
+      <edge id="19802" source="BANDIT #3" target="ELI" weight="1" />
+      <edge id="19803" source="BANDIT #3" target="BANDIT LEADER" weight="1" />
+      <edge id="19804" source="BANDIT #3" target="BANDIT #2" weight="1" />
+      <edge id="19805" source="CHAIN GANG BOSS" target="ELI" weight="1" />
+      <edge id="19806" source="ENGINEER" target="ELI" weight="3" />
+      <edge id="19807" source="CARNEGIE" target="REDRIDGE" weight="5" />
+      <edge id="19808" source="CARNEGIE" target="DISCONTENTED VILLAGER" weight="1" />
+      <edge id="19809" source="CARNEGIE" target="HOG" weight="2" />
+      <edge id="19810" source="CARNEGIE" target="CLAUDIA" weight="6" />
+      <edge id="19811" source="CARNEGIE" target="SOLARA" weight="2" />
+      <edge id="19812" source="CARNEGIE" target="ELI" weight="4" />
+      <edge id="19813" source="CARNEGIE" target="CARNEGIE GUNMAN" weight="1" />
+      <edge id="19814" source="REDRIDGE" target="CARNEGIE" weight="5" />
+      <edge id="19815" source="REDRIDGE" target="HOG" weight="1" />
+      <edge id="19816" source="REDRIDGE" target="ELI" weight="4" />
+      <edge id="19817" source="REDRIDGE" target="CLAUDIA" weight="2" />
+      <edge id="19818" source="REDRIDGE" target="CARNEGIE GUNMAN" weight="1" />
+      <edge id="19819" source="REDRIDGE" target="SOLARA" weight="3" />
+      <edge id="19820" source="REDRIDGE" target="CARNEGIE GUNMAN #2" weight="1" />
+      <edge id="19821" source="REDRIDGE" target="CARNEGIE GUNMAN #3" weight="1" />
+      <edge id="19822" source="REDRIDGE" target="CARNEGIE GUNMAN #4" weight="1" />
+      <edge id="19823" source="REDRIDGE" target="DRIVER" weight="1" />
+      <edge id="19824" source="DISCONTENTED VILLAGER" target="CARNEGIE" weight="1" />
+      <edge id="19825" source="HOG" target="CARNEGIE" weight="2" />
+      <edge id="19826" source="HOG" target="REDRIDGE" weight="1" />
+      <edge id="19827" source="HOG" target="ELI" weight="2" />
+      <edge id="19828" source="HOG" target="BARTENDER" weight="1" />
+      <edge id="19829" source="HOG" target="BURLY PATRON" weight="1" />
+      <edge id="19830" source="HOG" target="SOLARA" weight="1" />
+      <edge id="19831" source="CLAUDIA" target="CARNEGIE" weight="6" />
+      <edge id="19832" source="CLAUDIA" target="REDRIDGE" weight="2" />
+      <edge id="19833" source="CLAUDIA" target="ELI" weight="1" />
+      <edge id="19834" source="CLAUDIA" target="SOLARA" weight="1" />
+      <edge id="19835" source="BARTENDER" target="ELI" weight="2" />
+      <edge id="19836" source="BARTENDER" target="HOG" weight="1" />
+      <edge id="19837" source="BARTENDER" target="BURLY PATRON" weight="1" />
+      <edge id="19838" source="BURLY PATRON" target="HOG" weight="1" />
+      <edge id="19839" source="BURLY PATRON" target="ELI" weight="1" />
+      <edge id="19840" source="BURLY PATRON" target="BARTENDER" weight="1" />
+      <edge id="19841" source="SOLARA" target="CARNEGIE" weight="2" />
+      <edge id="19842" source="SOLARA" target="ELI" weight="24" />
+      <edge id="19843" source="SOLARA" target="HOG" weight="1" />
+      <edge id="19844" source="SOLARA" target="CLAUDIA" weight="1" />
+      <edge id="19845" source="SOLARA" target="SLUMPED FEMALE" weight="1" />
+      <edge id="19846" source="SOLARA" target="YOUNG WOMAN" weight="1" />
+      <edge id="19847" source="SOLARA" target="BRIGAND LEADER" weight="1" />
+      <edge id="19848" source="SOLARA" target="RIFLE BANDIT" weight="1" />
+      <edge id="19849" source="SOLARA" target="ELDERLY MAN" weight="1" />
+      <edge id="19850" source="SOLARA" target="ELDERLY WOMAN" weight="1" />
+      <edge id="19851" source="SOLARA" target="MARTHA" weight="5" />
+      <edge id="19852" source="SOLARA" target="GEORGE" weight="5" />
+      <edge id="19853" source="SOLARA" target="REDRIDGE" weight="3" />
+      <edge id="19854" source="SOLARA" target="CARNEGIE GUNMAN #4" weight="1" />
+      <edge id="19855" source="SOLARA" target="DRIVER" weight="1" />
+      <edge id="19856" source="SOLARA" target="SOLDIER" weight="1" />
+      <edge id="19857" source="SOLARA" target="THIN MAN" weight="1" />
+      <edge id="19858" source="SOLARA" target="LOMBARDI" weight="3" />
+      <edge id="19859" source="CARNEGIE GUNMAN" target="CARNEGIE" weight="1" />
+      <edge id="19860" source="CARNEGIE GUNMAN" target="ELI" weight="1" />
+      <edge id="19861" source="CARNEGIE GUNMAN" target="REDRIDGE" weight="1" />
+      <edge id="19862" source="SLUMPED FEMALE" target="SOLARA" weight="1" />
+      <edge id="19863" source="SLUMPED FEMALE" target="YOUNG WOMAN" weight="1" />
+      <edge id="19864" source="SLUMPED FEMALE" target="BRIGAND LEADER" weight="1" />
+      <edge id="19865" source="SLUMPED FEMALE" target="ELI" weight="1" />
+      <edge id="19866" source="SLUMPED FEMALE" target="RIFLE BANDIT" weight="1" />
+      <edge id="19867" source="BRIGAND LEADER" target="SLUMPED FEMALE" weight="1" />
+      <edge id="19868" source="BRIGAND LEADER" target="SOLARA" weight="1" />
+      <edge id="19869" source="BRIGAND LEADER" target="YOUNG WOMAN" weight="1" />
+      <edge id="19870" source="BRIGAND LEADER" target="ELI" weight="1" />
+      <edge id="19871" source="BRIGAND LEADER" target="RIFLE BANDIT" weight="1" />
+      <edge id="19872" source="RIFLE BANDIT" target="SLUMPED FEMALE" weight="1" />
+      <edge id="19873" source="RIFLE BANDIT" target="SOLARA" weight="1" />
+      <edge id="19874" source="RIFLE BANDIT" target="YOUNG WOMAN" weight="1" />
+      <edge id="19875" source="RIFLE BANDIT" target="BRIGAND LEADER" weight="1" />
+      <edge id="19876" source="RIFLE BANDIT" target="ELI" weight="1" />
+      <edge id="19877" source="ELDERLY MAN" target="SOLARA" weight="1" />
+      <edge id="19878" source="ELDERLY MAN" target="ELI" weight="1" />
+      <edge id="19879" source="ELDERLY MAN" target="ELDERLY WOMAN" weight="1" />
+      <edge id="19880" source="ELDERLY WOMAN" target="SOLARA" weight="1" />
+      <edge id="19881" source="ELDERLY WOMAN" target="ELI" weight="1" />
+      <edge id="19882" source="ELDERLY WOMAN" target="ELDERLY MAN" weight="1" />
+      <edge id="19883" source="MARTHA" target="ELI" weight="4" />
+      <edge id="19884" source="MARTHA" target="SOLARA" weight="5" />
+      <edge id="19885" source="MARTHA" target="GEORGE" weight="5" />
+      <edge id="19886" source="GEORGE" target="MARTHA" weight="5" />
+      <edge id="19887" source="GEORGE" target="ELI" weight="4" />
+      <edge id="19888" source="GEORGE" target="SOLARA" weight="5" />
+      <edge id="19889" source="CARNEGIE GUNMAN #2" target="REDRIDGE" weight="1" />
+      <edge id="19890" source="CARNEGIE GUNMAN #3" target="REDRIDGE" weight="1" />
+      <edge id="19891" source="CARNEGIE GUNMAN #4" target="REDRIDGE" weight="1" />
+      <edge id="19892" source="CARNEGIE GUNMAN #4" target="SOLARA" weight="1" />
+      <edge id="19893" source="CARNEGIE GUNMAN #4" target="ELI" weight="1" />
+      <edge id="19894" source="CARNEGIE GUNMAN #4" target="DRIVER" weight="1" />
+      <edge id="19895" source="DRIVER" target="REDRIDGE" weight="1" />
+      <edge id="19896" source="DRIVER" target="CARNEGIE GUNMAN #4" weight="1" />
+      <edge id="19897" source="DRIVER" target="SOLARA" weight="1" />
+      <edge id="19898" source="DRIVER" target="ELI" weight="1" />
+      <edge id="19899" source="VOICE" target="ALCATRAZ GUARD" weight="1" />
+      <edge id="19900" source="VOICE" target="ELI" weight="1" />
+      <edge id="19901" source="ALCATRAZ GUARD" target="VOICE" weight="1" />
+      <edge id="19902" source="ALCATRAZ GUARD" target="ELI" weight="1" />
+      <edge id="19903" source="SOLDIER" target="THIN MAN" weight="1" />
+      <edge id="19904" source="SOLDIER" target="ELI" weight="1" />
+      <edge id="19905" source="SOLDIER" target="SOLARA" weight="1" />
+      <edge id="19906" source="SOLDIER" target="LOMBARDI" weight="1" />
+      <edge id="19907" source="THIN MAN" target="SOLDIER" weight="1" />
+      <edge id="19908" source="THIN MAN" target="ELI" weight="1" />
+      <edge id="19909" source="THIN MAN" target="SOLARA" weight="1" />
+      <edge id="19910" source="THIN MAN" target="LOMBARDI" weight="1" />
+      <edge id="19911" source="LOMBARDI" target="SOLDIER" weight="1" />
+      <edge id="19912" source="LOMBARDI" target="THIN MAN" weight="1" />
+      <edge id="19913" source="LOMBARDI" target="ELI" weight="4" />
+      <edge id="19914" source="LOMBARDI" target="SOLARA" weight="3" />
+    </edges>
+  </graph>
+</gexf>

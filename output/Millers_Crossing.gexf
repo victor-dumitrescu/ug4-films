@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="Man" label="Man" />
+      <node id="Caspar" label="Caspar" />
+      <node id="Leo" label="Leo" />
+      <node id="Bluepoint" label="Bluepoint" />
+      <node id="Tom" label="Tom" />
+      <node id="Voice" label="Voice" />
+      <node id="Tom's Voice" label="Tom's Voice" />
+      <node id="Tony" label="Tony" />
+      <node id="Verna" label="Verna" />
+      <node id="Woman" label="Woman" />
+      <node id="Check Girl" label="Check Girl" />
+      <node id="Beryl" label="Beryl" />
+      <node id="Mink" label="Mink" />
+      <node id="Levander" label="Levander" />
+      <node id="Mayor" label="Mayor" />
+      <node id="O'Gar" label="O'Gar" />
+      <node id="Verna." label="Verna." />
+      <node id="Bernie" label="Bernie" />
+      <node id="Cud" label="Cud" />
+      <node id="Frankie" label="Frankie" />
+      <node id="Johnny Jr." label="Johnny Jr." />
+      <node id="Cop" label="Cop" />
+      <node id="Second Cop" label="Second Cop" />
+      <node id="First Cop" label="First Cop" />
+      <node id="Terry" label="Terry" />
+      <node id="Tic-Tac" label="Tic-Tac" />
+      <node id="Another Voice" label="Another Voice" />
+      <node id="Round Man" label="Round Man" />
+      <node id="Whisper" label="Whisper" />
+      <node id="Bert" label="Bert" />
+      <node id="Sergeant" label="Sergeant" />
+      <node id="Man In Hall" label="Man In Hall" />
+      <node id="Bluepeint" label="Bluepeint" />
+      <node id="Delahanty" label="Delahanty" />
+      <node id="Drop" label="Drop" />
+      <node id="Policeman" label="Policeman" />
+      <node id="Secretary" label="Secretary" />
+      <node id="First Man" label="First Man" />
+      <node id="First  Man" label="First  Man" />
+      <node id="Butler" label="Butler" />
+      <node id="Driver" label="Driver" />
+      <node id="Tom's Voice:" label="Tom's Voice:" />
+      <node id="Mrs. Zarpas" label="Mrs. Zarpas" />
+    </nodes>
+    <edges>
+      <edge id="12347" source="Man" target="Caspar" weight="1" />
+      <edge id="12348" source="Man" target="Leo" weight="1" />
+      <edge id="12349" source="Man" target="Bluepoint" weight="2" />
+      <edge id="12350" source="Man" target="Tom" weight="1" />
+      <edge id="12351" source="Man" target="Verna" weight="1" />
+      <edge id="12352" source="Man" target="Man In Hall" weight="1" />
+      <edge id="12353" source="Man" target="Bluepeint" weight="1" />
+      <edge id="12354" source="Caspar" target="Man" weight="1" />
+      <edge id="12355" source="Caspar" target="Leo" weight="1" />
+      <edge id="12356" source="Caspar" target="Bluepoint" weight="4" />
+      <edge id="12357" source="Caspar" target="Tom" weight="9" />
+      <edge id="12358" source="Caspar" target="Johnny Jr." weight="2" />
+      <edge id="12359" source="Caspar" target="Frankie" weight="1" />
+      <edge id="12360" source="Caspar" target="Mayor" weight="2" />
+      <edge id="12361" source="Caspar" target="Terry" weight="1" />
+      <edge id="12362" source="Caspar" target="First Man" weight="1" />
+      <edge id="12363" source="Caspar" target="Butler" weight="1" />
+      <edge id="12364" source="Caspar" target="Driver" weight="1" />
+      <edge id="12365" source="Caspar" target="Tom's Voice:" weight="1" />
+      <edge id="12366" source="Leo" target="Man" weight="1" />
+      <edge id="12367" source="Leo" target="Caspar" weight="1" />
+      <edge id="12368" source="Leo" target="Bluepoint" weight="1" />
+      <edge id="12369" source="Leo" target="Tom" weight="5" />
+      <edge id="12370" source="Leo" target="Levander" weight="1" />
+      <edge id="12371" source="Leo" target="Mayor" weight="1" />
+      <edge id="12372" source="Leo" target="O'Gar" weight="1" />
+      <edge id="12373" source="Leo" target="Tony" weight="1" />
+      <edge id="12374" source="Leo" target="Verna" weight="1" />
+      <edge id="12375" source="Bluepoint" target="Man" weight="2" />
+      <edge id="12376" source="Bluepoint" target="Caspar" weight="4" />
+      <edge id="12377" source="Bluepoint" target="Leo" weight="1" />
+      <edge id="12378" source="Bluepoint" target="Tom" weight="5" />
+      <edge id="12379" source="Bluepoint" target="Johnny Jr." weight="1" />
+      <edge id="12380" source="Bluepoint" target="Frankie" weight="2" />
+      <edge id="12381" source="Bluepoint" target="Mayor" weight="1" />
+      <edge id="12382" source="Bluepoint" target="Voice" weight="1" />
+      <edge id="12383" source="Bluepoint" target="Verna" weight="1" />
+      <edge id="12384" source="Bluepoint" target="Man In Hall" weight="1" />
+      <edge id="12385" source="Bluepoint" target="Bluepeint" weight="1" />
+      <edge id="12386" source="Bluepoint" target="Tic-Tac" weight="2" />
+      <edge id="12387" source="Tom" target="Man" weight="1" />
+      <edge id="12388" source="Tom" target="Caspar" weight="9" />
+      <edge id="12389" source="Tom" target="Leo" weight="5" />
+      <edge id="12390" source="Tom" target="Bluepoint" weight="5" />
+      <edge id="12391" source="Tom" target="Voice" weight="4" />
+      <edge id="12392" source="Tom" target="Tom's Voice" weight="1" />
+      <edge id="12393" source="Tom" target="Tony" weight="3" />
+      <edge id="12394" source="Tom" target="Verna" weight="10" />
+      <edge id="12395" source="Tom" target="Woman" weight="2" />
+      <edge id="12396" source="Tom" target="Check Girl" weight="1" />
+      <edge id="12397" source="Tom" target="Beryl" weight="1" />
+      <edge id="12398" source="Tom" target="Mink" weight="1" />
+      <edge id="12399" source="Tom" target="Levander" weight="1" />
+      <edge id="12400" source="Tom" target="Mayor" weight="3" />
+      <edge id="12401" source="Tom" target="O'Gar" weight="3" />
+      <edge id="12402" source="Tom" target="Verna." weight="1" />
+      <edge id="12403" source="Tom" target="Bernie" weight="7" />
+      <edge id="12404" source="Tom" target="Cud" weight="1" />
+      <edge id="12405" source="Tom" target="Frankie" weight="4" />
+      <edge id="12406" source="Tom" target="Johnny Jr." weight="2" />
+      <edge id="12407" source="Tom" target="Cop" weight="1" />
+      <edge id="12408" source="Tom" target="Second Cop" weight="1" />
+      <edge id="12409" source="Tom" target="First Cop" weight="1" />
+      <edge id="12410" source="Tom" target="Terry" weight="4" />
+      <edge id="12411" source="Tom" target="Tic-Tac" weight="3" />
+      <edge id="12412" source="Tom" target="Another Voice" weight="1" />
+      <edge id="12413" source="Tom" target="Round Man" weight="1" />
+      <edge id="12414" source="Tom" target="Whisper" weight="2" />
+      <edge id="12415" source="Tom" target="Bert" weight="2" />
+      <edge id="12416" source="Tom" target="Sergeant" weight="1" />
+      <edge id="12417" source="Tom" target="Delahanty" weight="1" />
+      <edge id="12418" source="Tom" target="Drop" weight="1" />
+      <edge id="12419" source="Tom" target="Secretary" weight="1" />
+      <edge id="12420" source="Tom" target="First Man" weight="2" />
+      <edge id="12421" source="Tom" target="First  Man" weight="1" />
+      <edge id="12422" source="Tom" target="Butler" weight="1" />
+      <edge id="12423" source="Tom" target="Driver" weight="1" />
+      <edge id="12424" source="Tom" target="Tom's Voice:" weight="1" />
+      <edge id="12425" source="Tom" target="Mrs. Zarpas" weight="1" />
+      <edge id="12426" source="Voice" target="Tom" weight="4" />
+      <edge id="12427" source="Voice" target="Tom's Voice" weight="1" />
+      <edge id="12428" source="Voice" target="Tony" weight="1" />
+      <edge id="12429" source="Voice" target="Bluepoint" weight="1" />
+      <edge id="12430" source="Voice" target="Another Voice" weight="1" />
+      <edge id="12431" source="Voice" target="Round Man" weight="1" />
+      <edge id="12432" source="Voice" target="Whisper" weight="1" />
+      <edge id="12433" source="Voice" target="Bert" weight="1" />
+      <edge id="12434" source="Voice" target="Bernie" weight="2" />
+      <edge id="12435" source="Voice" target="Mrs. Zarpas" weight="1" />
+      <edge id="12436" source="Tom's Voice" target="Voice" weight="1" />
+      <edge id="12437" source="Tom's Voice" target="Tom" weight="1" />
+      <edge id="12438" source="Tom's Voice" target="Tony" weight="1" />
+      <edge id="12439" source="Tony" target="Voice" weight="1" />
+      <edge id="12440" source="Tony" target="Tom" weight="3" />
+      <edge id="12441" source="Tony" target="Tom's Voice" weight="1" />
+      <edge id="12442" source="Tony" target="Leo" weight="1" />
+      <edge id="12443" source="Tony" target="Delahanty" weight="1" />
+      <edge id="12444" source="Verna" target="Tom" weight="10" />
+      <edge id="12445" source="Verna" target="Woman" weight="1" />
+      <edge id="12446" source="Verna" target="Verna." weight="1" />
+      <edge id="12447" source="Verna" target="Bluepoint" weight="1" />
+      <edge id="12448" source="Verna" target="Man In Hall" weight="1" />
+      <edge id="12449" source="Verna" target="Man" weight="1" />
+      <edge id="12450" source="Verna" target="Bluepeint" weight="1" />
+      <edge id="12451" source="Verna" target="Leo" weight="1" />
+      <edge id="12452" source="Woman" target="Tom" weight="2" />
+      <edge id="12453" source="Woman" target="Verna" weight="1" />
+      <edge id="12454" source="Woman" target="Bernie" weight="1" />
+      <edge id="12455" source="Check Girl" target="Tom" weight="1" />
+      <edge id="12456" source="Check Girl" target="Beryl" weight="1" />
+      <edge id="12457" source="Beryl" target="Tom" weight="1" />
+      <edge id="12458" source="Beryl" target="Check Girl" weight="1" />
+      <edge id="12459" source="Mink" target="Tom" weight="1" />
+      <edge id="12460" source="Levander" target="Leo" weight="1" />
+      <edge id="12461" source="Levander" target="Tom" weight="1" />
+      <edge id="12462" source="Levander" target="Mayor" weight="1" />
+      <edge id="12463" source="Levander" target="O'Gar" weight="1" />
+      <edge id="12464" source="Mayor" target="Leo" weight="1" />
+      <edge id="12465" source="Mayor" target="Tom" weight="3" />
+      <edge id="12466" source="Mayor" target="Levander" weight="1" />
+      <edge id="12467" source="Mayor" target="O'Gar" weight="1" />
+      <edge id="12468" source="Mayor" target="Caspar" weight="2" />
+      <edge id="12469" source="Mayor" target="Bluepoint" weight="1" />
+      <edge id="12470" source="Mayor" target="First Man" weight="1" />
+      <edge id="12471" source="O'Gar" target="Leo" weight="1" />
+      <edge id="12472" source="O'Gar" target="Tom" weight="3" />
+      <edge id="12473" source="O'Gar" target="Levander" weight="1" />
+      <edge id="12474" source="O'Gar" target="Mayor" weight="1" />
+      <edge id="12475" source="Verna." target="Tom" weight="1" />
+      <edge id="12476" source="Verna." target="Verna" weight="1" />
+      <edge id="12477" source="Bernie" target="Tom" weight="7" />
+      <edge id="12478" source="Bernie" target="Frankie" weight="2" />
+      <edge id="12479" source="Bernie" target="Tic-Tac" weight="2" />
+      <edge id="12480" source="Bernie" target="Woman" weight="1" />
+      <edge id="12481" source="Bernie" target="Voice" weight="2" />
+      <edge id="12482" source="Bernie" target="Mrs. Zarpas" weight="1" />
+      <edge id="12483" source="Cud" target="Tom" weight="1" />
+      <edge id="12484" source="Cud" target="Frankie" weight="1" />
+      <edge id="12485" source="Frankie" target="Tom" weight="4" />
+      <edge id="12486" source="Frankie" target="Cud" weight="1" />
+      <edge id="12487" source="Frankie" target="Caspar" weight="1" />
+      <edge id="12488" source="Frankie" target="Johnny Jr." weight="1" />
+      <edge id="12489" source="Frankie" target="Bluepoint" weight="2" />
+      <edge id="12490" source="Frankie" target="Bernie" weight="2" />
+      <edge id="12491" source="Frankie" target="Tic-Tac" weight="3" />
+      <edge id="12492" source="Johnny Jr." target="Caspar" weight="2" />
+      <edge id="12493" source="Johnny Jr." target="Frankie" weight="1" />
+      <edge id="12494" source="Johnny Jr." target="Tom" weight="2" />
+      <edge id="12495" source="Johnny Jr." target="Bluepoint" weight="1" />
+      <edge id="12496" source="Cop" target="Tom" weight="1" />
+      <edge id="12497" source="Cop" target="Second Cop" weight="1" />
+      <edge id="12498" source="Cop" target="First Cop" weight="1" />
+      <edge id="12499" source="Second Cop" target="Cop" weight="1" />
+      <edge id="12500" source="Second Cop" target="Tom" weight="1" />
+      <edge id="12501" source="Second Cop" target="First Cop" weight="1" />
+      <edge id="12502" source="First Cop" target="Cop" weight="1" />
+      <edge id="12503" source="First Cop" target="Tom" weight="1" />
+      <edge id="12504" source="First Cop" target="Second Cop" weight="1" />
+      <edge id="12505" source="Terry" target="Tom" weight="4" />
+      <edge id="12506" source="Terry" target="Caspar" weight="1" />
+      <edge id="12507" source="Tic-Tac" target="Bernie" weight="2" />
+      <edge id="12508" source="Tic-Tac" target="Frankie" weight="3" />
+      <edge id="12509" source="Tic-Tac" target="Tom" weight="3" />
+      <edge id="12510" source="Tic-Tac" target="Bluepoint" weight="2" />
+      <edge id="12511" source="Another Voice" target="Voice" weight="1" />
+      <edge id="12512" source="Another Voice" target="Round Man" weight="1" />
+      <edge id="12513" source="Another Voice" target="Whisper" weight="1" />
+      <edge id="12514" source="Another Voice" target="Bert" weight="1" />
+      <edge id="12515" source="Another Voice" target="Tom" weight="1" />
+      <edge id="12516" source="Round Man" target="Voice" weight="1" />
+      <edge id="12517" source="Round Man" target="Another Voice" weight="1" />
+      <edge id="12518" source="Round Man" target="Whisper" weight="1" />
+      <edge id="12519" source="Round Man" target="Bert" weight="1" />
+      <edge id="12520" source="Round Man" target="Tom" weight="1" />
+      <edge id="12521" source="Whisper" target="Voice" weight="1" />
+      <edge id="12522" source="Whisper" target="Another Voice" weight="1" />
+      <edge id="12523" source="Whisper" target="Round Man" weight="1" />
+      <edge id="12524" source="Whisper" target="Bert" weight="2" />
+      <edge id="12525" source="Whisper" target="Tom" weight="2" />
+      <edge id="12526" source="Whisper" target="Sergeant" weight="1" />
+      <edge id="12527" source="Bert" target="Voice" weight="1" />
+      <edge id="12528" source="Bert" target="Another Voice" weight="1" />
+      <edge id="12529" source="Bert" target="Round Man" weight="1" />
+      <edge id="12530" source="Bert" target="Whisper" weight="2" />
+      <edge id="12531" source="Bert" target="Tom" weight="2" />
+      <edge id="12532" source="Bert" target="Sergeant" weight="1" />
+      <edge id="12533" source="Sergeant" target="Tom" weight="1" />
+      <edge id="12534" source="Sergeant" target="Bert" weight="1" />
+      <edge id="12535" source="Sergeant" target="Whisper" weight="1" />
+      <edge id="12536" source="Man In Hall" target="Bluepoint" weight="1" />
+      <edge id="12537" source="Man In Hall" target="Verna" weight="1" />
+      <edge id="12538" source="Man In Hall" target="Man" weight="1" />
+      <edge id="12539" source="Man In Hall" target="Bluepeint" weight="1" />
+      <edge id="12540" source="Bluepeint" target="Bluepoint" weight="1" />
+      <edge id="12541" source="Bluepeint" target="Verna" weight="1" />
+      <edge id="12542" source="Bluepeint" target="Man In Hall" weight="1" />
+      <edge id="12543" source="Bluepeint" target="Man" weight="1" />
+      <edge id="12544" source="Delahanty" target="Tom" weight="1" />
+      <edge id="12545" source="Delahanty" target="Tony" weight="1" />
+      <edge id="12546" source="Drop" target="Tom" weight="1" />
+      <edge id="12547" source="Secretary" target="Tom" weight="1" />
+      <edge id="12548" source="First Man" target="Mayor" weight="1" />
+      <edge id="12549" source="First Man" target="Caspar" weight="1" />
+      <edge id="12550" source="First Man" target="Tom" weight="2" />
+      <edge id="12551" source="First Man" target="First  Man" weight="1" />
+      <edge id="12552" source="First  Man" target="First Man" weight="1" />
+      <edge id="12553" source="First  Man" target="Tom" weight="1" />
+      <edge id="12554" source="Butler" target="Tom" weight="1" />
+      <edge id="12555" source="Butler" target="Caspar" weight="1" />
+      <edge id="12556" source="Driver" target="Caspar" weight="1" />
+      <edge id="12557" source="Driver" target="Tom's Voice:" weight="1" />
+      <edge id="12558" source="Driver" target="Tom" weight="1" />
+      <edge id="12559" source="Tom's Voice:" target="Caspar" weight="1" />
+      <edge id="12560" source="Tom's Voice:" target="Driver" weight="1" />
+      <edge id="12561" source="Tom's Voice:" target="Tom" weight="1" />
+      <edge id="12562" source="Mrs. Zarpas" target="Voice" weight="1" />
+      <edge id="12563" source="Mrs. Zarpas" target="Tom" weight="1" />
+      <edge id="12564" source="Mrs. Zarpas" target="Bernie" weight="1" />
+    </edges>
+  </graph>
+</gexf>

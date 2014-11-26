@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GUIDE VOICE" label="GUIDE VOICE" />
+      <node id="VOICE ON RADIO" label="VOICE ON RADIO" />
+      <node id="ARTHUR" label="ARTHUR" />
+      <node id="PROSSER" label="PROSSER" />
+      <node id="FORD" label="FORD" />
+      <node id="BARMAN" label="BARMAN" />
+      <node id="TRICIA" label="TRICIA" />
+      <node id="ZAPHOD" label="ZAPHOD" />
+      <node id="STOP!   STOP, YOU BASTARDS!!" label="STOP!   STOP, YOU BASTARDS!!" />
+      <node id="WHAT THE HELL ARE THOSE THINGS?!" label="WHAT THE HELL ARE THOSE THINGS?!" />
+      <node id="JELTZ" label="JELTZ" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="VOGON CAPTAIN" label="VOGON CAPTAIN" />
+      <node id="VOGON GUARD" label="VOGON GUARD" />
+      <node id="FEMALE VOICE" label="FEMALE VOICE" />
+      <node id="TRILLIAN" label="TRILLIAN" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="GAG HALFRRUNT" label="GAG HALFRRUNT" />
+      <node id="MARVIN" label="MARVIN" />
+      <node id="DOOR" label="DOOR" />
+      <node id="KWALTZ" label="KWALTZ" />
+      <node id="ZAPHOD HEAD 2" label="ZAPHOD HEAD 2" />
+      <node id="EDDIE" label="EDDIE" />
+      <node id="QUESTULAR" label="QUESTULAR" />
+      <node id="VOGON WORKER" label="VOGON WORKER" />
+      <node id="DEEP THOUGHT" label="DEEP THOUGHT" />
+      <node id="LUNKWILL" label="LUNKWILL" />
+      <node id="FOOK" label="FOOK" />
+      <node id="LUNKWILL &amp; FOOK" label="LUNKWILL &amp; FOOK" />
+      <node id="CROWD" label="CROWD" />
+      <node id="THIS!!" label="THIS!!" />
+      <node id="KNITTED ZAPHOD" label="KNITTED ZAPHOD" />
+      <node id="KNITTED TRILLIAN" label="KNITTED TRILLIAN" />
+      <node id="HUMMA KAVULA" label="HUMMA KAVULA" />
+      <node id="CONGREGATION" label="CONGREGATION" />
+      <node id="HUMKA KAVULA" label="HUMKA KAVULA" />
+      <node id="IDIOT! ZARKING MORON!! COME BACK!! YOU" label="IDIOT! ZARKING MORON!! COME BACK!! YOU" />
+      <node id="NEED ME!! COME BAAAAACKKKK!!!!" label="NEED ME!! COME BAAAAACKKKK!!!!" />
+      <node id="VOGON POLICE #1" label="VOGON POLICE #1" />
+      <node id="ADMIRERS" label="ADMIRERS" />
+      <node id="FEMALE ADMIRER" label="FEMALE ADMIRER" />
+      <node id="VOGON POLICE" label="VOGON POLICE" />
+      <node id="WELL WHERE THE HELL IS IT?!" label="WELL WHERE THE HELL IS IT?!" />
+      <node id="AAAH!!" label="AAAH!!" />
+      <node id="VOGON BEHIND COUNTER" label="VOGON BEHIND COUNTER" />
+      <node id="VOGON OFFICER" label="VOGON OFFICER" />
+      <node id="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" label="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" />
+      <node id="DESTROY A PLANET!?" label="DESTROY A PLANET!?" />
+      <node id="FEMALE VOGON PROCESSOR" label="FEMALE VOGON PROCESSOR" />
+      <node id="VOGON PROCESSOR" label="VOGON PROCESSOR" />
+      <node id="THIS IS INSANITY!" label="THIS IS INSANITY!" />
+      <node id="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" label="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" />
+      <node id="TELL IT TO GO?!" label="TELL IT TO GO?!" />
+      <node id="ARE YOU SURE WE REATTACHED THIS THING THE" label="ARE YOU SURE WE REATTACHED THIS THING THE" />
+      <node id="RIGHT WAY?!" label="RIGHT WAY?!" />
+      <node id="ISN'T IT GREAT?!" label="ISN'T IT GREAT?!" />
+      <node id="GHOSTLY IMAGE" label="GHOSTLY IMAGE" />
+      <node id="WHALE" label="WHALE" />
+      <node id="SLARTIBARTFAST" label="SLARTIBARTFAST" />
+      <node id="ZAPHQD" label="ZAPHQD" />
+      <node id="FRANKY MOUSE" label="FRANKY MOUSE" />
+      <node id="BENJY MOUSE" label="BENJY MOUSE" />
+      <node id="BENJY/FRANKY" label="BENJY/FRANKY" />
+      <node id="FRAHKY MOUSE" label="FRAHKY MOUSE" />
+      <node id="NOT THERE!" label="NOT THERE!" />
+      <node id="FORD/ZAPHOD" label="FORD/ZAPHOD" />
+      <node id="FRANKY HOUSE" label="FRANKY HOUSE" />
+      <node id="WHAT WAS IN THAT TEA!?" label="WHAT WAS IN THAT TEA!?" />
+      <node id="AHHHHHHHH!!!!" label="AHHHHHHHH!!!!" />
+      <node id="VOGON POLICE FORCE" label="VOGON POLICE FORCE" />
+      <node id="VOICE" label="VOICE" />
+    </nodes>
+    <edges>
+      <edge id="22079" source="GUIDE VOICE" target="VOICE ON RADIO" weight="1" />
+      <edge id="22080" source="GUIDE VOICE" target="ARTHUR" weight="4" />
+      <edge id="22081" source="GUIDE VOICE" target="FORD" weight="4" />
+      <edge id="22082" source="GUIDE VOICE" target="JELTZ" weight="2" />
+      <edge id="22083" source="GUIDE VOICE" target="VOGON GUARD" weight="3" />
+      <edge id="22084" source="GUIDE VOICE" target="FEMALE VOICE" weight="1" />
+      <edge id="22085" source="GUIDE VOICE" target="KWALTZ" weight="1" />
+      <edge id="22086" source="GUIDE VOICE" target="VOGON CAPTAIN" weight="1" />
+      <edge id="22087" source="GUIDE VOICE" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22088" source="GUIDE VOICE" target="TRILLIAN" weight="1" />
+      <edge id="22089" source="GUIDE VOICE" target="ZAPHOD" weight="1" />
+      <edge id="22090" source="GUIDE VOICE" target="WHALE" weight="1" />
+      <edge id="22091" source="VOICE ON RADIO" target="GUIDE VOICE" weight="1" />
+      <edge id="22092" source="ARTHUR" target="PROSSER" weight="1" />
+      <edge id="22093" source="ARTHUR" target="FORD" weight="35" />
+      <edge id="22094" source="ARTHUR" target="BARMAN" weight="2" />
+      <edge id="22095" source="ARTHUR" target="TRICIA" weight="2" />
+      <edge id="22096" source="ARTHUR" target="ZAPHOD" weight="25" />
+      <edge id="22097" source="ARTHUR" target="STOP!   STOP, YOU BASTARDS!!" weight="1" />
+      <edge id="22098" source="ARTHUR" target="WHAT THE HELL ARE THOSE THINGS?!" weight="1" />
+      <edge id="22099" source="ARTHUR" target="GUIDE VOICE" weight="4" />
+      <edge id="22100" source="ARTHUR" target="JELTZ" weight="2" />
+      <edge id="22101" source="ARTHUR" target="VOGON GUARD" weight="3" />
+      <edge id="22102" source="ARTHUR" target="FEMALE VOICE" weight="1" />
+      <edge id="22103" source="ARTHUR" target="TRILLIAN" weight="15" />
+      <edge id="22104" source="ARTHUR" target="DOOR" weight="1" />
+      <edge id="22105" source="ARTHUR" target="MARVIN" weight="9" />
+      <edge id="22106" source="ARTHUR" target="ZAPHOD HEAD 2" weight="6" />
+      <edge id="22107" source="ARTHUR" target="EDDIE" weight="7" />
+      <edge id="22108" source="ARTHUR" target="QUESTULAR" weight="4" />
+      <edge id="22109" source="ARTHUR" target="THIS!!" weight="1" />
+      <edge id="22110" source="ARTHUR" target="HUMMA KAVULA" weight="2" />
+      <edge id="22111" source="ARTHUR" target="CONGREGATION" weight="1" />
+      <edge id="22112" source="ARTHUR" target="HUMKA KAVULA" weight="1" />
+      <edge id="22113" source="ARTHUR" target="CROWD" weight="1" />
+      <edge id="22114" source="ARTHUR" target="VOGON POLICE #1" weight="1" />
+      <edge id="22115" source="ARTHUR" target="KWALTZ" weight="3" />
+      <edge id="22116" source="ARTHUR" target="ADMIRERS" weight="1" />
+      <edge id="22117" source="ARTHUR" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22118" source="ARTHUR" target="VOGON POLICE" weight="1" />
+      <edge id="22119" source="ARTHUR" target="WELL WHERE THE HELL IS IT?!" weight="1" />
+      <edge id="22120" source="ARTHUR" target="AAAH!!" weight="1" />
+      <edge id="22121" source="ARTHUR" target="VOGON BEHIND COUNTER" weight="1" />
+      <edge id="22122" source="ARTHUR" target="FEMALE VOGON PROCESSOR" weight="1" />
+      <edge id="22123" source="ARTHUR" target="VOGON PROCESSOR" weight="1" />
+      <edge id="22124" source="ARTHUR" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22125" source="ARTHUR" target="SLARTIBARTFAST" weight="7" />
+      <edge id="22126" source="ARTHUR" target="FRANKY MOUSE" weight="1" />
+      <edge id="22127" source="ARTHUR" target="BENJY MOUSE" weight="1" />
+      <edge id="22128" source="ARTHUR" target="BENJY/FRANKY" weight="1" />
+      <edge id="22129" source="ARTHUR" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22130" source="ARTHUR" target="NOT THERE!" weight="1" />
+      <edge id="22131" source="ARTHUR" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22132" source="ARTHUR" target="FRANKY HOUSE" weight="1" />
+      <edge id="22133" source="ARTHUR" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22134" source="ARTHUR" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22135" source="ARTHUR" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22136" source="PROSSER" target="ARTHUR" weight="1" />
+      <edge id="22137" source="PROSSER" target="FORD" weight="1" />
+      <edge id="22138" source="FORD" target="ARTHUR" weight="35" />
+      <edge id="22139" source="FORD" target="PROSSER" weight="1" />
+      <edge id="22140" source="FORD" target="BARMAN" weight="2" />
+      <edge id="22141" source="FORD" target="STOP!   STOP, YOU BASTARDS!!" weight="1" />
+      <edge id="22142" source="FORD" target="WHAT THE HELL ARE THOSE THINGS?!" weight="1" />
+      <edge id="22143" source="FORD" target="GUIDE VOICE" weight="4" />
+      <edge id="22144" source="FORD" target="JELTZ" weight="2" />
+      <edge id="22145" source="FORD" target="VOGON GUARD" weight="3" />
+      <edge id="22146" source="FORD" target="FEMALE VOICE" weight="1" />
+      <edge id="22147" source="FORD" target="TRILLIAN" weight="13" />
+      <edge id="22148" source="FORD" target="DOOR" weight="1" />
+      <edge id="22149" source="FORD" target="MARVIN" weight="8" />
+      <edge id="22150" source="FORD" target="ZAPHOD" weight="22" />
+      <edge id="22151" source="FORD" target="ZAPHOD HEAD 2" weight="5" />
+      <edge id="22152" source="FORD" target="EDDIE" weight="6" />
+      <edge id="22153" source="FORD" target="QUESTULAR" weight="3" />
+      <edge id="22154" source="FORD" target="THIS!!" weight="1" />
+      <edge id="22155" source="FORD" target="HUMMA KAVULA" weight="2" />
+      <edge id="22156" source="FORD" target="CONGREGATION" weight="1" />
+      <edge id="22157" source="FORD" target="HUMKA KAVULA" weight="1" />
+      <edge id="22158" source="FORD" target="CROWD" weight="1" />
+      <edge id="22159" source="FORD" target="VOGON POLICE #1" weight="1" />
+      <edge id="22160" source="FORD" target="KWALTZ" weight="2" />
+      <edge id="22161" source="FORD" target="ADMIRERS" weight="1" />
+      <edge id="22162" source="FORD" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22163" source="FORD" target="VOGON POLICE" weight="1" />
+      <edge id="22164" source="FORD" target="WELL WHERE THE HELL IS IT?!" weight="1" />
+      <edge id="22165" source="FORD" target="AAAH!!" weight="1" />
+      <edge id="22166" source="FORD" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22167" source="FORD" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22168" source="FORD" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22169" source="FORD" target="RIGHT WAY?!" weight="1" />
+      <edge id="22170" source="FORD" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22171" source="FORD" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22172" source="FORD" target="DEEP THOUGHT" weight="1" />
+      <edge id="22173" source="FORD" target="ZAPHQD" weight="1" />
+      <edge id="22174" source="FORD" target="FRANKY MOUSE" weight="1" />
+      <edge id="22175" source="FORD" target="BENJY MOUSE" weight="1" />
+      <edge id="22176" source="FORD" target="SLARTIBARTFAST" weight="2" />
+      <edge id="22177" source="FORD" target="BENJY/FRANKY" weight="1" />
+      <edge id="22178" source="FORD" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22179" source="FORD" target="NOT THERE!" weight="1" />
+      <edge id="22180" source="FORD" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22181" source="FORD" target="FRANKY HOUSE" weight="1" />
+      <edge id="22182" source="FORD" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22183" source="FORD" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22184" source="FORD" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22185" source="BARMAN" target="FORD" weight="2" />
+      <edge id="22186" source="BARMAN" target="ARTHUR" weight="2" />
+      <edge id="22187" source="TRICIA" target="ARTHUR" weight="2" />
+      <edge id="22188" source="TRICIA" target="ZAPHOD" weight="1" />
+      <edge id="22189" source="ZAPHOD" target="ARTHUR" weight="25" />
+      <edge id="22190" source="ZAPHOD" target="TRICIA" weight="1" />
+      <edge id="22191" source="ZAPHOD" target="REPORTER" weight="1" />
+      <edge id="22192" source="ZAPHOD" target="FEMALE VOICE" weight="1" />
+      <edge id="22193" source="ZAPHOD" target="TRILLIAN" weight="16" />
+      <edge id="22194" source="ZAPHOD" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22195" source="ZAPHOD" target="MARVIN" weight="8" />
+      <edge id="22196" source="ZAPHOD" target="DOOR" weight="1" />
+      <edge id="22197" source="ZAPHOD" target="FORD" weight="22" />
+      <edge id="22198" source="ZAPHOD" target="ZAPHOD HEAD 2" weight="6" />
+      <edge id="22199" source="ZAPHOD" target="EDDIE" weight="7" />
+      <edge id="22200" source="ZAPHOD" target="QUESTULAR" weight="4" />
+      <edge id="22201" source="ZAPHOD" target="THIS!!" weight="1" />
+      <edge id="22202" source="ZAPHOD" target="GUIDE VOICE" weight="1" />
+      <edge id="22203" source="ZAPHOD" target="HUMMA KAVULA" weight="2" />
+      <edge id="22204" source="ZAPHOD" target="CONGREGATION" weight="1" />
+      <edge id="22205" source="ZAPHOD" target="HUMKA KAVULA" weight="1" />
+      <edge id="22206" source="ZAPHOD" target="KWALTZ" weight="3" />
+      <edge id="22207" source="ZAPHOD" target="ADMIRERS" weight="1" />
+      <edge id="22208" source="ZAPHOD" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22209" source="ZAPHOD" target="VOGON POLICE" weight="1" />
+      <edge id="22210" source="ZAPHOD" target="WELL WHERE THE HELL IS IT?!" weight="1" />
+      <edge id="22211" source="ZAPHOD" target="AAAH!!" weight="1" />
+      <edge id="22212" source="ZAPHOD" target="FEMALE VOGON PROCESSOR" weight="1" />
+      <edge id="22213" source="ZAPHOD" target="VOGON PROCESSOR" weight="1" />
+      <edge id="22214" source="ZAPHOD" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22215" source="ZAPHOD" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22216" source="ZAPHOD" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22217" source="ZAPHOD" target="RIGHT WAY?!" weight="1" />
+      <edge id="22218" source="ZAPHOD" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22219" source="ZAPHOD" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22220" source="ZAPHOD" target="DEEP THOUGHT" weight="1" />
+      <edge id="22221" source="ZAPHOD" target="ZAPHQD" weight="1" />
+      <edge id="22222" source="ZAPHOD" target="FRANKY MOUSE" weight="1" />
+      <edge id="22223" source="ZAPHOD" target="BENJY MOUSE" weight="1" />
+      <edge id="22224" source="ZAPHOD" target="SLARTIBARTFAST" weight="2" />
+      <edge id="22225" source="ZAPHOD" target="BENJY/FRANKY" weight="1" />
+      <edge id="22226" source="ZAPHOD" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22227" source="ZAPHOD" target="NOT THERE!" weight="1" />
+      <edge id="22228" source="ZAPHOD" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22229" source="ZAPHOD" target="FRANKY HOUSE" weight="1" />
+      <edge id="22230" source="ZAPHOD" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22231" source="ZAPHOD" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22232" source="ZAPHOD" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22233" source="STOP!   STOP, YOU BASTARDS!!" target="ARTHUR" weight="1" />
+      <edge id="22234" source="STOP!   STOP, YOU BASTARDS!!" target="WHAT THE HELL ARE THOSE THINGS?!" weight="1" />
+      <edge id="22235" source="STOP!   STOP, YOU BASTARDS!!" target="FORD" weight="1" />
+      <edge id="22236" source="WHAT THE HELL ARE THOSE THINGS?!" target="ARTHUR" weight="1" />
+      <edge id="22237" source="WHAT THE HELL ARE THOSE THINGS?!" target="STOP!   STOP, YOU BASTARDS!!" weight="1" />
+      <edge id="22238" source="WHAT THE HELL ARE THOSE THINGS?!" target="FORD" weight="1" />
+      <edge id="22239" source="JELTZ" target="ARTHUR" weight="2" />
+      <edge id="22240" source="JELTZ" target="FORD" weight="2" />
+      <edge id="22241" source="JELTZ" target="GUIDE VOICE" weight="2" />
+      <edge id="22242" source="JELTZ" target="VOGON GUARD" weight="2" />
+      <edge id="22243" source="VOGON CAPTAIN" target="KWALTZ" weight="3" />
+      <edge id="22244" source="VOGON CAPTAIN" target="GUIDE VOICE" weight="1" />
+      <edge id="22245" source="VOGON GUARD" target="ARTHUR" weight="3" />
+      <edge id="22246" source="VOGON GUARD" target="FORD" weight="3" />
+      <edge id="22247" source="VOGON GUARD" target="GUIDE VOICE" weight="3" />
+      <edge id="22248" source="VOGON GUARD" target="JELTZ" weight="2" />
+      <edge id="22249" source="FEMALE VOICE" target="GUIDE VOICE" weight="1" />
+      <edge id="22250" source="FEMALE VOICE" target="ARTHUR" weight="1" />
+      <edge id="22251" source="FEMALE VOICE" target="FORD" weight="1" />
+      <edge id="22252" source="FEMALE VOICE" target="TRILLIAN" weight="2" />
+      <edge id="22253" source="FEMALE VOICE" target="REPORTER" weight="1" />
+      <edge id="22254" source="FEMALE VOICE" target="ZAPHOD" weight="1" />
+      <edge id="22255" source="FEMALE VOICE" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22256" source="FEMALE VOICE" target="MARVIN" weight="1" />
+      <edge id="22257" source="FEMALE VOICE" target="DOOR" weight="1" />
+      <edge id="22258" source="TRILLIAN" target="FEMALE VOICE" weight="2" />
+      <edge id="22259" source="TRILLIAN" target="ARTHUR" weight="15" />
+      <edge id="22260" source="TRILLIAN" target="FORD" weight="13" />
+      <edge id="22261" source="TRILLIAN" target="REPORTER" weight="1" />
+      <edge id="22262" source="TRILLIAN" target="ZAPHOD" weight="16" />
+      <edge id="22263" source="TRILLIAN" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22264" source="TRILLIAN" target="MARVIN" weight="4" />
+      <edge id="22265" source="TRILLIAN" target="DOOR" weight="1" />
+      <edge id="22266" source="TRILLIAN" target="ZAPHOD HEAD 2" weight="5" />
+      <edge id="22267" source="TRILLIAN" target="EDDIE" weight="3" />
+      <edge id="22268" source="TRILLIAN" target="QUESTULAR" weight="3" />
+      <edge id="22269" source="TRILLIAN" target="THIS!!" weight="1" />
+      <edge id="22270" source="TRILLIAN" target="GUIDE VOICE" weight="1" />
+      <edge id="22271" source="TRILLIAN" target="KWALTZ" weight="3" />
+      <edge id="22272" source="TRILLIAN" target="ADMIRERS" weight="1" />
+      <edge id="22273" source="TRILLIAN" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22274" source="TRILLIAN" target="VOGON POLICE" weight="1" />
+      <edge id="22275" source="TRILLIAN" target="VOGON OFFICER" weight="1" />
+      <edge id="22276" source="TRILLIAN" target="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" weight="1" />
+      <edge id="22277" source="TRILLIAN" target="DESTROY A PLANET!?" weight="1" />
+      <edge id="22278" source="TRILLIAN" target="DEEP THOUGHT" weight="1" />
+      <edge id="22279" source="TRILLIAN" target="ZAPHQD" weight="1" />
+      <edge id="22280" source="TRILLIAN" target="FRANKY MOUSE" weight="1" />
+      <edge id="22281" source="TRILLIAN" target="BENJY MOUSE" weight="1" />
+      <edge id="22282" source="TRILLIAN" target="SLARTIBARTFAST" weight="2" />
+      <edge id="22283" source="TRILLIAN" target="BENJY/FRANKY" weight="1" />
+      <edge id="22284" source="TRILLIAN" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22285" source="TRILLIAN" target="NOT THERE!" weight="1" />
+      <edge id="22286" source="TRILLIAN" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22287" source="TRILLIAN" target="FRANKY HOUSE" weight="1" />
+      <edge id="22288" source="TRILLIAN" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22289" source="TRILLIAN" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22290" source="TRILLIAN" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22291" source="REPORTER" target="ZAPHOD" weight="1" />
+      <edge id="22292" source="REPORTER" target="FEMALE VOICE" weight="1" />
+      <edge id="22293" source="REPORTER" target="TRILLIAN" weight="1" />
+      <edge id="22294" source="REPORTER" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22295" source="REPORTER" target="MARVIN" weight="1" />
+      <edge id="22296" source="REPORTER" target="DOOR" weight="1" />
+      <edge id="22297" source="GAG HALFRRUNT" target="REPORTER" weight="1" />
+      <edge id="22298" source="GAG HALFRRUNT" target="ZAPHOD" weight="1" />
+      <edge id="22299" source="GAG HALFRRUNT" target="FEMALE VOICE" weight="1" />
+      <edge id="22300" source="GAG HALFRRUNT" target="TRILLIAN" weight="1" />
+      <edge id="22301" source="GAG HALFRRUNT" target="MARVIN" weight="1" />
+      <edge id="22302" source="GAG HALFRRUNT" target="DOOR" weight="1" />
+      <edge id="22303" source="MARVIN" target="REPORTER" weight="1" />
+      <edge id="22304" source="MARVIN" target="ZAPHOD" weight="8" />
+      <edge id="22305" source="MARVIN" target="FEMALE VOICE" weight="1" />
+      <edge id="22306" source="MARVIN" target="TRILLIAN" weight="4" />
+      <edge id="22307" source="MARVIN" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22308" source="MARVIN" target="DOOR" weight="2" />
+      <edge id="22309" source="MARVIN" target="ARTHUR" weight="9" />
+      <edge id="22310" source="MARVIN" target="FORD" weight="8" />
+      <edge id="22311" source="MARVIN" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22312" source="MARVIN" target="EDDIE" weight="3" />
+      <edge id="22313" source="MARVIN" target="QUESTULAR" weight="2" />
+      <edge id="22314" source="MARVIN" target="WELL WHERE THE HELL IS IT?!" weight="1" />
+      <edge id="22315" source="MARVIN" target="AAAH!!" weight="1" />
+      <edge id="22316" source="MARVIN" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22317" source="MARVIN" target="SLARTIBARTFAST" weight="2" />
+      <edge id="22318" source="MARVIN" target="KWALTZ" weight="1" />
+      <edge id="22319" source="MARVIN" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22320" source="MARVIN" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22321" source="DOOR" target="REPORTER" weight="1" />
+      <edge id="22322" source="DOOR" target="ZAPHOD" weight="1" />
+      <edge id="22323" source="DOOR" target="FEMALE VOICE" weight="1" />
+      <edge id="22324" source="DOOR" target="TRILLIAN" weight="1" />
+      <edge id="22325" source="DOOR" target="GAG HALFRRUNT" weight="1" />
+      <edge id="22326" source="DOOR" target="MARVIN" weight="2" />
+      <edge id="22327" source="DOOR" target="ARTHUR" weight="1" />
+      <edge id="22328" source="DOOR" target="FORD" weight="1" />
+      <edge id="22329" source="KWALTZ" target="VOGON CAPTAIN" weight="3" />
+      <edge id="22330" source="KWALTZ" target="VOGON WORKER" weight="1" />
+      <edge id="22331" source="KWALTZ" target="QUESTULAR" weight="9" />
+      <edge id="22332" source="KWALTZ" target="GUIDE VOICE" weight="1" />
+      <edge id="22333" source="KWALTZ" target="TRILLIAN" weight="3" />
+      <edge id="22334" source="KWALTZ" target="ADMIRERS" weight="1" />
+      <edge id="22335" source="KWALTZ" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22336" source="KWALTZ" target="ZAPHOD" weight="3" />
+      <edge id="22337" source="KWALTZ" target="VOGON POLICE" weight="1" />
+      <edge id="22338" source="KWALTZ" target="ARTHUR" weight="3" />
+      <edge id="22339" source="KWALTZ" target="FORD" weight="2" />
+      <edge id="22340" source="KWALTZ" target="FEMALE VOGON PROCESSOR" weight="1" />
+      <edge id="22341" source="KWALTZ" target="VOGON PROCESSOR" weight="1" />
+      <edge id="22342" source="KWALTZ" target="THIS IS INSANITY!" weight="1" />
+      <edge id="22343" source="KWALTZ" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22344" source="KWALTZ" target="MARVIN" weight="1" />
+      <edge id="22345" source="KWALTZ" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22346" source="KWALTZ" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22347" source="KWALTZ" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22348" source="ZAPHOD HEAD 2" target="MARVIN" weight="1" />
+      <edge id="22349" source="ZAPHOD HEAD 2" target="ZAPHOD" weight="6" />
+      <edge id="22350" source="ZAPHOD HEAD 2" target="FORD" weight="5" />
+      <edge id="22351" source="ZAPHOD HEAD 2" target="ARTHUR" weight="6" />
+      <edge id="22352" source="ZAPHOD HEAD 2" target="TRILLIAN" weight="5" />
+      <edge id="22353" source="ZAPHOD HEAD 2" target="EDDIE" weight="2" />
+      <edge id="22354" source="ZAPHOD HEAD 2" target="QUESTULAR" weight="1" />
+      <edge id="22355" source="ZAPHOD HEAD 2" target="THIS!!" weight="1" />
+      <edge id="22356" source="ZAPHOD HEAD 2" target="GUIDE VOICE" weight="1" />
+      <edge id="22357" source="ZAPHOD HEAD 2" target="HUMMA KAVULA" weight="2" />
+      <edge id="22358" source="ZAPHOD HEAD 2" target="HUMKA KAVULA" weight="1" />
+      <edge id="22359" source="ZAPHOD HEAD 2" target="IDIOT! ZARKING MORON!! COME BACK!! YOU" weight="1" />
+      <edge id="22360" source="ZAPHOD HEAD 2" target="NEED ME!! COME BAAAAACKKKK!!!!" weight="1" />
+      <edge id="22361" source="EDDIE" target="MARVIN" weight="3" />
+      <edge id="22362" source="EDDIE" target="ZAPHOD" weight="7" />
+      <edge id="22363" source="EDDIE" target="FORD" weight="6" />
+      <edge id="22364" source="EDDIE" target="ARTHUR" weight="7" />
+      <edge id="22365" source="EDDIE" target="TRILLIAN" weight="3" />
+      <edge id="22366" source="EDDIE" target="ZAPHOD HEAD 2" weight="2" />
+      <edge id="22367" source="EDDIE" target="QUESTULAR" weight="1" />
+      <edge id="22368" source="EDDIE" target="WELL WHERE THE HELL IS IT?!" weight="1" />
+      <edge id="22369" source="EDDIE" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22370" source="EDDIE" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22371" source="EDDIE" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22372" source="EDDIE" target="RIGHT WAY?!" weight="1" />
+      <edge id="22373" source="EDDIE" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22374" source="EDDIE" target="GHOSTLY IMAGE" weight="1" />
+      <edge id="22375" source="QUESTULAR" target="MARVIN" weight="2" />
+      <edge id="22376" source="QUESTULAR" target="ZAPHOD" weight="4" />
+      <edge id="22377" source="QUESTULAR" target="FORD" weight="3" />
+      <edge id="22378" source="QUESTULAR" target="ARTHUR" weight="4" />
+      <edge id="22379" source="QUESTULAR" target="TRILLIAN" weight="3" />
+      <edge id="22380" source="QUESTULAR" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22381" source="QUESTULAR" target="EDDIE" weight="1" />
+      <edge id="22382" source="QUESTULAR" target="KWALTZ" weight="9" />
+      <edge id="22383" source="QUESTULAR" target="VOGON WORKER" weight="1" />
+      <edge id="22384" source="QUESTULAR" target="ADMIRERS" weight="1" />
+      <edge id="22385" source="QUESTULAR" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22386" source="QUESTULAR" target="VOGON POLICE" weight="1" />
+      <edge id="22387" source="QUESTULAR" target="FEMALE VOGON PROCESSOR" weight="1" />
+      <edge id="22388" source="QUESTULAR" target="VOGON PROCESSOR" weight="1" />
+      <edge id="22389" source="QUESTULAR" target="THIS IS INSANITY!" weight="1" />
+      <edge id="22390" source="QUESTULAR" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22391" source="QUESTULAR" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22392" source="QUESTULAR" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22393" source="VOGON WORKER" target="KWALTZ" weight="1" />
+      <edge id="22394" source="VOGON WORKER" target="QUESTULAR" weight="1" />
+      <edge id="22395" source="DEEP THOUGHT" target="LUNKWILL" weight="2" />
+      <edge id="22396" source="DEEP THOUGHT" target="FOOK" weight="2" />
+      <edge id="22397" source="DEEP THOUGHT" target="LUNKWILL &amp; FOOK" weight="1" />
+      <edge id="22398" source="DEEP THOUGHT" target="CROWD" weight="1" />
+      <edge id="22399" source="DEEP THOUGHT" target="ZAPHOD" weight="1" />
+      <edge id="22400" source="DEEP THOUGHT" target="ZAPHQD" weight="1" />
+      <edge id="22401" source="DEEP THOUGHT" target="FORD" weight="1" />
+      <edge id="22402" source="DEEP THOUGHT" target="TRILLIAN" weight="1" />
+      <edge id="22403" source="LUNKWILL" target="DEEP THOUGHT" weight="2" />
+      <edge id="22404" source="LUNKWILL" target="FOOK" weight="2" />
+      <edge id="22405" source="LUNKWILL" target="LUNKWILL &amp; FOOK" weight="1" />
+      <edge id="22406" source="LUNKWILL" target="CROWD" weight="1" />
+      <edge id="22407" source="FOOK" target="DEEP THOUGHT" weight="2" />
+      <edge id="22408" source="FOOK" target="LUNKWILL" weight="2" />
+      <edge id="22409" source="FOOK" target="LUNKWILL &amp; FOOK" weight="1" />
+      <edge id="22410" source="FOOK" target="CROWD" weight="1" />
+      <edge id="22411" source="LUNKWILL &amp; FOOK" target="DEEP THOUGHT" weight="1" />
+      <edge id="22412" source="LUNKWILL &amp; FOOK" target="LUNKWILL" weight="1" />
+      <edge id="22413" source="LUNKWILL &amp; FOOK" target="FOOK" weight="1" />
+      <edge id="22414" source="CROWD" target="DEEP THOUGHT" weight="1" />
+      <edge id="22415" source="CROWD" target="FOOK" weight="1" />
+      <edge id="22416" source="CROWD" target="LUNKWILL" weight="1" />
+      <edge id="22417" source="CROWD" target="ARTHUR" weight="1" />
+      <edge id="22418" source="CROWD" target="FORD" weight="1" />
+      <edge id="22419" source="CROWD" target="VOGON POLICE #1" weight="1" />
+      <edge id="22420" source="THIS!!" target="FORD" weight="1" />
+      <edge id="22421" source="THIS!!" target="ZAPHOD" weight="1" />
+      <edge id="22422" source="THIS!!" target="ARTHUR" weight="1" />
+      <edge id="22423" source="THIS!!" target="TRILLIAN" weight="1" />
+      <edge id="22424" source="THIS!!" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22425" source="KNITTED ZAPHOD" target="KNITTED TRILLIAN" weight="1" />
+      <edge id="22426" source="KNITTED TRILLIAN" target="KNITTED ZAPHOD" weight="1" />
+      <edge id="22427" source="HUMMA KAVULA" target="ZAPHOD" weight="2" />
+      <edge id="22428" source="HUMMA KAVULA" target="ARTHUR" weight="2" />
+      <edge id="22429" source="HUMMA KAVULA" target="FORD" weight="2" />
+      <edge id="22430" source="HUMMA KAVULA" target="CONGREGATION" weight="1" />
+      <edge id="22431" source="HUMMA KAVULA" target="ZAPHOD HEAD 2" weight="2" />
+      <edge id="22432" source="HUMMA KAVULA" target="HUMKA KAVULA" weight="1" />
+      <edge id="22433" source="HUMMA KAVULA" target="IDIOT! ZARKING MORON!! COME BACK!! YOU" weight="1" />
+      <edge id="22434" source="HUMMA KAVULA" target="NEED ME!! COME BAAAAACKKKK!!!!" weight="1" />
+      <edge id="22435" source="CONGREGATION" target="HUMMA KAVULA" weight="1" />
+      <edge id="22436" source="CONGREGATION" target="ZAPHOD" weight="1" />
+      <edge id="22437" source="CONGREGATION" target="ARTHUR" weight="1" />
+      <edge id="22438" source="CONGREGATION" target="FORD" weight="1" />
+      <edge id="22439" source="HUMKA KAVULA" target="HUMMA KAVULA" weight="1" />
+      <edge id="22440" source="HUMKA KAVULA" target="ZAPHOD" weight="1" />
+      <edge id="22441" source="HUMKA KAVULA" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22442" source="HUMKA KAVULA" target="ARTHUR" weight="1" />
+      <edge id="22443" source="HUMKA KAVULA" target="FORD" weight="1" />
+      <edge id="22444" source="IDIOT! ZARKING MORON!! COME BACK!! YOU" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22445" source="IDIOT! ZARKING MORON!! COME BACK!! YOU" target="NEED ME!! COME BAAAAACKKKK!!!!" weight="1" />
+      <edge id="22446" source="IDIOT! ZARKING MORON!! COME BACK!! YOU" target="HUMMA KAVULA" weight="1" />
+      <edge id="22447" source="NEED ME!! COME BAAAAACKKKK!!!!" target="ZAPHOD HEAD 2" weight="1" />
+      <edge id="22448" source="NEED ME!! COME BAAAAACKKKK!!!!" target="IDIOT! ZARKING MORON!! COME BACK!! YOU" weight="1" />
+      <edge id="22449" source="NEED ME!! COME BAAAAACKKKK!!!!" target="HUMMA KAVULA" weight="1" />
+      <edge id="22450" source="VOGON POLICE #1" target="ARTHUR" weight="1" />
+      <edge id="22451" source="VOGON POLICE #1" target="FORD" weight="1" />
+      <edge id="22452" source="VOGON POLICE #1" target="CROWD" weight="1" />
+      <edge id="22453" source="ADMIRERS" target="QUESTULAR" weight="1" />
+      <edge id="22454" source="ADMIRERS" target="TRILLIAN" weight="1" />
+      <edge id="22455" source="ADMIRERS" target="KWALTZ" weight="1" />
+      <edge id="22456" source="ADMIRERS" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22457" source="ADMIRERS" target="ZAPHOD" weight="1" />
+      <edge id="22458" source="ADMIRERS" target="VOGON POLICE" weight="1" />
+      <edge id="22459" source="ADMIRERS" target="ARTHUR" weight="1" />
+      <edge id="22460" source="ADMIRERS" target="FORD" weight="1" />
+      <edge id="22461" source="FEMALE ADMIRER" target="QUESTULAR" weight="1" />
+      <edge id="22462" source="FEMALE ADMIRER" target="TRILLIAN" weight="1" />
+      <edge id="22463" source="FEMALE ADMIRER" target="KWALTZ" weight="1" />
+      <edge id="22464" source="FEMALE ADMIRER" target="ADMIRERS" weight="1" />
+      <edge id="22465" source="FEMALE ADMIRER" target="ZAPHOD" weight="1" />
+      <edge id="22466" source="FEMALE ADMIRER" target="VOGON POLICE" weight="1" />
+      <edge id="22467" source="FEMALE ADMIRER" target="ARTHUR" weight="1" />
+      <edge id="22468" source="FEMALE ADMIRER" target="FORD" weight="1" />
+      <edge id="22469" source="VOGON POLICE" target="QUESTULAR" weight="1" />
+      <edge id="22470" source="VOGON POLICE" target="TRILLIAN" weight="1" />
+      <edge id="22471" source="VOGON POLICE" target="KWALTZ" weight="1" />
+      <edge id="22472" source="VOGON POLICE" target="ADMIRERS" weight="1" />
+      <edge id="22473" source="VOGON POLICE" target="FEMALE ADMIRER" weight="1" />
+      <edge id="22474" source="VOGON POLICE" target="ZAPHOD" weight="1" />
+      <edge id="22475" source="VOGON POLICE" target="ARTHUR" weight="1" />
+      <edge id="22476" source="VOGON POLICE" target="FORD" weight="1" />
+      <edge id="22477" source="WELL WHERE THE HELL IS IT?!" target="ARTHUR" weight="1" />
+      <edge id="22478" source="WELL WHERE THE HELL IS IT?!" target="ZAPHOD" weight="1" />
+      <edge id="22479" source="WELL WHERE THE HELL IS IT?!" target="EDDIE" weight="1" />
+      <edge id="22480" source="WELL WHERE THE HELL IS IT?!" target="FORD" weight="1" />
+      <edge id="22481" source="WELL WHERE THE HELL IS IT?!" target="MARVIN" weight="1" />
+      <edge id="22482" source="AAAH!!" target="MARVIN" weight="1" />
+      <edge id="22483" source="AAAH!!" target="FORD" weight="1" />
+      <edge id="22484" source="AAAH!!" target="ARTHUR" weight="1" />
+      <edge id="22485" source="AAAH!!" target="ZAPHOD" weight="1" />
+      <edge id="22486" source="VOGON BEHIND COUNTER" target="ARTHUR" weight="1" />
+      <edge id="22487" source="VOGON OFFICER" target="TRILLIAN" weight="1" />
+      <edge id="22488" source="VOGON OFFICER" target="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" weight="1" />
+      <edge id="22489" source="VOGON OFFICER" target="DESTROY A PLANET!?" weight="1" />
+      <edge id="22490" source="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" target="VOGON OFFICER" weight="1" />
+      <edge id="22491" source="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" target="TRILLIAN" weight="1" />
+      <edge id="22492" source="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" target="DESTROY A PLANET!?" weight="1" />
+      <edge id="22493" source="DESTROY A PLANET!?" target="VOGON OFFICER" weight="1" />
+      <edge id="22494" source="DESTROY A PLANET!?" target="TRILLIAN" weight="1" />
+      <edge id="22495" source="DESTROY A PLANET!?" target="WHO IN THEIR RIGHT MIND GIVES AN ORDER TO" weight="1" />
+      <edge id="22496" source="FEMALE VOGON PROCESSOR" target="ARTHUR" weight="1" />
+      <edge id="22497" source="FEMALE VOGON PROCESSOR" target="ZAPHOD" weight="1" />
+      <edge id="22498" source="FEMALE VOGON PROCESSOR" target="VOGON PROCESSOR" weight="1" />
+      <edge id="22499" source="FEMALE VOGON PROCESSOR" target="KWALTZ" weight="1" />
+      <edge id="22500" source="FEMALE VOGON PROCESSOR" target="QUESTULAR" weight="1" />
+      <edge id="22501" source="VOGON PROCESSOR" target="FEMALE VOGON PROCESSOR" weight="1" />
+      <edge id="22502" source="VOGON PROCESSOR" target="ARTHUR" weight="1" />
+      <edge id="22503" source="VOGON PROCESSOR" target="ZAPHOD" weight="1" />
+      <edge id="22504" source="VOGON PROCESSOR" target="KWALTZ" weight="1" />
+      <edge id="22505" source="VOGON PROCESSOR" target="QUESTULAR" weight="1" />
+      <edge id="22506" source="THIS IS INSANITY!" target="QUESTULAR" weight="1" />
+      <edge id="22507" source="THIS IS INSANITY!" target="KWALTZ" weight="1" />
+      <edge id="22508" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="EDDIE" weight="1" />
+      <edge id="22509" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="ZAPHOD" weight="1" />
+      <edge id="22510" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="FORD" weight="1" />
+      <edge id="22511" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22512" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22513" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="RIGHT WAY?!" weight="1" />
+      <edge id="22514" source="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22515" source="TELL IT TO GO?!" target="EDDIE" weight="1" />
+      <edge id="22516" source="TELL IT TO GO?!" target="ZAPHOD" weight="1" />
+      <edge id="22517" source="TELL IT TO GO?!" target="FORD" weight="1" />
+      <edge id="22518" source="TELL IT TO GO?!" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22519" source="TELL IT TO GO?!" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22520" source="TELL IT TO GO?!" target="RIGHT WAY?!" weight="1" />
+      <edge id="22521" source="TELL IT TO GO?!" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22522" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="EDDIE" weight="1" />
+      <edge id="22523" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="ZAPHOD" weight="1" />
+      <edge id="22524" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="FORD" weight="1" />
+      <edge id="22525" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22526" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22527" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="RIGHT WAY?!" weight="1" />
+      <edge id="22528" source="ARE YOU SURE WE REATTACHED THIS THING THE" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22529" source="RIGHT WAY?!" target="EDDIE" weight="1" />
+      <edge id="22530" source="RIGHT WAY?!" target="ZAPHOD" weight="1" />
+      <edge id="22531" source="RIGHT WAY?!" target="FORD" weight="1" />
+      <edge id="22532" source="RIGHT WAY?!" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22533" source="RIGHT WAY?!" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22534" source="RIGHT WAY?!" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22535" source="RIGHT WAY?!" target="ISN'T IT GREAT?!" weight="1" />
+      <edge id="22536" source="ISN'T IT GREAT?!" target="EDDIE" weight="1" />
+      <edge id="22537" source="ISN'T IT GREAT?!" target="ZAPHOD" weight="1" />
+      <edge id="22538" source="ISN'T IT GREAT?!" target="FORD" weight="1" />
+      <edge id="22539" source="ISN'T IT GREAT?!" target="WHAT'S HAPPENING, ZAPHOD?!   WHERE DID YOU" weight="1" />
+      <edge id="22540" source="ISN'T IT GREAT?!" target="TELL IT TO GO?!" weight="1" />
+      <edge id="22541" source="ISN'T IT GREAT?!" target="ARE YOU SURE WE REATTACHED THIS THING THE" weight="1" />
+      <edge id="22542" source="ISN'T IT GREAT?!" target="RIGHT WAY?!" weight="1" />
+      <edge id="22543" source="GHOSTLY IMAGE" target="ZAPHOD" weight="1" />
+      <edge id="22544" source="GHOSTLY IMAGE" target="MARVIN" weight="1" />
+      <edge id="22545" source="GHOSTLY IMAGE" target="ARTHUR" weight="1" />
+      <edge id="22546" source="GHOSTLY IMAGE" target="EDDIE" weight="1" />
+      <edge id="22547" source="GHOSTLY IMAGE" target="FORD" weight="1" />
+      <edge id="22548" source="GHOSTLY IMAGE" target="KWALTZ" weight="1" />
+      <edge id="22549" source="WHALE" target="GUIDE VOICE" weight="1" />
+      <edge id="22550" source="SLARTIBARTFAST" target="ARTHUR" weight="7" />
+      <edge id="22551" source="SLARTIBARTFAST" target="MARVIN" weight="2" />
+      <edge id="22552" source="SLARTIBARTFAST" target="FORD" weight="2" />
+      <edge id="22553" source="SLARTIBARTFAST" target="ZAPHOD" weight="2" />
+      <edge id="22554" source="SLARTIBARTFAST" target="FRANKY MOUSE" weight="1" />
+      <edge id="22555" source="SLARTIBARTFAST" target="BENJY MOUSE" weight="1" />
+      <edge id="22556" source="SLARTIBARTFAST" target="TRILLIAN" weight="2" />
+      <edge id="22557" source="SLARTIBARTFAST" target="BENJY/FRANKY" weight="1" />
+      <edge id="22558" source="SLARTIBARTFAST" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22559" source="SLARTIBARTFAST" target="NOT THERE!" weight="1" />
+      <edge id="22560" source="SLARTIBARTFAST" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22561" source="SLARTIBARTFAST" target="FRANKY HOUSE" weight="1" />
+      <edge id="22562" source="SLARTIBARTFAST" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22563" source="SLARTIBARTFAST" target="KWALTZ" weight="1" />
+      <edge id="22564" source="SLARTIBARTFAST" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22565" source="SLARTIBARTFAST" target="QUESTULAR" weight="1" />
+      <edge id="22566" source="SLARTIBARTFAST" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22567" source="SLARTIBARTFAST" target="VOICE" weight="1" />
+      <edge id="22568" source="ZAPHQD" target="ZAPHOD" weight="1" />
+      <edge id="22569" source="ZAPHQD" target="DEEP THOUGHT" weight="1" />
+      <edge id="22570" source="ZAPHQD" target="FORD" weight="1" />
+      <edge id="22571" source="ZAPHQD" target="TRILLIAN" weight="1" />
+      <edge id="22572" source="FRANKY MOUSE" target="ARTHUR" weight="1" />
+      <edge id="22573" source="FRANKY MOUSE" target="FORD" weight="1" />
+      <edge id="22574" source="FRANKY MOUSE" target="ZAPHOD" weight="1" />
+      <edge id="22575" source="FRANKY MOUSE" target="BENJY MOUSE" weight="1" />
+      <edge id="22576" source="FRANKY MOUSE" target="TRILLIAN" weight="1" />
+      <edge id="22577" source="FRANKY MOUSE" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22578" source="FRANKY MOUSE" target="BENJY/FRANKY" weight="1" />
+      <edge id="22579" source="FRANKY MOUSE" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22580" source="FRANKY MOUSE" target="NOT THERE!" weight="1" />
+      <edge id="22581" source="FRANKY MOUSE" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22582" source="FRANKY MOUSE" target="FRANKY HOUSE" weight="1" />
+      <edge id="22583" source="FRANKY MOUSE" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22584" source="BENJY MOUSE" target="ARTHUR" weight="1" />
+      <edge id="22585" source="BENJY MOUSE" target="FORD" weight="1" />
+      <edge id="22586" source="BENJY MOUSE" target="ZAPHOD" weight="1" />
+      <edge id="22587" source="BENJY MOUSE" target="FRANKY MOUSE" weight="1" />
+      <edge id="22588" source="BENJY MOUSE" target="TRILLIAN" weight="1" />
+      <edge id="22589" source="BENJY MOUSE" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22590" source="BENJY MOUSE" target="BENJY/FRANKY" weight="1" />
+      <edge id="22591" source="BENJY MOUSE" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22592" source="BENJY MOUSE" target="NOT THERE!" weight="1" />
+      <edge id="22593" source="BENJY MOUSE" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22594" source="BENJY MOUSE" target="FRANKY HOUSE" weight="1" />
+      <edge id="22595" source="BENJY MOUSE" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22596" source="BENJY/FRANKY" target="ARTHUR" weight="1" />
+      <edge id="22597" source="BENJY/FRANKY" target="FORD" weight="1" />
+      <edge id="22598" source="BENJY/FRANKY" target="ZAPHOD" weight="1" />
+      <edge id="22599" source="BENJY/FRANKY" target="FRANKY MOUSE" weight="1" />
+      <edge id="22600" source="BENJY/FRANKY" target="BENJY MOUSE" weight="1" />
+      <edge id="22601" source="BENJY/FRANKY" target="TRILLIAN" weight="1" />
+      <edge id="22602" source="BENJY/FRANKY" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22603" source="BENJY/FRANKY" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22604" source="BENJY/FRANKY" target="NOT THERE!" weight="1" />
+      <edge id="22605" source="BENJY/FRANKY" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22606" source="BENJY/FRANKY" target="FRANKY HOUSE" weight="1" />
+      <edge id="22607" source="BENJY/FRANKY" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22608" source="FRAHKY MOUSE" target="ARTHUR" weight="1" />
+      <edge id="22609" source="FRAHKY MOUSE" target="FORD" weight="1" />
+      <edge id="22610" source="FRAHKY MOUSE" target="ZAPHOD" weight="1" />
+      <edge id="22611" source="FRAHKY MOUSE" target="FRANKY MOUSE" weight="1" />
+      <edge id="22612" source="FRAHKY MOUSE" target="BENJY MOUSE" weight="1" />
+      <edge id="22613" source="FRAHKY MOUSE" target="TRILLIAN" weight="1" />
+      <edge id="22614" source="FRAHKY MOUSE" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22615" source="FRAHKY MOUSE" target="BENJY/FRANKY" weight="1" />
+      <edge id="22616" source="FRAHKY MOUSE" target="NOT THERE!" weight="1" />
+      <edge id="22617" source="FRAHKY MOUSE" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22618" source="FRAHKY MOUSE" target="FRANKY HOUSE" weight="1" />
+      <edge id="22619" source="FRAHKY MOUSE" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22620" source="NOT THERE!" target="ARTHUR" weight="1" />
+      <edge id="22621" source="NOT THERE!" target="FORD" weight="1" />
+      <edge id="22622" source="NOT THERE!" target="ZAPHOD" weight="1" />
+      <edge id="22623" source="NOT THERE!" target="FRANKY MOUSE" weight="1" />
+      <edge id="22624" source="NOT THERE!" target="BENJY MOUSE" weight="1" />
+      <edge id="22625" source="NOT THERE!" target="TRILLIAN" weight="1" />
+      <edge id="22626" source="NOT THERE!" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22627" source="NOT THERE!" target="BENJY/FRANKY" weight="1" />
+      <edge id="22628" source="NOT THERE!" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22629" source="NOT THERE!" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22630" source="NOT THERE!" target="FRANKY HOUSE" weight="1" />
+      <edge id="22631" source="NOT THERE!" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22632" source="FORD/ZAPHOD" target="ARTHUR" weight="1" />
+      <edge id="22633" source="FORD/ZAPHOD" target="FORD" weight="1" />
+      <edge id="22634" source="FORD/ZAPHOD" target="ZAPHOD" weight="1" />
+      <edge id="22635" source="FORD/ZAPHOD" target="FRANKY MOUSE" weight="1" />
+      <edge id="22636" source="FORD/ZAPHOD" target="BENJY MOUSE" weight="1" />
+      <edge id="22637" source="FORD/ZAPHOD" target="TRILLIAN" weight="1" />
+      <edge id="22638" source="FORD/ZAPHOD" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22639" source="FORD/ZAPHOD" target="BENJY/FRANKY" weight="1" />
+      <edge id="22640" source="FORD/ZAPHOD" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22641" source="FORD/ZAPHOD" target="NOT THERE!" weight="1" />
+      <edge id="22642" source="FORD/ZAPHOD" target="FRANKY HOUSE" weight="1" />
+      <edge id="22643" source="FORD/ZAPHOD" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22644" source="FRANKY HOUSE" target="ARTHUR" weight="1" />
+      <edge id="22645" source="FRANKY HOUSE" target="FORD" weight="1" />
+      <edge id="22646" source="FRANKY HOUSE" target="ZAPHOD" weight="1" />
+      <edge id="22647" source="FRANKY HOUSE" target="FRANKY MOUSE" weight="1" />
+      <edge id="22648" source="FRANKY HOUSE" target="BENJY MOUSE" weight="1" />
+      <edge id="22649" source="FRANKY HOUSE" target="TRILLIAN" weight="1" />
+      <edge id="22650" source="FRANKY HOUSE" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22651" source="FRANKY HOUSE" target="BENJY/FRANKY" weight="1" />
+      <edge id="22652" source="FRANKY HOUSE" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22653" source="FRANKY HOUSE" target="NOT THERE!" weight="1" />
+      <edge id="22654" source="FRANKY HOUSE" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22655" source="FRANKY HOUSE" target="WHAT WAS IN THAT TEA!?" weight="1" />
+      <edge id="22656" source="WHAT WAS IN THAT TEA!?" target="ARTHUR" weight="1" />
+      <edge id="22657" source="WHAT WAS IN THAT TEA!?" target="FORD" weight="1" />
+      <edge id="22658" source="WHAT WAS IN THAT TEA!?" target="ZAPHOD" weight="1" />
+      <edge id="22659" source="WHAT WAS IN THAT TEA!?" target="FRANKY MOUSE" weight="1" />
+      <edge id="22660" source="WHAT WAS IN THAT TEA!?" target="BENJY MOUSE" weight="1" />
+      <edge id="22661" source="WHAT WAS IN THAT TEA!?" target="TRILLIAN" weight="1" />
+      <edge id="22662" source="WHAT WAS IN THAT TEA!?" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22663" source="WHAT WAS IN THAT TEA!?" target="BENJY/FRANKY" weight="1" />
+      <edge id="22664" source="WHAT WAS IN THAT TEA!?" target="FRAHKY MOUSE" weight="1" />
+      <edge id="22665" source="WHAT WAS IN THAT TEA!?" target="NOT THERE!" weight="1" />
+      <edge id="22666" source="WHAT WAS IN THAT TEA!?" target="FORD/ZAPHOD" weight="1" />
+      <edge id="22667" source="WHAT WAS IN THAT TEA!?" target="FRANKY HOUSE" weight="1" />
+      <edge id="22668" source="AHHHHHHHH!!!!" target="MARVIN" weight="1" />
+      <edge id="22669" source="AHHHHHHHH!!!!" target="KWALTZ" weight="1" />
+      <edge id="22670" source="AHHHHHHHH!!!!" target="ZAPHOD" weight="1" />
+      <edge id="22671" source="AHHHHHHHH!!!!" target="FORD" weight="1" />
+      <edge id="22672" source="AHHHHHHHH!!!!" target="TRILLIAN" weight="1" />
+      <edge id="22673" source="AHHHHHHHH!!!!" target="ARTHUR" weight="1" />
+      <edge id="22674" source="AHHHHHHHH!!!!" target="QUESTULAR" weight="1" />
+      <edge id="22675" source="AHHHHHHHH!!!!" target="VOGON POLICE FORCE" weight="1" />
+      <edge id="22676" source="AHHHHHHHH!!!!" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22677" source="VOGON POLICE FORCE" target="MARVIN" weight="1" />
+      <edge id="22678" source="VOGON POLICE FORCE" target="KWALTZ" weight="1" />
+      <edge id="22679" source="VOGON POLICE FORCE" target="ZAPHOD" weight="1" />
+      <edge id="22680" source="VOGON POLICE FORCE" target="FORD" weight="1" />
+      <edge id="22681" source="VOGON POLICE FORCE" target="TRILLIAN" weight="1" />
+      <edge id="22682" source="VOGON POLICE FORCE" target="ARTHUR" weight="1" />
+      <edge id="22683" source="VOGON POLICE FORCE" target="AHHHHHHHH!!!!" weight="1" />
+      <edge id="22684" source="VOGON POLICE FORCE" target="QUESTULAR" weight="1" />
+      <edge id="22685" source="VOGON POLICE FORCE" target="SLARTIBARTFAST" weight="1" />
+      <edge id="22686" source="VOICE" target="SLARTIBARTFAST" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HOOD" label="HOOD" />
+      <node id="BAITS" label="BAITS" />
+      <node id="BILLY" label="BILLY" />
+      <node id="TOMMY" label="TOMMY" />
+      <node id="HENRY" label="HENRY" />
+      <node id="JIMMY" label="JIMMY" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="CARMELLA" label="CARMELLA" />
+      <node id="TODDY" label="TODDY" />
+      <node id="FATHER" label="FATHER" />
+      <node id="HOOD #1" label="HOOD #1" />
+      <node id="HOOD »2" label="HOOD »2" />
+      <node id="MAILMAN" label="MAILMAN" />
+      <node id="TUDDY" label="TUDDY" />
+      <node id="RENKY" label="RENKY" />
+      <node id="MAN" label="MAN" />
+      <node id="VARIO" label="VARIO" />
+      <node id="SCHOOL-CROSSING GUARD" label="SCHOOL-CROSSING GUARD" />
+      <node id="COP #1" label="COP #1" />
+      <node id="DETECTIVE #1" label="DETECTIVE #1" />
+      <node id="DETECTIVE #2" label="DETECTIVE #2" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="CHORDS OF HOODS" label="CHORDS OF HOODS" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="SONNY" label="SONNY" />
+      <node id="FRENCHY" label="FRENCHY" />
+      <node id="VASIO" label="VASIO" />
+      <node id="KAREN" label="KAREN" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="MARTY'S TV" label="MARTY'S TV" />
+      <node id="MARTY" label="MARTY" />
+      <node id="BRUCE" label="BRUCE" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="KAREN'S MOTHER" label="KAREN'S MOTHER" />
+      <node id="MICKEY" label="MICKEY" />
+      <node id="ANGIE" label="ANGIE" />
+      <node id="WOMAN #1" label="WOMAN #1" />
+      <node id="GIRL #1" label="GIRL #1" />
+      <node id="GIRL #2" label="GIRL #2" />
+      <node id="SPIDER" label="SPIDER" />
+      <node id="GUARD" label="GUARD" />
+      <node id="PAROLE OFFICER" label="PAROLE OFFICER" />
+      <node id="JUDY" label="JUDY" />
+      <node id="ROBIN" label="ROBIN" />
+      <node id="RADIO NEWS BROADCASTER" label="RADIO NEWS BROADCASTER" />
+      <node id="FAT LOUIE" label="FAT LOUIE" />
+      <node id="SEPE" label="SEPE" />
+      <node id="MRS. SEPE" label="MRS. SEPE" />
+      <node id="MALE" label="MALE" />
+      <node id="ANGELO" label="ANGELO" />
+      <node id="STACKS" label="STACKS" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="FRAN" label="FRAN" />
+      <node id="MICHAEL" label="MICHAEL" />
+      <node id="DEALER" label="DEALER" />
+      <node id="MCDONALD" label="MCDONALD" />
+    </nodes>
+    <edges>
+      <edge id="8537" source="HOOD" target="BAITS" weight="1" />
+      <edge id="8538" source="HOOD" target="BILLY" weight="1" />
+      <edge id="8539" source="HOOD" target="TOMMY" weight="1" />
+      <edge id="8540" source="HOOD" target="HENRY" weight="1" />
+      <edge id="8541" source="HOOD" target="JIMMY" weight="1" />
+      <edge id="8542" source="HOOD" target="KAREN" weight="1" />
+      <edge id="8543" source="BAITS" target="HOOD" weight="1" />
+      <edge id="8544" source="BAITS" target="BILLY" weight="1" />
+      <edge id="8545" source="BAITS" target="TOMMY" weight="1" />
+      <edge id="8546" source="BAITS" target="HENRY" weight="1" />
+      <edge id="8547" source="BAITS" target="JIMMY" weight="1" />
+      <edge id="8548" source="BILLY" target="HOOD" weight="1" />
+      <edge id="8549" source="BILLY" target="BAITS" weight="1" />
+      <edge id="8550" source="BILLY" target="TOMMY" weight="1" />
+      <edge id="8551" source="BILLY" target="HENRY" weight="1" />
+      <edge id="8552" source="BILLY" target="JIMMY" weight="1" />
+      <edge id="8553" source="TOMMY" target="HOOD" weight="1" />
+      <edge id="8554" source="TOMMY" target="BAITS" weight="1" />
+      <edge id="8555" source="TOMMY" target="BILLY" weight="1" />
+      <edge id="8556" source="TOMMY" target="HENRY" weight="13" />
+      <edge id="8557" source="TOMMY" target="JIMMY" weight="4" />
+      <edge id="8558" source="TOMMY" target="MOTHER" weight="1" />
+      <edge id="8559" source="TOMMY" target="MAN" weight="1" />
+      <edge id="8560" source="TOMMY" target="SONNY" weight="1" />
+      <edge id="8561" source="TOMMY" target="FRENCHY" weight="1" />
+      <edge id="8562" source="TOMMY" target="KAREN" weight="2" />
+      <edge id="8563" source="TOMMY" target="GIRL #1" weight="1" />
+      <edge id="8564" source="TOMMY" target="GIRL #2" weight="1" />
+      <edge id="8565" source="TOMMY" target="SPIDER" weight="2" />
+      <edge id="8566" source="TOMMY" target="PAROLE OFFICER" weight="1" />
+      <edge id="8567" source="TOMMY" target="ANGELO" weight="1" />
+      <edge id="8568" source="TOMMY" target="STACKS" weight="1" />
+      <edge id="8569" source="TOMMY" target="MARTY" weight="1" />
+      <edge id="8570" source="HENRY" target="HOOD" weight="1" />
+      <edge id="8571" source="HENRY" target="BAITS" weight="1" />
+      <edge id="8572" source="HENRY" target="BILLY" weight="1" />
+      <edge id="8573" source="HENRY" target="TOMMY" weight="13" />
+      <edge id="8574" source="HENRY" target="JIMMY" weight="14" />
+      <edge id="8575" source="HENRY" target="CARMELLA" weight="1" />
+      <edge id="8576" source="HENRY" target="FATHER" weight="1" />
+      <edge id="8577" source="HENRY" target="TODDY" weight="3" />
+      <edge id="8578" source="HENRY" target="HOOD #1" weight="1" />
+      <edge id="8579" source="HENRY" target="HOOD »2" weight="1" />
+      <edge id="8580" source="HENRY" target="MAN" weight="3" />
+      <edge id="8581" source="HENRY" target="TUDDY" weight="1" />
+      <edge id="8582" source="HENRY" target="VARIO" weight="9" />
+      <edge id="8583" source="HENRY" target="SONNY" weight="2" />
+      <edge id="8584" source="HENRY" target="FRENCHY" weight="1" />
+      <edge id="8585" source="HENRY" target="VASIO" weight="2" />
+      <edge id="8586" source="HENRY" target="KAREN" weight="25" />
+      <edge id="8587" source="HENRY" target="CAPTAIN" weight="1" />
+      <edge id="8588" source="HENRY" target="MARTY'S TV" weight="1" />
+      <edge id="8589" source="HENRY" target="MARTY" weight="4" />
+      <edge id="8590" source="HENRY" target="GIRL #1" weight="1" />
+      <edge id="8591" source="HENRY" target="GIRL #2" weight="1" />
+      <edge id="8592" source="HENRY" target="SPIDER" weight="2" />
+      <edge id="8593" source="HENRY" target="GUARD" weight="1" />
+      <edge id="8594" source="HENRY" target="PAROLE OFFICER" weight="1" />
+      <edge id="8595" source="HENRY" target="JUDY" weight="3" />
+      <edge id="8596" source="HENRY" target="ROBIN" weight="3" />
+      <edge id="8597" source="HENRY" target="RADIO NEWS BROADCASTER" weight="1" />
+      <edge id="8598" source="HENRY" target="FAT LOUIE" weight="1" />
+      <edge id="8599" source="HENRY" target="SEPE" weight="1" />
+      <edge id="8600" source="HENRY" target="MRS. SEPE" weight="1" />
+      <edge id="8601" source="HENRY" target="MALE" weight="1" />
+      <edge id="8602" source="HENRY" target="ANGELO" weight="1" />
+      <edge id="8603" source="HENRY" target="STACKS" weight="1" />
+      <edge id="8604" source="HENRY" target="WOMAN" weight="1" />
+      <edge id="8605" source="HENRY" target="FRAN" weight="1" />
+      <edge id="8606" source="HENRY" target="MICHAEL" weight="2" />
+      <edge id="8607" source="HENRY" target="DEALER" weight="1" />
+      <edge id="8608" source="HENRY" target="MCDONALD" weight="2" />
+      <edge id="8609" source="JIMMY" target="HOOD" weight="1" />
+      <edge id="8610" source="JIMMY" target="BAITS" weight="1" />
+      <edge id="8611" source="JIMMY" target="BILLY" weight="1" />
+      <edge id="8612" source="JIMMY" target="TOMMY" weight="4" />
+      <edge id="8613" source="JIMMY" target="HENRY" weight="14" />
+      <edge id="8614" source="JIMMY" target="VARIO" weight="2" />
+      <edge id="8615" source="JIMMY" target="SCHOOL-CROSSING GUARD" weight="1" />
+      <edge id="8616" source="JIMMY" target="COP #1" weight="1" />
+      <edge id="8617" source="JIMMY" target="MARTY'S TV" weight="1" />
+      <edge id="8618" source="JIMMY" target="MARTY" weight="4" />
+      <edge id="8619" source="JIMMY" target="SPIDER" weight="1" />
+      <edge id="8620" source="JIMMY" target="PAROLE OFFICER" weight="1" />
+      <edge id="8621" source="JIMMY" target="FAT LOUIE" weight="1" />
+      <edge id="8622" source="JIMMY" target="SEPE" weight="1" />
+      <edge id="8623" source="JIMMY" target="MRS. SEPE" weight="1" />
+      <edge id="8624" source="JIMMY" target="MALE" weight="1" />
+      <edge id="8625" source="JIMMY" target="KAREN" weight="1" />
+      <edge id="8626" source="MOTHER" target="TOMMY" weight="1" />
+      <edge id="8627" source="MOTHER" target="KAREN" weight="1" />
+      <edge id="8628" source="CARMELLA" target="HENRY" weight="1" />
+      <edge id="8629" source="TODDY" target="HENRY" weight="3" />
+      <edge id="8630" source="TODDY" target="MAILMAN" weight="1" />
+      <edge id="8631" source="TODDY" target="TUDDY" weight="2" />
+      <edge id="8632" source="TODDY" target="RENKY" weight="1" />
+      <edge id="8633" source="TODDY" target="MAN" weight="1" />
+      <edge id="8634" source="FATHER" target="HENRY" weight="1" />
+      <edge id="8635" source="HOOD #1" target="HENRY" weight="1" />
+      <edge id="8636" source="HOOD #1" target="HOOD »2" weight="1" />
+      <edge id="8637" source="HOOD »2" target="HOOD #1" weight="1" />
+      <edge id="8638" source="HOOD »2" target="HENRY" weight="1" />
+      <edge id="8639" source="MAILMAN" target="TODDY" weight="1" />
+      <edge id="8640" source="MAILMAN" target="TUDDY" weight="1" />
+      <edge id="8641" source="MAILMAN" target="RENKY" weight="1" />
+      <edge id="8642" source="TUDDY" target="TODDY" weight="2" />
+      <edge id="8643" source="TUDDY" target="MAILMAN" weight="1" />
+      <edge id="8644" source="TUDDY" target="RENKY" weight="1" />
+      <edge id="8645" source="TUDDY" target="MAN" weight="1" />
+      <edge id="8646" source="TUDDY" target="HENRY" weight="1" />
+      <edge id="8647" source="RENKY" target="TODDY" weight="1" />
+      <edge id="8648" source="RENKY" target="MAILMAN" weight="1" />
+      <edge id="8649" source="RENKY" target="TUDDY" weight="1" />
+      <edge id="8650" source="MAN" target="TUDDY" weight="1" />
+      <edge id="8651" source="MAN" target="HENRY" weight="3" />
+      <edge id="8652" source="MAN" target="TODDY" weight="1" />
+      <edge id="8653" source="MAN" target="SONNY" weight="1" />
+      <edge id="8654" source="MAN" target="FRENCHY" weight="1" />
+      <edge id="8655" source="MAN" target="TOMMY" weight="1" />
+      <edge id="8656" source="MAN" target="VARIO" weight="1" />
+      <edge id="8657" source="VARIO" target="HENRY" weight="9" />
+      <edge id="8658" source="VARIO" target="JIMMY" weight="2" />
+      <edge id="8659" source="VARIO" target="SONNY" weight="1" />
+      <edge id="8660" source="VARIO" target="VASIO" weight="2" />
+      <edge id="8661" source="VARIO" target="KAREN" weight="1" />
+      <edge id="8662" source="VARIO" target="MAN" weight="1" />
+      <edge id="8663" source="SCHOOL-CROSSING GUARD" target="JIMMY" weight="1" />
+      <edge id="8664" source="SCHOOL-CROSSING GUARD" target="COP #1" weight="1" />
+      <edge id="8665" source="COP #1" target="JIMMY" weight="1" />
+      <edge id="8666" source="COP #1" target="SCHOOL-CROSSING GUARD" weight="1" />
+      <edge id="8667" source="DETECTIVE #1" target="DETECTIVE #2" weight="1" />
+      <edge id="8668" source="DETECTIVE #2" target="DETECTIVE #1" weight="1" />
+      <edge id="8669" source="SONNY" target="HENRY" weight="2" />
+      <edge id="8670" source="SONNY" target="MAN" weight="1" />
+      <edge id="8671" source="SONNY" target="FRENCHY" weight="1" />
+      <edge id="8672" source="SONNY" target="TOMMY" weight="1" />
+      <edge id="8673" source="SONNY" target="VARIO" weight="1" />
+      <edge id="8674" source="SONNY" target="VASIO" weight="1" />
+      <edge id="8675" source="FRENCHY" target="HENRY" weight="1" />
+      <edge id="8676" source="FRENCHY" target="MAN" weight="1" />
+      <edge id="8677" source="FRENCHY" target="SONNY" weight="1" />
+      <edge id="8678" source="FRENCHY" target="TOMMY" weight="1" />
+      <edge id="8679" source="VASIO" target="VARIO" weight="2" />
+      <edge id="8680" source="VASIO" target="SONNY" weight="1" />
+      <edge id="8681" source="VASIO" target="HENRY" weight="2" />
+      <edge id="8682" source="KAREN" target="HENRY" weight="25" />
+      <edge id="8683" source="KAREN" target="TOMMY" weight="2" />
+      <edge id="8684" source="KAREN" target="MOTHER" weight="1" />
+      <edge id="8685" source="KAREN" target="CAPTAIN" weight="1" />
+      <edge id="8686" source="KAREN" target="VARIO" weight="1" />
+      <edge id="8687" source="KAREN" target="KAREN'S MOTHER" weight="1" />
+      <edge id="8688" source="KAREN" target="MICKEY" weight="1" />
+      <edge id="8689" source="KAREN" target="ANGIE" weight="1" />
+      <edge id="8690" source="KAREN" target="WOMAN #1" weight="1" />
+      <edge id="8691" source="KAREN" target="MARTY" weight="1" />
+      <edge id="8692" source="KAREN" target="JUDY" weight="1" />
+      <edge id="8693" source="KAREN" target="WOMAN" weight="1" />
+      <edge id="8694" source="KAREN" target="FRAN" weight="1" />
+      <edge id="8695" source="KAREN" target="DEALER" weight="1" />
+      <edge id="8696" source="KAREN" target="HOOD" weight="1" />
+      <edge id="8697" source="KAREN" target="JIMMY" weight="1" />
+      <edge id="8698" source="KAREN" target="MCDONALD" weight="3" />
+      <edge id="8699" source="CAPTAIN" target="KAREN" weight="1" />
+      <edge id="8700" source="CAPTAIN" target="HENRY" weight="1" />
+      <edge id="8701" source="MARTY'S TV" target="MARTY" weight="1" />
+      <edge id="8702" source="MARTY'S TV" target="HENRY" weight="1" />
+      <edge id="8703" source="MARTY'S TV" target="JIMMY" weight="1" />
+      <edge id="8704" source="MARTY" target="MARTY'S TV" weight="1" />
+      <edge id="8705" source="MARTY" target="HENRY" weight="4" />
+      <edge id="8706" source="MARTY" target="JIMMY" weight="4" />
+      <edge id="8707" source="MARTY" target="KAREN" weight="1" />
+      <edge id="8708" source="MARTY" target="FAT LOUIE" weight="1" />
+      <edge id="8709" source="MARTY" target="SEPE" weight="1" />
+      <edge id="8710" source="MARTY" target="MRS. SEPE" weight="1" />
+      <edge id="8711" source="MARTY" target="MALE" weight="1" />
+      <edge id="8712" source="MARTY" target="TOMMY" weight="1" />
+      <edge id="8713" source="BRUCE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="8714" source="WOMAN'S VOICE" target="BRUCE" weight="1" />
+      <edge id="8715" source="KAREN'S MOTHER" target="KAREN" weight="1" />
+      <edge id="8716" source="MICKEY" target="KAREN" weight="1" />
+      <edge id="8717" source="MICKEY" target="ANGIE" weight="1" />
+      <edge id="8718" source="MICKEY" target="WOMAN #1" weight="1" />
+      <edge id="8719" source="ANGIE" target="KAREN" weight="1" />
+      <edge id="8720" source="ANGIE" target="MICKEY" weight="1" />
+      <edge id="8721" source="ANGIE" target="WOMAN #1" weight="1" />
+      <edge id="8722" source="WOMAN #1" target="KAREN" weight="1" />
+      <edge id="8723" source="WOMAN #1" target="MICKEY" weight="1" />
+      <edge id="8724" source="WOMAN #1" target="ANGIE" weight="1" />
+      <edge id="8725" source="GIRL #1" target="HENRY" weight="1" />
+      <edge id="8726" source="GIRL #1" target="GIRL #2" weight="1" />
+      <edge id="8727" source="GIRL #1" target="TOMMY" weight="1" />
+      <edge id="8728" source="GIRL #2" target="HENRY" weight="1" />
+      <edge id="8729" source="GIRL #2" target="GIRL #1" weight="1" />
+      <edge id="8730" source="GIRL #2" target="TOMMY" weight="1" />
+      <edge id="8731" source="SPIDER" target="TOMMY" weight="2" />
+      <edge id="8732" source="SPIDER" target="HENRY" weight="2" />
+      <edge id="8733" source="SPIDER" target="JIMMY" weight="1" />
+      <edge id="8734" source="GUARD" target="HENRY" weight="1" />
+      <edge id="8735" source="PAROLE OFFICER" target="HENRY" weight="1" />
+      <edge id="8736" source="PAROLE OFFICER" target="JIMMY" weight="1" />
+      <edge id="8737" source="PAROLE OFFICER" target="TOMMY" weight="1" />
+      <edge id="8738" source="JUDY" target="HENRY" weight="3" />
+      <edge id="8739" source="JUDY" target="KAREN" weight="1" />
+      <edge id="8740" source="JUDY" target="MICHAEL" weight="1" />
+      <edge id="8741" source="ROBIN" target="HENRY" weight="3" />
+      <edge id="8742" source="ROBIN" target="RADIO NEWS BROADCASTER" weight="1" />
+      <edge id="8743" source="RADIO NEWS BROADCASTER" target="ROBIN" weight="1" />
+      <edge id="8744" source="RADIO NEWS BROADCASTER" target="HENRY" weight="1" />
+      <edge id="8745" source="FAT LOUIE" target="JIMMY" weight="1" />
+      <edge id="8746" source="FAT LOUIE" target="SEPE" weight="1" />
+      <edge id="8747" source="FAT LOUIE" target="MRS. SEPE" weight="1" />
+      <edge id="8748" source="FAT LOUIE" target="MARTY" weight="1" />
+      <edge id="8749" source="FAT LOUIE" target="HENRY" weight="1" />
+      <edge id="8750" source="FAT LOUIE" target="MALE" weight="1" />
+      <edge id="8751" source="SEPE" target="JIMMY" weight="1" />
+      <edge id="8752" source="SEPE" target="FAT LOUIE" weight="1" />
+      <edge id="8753" source="SEPE" target="MRS. SEPE" weight="1" />
+      <edge id="8754" source="SEPE" target="MARTY" weight="1" />
+      <edge id="8755" source="SEPE" target="HENRY" weight="1" />
+      <edge id="8756" source="SEPE" target="MALE" weight="1" />
+      <edge id="8757" source="MRS. SEPE" target="JIMMY" weight="1" />
+      <edge id="8758" source="MRS. SEPE" target="FAT LOUIE" weight="1" />
+      <edge id="8759" source="MRS. SEPE" target="SEPE" weight="1" />
+      <edge id="8760" source="MRS. SEPE" target="MARTY" weight="1" />
+      <edge id="8761" source="MRS. SEPE" target="HENRY" weight="1" />
+      <edge id="8762" source="MRS. SEPE" target="MALE" weight="1" />
+      <edge id="8763" source="MALE" target="JIMMY" weight="1" />
+      <edge id="8764" source="MALE" target="FAT LOUIE" weight="1" />
+      <edge id="8765" source="MALE" target="SEPE" weight="1" />
+      <edge id="8766" source="MALE" target="MRS. SEPE" weight="1" />
+      <edge id="8767" source="MALE" target="MARTY" weight="1" />
+      <edge id="8768" source="MALE" target="HENRY" weight="1" />
+      <edge id="8769" source="ANGELO" target="TOMMY" weight="1" />
+      <edge id="8770" source="ANGELO" target="STACKS" weight="1" />
+      <edge id="8771" source="ANGELO" target="HENRY" weight="1" />
+      <edge id="8772" source="STACKS" target="TOMMY" weight="1" />
+      <edge id="8773" source="STACKS" target="ANGELO" weight="1" />
+      <edge id="8774" source="STACKS" target="HENRY" weight="1" />
+      <edge id="8775" source="WOMAN" target="FRAN" weight="1" />
+      <edge id="8776" source="WOMAN" target="HENRY" weight="1" />
+      <edge id="8777" source="WOMAN" target="KAREN" weight="1" />
+      <edge id="8778" source="FRAN" target="WOMAN" weight="1" />
+      <edge id="8779" source="FRAN" target="HENRY" weight="1" />
+      <edge id="8780" source="FRAN" target="KAREN" weight="1" />
+      <edge id="8781" source="MICHAEL" target="HENRY" weight="2" />
+      <edge id="8782" source="MICHAEL" target="JUDY" weight="1" />
+      <edge id="8783" source="DEALER" target="KAREN" weight="1" />
+      <edge id="8784" source="DEALER" target="HENRY" weight="1" />
+      <edge id="8785" source="MCDONALD" target="KAREN" weight="3" />
+      <edge id="8786" source="MCDONALD" target="HENRY" weight="2" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="ELLEN" label="ELLEN" />
+      <node id="BRODY" label="BRODY" />
+      <node id="CASSIDY" label="CASSIDY" />
+      <node id="POLLY" label="POLLY" />
+      <node id="HENDRICKS" label="HENDRICKS" />
+      <node id="LOCAL MERCHANT" label="LOCAL MERCHANT" />
+      <node id="KEISEL" label="KEISEL" />
+      <node id="LYNWOOD" label="LYNWOOD" />
+      <node id="VAUGHN" label="VAUGHN" />
+      <node id="SANTOS" label="SANTOS" />
+      <node id="MEADOWS" label="MEADOWS" />
+      <node id="QUINT" label="QUINT" />
+      <node id="SHOPKEEPER" label="SHOPKEEPER" />
+      <node id="MICHAEL" label="MICHAEL" />
+      <node id="MAX" label="MAX" />
+      <node id="DENHERDER" label="DENHERDER" />
+      <node id="MAINLANDER" label="MAINLANDER" />
+      <node id="WOMAN TOURIST" label="WOMAN TOURIST" />
+      <node id="MRS. TAFT" label="MRS. TAFT" />
+      <node id="MR. WISEMAN" label="MR. WISEMAN" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="MR. POSNER" label="MR. POSNER" />
+      <node id="MR. POLK" label="MR. POLK" />
+      <node id="MR. GARDNER" label="MR. GARDNER" />
+      <node id="CHILD SPOKESMAN" label="CHILD SPOKESMAN" />
+      <node id="SALVATORE" label="SALVATORE" />
+      <node id="CHARLIE" label="CHARLIE" />
+      <node id="BOAT RENTAL MAN" label="BOAT RENTAL MAN" />
+      <node id="WALTER" label="WALTER" />
+      <node id="BARWOOD" label="BARWOOD" />
+      <node id="HARBORMASTER" label="HARBORMASTER" />
+      <node id="FELIX" label="FELIX" />
+      <node id="GARDNER" label="GARDNER" />
+      <node id="MAN IN BOAT" label="MAN IN BOAT" />
+      <node id="HOOPER" label="HOOPER" />
+      <node id="PRATT" label="PRATT" />
+      <node id="HARRY" label="HARRY" />
+      <node id="MAN WITH GAFF" label="MAN WITH GAFF" />
+      <node id="CORONER SANTOS" label="CORONER SANTOS" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="GAFFER" label="GAFFER" />
+      <node id="VOICE IN CROWD" label="VOICE IN CROWD" />
+      <node id="FATHER" label="FATHER" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="LANDLADY" label="LANDLADY" />
+      <node id="MAN TOURIST" label="MAN TOURIST" />
+      <node id="TOURIST WIFE" label="TOURIST WIFE" />
+      <node id="PARROT" label="PARROT" />
+      <node id="MANAGER" label="MANAGER" />
+      <node id="INTERVIEWER" label="INTERVIEWER" />
+      <node id="BEERING POLICEMAN" label="BEERING POLICEMAN" />
+      <node id="SAILOR" label="SAILOR" />
+      <node id="VOICE" label="VOICE" />
+      <node id="BLIMP SPOTTER" label="BLIMP SPOTTER" />
+      <node id="VOICES" label="VOICES" />
+      <node id="COUNTY POLICEMAN" label="COUNTY POLICEMAN" />
+      <node id="SONAR OPERATOR" label="SONAR OPERATOR" />
+      <node id="COAST GUARDSMAN" label="COAST GUARDSMAN" />
+      <node id="COLLEAGUE" label="COLLEAGUE" />
+    </nodes>
+    <edges>
+      <edge id="9669" source="ELLEN" target="BRODY" weight="7" />
+      <edge id="9670" source="ELLEN" target="MICHAEL" weight="2" />
+      <edge id="9671" source="ELLEN" target="DENHERDER" weight="1" />
+      <edge id="9672" source="ELLEN" target="MAX" weight="1" />
+      <edge id="9673" source="ELLEN" target="HOOPER" weight="1" />
+      <edge id="9674" source="ELLEN" target="LANDLADY" weight="1" />
+      <edge id="9675" source="ELLEN" target="POLLY" weight="1" />
+      <edge id="9676" source="ELLEN" target="MAN TOURIST" weight="1" />
+      <edge id="9677" source="ELLEN" target="TOURIST WIFE" weight="1" />
+      <edge id="9678" source="BRODY" target="ELLEN" weight="7" />
+      <edge id="9679" source="BRODY" target="CASSIDY" weight="1" />
+      <edge id="9680" source="BRODY" target="POLLY" weight="2" />
+      <edge id="9681" source="BRODY" target="HENDRICKS" weight="4" />
+      <edge id="9682" source="BRODY" target="LOCAL MERCHANT" weight="1" />
+      <edge id="9683" source="BRODY" target="KEISEL" weight="1" />
+      <edge id="9684" source="BRODY" target="VAUGHN" weight="4" />
+      <edge id="9685" source="BRODY" target="SANTOS" weight="1" />
+      <edge id="9686" source="BRODY" target="MEADOWS" weight="3" />
+      <edge id="9687" source="BRODY" target="MICHAEL" weight="3" />
+      <edge id="9688" source="BRODY" target="MAX" weight="2" />
+      <edge id="9689" source="BRODY" target="DENHERDER" weight="2" />
+      <edge id="9690" source="BRODY" target="MRS. TAFT" weight="1" />
+      <edge id="9691" source="BRODY" target="MR. WISEMAN" weight="1" />
+      <edge id="9692" source="BRODY" target="SECRETARY" weight="1" />
+      <edge id="9693" source="BRODY" target="MR. POSNER" weight="1" />
+      <edge id="9694" source="BRODY" target="MR. POLK" weight="1" />
+      <edge id="9695" source="BRODY" target="MR. GARDNER" weight="1" />
+      <edge id="9696" source="BRODY" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9697" source="BRODY" target="SALVATORE" weight="2" />
+      <edge id="9698" source="BRODY" target="BOAT RENTAL MAN" weight="1" />
+      <edge id="9699" source="BRODY" target="WALTER" weight="1" />
+      <edge id="9700" source="BRODY" target="BARWOOD" weight="1" />
+      <edge id="9701" source="BRODY" target="HARBORMASTER" weight="1" />
+      <edge id="9702" source="BRODY" target="MAN IN BOAT" weight="1" />
+      <edge id="9703" source="BRODY" target="HOOPER" weight="15" />
+      <edge id="9704" source="BRODY" target="CORONER SANTOS" weight="1" />
+      <edge id="9705" source="BRODY" target="HARRY" weight="2" />
+      <edge id="9706" source="BRODY" target="GAFFER" weight="1" />
+      <edge id="9707" source="BRODY" target="VOICE IN CROWD" weight="1" />
+      <edge id="9708" source="BRODY" target="PRATT" weight="1" />
+      <edge id="9709" source="BRODY" target="FATHER" weight="1" />
+      <edge id="9710" source="BRODY" target="OFFICER" weight="2" />
+      <edge id="9711" source="BRODY" target="QUINT" weight="15" />
+      <edge id="9712" source="BRODY" target="PARROT" weight="1" />
+      <edge id="9713" source="BRODY" target="INTERVIEWER" weight="1" />
+      <edge id="9714" source="BRODY" target="VOICES" weight="1" />
+      <edge id="9715" source="CASSIDY" target="BRODY" weight="1" />
+      <edge id="9716" source="POLLY" target="BRODY" weight="2" />
+      <edge id="9717" source="POLLY" target="ELLEN" weight="1" />
+      <edge id="9718" source="POLLY" target="LANDLADY" weight="1" />
+      <edge id="9719" source="POLLY" target="MAN TOURIST" weight="1" />
+      <edge id="9720" source="POLLY" target="TOURIST WIFE" weight="1" />
+      <edge id="9721" source="HENDRICKS" target="BRODY" weight="4" />
+      <edge id="9722" source="HENDRICKS" target="LOCAL MERCHANT" weight="1" />
+      <edge id="9723" source="HENDRICKS" target="VAUGHN" weight="1" />
+      <edge id="9724" source="HENDRICKS" target="BOAT RENTAL MAN" weight="1" />
+      <edge id="9725" source="HENDRICKS" target="BLIMP SPOTTER" weight="1" />
+      <edge id="9726" source="HENDRICKS" target="SONAR OPERATOR" weight="1" />
+      <edge id="9727" source="LOCAL MERCHANT" target="BRODY" weight="1" />
+      <edge id="9728" source="LOCAL MERCHANT" target="HENDRICKS" weight="1" />
+      <edge id="9729" source="KEISEL" target="BRODY" weight="1" />
+      <edge id="9730" source="VAUGHN" target="HENDRICKS" weight="1" />
+      <edge id="9731" source="VAUGHN" target="BRODY" weight="4" />
+      <edge id="9732" source="VAUGHN" target="SANTOS" weight="1" />
+      <edge id="9733" source="VAUGHN" target="MEADOWS" weight="2" />
+      <edge id="9734" source="VAUGHN" target="MRS. TAFT" weight="1" />
+      <edge id="9735" source="VAUGHN" target="MR. WISEMAN" weight="1" />
+      <edge id="9736" source="VAUGHN" target="SECRETARY" weight="1" />
+      <edge id="9737" source="VAUGHN" target="MR. POSNER" weight="1" />
+      <edge id="9738" source="VAUGHN" target="MR. POLK" weight="1" />
+      <edge id="9739" source="VAUGHN" target="MR. GARDNER" weight="1" />
+      <edge id="9740" source="VAUGHN" target="DENHERDER" weight="1" />
+      <edge id="9741" source="VAUGHN" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9742" source="VAUGHN" target="SALVATORE" weight="1" />
+      <edge id="9743" source="VAUGHN" target="HOOPER" weight="2" />
+      <edge id="9744" source="VAUGHN" target="HARRY" weight="1" />
+      <edge id="9745" source="VAUGHN" target="FATHER" weight="1" />
+      <edge id="9746" source="VAUGHN" target="MANAGER" weight="1" />
+      <edge id="9747" source="SANTOS" target="VAUGHN" weight="1" />
+      <edge id="9748" source="SANTOS" target="BRODY" weight="1" />
+      <edge id="9749" source="SANTOS" target="MEADOWS" weight="1" />
+      <edge id="9750" source="MEADOWS" target="VAUGHN" weight="2" />
+      <edge id="9751" source="MEADOWS" target="BRODY" weight="3" />
+      <edge id="9752" source="MEADOWS" target="SANTOS" weight="1" />
+      <edge id="9753" source="MEADOWS" target="MRS. TAFT" weight="1" />
+      <edge id="9754" source="MEADOWS" target="MR. WISEMAN" weight="1" />
+      <edge id="9755" source="MEADOWS" target="SECRETARY" weight="1" />
+      <edge id="9756" source="MEADOWS" target="MR. POSNER" weight="1" />
+      <edge id="9757" source="MEADOWS" target="MR. POLK" weight="1" />
+      <edge id="9758" source="MEADOWS" target="MR. GARDNER" weight="1" />
+      <edge id="9759" source="MEADOWS" target="DENHERDER" weight="1" />
+      <edge id="9760" source="MEADOWS" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9761" source="MEADOWS" target="SALVATORE" weight="1" />
+      <edge id="9762" source="MEADOWS" target="HARRY" weight="1" />
+      <edge id="9763" source="MEADOWS" target="GAFFER" weight="1" />
+      <edge id="9764" source="MEADOWS" target="VOICE IN CROWD" weight="1" />
+      <edge id="9765" source="MEADOWS" target="HOOPER" weight="5" />
+      <edge id="9766" source="MEADOWS" target="PRATT" weight="1" />
+      <edge id="9767" source="QUINT" target="SHOPKEEPER" weight="1" />
+      <edge id="9768" source="QUINT" target="SALVATORE" weight="3" />
+      <edge id="9769" source="QUINT" target="BRODY" weight="15" />
+      <edge id="9770" source="QUINT" target="PARROT" weight="1" />
+      <edge id="9771" source="QUINT" target="HOOPER" weight="14" />
+      <edge id="9772" source="QUINT" target="COLLEAGUE" weight="1" />
+      <edge id="9773" source="SHOPKEEPER" target="QUINT" weight="1" />
+      <edge id="9774" source="MICHAEL" target="BRODY" weight="3" />
+      <edge id="9775" source="MICHAEL" target="ELLEN" weight="2" />
+      <edge id="9776" source="MICHAEL" target="HOOPER" weight="1" />
+      <edge id="9777" source="MICHAEL" target="VOICES" weight="1" />
+      <edge id="9778" source="MAX" target="BRODY" weight="2" />
+      <edge id="9779" source="MAX" target="ELLEN" weight="1" />
+      <edge id="9780" source="DENHERDER" target="BRODY" weight="2" />
+      <edge id="9781" source="DENHERDER" target="ELLEN" weight="1" />
+      <edge id="9782" source="DENHERDER" target="VAUGHN" weight="1" />
+      <edge id="9783" source="DENHERDER" target="MEADOWS" weight="1" />
+      <edge id="9784" source="DENHERDER" target="MRS. TAFT" weight="1" />
+      <edge id="9785" source="DENHERDER" target="MR. WISEMAN" weight="1" />
+      <edge id="9786" source="DENHERDER" target="SECRETARY" weight="1" />
+      <edge id="9787" source="DENHERDER" target="MR. POSNER" weight="1" />
+      <edge id="9788" source="DENHERDER" target="MR. POLK" weight="1" />
+      <edge id="9789" source="DENHERDER" target="MR. GARDNER" weight="1" />
+      <edge id="9790" source="DENHERDER" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9791" source="DENHERDER" target="SALVATORE" weight="1" />
+      <edge id="9792" source="DENHERDER" target="CHARLIE" weight="3" />
+      <edge id="9793" source="MAINLANDER" target="WOMAN TOURIST" weight="1" />
+      <edge id="9794" source="WOMAN TOURIST" target="MAINLANDER" weight="1" />
+      <edge id="9795" source="MRS. TAFT" target="VAUGHN" weight="1" />
+      <edge id="9796" source="MRS. TAFT" target="MEADOWS" weight="1" />
+      <edge id="9797" source="MRS. TAFT" target="BRODY" weight="1" />
+      <edge id="9798" source="MRS. TAFT" target="MR. WISEMAN" weight="1" />
+      <edge id="9799" source="MRS. TAFT" target="SECRETARY" weight="1" />
+      <edge id="9800" source="MRS. TAFT" target="MR. POSNER" weight="1" />
+      <edge id="9801" source="MRS. TAFT" target="MR. POLK" weight="1" />
+      <edge id="9802" source="MRS. TAFT" target="MR. GARDNER" weight="1" />
+      <edge id="9803" source="MRS. TAFT" target="DENHERDER" weight="1" />
+      <edge id="9804" source="MRS. TAFT" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9805" source="MRS. TAFT" target="SALVATORE" weight="1" />
+      <edge id="9806" source="MR. WISEMAN" target="VAUGHN" weight="1" />
+      <edge id="9807" source="MR. WISEMAN" target="MEADOWS" weight="1" />
+      <edge id="9808" source="MR. WISEMAN" target="BRODY" weight="1" />
+      <edge id="9809" source="MR. WISEMAN" target="MRS. TAFT" weight="1" />
+      <edge id="9810" source="MR. WISEMAN" target="SECRETARY" weight="1" />
+      <edge id="9811" source="MR. WISEMAN" target="MR. POSNER" weight="1" />
+      <edge id="9812" source="MR. WISEMAN" target="MR. POLK" weight="1" />
+      <edge id="9813" source="MR. WISEMAN" target="MR. GARDNER" weight="1" />
+      <edge id="9814" source="MR. WISEMAN" target="DENHERDER" weight="1" />
+      <edge id="9815" source="MR. WISEMAN" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9816" source="MR. WISEMAN" target="SALVATORE" weight="1" />
+      <edge id="9817" source="SECRETARY" target="VAUGHN" weight="1" />
+      <edge id="9818" source="SECRETARY" target="MEADOWS" weight="1" />
+      <edge id="9819" source="SECRETARY" target="BRODY" weight="1" />
+      <edge id="9820" source="SECRETARY" target="MRS. TAFT" weight="1" />
+      <edge id="9821" source="SECRETARY" target="MR. WISEMAN" weight="1" />
+      <edge id="9822" source="SECRETARY" target="MR. POSNER" weight="1" />
+      <edge id="9823" source="SECRETARY" target="MR. POLK" weight="1" />
+      <edge id="9824" source="SECRETARY" target="MR. GARDNER" weight="1" />
+      <edge id="9825" source="SECRETARY" target="DENHERDER" weight="1" />
+      <edge id="9826" source="SECRETARY" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9827" source="SECRETARY" target="SALVATORE" weight="1" />
+      <edge id="9828" source="MR. POSNER" target="VAUGHN" weight="1" />
+      <edge id="9829" source="MR. POSNER" target="MEADOWS" weight="1" />
+      <edge id="9830" source="MR. POSNER" target="BRODY" weight="1" />
+      <edge id="9831" source="MR. POSNER" target="MRS. TAFT" weight="1" />
+      <edge id="9832" source="MR. POSNER" target="MR. WISEMAN" weight="1" />
+      <edge id="9833" source="MR. POSNER" target="SECRETARY" weight="1" />
+      <edge id="9834" source="MR. POSNER" target="MR. POLK" weight="1" />
+      <edge id="9835" source="MR. POSNER" target="MR. GARDNER" weight="1" />
+      <edge id="9836" source="MR. POSNER" target="DENHERDER" weight="1" />
+      <edge id="9837" source="MR. POSNER" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9838" source="MR. POSNER" target="SALVATORE" weight="1" />
+      <edge id="9839" source="MR. POLK" target="VAUGHN" weight="1" />
+      <edge id="9840" source="MR. POLK" target="MEADOWS" weight="1" />
+      <edge id="9841" source="MR. POLK" target="BRODY" weight="1" />
+      <edge id="9842" source="MR. POLK" target="MRS. TAFT" weight="1" />
+      <edge id="9843" source="MR. POLK" target="MR. WISEMAN" weight="1" />
+      <edge id="9844" source="MR. POLK" target="SECRETARY" weight="1" />
+      <edge id="9845" source="MR. POLK" target="MR. POSNER" weight="1" />
+      <edge id="9846" source="MR. POLK" target="MR. GARDNER" weight="1" />
+      <edge id="9847" source="MR. POLK" target="DENHERDER" weight="1" />
+      <edge id="9848" source="MR. POLK" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9849" source="MR. POLK" target="SALVATORE" weight="1" />
+      <edge id="9850" source="MR. GARDNER" target="VAUGHN" weight="1" />
+      <edge id="9851" source="MR. GARDNER" target="MEADOWS" weight="1" />
+      <edge id="9852" source="MR. GARDNER" target="BRODY" weight="1" />
+      <edge id="9853" source="MR. GARDNER" target="MRS. TAFT" weight="1" />
+      <edge id="9854" source="MR. GARDNER" target="MR. WISEMAN" weight="1" />
+      <edge id="9855" source="MR. GARDNER" target="SECRETARY" weight="1" />
+      <edge id="9856" source="MR. GARDNER" target="MR. POSNER" weight="1" />
+      <edge id="9857" source="MR. GARDNER" target="MR. POLK" weight="1" />
+      <edge id="9858" source="MR. GARDNER" target="DENHERDER" weight="1" />
+      <edge id="9859" source="MR. GARDNER" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9860" source="MR. GARDNER" target="SALVATORE" weight="1" />
+      <edge id="9861" source="CHILD SPOKESMAN" target="VAUGHN" weight="1" />
+      <edge id="9862" source="CHILD SPOKESMAN" target="MEADOWS" weight="1" />
+      <edge id="9863" source="CHILD SPOKESMAN" target="BRODY" weight="1" />
+      <edge id="9864" source="CHILD SPOKESMAN" target="MRS. TAFT" weight="1" />
+      <edge id="9865" source="CHILD SPOKESMAN" target="MR. WISEMAN" weight="1" />
+      <edge id="9866" source="CHILD SPOKESMAN" target="SECRETARY" weight="1" />
+      <edge id="9867" source="CHILD SPOKESMAN" target="MR. POSNER" weight="1" />
+      <edge id="9868" source="CHILD SPOKESMAN" target="MR. POLK" weight="1" />
+      <edge id="9869" source="CHILD SPOKESMAN" target="MR. GARDNER" weight="1" />
+      <edge id="9870" source="CHILD SPOKESMAN" target="DENHERDER" weight="1" />
+      <edge id="9871" source="CHILD SPOKESMAN" target="SALVATORE" weight="1" />
+      <edge id="9872" source="SALVATORE" target="VAUGHN" weight="1" />
+      <edge id="9873" source="SALVATORE" target="MEADOWS" weight="1" />
+      <edge id="9874" source="SALVATORE" target="BRODY" weight="2" />
+      <edge id="9875" source="SALVATORE" target="MRS. TAFT" weight="1" />
+      <edge id="9876" source="SALVATORE" target="MR. WISEMAN" weight="1" />
+      <edge id="9877" source="SALVATORE" target="SECRETARY" weight="1" />
+      <edge id="9878" source="SALVATORE" target="MR. POSNER" weight="1" />
+      <edge id="9879" source="SALVATORE" target="MR. POLK" weight="1" />
+      <edge id="9880" source="SALVATORE" target="MR. GARDNER" weight="1" />
+      <edge id="9881" source="SALVATORE" target="DENHERDER" weight="1" />
+      <edge id="9882" source="SALVATORE" target="CHILD SPOKESMAN" weight="1" />
+      <edge id="9883" source="SALVATORE" target="QUINT" weight="3" />
+      <edge id="9884" source="CHARLIE" target="DENHERDER" weight="3" />
+      <edge id="9885" source="BOAT RENTAL MAN" target="HENDRICKS" weight="1" />
+      <edge id="9886" source="BOAT RENTAL MAN" target="BRODY" weight="1" />
+      <edge id="9887" source="WALTER" target="BARWOOD" weight="1" />
+      <edge id="9888" source="WALTER" target="BRODY" weight="1" />
+      <edge id="9889" source="WALTER" target="HARBORMASTER" weight="1" />
+      <edge id="9890" source="BARWOOD" target="WALTER" weight="1" />
+      <edge id="9891" source="BARWOOD" target="BRODY" weight="1" />
+      <edge id="9892" source="BARWOOD" target="HARBORMASTER" weight="1" />
+      <edge id="9893" source="HARBORMASTER" target="WALTER" weight="1" />
+      <edge id="9894" source="HARBORMASTER" target="BARWOOD" weight="1" />
+      <edge id="9895" source="HARBORMASTER" target="BRODY" weight="1" />
+      <edge id="9896" source="FELIX" target="GARDNER" weight="1" />
+      <edge id="9897" source="GARDNER" target="FELIX" weight="1" />
+      <edge id="9898" source="MAN IN BOAT" target="BRODY" weight="1" />
+      <edge id="9899" source="MAN IN BOAT" target="HOOPER" weight="1" />
+      <edge id="9900" source="HOOPER" target="BRODY" weight="15" />
+      <edge id="9901" source="HOOPER" target="MAN IN BOAT" weight="1" />
+      <edge id="9902" source="HOOPER" target="ATTENDANT" weight="1" />
+      <edge id="9903" source="HOOPER" target="MEADOWS" weight="5" />
+      <edge id="9904" source="HOOPER" target="HARRY" weight="2" />
+      <edge id="9905" source="HOOPER" target="GAFFER" weight="1" />
+      <edge id="9906" source="HOOPER" target="VOICE IN CROWD" weight="1" />
+      <edge id="9907" source="HOOPER" target="PRATT" weight="2" />
+      <edge id="9908" source="HOOPER" target="VAUGHN" weight="2" />
+      <edge id="9909" source="HOOPER" target="FATHER" weight="1" />
+      <edge id="9910" source="HOOPER" target="ELLEN" weight="1" />
+      <edge id="9911" source="HOOPER" target="MICHAEL" weight="1" />
+      <edge id="9912" source="HOOPER" target="COLLEAGUE" weight="1" />
+      <edge id="9913" source="HOOPER" target="QUINT" weight="14" />
+      <edge id="9914" source="PRATT" target="HARRY" weight="2" />
+      <edge id="9915" source="PRATT" target="MAN WITH GAFF" weight="1" />
+      <edge id="9916" source="PRATT" target="MEADOWS" weight="1" />
+      <edge id="9917" source="PRATT" target="GAFFER" weight="1" />
+      <edge id="9918" source="PRATT" target="VOICE IN CROWD" weight="1" />
+      <edge id="9919" source="PRATT" target="BRODY" weight="1" />
+      <edge id="9920" source="PRATT" target="HOOPER" weight="2" />
+      <edge id="9921" source="HARRY" target="PRATT" weight="2" />
+      <edge id="9922" source="HARRY" target="MAN WITH GAFF" weight="1" />
+      <edge id="9923" source="HARRY" target="MEADOWS" weight="1" />
+      <edge id="9924" source="HARRY" target="GAFFER" weight="1" />
+      <edge id="9925" source="HARRY" target="VOICE IN CROWD" weight="1" />
+      <edge id="9926" source="HARRY" target="BRODY" weight="2" />
+      <edge id="9927" source="HARRY" target="HOOPER" weight="2" />
+      <edge id="9928" source="HARRY" target="VAUGHN" weight="1" />
+      <edge id="9929" source="HARRY" target="FATHER" weight="1" />
+      <edge id="9930" source="MAN WITH GAFF" target="PRATT" weight="1" />
+      <edge id="9931" source="MAN WITH GAFF" target="HARRY" weight="1" />
+      <edge id="9932" source="CORONER SANTOS" target="BRODY" weight="1" />
+      <edge id="9933" source="ATTENDANT" target="HOOPER" weight="1" />
+      <edge id="9934" source="GAFFER" target="MEADOWS" weight="1" />
+      <edge id="9935" source="GAFFER" target="HARRY" weight="1" />
+      <edge id="9936" source="GAFFER" target="VOICE IN CROWD" weight="1" />
+      <edge id="9937" source="GAFFER" target="BRODY" weight="1" />
+      <edge id="9938" source="GAFFER" target="HOOPER" weight="1" />
+      <edge id="9939" source="GAFFER" target="PRATT" weight="1" />
+      <edge id="9940" source="VOICE IN CROWD" target="MEADOWS" weight="1" />
+      <edge id="9941" source="VOICE IN CROWD" target="HARRY" weight="1" />
+      <edge id="9942" source="VOICE IN CROWD" target="GAFFER" weight="1" />
+      <edge id="9943" source="VOICE IN CROWD" target="BRODY" weight="1" />
+      <edge id="9944" source="VOICE IN CROWD" target="HOOPER" weight="1" />
+      <edge id="9945" source="VOICE IN CROWD" target="PRATT" weight="1" />
+      <edge id="9946" source="FATHER" target="VAUGHN" weight="1" />
+      <edge id="9947" source="FATHER" target="HOOPER" weight="1" />
+      <edge id="9948" source="FATHER" target="BRODY" weight="1" />
+      <edge id="9949" source="FATHER" target="HARRY" weight="1" />
+      <edge id="9950" source="OFFICER" target="BRODY" weight="2" />
+      <edge id="9951" source="LANDLADY" target="ELLEN" weight="1" />
+      <edge id="9952" source="LANDLADY" target="POLLY" weight="1" />
+      <edge id="9953" source="LANDLADY" target="MAN TOURIST" weight="1" />
+      <edge id="9954" source="LANDLADY" target="TOURIST WIFE" weight="1" />
+      <edge id="9955" source="MAN TOURIST" target="ELLEN" weight="1" />
+      <edge id="9956" source="MAN TOURIST" target="LANDLADY" weight="1" />
+      <edge id="9957" source="MAN TOURIST" target="POLLY" weight="1" />
+      <edge id="9958" source="MAN TOURIST" target="TOURIST WIFE" weight="1" />
+      <edge id="9959" source="TOURIST WIFE" target="ELLEN" weight="1" />
+      <edge id="9960" source="TOURIST WIFE" target="LANDLADY" weight="1" />
+      <edge id="9961" source="TOURIST WIFE" target="POLLY" weight="1" />
+      <edge id="9962" source="TOURIST WIFE" target="MAN TOURIST" weight="1" />
+      <edge id="9963" source="PARROT" target="BRODY" weight="1" />
+      <edge id="9964" source="PARROT" target="QUINT" weight="1" />
+      <edge id="9965" source="MANAGER" target="VAUGHN" weight="1" />
+      <edge id="9966" source="INTERVIEWER" target="BRODY" weight="1" />
+      <edge id="9967" source="SAILOR" target="VOICE" weight="1" />
+      <edge id="9968" source="VOICE" target="SAILOR" weight="1" />
+      <edge id="9969" source="BLIMP SPOTTER" target="COUNTY POLICEMAN" weight="1" />
+      <edge id="9970" source="BLIMP SPOTTER" target="HENDRICKS" weight="1" />
+      <edge id="9971" source="BLIMP SPOTTER" target="SONAR OPERATOR" weight="1" />
+      <edge id="9972" source="VOICES" target="BRODY" weight="1" />
+      <edge id="9973" source="VOICES" target="MICHAEL" weight="1" />
+      <edge id="9974" source="COUNTY POLICEMAN" target="BLIMP SPOTTER" weight="1" />
+      <edge id="9975" source="SONAR OPERATOR" target="HENDRICKS" weight="1" />
+      <edge id="9976" source="SONAR OPERATOR" target="BLIMP SPOTTER" weight="1" />
+      <edge id="9977" source="COLLEAGUE" target="HOOPER" weight="1" />
+      <edge id="9978" source="COLLEAGUE" target="QUINT" weight="1" />
+    </edges>
+  </graph>
+</gexf>

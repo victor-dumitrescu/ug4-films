@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="BANKY" label="BANKY" />
+      <node id="HOLDEN" label="HOLDEN" />
+      <node id="STEVE-DAVE" label="STEVE-DAVE" />
+      <node id="WALT" label="WALT" />
+      <node id="FAN" label="FAN" />
+      <node id="COLLECTOR" label="COLLECTOR" />
+      <node id="LITTLE KID" label="LITTLE KID" />
+      <node id="HOOPER" label="HOOPER" />
+      <node id="VOICE FROM CROWD" label="VOICE FROM CROWD" />
+      <node id="VOICE" label="VOICE" />
+      <node id="ALYSSA" label="ALYSSA" />
+      <node id="GUY" label="GUY" />
+      <node id="OC HOOPER" label="OC HOOPER" />
+      <node id="OC SINGER" label="OC SINGER" />
+      <node id="SINGER" label="SINGER" />
+      <node id="KIM" label="KIM" />
+      <node id="SLOSS" label="SLOSS" />
+      <node id="EXEC 1" label="EXEC 1" />
+      <node id="EXEC 2" label="EXEC 2" />
+      <node id="KID" label="KID" />
+      <node id="FLIGHT ATTENDANT" label="FLIGHT ATTENDANT" />
+      <node id="F.A." label="F.A." />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="HOLDEN V.O." label="HOLDEN V.O." />
+      <node id="ALYSSA V.O." label="ALYSSA V.O." />
+      <node id="BANKY V.O." label="BANKY V.O." />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="DALIA" label="DALIA" />
+      <node id="TORY" label="TORY" />
+      <node id="NICA" label="NICA" />
+      <node id="JANE" label="JANE" />
+      <node id="COHEE" label="COHEE" />
+      <node id="BYSTANDER" label="BYSTANDER" />
+      <node id="OC VOICE" label="OC VOICE" />
+      <node id="JAY" label="JAY" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="BOB" label="BOB" />
+      <node id="OC FAN" label="OC FAN" />
+      <node id="BXVKY" label="BXVKY" />
+      <node id="OC HOLDEN" label="OC HOLDEN" />
+    </nodes>
+    <edges>
+      <edge id="3869" source="BANKY" target="HOLDEN" weight="16" />
+      <edge id="3870" source="BANKY" target="STEVE-DAVE" weight="1" />
+      <edge id="3871" source="BANKY" target="WALT" weight="1" />
+      <edge id="3872" source="BANKY" target="FAN" weight="2" />
+      <edge id="3873" source="BANKY" target="COLLECTOR" weight="1" />
+      <edge id="3874" source="BANKY" target="LITTLE KID" weight="1" />
+      <edge id="3875" source="BANKY" target="HOOPER" weight="4" />
+      <edge id="3876" source="BANKY" target="VOICE FROM CROWD" weight="1" />
+      <edge id="3877" source="BANKY" target="VOICE" weight="1" />
+      <edge id="3878" source="BANKY" target="ALYSSA" weight="8" />
+      <edge id="3879" source="BANKY" target="GUY" weight="1" />
+      <edge id="3880" source="BANKY" target="OC HOOPER" weight="1" />
+      <edge id="3881" source="BANKY" target="OC SINGER" weight="1" />
+      <edge id="3882" source="BANKY" target="SINGER" weight="1" />
+      <edge id="3883" source="BANKY" target="KIM" weight="1" />
+      <edge id="3884" source="BANKY" target="SLOSS" weight="2" />
+      <edge id="3885" source="BANKY" target="EXEC 1" weight="1" />
+      <edge id="3886" source="BANKY" target="EXEC 2" weight="1" />
+      <edge id="3887" source="BANKY" target="KID" weight="1" />
+      <edge id="3888" source="BANKY" target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="3889" source="BANKY" target="F.A." weight="1" />
+      <edge id="3890" source="BANKY" target="BANKY V.O." weight="2" />
+      <edge id="3891" source="BANKY" target="COHEE" weight="1" />
+      <edge id="3892" source="BANKY" target="OC FAN" weight="1" />
+      <edge id="3893" source="BANKY" target="BXVKY" weight="1" />
+      <edge id="3894" source="BANKY" target="WOMAN" weight="1" />
+      <edge id="3895" source="BANKY" target="OC HOLDEN" weight="1" />
+      <edge id="3896" source="HOLDEN" target="BANKY" weight="16" />
+      <edge id="3897" source="HOLDEN" target="STEVE-DAVE" weight="1" />
+      <edge id="3898" source="HOLDEN" target="WALT" weight="1" />
+      <edge id="3899" source="HOLDEN" target="FAN" weight="2" />
+      <edge id="3900" source="HOLDEN" target="COLLECTOR" weight="1" />
+      <edge id="3901" source="HOLDEN" target="LITTLE KID" weight="1" />
+      <edge id="3902" source="HOLDEN" target="HOOPER" weight="5" />
+      <edge id="3903" source="HOLDEN" target="VOICE FROM CROWD" weight="1" />
+      <edge id="3904" source="HOLDEN" target="VOICE" weight="1" />
+      <edge id="3905" source="HOLDEN" target="ALYSSA" weight="20" />
+      <edge id="3906" source="HOLDEN" target="GUY" weight="1" />
+      <edge id="3907" source="HOLDEN" target="OC HOOPER" weight="1" />
+      <edge id="3908" source="HOLDEN" target="OC SINGER" weight="1" />
+      <edge id="3909" source="HOLDEN" target="SINGER" weight="1" />
+      <edge id="3910" source="HOLDEN" target="KIM" weight="1" />
+      <edge id="3911" source="HOLDEN" target="SLOSS" weight="2" />
+      <edge id="3912" source="HOLDEN" target="EXEC 1" weight="1" />
+      <edge id="3913" source="HOLDEN" target="EXEC 2" weight="1" />
+      <edge id="3914" source="HOLDEN" target="KID" weight="2" />
+      <edge id="3915" source="HOLDEN" target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="3916" source="HOLDEN" target="F.A." weight="1" />
+      <edge id="3917" source="HOLDEN" target="WOMAN" weight="2" />
+      <edge id="3918" source="HOLDEN" target="HOLDEN V.O." weight="1" />
+      <edge id="3919" source="HOLDEN" target="ALYSSA V.O." weight="1" />
+      <edge id="3920" source="HOLDEN" target="BANKY V.O." weight="2" />
+      <edge id="3921" source="HOLDEN" target="CASHIER" weight="1" />
+      <edge id="3922" source="HOLDEN" target="COHEE" weight="1" />
+      <edge id="3923" source="HOLDEN" target="BYSTANDER" weight="1" />
+      <edge id="3924" source="HOLDEN" target="OC VOICE" weight="1" />
+      <edge id="3925" source="HOLDEN" target="JAY" weight="1" />
+      <edge id="3926" source="HOLDEN" target="WAITRESS" weight="1" />
+      <edge id="3927" source="HOLDEN" target="BOB" weight="1" />
+      <edge id="3928" source="HOLDEN" target="OC FAN" weight="1" />
+      <edge id="3929" source="HOLDEN" target="BXVKY" weight="1" />
+      <edge id="3930" source="HOLDEN" target="OC HOLDEN" weight="1" />
+      <edge id="3931" source="STEVE-DAVE" target="BANKY" weight="1" />
+      <edge id="3932" source="STEVE-DAVE" target="HOLDEN" weight="1" />
+      <edge id="3933" source="STEVE-DAVE" target="WALT" weight="1" />
+      <edge id="3934" source="WALT" target="BANKY" weight="1" />
+      <edge id="3935" source="WALT" target="HOLDEN" weight="1" />
+      <edge id="3936" source="WALT" target="STEVE-DAVE" weight="1" />
+      <edge id="3937" source="FAN" target="HOLDEN" weight="2" />
+      <edge id="3938" source="FAN" target="COLLECTOR" weight="1" />
+      <edge id="3939" source="FAN" target="BANKY" weight="2" />
+      <edge id="3940" source="FAN" target="LITTLE KID" weight="1" />
+      <edge id="3941" source="FAN" target="BANKY V.O." weight="1" />
+      <edge id="3942" source="FAN" target="OC FAN" weight="1" />
+      <edge id="3943" source="FAN" target="BXVKY" weight="1" />
+      <edge id="3944" source="FAN" target="ALYSSA" weight="1" />
+      <edge id="3945" source="FAN" target="WOMAN" weight="1" />
+      <edge id="3946" source="FAN" target="OC HOLDEN" weight="1" />
+      <edge id="3947" source="COLLECTOR" target="FAN" weight="1" />
+      <edge id="3948" source="COLLECTOR" target="HOLDEN" weight="1" />
+      <edge id="3949" source="COLLECTOR" target="BANKY" weight="1" />
+      <edge id="3950" source="COLLECTOR" target="LITTLE KID" weight="1" />
+      <edge id="3951" source="LITTLE KID" target="FAN" weight="1" />
+      <edge id="3952" source="LITTLE KID" target="HOLDEN" weight="1" />
+      <edge id="3953" source="LITTLE KID" target="COLLECTOR" weight="1" />
+      <edge id="3954" source="LITTLE KID" target="BANKY" weight="1" />
+      <edge id="3955" source="HOOPER" target="VOICE FROM CROWD" weight="1" />
+      <edge id="3956" source="HOOPER" target="HOLDEN" weight="5" />
+      <edge id="3957" source="HOOPER" target="BANKY" weight="4" />
+      <edge id="3958" source="HOOPER" target="VOICE" weight="1" />
+      <edge id="3959" source="HOOPER" target="ALYSSA" weight="3" />
+      <edge id="3960" source="HOOPER" target="GUY" weight="1" />
+      <edge id="3961" source="HOOPER" target="OC HOOPER" weight="1" />
+      <edge id="3962" source="HOOPER" target="OC SINGER" weight="1" />
+      <edge id="3963" source="HOOPER" target="SINGER" weight="1" />
+      <edge id="3964" source="HOOPER" target="KID" weight="1" />
+      <edge id="3965" source="VOICE FROM CROWD" target="HOOPER" weight="1" />
+      <edge id="3966" source="VOICE FROM CROWD" target="HOLDEN" weight="1" />
+      <edge id="3967" source="VOICE FROM CROWD" target="BANKY" weight="1" />
+      <edge id="3968" source="VOICE FROM CROWD" target="VOICE" weight="1" />
+      <edge id="3969" source="VOICE FROM CROWD" target="ALYSSA" weight="1" />
+      <edge id="3970" source="VOICE" target="HOOPER" weight="1" />
+      <edge id="3971" source="VOICE" target="VOICE FROM CROWD" weight="1" />
+      <edge id="3972" source="VOICE" target="HOLDEN" weight="1" />
+      <edge id="3973" source="VOICE" target="BANKY" weight="1" />
+      <edge id="3974" source="VOICE" target="ALYSSA" weight="1" />
+      <edge id="3975" source="ALYSSA" target="HOOPER" weight="3" />
+      <edge id="3976" source="ALYSSA" target="VOICE FROM CROWD" weight="1" />
+      <edge id="3977" source="ALYSSA" target="HOLDEN" weight="20" />
+      <edge id="3978" source="ALYSSA" target="BANKY" weight="8" />
+      <edge id="3979" source="ALYSSA" target="VOICE" weight="1" />
+      <edge id="3980" source="ALYSSA" target="GUY" weight="1" />
+      <edge id="3981" source="ALYSSA" target="OC HOOPER" weight="1" />
+      <edge id="3982" source="ALYSSA" target="OC SINGER" weight="1" />
+      <edge id="3983" source="ALYSSA" target="SINGER" weight="1" />
+      <edge id="3984" source="ALYSSA" target="KIM" weight="1" />
+      <edge id="3985" source="ALYSSA" target="KID" weight="1" />
+      <edge id="3986" source="ALYSSA" target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="3987" source="ALYSSA" target="F.A." weight="1" />
+      <edge id="3988" source="ALYSSA" target="WOMAN" weight="2" />
+      <edge id="3989" source="ALYSSA" target="HOLDEN V.O." weight="1" />
+      <edge id="3990" source="ALYSSA" target="ALYSSA V.O." weight="1" />
+      <edge id="3991" source="ALYSSA" target="CASHIER" weight="1" />
+      <edge id="3992" source="ALYSSA" target="DALIA" weight="1" />
+      <edge id="3993" source="ALYSSA" target="TORY" weight="1" />
+      <edge id="3994" source="ALYSSA" target="NICA" weight="1" />
+      <edge id="3995" source="ALYSSA" target="JANE" weight="1" />
+      <edge id="3996" source="ALYSSA" target="BYSTANDER" weight="1" />
+      <edge id="3997" source="ALYSSA" target="BANKY V.O." weight="1" />
+      <edge id="3998" source="ALYSSA" target="FAN" weight="1" />
+      <edge id="3999" source="ALYSSA" target="OC FAN" weight="1" />
+      <edge id="4000" source="ALYSSA" target="BXVKY" weight="1" />
+      <edge id="4001" source="ALYSSA" target="OC HOLDEN" weight="1" />
+      <edge id="4002" source="GUY" target="HOOPER" weight="1" />
+      <edge id="4003" source="GUY" target="BANKY" weight="1" />
+      <edge id="4004" source="GUY" target="HOLDEN" weight="1" />
+      <edge id="4005" source="GUY" target="OC HOOPER" weight="1" />
+      <edge id="4006" source="GUY" target="ALYSSA" weight="1" />
+      <edge id="4007" source="GUY" target="OC SINGER" weight="1" />
+      <edge id="4008" source="GUY" target="SINGER" weight="1" />
+      <edge id="4009" source="OC HOOPER" target="GUY" weight="1" />
+      <edge id="4010" source="OC HOOPER" target="HOOPER" weight="1" />
+      <edge id="4011" source="OC HOOPER" target="BANKY" weight="1" />
+      <edge id="4012" source="OC HOOPER" target="HOLDEN" weight="1" />
+      <edge id="4013" source="OC HOOPER" target="ALYSSA" weight="1" />
+      <edge id="4014" source="OC HOOPER" target="OC SINGER" weight="1" />
+      <edge id="4015" source="OC HOOPER" target="SINGER" weight="1" />
+      <edge id="4016" source="OC SINGER" target="GUY" weight="1" />
+      <edge id="4017" source="OC SINGER" target="HOOPER" weight="1" />
+      <edge id="4018" source="OC SINGER" target="BANKY" weight="1" />
+      <edge id="4019" source="OC SINGER" target="HOLDEN" weight="1" />
+      <edge id="4020" source="OC SINGER" target="OC HOOPER" weight="1" />
+      <edge id="4021" source="OC SINGER" target="ALYSSA" weight="1" />
+      <edge id="4022" source="OC SINGER" target="SINGER" weight="1" />
+      <edge id="4023" source="SINGER" target="GUY" weight="1" />
+      <edge id="4024" source="SINGER" target="HOOPER" weight="1" />
+      <edge id="4025" source="SINGER" target="BANKY" weight="1" />
+      <edge id="4026" source="SINGER" target="HOLDEN" weight="1" />
+      <edge id="4027" source="SINGER" target="OC HOOPER" weight="1" />
+      <edge id="4028" source="SINGER" target="ALYSSA" weight="1" />
+      <edge id="4029" source="SINGER" target="OC SINGER" weight="1" />
+      <edge id="4030" source="KIM" target="BANKY" weight="1" />
+      <edge id="4031" source="KIM" target="HOLDEN" weight="1" />
+      <edge id="4032" source="KIM" target="ALYSSA" weight="1" />
+      <edge id="4033" source="SLOSS" target="BANKY" weight="2" />
+      <edge id="4034" source="SLOSS" target="HOLDEN" weight="2" />
+      <edge id="4035" source="SLOSS" target="EXEC 1" weight="1" />
+      <edge id="4036" source="SLOSS" target="EXEC 2" weight="1" />
+      <edge id="4037" source="EXEC 1" target="EXEC 2" weight="1" />
+      <edge id="4038" source="EXEC 1" target="BANKY" weight="1" />
+      <edge id="4039" source="EXEC 1" target="SLOSS" weight="1" />
+      <edge id="4040" source="EXEC 1" target="HOLDEN" weight="1" />
+      <edge id="4041" source="EXEC 2" target="EXEC 1" weight="1" />
+      <edge id="4042" source="EXEC 2" target="BANKY" weight="1" />
+      <edge id="4043" source="EXEC 2" target="SLOSS" weight="1" />
+      <edge id="4044" source="EXEC 2" target="HOLDEN" weight="1" />
+      <edge id="4045" source="KID" target="HOLDEN" weight="2" />
+      <edge id="4046" source="KID" target="BANKY" weight="1" />
+      <edge id="4047" source="KID" target="ALYSSA" weight="1" />
+      <edge id="4048" source="KID" target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="4049" source="KID" target="F.A." weight="1" />
+      <edge id="4050" source="KID" target="HOOPER" weight="1" />
+      <edge id="4051" source="FLIGHT ATTENDANT" target="HOLDEN" weight="1" />
+      <edge id="4052" source="FLIGHT ATTENDANT" target="BANKY" weight="1" />
+      <edge id="4053" source="FLIGHT ATTENDANT" target="KID" weight="1" />
+      <edge id="4054" source="FLIGHT ATTENDANT" target="ALYSSA" weight="1" />
+      <edge id="4055" source="FLIGHT ATTENDANT" target="F.A." weight="1" />
+      <edge id="4056" source="F.A." target="HOLDEN" weight="1" />
+      <edge id="4057" source="F.A." target="BANKY" weight="1" />
+      <edge id="4058" source="F.A." target="KID" weight="1" />
+      <edge id="4059" source="F.A." target="ALYSSA" weight="1" />
+      <edge id="4060" source="F.A." target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="4061" source="WOMAN" target="HOLDEN" weight="2" />
+      <edge id="4062" source="WOMAN" target="ALYSSA" weight="2" />
+      <edge id="4063" source="WOMAN" target="BANKY V.O." weight="1" />
+      <edge id="4064" source="WOMAN" target="FAN" weight="1" />
+      <edge id="4065" source="WOMAN" target="BANKY" weight="1" />
+      <edge id="4066" source="WOMAN" target="OC FAN" weight="1" />
+      <edge id="4067" source="WOMAN" target="BXVKY" weight="1" />
+      <edge id="4068" source="WOMAN" target="OC HOLDEN" weight="1" />
+      <edge id="4069" source="HOLDEN V.O." target="ALYSSA" weight="1" />
+      <edge id="4070" source="HOLDEN V.O." target="HOLDEN" weight="1" />
+      <edge id="4071" source="HOLDEN V.O." target="ALYSSA V.O." weight="1" />
+      <edge id="4072" source="ALYSSA V.O." target="ALYSSA" weight="1" />
+      <edge id="4073" source="ALYSSA V.O." target="HOLDEN" weight="1" />
+      <edge id="4074" source="ALYSSA V.O." target="HOLDEN V.O." weight="1" />
+      <edge id="4075" source="BANKY V.O." target="HOLDEN" weight="2" />
+      <edge id="4076" source="BANKY V.O." target="BANKY" weight="2" />
+      <edge id="4077" source="BANKY V.O." target="FAN" weight="1" />
+      <edge id="4078" source="BANKY V.O." target="OC FAN" weight="1" />
+      <edge id="4079" source="BANKY V.O." target="BXVKY" weight="1" />
+      <edge id="4080" source="BANKY V.O." target="ALYSSA" weight="1" />
+      <edge id="4081" source="BANKY V.O." target="WOMAN" weight="1" />
+      <edge id="4082" source="BANKY V.O." target="OC HOLDEN" weight="1" />
+      <edge id="4083" source="CASHIER" target="HOLDEN" weight="1" />
+      <edge id="4084" source="CASHIER" target="ALYSSA" weight="1" />
+      <edge id="4085" source="DALIA" target="ALYSSA" weight="1" />
+      <edge id="4086" source="DALIA" target="TORY" weight="1" />
+      <edge id="4087" source="DALIA" target="NICA" weight="1" />
+      <edge id="4088" source="DALIA" target="JANE" weight="1" />
+      <edge id="4089" source="TORY" target="DALIA" weight="1" />
+      <edge id="4090" source="TORY" target="ALYSSA" weight="1" />
+      <edge id="4091" source="TORY" target="NICA" weight="1" />
+      <edge id="4092" source="TORY" target="JANE" weight="1" />
+      <edge id="4093" source="NICA" target="DALIA" weight="1" />
+      <edge id="4094" source="NICA" target="ALYSSA" weight="1" />
+      <edge id="4095" source="NICA" target="TORY" weight="1" />
+      <edge id="4096" source="NICA" target="JANE" weight="1" />
+      <edge id="4097" source="JANE" target="DALIA" weight="1" />
+      <edge id="4098" source="JANE" target="ALYSSA" weight="1" />
+      <edge id="4099" source="JANE" target="TORY" weight="1" />
+      <edge id="4100" source="JANE" target="NICA" weight="1" />
+      <edge id="4101" source="COHEE" target="BANKY" weight="1" />
+      <edge id="4102" source="COHEE" target="HOLDEN" weight="1" />
+      <edge id="4103" source="BYSTANDER" target="ALYSSA" weight="1" />
+      <edge id="4104" source="BYSTANDER" target="HOLDEN" weight="1" />
+      <edge id="4105" source="OC VOICE" target="JAY" weight="1" />
+      <edge id="4106" source="OC VOICE" target="HOLDEN" weight="1" />
+      <edge id="4107" source="OC VOICE" target="WAITRESS" weight="1" />
+      <edge id="4108" source="OC VOICE" target="BOB" weight="1" />
+      <edge id="4109" source="JAY" target="OC VOICE" weight="1" />
+      <edge id="4110" source="JAY" target="HOLDEN" weight="1" />
+      <edge id="4111" source="JAY" target="WAITRESS" weight="1" />
+      <edge id="4112" source="JAY" target="BOB" weight="1" />
+      <edge id="4113" source="WAITRESS" target="OC VOICE" weight="1" />
+      <edge id="4114" source="WAITRESS" target="JAY" weight="1" />
+      <edge id="4115" source="WAITRESS" target="HOLDEN" weight="1" />
+      <edge id="4116" source="WAITRESS" target="BOB" weight="1" />
+      <edge id="4117" source="BOB" target="OC VOICE" weight="1" />
+      <edge id="4118" source="BOB" target="JAY" weight="1" />
+      <edge id="4119" source="BOB" target="HOLDEN" weight="1" />
+      <edge id="4120" source="BOB" target="WAITRESS" weight="1" />
+      <edge id="4121" source="OC FAN" target="BANKY V.O." weight="1" />
+      <edge id="4122" source="OC FAN" target="FAN" weight="1" />
+      <edge id="4123" source="OC FAN" target="BANKY" weight="1" />
+      <edge id="4124" source="OC FAN" target="BXVKY" weight="1" />
+      <edge id="4125" source="OC FAN" target="ALYSSA" weight="1" />
+      <edge id="4126" source="OC FAN" target="WOMAN" weight="1" />
+      <edge id="4127" source="OC FAN" target="OC HOLDEN" weight="1" />
+      <edge id="4128" source="OC FAN" target="HOLDEN" weight="1" />
+      <edge id="4129" source="BXVKY" target="BANKY V.O." weight="1" />
+      <edge id="4130" source="BXVKY" target="FAN" weight="1" />
+      <edge id="4131" source="BXVKY" target="BANKY" weight="1" />
+      <edge id="4132" source="BXVKY" target="OC FAN" weight="1" />
+      <edge id="4133" source="BXVKY" target="ALYSSA" weight="1" />
+      <edge id="4134" source="BXVKY" target="WOMAN" weight="1" />
+      <edge id="4135" source="BXVKY" target="OC HOLDEN" weight="1" />
+      <edge id="4136" source="BXVKY" target="HOLDEN" weight="1" />
+      <edge id="4137" source="OC HOLDEN" target="BANKY V.O." weight="1" />
+      <edge id="4138" source="OC HOLDEN" target="FAN" weight="1" />
+      <edge id="4139" source="OC HOLDEN" target="BANKY" weight="1" />
+      <edge id="4140" source="OC HOLDEN" target="OC FAN" weight="1" />
+      <edge id="4141" source="OC HOLDEN" target="BXVKY" weight="1" />
+      <edge id="4142" source="OC HOLDEN" target="ALYSSA" weight="1" />
+      <edge id="4143" source="OC HOLDEN" target="WOMAN" weight="1" />
+      <edge id="4144" source="OC HOLDEN" target="HOLDEN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

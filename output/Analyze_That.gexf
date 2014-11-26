@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="DUCKS" label="DUCKS" />
+      <node id="CAESAR" label="CAESAR" />
+      <node id="VITTI" label="VITTI" />
+      <node id="WISEGUY" label="WISEGUY" />
+      <node id="CONVICT" label="CONVICT" />
+      <node id="EARL" label="EARL" />
+      <node id="RABBI" label="RABBI" />
+      <node id="BEN" label="BEN" />
+      <node id="WISEGUY #2" label="WISEGUY #2" />
+      <node id="COYOTE" label="COYOTE" />
+      <node id="LAURA" label="LAURA" />
+      <node id="MICHAEL" label="MICHAEL" />
+      <node id="MILLER" label="MILLER" />
+      <node id="CERRONE" label="CERRONE" />
+      <node id="DR. CUTLER" label="DR. CUTLER" />
+      <node id="CHAPIN" label="CHAPIN" />
+      <node id="DAVIS" label="DAVIS" />
+      <node id="CUTE GIRL" label="CUTE GIRL" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="SHEILA" label="SHEILA" />
+      <node id="AUNT ESTHER" label="AUNT ESTHER" />
+      <node id="JELLY" label="JELLY" />
+      <node id="AUNT GOLDIE" label="AUNT GOLDIE" />
+      <node id="MASIELLO" label="MASIELLO" />
+      <node id="EDDIE" label="EDDIE" />
+      <node id="PATTY" label="PATTY" />
+      <node id="MR. MacINERNY" label="MR. MacINERNY" />
+      <node id="JOEY BOOTS" label="JOEY BOOTS" />
+      <node id="MAITRE D'" label="MAITRE D'" />
+      <node id="BUSINESSMAN" label="BUSINESSMAN" />
+      <node id="YOUNG MAN" label="YOUNG MAN" />
+      <node id="FIANCEE" label="FIANCEE" />
+      <node id="OWNER" label="OWNER" />
+      <node id="VITTI'S MOTHER" label="VITTI'S MOTHER" />
+      <node id="RAOUL" label="RAOUL" />
+      <node id="GUNMAN" label="GUNMAN" />
+      <node id="RIGAZZI" label="RIGAZZI" />
+      <node id="SOLDIER" label="SOLDIER" />
+      <node id="MELLO" label="MELLO" />
+      <node id="TONY BELLA" label="TONY BELLA" />
+      <node id="P.A." label="P.A." />
+      <node id="MO-MO" label="MO-MO" />
+      <node id="ASSISTANT DIRECTOR" label="ASSISTANT DIRECTOR" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="TUNA" label="TUNA" />
+      <node id="SOUNDMAN" label="SOUNDMAN" />
+      <node id="AL PACINO" label="AL PACINO" />
+      <node id="ENORMOUS BOBBY" label="ENORMOUS BOBBY" />
+      <node id="SPOTTER" label="SPOTTER" />
+      <node id="LIEUTENANT" label="LIEUTENANT" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="SWAT LEADER" label="SWAT LEADER" />
+      <node id="LEAD SWAT" label="LEAD SWAT" />
+      <node id="ALL TOGETHER" label="ALL TOGETHER" />
+    </nodes>
+    <edges>
+      <edge id="849" source="DUCKS" target="CAESAR" weight="1" />
+      <edge id="850" source="CAESAR" target="DUCKS" weight="1" />
+      <edge id="851" source="CAESAR" target="MELLO" weight="1" />
+      <edge id="852" source="CAESAR" target="RAOUL" weight="1" />
+      <edge id="853" source="CAESAR" target="VITTI" weight="1" />
+      <edge id="854" source="CAESAR" target="TONY BELLA" weight="1" />
+      <edge id="855" source="CAESAR" target="JELLY" weight="1" />
+      <edge id="856" source="CAESAR" target="P.A." weight="1" />
+      <edge id="857" source="VITTI" target="WISEGUY" weight="1" />
+      <edge id="858" source="VITTI" target="CONVICT" weight="1" />
+      <edge id="859" source="VITTI" target="EARL" weight="1" />
+      <edge id="860" source="VITTI" target="BEN" weight="32" />
+      <edge id="861" source="VITTI" target="WISEGUY #2" weight="1" />
+      <edge id="862" source="VITTI" target="COYOTE" weight="1" />
+      <edge id="863" source="VITTI" target="DR. CUTLER" weight="2" />
+      <edge id="864" source="VITTI" target="LAURA" weight="4" />
+      <edge id="865" source="VITTI" target="SHEILA" weight="3" />
+      <edge id="866" source="VITTI" target="AUNT ESTHER" weight="1" />
+      <edge id="867" source="VITTI" target="JELLY" weight="13" />
+      <edge id="868" source="VITTI" target="AUNT GOLDIE" weight="1" />
+      <edge id="869" source="VITTI" target="MASIELLO" weight="1" />
+      <edge id="870" source="VITTI" target="EDDIE" weight="6" />
+      <edge id="871" source="VITTI" target="PATTY" weight="5" />
+      <edge id="872" source="VITTI" target="MR. MacINERNY" weight="1" />
+      <edge id="873" source="VITTI" target="JOEY BOOTS" weight="1" />
+      <edge id="874" source="VITTI" target="MAITRE D'" weight="1" />
+      <edge id="875" source="VITTI" target="BUSINESSMAN" weight="1" />
+      <edge id="876" source="VITTI" target="YOUNG MAN" weight="1" />
+      <edge id="877" source="VITTI" target="FIANCEE" weight="1" />
+      <edge id="878" source="VITTI" target="OWNER" weight="1" />
+      <edge id="879" source="VITTI" target="VITTI'S MOTHER" weight="1" />
+      <edge id="880" source="VITTI" target="RAOUL" weight="5" />
+      <edge id="881" source="VITTI" target="GUNMAN" weight="1" />
+      <edge id="882" source="VITTI" target="CAESAR" weight="1" />
+      <edge id="883" source="VITTI" target="MELLO" weight="1" />
+      <edge id="884" source="VITTI" target="TONY BELLA" weight="3" />
+      <edge id="885" source="VITTI" target="P.A." weight="2" />
+      <edge id="886" source="VITTI" target="MO-MO" weight="1" />
+      <edge id="887" source="VITTI" target="ASSISTANT DIRECTOR" weight="2" />
+      <edge id="888" source="VITTI" target="RIGAZZI" weight="2" />
+      <edge id="889" source="VITTI" target="SOUNDMAN" weight="1" />
+      <edge id="890" source="VITTI" target="AL PACINO" weight="2" />
+      <edge id="891" source="VITTI" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="892" source="VITTI" target="SPOTTER" weight="1" />
+      <edge id="893" source="VITTI" target="ALL TOGETHER" weight="1" />
+      <edge id="894" source="WISEGUY" target="VITTI" weight="1" />
+      <edge id="895" source="WISEGUY" target="CONVICT" weight="1" />
+      <edge id="896" source="CONVICT" target="VITTI" weight="1" />
+      <edge id="897" source="CONVICT" target="WISEGUY" weight="1" />
+      <edge id="898" source="EARL" target="VITTI" weight="1" />
+      <edge id="899" source="RABBI" target="BEN" weight="1" />
+      <edge id="900" source="BEN" target="RABBI" weight="1" />
+      <edge id="901" source="BEN" target="VITTI" weight="32" />
+      <edge id="902" source="BEN" target="LAURA" weight="10" />
+      <edge id="903" source="BEN" target="MICHAEL" weight="4" />
+      <edge id="904" source="BEN" target="MILLER" weight="1" />
+      <edge id="905" source="BEN" target="CERRONE" weight="1" />
+      <edge id="906" source="BEN" target="DR. CUTLER" weight="3" />
+      <edge id="907" source="BEN" target="CHAPIN" weight="2" />
+      <edge id="908" source="BEN" target="CUTE GIRL" weight="1" />
+      <edge id="909" source="BEN" target="WOMAN" weight="1" />
+      <edge id="910" source="BEN" target="SHEILA" weight="3" />
+      <edge id="911" source="BEN" target="AUNT ESTHER" weight="1" />
+      <edge id="912" source="BEN" target="JELLY" weight="11" />
+      <edge id="913" source="BEN" target="AUNT GOLDIE" weight="1" />
+      <edge id="914" source="BEN" target="VITTI'S MOTHER" weight="1" />
+      <edge id="915" source="BEN" target="RAOUL" weight="1" />
+      <edge id="916" source="BEN" target="SOLDIER" weight="1" />
+      <edge id="917" source="BEN" target="MASIELLO" weight="1" />
+      <edge id="918" source="BEN" target="PATTY" weight="1" />
+      <edge id="919" source="BEN" target="MO-MO" weight="1" />
+      <edge id="920" source="BEN" target="TUNA" weight="1" />
+      <edge id="921" source="BEN" target="EDDIE" weight="4" />
+      <edge id="922" source="BEN" target="AL PACINO" weight="2" />
+      <edge id="923" source="BEN" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="924" source="BEN" target="SPOTTER" weight="1" />
+      <edge id="925" source="BEN" target="LEAD SWAT" weight="1" />
+      <edge id="926" source="BEN" target="ALL TOGETHER" weight="1" />
+      <edge id="927" source="WISEGUY #2" target="COYOTE" weight="1" />
+      <edge id="928" source="WISEGUY #2" target="VITTI" weight="1" />
+      <edge id="929" source="COYOTE" target="WISEGUY #2" weight="1" />
+      <edge id="930" source="COYOTE" target="VITTI" weight="1" />
+      <edge id="931" source="LAURA" target="BEN" weight="10" />
+      <edge id="932" source="LAURA" target="MICHAEL" weight="3" />
+      <edge id="933" source="LAURA" target="MILLER" weight="1" />
+      <edge id="934" source="LAURA" target="CERRONE" weight="1" />
+      <edge id="935" source="LAURA" target="VITTI" weight="4" />
+      <edge id="936" source="LAURA" target="WOMAN" weight="1" />
+      <edge id="937" source="LAURA" target="AUNT ESTHER" weight="1" />
+      <edge id="938" source="LAURA" target="SHEILA" weight="2" />
+      <edge id="939" source="LAURA" target="JELLY" weight="2" />
+      <edge id="940" source="LAURA" target="RAOUL" weight="1" />
+      <edge id="941" source="MICHAEL" target="BEN" weight="4" />
+      <edge id="942" source="MICHAEL" target="LAURA" weight="3" />
+      <edge id="943" source="MICHAEL" target="MILLER" weight="1" />
+      <edge id="944" source="MICHAEL" target="CERRONE" weight="1" />
+      <edge id="945" source="MICHAEL" target="CUTE GIRL" weight="1" />
+      <edge id="946" source="MILLER" target="BEN" weight="1" />
+      <edge id="947" source="MILLER" target="LAURA" weight="1" />
+      <edge id="948" source="MILLER" target="CERRONE" weight="4" />
+      <edge id="949" source="MILLER" target="MICHAEL" weight="1" />
+      <edge id="950" source="MILLER" target="CHAPIN" weight="1" />
+      <edge id="951" source="MILLER" target="DAVIS" weight="1" />
+      <edge id="952" source="CERRONE" target="BEN" weight="1" />
+      <edge id="953" source="CERRONE" target="MILLER" weight="4" />
+      <edge id="954" source="CERRONE" target="LAURA" weight="1" />
+      <edge id="955" source="CERRONE" target="MICHAEL" weight="1" />
+      <edge id="956" source="CERRONE" target="CHAPIN" weight="1" />
+      <edge id="957" source="CERRONE" target="DAVIS" weight="1" />
+      <edge id="958" source="DR. CUTLER" target="BEN" weight="3" />
+      <edge id="959" source="DR. CUTLER" target="VITTI" weight="2" />
+      <edge id="960" source="CHAPIN" target="BEN" weight="2" />
+      <edge id="961" source="CHAPIN" target="CERRONE" weight="1" />
+      <edge id="962" source="CHAPIN" target="DAVIS" weight="1" />
+      <edge id="963" source="CHAPIN" target="MILLER" weight="1" />
+      <edge id="964" source="DAVIS" target="CERRONE" weight="1" />
+      <edge id="965" source="DAVIS" target="CHAPIN" weight="1" />
+      <edge id="966" source="DAVIS" target="MILLER" weight="1" />
+      <edge id="967" source="CUTE GIRL" target="BEN" weight="1" />
+      <edge id="968" source="CUTE GIRL" target="MICHAEL" weight="1" />
+      <edge id="969" source="WOMAN" target="BEN" weight="1" />
+      <edge id="970" source="WOMAN" target="LAURA" weight="1" />
+      <edge id="971" source="SHEILA" target="BEN" weight="3" />
+      <edge id="972" source="SHEILA" target="VITTI" weight="3" />
+      <edge id="973" source="SHEILA" target="LAURA" weight="2" />
+      <edge id="974" source="SHEILA" target="AUNT ESTHER" weight="1" />
+      <edge id="975" source="SHEILA" target="RAOUL" weight="1" />
+      <edge id="976" source="SHEILA" target="JELLY" weight="1" />
+      <edge id="977" source="AUNT ESTHER" target="LAURA" weight="1" />
+      <edge id="978" source="AUNT ESTHER" target="BEN" weight="1" />
+      <edge id="979" source="AUNT ESTHER" target="SHEILA" weight="1" />
+      <edge id="980" source="AUNT ESTHER" target="VITTI" weight="1" />
+      <edge id="981" source="JELLY" target="VITTI" weight="13" />
+      <edge id="982" source="JELLY" target="BEN" weight="11" />
+      <edge id="983" source="JELLY" target="LAURA" weight="2" />
+      <edge id="984" source="JELLY" target="AUNT GOLDIE" weight="1" />
+      <edge id="985" source="JELLY" target="RAOUL" weight="2" />
+      <edge id="986" source="JELLY" target="SHEILA" weight="1" />
+      <edge id="987" source="JELLY" target="GUNMAN" weight="2" />
+      <edge id="988" source="JELLY" target="CAESAR" weight="1" />
+      <edge id="989" source="JELLY" target="MELLO" weight="1" />
+      <edge id="990" source="JELLY" target="TONY BELLA" weight="1" />
+      <edge id="991" source="JELLY" target="P.A." weight="2" />
+      <edge id="992" source="JELLY" target="MO-MO" weight="2" />
+      <edge id="993" source="JELLY" target="PATTY" weight="1" />
+      <edge id="994" source="JELLY" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="995" source="JELLY" target="EDDIE" weight="3" />
+      <edge id="996" source="JELLY" target="TUNA" weight="1" />
+      <edge id="997" source="JELLY" target="AL PACINO" weight="1" />
+      <edge id="998" source="JELLY" target="ALL TOGETHER" weight="1" />
+      <edge id="999" source="AUNT GOLDIE" target="JELLY" weight="1" />
+      <edge id="1000" source="AUNT GOLDIE" target="BEN" weight="1" />
+      <edge id="1001" source="AUNT GOLDIE" target="VITTI" weight="1" />
+      <edge id="1002" source="MASIELLO" target="VITTI" weight="1" />
+      <edge id="1003" source="MASIELLO" target="BEN" weight="1" />
+      <edge id="1004" source="MASIELLO" target="PATTY" weight="1" />
+      <edge id="1005" source="EDDIE" target="VITTI" weight="6" />
+      <edge id="1006" source="EDDIE" target="PATTY" weight="2" />
+      <edge id="1007" source="EDDIE" target="MO-MO" weight="1" />
+      <edge id="1008" source="EDDIE" target="JELLY" weight="3" />
+      <edge id="1009" source="EDDIE" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1010" source="EDDIE" target="BEN" weight="4" />
+      <edge id="1011" source="EDDIE" target="AL PACINO" weight="2" />
+      <edge id="1012" source="EDDIE" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1013" source="PATTY" target="EDDIE" weight="2" />
+      <edge id="1014" source="PATTY" target="VITTI" weight="5" />
+      <edge id="1015" source="PATTY" target="BEN" weight="1" />
+      <edge id="1016" source="PATTY" target="MASIELLO" weight="1" />
+      <edge id="1017" source="PATTY" target="MO-MO" weight="1" />
+      <edge id="1018" source="PATTY" target="JELLY" weight="1" />
+      <edge id="1019" source="PATTY" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1020" source="PATTY" target="RAOUL" weight="1" />
+      <edge id="1021" source="MR. MacINERNY" target="VITTI" weight="1" />
+      <edge id="1022" source="JOEY BOOTS" target="VITTI" weight="1" />
+      <edge id="1023" source="JOEY BOOTS" target="MAITRE D'" weight="1" />
+      <edge id="1024" source="JOEY BOOTS" target="BUSINESSMAN" weight="1" />
+      <edge id="1025" source="MAITRE D'" target="VITTI" weight="1" />
+      <edge id="1026" source="MAITRE D'" target="JOEY BOOTS" weight="1" />
+      <edge id="1027" source="MAITRE D'" target="BUSINESSMAN" weight="1" />
+      <edge id="1028" source="BUSINESSMAN" target="VITTI" weight="1" />
+      <edge id="1029" source="BUSINESSMAN" target="JOEY BOOTS" weight="1" />
+      <edge id="1030" source="BUSINESSMAN" target="MAITRE D'" weight="1" />
+      <edge id="1031" source="YOUNG MAN" target="VITTI" weight="1" />
+      <edge id="1032" source="YOUNG MAN" target="FIANCEE" weight="1" />
+      <edge id="1033" source="YOUNG MAN" target="OWNER" weight="1" />
+      <edge id="1034" source="FIANCEE" target="YOUNG MAN" weight="1" />
+      <edge id="1035" source="FIANCEE" target="VITTI" weight="1" />
+      <edge id="1036" source="FIANCEE" target="OWNER" weight="1" />
+      <edge id="1037" source="OWNER" target="YOUNG MAN" weight="1" />
+      <edge id="1038" source="OWNER" target="VITTI" weight="1" />
+      <edge id="1039" source="OWNER" target="FIANCEE" weight="1" />
+      <edge id="1040" source="VITTI'S MOTHER" target="VITTI" weight="1" />
+      <edge id="1041" source="VITTI'S MOTHER" target="BEN" weight="1" />
+      <edge id="1042" source="RAOUL" target="VITTI" weight="5" />
+      <edge id="1043" source="RAOUL" target="BEN" weight="1" />
+      <edge id="1044" source="RAOUL" target="LAURA" weight="1" />
+      <edge id="1045" source="RAOUL" target="SHEILA" weight="1" />
+      <edge id="1046" source="RAOUL" target="JELLY" weight="2" />
+      <edge id="1047" source="RAOUL" target="CAESAR" weight="1" />
+      <edge id="1048" source="RAOUL" target="MELLO" weight="1" />
+      <edge id="1049" source="RAOUL" target="TONY BELLA" weight="2" />
+      <edge id="1050" source="RAOUL" target="P.A." weight="1" />
+      <edge id="1051" source="RAOUL" target="PATTY" weight="1" />
+      <edge id="1052" source="RAOUL" target="RIGAZZI" weight="1" />
+      <edge id="1053" source="RAOUL" target="ASSISTANT DIRECTOR" weight="2" />
+      <edge id="1054" source="RAOUL" target="SOUNDMAN" weight="1" />
+      <edge id="1055" source="RAOUL" target="CAPTAIN" weight="1" />
+      <edge id="1056" source="RAOUL" target="AL PACINO" weight="1" />
+      <edge id="1057" source="RAOUL" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1058" source="RAOUL" target="SWAT LEADER" weight="1" />
+      <edge id="1059" source="GUNMAN" target="JELLY" weight="2" />
+      <edge id="1060" source="GUNMAN" target="VITTI" weight="1" />
+      <edge id="1061" source="GUNMAN" target="RIGAZZI" weight="1" />
+      <edge id="1062" source="GUNMAN" target="SOLDIER" weight="1" />
+      <edge id="1063" source="RIGAZZI" target="GUNMAN" weight="1" />
+      <edge id="1064" source="RIGAZZI" target="SOLDIER" weight="1" />
+      <edge id="1065" source="RIGAZZI" target="DRIVER" weight="1" />
+      <edge id="1066" source="RIGAZZI" target="RAOUL" weight="1" />
+      <edge id="1067" source="RIGAZZI" target="VITTI" weight="2" />
+      <edge id="1068" source="SOLDIER" target="RIGAZZI" weight="1" />
+      <edge id="1069" source="SOLDIER" target="GUNMAN" weight="1" />
+      <edge id="1070" source="SOLDIER" target="BEN" weight="1" />
+      <edge id="1071" source="MELLO" target="CAESAR" weight="1" />
+      <edge id="1072" source="MELLO" target="RAOUL" weight="1" />
+      <edge id="1073" source="MELLO" target="VITTI" weight="1" />
+      <edge id="1074" source="MELLO" target="TONY BELLA" weight="1" />
+      <edge id="1075" source="MELLO" target="JELLY" weight="1" />
+      <edge id="1076" source="MELLO" target="P.A." weight="1" />
+      <edge id="1077" source="TONY BELLA" target="CAESAR" weight="1" />
+      <edge id="1078" source="TONY BELLA" target="MELLO" weight="1" />
+      <edge id="1079" source="TONY BELLA" target="RAOUL" weight="2" />
+      <edge id="1080" source="TONY BELLA" target="VITTI" weight="3" />
+      <edge id="1081" source="TONY BELLA" target="JELLY" weight="1" />
+      <edge id="1082" source="TONY BELLA" target="P.A." weight="1" />
+      <edge id="1083" source="TONY BELLA" target="CAPTAIN" weight="1" />
+      <edge id="1084" source="TONY BELLA" target="AL PACINO" weight="1" />
+      <edge id="1085" source="TONY BELLA" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1086" source="TONY BELLA" target="SWAT LEADER" weight="1" />
+      <edge id="1087" source="TONY BELLA" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1088" source="P.A." target="CAESAR" weight="1" />
+      <edge id="1089" source="P.A." target="MELLO" weight="1" />
+      <edge id="1090" source="P.A." target="RAOUL" weight="1" />
+      <edge id="1091" source="P.A." target="VITTI" weight="2" />
+      <edge id="1092" source="P.A." target="TONY BELLA" weight="1" />
+      <edge id="1093" source="P.A." target="JELLY" weight="2" />
+      <edge id="1094" source="MO-MO" target="VITTI" weight="1" />
+      <edge id="1095" source="MO-MO" target="JELLY" weight="2" />
+      <edge id="1096" source="MO-MO" target="PATTY" weight="1" />
+      <edge id="1097" source="MO-MO" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1098" source="MO-MO" target="EDDIE" weight="1" />
+      <edge id="1099" source="MO-MO" target="BEN" weight="1" />
+      <edge id="1100" source="MO-MO" target="TUNA" weight="1" />
+      <edge id="1101" source="ASSISTANT DIRECTOR" target="VITTI" weight="2" />
+      <edge id="1102" source="ASSISTANT DIRECTOR" target="MO-MO" weight="1" />
+      <edge id="1103" source="ASSISTANT DIRECTOR" target="JELLY" weight="1" />
+      <edge id="1104" source="ASSISTANT DIRECTOR" target="PATTY" weight="1" />
+      <edge id="1105" source="ASSISTANT DIRECTOR" target="EDDIE" weight="1" />
+      <edge id="1106" source="ASSISTANT DIRECTOR" target="SOUNDMAN" weight="1" />
+      <edge id="1107" source="ASSISTANT DIRECTOR" target="RAOUL" weight="2" />
+      <edge id="1108" source="ASSISTANT DIRECTOR" target="CAPTAIN" weight="1" />
+      <edge id="1109" source="ASSISTANT DIRECTOR" target="AL PACINO" weight="1" />
+      <edge id="1110" source="ASSISTANT DIRECTOR" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1111" source="ASSISTANT DIRECTOR" target="SWAT LEADER" weight="1" />
+      <edge id="1112" source="ASSISTANT DIRECTOR" target="TONY BELLA" weight="1" />
+      <edge id="1113" source="DRIVER" target="RIGAZZI" weight="1" />
+      <edge id="1114" source="TUNA" target="JELLY" weight="1" />
+      <edge id="1115" source="TUNA" target="BEN" weight="1" />
+      <edge id="1116" source="TUNA" target="MO-MO" weight="1" />
+      <edge id="1117" source="SOUNDMAN" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1118" source="SOUNDMAN" target="RAOUL" weight="1" />
+      <edge id="1119" source="SOUNDMAN" target="VITTI" weight="1" />
+      <edge id="1120" source="AL PACINO" target="BEN" weight="2" />
+      <edge id="1121" source="AL PACINO" target="JELLY" weight="1" />
+      <edge id="1122" source="AL PACINO" target="VITTI" weight="2" />
+      <edge id="1123" source="AL PACINO" target="EDDIE" weight="2" />
+      <edge id="1124" source="AL PACINO" target="ENORMOUS BOBBY" weight="2" />
+      <edge id="1125" source="AL PACINO" target="CAPTAIN" weight="1" />
+      <edge id="1126" source="AL PACINO" target="SWAT LEADER" weight="1" />
+      <edge id="1127" source="AL PACINO" target="TONY BELLA" weight="1" />
+      <edge id="1128" source="AL PACINO" target="RAOUL" weight="1" />
+      <edge id="1129" source="AL PACINO" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1130" source="ENORMOUS BOBBY" target="EDDIE" weight="1" />
+      <edge id="1131" source="ENORMOUS BOBBY" target="BEN" weight="1" />
+      <edge id="1132" source="ENORMOUS BOBBY" target="AL PACINO" weight="2" />
+      <edge id="1133" source="ENORMOUS BOBBY" target="VITTI" weight="1" />
+      <edge id="1134" source="ENORMOUS BOBBY" target="CAPTAIN" weight="1" />
+      <edge id="1135" source="ENORMOUS BOBBY" target="SWAT LEADER" weight="1" />
+      <edge id="1136" source="ENORMOUS BOBBY" target="TONY BELLA" weight="1" />
+      <edge id="1137" source="ENORMOUS BOBBY" target="RAOUL" weight="1" />
+      <edge id="1138" source="ENORMOUS BOBBY" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1139" source="SPOTTER" target="VITTI" weight="1" />
+      <edge id="1140" source="SPOTTER" target="BEN" weight="1" />
+      <edge id="1141" source="LIEUTENANT" target="CAPTAIN" weight="1" />
+      <edge id="1142" source="CAPTAIN" target="LIEUTENANT" weight="1" />
+      <edge id="1143" source="CAPTAIN" target="AL PACINO" weight="1" />
+      <edge id="1144" source="CAPTAIN" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1145" source="CAPTAIN" target="SWAT LEADER" weight="1" />
+      <edge id="1146" source="CAPTAIN" target="TONY BELLA" weight="1" />
+      <edge id="1147" source="CAPTAIN" target="RAOUL" weight="1" />
+      <edge id="1148" source="CAPTAIN" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1149" source="SWAT LEADER" target="CAPTAIN" weight="1" />
+      <edge id="1150" source="SWAT LEADER" target="AL PACINO" weight="1" />
+      <edge id="1151" source="SWAT LEADER" target="ENORMOUS BOBBY" weight="1" />
+      <edge id="1152" source="SWAT LEADER" target="TONY BELLA" weight="1" />
+      <edge id="1153" source="SWAT LEADER" target="RAOUL" weight="1" />
+      <edge id="1154" source="SWAT LEADER" target="ASSISTANT DIRECTOR" weight="1" />
+      <edge id="1155" source="LEAD SWAT" target="BEN" weight="1" />
+      <edge id="1156" source="ALL TOGETHER" target="BEN" weight="1" />
+      <edge id="1157" source="ALL TOGETHER" target="VITTI" weight="1" />
+      <edge id="1158" source="ALL TOGETHER" target="JELLY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

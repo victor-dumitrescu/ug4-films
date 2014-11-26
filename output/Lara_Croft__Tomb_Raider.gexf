@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="LARA" label="LARA" />
+      <node id="DELIA" label="DELIA" />
+      <node id="LADY VIVIAN" label="LADY VIVIAN" />
+      <node id="LORD CROFT" label="LORD CROFT" />
+      <node id="PILOT" label="PILOT" />
+      <node id="PILOT #1" label="PILOT #1" />
+      <node id="PILOT #2" label="PILOT #2" />
+      <node id="LARA FATHER!?" label="LARA FATHER!?" />
+      <node id="KARAK" label="KARAK" />
+      <node id="TONPA" label="TONPA" />
+      <node id="DARBY" label="DARBY" />
+      <node id="ARTURO" label="ARTURO" />
+      <node id="EVELYN" label="EVELYN" />
+      <node id="LARSEN" label="LARSEN" />
+      <node id="MALVERN" label="MALVERN" />
+      <node id="VOICE #1" label="VOICE #1" />
+      <node id="VOICE #2" label="VOICE #2" />
+      <node id="STUART" label="STUART" />
+      <node id="LIAM" label="LIAM" />
+      <node id="WESLEY" label="WESLEY" />
+      <node id="ASSASSIN" label="ASSASSIN" />
+      <node id="BELLBOY" label="BELLBOY" />
+      <node id="DODGE" label="DODGE" />
+      <node id="TEMO" label="TEMO" />
+      <node id="CARLOS" label="CARLOS" />
+      <node id="AUSSIE #1" label="AUSSIE #1" />
+      <node id="AUSSIE #3" label="AUSSIE #3" />
+      <node id="AUSSIE #4" label="AUSSIE #4" />
+      <node id="AUSSIE #5" label="AUSSIE #5" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="AUSSIE GUARD" label="AUSSIE GUARD" />
+      <node id="HAZ-MAT AUSSIE" label="HAZ-MAT AUSSIE" />
+      <node id="NEWSCASTER" label="NEWSCASTER" />
+    </nodes>
+    <edges>
+      <edge id="10637" source="LARA" target="DELIA" weight="1" />
+      <edge id="10638" source="LARA" target="LADY VIVIAN" weight="4" />
+      <edge id="10639" source="LARA" target="LORD CROFT" weight="4" />
+      <edge id="10640" source="LARA" target="LARA FATHER!?" weight="1" />
+      <edge id="10641" source="LARA" target="KARAK" weight="7" />
+      <edge id="10642" source="LARA" target="EVELYN" weight="4" />
+      <edge id="10643" source="LARA" target="DARBY" weight="2" />
+      <edge id="10644" source="LARA" target="ARTURO" weight="1" />
+      <edge id="10645" source="LARA" target="LARSEN" weight="3" />
+      <edge id="10646" source="LARA" target="MALVERN" weight="5" />
+      <edge id="10647" source="LARA" target="VOICE #1" weight="1" />
+      <edge id="10648" source="LARA" target="VOICE #2" weight="1" />
+      <edge id="10649" source="LARA" target="STUART" weight="2" />
+      <edge id="10650" source="LARA" target="LIAM" weight="2" />
+      <edge id="10651" source="LARA" target="WESLEY" weight="2" />
+      <edge id="10652" source="LARA" target="ASSASSIN" weight="1" />
+      <edge id="10653" source="LARA" target="TEMO" weight="1" />
+      <edge id="10654" source="LARA" target="DODGE" weight="18" />
+      <edge id="10655" source="LARA" target="CARLOS" weight="9" />
+      <edge id="10656" source="LARA" target="AUSSIE #5" weight="1" />
+      <edge id="10657" source="LARA" target="AUSSIE GUARD" weight="1" />
+      <edge id="10658" source="LARA" target="HAZ-MAT AUSSIE" weight="1" />
+      <edge id="10659" source="LARA" target="NEWSCASTER" weight="1" />
+      <edge id="10660" source="DELIA" target="LARA" weight="1" />
+      <edge id="10661" source="LADY VIVIAN" target="LORD CROFT" weight="3" />
+      <edge id="10662" source="LADY VIVIAN" target="LARA" weight="4" />
+      <edge id="10663" source="LADY VIVIAN" target="PILOT" weight="1" />
+      <edge id="10664" source="LADY VIVIAN" target="LARA FATHER!?" weight="1" />
+      <edge id="10665" source="LORD CROFT" target="LADY VIVIAN" weight="3" />
+      <edge id="10666" source="LORD CROFT" target="LARA" weight="4" />
+      <edge id="10667" source="LORD CROFT" target="PILOT" weight="1" />
+      <edge id="10668" source="LORD CROFT" target="PILOT #1" weight="1" />
+      <edge id="10669" source="LORD CROFT" target="PILOT #2" weight="1" />
+      <edge id="10670" source="PILOT" target="LADY VIVIAN" weight="1" />
+      <edge id="10671" source="PILOT" target="LORD CROFT" weight="1" />
+      <edge id="10672" source="PILOT #1" target="LORD CROFT" weight="1" />
+      <edge id="10673" source="PILOT #1" target="PILOT #2" weight="1" />
+      <edge id="10674" source="PILOT #2" target="LORD CROFT" weight="1" />
+      <edge id="10675" source="PILOT #2" target="PILOT #1" weight="1" />
+      <edge id="10676" source="LARA FATHER!?" target="LARA" weight="1" />
+      <edge id="10677" source="LARA FATHER!?" target="LADY VIVIAN" weight="1" />
+      <edge id="10678" source="KARAK" target="TONPA" weight="1" />
+      <edge id="10679" source="KARAK" target="LARA" weight="7" />
+      <edge id="10680" source="KARAK" target="ARTURO" weight="2" />
+      <edge id="10681" source="KARAK" target="DARBY" weight="1" />
+      <edge id="10682" source="KARAK" target="LARSEN" weight="1" />
+      <edge id="10683" source="KARAK" target="MALVERN" weight="1" />
+      <edge id="10684" source="KARAK" target="VOICE #1" weight="1" />
+      <edge id="10685" source="KARAK" target="VOICE #2" weight="1" />
+      <edge id="10686" source="KARAK" target="ASSASSIN" weight="1" />
+      <edge id="10687" source="TONPA" target="KARAK" weight="1" />
+      <edge id="10688" source="DARBY" target="ARTURO" weight="2" />
+      <edge id="10689" source="DARBY" target="EVELYN" weight="1" />
+      <edge id="10690" source="DARBY" target="KARAK" weight="1" />
+      <edge id="10691" source="DARBY" target="LARA" weight="2" />
+      <edge id="10692" source="DARBY" target="LARSEN" weight="1" />
+      <edge id="10693" source="DARBY" target="MALVERN" weight="1" />
+      <edge id="10694" source="ARTURO" target="DARBY" weight="2" />
+      <edge id="10695" source="ARTURO" target="EVELYN" weight="1" />
+      <edge id="10696" source="ARTURO" target="KARAK" weight="2" />
+      <edge id="10697" source="ARTURO" target="LARA" weight="1" />
+      <edge id="10698" source="ARTURO" target="LARSEN" weight="1" />
+      <edge id="10699" source="ARTURO" target="MALVERN" weight="1" />
+      <edge id="10700" source="EVELYN" target="DARBY" weight="1" />
+      <edge id="10701" source="EVELYN" target="ARTURO" weight="1" />
+      <edge id="10702" source="EVELYN" target="LARA" weight="4" />
+      <edge id="10703" source="LARSEN" target="KARAK" weight="1" />
+      <edge id="10704" source="LARSEN" target="LARA" weight="3" />
+      <edge id="10705" source="LARSEN" target="DARBY" weight="1" />
+      <edge id="10706" source="LARSEN" target="ARTURO" weight="1" />
+      <edge id="10707" source="LARSEN" target="MALVERN" weight="13" />
+      <edge id="10708" source="LARSEN" target="AUSSIE #1" weight="1" />
+      <edge id="10709" source="LARSEN" target="DODGE" weight="1" />
+      <edge id="10710" source="LARSEN" target="CAPTAIN" weight="1" />
+      <edge id="10711" source="LARSEN" target="AUSSIE GUARD" weight="1" />
+      <edge id="10712" source="MALVERN" target="KARAK" weight="1" />
+      <edge id="10713" source="MALVERN" target="LARA" weight="5" />
+      <edge id="10714" source="MALVERN" target="DARBY" weight="1" />
+      <edge id="10715" source="MALVERN" target="ARTURO" weight="1" />
+      <edge id="10716" source="MALVERN" target="LARSEN" weight="13" />
+      <edge id="10717" source="MALVERN" target="DODGE" weight="3" />
+      <edge id="10718" source="MALVERN" target="AUSSIE #3" weight="1" />
+      <edge id="10719" source="MALVERN" target="AUSSIE #4" weight="1" />
+      <edge id="10720" source="MALVERN" target="AUSSIE #1" weight="1" />
+      <edge id="10721" source="MALVERN" target="AUSSIE #5" weight="1" />
+      <edge id="10722" source="MALVERN" target="CAPTAIN" weight="1" />
+      <edge id="10723" source="VOICE #1" target="KARAK" weight="1" />
+      <edge id="10724" source="VOICE #1" target="LARA" weight="1" />
+      <edge id="10725" source="VOICE #1" target="VOICE #2" weight="1" />
+      <edge id="10726" source="VOICE #2" target="KARAK" weight="1" />
+      <edge id="10727" source="VOICE #2" target="LARA" weight="1" />
+      <edge id="10728" source="VOICE #2" target="VOICE #1" weight="1" />
+      <edge id="10729" source="STUART" target="LARA" weight="2" />
+      <edge id="10730" source="STUART" target="LIAM" weight="2" />
+      <edge id="10731" source="STUART" target="WESLEY" weight="2" />
+      <edge id="10732" source="STUART" target="NEWSCASTER" weight="1" />
+      <edge id="10733" source="LIAM" target="STUART" weight="2" />
+      <edge id="10734" source="LIAM" target="LARA" weight="2" />
+      <edge id="10735" source="LIAM" target="WESLEY" weight="2" />
+      <edge id="10736" source="LIAM" target="NEWSCASTER" weight="1" />
+      <edge id="10737" source="WESLEY" target="STUART" weight="2" />
+      <edge id="10738" source="WESLEY" target="LARA" weight="2" />
+      <edge id="10739" source="WESLEY" target="LIAM" weight="2" />
+      <edge id="10740" source="WESLEY" target="NEWSCASTER" weight="1" />
+      <edge id="10741" source="ASSASSIN" target="LARA" weight="1" />
+      <edge id="10742" source="ASSASSIN" target="KARAK" weight="1" />
+      <edge id="10743" source="DODGE" target="MALVERN" weight="3" />
+      <edge id="10744" source="DODGE" target="TEMO" weight="1" />
+      <edge id="10745" source="DODGE" target="LARA" weight="18" />
+      <edge id="10746" source="DODGE" target="CARLOS" weight="1" />
+      <edge id="10747" source="DODGE" target="AUSSIE #5" weight="1" />
+      <edge id="10748" source="DODGE" target="LARSEN" weight="1" />
+      <edge id="10749" source="TEMO" target="LARA" weight="1" />
+      <edge id="10750" source="TEMO" target="DODGE" weight="1" />
+      <edge id="10751" source="CARLOS" target="LARA" weight="9" />
+      <edge id="10752" source="CARLOS" target="DODGE" weight="1" />
+      <edge id="10753" source="AUSSIE #1" target="MALVERN" weight="1" />
+      <edge id="10754" source="AUSSIE #1" target="LARSEN" weight="1" />
+      <edge id="10755" source="AUSSIE #3" target="MALVERN" weight="1" />
+      <edge id="10756" source="AUSSIE #3" target="AUSSIE #4" weight="1" />
+      <edge id="10757" source="AUSSIE #4" target="MALVERN" weight="1" />
+      <edge id="10758" source="AUSSIE #4" target="AUSSIE #3" weight="1" />
+      <edge id="10759" source="AUSSIE #5" target="MALVERN" weight="1" />
+      <edge id="10760" source="AUSSIE #5" target="DODGE" weight="1" />
+      <edge id="10761" source="AUSSIE #5" target="LARA" weight="1" />
+      <edge id="10762" source="CAPTAIN" target="LARSEN" weight="1" />
+      <edge id="10763" source="CAPTAIN" target="MALVERN" weight="1" />
+      <edge id="10764" source="AUSSIE GUARD" target="LARA" weight="1" />
+      <edge id="10765" source="AUSSIE GUARD" target="LARSEN" weight="1" />
+      <edge id="10766" source="HAZ-MAT AUSSIE" target="LARA" weight="1" />
+      <edge id="10767" source="NEWSCASTER" target="STUART" weight="1" />
+      <edge id="10768" source="NEWSCASTER" target="LIAM" weight="1" />
+      <edge id="10769" source="NEWSCASTER" target="WESLEY" weight="1" />
+      <edge id="10770" source="NEWSCASTER" target="LARA" weight="1" />
+    </edges>
+  </graph>
+</gexf>

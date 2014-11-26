@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="COACH" label="COACH" />
+      <node id="TERRY" label="TERRY" />
+      <node id="CYNTHIA" label="CYNTHIA" />
+      <node id="ALICE" label="ALICE" />
+      <node id="KEITH" label="KEITH" />
+      <node id="GREG" label="GREG" />
+      <node id="FELICIA" label="FELICIA" />
+      <node id="ED" label="ED" />
+      <node id="TRACY" label="TRACY" />
+      <node id="JOHN" label="JOHN" />
+      <node id="RAY" label="RAY" />
+      <node id="JOHN/ED" label="JOHN/ED" />
+      <node id="SHARI" label="SHARI" />
+      <node id="RITA" label="RITA" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="LOU" label="LOU" />
+      <node id="CLERK" label="CLERK" />
+      <node id="SCHARLACH" label="SCHARLACH" />
+      <node id="McILVAINE" label="McILVAINE" />
+      <node id="AL" label="AL" />
+      <node id="MARCIA" label="MARCIA" />
+      <node id="JEANTTE" label="JEANTTE" />
+      <node id="ENTERTAINMENT REPORTER" label="ENTERTAINMENT REPORTER" />
+      <node id="ANCHOR" label="ANCHOR" />
+      <node id="SIDEKICK" label="SIDEKICK" />
+      <node id="LEN" label="LEN" />
+      <node id="ASSISTANT DIRECTOR" label="ASSISTANT DIRECTOR" />
+      <node id="A.D." label="A.D." />
+      <node id="JEANETTE" label="JEANETTE" />
+      <node id="DIRECTOR" label="DIRECTOR" />
+      <node id="HUSBAND" label="HUSBAND" />
+      <node id="WIFE" label="WIFE" />
+      <node id="COLLEGE GIRL" label="COLLEGE GIRL" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="TAD" label="TAD" />
+      <node id="BARRY" label="BARRY" />
+      <node id="FIRST GUY" label="FIRST GUY" />
+      <node id="SECOND GUY" label="SECOND GUY" />
+      <node id="HYGIENIST" label="HYGIENIST" />
+      <node id="MODERATOR" label="MODERATOR" />
+      <node id="PANEL MEMBER #1" label="PANEL MEMBER #1" />
+      <node id="PANEL MEMBER #2" label="PANEL MEMBER #2" />
+      <node id="PANEL MEMBER #3" label="PANEL MEMBER #3" />
+      <node id="PANEL MEMBER #4" label="PANEL MEMBER #4" />
+      <node id="BOY" label="BOY" />
+      <node id="GUY" label="GUY" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="DORM GIRL" label="DORM GIRL" />
+      <node id="CARLOS" label="CARLOS" />
+      <node id="CASSIE" label="CASSIE" />
+      <node id="GIRLS" label="GIRLS" />
+      <node id="CYNTHIA'S OFFICE" label="CYNTHIA'S OFFICE" />
+      <node id="WOMAN #1" label="WOMAN #1" />
+      <node id="MAN" label="MAN" />
+      <node id="YOUNGER MAN" label="YOUNGER MAN" />
+      <node id="ICE CREAM GUY" label="ICE CREAM GUY" />
+      <node id="WOMAN #2" label="WOMAN #2" />
+      <node id="TEEN-AGER #l" label="TEEN-AGER #l" />
+      <node id="TEEN-AGER #2" label="TEEN-AGER #2" />
+      <node id="TEEN-AGER #1" label="TEEN-AGER #1" />
+      <node id="TEEN-AGER #3" label="TEEN-AGER #3" />
+      <node id="GUY #1" label="GUY #1" />
+      <node id="GUY #2" label="GUY #2" />
+      <node id="GOSSIP QUEEN" label="GOSSIP QUEEN" />
+      <node id="CUSTOMER" label="CUSTOMER" />
+      <node id="JILL" label="JILL" />
+      <node id="DAVE" label="DAVE" />
+      <node id="PRODUCTION ASSISTANT" label="PRODUCTION ASSISTANT" />
+      <node id="POKER PLAYER #2" label="POKER PLAYER #2" />
+      <node id="HANK" label="HANK" />
+      <node id="JEANTETTE" label="JEANTETTE" />
+      <node id="REPAIRMAN" label="REPAIRMAN" />
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="FRAT GUYS" label="FRAT GUYS" />
+      <node id="JOMA" label="JOMA" />
+      <node id="SEAVER" label="SEAVER" />
+      <node id="ANDY" label="ANDY" />
+      <node id="GUY # 2" label="GUY # 2" />
+      <node id="CON ED GUY" label="CON ED GUY" />
+      <node id="STREET CHARACTER" label="STREET CHARACTER" />
+      <node id="KIDS" label="KIDS" />
+      <node id="VOICE" label="VOICE" />
+      <node id="PARTYGOER" label="PARTYGOER" />
+      <node id="TEEN-AGE BOY #1" label="TEEN-AGE BOY #1" />
+      <node id="TEEN-AGE BOY #2" label="TEEN-AGE BOY #2" />
+      <node id="TEEN-AGE BOY #3" label="TEEN-AGE BOY #3" />
+      <node id="BOYS" label="BOYS" />
+      <node id="COLLEGE GIRL #1" label="COLLEGE GIRL #1" />
+      <node id="COLLEGE GIRL #2" label="COLLEGE GIRL #2" />
+      <node id="JAY" label="JAY" />
+      <node id="OLD GUY" label="OLD GUY" />
+      <node id="OLD WOMAN" label="OLD WOMAN" />
+      <node id="ANOTHER GUY" label="ANOTHER GUY" />
+      <node id="CAT MAN" label="CAT MAN" />
+      <node id="HONCHO #1" label="HONCHO #1" />
+      <node id="HONCHO #2" label="HONCHO #2" />
+      <node id="JOMA'S FRIEND" label="JOMA'S FRIEND" />
+      <node id="DR. GELLER" label="DR. GELLER" />
+      <node id="NURSE" label="NURSE" />
+      <node id="OPRAH" label="OPRAH" />
+      <node id="PANELIST #3" label="PANELIST #3" />
+      <node id="PANELIST #2" label="PANELIST #2" />
+      <node id="DAVE/JAY" label="DAVE/JAY" />
+      <node id="BYSTANDER #1" label="BYSTANDER #1" />
+      <node id="BYSTANDER #2" label="BYSTANDER #2" />
+      <node id="BYSTANDER #3" label="BYSTANDER #3" />
+      <node id="MR. SCHARLACH" label="MR. SCHARLACH" />
+      <node id="STEVE" label="STEVE" />
+      <node id="HONCHO #l" label="HONCHO #l" />
+      <node id="MILDRED" label="MILDRED" />
+      <node id="LAWYER" label="LAWYER" />
+      <node id="PANELIST #1" label="PANELIST #1" />
+      <node id="PANELIST #4" label="PANELIST #4" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="NEWS ANCHOR" label="NEWS ANCHOR" />
+      <node id="JOKA" label="JOKA" />
+      <node id="ASSAILANT" label="ASSAILANT" />
+    </nodes>
+    <edges>
+      <edge id="6451" source="COACH" target="TERRY" weight="1" />
+      <edge id="6452" source="TERRY" target="COACH" weight="1" />
+      <edge id="6453" source="TERRY" target="CYNTHIA" weight="2" />
+      <edge id="6454" source="TERRY" target="ALICE" weight="2" />
+      <edge id="6455" source="TERRY" target="KEITH" weight="3" />
+      <edge id="6456" source="TERRY" target="GREG" weight="3" />
+      <edge id="6457" source="TERRY" target="FELICIA" weight="2" />
+      <edge id="6458" source="TERRY" target="ED" weight="2" />
+      <edge id="6459" source="CYNTHIA" target="TERRY" weight="2" />
+      <edge id="6460" source="CYNTHIA" target="ALICE" weight="4" />
+      <edge id="6461" source="CYNTHIA" target="KEITH" weight="2" />
+      <edge id="6462" source="CYNTHIA" target="GREG" weight="4" />
+      <edge id="6463" source="CYNTHIA" target="FELICIA" weight="2" />
+      <edge id="6464" source="CYNTHIA" target="ED" weight="12" />
+      <edge id="6465" source="CYNTHIA" target="SCHARLACH" weight="6" />
+      <edge id="6466" source="CYNTHIA" target="McILVAINE" weight="4" />
+      <edge id="6467" source="CYNTHIA" target="SHARI" weight="1" />
+      <edge id="6468" source="CYNTHIA" target="CYNTHIA'S OFFICE" weight="1" />
+      <edge id="6469" source="CYNTHIA" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6470" source="CYNTHIA" target="WOMAN #1" weight="1" />
+      <edge id="6471" source="CYNTHIA" target="MAN" weight="1" />
+      <edge id="6472" source="CYNTHIA" target="YOUNGER MAN" weight="1" />
+      <edge id="6473" source="CYNTHIA" target="ICE CREAM GUY" weight="1" />
+      <edge id="6474" source="CYNTHIA" target="WOMAN #2" weight="1" />
+      <edge id="6475" source="CYNTHIA" target="TEEN-AGER #l" weight="1" />
+      <edge id="6476" source="CYNTHIA" target="TEEN-AGER #2" weight="1" />
+      <edge id="6477" source="CYNTHIA" target="TEEN-AGER #1" weight="1" />
+      <edge id="6478" source="CYNTHIA" target="TEEN-AGER #3" weight="1" />
+      <edge id="6479" source="CYNTHIA" target="GUY #1" weight="2" />
+      <edge id="6480" source="CYNTHIA" target="GUY #2" weight="1" />
+      <edge id="6481" source="CYNTHIA" target="SEAVER" weight="2" />
+      <edge id="6482" source="CYNTHIA" target="ANDY" weight="1" />
+      <edge id="6483" source="CYNTHIA" target="JILL" weight="2" />
+      <edge id="6484" source="CYNTHIA" target="GUY # 2" weight="1" />
+      <edge id="6485" source="CYNTHIA" target="HONCHO #1" weight="1" />
+      <edge id="6486" source="CYNTHIA" target="HONCHO #2" weight="1" />
+      <edge id="6487" source="CYNTHIA" target="MR. SCHARLACH" weight="1" />
+      <edge id="6488" source="CYNTHIA" target="RAY" weight="1" />
+      <edge id="6489" source="CYNTHIA" target="AL" weight="1" />
+      <edge id="6490" source="ALICE" target="TERRY" weight="2" />
+      <edge id="6491" source="ALICE" target="CYNTHIA" weight="4" />
+      <edge id="6492" source="ALICE" target="KEITH" weight="2" />
+      <edge id="6493" source="ALICE" target="GREG" weight="2" />
+      <edge id="6494" source="ALICE" target="FELICIA" weight="2" />
+      <edge id="6495" source="ALICE" target="ED" weight="2" />
+      <edge id="6496" source="ALICE" target="ANDY" weight="1" />
+      <edge id="6497" source="ALICE" target="JILL" weight="1" />
+      <edge id="6498" source="ALICE" target="GUY #1" weight="1" />
+      <edge id="6499" source="ALICE" target="GUY # 2" weight="1" />
+      <edge id="6500" source="KEITH" target="TERRY" weight="3" />
+      <edge id="6501" source="KEITH" target="CYNTHIA" weight="2" />
+      <edge id="6502" source="KEITH" target="ALICE" weight="2" />
+      <edge id="6503" source="KEITH" target="GREG" weight="3" />
+      <edge id="6504" source="KEITH" target="FELICIA" weight="2" />
+      <edge id="6505" source="KEITH" target="ED" weight="2" />
+      <edge id="6506" source="GREG" target="TERRY" weight="3" />
+      <edge id="6507" source="GREG" target="CYNTHIA" weight="4" />
+      <edge id="6508" source="GREG" target="ALICE" weight="2" />
+      <edge id="6509" source="GREG" target="KEITH" weight="3" />
+      <edge id="6510" source="GREG" target="FELICIA" weight="2" />
+      <edge id="6511" source="GREG" target="ED" weight="3" />
+      <edge id="6512" source="GREG" target="McILVAINE" weight="3" />
+      <edge id="6513" source="GREG" target="WOMAN" weight="1" />
+      <edge id="6514" source="GREG" target="SCHARLACH" weight="3" />
+      <edge id="6515" source="GREG" target="SEAVER" weight="2" />
+      <edge id="6516" source="GREG" target="HONCHO #1" weight="1" />
+      <edge id="6517" source="GREG" target="HONCHO #2" weight="1" />
+      <edge id="6518" source="FELICIA" target="TERRY" weight="2" />
+      <edge id="6519" source="FELICIA" target="CYNTHIA" weight="2" />
+      <edge id="6520" source="FELICIA" target="ALICE" weight="2" />
+      <edge id="6521" source="FELICIA" target="KEITH" weight="2" />
+      <edge id="6522" source="FELICIA" target="GREG" weight="2" />
+      <edge id="6523" source="FELICIA" target="ED" weight="1" />
+      <edge id="6524" source="ED" target="TRACY" weight="1" />
+      <edge id="6525" source="ED" target="JOHN" weight="4" />
+      <edge id="6526" source="ED" target="RAY" weight="18" />
+      <edge id="6527" source="ED" target="JOHN/ED" weight="1" />
+      <edge id="6528" source="ED" target="SHARI" weight="23" />
+      <edge id="6529" source="ED" target="RITA" weight="4" />
+      <edge id="6530" source="ED" target="MOTHER" weight="1" />
+      <edge id="6531" source="ED" target="LOU" weight="2" />
+      <edge id="6532" source="ED" target="CLERK" weight="1" />
+      <edge id="6533" source="ED" target="CYNTHIA" weight="12" />
+      <edge id="6534" source="ED" target="SCHARLACH" weight="6" />
+      <edge id="6535" source="ED" target="McILVAINE" weight="3" />
+      <edge id="6536" source="ED" target="AL" weight="7" />
+      <edge id="6537" source="ED" target="MARCIA" weight="3" />
+      <edge id="6538" source="ED" target="JEANTTE" weight="2" />
+      <edge id="6539" source="ED" target="DIRECTOR" weight="1" />
+      <edge id="6540" source="ED" target="BARTENDER" weight="1" />
+      <edge id="6541" source="ED" target="JEANETTE" weight="10" />
+      <edge id="6542" source="ED" target="HYGIENIST" weight="1" />
+      <edge id="6543" source="ED" target="TERRY" weight="2" />
+      <edge id="6544" source="ED" target="ALICE" weight="2" />
+      <edge id="6545" source="ED" target="KEITH" weight="2" />
+      <edge id="6546" source="ED" target="GREG" weight="3" />
+      <edge id="6547" source="ED" target="FELICIA" weight="1" />
+      <edge id="6548" source="ED" target="BOY" weight="1" />
+      <edge id="6549" source="ED" target="WOMAN" weight="5" />
+      <edge id="6550" source="ED" target="DORM GIRL" weight="1" />
+      <edge id="6551" source="ED" target="GUY" weight="3" />
+      <edge id="6552" source="ED" target="CASSIE" weight="1" />
+      <edge id="6553" source="ED" target="GIRLS" weight="1" />
+      <edge id="6554" source="ED" target="CYNTHIA'S OFFICE" weight="1" />
+      <edge id="6555" source="ED" target="CUSTOMER" weight="1" />
+      <edge id="6556" source="ED" target="BARRY" weight="1" />
+      <edge id="6557" source="ED" target="JILL" weight="6" />
+      <edge id="6558" source="ED" target="DAVE" weight="1" />
+      <edge id="6559" source="ED" target="PRODUCTION ASSISTANT" weight="1" />
+      <edge id="6560" source="ED" target="HANK" weight="3" />
+      <edge id="6561" source="ED" target="JEANTETTE" weight="1" />
+      <edge id="6562" source="ED" target="REPAIRMAN" weight="1" />
+      <edge id="6563" source="ED" target="ANNOUNCER" weight="2" />
+      <edge id="6564" source="ED" target="JOMA" weight="1" />
+      <edge id="6565" source="ED" target="SEAVER" weight="3" />
+      <edge id="6566" source="ED" target="ANDY" weight="1" />
+      <edge id="6567" source="ED" target="GUY #1" weight="1" />
+      <edge id="6568" source="ED" target="GUY # 2" weight="1" />
+      <edge id="6569" source="ED" target="CON ED GUY" weight="1" />
+      <edge id="6570" source="ED" target="STREET CHARACTER" weight="1" />
+      <edge id="6571" source="ED" target="KIDS" weight="1" />
+      <edge id="6572" source="ED" target="DR. GELLER" weight="2" />
+      <edge id="6573" source="ED" target="VOICE" weight="1" />
+      <edge id="6574" source="ED" target="NURSE" weight="1" />
+      <edge id="6575" source="ED" target="OPRAH" weight="1" />
+      <edge id="6576" source="ED" target="BYSTANDER #1" weight="1" />
+      <edge id="6577" source="ED" target="BYSTANDER #2" weight="1" />
+      <edge id="6578" source="ED" target="BYSTANDER #3" weight="1" />
+      <edge id="6579" source="ED" target="MR. SCHARLACH" weight="2" />
+      <edge id="6580" source="ED" target="STEVE" weight="1" />
+      <edge id="6581" source="ED" target="HONCHO #l" weight="1" />
+      <edge id="6582" source="ED" target="MILDRED" weight="1" />
+      <edge id="6583" source="ED" target="HONCHO #1" weight="1" />
+      <edge id="6584" source="ED" target="NEWS ANCHOR" weight="1" />
+      <edge id="6585" source="ED" target="JOKA" weight="1" />
+      <edge id="6586" source="ED" target="ASSAILANT" weight="1" />
+      <edge id="6587" source="TRACY" target="ED" weight="1" />
+      <edge id="6588" source="JOHN" target="ED" weight="4" />
+      <edge id="6589" source="JOHN" target="RAY" weight="2" />
+      <edge id="6590" source="JOHN" target="JOHN/ED" weight="1" />
+      <edge id="6591" source="JOHN" target="SHARI" weight="1" />
+      <edge id="6592" source="JOHN" target="RITA" weight="1" />
+      <edge id="6593" source="JOHN" target="PRODUCTION ASSISTANT" weight="1" />
+      <edge id="6594" source="JOHN" target="JILL" weight="1" />
+      <edge id="6595" source="JOHN" target="MODERATOR" weight="1" />
+      <edge id="6596" source="JOHN" target="OLD GUY" weight="1" />
+      <edge id="6597" source="JOHN" target="OLD WOMAN" weight="1" />
+      <edge id="6598" source="JOHN" target="ANOTHER GUY" weight="1" />
+      <edge id="6599" source="JOHN" target="JEANETTE" weight="1" />
+      <edge id="6600" source="RAY" target="ED" weight="18" />
+      <edge id="6601" source="RAY" target="JOHN" weight="2" />
+      <edge id="6602" source="RAY" target="JOHN/ED" weight="1" />
+      <edge id="6603" source="RAY" target="SHARI" weight="5" />
+      <edge id="6604" source="RAY" target="RITA" weight="1" />
+      <edge id="6605" source="RAY" target="SCHARLACH" weight="2" />
+      <edge id="6606" source="RAY" target="AL" weight="2" />
+      <edge id="6607" source="RAY" target="MARCIA" weight="2" />
+      <edge id="6608" source="RAY" target="JEANTTE" weight="1" />
+      <edge id="6609" source="RAY" target="BARTENDER" weight="1" />
+      <edge id="6610" source="RAY" target="JEANETTE" weight="2" />
+      <edge id="6611" source="RAY" target="WOMAN" weight="2" />
+      <edge id="6612" source="RAY" target="GUY" weight="1" />
+      <edge id="6613" source="RAY" target="CASSIE" weight="1" />
+      <edge id="6614" source="RAY" target="GIRLS" weight="1" />
+      <edge id="6615" source="RAY" target="BYSTANDER #1" weight="1" />
+      <edge id="6616" source="RAY" target="BYSTANDER #2" weight="1" />
+      <edge id="6617" source="RAY" target="BYSTANDER #3" weight="1" />
+      <edge id="6618" source="RAY" target="CYNTHIA" weight="1" />
+      <edge id="6619" source="JOHN/ED" target="ED" weight="1" />
+      <edge id="6620" source="JOHN/ED" target="JOHN" weight="1" />
+      <edge id="6621" source="JOHN/ED" target="RAY" weight="1" />
+      <edge id="6622" source="SHARI" target="ED" weight="23" />
+      <edge id="6623" source="SHARI" target="RAY" weight="5" />
+      <edge id="6624" source="SHARI" target="RITA" weight="4" />
+      <edge id="6625" source="SHARI" target="JOHN" weight="1" />
+      <edge id="6626" source="SHARI" target="CYNTHIA" weight="1" />
+      <edge id="6627" source="SHARI" target="JEANETTE" weight="2" />
+      <edge id="6628" source="SHARI" target="DORM GIRL" weight="1" />
+      <edge id="6629" source="SHARI" target="TAD" weight="1" />
+      <edge id="6630" source="SHARI" target="BARRY" weight="2" />
+      <edge id="6631" source="SHARI" target="WOMAN" weight="2" />
+      <edge id="6632" source="SHARI" target="CUSTOMER" weight="1" />
+      <edge id="6633" source="SHARI" target="MARCIA" weight="1" />
+      <edge id="6634" source="SHARI" target="JILL" weight="1" />
+      <edge id="6635" source="SHARI" target="GUY" weight="1" />
+      <edge id="6636" source="SHARI" target="HONCHO #l" weight="1" />
+      <edge id="6637" source="SHARI" target="MILDRED" weight="1" />
+      <edge id="6638" source="SHARI" target="SCHARLACH" weight="1" />
+      <edge id="6639" source="SHARI" target="SEAVER" weight="1" />
+      <edge id="6640" source="SHARI" target="HONCHO #1" weight="1" />
+      <edge id="6641" source="RITA" target="ED" weight="4" />
+      <edge id="6642" source="RITA" target="RAY" weight="1" />
+      <edge id="6643" source="RITA" target="SHARI" weight="4" />
+      <edge id="6644" source="RITA" target="JOHN" weight="1" />
+      <edge id="6645" source="RITA" target="TAD" weight="1" />
+      <edge id="6646" source="RITA" target="BARRY" weight="1" />
+      <edge id="6647" source="MOTHER" target="ED" weight="1" />
+      <edge id="6648" source="MOTHER" target="LOU" weight="1" />
+      <edge id="6649" source="MOTHER" target="CLERK" weight="1" />
+      <edge id="6650" source="LOU" target="MOTHER" weight="1" />
+      <edge id="6651" source="LOU" target="ED" weight="2" />
+      <edge id="6652" source="LOU" target="CLERK" weight="1" />
+      <edge id="6653" source="CLERK" target="MOTHER" weight="1" />
+      <edge id="6654" source="CLERK" target="ED" weight="1" />
+      <edge id="6655" source="CLERK" target="LOU" weight="1" />
+      <edge id="6656" source="SCHARLACH" target="ED" weight="6" />
+      <edge id="6657" source="SCHARLACH" target="CYNTHIA" weight="6" />
+      <edge id="6658" source="SCHARLACH" target="McILVAINE" weight="5" />
+      <edge id="6659" source="SCHARLACH" target="RAY" weight="2" />
+      <edge id="6660" source="SCHARLACH" target="ANCHOR" weight="1" />
+      <edge id="6661" source="SCHARLACH" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6662" source="SCHARLACH" target="GREG" weight="3" />
+      <edge id="6663" source="SCHARLACH" target="WOMAN" weight="1" />
+      <edge id="6664" source="SCHARLACH" target="SEAVER" weight="4" />
+      <edge id="6665" source="SCHARLACH" target="HONCHO #1" weight="2" />
+      <edge id="6666" source="SCHARLACH" target="HONCHO #2" weight="1" />
+      <edge id="6667" source="SCHARLACH" target="MR. SCHARLACH" weight="2" />
+      <edge id="6668" source="SCHARLACH" target="HONCHO #l" weight="1" />
+      <edge id="6669" source="SCHARLACH" target="MILDRED" weight="1" />
+      <edge id="6670" source="SCHARLACH" target="SHARI" weight="1" />
+      <edge id="6671" source="SCHARLACH" target="LAWYER" weight="1" />
+      <edge id="6672" source="SCHARLACH" target="AL" weight="1" />
+      <edge id="6673" source="McILVAINE" target="ED" weight="3" />
+      <edge id="6674" source="McILVAINE" target="CYNTHIA" weight="4" />
+      <edge id="6675" source="McILVAINE" target="SCHARLACH" weight="5" />
+      <edge id="6676" source="McILVAINE" target="GREG" weight="3" />
+      <edge id="6677" source="McILVAINE" target="WOMAN" weight="1" />
+      <edge id="6678" source="McILVAINE" target="SEAVER" weight="3" />
+      <edge id="6679" source="McILVAINE" target="HONCHO #1" weight="1" />
+      <edge id="6680" source="McILVAINE" target="HONCHO #2" weight="1" />
+      <edge id="6681" source="McILVAINE" target="MR. SCHARLACH" weight="1" />
+      <edge id="6682" source="AL" target="ED" weight="7" />
+      <edge id="6683" source="AL" target="RAY" weight="2" />
+      <edge id="6684" source="AL" target="MARCIA" weight="1" />
+      <edge id="6685" source="AL" target="JEANTTE" weight="2" />
+      <edge id="6686" source="AL" target="JEANETTE" weight="4" />
+      <edge id="6687" source="AL" target="JEANTETTE" weight="1" />
+      <edge id="6688" source="AL" target="REPAIRMAN" weight="1" />
+      <edge id="6689" source="AL" target="DR. GELLER" weight="2" />
+      <edge id="6690" source="AL" target="VOICE" weight="1" />
+      <edge id="6691" source="AL" target="NURSE" weight="1" />
+      <edge id="6692" source="AL" target="SCHARLACH" weight="1" />
+      <edge id="6693" source="AL" target="CYNTHIA" weight="1" />
+      <edge id="6694" source="MARCIA" target="AL" weight="1" />
+      <edge id="6695" source="MARCIA" target="ED" weight="3" />
+      <edge id="6696" source="MARCIA" target="RAY" weight="2" />
+      <edge id="6697" source="MARCIA" target="JEANTTE" weight="1" />
+      <edge id="6698" source="MARCIA" target="CUSTOMER" weight="1" />
+      <edge id="6699" source="MARCIA" target="SHARI" weight="1" />
+      <edge id="6700" source="JEANTTE" target="AL" weight="2" />
+      <edge id="6701" source="JEANTTE" target="ED" weight="2" />
+      <edge id="6702" source="JEANTTE" target="RAY" weight="1" />
+      <edge id="6703" source="JEANTTE" target="MARCIA" weight="1" />
+      <edge id="6704" source="ENTERTAINMENT REPORTER" target="ANCHOR" weight="2" />
+      <edge id="6705" source="ENTERTAINMENT REPORTER" target="SIDEKICK" weight="1" />
+      <edge id="6706" source="ENTERTAINMENT REPORTER" target="LEN" weight="1" />
+      <edge id="6707" source="ENTERTAINMENT REPORTER" target="SCHARLACH" weight="1" />
+      <edge id="6708" source="ENTERTAINMENT REPORTER" target="CYNTHIA" weight="1" />
+      <edge id="6709" source="ENTERTAINMENT REPORTER" target="WOMAN #1" weight="1" />
+      <edge id="6710" source="ENTERTAINMENT REPORTER" target="MAN" weight="1" />
+      <edge id="6711" source="ENTERTAINMENT REPORTER" target="YOUNGER MAN" weight="1" />
+      <edge id="6712" source="ENTERTAINMENT REPORTER" target="ICE CREAM GUY" weight="1" />
+      <edge id="6713" source="ENTERTAINMENT REPORTER" target="WOMAN #2" weight="1" />
+      <edge id="6714" source="ENTERTAINMENT REPORTER" target="TEEN-AGER #l" weight="1" />
+      <edge id="6715" source="ENTERTAINMENT REPORTER" target="TEEN-AGER #2" weight="1" />
+      <edge id="6716" source="ENTERTAINMENT REPORTER" target="TEEN-AGER #1" weight="1" />
+      <edge id="6717" source="ENTERTAINMENT REPORTER" target="TEEN-AGER #3" weight="1" />
+      <edge id="6718" source="ENTERTAINMENT REPORTER" target="GUY #1" weight="1" />
+      <edge id="6719" source="ENTERTAINMENT REPORTER" target="GUY #2" weight="1" />
+      <edge id="6720" source="ENTERTAINMENT REPORTER" target="PANELIST #1" weight="1" />
+      <edge id="6721" source="ENTERTAINMENT REPORTER" target="PANELIST #4" weight="1" />
+      <edge id="6722" source="ENTERTAINMENT REPORTER" target="REPORTER" weight="1" />
+      <edge id="6723" source="ANCHOR" target="ENTERTAINMENT REPORTER" weight="2" />
+      <edge id="6724" source="ANCHOR" target="SIDEKICK" weight="1" />
+      <edge id="6725" source="ANCHOR" target="LEN" weight="1" />
+      <edge id="6726" source="ANCHOR" target="SCHARLACH" weight="1" />
+      <edge id="6727" source="SIDEKICK" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6728" source="SIDEKICK" target="ANCHOR" weight="1" />
+      <edge id="6729" source="SIDEKICK" target="LEN" weight="1" />
+      <edge id="6730" source="LEN" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6731" source="LEN" target="ANCHOR" weight="1" />
+      <edge id="6732" source="LEN" target="SIDEKICK" weight="1" />
+      <edge id="6733" source="JEANETTE" target="ED" weight="10" />
+      <edge id="6734" source="JEANETTE" target="SHARI" weight="2" />
+      <edge id="6735" source="JEANETTE" target="RAY" weight="2" />
+      <edge id="6736" source="JEANETTE" target="AL" weight="4" />
+      <edge id="6737" source="JEANETTE" target="BARRY" weight="1" />
+      <edge id="6738" source="JEANETTE" target="JILL" weight="1" />
+      <edge id="6739" source="JEANETTE" target="JEANTETTE" weight="1" />
+      <edge id="6740" source="JEANETTE" target="REPAIRMAN" weight="1" />
+      <edge id="6741" source="JEANETTE" target="JOHN" weight="1" />
+      <edge id="6742" source="JEANETTE" target="NURSE" weight="1" />
+      <edge id="6743" source="JEANETTE" target="DR. GELLER" weight="1" />
+      <edge id="6744" source="JEANETTE" target="OPRAH" weight="1" />
+      <edge id="6745" source="JEANETTE" target="BYSTANDER #1" weight="1" />
+      <edge id="6746" source="JEANETTE" target="BYSTANDER #2" weight="1" />
+      <edge id="6747" source="JEANETTE" target="BYSTANDER #3" weight="1" />
+      <edge id="6748" source="DIRECTOR" target="ED" weight="1" />
+      <edge id="6749" source="DIRECTOR" target="CARLOS" weight="1" />
+      <edge id="6750" source="HUSBAND" target="WIFE" weight="2" />
+      <edge id="6751" source="HUSBAND" target="COLLEGE GIRL" weight="1" />
+      <edge id="6752" source="HUSBAND" target="TAD" weight="1" />
+      <edge id="6753" source="HUSBAND" target="BARRY" weight="1" />
+      <edge id="6754" source="HUSBAND" target="FIRST GUY" weight="1" />
+      <edge id="6755" source="HUSBAND" target="SECOND GUY" weight="1" />
+      <edge id="6756" source="WIFE" target="HUSBAND" weight="2" />
+      <edge id="6757" source="WIFE" target="COLLEGE GIRL" weight="1" />
+      <edge id="6758" source="WIFE" target="TAD" weight="1" />
+      <edge id="6759" source="WIFE" target="BARRY" weight="1" />
+      <edge id="6760" source="WIFE" target="FIRST GUY" weight="1" />
+      <edge id="6761" source="WIFE" target="SECOND GUY" weight="1" />
+      <edge id="6762" source="COLLEGE GIRL" target="HUSBAND" weight="1" />
+      <edge id="6763" source="COLLEGE GIRL" target="WIFE" weight="1" />
+      <edge id="6764" source="BARTENDER" target="ED" weight="1" />
+      <edge id="6765" source="BARTENDER" target="RAY" weight="1" />
+      <edge id="6766" source="TAD" target="BARRY" weight="4" />
+      <edge id="6767" source="TAD" target="HUSBAND" weight="1" />
+      <edge id="6768" source="TAD" target="WIFE" weight="1" />
+      <edge id="6769" source="TAD" target="FIRST GUY" weight="1" />
+      <edge id="6770" source="TAD" target="SECOND GUY" weight="1" />
+      <edge id="6771" source="TAD" target="SHARI" weight="1" />
+      <edge id="6772" source="TAD" target="RITA" weight="1" />
+      <edge id="6773" source="TAD" target="POKER PLAYER #2" weight="1" />
+      <edge id="6774" source="TAD" target="PANEL MEMBER #1" weight="1" />
+      <edge id="6775" source="TAD" target="PANEL MEMBER #2" weight="1" />
+      <edge id="6776" source="TAD" target="PANEL MEMBER #3" weight="1" />
+      <edge id="6777" source="TAD" target="PANEL MEMBER #4" weight="1" />
+      <edge id="6778" source="TAD" target="JOMA'S FRIEND" weight="1" />
+      <edge id="6779" source="TAD" target="JOMA" weight="1" />
+      <edge id="6780" source="BARRY" target="TAD" weight="4" />
+      <edge id="6781" source="BARRY" target="HUSBAND" weight="1" />
+      <edge id="6782" source="BARRY" target="WIFE" weight="1" />
+      <edge id="6783" source="BARRY" target="FIRST GUY" weight="1" />
+      <edge id="6784" source="BARRY" target="SECOND GUY" weight="1" />
+      <edge id="6785" source="BARRY" target="SHARI" weight="2" />
+      <edge id="6786" source="BARRY" target="RITA" weight="1" />
+      <edge id="6787" source="BARRY" target="JEANETTE" weight="1" />
+      <edge id="6788" source="BARRY" target="ED" weight="1" />
+      <edge id="6789" source="BARRY" target="JILL" weight="1" />
+      <edge id="6790" source="BARRY" target="POKER PLAYER #2" weight="1" />
+      <edge id="6791" source="BARRY" target="PANEL MEMBER #1" weight="1" />
+      <edge id="6792" source="BARRY" target="PANEL MEMBER #2" weight="1" />
+      <edge id="6793" source="BARRY" target="PANEL MEMBER #3" weight="1" />
+      <edge id="6794" source="BARRY" target="PANEL MEMBER #4" weight="1" />
+      <edge id="6795" source="BARRY" target="JOMA'S FRIEND" weight="1" />
+      <edge id="6796" source="BARRY" target="JOMA" weight="1" />
+      <edge id="6797" source="FIRST GUY" target="TAD" weight="1" />
+      <edge id="6798" source="FIRST GUY" target="BARRY" weight="1" />
+      <edge id="6799" source="FIRST GUY" target="HUSBAND" weight="1" />
+      <edge id="6800" source="FIRST GUY" target="WIFE" weight="1" />
+      <edge id="6801" source="FIRST GUY" target="SECOND GUY" weight="1" />
+      <edge id="6802" source="SECOND GUY" target="TAD" weight="1" />
+      <edge id="6803" source="SECOND GUY" target="BARRY" weight="1" />
+      <edge id="6804" source="SECOND GUY" target="HUSBAND" weight="1" />
+      <edge id="6805" source="SECOND GUY" target="WIFE" weight="1" />
+      <edge id="6806" source="SECOND GUY" target="FIRST GUY" weight="1" />
+      <edge id="6807" source="HYGIENIST" target="ED" weight="1" />
+      <edge id="6808" source="MODERATOR" target="PANEL MEMBER #1" weight="1" />
+      <edge id="6809" source="MODERATOR" target="PANEL MEMBER #2" weight="1" />
+      <edge id="6810" source="MODERATOR" target="PANEL MEMBER #3" weight="1" />
+      <edge id="6811" source="MODERATOR" target="PANEL MEMBER #4" weight="1" />
+      <edge id="6812" source="MODERATOR" target="JOHN" weight="1" />
+      <edge id="6813" source="MODERATOR" target="OLD GUY" weight="1" />
+      <edge id="6814" source="MODERATOR" target="OLD WOMAN" weight="1" />
+      <edge id="6815" source="MODERATOR" target="ANOTHER GUY" weight="1" />
+      <edge id="6816" source="PANEL MEMBER #1" target="MODERATOR" weight="1" />
+      <edge id="6817" source="PANEL MEMBER #1" target="PANEL MEMBER #2" weight="2" />
+      <edge id="6818" source="PANEL MEMBER #1" target="PANEL MEMBER #3" weight="2" />
+      <edge id="6819" source="PANEL MEMBER #1" target="PANEL MEMBER #4" weight="2" />
+      <edge id="6820" source="PANEL MEMBER #1" target="BARRY" weight="1" />
+      <edge id="6821" source="PANEL MEMBER #1" target="TAD" weight="1" />
+      <edge id="6822" source="PANEL MEMBER #1" target="POKER PLAYER #2" weight="1" />
+      <edge id="6823" source="PANEL MEMBER #2" target="MODERATOR" weight="1" />
+      <edge id="6824" source="PANEL MEMBER #2" target="PANEL MEMBER #1" weight="2" />
+      <edge id="6825" source="PANEL MEMBER #2" target="PANEL MEMBER #3" weight="2" />
+      <edge id="6826" source="PANEL MEMBER #2" target="PANEL MEMBER #4" weight="2" />
+      <edge id="6827" source="PANEL MEMBER #2" target="BARRY" weight="1" />
+      <edge id="6828" source="PANEL MEMBER #2" target="TAD" weight="1" />
+      <edge id="6829" source="PANEL MEMBER #2" target="POKER PLAYER #2" weight="1" />
+      <edge id="6830" source="PANEL MEMBER #3" target="MODERATOR" weight="1" />
+      <edge id="6831" source="PANEL MEMBER #3" target="PANEL MEMBER #1" weight="2" />
+      <edge id="6832" source="PANEL MEMBER #3" target="PANEL MEMBER #2" weight="2" />
+      <edge id="6833" source="PANEL MEMBER #3" target="PANEL MEMBER #4" weight="2" />
+      <edge id="6834" source="PANEL MEMBER #3" target="BARRY" weight="1" />
+      <edge id="6835" source="PANEL MEMBER #3" target="TAD" weight="1" />
+      <edge id="6836" source="PANEL MEMBER #3" target="POKER PLAYER #2" weight="1" />
+      <edge id="6837" source="PANEL MEMBER #4" target="MODERATOR" weight="1" />
+      <edge id="6838" source="PANEL MEMBER #4" target="PANEL MEMBER #1" weight="2" />
+      <edge id="6839" source="PANEL MEMBER #4" target="PANEL MEMBER #2" weight="2" />
+      <edge id="6840" source="PANEL MEMBER #4" target="PANEL MEMBER #3" weight="2" />
+      <edge id="6841" source="PANEL MEMBER #4" target="BARRY" weight="1" />
+      <edge id="6842" source="PANEL MEMBER #4" target="TAD" weight="1" />
+      <edge id="6843" source="PANEL MEMBER #4" target="POKER PLAYER #2" weight="1" />
+      <edge id="6844" source="BOY" target="ED" weight="1" />
+      <edge id="6845" source="GUY" target="RAY" weight="1" />
+      <edge id="6846" source="GUY" target="ED" weight="3" />
+      <edge id="6847" source="GUY" target="CASSIE" weight="1" />
+      <edge id="6848" source="GUY" target="GIRLS" weight="1" />
+      <edge id="6849" source="GUY" target="SHARI" weight="1" />
+      <edge id="6850" source="WOMAN" target="ED" weight="5" />
+      <edge id="6851" source="WOMAN" target="RAY" weight="2" />
+      <edge id="6852" source="WOMAN" target="SHARI" weight="2" />
+      <edge id="6853" source="WOMAN" target="McILVAINE" weight="1" />
+      <edge id="6854" source="WOMAN" target="GREG" weight="1" />
+      <edge id="6855" source="WOMAN" target="SCHARLACH" weight="1" />
+      <edge id="6856" source="WOMAN" target="SEAVER" weight="1" />
+      <edge id="6857" source="DORM GIRL" target="SHARI" weight="1" />
+      <edge id="6858" source="DORM GIRL" target="ED" weight="1" />
+      <edge id="6859" source="CARLOS" target="DIRECTOR" weight="1" />
+      <edge id="6860" source="CASSIE" target="RAY" weight="1" />
+      <edge id="6861" source="CASSIE" target="ED" weight="1" />
+      <edge id="6862" source="CASSIE" target="GUY" weight="1" />
+      <edge id="6863" source="CASSIE" target="GIRLS" weight="1" />
+      <edge id="6864" source="GIRLS" target="RAY" weight="1" />
+      <edge id="6865" source="GIRLS" target="ED" weight="1" />
+      <edge id="6866" source="GIRLS" target="GUY" weight="1" />
+      <edge id="6867" source="GIRLS" target="CASSIE" weight="1" />
+      <edge id="6868" source="CYNTHIA'S OFFICE" target="ED" weight="1" />
+      <edge id="6869" source="CYNTHIA'S OFFICE" target="CYNTHIA" weight="1" />
+      <edge id="6870" source="WOMAN #1" target="CYNTHIA" weight="1" />
+      <edge id="6871" source="WOMAN #1" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6872" source="WOMAN #1" target="MAN" weight="1" />
+      <edge id="6873" source="WOMAN #1" target="YOUNGER MAN" weight="1" />
+      <edge id="6874" source="WOMAN #1" target="ICE CREAM GUY" weight="1" />
+      <edge id="6875" source="WOMAN #1" target="WOMAN #2" weight="1" />
+      <edge id="6876" source="WOMAN #1" target="TEEN-AGER #l" weight="1" />
+      <edge id="6877" source="WOMAN #1" target="TEEN-AGER #2" weight="1" />
+      <edge id="6878" source="WOMAN #1" target="TEEN-AGER #1" weight="1" />
+      <edge id="6879" source="WOMAN #1" target="TEEN-AGER #3" weight="1" />
+      <edge id="6880" source="WOMAN #1" target="GUY #1" weight="1" />
+      <edge id="6881" source="WOMAN #1" target="GUY #2" weight="1" />
+      <edge id="6882" source="MAN" target="CYNTHIA" weight="1" />
+      <edge id="6883" source="MAN" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6884" source="MAN" target="WOMAN #1" weight="1" />
+      <edge id="6885" source="MAN" target="YOUNGER MAN" weight="1" />
+      <edge id="6886" source="MAN" target="ICE CREAM GUY" weight="1" />
+      <edge id="6887" source="MAN" target="WOMAN #2" weight="1" />
+      <edge id="6888" source="MAN" target="TEEN-AGER #l" weight="1" />
+      <edge id="6889" source="MAN" target="TEEN-AGER #2" weight="1" />
+      <edge id="6890" source="MAN" target="TEEN-AGER #1" weight="1" />
+      <edge id="6891" source="MAN" target="TEEN-AGER #3" weight="1" />
+      <edge id="6892" source="MAN" target="GUY #1" weight="1" />
+      <edge id="6893" source="MAN" target="GUY #2" weight="1" />
+      <edge id="6894" source="YOUNGER MAN" target="CYNTHIA" weight="1" />
+      <edge id="6895" source="YOUNGER MAN" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6896" source="YOUNGER MAN" target="WOMAN #1" weight="1" />
+      <edge id="6897" source="YOUNGER MAN" target="MAN" weight="1" />
+      <edge id="6898" source="YOUNGER MAN" target="ICE CREAM GUY" weight="1" />
+      <edge id="6899" source="YOUNGER MAN" target="WOMAN #2" weight="1" />
+      <edge id="6900" source="YOUNGER MAN" target="TEEN-AGER #l" weight="1" />
+      <edge id="6901" source="YOUNGER MAN" target="TEEN-AGER #2" weight="1" />
+      <edge id="6902" source="YOUNGER MAN" target="TEEN-AGER #1" weight="1" />
+      <edge id="6903" source="YOUNGER MAN" target="TEEN-AGER #3" weight="1" />
+      <edge id="6904" source="YOUNGER MAN" target="GUY #1" weight="1" />
+      <edge id="6905" source="YOUNGER MAN" target="GUY #2" weight="1" />
+      <edge id="6906" source="ICE CREAM GUY" target="CYNTHIA" weight="1" />
+      <edge id="6907" source="ICE CREAM GUY" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6908" source="ICE CREAM GUY" target="WOMAN #1" weight="1" />
+      <edge id="6909" source="ICE CREAM GUY" target="MAN" weight="1" />
+      <edge id="6910" source="ICE CREAM GUY" target="YOUNGER MAN" weight="1" />
+      <edge id="6911" source="ICE CREAM GUY" target="WOMAN #2" weight="1" />
+      <edge id="6912" source="ICE CREAM GUY" target="TEEN-AGER #l" weight="1" />
+      <edge id="6913" source="ICE CREAM GUY" target="TEEN-AGER #2" weight="1" />
+      <edge id="6914" source="ICE CREAM GUY" target="TEEN-AGER #1" weight="1" />
+      <edge id="6915" source="ICE CREAM GUY" target="TEEN-AGER #3" weight="1" />
+      <edge id="6916" source="ICE CREAM GUY" target="GUY #1" weight="1" />
+      <edge id="6917" source="ICE CREAM GUY" target="GUY #2" weight="1" />
+      <edge id="6918" source="WOMAN #2" target="CYNTHIA" weight="1" />
+      <edge id="6919" source="WOMAN #2" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6920" source="WOMAN #2" target="WOMAN #1" weight="1" />
+      <edge id="6921" source="WOMAN #2" target="MAN" weight="1" />
+      <edge id="6922" source="WOMAN #2" target="YOUNGER MAN" weight="1" />
+      <edge id="6923" source="WOMAN #2" target="ICE CREAM GUY" weight="1" />
+      <edge id="6924" source="WOMAN #2" target="TEEN-AGER #l" weight="1" />
+      <edge id="6925" source="WOMAN #2" target="TEEN-AGER #2" weight="1" />
+      <edge id="6926" source="WOMAN #2" target="TEEN-AGER #1" weight="1" />
+      <edge id="6927" source="WOMAN #2" target="TEEN-AGER #3" weight="1" />
+      <edge id="6928" source="WOMAN #2" target="GUY #1" weight="1" />
+      <edge id="6929" source="WOMAN #2" target="GUY #2" weight="1" />
+      <edge id="6930" source="TEEN-AGER #l" target="CYNTHIA" weight="1" />
+      <edge id="6931" source="TEEN-AGER #l" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6932" source="TEEN-AGER #l" target="WOMAN #1" weight="1" />
+      <edge id="6933" source="TEEN-AGER #l" target="MAN" weight="1" />
+      <edge id="6934" source="TEEN-AGER #l" target="YOUNGER MAN" weight="1" />
+      <edge id="6935" source="TEEN-AGER #l" target="ICE CREAM GUY" weight="1" />
+      <edge id="6936" source="TEEN-AGER #l" target="WOMAN #2" weight="1" />
+      <edge id="6937" source="TEEN-AGER #l" target="TEEN-AGER #2" weight="1" />
+      <edge id="6938" source="TEEN-AGER #l" target="TEEN-AGER #1" weight="1" />
+      <edge id="6939" source="TEEN-AGER #l" target="TEEN-AGER #3" weight="1" />
+      <edge id="6940" source="TEEN-AGER #l" target="GUY #1" weight="1" />
+      <edge id="6941" source="TEEN-AGER #l" target="GUY #2" weight="1" />
+      <edge id="6942" source="TEEN-AGER #2" target="CYNTHIA" weight="1" />
+      <edge id="6943" source="TEEN-AGER #2" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6944" source="TEEN-AGER #2" target="WOMAN #1" weight="1" />
+      <edge id="6945" source="TEEN-AGER #2" target="MAN" weight="1" />
+      <edge id="6946" source="TEEN-AGER #2" target="YOUNGER MAN" weight="1" />
+      <edge id="6947" source="TEEN-AGER #2" target="ICE CREAM GUY" weight="1" />
+      <edge id="6948" source="TEEN-AGER #2" target="WOMAN #2" weight="1" />
+      <edge id="6949" source="TEEN-AGER #2" target="TEEN-AGER #l" weight="1" />
+      <edge id="6950" source="TEEN-AGER #2" target="TEEN-AGER #1" weight="1" />
+      <edge id="6951" source="TEEN-AGER #2" target="TEEN-AGER #3" weight="1" />
+      <edge id="6952" source="TEEN-AGER #2" target="GUY #1" weight="1" />
+      <edge id="6953" source="TEEN-AGER #2" target="GUY #2" weight="1" />
+      <edge id="6954" source="TEEN-AGER #1" target="CYNTHIA" weight="1" />
+      <edge id="6955" source="TEEN-AGER #1" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6956" source="TEEN-AGER #1" target="WOMAN #1" weight="1" />
+      <edge id="6957" source="TEEN-AGER #1" target="MAN" weight="1" />
+      <edge id="6958" source="TEEN-AGER #1" target="YOUNGER MAN" weight="1" />
+      <edge id="6959" source="TEEN-AGER #1" target="ICE CREAM GUY" weight="1" />
+      <edge id="6960" source="TEEN-AGER #1" target="WOMAN #2" weight="1" />
+      <edge id="6961" source="TEEN-AGER #1" target="TEEN-AGER #l" weight="1" />
+      <edge id="6962" source="TEEN-AGER #1" target="TEEN-AGER #2" weight="1" />
+      <edge id="6963" source="TEEN-AGER #1" target="TEEN-AGER #3" weight="1" />
+      <edge id="6964" source="TEEN-AGER #1" target="GUY #1" weight="1" />
+      <edge id="6965" source="TEEN-AGER #1" target="GUY #2" weight="1" />
+      <edge id="6966" source="TEEN-AGER #3" target="CYNTHIA" weight="1" />
+      <edge id="6967" source="TEEN-AGER #3" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6968" source="TEEN-AGER #3" target="WOMAN #1" weight="1" />
+      <edge id="6969" source="TEEN-AGER #3" target="MAN" weight="1" />
+      <edge id="6970" source="TEEN-AGER #3" target="YOUNGER MAN" weight="1" />
+      <edge id="6971" source="TEEN-AGER #3" target="ICE CREAM GUY" weight="1" />
+      <edge id="6972" source="TEEN-AGER #3" target="WOMAN #2" weight="1" />
+      <edge id="6973" source="TEEN-AGER #3" target="TEEN-AGER #l" weight="1" />
+      <edge id="6974" source="TEEN-AGER #3" target="TEEN-AGER #2" weight="1" />
+      <edge id="6975" source="TEEN-AGER #3" target="TEEN-AGER #1" weight="1" />
+      <edge id="6976" source="TEEN-AGER #3" target="GUY #1" weight="1" />
+      <edge id="6977" source="TEEN-AGER #3" target="GUY #2" weight="1" />
+      <edge id="6978" source="GUY #1" target="CYNTHIA" weight="2" />
+      <edge id="6979" source="GUY #1" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6980" source="GUY #1" target="WOMAN #1" weight="1" />
+      <edge id="6981" source="GUY #1" target="MAN" weight="1" />
+      <edge id="6982" source="GUY #1" target="YOUNGER MAN" weight="1" />
+      <edge id="6983" source="GUY #1" target="ICE CREAM GUY" weight="1" />
+      <edge id="6984" source="GUY #1" target="WOMAN #2" weight="1" />
+      <edge id="6985" source="GUY #1" target="TEEN-AGER #l" weight="1" />
+      <edge id="6986" source="GUY #1" target="TEEN-AGER #2" weight="1" />
+      <edge id="6987" source="GUY #1" target="TEEN-AGER #1" weight="1" />
+      <edge id="6988" source="GUY #1" target="TEEN-AGER #3" weight="1" />
+      <edge id="6989" source="GUY #1" target="GUY #2" weight="1" />
+      <edge id="6990" source="GUY #1" target="ED" weight="1" />
+      <edge id="6991" source="GUY #1" target="ANDY" weight="1" />
+      <edge id="6992" source="GUY #1" target="JILL" weight="1" />
+      <edge id="6993" source="GUY #1" target="ALICE" weight="1" />
+      <edge id="6994" source="GUY #1" target="GUY # 2" weight="1" />
+      <edge id="6995" source="GUY #2" target="CYNTHIA" weight="1" />
+      <edge id="6996" source="GUY #2" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="6997" source="GUY #2" target="WOMAN #1" weight="1" />
+      <edge id="6998" source="GUY #2" target="MAN" weight="1" />
+      <edge id="6999" source="GUY #2" target="YOUNGER MAN" weight="1" />
+      <edge id="7000" source="GUY #2" target="ICE CREAM GUY" weight="1" />
+      <edge id="7001" source="GUY #2" target="WOMAN #2" weight="1" />
+      <edge id="7002" source="GUY #2" target="TEEN-AGER #l" weight="1" />
+      <edge id="7003" source="GUY #2" target="TEEN-AGER #2" weight="1" />
+      <edge id="7004" source="GUY #2" target="TEEN-AGER #1" weight="1" />
+      <edge id="7005" source="GUY #2" target="TEEN-AGER #3" weight="1" />
+      <edge id="7006" source="GUY #2" target="GUY #1" weight="1" />
+      <edge id="7007" source="CUSTOMER" target="ED" weight="1" />
+      <edge id="7008" source="CUSTOMER" target="MARCIA" weight="1" />
+      <edge id="7009" source="CUSTOMER" target="SHARI" weight="1" />
+      <edge id="7010" source="JILL" target="BARRY" weight="1" />
+      <edge id="7011" source="JILL" target="JEANETTE" weight="1" />
+      <edge id="7012" source="JILL" target="SHARI" weight="1" />
+      <edge id="7013" source="JILL" target="ED" weight="6" />
+      <edge id="7014" source="JILL" target="PRODUCTION ASSISTANT" weight="1" />
+      <edge id="7015" source="JILL" target="JOHN" weight="1" />
+      <edge id="7016" source="JILL" target="CYNTHIA" weight="2" />
+      <edge id="7017" source="JILL" target="ANDY" weight="1" />
+      <edge id="7018" source="JILL" target="ALICE" weight="1" />
+      <edge id="7019" source="JILL" target="GUY #1" weight="1" />
+      <edge id="7020" source="JILL" target="GUY # 2" weight="1" />
+      <edge id="7021" source="DAVE" target="ED" weight="1" />
+      <edge id="7022" source="PRODUCTION ASSISTANT" target="ED" weight="1" />
+      <edge id="7023" source="PRODUCTION ASSISTANT" target="JOHN" weight="1" />
+      <edge id="7024" source="PRODUCTION ASSISTANT" target="JILL" weight="1" />
+      <edge id="7025" source="POKER PLAYER #2" target="BARRY" weight="1" />
+      <edge id="7026" source="POKER PLAYER #2" target="TAD" weight="1" />
+      <edge id="7027" source="POKER PLAYER #2" target="PANEL MEMBER #1" weight="1" />
+      <edge id="7028" source="POKER PLAYER #2" target="PANEL MEMBER #2" weight="1" />
+      <edge id="7029" source="POKER PLAYER #2" target="PANEL MEMBER #3" weight="1" />
+      <edge id="7030" source="POKER PLAYER #2" target="PANEL MEMBER #4" weight="1" />
+      <edge id="7031" source="HANK" target="ED" weight="3" />
+      <edge id="7032" source="JEANTETTE" target="JEANETTE" weight="1" />
+      <edge id="7033" source="JEANTETTE" target="ED" weight="1" />
+      <edge id="7034" source="JEANTETTE" target="AL" weight="1" />
+      <edge id="7035" source="JEANTETTE" target="REPAIRMAN" weight="1" />
+      <edge id="7036" source="REPAIRMAN" target="JEANETTE" weight="1" />
+      <edge id="7037" source="REPAIRMAN" target="ED" weight="1" />
+      <edge id="7038" source="REPAIRMAN" target="AL" weight="1" />
+      <edge id="7039" source="REPAIRMAN" target="JEANTETTE" weight="1" />
+      <edge id="7040" source="ANNOUNCER" target="ED" weight="2" />
+      <edge id="7041" source="ANNOUNCER" target="JOMA" weight="1" />
+      <edge id="7042" source="JOMA" target="ED" weight="1" />
+      <edge id="7043" source="JOMA" target="ANNOUNCER" weight="1" />
+      <edge id="7044" source="JOMA" target="TAD" weight="1" />
+      <edge id="7045" source="JOMA" target="BARRY" weight="1" />
+      <edge id="7046" source="JOMA" target="JOMA'S FRIEND" weight="1" />
+      <edge id="7047" source="SEAVER" target="ED" weight="3" />
+      <edge id="7048" source="SEAVER" target="McILVAINE" weight="3" />
+      <edge id="7049" source="SEAVER" target="GREG" weight="2" />
+      <edge id="7050" source="SEAVER" target="WOMAN" weight="1" />
+      <edge id="7051" source="SEAVER" target="SCHARLACH" weight="4" />
+      <edge id="7052" source="SEAVER" target="CYNTHIA" weight="2" />
+      <edge id="7053" source="SEAVER" target="MR. SCHARLACH" weight="1" />
+      <edge id="7054" source="SEAVER" target="HONCHO #l" weight="1" />
+      <edge id="7055" source="SEAVER" target="MILDRED" weight="1" />
+      <edge id="7056" source="SEAVER" target="HONCHO #1" weight="1" />
+      <edge id="7057" source="SEAVER" target="SHARI" weight="1" />
+      <edge id="7058" source="ANDY" target="CYNTHIA" weight="1" />
+      <edge id="7059" source="ANDY" target="ED" weight="1" />
+      <edge id="7060" source="ANDY" target="JILL" weight="1" />
+      <edge id="7061" source="ANDY" target="ALICE" weight="1" />
+      <edge id="7062" source="ANDY" target="GUY #1" weight="1" />
+      <edge id="7063" source="ANDY" target="GUY # 2" weight="1" />
+      <edge id="7064" source="GUY # 2" target="CYNTHIA" weight="1" />
+      <edge id="7065" source="GUY # 2" target="ED" weight="1" />
+      <edge id="7066" source="GUY # 2" target="ANDY" weight="1" />
+      <edge id="7067" source="GUY # 2" target="JILL" weight="1" />
+      <edge id="7068" source="GUY # 2" target="ALICE" weight="1" />
+      <edge id="7069" source="GUY # 2" target="GUY #1" weight="1" />
+      <edge id="7070" source="CON ED GUY" target="ED" weight="1" />
+      <edge id="7071" source="CON ED GUY" target="STREET CHARACTER" weight="1" />
+      <edge id="7072" source="CON ED GUY" target="KIDS" weight="1" />
+      <edge id="7073" source="STREET CHARACTER" target="ED" weight="1" />
+      <edge id="7074" source="STREET CHARACTER" target="CON ED GUY" weight="1" />
+      <edge id="7075" source="STREET CHARACTER" target="KIDS" weight="1" />
+      <edge id="7076" source="KIDS" target="ED" weight="1" />
+      <edge id="7077" source="KIDS" target="CON ED GUY" weight="1" />
+      <edge id="7078" source="KIDS" target="STREET CHARACTER" weight="1" />
+      <edge id="7079" source="VOICE" target="PARTYGOER" weight="1" />
+      <edge id="7080" source="VOICE" target="ED" weight="1" />
+      <edge id="7081" source="VOICE" target="DR. GELLER" weight="1" />
+      <edge id="7082" source="VOICE" target="AL" weight="1" />
+      <edge id="7083" source="PARTYGOER" target="VOICE" weight="1" />
+      <edge id="7084" source="TEEN-AGE BOY #1" target="TEEN-AGE BOY #2" weight="1" />
+      <edge id="7085" source="TEEN-AGE BOY #1" target="TEEN-AGE BOY #3" weight="1" />
+      <edge id="7086" source="TEEN-AGE BOY #2" target="TEEN-AGE BOY #1" weight="1" />
+      <edge id="7087" source="TEEN-AGE BOY #2" target="TEEN-AGE BOY #3" weight="1" />
+      <edge id="7088" source="TEEN-AGE BOY #3" target="TEEN-AGE BOY #1" weight="1" />
+      <edge id="7089" source="TEEN-AGE BOY #3" target="TEEN-AGE BOY #2" weight="1" />
+      <edge id="7090" source="BOYS" target="COLLEGE GIRL #1" weight="1" />
+      <edge id="7091" source="BOYS" target="COLLEGE GIRL #2" weight="1" />
+      <edge id="7092" source="COLLEGE GIRL #1" target="BOYS" weight="1" />
+      <edge id="7093" source="COLLEGE GIRL #1" target="COLLEGE GIRL #2" weight="1" />
+      <edge id="7094" source="COLLEGE GIRL #2" target="BOYS" weight="1" />
+      <edge id="7095" source="COLLEGE GIRL #2" target="COLLEGE GIRL #1" weight="1" />
+      <edge id="7096" source="OLD GUY" target="MODERATOR" weight="1" />
+      <edge id="7097" source="OLD GUY" target="JOHN" weight="1" />
+      <edge id="7098" source="OLD GUY" target="OLD WOMAN" weight="1" />
+      <edge id="7099" source="OLD GUY" target="ANOTHER GUY" weight="1" />
+      <edge id="7100" source="OLD WOMAN" target="MODERATOR" weight="1" />
+      <edge id="7101" source="OLD WOMAN" target="JOHN" weight="1" />
+      <edge id="7102" source="OLD WOMAN" target="OLD GUY" weight="1" />
+      <edge id="7103" source="OLD WOMAN" target="ANOTHER GUY" weight="1" />
+      <edge id="7104" source="ANOTHER GUY" target="MODERATOR" weight="1" />
+      <edge id="7105" source="ANOTHER GUY" target="JOHN" weight="1" />
+      <edge id="7106" source="ANOTHER GUY" target="OLD GUY" weight="1" />
+      <edge id="7107" source="ANOTHER GUY" target="OLD WOMAN" weight="1" />
+      <edge id="7108" source="HONCHO #1" target="GREG" weight="1" />
+      <edge id="7109" source="HONCHO #1" target="HONCHO #2" weight="1" />
+      <edge id="7110" source="HONCHO #1" target="McILVAINE" weight="1" />
+      <edge id="7111" source="HONCHO #1" target="CYNTHIA" weight="1" />
+      <edge id="7112" source="HONCHO #1" target="SCHARLACH" weight="2" />
+      <edge id="7113" source="HONCHO #1" target="HONCHO #l" weight="1" />
+      <edge id="7114" source="HONCHO #1" target="MILDRED" weight="1" />
+      <edge id="7115" source="HONCHO #1" target="SEAVER" weight="1" />
+      <edge id="7116" source="HONCHO #1" target="ED" weight="1" />
+      <edge id="7117" source="HONCHO #1" target="SHARI" weight="1" />
+      <edge id="7118" source="HONCHO #2" target="HONCHO #1" weight="1" />
+      <edge id="7119" source="HONCHO #2" target="GREG" weight="1" />
+      <edge id="7120" source="HONCHO #2" target="McILVAINE" weight="1" />
+      <edge id="7121" source="HONCHO #2" target="CYNTHIA" weight="1" />
+      <edge id="7122" source="HONCHO #2" target="SCHARLACH" weight="1" />
+      <edge id="7123" source="JOMA'S FRIEND" target="TAD" weight="1" />
+      <edge id="7124" source="JOMA'S FRIEND" target="BARRY" weight="1" />
+      <edge id="7125" source="JOMA'S FRIEND" target="JOMA" weight="1" />
+      <edge id="7126" source="DR. GELLER" target="ED" weight="2" />
+      <edge id="7127" source="DR. GELLER" target="VOICE" weight="1" />
+      <edge id="7128" source="DR. GELLER" target="AL" weight="2" />
+      <edge id="7129" source="DR. GELLER" target="NURSE" weight="1" />
+      <edge id="7130" source="DR. GELLER" target="JEANETTE" weight="1" />
+      <edge id="7131" source="NURSE" target="AL" weight="1" />
+      <edge id="7132" source="NURSE" target="ED" weight="1" />
+      <edge id="7133" source="NURSE" target="DR. GELLER" weight="1" />
+      <edge id="7134" source="NURSE" target="JEANETTE" weight="1" />
+      <edge id="7135" source="OPRAH" target="JEANETTE" weight="1" />
+      <edge id="7136" source="OPRAH" target="ED" weight="1" />
+      <edge id="7137" source="PANELIST #3" target="PANELIST #2" weight="1" />
+      <edge id="7138" source="PANELIST #2" target="PANELIST #3" weight="1" />
+      <edge id="7139" source="BYSTANDER #1" target="RAY" weight="1" />
+      <edge id="7140" source="BYSTANDER #1" target="ED" weight="1" />
+      <edge id="7141" source="BYSTANDER #1" target="BYSTANDER #2" weight="1" />
+      <edge id="7142" source="BYSTANDER #1" target="BYSTANDER #3" weight="1" />
+      <edge id="7143" source="BYSTANDER #1" target="JEANETTE" weight="1" />
+      <edge id="7144" source="BYSTANDER #2" target="RAY" weight="1" />
+      <edge id="7145" source="BYSTANDER #2" target="ED" weight="1" />
+      <edge id="7146" source="BYSTANDER #2" target="BYSTANDER #1" weight="1" />
+      <edge id="7147" source="BYSTANDER #2" target="BYSTANDER #3" weight="1" />
+      <edge id="7148" source="BYSTANDER #2" target="JEANETTE" weight="1" />
+      <edge id="7149" source="BYSTANDER #3" target="RAY" weight="1" />
+      <edge id="7150" source="BYSTANDER #3" target="ED" weight="1" />
+      <edge id="7151" source="BYSTANDER #3" target="BYSTANDER #1" weight="1" />
+      <edge id="7152" source="BYSTANDER #3" target="BYSTANDER #2" weight="1" />
+      <edge id="7153" source="BYSTANDER #3" target="JEANETTE" weight="1" />
+      <edge id="7154" source="MR. SCHARLACH" target="ED" weight="2" />
+      <edge id="7155" source="MR. SCHARLACH" target="McILVAINE" weight="1" />
+      <edge id="7156" source="MR. SCHARLACH" target="SEAVER" weight="1" />
+      <edge id="7157" source="MR. SCHARLACH" target="SCHARLACH" weight="2" />
+      <edge id="7158" source="MR. SCHARLACH" target="CYNTHIA" weight="1" />
+      <edge id="7159" source="STEVE" target="ED" weight="1" />
+      <edge id="7160" source="HONCHO #l" target="MILDRED" weight="1" />
+      <edge id="7161" source="HONCHO #l" target="SCHARLACH" weight="1" />
+      <edge id="7162" source="HONCHO #l" target="SEAVER" weight="1" />
+      <edge id="7163" source="HONCHO #l" target="ED" weight="1" />
+      <edge id="7164" source="HONCHO #l" target="HONCHO #1" weight="1" />
+      <edge id="7165" source="HONCHO #l" target="SHARI" weight="1" />
+      <edge id="7166" source="MILDRED" target="HONCHO #l" weight="1" />
+      <edge id="7167" source="MILDRED" target="SCHARLACH" weight="1" />
+      <edge id="7168" source="MILDRED" target="SEAVER" weight="1" />
+      <edge id="7169" source="MILDRED" target="ED" weight="1" />
+      <edge id="7170" source="MILDRED" target="HONCHO #1" weight="1" />
+      <edge id="7171" source="MILDRED" target="SHARI" weight="1" />
+      <edge id="7172" source="LAWYER" target="SCHARLACH" weight="1" />
+      <edge id="7173" source="PANELIST #1" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="7174" source="PANELIST #1" target="PANELIST #4" weight="1" />
+      <edge id="7175" source="PANELIST #1" target="REPORTER" weight="1" />
+      <edge id="7176" source="PANELIST #4" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="7177" source="PANELIST #4" target="PANELIST #1" weight="1" />
+      <edge id="7178" source="PANELIST #4" target="REPORTER" weight="1" />
+      <edge id="7179" source="REPORTER" target="ENTERTAINMENT REPORTER" weight="1" />
+      <edge id="7180" source="REPORTER" target="PANELIST #1" weight="1" />
+      <edge id="7181" source="REPORTER" target="PANELIST #4" weight="1" />
+      <edge id="7182" source="NEWS ANCHOR" target="JOKA" weight="1" />
+      <edge id="7183" source="NEWS ANCHOR" target="ASSAILANT" weight="1" />
+      <edge id="7184" source="NEWS ANCHOR" target="ED" weight="1" />
+      <edge id="7185" source="JOKA" target="NEWS ANCHOR" weight="1" />
+      <edge id="7186" source="JOKA" target="ASSAILANT" weight="1" />
+      <edge id="7187" source="JOKA" target="ED" weight="1" />
+      <edge id="7188" source="ASSAILANT" target="NEWS ANCHOR" weight="1" />
+      <edge id="7189" source="ASSAILANT" target="JOKA" weight="1" />
+      <edge id="7190" source="ASSAILANT" target="ED" weight="1" />
+    </edges>
+  </graph>
+</gexf>

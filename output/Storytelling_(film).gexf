@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MARCUS" label="MARCUS" />
+      <node id="VI" label="VI" />
+      <node id="AMY" label="AMY" />
+      <node id="ELLI" label="ELLI" />
+      <node id="LUCY" label="LUCY" />
+      <node id="JOYCE" label="JOYCE" />
+      <node id="ETHAN" label="ETHAN" />
+      <node id="CATHERINE" label="CATHERINE" />
+      <node id="MR SCOTT" label="MR SCOTT" />
+      <node id="MELINDA" label="MELINDA" />
+      <node id="SUE" label="SUE" />
+      <node id="PAM" label="PAM" />
+      <node id="TOBY" label="TOBY" />
+      <node id="MR. DEMARCO" label="MR. DEMARCO" />
+      <node id="SCOOBY" label="SCOOBY" />
+      <node id="FERN" label="FERN" />
+      <node id="MICKEY" label="MICKEY" />
+      <node id="MARTY" label="MARTY" />
+      <node id="FERN/MARTY/BRADY" label="FERN/MARTY/BRADY" />
+      <node id="BRADY" label="BRADY" />
+      <node id="MIKEY" label="MIKEY" />
+      <node id="ESPOSITO" label="ESPOSITO" />
+      <node id="CHERYL" label="CHERYL" />
+      <node id="CONSUELO" label="CONSUELO" />
+      <node id="MR KIRK" label="MR KIRK" />
+      <node id="ELIZABETH ST. CLAIR" label="ELIZABETH ST. CLAIR" />
+      <node id="EDITOR" label="EDITOR" />
+      <node id="STANLEY" label="STANLEY" />
+      <node id="CONAN" label="CONAN" />
+      <node id="COACH" label="COACH" />
+      <node id="DR JORDAN" label="DR JORDAN" />
+      <node id="DR GOODMAN" label="DR GOODMAN" />
+      <node id="MIKE" label="MIKE" />
+      <node id="DAVE" label="DAVE" />
+    </nodes>
+    <edges>
+      <edge id="17311" source="MARCUS" target="VI" weight="4" />
+      <edge id="17312" source="MARCUS" target="AMY" weight="2" />
+      <edge id="17313" source="MARCUS" target="ELLI" weight="2" />
+      <edge id="17314" source="MARCUS" target="LUCY" weight="1" />
+      <edge id="17315" source="MARCUS" target="JOYCE" weight="2" />
+      <edge id="17316" source="MARCUS" target="ETHAN" weight="2" />
+      <edge id="17317" source="MARCUS" target="CATHERINE" weight="2" />
+      <edge id="17318" source="MARCUS" target="MR SCOTT" weight="2" />
+      <edge id="17319" source="MARCUS" target="SUE" weight="1" />
+      <edge id="17320" source="VI" target="MARCUS" weight="4" />
+      <edge id="17321" source="VI" target="MELINDA" weight="1" />
+      <edge id="17322" source="VI" target="MR SCOTT" weight="4" />
+      <edge id="17323" source="VI" target="AMY" weight="1" />
+      <edge id="17324" source="VI" target="JOYCE" weight="1" />
+      <edge id="17325" source="VI" target="ETHAN" weight="1" />
+      <edge id="17326" source="VI" target="ELLI" weight="1" />
+      <edge id="17327" source="VI" target="SUE" weight="1" />
+      <edge id="17328" source="VI" target="CATHERINE" weight="1" />
+      <edge id="17329" source="AMY" target="MARCUS" weight="2" />
+      <edge id="17330" source="AMY" target="ELLI" weight="2" />
+      <edge id="17331" source="AMY" target="LUCY" weight="1" />
+      <edge id="17332" source="AMY" target="JOYCE" weight="2" />
+      <edge id="17333" source="AMY" target="ETHAN" weight="2" />
+      <edge id="17334" source="AMY" target="CATHERINE" weight="2" />
+      <edge id="17335" source="AMY" target="MR SCOTT" weight="2" />
+      <edge id="17336" source="AMY" target="VI" weight="1" />
+      <edge id="17337" source="AMY" target="SUE" weight="1" />
+      <edge id="17338" source="ELLI" target="MARCUS" weight="2" />
+      <edge id="17339" source="ELLI" target="AMY" weight="2" />
+      <edge id="17340" source="ELLI" target="LUCY" weight="1" />
+      <edge id="17341" source="ELLI" target="JOYCE" weight="2" />
+      <edge id="17342" source="ELLI" target="ETHAN" weight="2" />
+      <edge id="17343" source="ELLI" target="CATHERINE" weight="2" />
+      <edge id="17344" source="ELLI" target="MR SCOTT" weight="2" />
+      <edge id="17345" source="ELLI" target="VI" weight="1" />
+      <edge id="17346" source="ELLI" target="SUE" weight="1" />
+      <edge id="17347" source="LUCY" target="MARCUS" weight="1" />
+      <edge id="17348" source="LUCY" target="AMY" weight="1" />
+      <edge id="17349" source="LUCY" target="ELLI" weight="1" />
+      <edge id="17350" source="LUCY" target="JOYCE" weight="1" />
+      <edge id="17351" source="LUCY" target="ETHAN" weight="1" />
+      <edge id="17352" source="LUCY" target="CATHERINE" weight="1" />
+      <edge id="17353" source="LUCY" target="MR SCOTT" weight="1" />
+      <edge id="17354" source="JOYCE" target="MARCUS" weight="2" />
+      <edge id="17355" source="JOYCE" target="AMY" weight="2" />
+      <edge id="17356" source="JOYCE" target="ELLI" weight="2" />
+      <edge id="17357" source="JOYCE" target="LUCY" weight="1" />
+      <edge id="17358" source="JOYCE" target="ETHAN" weight="2" />
+      <edge id="17359" source="JOYCE" target="CATHERINE" weight="2" />
+      <edge id="17360" source="JOYCE" target="MR SCOTT" weight="2" />
+      <edge id="17361" source="JOYCE" target="VI" weight="1" />
+      <edge id="17362" source="JOYCE" target="SUE" weight="1" />
+      <edge id="17363" source="ETHAN" target="MARCUS" weight="2" />
+      <edge id="17364" source="ETHAN" target="AMY" weight="2" />
+      <edge id="17365" source="ETHAN" target="ELLI" weight="2" />
+      <edge id="17366" source="ETHAN" target="LUCY" weight="1" />
+      <edge id="17367" source="ETHAN" target="JOYCE" weight="2" />
+      <edge id="17368" source="ETHAN" target="CATHERINE" weight="2" />
+      <edge id="17369" source="ETHAN" target="MR SCOTT" weight="2" />
+      <edge id="17370" source="ETHAN" target="VI" weight="1" />
+      <edge id="17371" source="ETHAN" target="SUE" weight="1" />
+      <edge id="17372" source="CATHERINE" target="MARCUS" weight="2" />
+      <edge id="17373" source="CATHERINE" target="AMY" weight="2" />
+      <edge id="17374" source="CATHERINE" target="ELLI" weight="2" />
+      <edge id="17375" source="CATHERINE" target="LUCY" weight="1" />
+      <edge id="17376" source="CATHERINE" target="JOYCE" weight="2" />
+      <edge id="17377" source="CATHERINE" target="ETHAN" weight="2" />
+      <edge id="17378" source="CATHERINE" target="MR SCOTT" weight="2" />
+      <edge id="17379" source="CATHERINE" target="VI" weight="1" />
+      <edge id="17380" source="CATHERINE" target="SUE" weight="1" />
+      <edge id="17381" source="MR SCOTT" target="MARCUS" weight="2" />
+      <edge id="17382" source="MR SCOTT" target="AMY" weight="2" />
+      <edge id="17383" source="MR SCOTT" target="ELLI" weight="2" />
+      <edge id="17384" source="MR SCOTT" target="LUCY" weight="1" />
+      <edge id="17385" source="MR SCOTT" target="JOYCE" weight="2" />
+      <edge id="17386" source="MR SCOTT" target="ETHAN" weight="2" />
+      <edge id="17387" source="MR SCOTT" target="CATHERINE" weight="2" />
+      <edge id="17388" source="MR SCOTT" target="VI" weight="4" />
+      <edge id="17389" source="MR SCOTT" target="SUE" weight="1" />
+      <edge id="17390" source="MELINDA" target="VI" weight="1" />
+      <edge id="17391" source="SUE" target="VI" weight="1" />
+      <edge id="17392" source="SUE" target="AMY" weight="1" />
+      <edge id="17393" source="SUE" target="JOYCE" weight="1" />
+      <edge id="17394" source="SUE" target="ETHAN" weight="1" />
+      <edge id="17395" source="SUE" target="ELLI" weight="1" />
+      <edge id="17396" source="SUE" target="CATHERINE" weight="1" />
+      <edge id="17397" source="SUE" target="MR SCOTT" weight="1" />
+      <edge id="17398" source="SUE" target="MARCUS" weight="1" />
+      <edge id="17399" source="PAM" target="TOBY" weight="1" />
+      <edge id="17400" source="TOBY" target="PAM" weight="1" />
+      <edge id="17401" source="TOBY" target="MR KIRK" weight="1" />
+      <edge id="17402" source="TOBY" target="SCOOBY" weight="6" />
+      <edge id="17403" source="TOBY" target="FERN" weight="2" />
+      <edge id="17404" source="TOBY" target="MARTY" weight="4" />
+      <edge id="17405" source="TOBY" target="MIKEY" weight="2" />
+      <edge id="17406" source="TOBY" target="ESPOSITO" weight="1" />
+      <edge id="17407" source="TOBY" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17408" source="TOBY" target="EDITOR" weight="2" />
+      <edge id="17409" source="TOBY" target="BRADY" weight="1" />
+      <edge id="17410" source="TOBY" target="CHERYL" weight="1" />
+      <edge id="17411" source="TOBY" target="CONSUELO" weight="1" />
+      <edge id="17412" source="TOBY" target="DR JORDAN" weight="1" />
+      <edge id="17413" source="TOBY" target="DR GOODMAN" weight="1" />
+      <edge id="17414" source="TOBY" target="MIKE" weight="1" />
+      <edge id="17415" source="MR. DEMARCO" target="SCOOBY" weight="1" />
+      <edge id="17416" source="SCOOBY" target="MR. DEMARCO" weight="1" />
+      <edge id="17417" source="SCOOBY" target="FERN" weight="5" />
+      <edge id="17418" source="SCOOBY" target="MICKEY" weight="1" />
+      <edge id="17419" source="SCOOBY" target="MARTY" weight="7" />
+      <edge id="17420" source="SCOOBY" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17421" source="SCOOBY" target="BRADY" weight="3" />
+      <edge id="17422" source="SCOOBY" target="MIKEY" weight="4" />
+      <edge id="17423" source="SCOOBY" target="TOBY" weight="6" />
+      <edge id="17424" source="SCOOBY" target="ESPOSITO" weight="1" />
+      <edge id="17425" source="SCOOBY" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17426" source="SCOOBY" target="STANLEY" weight="1" />
+      <edge id="17427" source="SCOOBY" target="CONAN" weight="1" />
+      <edge id="17428" source="SCOOBY" target="MIKE" weight="2" />
+      <edge id="17429" source="SCOOBY" target="DAVE" weight="1" />
+      <edge id="17430" source="FERN" target="MICKEY" weight="1" />
+      <edge id="17431" source="FERN" target="MARTY" weight="5" />
+      <edge id="17432" source="FERN" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17433" source="FERN" target="BRADY" weight="2" />
+      <edge id="17434" source="FERN" target="MIKEY" weight="5" />
+      <edge id="17435" source="FERN" target="SCOOBY" weight="5" />
+      <edge id="17436" source="FERN" target="TOBY" weight="2" />
+      <edge id="17437" source="FERN" target="ESPOSITO" weight="1" />
+      <edge id="17438" source="FERN" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17439" source="MICKEY" target="FERN" weight="1" />
+      <edge id="17440" source="MICKEY" target="MARTY" weight="1" />
+      <edge id="17441" source="MICKEY" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17442" source="MICKEY" target="BRADY" weight="1" />
+      <edge id="17443" source="MICKEY" target="MIKEY" weight="1" />
+      <edge id="17444" source="MICKEY" target="SCOOBY" weight="1" />
+      <edge id="17445" source="MARTY" target="FERN" weight="5" />
+      <edge id="17446" source="MARTY" target="MICKEY" weight="1" />
+      <edge id="17447" source="MARTY" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17448" source="MARTY" target="BRADY" weight="3" />
+      <edge id="17449" source="MARTY" target="MIKEY" weight="7" />
+      <edge id="17450" source="MARTY" target="SCOOBY" weight="7" />
+      <edge id="17451" source="MARTY" target="TOBY" weight="4" />
+      <edge id="17452" source="MARTY" target="ESPOSITO" weight="1" />
+      <edge id="17453" source="MARTY" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17454" source="MARTY" target="STANLEY" weight="1" />
+      <edge id="17455" source="MARTY" target="CONAN" weight="1" />
+      <edge id="17456" source="MARTY" target="CONSUELO" weight="2" />
+      <edge id="17457" source="MARTY" target="DR JORDAN" weight="1" />
+      <edge id="17458" source="MARTY" target="DR GOODMAN" weight="1" />
+      <edge id="17459" source="FERN/MARTY/BRADY" target="FERN" weight="1" />
+      <edge id="17460" source="FERN/MARTY/BRADY" target="MICKEY" weight="1" />
+      <edge id="17461" source="FERN/MARTY/BRADY" target="MARTY" weight="1" />
+      <edge id="17462" source="FERN/MARTY/BRADY" target="BRADY" weight="1" />
+      <edge id="17463" source="FERN/MARTY/BRADY" target="MIKEY" weight="1" />
+      <edge id="17464" source="FERN/MARTY/BRADY" target="SCOOBY" weight="1" />
+      <edge id="17465" source="BRADY" target="FERN" weight="2" />
+      <edge id="17466" source="BRADY" target="MICKEY" weight="1" />
+      <edge id="17467" source="BRADY" target="MARTY" weight="3" />
+      <edge id="17468" source="BRADY" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17469" source="BRADY" target="MIKEY" weight="2" />
+      <edge id="17470" source="BRADY" target="SCOOBY" weight="3" />
+      <edge id="17471" source="BRADY" target="ESPOSITO" weight="1" />
+      <edge id="17472" source="BRADY" target="CHERYL" weight="2" />
+      <edge id="17473" source="BRADY" target="TOBY" weight="1" />
+      <edge id="17474" source="BRADY" target="STANLEY" weight="1" />
+      <edge id="17475" source="BRADY" target="CONAN" weight="1" />
+      <edge id="17476" source="MIKEY" target="FERN" weight="5" />
+      <edge id="17477" source="MIKEY" target="MICKEY" weight="1" />
+      <edge id="17478" source="MIKEY" target="MARTY" weight="7" />
+      <edge id="17479" source="MIKEY" target="FERN/MARTY/BRADY" weight="1" />
+      <edge id="17480" source="MIKEY" target="BRADY" weight="2" />
+      <edge id="17481" source="MIKEY" target="SCOOBY" weight="4" />
+      <edge id="17482" source="MIKEY" target="CONSUELO" weight="4" />
+      <edge id="17483" source="MIKEY" target="TOBY" weight="2" />
+      <edge id="17484" source="MIKEY" target="ESPOSITO" weight="1" />
+      <edge id="17485" source="MIKEY" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17486" source="MIKEY" target="DR JORDAN" weight="1" />
+      <edge id="17487" source="MIKEY" target="DR GOODMAN" weight="1" />
+      <edge id="17488" source="ESPOSITO" target="BRADY" weight="1" />
+      <edge id="17489" source="ESPOSITO" target="CHERYL" weight="1" />
+      <edge id="17490" source="ESPOSITO" target="TOBY" weight="1" />
+      <edge id="17491" source="ESPOSITO" target="FERN" weight="1" />
+      <edge id="17492" source="ESPOSITO" target="MARTY" weight="1" />
+      <edge id="17493" source="ESPOSITO" target="SCOOBY" weight="1" />
+      <edge id="17494" source="ESPOSITO" target="MIKEY" weight="1" />
+      <edge id="17495" source="ESPOSITO" target="ELIZABETH ST. CLAIR" weight="1" />
+      <edge id="17496" source="ESPOSITO" target="COACH" weight="1" />
+      <edge id="17497" source="CHERYL" target="BRADY" weight="2" />
+      <edge id="17498" source="CHERYL" target="ESPOSITO" weight="1" />
+      <edge id="17499" source="CHERYL" target="TOBY" weight="1" />
+      <edge id="17500" source="CONSUELO" target="MIKEY" weight="4" />
+      <edge id="17501" source="CONSUELO" target="TOBY" weight="1" />
+      <edge id="17502" source="CONSUELO" target="DR JORDAN" weight="1" />
+      <edge id="17503" source="CONSUELO" target="DR GOODMAN" weight="1" />
+      <edge id="17504" source="CONSUELO" target="MARTY" weight="2" />
+      <edge id="17505" source="MR KIRK" target="TOBY" weight="1" />
+      <edge id="17506" source="ELIZABETH ST. CLAIR" target="TOBY" weight="1" />
+      <edge id="17507" source="ELIZABETH ST. CLAIR" target="FERN" weight="1" />
+      <edge id="17508" source="ELIZABETH ST. CLAIR" target="MARTY" weight="1" />
+      <edge id="17509" source="ELIZABETH ST. CLAIR" target="SCOOBY" weight="1" />
+      <edge id="17510" source="ELIZABETH ST. CLAIR" target="MIKEY" weight="1" />
+      <edge id="17511" source="ELIZABETH ST. CLAIR" target="ESPOSITO" weight="1" />
+      <edge id="17512" source="EDITOR" target="TOBY" weight="2" />
+      <edge id="17513" source="STANLEY" target="SCOOBY" weight="1" />
+      <edge id="17514" source="STANLEY" target="MARTY" weight="1" />
+      <edge id="17515" source="STANLEY" target="CONAN" weight="1" />
+      <edge id="17516" source="STANLEY" target="BRADY" weight="1" />
+      <edge id="17517" source="CONAN" target="SCOOBY" weight="1" />
+      <edge id="17518" source="CONAN" target="STANLEY" weight="1" />
+      <edge id="17519" source="CONAN" target="MARTY" weight="1" />
+      <edge id="17520" source="CONAN" target="BRADY" weight="1" />
+      <edge id="17521" source="COACH" target="ESPOSITO" weight="1" />
+      <edge id="17522" source="DR JORDAN" target="MIKEY" weight="1" />
+      <edge id="17523" source="DR JORDAN" target="CONSUELO" weight="1" />
+      <edge id="17524" source="DR JORDAN" target="TOBY" weight="1" />
+      <edge id="17525" source="DR JORDAN" target="DR GOODMAN" weight="1" />
+      <edge id="17526" source="DR JORDAN" target="MARTY" weight="1" />
+      <edge id="17527" source="DR GOODMAN" target="MIKEY" weight="1" />
+      <edge id="17528" source="DR GOODMAN" target="CONSUELO" weight="1" />
+      <edge id="17529" source="DR GOODMAN" target="TOBY" weight="1" />
+      <edge id="17530" source="DR GOODMAN" target="DR JORDAN" weight="1" />
+      <edge id="17531" source="DR GOODMAN" target="MARTY" weight="1" />
+      <edge id="17532" source="MIKE" target="TOBY" weight="1" />
+      <edge id="17533" source="MIKE" target="SCOOBY" weight="2" />
+      <edge id="17534" source="DAVE" target="SCOOBY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

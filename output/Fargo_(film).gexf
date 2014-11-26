@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="CLERK" label="CLERK" />
+      <node id="MAN" label="MAN" />
+      <node id="ANDERSON" label="ANDERSON" />
+      <node id="NEWS ANCHOR" label="NEWS ANCHOR" />
+      <node id="KATIE" label="KATIE" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="YOUNGER MAN" label="YOUNGER MAN" />
+      <node id="JERRY" label="JERRY" />
+      <node id="CARL" label="CARL" />
+      <node id="GRIMSRUD" label="GRIMSRUD" />
+      <node id="VOICE" label="VOICE" />
+      <node id="WADE" label="WADE" />
+      <node id="WIFE" label="WIFE" />
+      <node id="SCOTTY" label="SCOTTY" />
+      <node id="CUSTOMER" label="CUSTOMER" />
+      <node id="SALESMAN" label="SALESMAN" />
+      <node id="HIS HOOKER" label="HIS HOOKER" />
+      <node id="ED MCMAHON" label="ED MCMAHON" />
+      <node id="JEAN" label="JEAN" />
+      <node id="SCOTT" label="SCOTT" />
+      <node id="PHONE VOICE" label="PHONE VOICE" />
+      <node id="SHEP" label="SHEP" />
+      <node id="HOST" label="HOST" />
+      <node id="HOSTESS" label="HOSTESS" />
+      <node id="AUDIENCE" label="AUDIENCE" />
+      <node id="STAN" label="STAN" />
+      <node id="TROOPER" label="TROOPER" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="MARGE" label="MARGE" />
+      <node id="NORM" label="NORM" />
+      <node id="LOU" label="LOU" />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="HOOKER ONE" label="HOOKER ONE" />
+      <node id="HOOKER TWO" label="HOOKER TWO" />
+      <node id="TV VOICE-OVER" label="TV VOICE-OVER" />
+      <node id="MIKE" label="MIKE" />
+      <node id="ANOTHER SALESMAN" label="ANOTHER SALESMAN" />
+      <node id="GARY" label="GARY" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="MECHANIC" label="MECHANIC" />
+      <node id="MARGE'S VOICE" label="MARGE'S VOICE" />
+      <node id="SCOTT'S VOICE" label="SCOTT'S VOICE" />
+      <node id="DETECTIVE SIBERT" label="DETECTIVE SIBERT" />
+      <node id="COP ONE" label="COP ONE" />
+      <node id="COP TWO" label="COP TWO" />
+    </nodes>
+    <edges>
+      <edge id="7739" source="CLERK" target="MAN" weight="1" />
+      <edge id="7740" source="CLERK" target="ANDERSON" weight="1" />
+      <edge id="7741" source="CLERK" target="MARGE" weight="1" />
+      <edge id="7742" source="MAN" target="CLERK" weight="1" />
+      <edge id="7743" source="MAN" target="ANDERSON" weight="1" />
+      <edge id="7744" source="MAN" target="WOMAN" weight="1" />
+      <edge id="7745" source="MAN" target="MARGE" weight="1" />
+      <edge id="7746" source="MAN" target="CARL" weight="1" />
+      <edge id="7747" source="MAN" target="SHEP" weight="1" />
+      <edge id="7748" source="MAN" target="VOICE" weight="1" />
+      <edge id="7749" source="MAN" target="GARY" weight="1" />
+      <edge id="7750" source="ANDERSON" target="CLERK" weight="1" />
+      <edge id="7751" source="ANDERSON" target="MAN" weight="1" />
+      <edge id="7752" source="ANDERSON" target="WAITRESS" weight="1" />
+      <edge id="7753" source="ANDERSON" target="YOUNGER MAN" weight="1" />
+      <edge id="7754" source="ANDERSON" target="JERRY" weight="1" />
+      <edge id="7755" source="ANDERSON" target="CARL" weight="1" />
+      <edge id="7756" source="ANDERSON" target="GRIMSRUD" weight="1" />
+      <edge id="7757" source="NEWS ANCHOR" target="KATIE" weight="1" />
+      <edge id="7758" source="KATIE" target="NEWS ANCHOR" weight="1" />
+      <edge id="7759" source="WAITRESS" target="ANDERSON" weight="1" />
+      <edge id="7760" source="YOUNGER MAN" target="ANDERSON" weight="1" />
+      <edge id="7761" source="YOUNGER MAN" target="JERRY" weight="1" />
+      <edge id="7762" source="YOUNGER MAN" target="CARL" weight="1" />
+      <edge id="7763" source="YOUNGER MAN" target="GRIMSRUD" weight="1" />
+      <edge id="7764" source="JERRY" target="ANDERSON" weight="1" />
+      <edge id="7765" source="JERRY" target="YOUNGER MAN" weight="1" />
+      <edge id="7766" source="JERRY" target="CARL" weight="6" />
+      <edge id="7767" source="JERRY" target="GRIMSRUD" weight="2" />
+      <edge id="7768" source="JERRY" target="VOICE" weight="5" />
+      <edge id="7769" source="JERRY" target="WADE" weight="8" />
+      <edge id="7770" source="JERRY" target="WIFE" weight="4" />
+      <edge id="7771" source="JERRY" target="SCOTTY" weight="1" />
+      <edge id="7772" source="JERRY" target="CUSTOMER" weight="3" />
+      <edge id="7773" source="JERRY" target="SALESMAN" weight="1" />
+      <edge id="7774" source="JERRY" target="JEAN" weight="1" />
+      <edge id="7775" source="JERRY" target="SCOTT" weight="2" />
+      <edge id="7776" source="JERRY" target="PHONE VOICE" weight="1" />
+      <edge id="7777" source="JERRY" target="SHEP" weight="2" />
+      <edge id="7778" source="JERRY" target="STAN" weight="4" />
+      <edge id="7779" source="JERRY" target="CASHIER" weight="1" />
+      <edge id="7780" source="JERRY" target="ANOTHER SALESMAN" weight="1" />
+      <edge id="7781" source="JERRY" target="MECHANIC" weight="1" />
+      <edge id="7782" source="JERRY" target="MARGE" weight="2" />
+      <edge id="7783" source="JERRY" target="SCOTT'S VOICE" weight="1" />
+      <edge id="7784" source="CARL" target="ANDERSON" weight="1" />
+      <edge id="7785" source="CARL" target="YOUNGER MAN" weight="1" />
+      <edge id="7786" source="CARL" target="JERRY" weight="6" />
+      <edge id="7787" source="CARL" target="GRIMSRUD" weight="7" />
+      <edge id="7788" source="CARL" target="HIS HOOKER" weight="1" />
+      <edge id="7789" source="CARL" target="VOICE" weight="4" />
+      <edge id="7790" source="CARL" target="TROOPER" weight="1" />
+      <edge id="7791" source="CARL" target="STAN" weight="1" />
+      <edge id="7792" source="CARL" target="SCOTT" weight="1" />
+      <edge id="7793" source="CARL" target="MARGE" weight="2" />
+      <edge id="7794" source="CARL" target="NORM" weight="2" />
+      <edge id="7795" source="CARL" target="LOU" weight="1" />
+      <edge id="7796" source="CARL" target="HOOKER ONE" weight="1" />
+      <edge id="7797" source="CARL" target="HOOKER TWO" weight="1" />
+      <edge id="7798" source="CARL" target="CUSTOMER" weight="1" />
+      <edge id="7799" source="CARL" target="ANOTHER SALESMAN" weight="1" />
+      <edge id="7800" source="CARL" target="ATTENDANT" weight="2" />
+      <edge id="7801" source="CARL" target="WOMAN" weight="1" />
+      <edge id="7802" source="CARL" target="SHEP" weight="1" />
+      <edge id="7803" source="CARL" target="MAN" weight="1" />
+      <edge id="7804" source="CARL" target="WADE" weight="2" />
+      <edge id="7805" source="CARL" target="MARGE'S VOICE" weight="1" />
+      <edge id="7806" source="CARL" target="SCOTT'S VOICE" weight="1" />
+      <edge id="7807" source="GRIMSRUD" target="ANDERSON" weight="1" />
+      <edge id="7808" source="GRIMSRUD" target="YOUNGER MAN" weight="1" />
+      <edge id="7809" source="GRIMSRUD" target="JERRY" weight="2" />
+      <edge id="7810" source="GRIMSRUD" target="CARL" weight="7" />
+      <edge id="7811" source="GRIMSRUD" target="HIS HOOKER" weight="1" />
+      <edge id="7812" source="GRIMSRUD" target="VOICE" weight="1" />
+      <edge id="7813" source="GRIMSRUD" target="TROOPER" weight="1" />
+      <edge id="7814" source="VOICE" target="JERRY" weight="5" />
+      <edge id="7815" source="VOICE" target="JEAN" weight="1" />
+      <edge id="7816" source="VOICE" target="SCOTT" weight="1" />
+      <edge id="7817" source="VOICE" target="PHONE VOICE" weight="1" />
+      <edge id="7818" source="VOICE" target="WADE" weight="2" />
+      <edge id="7819" source="VOICE" target="CARL" weight="4" />
+      <edge id="7820" source="VOICE" target="GRIMSRUD" weight="1" />
+      <edge id="7821" source="VOICE" target="MARGE" weight="5" />
+      <edge id="7822" source="VOICE" target="MIKE" weight="2" />
+      <edge id="7823" source="VOICE" target="CUSTOMER" weight="1" />
+      <edge id="7824" source="VOICE" target="ANOTHER SALESMAN" weight="1" />
+      <edge id="7825" source="VOICE" target="SHEP" weight="1" />
+      <edge id="7826" source="VOICE" target="MAN" weight="1" />
+      <edge id="7827" source="VOICE" target="COP ONE" weight="1" />
+      <edge id="7828" source="VOICE" target="COP TWO" weight="1" />
+      <edge id="7829" source="WADE" target="JERRY" weight="8" />
+      <edge id="7830" source="WADE" target="WIFE" weight="2" />
+      <edge id="7831" source="WADE" target="SCOTTY" weight="1" />
+      <edge id="7832" source="WADE" target="JEAN" weight="1" />
+      <edge id="7833" source="WADE" target="SCOTT" weight="1" />
+      <edge id="7834" source="WADE" target="PHONE VOICE" weight="1" />
+      <edge id="7835" source="WADE" target="VOICE" weight="2" />
+      <edge id="7836" source="WADE" target="STAN" weight="3" />
+      <edge id="7837" source="WADE" target="CARL" weight="2" />
+      <edge id="7838" source="WADE" target="MARGE'S VOICE" weight="1" />
+      <edge id="7839" source="WADE" target="NORM" weight="1" />
+      <edge id="7840" source="WADE" target="MARGE" weight="1" />
+      <edge id="7841" source="WIFE" target="JERRY" weight="4" />
+      <edge id="7842" source="WIFE" target="WADE" weight="2" />
+      <edge id="7843" source="WIFE" target="SCOTTY" weight="1" />
+      <edge id="7844" source="WIFE" target="CUSTOMER" weight="2" />
+      <edge id="7845" source="WIFE" target="SALESMAN" weight="1" />
+      <edge id="7846" source="SCOTTY" target="JERRY" weight="1" />
+      <edge id="7847" source="SCOTTY" target="WIFE" weight="1" />
+      <edge id="7848" source="SCOTTY" target="WADE" weight="1" />
+      <edge id="7849" source="CUSTOMER" target="JERRY" weight="3" />
+      <edge id="7850" source="CUSTOMER" target="WIFE" weight="2" />
+      <edge id="7851" source="CUSTOMER" target="SALESMAN" weight="1" />
+      <edge id="7852" source="CUSTOMER" target="ANOTHER SALESMAN" weight="1" />
+      <edge id="7853" source="CUSTOMER" target="VOICE" weight="1" />
+      <edge id="7854" source="CUSTOMER" target="CARL" weight="1" />
+      <edge id="7855" source="SALESMAN" target="JERRY" weight="1" />
+      <edge id="7856" source="SALESMAN" target="CUSTOMER" weight="1" />
+      <edge id="7857" source="SALESMAN" target="WIFE" weight="1" />
+      <edge id="7858" source="HIS HOOKER" target="CARL" weight="1" />
+      <edge id="7859" source="HIS HOOKER" target="GRIMSRUD" weight="1" />
+      <edge id="7860" source="JEAN" target="SCOTT" weight="1" />
+      <edge id="7861" source="JEAN" target="PHONE VOICE" weight="1" />
+      <edge id="7862" source="JEAN" target="WADE" weight="1" />
+      <edge id="7863" source="JEAN" target="VOICE" weight="1" />
+      <edge id="7864" source="JEAN" target="JERRY" weight="1" />
+      <edge id="7865" source="SCOTT" target="JEAN" weight="1" />
+      <edge id="7866" source="SCOTT" target="PHONE VOICE" weight="1" />
+      <edge id="7867" source="SCOTT" target="WADE" weight="1" />
+      <edge id="7868" source="SCOTT" target="VOICE" weight="1" />
+      <edge id="7869" source="SCOTT" target="JERRY" weight="2" />
+      <edge id="7870" source="SCOTT" target="STAN" weight="1" />
+      <edge id="7871" source="SCOTT" target="CARL" weight="1" />
+      <edge id="7872" source="PHONE VOICE" target="JEAN" weight="1" />
+      <edge id="7873" source="PHONE VOICE" target="SCOTT" weight="1" />
+      <edge id="7874" source="PHONE VOICE" target="WADE" weight="1" />
+      <edge id="7875" source="PHONE VOICE" target="VOICE" weight="1" />
+      <edge id="7876" source="PHONE VOICE" target="JERRY" weight="1" />
+      <edge id="7877" source="SHEP" target="JERRY" weight="2" />
+      <edge id="7878" source="SHEP" target="MARGE" weight="1" />
+      <edge id="7879" source="SHEP" target="CARL" weight="1" />
+      <edge id="7880" source="SHEP" target="VOICE" weight="1" />
+      <edge id="7881" source="SHEP" target="MAN" weight="1" />
+      <edge id="7882" source="HOST" target="HOSTESS" weight="1" />
+      <edge id="7883" source="HOST" target="AUDIENCE" weight="1" />
+      <edge id="7884" source="HOSTESS" target="HOST" weight="1" />
+      <edge id="7885" source="HOSTESS" target="AUDIENCE" weight="1" />
+      <edge id="7886" source="AUDIENCE" target="HOST" weight="1" />
+      <edge id="7887" source="AUDIENCE" target="HOSTESS" weight="1" />
+      <edge id="7888" source="STAN" target="JERRY" weight="4" />
+      <edge id="7889" source="STAN" target="WADE" weight="3" />
+      <edge id="7890" source="STAN" target="SCOTT" weight="1" />
+      <edge id="7891" source="STAN" target="CARL" weight="1" />
+      <edge id="7892" source="TROOPER" target="GRIMSRUD" weight="1" />
+      <edge id="7893" source="TROOPER" target="CARL" weight="1" />
+      <edge id="7894" source="WOMAN" target="MARGE" weight="2" />
+      <edge id="7895" source="WOMAN" target="MAN" weight="1" />
+      <edge id="7896" source="WOMAN" target="CARL" weight="1" />
+      <edge id="7897" source="WOMAN" target="DETECTIVE SIBERT" weight="1" />
+      <edge id="7898" source="MARGE" target="WOMAN" weight="2" />
+      <edge id="7899" source="MARGE" target="MAN" weight="1" />
+      <edge id="7900" source="MARGE" target="NORM" weight="7" />
+      <edge id="7901" source="MARGE" target="LOU" weight="4" />
+      <edge id="7902" source="MARGE" target="HOOKER ONE" weight="1" />
+      <edge id="7903" source="MARGE" target="HOOKER TWO" weight="1" />
+      <edge id="7904" source="MARGE" target="CARL" weight="2" />
+      <edge id="7905" source="MARGE" target="TV VOICE-OVER" weight="1" />
+      <edge id="7906" source="MARGE" target="VOICE" weight="5" />
+      <edge id="7907" source="MARGE" target="MIKE" weight="2" />
+      <edge id="7908" source="MARGE" target="GARY" weight="1" />
+      <edge id="7909" source="MARGE" target="CLERK" weight="1" />
+      <edge id="7910" source="MARGE" target="SHEP" weight="1" />
+      <edge id="7911" source="MARGE" target="JERRY" weight="2" />
+      <edge id="7912" source="MARGE" target="MARGE'S VOICE" weight="1" />
+      <edge id="7913" source="MARGE" target="WADE" weight="1" />
+      <edge id="7914" source="MARGE" target="DETECTIVE SIBERT" weight="1" />
+      <edge id="7915" source="NORM" target="MARGE" weight="7" />
+      <edge id="7916" source="NORM" target="LOU" weight="1" />
+      <edge id="7917" source="NORM" target="HOOKER ONE" weight="1" />
+      <edge id="7918" source="NORM" target="HOOKER TWO" weight="1" />
+      <edge id="7919" source="NORM" target="CARL" weight="2" />
+      <edge id="7920" source="NORM" target="TV VOICE-OVER" weight="1" />
+      <edge id="7921" source="NORM" target="GARY" weight="1" />
+      <edge id="7922" source="NORM" target="MARGE'S VOICE" weight="1" />
+      <edge id="7923" source="NORM" target="WADE" weight="1" />
+      <edge id="7924" source="LOU" target="MARGE" weight="4" />
+      <edge id="7925" source="LOU" target="NORM" weight="1" />
+      <edge id="7926" source="LOU" target="HOOKER ONE" weight="1" />
+      <edge id="7927" source="LOU" target="HOOKER TWO" weight="1" />
+      <edge id="7928" source="LOU" target="CARL" weight="1" />
+      <edge id="7929" source="CASHIER" target="JERRY" weight="1" />
+      <edge id="7930" source="HOOKER ONE" target="MARGE" weight="1" />
+      <edge id="7931" source="HOOKER ONE" target="NORM" weight="1" />
+      <edge id="7932" source="HOOKER ONE" target="LOU" weight="1" />
+      <edge id="7933" source="HOOKER ONE" target="HOOKER TWO" weight="1" />
+      <edge id="7934" source="HOOKER ONE" target="CARL" weight="1" />
+      <edge id="7935" source="HOOKER TWO" target="MARGE" weight="1" />
+      <edge id="7936" source="HOOKER TWO" target="NORM" weight="1" />
+      <edge id="7937" source="HOOKER TWO" target="LOU" weight="1" />
+      <edge id="7938" source="HOOKER TWO" target="HOOKER ONE" weight="1" />
+      <edge id="7939" source="HOOKER TWO" target="CARL" weight="1" />
+      <edge id="7940" source="TV VOICE-OVER" target="MARGE" weight="1" />
+      <edge id="7941" source="TV VOICE-OVER" target="NORM" weight="1" />
+      <edge id="7942" source="MIKE" target="MARGE" weight="2" />
+      <edge id="7943" source="MIKE" target="VOICE" weight="2" />
+      <edge id="7944" source="ANOTHER SALESMAN" target="JERRY" weight="1" />
+      <edge id="7945" source="ANOTHER SALESMAN" target="CUSTOMER" weight="1" />
+      <edge id="7946" source="ANOTHER SALESMAN" target="VOICE" weight="1" />
+      <edge id="7947" source="ANOTHER SALESMAN" target="CARL" weight="1" />
+      <edge id="7948" source="GARY" target="MARGE" weight="1" />
+      <edge id="7949" source="GARY" target="NORM" weight="1" />
+      <edge id="7950" source="GARY" target="MAN" weight="1" />
+      <edge id="7951" source="ATTENDANT" target="CARL" weight="2" />
+      <edge id="7952" source="MECHANIC" target="JERRY" weight="1" />
+      <edge id="7953" source="MARGE'S VOICE" target="NORM" weight="1" />
+      <edge id="7954" source="MARGE'S VOICE" target="MARGE" weight="1" />
+      <edge id="7955" source="MARGE'S VOICE" target="CARL" weight="1" />
+      <edge id="7956" source="MARGE'S VOICE" target="WADE" weight="1" />
+      <edge id="7957" source="SCOTT'S VOICE" target="JERRY" weight="1" />
+      <edge id="7958" source="SCOTT'S VOICE" target="CARL" weight="1" />
+      <edge id="7959" source="DETECTIVE SIBERT" target="WOMAN" weight="1" />
+      <edge id="7960" source="DETECTIVE SIBERT" target="MARGE" weight="1" />
+      <edge id="7961" source="COP ONE" target="VOICE" weight="1" />
+      <edge id="7962" source="COP ONE" target="COP TWO" weight="1" />
+      <edge id="7963" source="COP TWO" target="COP ONE" weight="1" />
+      <edge id="7964" source="COP TWO" target="VOICE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

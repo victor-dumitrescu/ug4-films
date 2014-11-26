@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MRS. CHASEN" label="MRS. CHASEN" />
+      <node id="HAROLD" label="HAROLD" />
+      <node id="PSYCHIATRIST" label="PSYCHIATRIST" />
+      <node id="UNCLE VICTOR" label="UNCLE VICTOR" />
+      <node id="PRIEST" label="PRIEST" />
+      <node id="VOICE" label="VOICE" />
+      <node id="MAUDE" label="MAUDE" />
+      <node id="CANDY" label="CANDY" />
+      <node id="MADAME AROUET" label="MADAME AROUET" />
+      <node id="GLAUCUS" label="GLAUCUS" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="COP" label="COP" />
+      <node id="EDITH" label="EDITH" />
+      <node id="MRS. CHASEN." label="MRS. CHASEN." />
+      <node id="SUNSHINE" label="SUNSHINE" />
+      <node id="MAUDE'S VOICE" label="MAUDE'S VOICE" />
+      <node id="HAROLD." label="HAROLD." />
+      <node id="HEAD NURSE" label="HEAD NURSE" />
+      <node id="STUDENT NURSE" label="STUDENT NURSE" />
+      <node id="INTERN" label="INTERN" />
+      <node id="DOCTOR" label="DOCTOR" />
+    </nodes>
+    <edges>
+      <edge id="8909" source="MRS. CHASEN" target="HAROLD" weight="5" />
+      <edge id="8910" source="MRS. CHASEN" target="UNCLE VICTOR" weight="3" />
+      <edge id="8911" source="MRS. CHASEN" target="CANDY" weight="2" />
+      <edge id="8912" source="MRS. CHASEN" target="EDITH" weight="3" />
+      <edge id="8913" source="MRS. CHASEN" target="MRS. CHASEN." weight="1" />
+      <edge id="8914" source="MRS. CHASEN" target="SUNSHINE" weight="1" />
+      <edge id="8915" source="HAROLD" target="MRS. CHASEN" weight="5" />
+      <edge id="8916" source="HAROLD" target="PSYCHIATRIST" weight="6" />
+      <edge id="8917" source="HAROLD" target="PRIEST" weight="2" />
+      <edge id="8918" source="HAROLD" target="VOICE" weight="1" />
+      <edge id="8919" source="HAROLD" target="MAUDE" weight="33" />
+      <edge id="8920" source="HAROLD" target="MADAME AROUET" weight="1" />
+      <edge id="8921" source="HAROLD" target="GLAUCUS" weight="3" />
+      <edge id="8922" source="HAROLD" target="MRS. CHASEN." weight="1" />
+      <edge id="8923" source="HAROLD" target="SUNSHINE" weight="1" />
+      <edge id="8924" source="HAROLD" target="UNCLE VICTOR" weight="5" />
+      <edge id="8925" source="HAROLD" target="MAUDE'S VOICE" weight="1" />
+      <edge id="8926" source="HAROLD" target="HEAD NURSE" weight="1" />
+      <edge id="8927" source="HAROLD" target="STUDENT NURSE" weight="1" />
+      <edge id="8928" source="HAROLD" target="INTERN" weight="1" />
+      <edge id="8929" source="HAROLD" target="DOCTOR" weight="1" />
+      <edge id="8930" source="PSYCHIATRIST" target="HAROLD" weight="6" />
+      <edge id="8931" source="UNCLE VICTOR" target="MRS. CHASEN" weight="3" />
+      <edge id="8932" source="UNCLE VICTOR" target="EDITH" weight="1" />
+      <edge id="8933" source="UNCLE VICTOR" target="MRS. CHASEN." weight="1" />
+      <edge id="8934" source="UNCLE VICTOR" target="SUNSHINE" weight="1" />
+      <edge id="8935" source="UNCLE VICTOR" target="HAROLD" weight="5" />
+      <edge id="8936" source="UNCLE VICTOR" target="MAUDE'S VOICE" weight="1" />
+      <edge id="8937" source="UNCLE VICTOR" target="MAUDE" weight="1" />
+      <edge id="8938" source="PRIEST" target="VOICE" weight="1" />
+      <edge id="8939" source="PRIEST" target="MAUDE" weight="3" />
+      <edge id="8940" source="PRIEST" target="HAROLD" weight="2" />
+      <edge id="8941" source="VOICE" target="PRIEST" weight="1" />
+      <edge id="8942" source="VOICE" target="MAUDE" weight="1" />
+      <edge id="8943" source="VOICE" target="HAROLD" weight="1" />
+      <edge id="8944" source="MAUDE" target="PRIEST" weight="3" />
+      <edge id="8945" source="MAUDE" target="VOICE" weight="1" />
+      <edge id="8946" source="MAUDE" target="HAROLD" weight="33" />
+      <edge id="8947" source="MAUDE" target="GLAUCUS" weight="3" />
+      <edge id="8948" source="MAUDE" target="OFFICER" weight="1" />
+      <edge id="8949" source="MAUDE" target="COP" weight="2" />
+      <edge id="8950" source="MAUDE" target="UNCLE VICTOR" weight="1" />
+      <edge id="8951" source="MAUDE" target="MAUDE'S VOICE" weight="1" />
+      <edge id="8952" source="MAUDE" target="HEAD NURSE" weight="1" />
+      <edge id="8953" source="MAUDE" target="STUDENT NURSE" weight="1" />
+      <edge id="8954" source="MAUDE" target="INTERN" weight="1" />
+      <edge id="8955" source="MAUDE" target="DOCTOR" weight="1" />
+      <edge id="8956" source="CANDY" target="MRS. CHASEN" weight="2" />
+      <edge id="8957" source="MADAME AROUET" target="HAROLD" weight="1" />
+      <edge id="8958" source="GLAUCUS" target="HAROLD" weight="3" />
+      <edge id="8959" source="GLAUCUS" target="MAUDE" weight="3" />
+      <edge id="8960" source="OFFICER" target="MAUDE" weight="1" />
+      <edge id="8961" source="COP" target="MAUDE" weight="2" />
+      <edge id="8962" source="EDITH" target="MRS. CHASEN" weight="3" />
+      <edge id="8963" source="EDITH" target="UNCLE VICTOR" weight="1" />
+      <edge id="8964" source="MRS. CHASEN." target="MRS. CHASEN" weight="1" />
+      <edge id="8965" source="MRS. CHASEN." target="SUNSHINE" weight="1" />
+      <edge id="8966" source="MRS. CHASEN." target="HAROLD" weight="1" />
+      <edge id="8967" source="MRS. CHASEN." target="UNCLE VICTOR" weight="1" />
+      <edge id="8968" source="SUNSHINE" target="MRS. CHASEN" weight="1" />
+      <edge id="8969" source="SUNSHINE" target="MRS. CHASEN." weight="1" />
+      <edge id="8970" source="SUNSHINE" target="HAROLD" weight="1" />
+      <edge id="8971" source="SUNSHINE" target="UNCLE VICTOR" weight="1" />
+      <edge id="8972" source="MAUDE'S VOICE" target="UNCLE VICTOR" weight="1" />
+      <edge id="8973" source="MAUDE'S VOICE" target="HAROLD" weight="1" />
+      <edge id="8974" source="MAUDE'S VOICE" target="MAUDE" weight="1" />
+      <edge id="8975" source="HEAD NURSE" target="HAROLD" weight="1" />
+      <edge id="8976" source="HEAD NURSE" target="STUDENT NURSE" weight="1" />
+      <edge id="8977" source="HEAD NURSE" target="MAUDE" weight="1" />
+      <edge id="8978" source="HEAD NURSE" target="INTERN" weight="1" />
+      <edge id="8979" source="HEAD NURSE" target="DOCTOR" weight="1" />
+      <edge id="8980" source="STUDENT NURSE" target="HAROLD" weight="1" />
+      <edge id="8981" source="STUDENT NURSE" target="HEAD NURSE" weight="1" />
+      <edge id="8982" source="STUDENT NURSE" target="MAUDE" weight="1" />
+      <edge id="8983" source="STUDENT NURSE" target="INTERN" weight="1" />
+      <edge id="8984" source="STUDENT NURSE" target="DOCTOR" weight="1" />
+      <edge id="8985" source="INTERN" target="HAROLD" weight="1" />
+      <edge id="8986" source="INTERN" target="HEAD NURSE" weight="1" />
+      <edge id="8987" source="INTERN" target="STUDENT NURSE" weight="1" />
+      <edge id="8988" source="INTERN" target="MAUDE" weight="1" />
+      <edge id="8989" source="INTERN" target="DOCTOR" weight="1" />
+      <edge id="8990" source="DOCTOR" target="HAROLD" weight="1" />
+      <edge id="8991" source="DOCTOR" target="HEAD NURSE" weight="1" />
+      <edge id="8992" source="DOCTOR" target="STUDENT NURSE" weight="1" />
+      <edge id="8993" source="DOCTOR" target="MAUDE" weight="1" />
+      <edge id="8994" source="DOCTOR" target="INTERN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

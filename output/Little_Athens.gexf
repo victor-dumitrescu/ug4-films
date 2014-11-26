@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HEATHER" label="HEATHER" />
+      <node id="ALLISON" label="ALLISON" />
+      <node id="BRAD" label="BRAD" />
+      <node id="JIMMY" label="JIMMY" />
+      <node id="MEGAN" label="MEGAN" />
+      <node id="COREY" label="COREY" />
+      <node id="PEDRO" label="PEDRO" />
+      <node id="EMILY'S VOICE" label="EMILY'S VOICE" />
+      <node id="JINA" label="JINA" />
+      <node id="ANSWERING MACHINE" label="ANSWERING MACHINE" />
+      <node id="JESSICA" label="JESSICA" />
+      <node id="RON" label="RON" />
+      <node id="BOBBY" label="BOBBY" />
+      <node id="PETE" label="PETE" />
+      <node id="LIFEGUARD" label="LIFEGUARD" />
+      <node id="KATIE" label="KATIE" />
+      <node id="HARRY" label="HARRY" />
+      <node id="PIZZA POP" label="PIZZA POP" />
+      <node id="PIZZA MOM" label="PIZZA MOM" />
+      <node id="CARLOS" label="CARLOS" />
+      <node id="JESSICA'S VOICE" label="JESSICA'S VOICE" />
+      <node id="DEREK" label="DEREK" />
+      <node id="PITT" label="PITT" />
+      <node id="MATT" label="MATT" />
+      <node id="DAVE" label="DAVE" />
+      <node id="FEMALE PASSENGER" label="FEMALE PASSENGER" />
+      <node id="EMILY" label="EMILY" />
+      <node id="KEVIN" label="KEVIN" />
+      <node id="CARLOS' VOICE" label="CARLOS' VOICE" />
+      <node id="TROY" label="TROY" />
+      <node id="AARON" label="AARON" />
+      <node id="MR. CARSON" label="MR. CARSON" />
+      <node id="PEDRO'S VOICE" label="PEDRO'S VOICE" />
+      <node id="ROB'S VOICE" label="ROB'S VOICE" />
+      <node id="KID #1" label="KID #1" />
+      <node id="PIZZA POP'S VOICE" label="PIZZA POP'S VOICE" />
+      <node id="KWON'S VOICE" label="KWON'S VOICE" />
+      <node id="KWON" label="KWON" />
+      <node id="ROB" label="ROB" />
+      <node id="AARON'S VOICE" label="AARON'S VOICE" />
+      <node id="KATIE'S VOICE" label="KATIE'S VOICE" />
+      <node id="MRS. CARSON" label="MRS. CARSON" />
+      <node id="OLDER MAN" label="OLDER MAN" />
+      <node id="OLDER WOMAN" label="OLDER WOMAN" />
+      <node id="DR. COOK" label="DR. COOK" />
+      <node id="SINJIN'S VOICE" label="SINJIN'S VOICE" />
+      <node id="CARTER" label="CARTER" />
+      <node id="BERUBI" label="BERUBI" />
+      <node id="RJ" label="RJ" />
+      <node id="CARD PLAYER" label="CARD PLAYER" />
+      <node id="LOUIE" label="LOUIE" />
+      <node id="SINJIN" label="SINJIN" />
+      <node id="FEMALE PARTYGOER 1" label="FEMALE PARTYGOER 1" />
+      <node id="PING PONG PLAYER 1" label="PING PONG PLAYER 1" />
+      <node id="BARNES" label="BARNES" />
+      <node id="BARNES' GIRLFRIEND" label="BARNES' GIRLFRIEND" />
+      <node id="MITCH" label="MITCH" />
+      <node id="PING PONG PLAYER 2" label="PING PONG PLAYER 2" />
+      <node id="MALE PARTYGOER 1" label="MALE PARTYGOER 1" />
+      <node id="DRUNK PARTYGOER" label="DRUNK PARTYGOER" />
+      <node id="POLICE OFFICER 2" label="POLICE OFFICER 2" />
+      <node id="POLICE OFFICER 1" label="POLICE OFFICER 1" />
+      <node id="FEMALE PARTYGOER 2" label="FEMALE PARTYGOER 2" />
+      <node id="FEMALE PARTYGOER 3" label="FEMALE PARTYGOER 3" />
+    </nodes>
+    <edges>
+      <edge id="10771" source="HEATHER" target="ALLISON" weight="16" />
+      <edge id="10772" source="HEATHER" target="HARRY" weight="2" />
+      <edge id="10773" source="HEATHER" target="LIFEGUARD" weight="1" />
+      <edge id="10774" source="HEATHER" target="DEREK" weight="4" />
+      <edge id="10775" source="HEATHER" target="DR. COOK" weight="1" />
+      <edge id="10776" source="HEATHER" target="CARTER" weight="2" />
+      <edge id="10777" source="HEATHER" target="JIMMY" weight="1" />
+      <edge id="10778" source="HEATHER" target="CARD PLAYER" weight="1" />
+      <edge id="10779" source="HEATHER" target="MITCH" weight="1" />
+      <edge id="10780" source="HEATHER" target="PEDRO" weight="1" />
+      <edge id="10781" source="HEATHER" target="RJ" weight="1" />
+      <edge id="10782" source="HEATHER" target="POLICE OFFICER 2" weight="1" />
+      <edge id="10783" source="ALLISON" target="HEATHER" weight="16" />
+      <edge id="10784" source="ALLISON" target="HARRY" weight="2" />
+      <edge id="10785" source="ALLISON" target="LIFEGUARD" weight="1" />
+      <edge id="10786" source="ALLISON" target="DEREK" weight="4" />
+      <edge id="10787" source="ALLISON" target="CARTER" weight="1" />
+      <edge id="10788" source="ALLISON" target="JIMMY" weight="1" />
+      <edge id="10789" source="ALLISON" target="CARD PLAYER" weight="1" />
+      <edge id="10790" source="ALLISON" target="MITCH" weight="1" />
+      <edge id="10791" source="ALLISON" target="PEDRO" weight="1" />
+      <edge id="10792" source="ALLISON" target="POLICE OFFICER 2" weight="1" />
+      <edge id="10793" source="BRAD" target="JIMMY" weight="1" />
+      <edge id="10794" source="BRAD" target="MEGAN" weight="1" />
+      <edge id="10795" source="JIMMY" target="BRAD" weight="1" />
+      <edge id="10796" source="JIMMY" target="MEGAN" weight="1" />
+      <edge id="10797" source="JIMMY" target="RON" weight="1" />
+      <edge id="10798" source="JIMMY" target="BOBBY" weight="3" />
+      <edge id="10799" source="JIMMY" target="PIZZA POP" weight="2" />
+      <edge id="10800" source="JIMMY" target="PIZZA MOM" weight="1" />
+      <edge id="10801" source="JIMMY" target="MATT" weight="3" />
+      <edge id="10802" source="JIMMY" target="DAVE" weight="2" />
+      <edge id="10803" source="JIMMY" target="FEMALE PASSENGER" weight="1" />
+      <edge id="10804" source="JIMMY" target="PIZZA POP'S VOICE" weight="1" />
+      <edge id="10805" source="JIMMY" target="KWON'S VOICE" weight="1" />
+      <edge id="10806" source="JIMMY" target="KWON" weight="3" />
+      <edge id="10807" source="JIMMY" target="SINJIN'S VOICE" weight="1" />
+      <edge id="10808" source="JIMMY" target="HEATHER" weight="1" />
+      <edge id="10809" source="JIMMY" target="ALLISON" weight="1" />
+      <edge id="10810" source="JIMMY" target="RJ" weight="2" />
+      <edge id="10811" source="JIMMY" target="LOUIE" weight="2" />
+      <edge id="10812" source="JIMMY" target="SINJIN" weight="2" />
+      <edge id="10813" source="MEGAN" target="BRAD" weight="1" />
+      <edge id="10814" source="MEGAN" target="JIMMY" weight="1" />
+      <edge id="10815" source="COREY" target="PEDRO" weight="13" />
+      <edge id="10816" source="COREY" target="EMILY'S VOICE" weight="1" />
+      <edge id="10817" source="COREY" target="PETE" weight="4" />
+      <edge id="10818" source="COREY" target="LIFEGUARD" weight="1" />
+      <edge id="10819" source="COREY" target="EMILY" weight="4" />
+      <edge id="10820" source="COREY" target="KEVIN" weight="1" />
+      <edge id="10821" source="COREY" target="ROB'S VOICE" weight="1" />
+      <edge id="10822" source="COREY" target="KID #1" weight="1" />
+      <edge id="10823" source="COREY" target="MR. CARSON" weight="1" />
+      <edge id="10824" source="COREY" target="MRS. CARSON" weight="1" />
+      <edge id="10825" source="COREY" target="BERUBI" weight="1" />
+      <edge id="10826" source="COREY" target="JESSICA" weight="1" />
+      <edge id="10827" source="COREY" target="CARLOS" weight="1" />
+      <edge id="10828" source="COREY" target="PING PONG PLAYER 1" weight="2" />
+      <edge id="10829" source="COREY" target="BARNES" weight="2" />
+      <edge id="10830" source="COREY" target="BARNES' GIRLFRIEND" weight="1" />
+      <edge id="10831" source="COREY" target="PING PONG PLAYER 2" weight="1" />
+      <edge id="10832" source="COREY" target="MITCH" weight="4" />
+      <edge id="10833" source="COREY" target="POLICE OFFICER 2" weight="1" />
+      <edge id="10834" source="COREY" target="POLICE OFFICER 1" weight="1" />
+      <edge id="10835" source="PEDRO" target="COREY" weight="13" />
+      <edge id="10836" source="PEDRO" target="EMILY'S VOICE" weight="1" />
+      <edge id="10837" source="PEDRO" target="EMILY" weight="4" />
+      <edge id="10838" source="PEDRO" target="KEVIN" weight="1" />
+      <edge id="10839" source="PEDRO" target="MR. CARSON" weight="1" />
+      <edge id="10840" source="PEDRO" target="PETE" weight="2" />
+      <edge id="10841" source="PEDRO" target="ROB'S VOICE" weight="1" />
+      <edge id="10842" source="PEDRO" target="OLDER MAN" weight="1" />
+      <edge id="10843" source="PEDRO" target="OLDER WOMAN" weight="1" />
+      <edge id="10844" source="PEDRO" target="BERUBI" weight="1" />
+      <edge id="10845" source="PEDRO" target="JESSICA" weight="1" />
+      <edge id="10846" source="PEDRO" target="CARLOS" weight="1" />
+      <edge id="10847" source="PEDRO" target="PING PONG PLAYER 1" weight="1" />
+      <edge id="10848" source="PEDRO" target="BARNES" weight="1" />
+      <edge id="10849" source="PEDRO" target="BARNES' GIRLFRIEND" weight="1" />
+      <edge id="10850" source="PEDRO" target="MITCH" weight="4" />
+      <edge id="10851" source="PEDRO" target="HEATHER" weight="1" />
+      <edge id="10852" source="PEDRO" target="ALLISON" weight="1" />
+      <edge id="10853" source="PEDRO" target="POLICE OFFICER 2" weight="1" />
+      <edge id="10854" source="PEDRO" target="POLICE OFFICER 1" weight="1" />
+      <edge id="10855" source="EMILY'S VOICE" target="COREY" weight="1" />
+      <edge id="10856" source="EMILY'S VOICE" target="PEDRO" weight="1" />
+      <edge id="10857" source="JINA" target="ANSWERING MACHINE" weight="1" />
+      <edge id="10858" source="JINA" target="JESSICA" weight="1" />
+      <edge id="10859" source="ANSWERING MACHINE" target="JESSICA" weight="1" />
+      <edge id="10860" source="ANSWERING MACHINE" target="JINA" weight="1" />
+      <edge id="10861" source="JESSICA" target="ANSWERING MACHINE" weight="1" />
+      <edge id="10862" source="JESSICA" target="JINA" weight="1" />
+      <edge id="10863" source="JESSICA" target="KATIE" weight="3" />
+      <edge id="10864" source="JESSICA" target="CARLOS" weight="15" />
+      <edge id="10865" source="JESSICA" target="JESSICA'S VOICE" weight="1" />
+      <edge id="10866" source="JESSICA" target="PITT" weight="3" />
+      <edge id="10867" source="JESSICA" target="CARLOS' VOICE" weight="1" />
+      <edge id="10868" source="JESSICA" target="TROY" weight="5" />
+      <edge id="10869" source="JESSICA" target="AARON" weight="7" />
+      <edge id="10870" source="JESSICA" target="AARON'S VOICE" weight="1" />
+      <edge id="10871" source="JESSICA" target="KATIE'S VOICE" weight="2" />
+      <edge id="10872" source="JESSICA" target="CARTER" weight="4" />
+      <edge id="10873" source="JESSICA" target="PEDRO" weight="1" />
+      <edge id="10874" source="JESSICA" target="COREY" weight="1" />
+      <edge id="10875" source="JESSICA" target="BERUBI" weight="1" />
+      <edge id="10876" source="JESSICA" target="POLICE OFFICER 1" weight="1" />
+      <edge id="10877" source="JESSICA" target="FEMALE PARTYGOER 2" weight="1" />
+      <edge id="10878" source="JESSICA" target="FEMALE PARTYGOER 3" weight="1" />
+      <edge id="10879" source="RON" target="JIMMY" weight="1" />
+      <edge id="10880" source="RON" target="BOBBY" weight="1" />
+      <edge id="10881" source="BOBBY" target="RON" weight="1" />
+      <edge id="10882" source="BOBBY" target="JIMMY" weight="3" />
+      <edge id="10883" source="BOBBY" target="SINJIN" weight="2" />
+      <edge id="10884" source="BOBBY" target="LOUIE" weight="2" />
+      <edge id="10885" source="BOBBY" target="RJ" weight="1" />
+      <edge id="10886" source="BOBBY" target="KWON" weight="1" />
+      <edge id="10887" source="PETE" target="COREY" weight="4" />
+      <edge id="10888" source="PETE" target="LIFEGUARD" weight="1" />
+      <edge id="10889" source="PETE" target="PEDRO" weight="2" />
+      <edge id="10890" source="PETE" target="ROB'S VOICE" weight="1" />
+      <edge id="10891" source="PETE" target="EMILY" weight="1" />
+      <edge id="10892" source="LIFEGUARD" target="PETE" weight="1" />
+      <edge id="10893" source="LIFEGUARD" target="COREY" weight="1" />
+      <edge id="10894" source="LIFEGUARD" target="HARRY" weight="1" />
+      <edge id="10895" source="LIFEGUARD" target="HEATHER" weight="1" />
+      <edge id="10896" source="LIFEGUARD" target="ALLISON" weight="1" />
+      <edge id="10897" source="KATIE" target="JESSICA" weight="3" />
+      <edge id="10898" source="KATIE" target="CARLOS" weight="2" />
+      <edge id="10899" source="HARRY" target="LIFEGUARD" weight="1" />
+      <edge id="10900" source="HARRY" target="HEATHER" weight="2" />
+      <edge id="10901" source="HARRY" target="ALLISON" weight="2" />
+      <edge id="10902" source="PIZZA POP" target="JIMMY" weight="2" />
+      <edge id="10903" source="PIZZA POP" target="PIZZA MOM" weight="1" />
+      <edge id="10904" source="PIZZA MOM" target="PIZZA POP" weight="1" />
+      <edge id="10905" source="PIZZA MOM" target="JIMMY" weight="1" />
+      <edge id="10906" source="CARLOS" target="JESSICA" weight="15" />
+      <edge id="10907" source="CARLOS" target="JESSICA'S VOICE" weight="1" />
+      <edge id="10908" source="CARLOS" target="PITT" weight="1" />
+      <edge id="10909" source="CARLOS" target="AARON" weight="3" />
+      <edge id="10910" source="CARLOS" target="KATIE'S VOICE" weight="1" />
+      <edge id="10911" source="CARLOS" target="KATIE" weight="2" />
+      <edge id="10912" source="CARLOS" target="PEDRO" weight="1" />
+      <edge id="10913" source="CARLOS" target="COREY" weight="1" />
+      <edge id="10914" source="CARLOS" target="CARTER" weight="1" />
+      <edge id="10915" source="CARLOS" target="TROY" weight="3" />
+      <edge id="10916" source="CARLOS" target="BERUBI" weight="1" />
+      <edge id="10917" source="CARLOS" target="POLICE OFFICER 1" weight="1" />
+      <edge id="10918" source="CARLOS" target="FEMALE PARTYGOER 2" weight="1" />
+      <edge id="10919" source="CARLOS" target="FEMALE PARTYGOER 3" weight="1" />
+      <edge id="10920" source="JESSICA'S VOICE" target="CARLOS" weight="1" />
+      <edge id="10921" source="JESSICA'S VOICE" target="JESSICA" weight="1" />
+      <edge id="10922" source="DEREK" target="HEATHER" weight="4" />
+      <edge id="10923" source="DEREK" target="ALLISON" weight="4" />
+      <edge id="10924" source="DEREK" target="DRUNK PARTYGOER" weight="1" />
+      <edge id="10925" source="DEREK" target="POLICE OFFICER 2" weight="1" />
+      <edge id="10926" source="PITT" target="JESSICA" weight="3" />
+      <edge id="10927" source="PITT" target="CARLOS" weight="1" />
+      <edge id="10928" source="PITT" target="CARLOS' VOICE" weight="1" />
+      <edge id="10929" source="PITT" target="TROY" weight="2" />
+      <edge id="10930" source="PITT" target="AARON" weight="2" />
+      <edge id="10931" source="MATT" target="JIMMY" weight="3" />
+      <edge id="10932" source="DAVE" target="JIMMY" weight="2" />
+      <edge id="10933" source="DAVE" target="FEMALE PASSENGER" weight="1" />
+      <edge id="10934" source="FEMALE PASSENGER" target="DAVE" weight="1" />
+      <edge id="10935" source="FEMALE PASSENGER" target="JIMMY" weight="1" />
+      <edge id="10936" source="EMILY" target="COREY" weight="4" />
+      <edge id="10937" source="EMILY" target="PEDRO" weight="4" />
+      <edge id="10938" source="EMILY" target="KEVIN" weight="1" />
+      <edge id="10939" source="EMILY" target="PETE" weight="1" />
+      <edge id="10940" source="EMILY" target="BERUBI" weight="1" />
+      <edge id="10941" source="EMILY" target="MALE PARTYGOER 1" weight="1" />
+      <edge id="10942" source="KEVIN" target="COREY" weight="1" />
+      <edge id="10943" source="KEVIN" target="EMILY" weight="1" />
+      <edge id="10944" source="KEVIN" target="PEDRO" weight="1" />
+      <edge id="10945" source="CARLOS' VOICE" target="JESSICA" weight="1" />
+      <edge id="10946" source="CARLOS' VOICE" target="TROY" weight="1" />
+      <edge id="10947" source="CARLOS' VOICE" target="AARON" weight="1" />
+      <edge id="10948" source="CARLOS' VOICE" target="PITT" weight="1" />
+      <edge id="10949" source="TROY" target="JESSICA" weight="5" />
+      <edge id="10950" source="TROY" target="CARLOS' VOICE" weight="1" />
+      <edge id="10951" source="TROY" target="AARON" weight="5" />
+      <edge id="10952" source="TROY" target="PITT" weight="2" />
+      <edge id="10953" source="TROY" target="CARLOS" weight="3" />
+      <edge id="10954" source="TROY" target="CARTER" weight="1" />
+      <edge id="10955" source="TROY" target="BERUBI" weight="1" />
+      <edge id="10956" source="TROY" target="POLICE OFFICER 1" weight="1" />
+      <edge id="10957" source="TROY" target="FEMALE PARTYGOER 2" weight="1" />
+      <edge id="10958" source="TROY" target="FEMALE PARTYGOER 3" weight="1" />
+      <edge id="10959" source="AARON" target="JESSICA" weight="7" />
+      <edge id="10960" source="AARON" target="CARLOS' VOICE" weight="1" />
+      <edge id="10961" source="AARON" target="TROY" weight="5" />
+      <edge id="10962" source="AARON" target="PITT" weight="2" />
+      <edge id="10963" source="AARON" target="CARLOS" weight="3" />
+      <edge id="10964" source="AARON" target="CARTER" weight="1" />
+      <edge id="10965" source="AARON" target="BERUBI" weight="1" />
+      <edge id="10966" source="MR. CARSON" target="PEDRO" weight="1" />
+      <edge id="10967" source="MR. CARSON" target="COREY" weight="1" />
+      <edge id="10968" source="MR. CARSON" target="MRS. CARSON" weight="1" />
+      <edge id="10969" source="ROB'S VOICE" target="COREY" weight="1" />
+      <edge id="10970" source="ROB'S VOICE" target="PEDRO" weight="1" />
+      <edge id="10971" source="ROB'S VOICE" target="PETE" weight="1" />
+      <edge id="10972" source="KID #1" target="COREY" weight="1" />
+      <edge id="10973" source="PIZZA POP'S VOICE" target="JIMMY" weight="1" />
+      <edge id="10974" source="PIZZA POP'S VOICE" target="KWON'S VOICE" weight="1" />
+      <edge id="10975" source="KWON'S VOICE" target="JIMMY" weight="1" />
+      <edge id="10976" source="KWON'S VOICE" target="PIZZA POP'S VOICE" weight="1" />
+      <edge id="10977" source="KWON" target="JIMMY" weight="3" />
+      <edge id="10978" source="KWON" target="SINJIN'S VOICE" weight="1" />
+      <edge id="10979" source="KWON" target="SINJIN" weight="2" />
+      <edge id="10980" source="KWON" target="LOUIE" weight="1" />
+      <edge id="10981" source="KWON" target="BOBBY" weight="1" />
+      <edge id="10982" source="KWON" target="RJ" weight="1" />
+      <edge id="10983" source="AARON'S VOICE" target="JESSICA" weight="1" />
+      <edge id="10984" source="KATIE'S VOICE" target="CARLOS" weight="1" />
+      <edge id="10985" source="KATIE'S VOICE" target="JESSICA" weight="2" />
+      <edge id="10986" source="MRS. CARSON" target="COREY" weight="1" />
+      <edge id="10987" source="MRS. CARSON" target="MR. CARSON" weight="1" />
+      <edge id="10988" source="OLDER MAN" target="PEDRO" weight="1" />
+      <edge id="10989" source="OLDER MAN" target="OLDER WOMAN" weight="1" />
+      <edge id="10990" source="OLDER WOMAN" target="OLDER MAN" weight="1" />
+      <edge id="10991" source="OLDER WOMAN" target="PEDRO" weight="1" />
+      <edge id="10992" source="DR. COOK" target="HEATHER" weight="1" />
+      <edge id="10993" source="SINJIN'S VOICE" target="JIMMY" weight="1" />
+      <edge id="10994" source="SINJIN'S VOICE" target="KWON" weight="1" />
+      <edge id="10995" source="CARTER" target="ALLISON" weight="1" />
+      <edge id="10996" source="CARTER" target="HEATHER" weight="2" />
+      <edge id="10997" source="CARTER" target="JESSICA" weight="4" />
+      <edge id="10998" source="CARTER" target="CARLOS" weight="1" />
+      <edge id="10999" source="CARTER" target="AARON" weight="1" />
+      <edge id="11000" source="CARTER" target="TROY" weight="1" />
+      <edge id="11001" source="CARTER" target="BERUBI" weight="2" />
+      <edge id="11002" source="CARTER" target="POLICE OFFICER 1" weight="1" />
+      <edge id="11003" source="BERUBI" target="EMILY" weight="1" />
+      <edge id="11004" source="BERUBI" target="COREY" weight="1" />
+      <edge id="11005" source="BERUBI" target="PEDRO" weight="1" />
+      <edge id="11006" source="BERUBI" target="CARLOS" weight="1" />
+      <edge id="11007" source="BERUBI" target="AARON" weight="1" />
+      <edge id="11008" source="BERUBI" target="JESSICA" weight="1" />
+      <edge id="11009" source="BERUBI" target="CARTER" weight="2" />
+      <edge id="11010" source="BERUBI" target="TROY" weight="1" />
+      <edge id="11011" source="RJ" target="JIMMY" weight="2" />
+      <edge id="11012" source="RJ" target="LOUIE" weight="2" />
+      <edge id="11013" source="RJ" target="SINJIN" weight="2" />
+      <edge id="11014" source="RJ" target="HEATHER" weight="1" />
+      <edge id="11015" source="RJ" target="BOBBY" weight="1" />
+      <edge id="11016" source="RJ" target="KWON" weight="1" />
+      <edge id="11017" source="CARD PLAYER" target="HEATHER" weight="1" />
+      <edge id="11018" source="CARD PLAYER" target="ALLISON" weight="1" />
+      <edge id="11019" source="LOUIE" target="SINJIN" weight="3" />
+      <edge id="11020" source="LOUIE" target="RJ" weight="2" />
+      <edge id="11021" source="LOUIE" target="JIMMY" weight="2" />
+      <edge id="11022" source="LOUIE" target="BOBBY" weight="2" />
+      <edge id="11023" source="LOUIE" target="KWON" weight="1" />
+      <edge id="11024" source="SINJIN" target="LOUIE" weight="3" />
+      <edge id="11025" source="SINJIN" target="RJ" weight="2" />
+      <edge id="11026" source="SINJIN" target="JIMMY" weight="2" />
+      <edge id="11027" source="SINJIN" target="BOBBY" weight="2" />
+      <edge id="11028" source="SINJIN" target="KWON" weight="2" />
+      <edge id="11029" source="PING PONG PLAYER 1" target="PEDRO" weight="1" />
+      <edge id="11030" source="PING PONG PLAYER 1" target="BARNES" weight="2" />
+      <edge id="11031" source="PING PONG PLAYER 1" target="BARNES' GIRLFRIEND" weight="1" />
+      <edge id="11032" source="PING PONG PLAYER 1" target="COREY" weight="2" />
+      <edge id="11033" source="PING PONG PLAYER 1" target="PING PONG PLAYER 2" weight="1" />
+      <edge id="11034" source="PING PONG PLAYER 1" target="MITCH" weight="1" />
+      <edge id="11035" source="BARNES" target="PEDRO" weight="1" />
+      <edge id="11036" source="BARNES" target="PING PONG PLAYER 1" weight="2" />
+      <edge id="11037" source="BARNES" target="BARNES' GIRLFRIEND" weight="1" />
+      <edge id="11038" source="BARNES" target="COREY" weight="2" />
+      <edge id="11039" source="BARNES" target="PING PONG PLAYER 2" weight="1" />
+      <edge id="11040" source="BARNES" target="MITCH" weight="1" />
+      <edge id="11041" source="BARNES' GIRLFRIEND" target="PEDRO" weight="1" />
+      <edge id="11042" source="BARNES' GIRLFRIEND" target="PING PONG PLAYER 1" weight="1" />
+      <edge id="11043" source="BARNES' GIRLFRIEND" target="BARNES" weight="1" />
+      <edge id="11044" source="BARNES' GIRLFRIEND" target="COREY" weight="1" />
+      <edge id="11045" source="MITCH" target="HEATHER" weight="1" />
+      <edge id="11046" source="MITCH" target="ALLISON" weight="1" />
+      <edge id="11047" source="MITCH" target="PEDRO" weight="4" />
+      <edge id="11048" source="MITCH" target="BARNES" weight="1" />
+      <edge id="11049" source="MITCH" target="PING PONG PLAYER 2" weight="1" />
+      <edge id="11050" source="MITCH" target="PING PONG PLAYER 1" weight="1" />
+      <edge id="11051" source="MITCH" target="COREY" weight="4" />
+      <edge id="11052" source="MITCH" target="POLICE OFFICER 2" weight="1" />
+      <edge id="11053" source="MITCH" target="POLICE OFFICER 1" weight="1" />
+      <edge id="11054" source="PING PONG PLAYER 2" target="BARNES" weight="1" />
+      <edge id="11055" source="PING PONG PLAYER 2" target="PING PONG PLAYER 1" weight="1" />
+      <edge id="11056" source="PING PONG PLAYER 2" target="COREY" weight="1" />
+      <edge id="11057" source="PING PONG PLAYER 2" target="MITCH" weight="1" />
+      <edge id="11058" source="MALE PARTYGOER 1" target="EMILY" weight="1" />
+      <edge id="11059" source="DRUNK PARTYGOER" target="DEREK" weight="1" />
+      <edge id="11060" source="POLICE OFFICER 2" target="COREY" weight="1" />
+      <edge id="11061" source="POLICE OFFICER 2" target="PEDRO" weight="1" />
+      <edge id="11062" source="POLICE OFFICER 2" target="POLICE OFFICER 1" weight="2" />
+      <edge id="11063" source="POLICE OFFICER 2" target="MITCH" weight="1" />
+      <edge id="11064" source="POLICE OFFICER 2" target="DEREK" weight="1" />
+      <edge id="11065" source="POLICE OFFICER 2" target="HEATHER" weight="1" />
+      <edge id="11066" source="POLICE OFFICER 2" target="ALLISON" weight="1" />
+      <edge id="11067" source="POLICE OFFICER 1" target="POLICE OFFICER 2" weight="2" />
+      <edge id="11068" source="POLICE OFFICER 1" target="COREY" weight="1" />
+      <edge id="11069" source="POLICE OFFICER 1" target="PEDRO" weight="1" />
+      <edge id="11070" source="POLICE OFFICER 1" target="MITCH" weight="1" />
+      <edge id="11071" source="POLICE OFFICER 1" target="FEMALE PARTYGOER 2" weight="1" />
+      <edge id="11072" source="POLICE OFFICER 1" target="FEMALE PARTYGOER 3" weight="1" />
+      <edge id="11073" source="POLICE OFFICER 1" target="JESSICA" weight="1" />
+      <edge id="11074" source="POLICE OFFICER 1" target="CARLOS" weight="1" />
+      <edge id="11075" source="POLICE OFFICER 1" target="TROY" weight="1" />
+      <edge id="11076" source="POLICE OFFICER 1" target="CARTER" weight="1" />
+      <edge id="11077" source="FEMALE PARTYGOER 2" target="POLICE OFFICER 1" weight="1" />
+      <edge id="11078" source="FEMALE PARTYGOER 2" target="FEMALE PARTYGOER 3" weight="1" />
+      <edge id="11079" source="FEMALE PARTYGOER 2" target="JESSICA" weight="1" />
+      <edge id="11080" source="FEMALE PARTYGOER 2" target="CARLOS" weight="1" />
+      <edge id="11081" source="FEMALE PARTYGOER 2" target="TROY" weight="1" />
+      <edge id="11082" source="FEMALE PARTYGOER 3" target="POLICE OFFICER 1" weight="1" />
+      <edge id="11083" source="FEMALE PARTYGOER 3" target="FEMALE PARTYGOER 2" weight="1" />
+      <edge id="11084" source="FEMALE PARTYGOER 3" target="JESSICA" weight="1" />
+      <edge id="11085" source="FEMALE PARTYGOER 3" target="CARLOS" weight="1" />
+      <edge id="11086" source="FEMALE PARTYGOER 3" target="TROY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

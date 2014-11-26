@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="CYNDY" label="CYNDY" />
+      <node id="TESS" label="TESS" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="MR. LUTZ" label="MR. LUTZ" />
+      <node id="MR. TURKEL" label="MR. TURKEL" />
+      <node id="MAN" label="MAN" />
+      <node id="WOMEN" label="WOMEN" />
+      <node id="PEOPLE" label="PEOPLE" />
+      <node id="MICK" label="MICK" />
+      <node id="BOB" label="BOB" />
+      <node id="RUTH" label="RUTH" />
+      <node id="KATHERINE" label="KATHERINE" />
+      <node id="GINNY" label="GINNY" />
+      <node id="JIM" label="JIM" />
+      <node id="JACK" label="JACK" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="MR. KOTAR" label="MR. KOTAR" />
+      <node id="MR. ROMANO" label="MR. ROMANO" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="TIM" label="TIM" />
+      <node id="FRIENDS" label="FRIENDS" />
+      <node id="SKIER" label="SKIER" />
+      <node id="GUARD #1" label="GUARD #1" />
+      <node id="GUARD #2" label="GUARD #2" />
+      <node id="HOSTESS" label="HOSTESS" />
+      <node id="TRASK" label="TRASK" />
+      <node id="BARBARA" label="BARBARA" />
+      <node id="PHYLLIS" label="PHYLLIS" />
+      <node id="BRIDESMAID" label="BRIDESMAID" />
+      <node id="BITSY" label="BITSY" />
+      <node id="DRAPER" label="DRAPER" />
+      <node id="DELIVERY BOY" label="DELIVERY BOY" />
+      <node id="CLERK" label="CLERK" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="GUARD" label="GUARD" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="BUSINESSMAN" label="BUSINESSMAN" />
+      <node id="ARMBRISTER" label="ARMBRISTER" />
+      <node id="DOREEN" label="DOREEN" />
+      <node id="SECRETARY #1" label="SECRETARY #1" />
+      <node id="SECRETARY #2" label="SECRETARY #2" />
+      <node id="SECRETARY #3" label="SECRETARY #3" />
+      <node id="SECRETARY #4" label="SECRETARY #4" />
+      <node id="SECRETARY #5" label="SECRETARY #5" />
+      <node id="SECRETARY #6" label="SECRETARY #6" />
+      <node id="SECRETARY #7" label="SECRETARY #7" />
+      <node id="MESSENGER" label="MESSENGER" />
+      <node id="TESS &amp; JACK" label="TESS &amp; JACK" />
+      <node id="MAN #1" label="MAN #1" />
+      <node id="MAN #2" label="MAN #2" />
+      <node id="ALICE" label="ALICE" />
+    </nodes>
+    <edges>
+      <edge id="25949" source="CYNDY" target="TESS" weight="13" />
+      <edge id="25950" source="CYNDY" target="JACK" weight="2" />
+      <edge id="25951" source="CYNDY" target="GINNY" weight="2" />
+      <edge id="25952" source="CYNDY" target="MICK" weight="1" />
+      <edge id="25953" source="CYNDY" target="MAN" weight="1" />
+      <edge id="25954" source="CYNDY" target="KATHERINE" weight="1" />
+      <edge id="25955" source="TESS" target="CYNDY" weight="13" />
+      <edge id="25956" source="TESS" target="WOMAN" weight="4" />
+      <edge id="25957" source="TESS" target="MR. LUTZ" weight="3" />
+      <edge id="25958" source="TESS" target="MR. TURKEL" weight="4" />
+      <edge id="25959" source="TESS" target="MAN" weight="3" />
+      <edge id="25960" source="TESS" target="WOMEN" weight="1" />
+      <edge id="25961" source="TESS" target="PEOPLE" weight="1" />
+      <edge id="25962" source="TESS" target="MICK" weight="8" />
+      <edge id="25963" source="TESS" target="BOB" weight="1" />
+      <edge id="25964" source="TESS" target="RUTH" weight="1" />
+      <edge id="25965" source="TESS" target="KATHERINE" weight="17" />
+      <edge id="25966" source="TESS" target="GINNY" weight="3" />
+      <edge id="25967" source="TESS" target="JIM" weight="1" />
+      <edge id="25968" source="TESS" target="JACK" weight="25" />
+      <edge id="25969" source="TESS" target="DRIVER" weight="1" />
+      <edge id="25970" source="TESS" target="MR. KOTAR" weight="1" />
+      <edge id="25971" source="TESS" target="MR. ROMANO" weight="1" />
+      <edge id="25972" source="TESS" target="BARTENDER" weight="1" />
+      <edge id="25973" source="TESS" target="TIM" weight="1" />
+      <edge id="25974" source="TESS" target="FRIENDS" weight="1" />
+      <edge id="25975" source="TESS" target="SKIER" weight="1" />
+      <edge id="25976" source="TESS" target="GUARD #1" weight="1" />
+      <edge id="25977" source="TESS" target="GUARD #2" weight="1" />
+      <edge id="25978" source="TESS" target="HOSTESS" weight="2" />
+      <edge id="25979" source="TESS" target="TRASK" weight="6" />
+      <edge id="25980" source="TESS" target="BARBARA" weight="1" />
+      <edge id="25981" source="TESS" target="PHYLLIS" weight="1" />
+      <edge id="25982" source="TESS" target="BRIDESMAID" weight="1" />
+      <edge id="25983" source="TESS" target="BITSY" weight="1" />
+      <edge id="25984" source="TESS" target="DRAPER" weight="1" />
+      <edge id="25985" source="TESS" target="DELIVERY BOY" weight="1" />
+      <edge id="25986" source="TESS" target="CLERK" weight="1" />
+      <edge id="25987" source="TESS" target="GUARD" weight="1" />
+      <edge id="25988" source="TESS" target="RECEPTIONIST" weight="3" />
+      <edge id="25989" source="TESS" target="DOREEN" weight="1" />
+      <edge id="25990" source="TESS" target="SECRETARY #1" weight="2" />
+      <edge id="25991" source="TESS" target="SECRETARY #2" weight="2" />
+      <edge id="25992" source="TESS" target="SECRETARY #3" weight="1" />
+      <edge id="25993" source="TESS" target="SECRETARY #4" weight="1" />
+      <edge id="25994" source="TESS" target="SECRETARY #5" weight="1" />
+      <edge id="25995" source="TESS" target="SECRETARY #6" weight="1" />
+      <edge id="25996" source="TESS" target="SECRETARY #7" weight="1" />
+      <edge id="25997" source="TESS" target="MESSENGER" weight="1" />
+      <edge id="25998" source="TESS" target="BUSINESSMAN" weight="1" />
+      <edge id="25999" source="TESS" target="MAN #1" weight="1" />
+      <edge id="26000" source="TESS" target="MAN #2" weight="1" />
+      <edge id="26001" source="TESS" target="ALICE" weight="2" />
+      <edge id="26002" source="WOMAN" target="TESS" weight="4" />
+      <edge id="26003" source="WOMAN" target="MR. LUTZ" weight="1" />
+      <edge id="26004" source="WOMAN" target="KATHERINE" weight="2" />
+      <edge id="26005" source="WOMAN" target="MAN" weight="1" />
+      <edge id="26006" source="WOMAN" target="JACK" weight="3" />
+      <edge id="26007" source="WOMAN" target="MR. KOTAR" weight="1" />
+      <edge id="26008" source="WOMAN" target="MR. ROMANO" weight="1" />
+      <edge id="26009" source="MR. LUTZ" target="WOMAN" weight="1" />
+      <edge id="26010" source="MR. LUTZ" target="TESS" weight="3" />
+      <edge id="26011" source="MR. LUTZ" target="MR. TURKEL" weight="2" />
+      <edge id="26012" source="MR. LUTZ" target="MAN" weight="1" />
+      <edge id="26013" source="MR. LUTZ" target="WOMEN" weight="1" />
+      <edge id="26014" source="MR. TURKEL" target="TESS" weight="4" />
+      <edge id="26015" source="MR. TURKEL" target="MR. LUTZ" weight="2" />
+      <edge id="26016" source="MR. TURKEL" target="MAN" weight="1" />
+      <edge id="26017" source="MR. TURKEL" target="WOMEN" weight="1" />
+      <edge id="26018" source="MR. TURKEL" target="JACK" weight="1" />
+      <edge id="26019" source="MAN" target="TESS" weight="3" />
+      <edge id="26020" source="MAN" target="MR. LUTZ" weight="1" />
+      <edge id="26021" source="MAN" target="MR. TURKEL" weight="1" />
+      <edge id="26022" source="MAN" target="WOMEN" weight="1" />
+      <edge id="26023" source="MAN" target="WOMAN" weight="1" />
+      <edge id="26024" source="MAN" target="JACK" weight="2" />
+      <edge id="26025" source="MAN" target="MICK" weight="1" />
+      <edge id="26026" source="MAN" target="CYNDY" weight="1" />
+      <edge id="26027" source="MAN" target="KATHERINE" weight="1" />
+      <edge id="26028" source="WOMEN" target="TESS" weight="1" />
+      <edge id="26029" source="WOMEN" target="MR. LUTZ" weight="1" />
+      <edge id="26030" source="WOMEN" target="MR. TURKEL" weight="1" />
+      <edge id="26031" source="WOMEN" target="MAN" weight="1" />
+      <edge id="26032" source="PEOPLE" target="TESS" weight="1" />
+      <edge id="26033" source="MICK" target="TESS" weight="8" />
+      <edge id="26034" source="MICK" target="CYNDY" weight="1" />
+      <edge id="26035" source="MICK" target="MAN" weight="1" />
+      <edge id="26036" source="MICK" target="BARTENDER" weight="1" />
+      <edge id="26037" source="MICK" target="TIM" weight="1" />
+      <edge id="26038" source="MICK" target="FRIENDS" weight="1" />
+      <edge id="26039" source="MICK" target="DOREEN" weight="1" />
+      <edge id="26040" source="BOB" target="TESS" weight="1" />
+      <edge id="26041" source="RUTH" target="TESS" weight="1" />
+      <edge id="26042" source="KATHERINE" target="TESS" weight="17" />
+      <edge id="26043" source="KATHERINE" target="WOMAN" weight="2" />
+      <edge id="26044" source="KATHERINE" target="GINNY" weight="1" />
+      <edge id="26045" source="KATHERINE" target="JIM" weight="1" />
+      <edge id="26046" source="KATHERINE" target="CYNDY" weight="1" />
+      <edge id="26047" source="KATHERINE" target="JACK" weight="6" />
+      <edge id="26048" source="KATHERINE" target="SKIER" weight="1" />
+      <edge id="26049" source="KATHERINE" target="ATTENDANT" weight="1" />
+      <edge id="26050" source="KATHERINE" target="RECEPTIONIST" weight="1" />
+      <edge id="26051" source="KATHERINE" target="TRASK" weight="3" />
+      <edge id="26052" source="KATHERINE" target="MAN" weight="1" />
+      <edge id="26053" source="KATHERINE" target="MESSENGER" weight="1" />
+      <edge id="26054" source="KATHERINE" target="BUSINESSMAN" weight="1" />
+      <edge id="26055" source="KATHERINE" target="TESS &amp; JACK" weight="1" />
+      <edge id="26056" source="GINNY" target="KATHERINE" weight="1" />
+      <edge id="26057" source="GINNY" target="TESS" weight="3" />
+      <edge id="26058" source="GINNY" target="CYNDY" weight="2" />
+      <edge id="26059" source="JIM" target="KATHERINE" weight="1" />
+      <edge id="26060" source="JIM" target="TESS" weight="1" />
+      <edge id="26061" source="JACK" target="MAN" weight="2" />
+      <edge id="26062" source="JACK" target="WOMAN" weight="3" />
+      <edge id="26063" source="JACK" target="TESS" weight="25" />
+      <edge id="26064" source="JACK" target="MR. TURKEL" weight="1" />
+      <edge id="26065" source="JACK" target="DRIVER" weight="1" />
+      <edge id="26066" source="JACK" target="MR. KOTAR" weight="1" />
+      <edge id="26067" source="JACK" target="MR. ROMANO" weight="1" />
+      <edge id="26068" source="JACK" target="CYNDY" weight="2" />
+      <edge id="26069" source="JACK" target="KATHERINE" weight="6" />
+      <edge id="26070" source="JACK" target="GUARD #1" weight="1" />
+      <edge id="26071" source="JACK" target="GUARD #2" weight="1" />
+      <edge id="26072" source="JACK" target="HOSTESS" weight="2" />
+      <edge id="26073" source="JACK" target="TRASK" weight="6" />
+      <edge id="26074" source="JACK" target="BARBARA" weight="1" />
+      <edge id="26075" source="JACK" target="PHYLLIS" weight="1" />
+      <edge id="26076" source="JACK" target="BRIDESMAID" weight="1" />
+      <edge id="26077" source="JACK" target="BITSY" weight="1" />
+      <edge id="26078" source="JACK" target="DRAPER" weight="1" />
+      <edge id="26079" source="JACK" target="DELIVERY BOY" weight="1" />
+      <edge id="26080" source="JACK" target="RECEPTIONIST" weight="1" />
+      <edge id="26081" source="JACK" target="MESSENGER" weight="1" />
+      <edge id="26082" source="JACK" target="BUSINESSMAN" weight="1" />
+      <edge id="26083" source="JACK" target="SECRETARY #2" weight="1" />
+      <edge id="26084" source="JACK" target="SECRETARY #1" weight="1" />
+      <edge id="26085" source="DRIVER" target="JACK" weight="1" />
+      <edge id="26086" source="DRIVER" target="TESS" weight="1" />
+      <edge id="26087" source="MR. KOTAR" target="TESS" weight="1" />
+      <edge id="26088" source="MR. KOTAR" target="WOMAN" weight="1" />
+      <edge id="26089" source="MR. KOTAR" target="JACK" weight="1" />
+      <edge id="26090" source="MR. KOTAR" target="MR. ROMANO" weight="1" />
+      <edge id="26091" source="MR. ROMANO" target="TESS" weight="1" />
+      <edge id="26092" source="MR. ROMANO" target="WOMAN" weight="1" />
+      <edge id="26093" source="MR. ROMANO" target="JACK" weight="1" />
+      <edge id="26094" source="MR. ROMANO" target="MR. KOTAR" weight="1" />
+      <edge id="26095" source="BARTENDER" target="MICK" weight="1" />
+      <edge id="26096" source="BARTENDER" target="TESS" weight="1" />
+      <edge id="26097" source="TIM" target="MICK" weight="1" />
+      <edge id="26098" source="TIM" target="FRIENDS" weight="1" />
+      <edge id="26099" source="TIM" target="TESS" weight="1" />
+      <edge id="26100" source="FRIENDS" target="TIM" weight="1" />
+      <edge id="26101" source="FRIENDS" target="MICK" weight="1" />
+      <edge id="26102" source="FRIENDS" target="TESS" weight="1" />
+      <edge id="26103" source="SKIER" target="KATHERINE" weight="1" />
+      <edge id="26104" source="SKIER" target="TESS" weight="1" />
+      <edge id="26105" source="GUARD #1" target="GUARD #2" weight="1" />
+      <edge id="26106" source="GUARD #1" target="HOSTESS" weight="1" />
+      <edge id="26107" source="GUARD #1" target="JACK" weight="1" />
+      <edge id="26108" source="GUARD #1" target="TESS" weight="1" />
+      <edge id="26109" source="GUARD #2" target="GUARD #1" weight="1" />
+      <edge id="26110" source="GUARD #2" target="HOSTESS" weight="1" />
+      <edge id="26111" source="GUARD #2" target="JACK" weight="1" />
+      <edge id="26112" source="GUARD #2" target="TESS" weight="1" />
+      <edge id="26113" source="HOSTESS" target="GUARD #1" weight="1" />
+      <edge id="26114" source="HOSTESS" target="GUARD #2" weight="1" />
+      <edge id="26115" source="HOSTESS" target="JACK" weight="2" />
+      <edge id="26116" source="HOSTESS" target="TESS" weight="2" />
+      <edge id="26117" source="HOSTESS" target="BITSY" weight="1" />
+      <edge id="26118" source="HOSTESS" target="TRASK" weight="1" />
+      <edge id="26119" source="TRASK" target="TESS" weight="6" />
+      <edge id="26120" source="TRASK" target="JACK" weight="6" />
+      <edge id="26121" source="TRASK" target="BARBARA" weight="1" />
+      <edge id="26122" source="TRASK" target="BITSY" weight="1" />
+      <edge id="26123" source="TRASK" target="HOSTESS" weight="1" />
+      <edge id="26124" source="TRASK" target="BUSINESSMAN" weight="2" />
+      <edge id="26125" source="TRASK" target="ARMBRISTER" weight="1" />
+      <edge id="26126" source="TRASK" target="KATHERINE" weight="3" />
+      <edge id="26127" source="TRASK" target="RECEPTIONIST" weight="1" />
+      <edge id="26128" source="TRASK" target="MESSENGER" weight="1" />
+      <edge id="26129" source="TRASK" target="TESS &amp; JACK" weight="1" />
+      <edge id="26130" source="TRASK" target="SECRETARY #2" weight="1" />
+      <edge id="26131" source="TRASK" target="SECRETARY #1" weight="1" />
+      <edge id="26132" source="BARBARA" target="TRASK" weight="1" />
+      <edge id="26133" source="BARBARA" target="TESS" weight="1" />
+      <edge id="26134" source="BARBARA" target="JACK" weight="1" />
+      <edge id="26135" source="PHYLLIS" target="TESS" weight="1" />
+      <edge id="26136" source="PHYLLIS" target="JACK" weight="1" />
+      <edge id="26137" source="BRIDESMAID" target="TESS" weight="1" />
+      <edge id="26138" source="BRIDESMAID" target="JACK" weight="1" />
+      <edge id="26139" source="BITSY" target="JACK" weight="1" />
+      <edge id="26140" source="BITSY" target="TESS" weight="1" />
+      <edge id="26141" source="BITSY" target="TRASK" weight="1" />
+      <edge id="26142" source="BITSY" target="HOSTESS" weight="1" />
+      <edge id="26143" source="DRAPER" target="TESS" weight="1" />
+      <edge id="26144" source="DRAPER" target="JACK" weight="1" />
+      <edge id="26145" source="DELIVERY BOY" target="JACK" weight="1" />
+      <edge id="26146" source="DELIVERY BOY" target="TESS" weight="1" />
+      <edge id="26147" source="CLERK" target="TESS" weight="1" />
+      <edge id="26148" source="ATTENDANT" target="KATHERINE" weight="1" />
+      <edge id="26149" source="GUARD" target="TESS" weight="1" />
+      <edge id="26150" source="RECEPTIONIST" target="TESS" weight="3" />
+      <edge id="26151" source="RECEPTIONIST" target="KATHERINE" weight="1" />
+      <edge id="26152" source="RECEPTIONIST" target="TRASK" weight="1" />
+      <edge id="26153" source="RECEPTIONIST" target="JACK" weight="1" />
+      <edge id="26154" source="RECEPTIONIST" target="MAN #1" weight="1" />
+      <edge id="26155" source="RECEPTIONIST" target="MAN #2" weight="1" />
+      <edge id="26156" source="BUSINESSMAN" target="TRASK" weight="2" />
+      <edge id="26157" source="BUSINESSMAN" target="ARMBRISTER" weight="1" />
+      <edge id="26158" source="BUSINESSMAN" target="KATHERINE" weight="1" />
+      <edge id="26159" source="BUSINESSMAN" target="JACK" weight="1" />
+      <edge id="26160" source="BUSINESSMAN" target="TESS" weight="1" />
+      <edge id="26161" source="BUSINESSMAN" target="MESSENGER" weight="1" />
+      <edge id="26162" source="ARMBRISTER" target="BUSINESSMAN" weight="1" />
+      <edge id="26163" source="ARMBRISTER" target="TRASK" weight="1" />
+      <edge id="26164" source="DOREEN" target="TESS" weight="1" />
+      <edge id="26165" source="DOREEN" target="MICK" weight="1" />
+      <edge id="26166" source="SECRETARY #1" target="SECRETARY #2" weight="2" />
+      <edge id="26167" source="SECRETARY #1" target="TESS" weight="2" />
+      <edge id="26168" source="SECRETARY #1" target="SECRETARY #3" weight="1" />
+      <edge id="26169" source="SECRETARY #1" target="SECRETARY #4" weight="1" />
+      <edge id="26170" source="SECRETARY #1" target="SECRETARY #5" weight="1" />
+      <edge id="26171" source="SECRETARY #1" target="SECRETARY #6" weight="1" />
+      <edge id="26172" source="SECRETARY #1" target="SECRETARY #7" weight="1" />
+      <edge id="26173" source="SECRETARY #1" target="TRASK" weight="1" />
+      <edge id="26174" source="SECRETARY #1" target="JACK" weight="1" />
+      <edge id="26175" source="SECRETARY #2" target="SECRETARY #1" weight="2" />
+      <edge id="26176" source="SECRETARY #2" target="TESS" weight="2" />
+      <edge id="26177" source="SECRETARY #2" target="SECRETARY #3" weight="1" />
+      <edge id="26178" source="SECRETARY #2" target="SECRETARY #4" weight="1" />
+      <edge id="26179" source="SECRETARY #2" target="SECRETARY #5" weight="1" />
+      <edge id="26180" source="SECRETARY #2" target="SECRETARY #6" weight="1" />
+      <edge id="26181" source="SECRETARY #2" target="SECRETARY #7" weight="1" />
+      <edge id="26182" source="SECRETARY #2" target="TRASK" weight="1" />
+      <edge id="26183" source="SECRETARY #2" target="JACK" weight="1" />
+      <edge id="26184" source="SECRETARY #3" target="SECRETARY #1" weight="1" />
+      <edge id="26185" source="SECRETARY #3" target="SECRETARY #2" weight="1" />
+      <edge id="26186" source="SECRETARY #3" target="TESS" weight="1" />
+      <edge id="26187" source="SECRETARY #3" target="SECRETARY #4" weight="1" />
+      <edge id="26188" source="SECRETARY #3" target="SECRETARY #5" weight="1" />
+      <edge id="26189" source="SECRETARY #3" target="SECRETARY #6" weight="1" />
+      <edge id="26190" source="SECRETARY #3" target="SECRETARY #7" weight="1" />
+      <edge id="26191" source="SECRETARY #4" target="SECRETARY #1" weight="1" />
+      <edge id="26192" source="SECRETARY #4" target="SECRETARY #2" weight="1" />
+      <edge id="26193" source="SECRETARY #4" target="TESS" weight="1" />
+      <edge id="26194" source="SECRETARY #4" target="SECRETARY #3" weight="1" />
+      <edge id="26195" source="SECRETARY #4" target="SECRETARY #5" weight="1" />
+      <edge id="26196" source="SECRETARY #4" target="SECRETARY #6" weight="1" />
+      <edge id="26197" source="SECRETARY #4" target="SECRETARY #7" weight="1" />
+      <edge id="26198" source="SECRETARY #5" target="SECRETARY #1" weight="1" />
+      <edge id="26199" source="SECRETARY #5" target="SECRETARY #2" weight="1" />
+      <edge id="26200" source="SECRETARY #5" target="TESS" weight="1" />
+      <edge id="26201" source="SECRETARY #5" target="SECRETARY #3" weight="1" />
+      <edge id="26202" source="SECRETARY #5" target="SECRETARY #4" weight="1" />
+      <edge id="26203" source="SECRETARY #5" target="SECRETARY #6" weight="1" />
+      <edge id="26204" source="SECRETARY #5" target="SECRETARY #7" weight="1" />
+      <edge id="26205" source="SECRETARY #6" target="SECRETARY #1" weight="1" />
+      <edge id="26206" source="SECRETARY #6" target="SECRETARY #2" weight="1" />
+      <edge id="26207" source="SECRETARY #6" target="TESS" weight="1" />
+      <edge id="26208" source="SECRETARY #6" target="SECRETARY #3" weight="1" />
+      <edge id="26209" source="SECRETARY #6" target="SECRETARY #4" weight="1" />
+      <edge id="26210" source="SECRETARY #6" target="SECRETARY #5" weight="1" />
+      <edge id="26211" source="SECRETARY #6" target="SECRETARY #7" weight="1" />
+      <edge id="26212" source="SECRETARY #7" target="SECRETARY #1" weight="1" />
+      <edge id="26213" source="SECRETARY #7" target="SECRETARY #2" weight="1" />
+      <edge id="26214" source="SECRETARY #7" target="TESS" weight="1" />
+      <edge id="26215" source="SECRETARY #7" target="SECRETARY #3" weight="1" />
+      <edge id="26216" source="SECRETARY #7" target="SECRETARY #4" weight="1" />
+      <edge id="26217" source="SECRETARY #7" target="SECRETARY #5" weight="1" />
+      <edge id="26218" source="SECRETARY #7" target="SECRETARY #6" weight="1" />
+      <edge id="26219" source="MESSENGER" target="TRASK" weight="1" />
+      <edge id="26220" source="MESSENGER" target="KATHERINE" weight="1" />
+      <edge id="26221" source="MESSENGER" target="JACK" weight="1" />
+      <edge id="26222" source="MESSENGER" target="TESS" weight="1" />
+      <edge id="26223" source="MESSENGER" target="BUSINESSMAN" weight="1" />
+      <edge id="26224" source="TESS &amp; JACK" target="KATHERINE" weight="1" />
+      <edge id="26225" source="TESS &amp; JACK" target="TRASK" weight="1" />
+      <edge id="26226" source="MAN #1" target="MAN #2" weight="1" />
+      <edge id="26227" source="MAN #1" target="TESS" weight="1" />
+      <edge id="26228" source="MAN #1" target="RECEPTIONIST" weight="1" />
+      <edge id="26229" source="MAN #2" target="MAN #1" weight="1" />
+      <edge id="26230" source="MAN #2" target="TESS" weight="1" />
+      <edge id="26231" source="MAN #2" target="RECEPTIONIST" weight="1" />
+      <edge id="26232" source="ALICE" target="TESS" weight="2" />
+    </edges>
+  </graph>
+</gexf>

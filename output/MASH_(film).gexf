@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HENRY" label="HENRY" />
+      <node id="RADAR" label="RADAR" />
+      <node id="MOTOR POOL DRIVER" label="MOTOR POOL DRIVER" />
+      <node id="DUKE" label="DUKE" />
+      <node id="HAWKEYE" label="HAWKEYE" />
+      <node id="MOTOR POOL SARGEANT" label="MOTOR POOL SARGEANT" />
+      <node id="DAGO RED" label="DAGO RED" />
+      <node id="PAINLESS" label="PAINLESS" />
+      <node id="BANDINI" label="BANDINI" />
+      <node id="MURRHARDT" label="MURRHARDT" />
+      <node id="HO-JON'S VOICE" label="HO-JON'S VOICE" />
+      <node id="FRANK" label="FRANK" />
+      <node id="LIEUTENANT SCORCH" label="LIEUTENANT SCORCH" />
+      <node id="LIEUTENANT DISH" label="LIEUTENANT DISH" />
+      <node id="SARGEANT VOLLMER'S VOICE" label="SARGEANT VOLLMER'S VOICE" />
+      <node id="HO-JON" label="HO-JON" />
+      <node id="HAWKEYE AND DUKE" label="HAWKEYE AND DUKE" />
+      <node id="DUKE AND HAWKEYE" label="DUKE AND HAWKEYE" />
+      <node id="VOLLMER" label="VOLLMER" />
+      <node id="TRAPPER" label="TRAPPER" />
+      <node id="JUDSON" label="JUDSON" />
+      <node id="LESLIE" label="LESLIE" />
+      <node id="UGLY JOHN" label="UGLY JOHN" />
+      <node id="BANDIDI" label="BANDIDI" />
+      <node id="BOONE" label="BOONE" />
+      <node id="HOT LIPS" label="HOT LIPS" />
+      <node id="VOLLMER'S VOICE" label="VOLLMER'S VOICE" />
+      <node id="DUKE, HAWKEYE" label="DUKE, HAWKEYE" />
+      <node id="PAINLESS AND UGLY JOHN" label="PAINLESS AND UGLY JOHN" />
+      <node id="HOT LIPS' VOICE" label="HOT LIPS' VOICE" />
+      <node id="FRANK'S VOICE" label="FRANK'S VOICE" />
+      <node id="KOREAN DOCTOR" label="KOREAN DOCTOR" />
+      <node id="PILOT" label="PILOT" />
+      <node id="GORMAN" label="GORMAN" />
+      <node id="PRETTY WAC" label="PRETTY WAC" />
+      <node id="WARD NURSE" label="WARD NURSE" />
+      <node id="NURSE CORPS CAPTAIN" label="NURSE CORPS CAPTAIN" />
+      <node id="COLONEL MERRILL" label="COLONEL MERRILL" />
+      <node id="ME LAY" label="ME LAY" />
+      <node id="CORPORAL" label="CORPORAL" />
+      <node id="SECOND LIEUTENANT" label="SECOND LIEUTENANT" />
+      <node id="GOLF PRO" label="GOLF PRO" />
+      <node id="MICHIKO" label="MICHIKO" />
+      <node id="FIRST OR NURSE" label="FIRST OR NURSE" />
+      <node id="COLONEL MERILL" label="COLONEL MERILL" />
+      <node id="VOICE" label="VOICE" />
+      <node id="LAPHAM" label="LAPHAM" />
+      <node id="KNOCKO" label="KNOCKO" />
+      <node id="PRIVATE FIRST CLASS" label="PRIVATE FIRST CLASS" />
+      <node id="CORPSMAN" label="CORPSMAN" />
+      <node id="GENERAL HAMMOND" label="GENERAL HAMMOND" />
+      <node id="BRITISH OFFICER" label="BRITISH OFFICER" />
+      <node id="NORWEGIAN OFFICER" label="NORWEGIAN OFFICER" />
+      <node id="SPEARCHUCKER" label="SPEARCHUCKER" />
+      <node id="REFEREE" label="REFEREE" />
+      <node id="325TH CAPTAIN" label="325TH CAPTAIN" />
+      <node id="TRAINER" label="TRAINER" />
+      <node id="MEDICAL CORPS SERGEANT" label="MEDICAL CORPS SERGEANT" />
+      <node id="SECOND MEDICAL CORPS SERGEANT" label="SECOND MEDICAL CORPS SERGEANT" />
+      <node id="FIRST DICE PLAYER" label="FIRST DICE PLAYER" />
+      <node id="SECOND DICE PLAYER" label="SECOND DICE PLAYER" />
+      <node id="SIGNAL CORPS CAPTAIN" label="SIGNAL CORPS CAPTAIN" />
+      <node id="STEWARDESS" label="STEWARDESS" />
+      <node id="ANNOUNCER'S VOICE" label="ANNOUNCER'S VOICE" />
+      <node id="FIVE-YEAR-OLD" label="FIVE-YEAR-OLD" />
+    </nodes>
+    <edges>
+      <edge id="11527" source="HENRY" target="RADAR" weight="8" />
+      <edge id="11528" source="HENRY" target="DUKE" weight="8" />
+      <edge id="11529" source="HENRY" target="HAWKEYE" weight="9" />
+      <edge id="11530" source="HENRY" target="DAGO RED" weight="1" />
+      <edge id="11531" source="HENRY" target="PAINLESS" weight="1" />
+      <edge id="11532" source="HENRY" target="BANDINI" weight="1" />
+      <edge id="11533" source="HENRY" target="MURRHARDT" weight="1" />
+      <edge id="11534" source="HENRY" target="TRAPPER" weight="7" />
+      <edge id="11535" source="HENRY" target="FRANK" weight="1" />
+      <edge id="11536" source="HENRY" target="HOT LIPS" weight="2" />
+      <edge id="11537" source="HENRY" target="LESLIE" weight="2" />
+      <edge id="11538" source="HENRY" target="GENERAL HAMMOND" weight="3" />
+      <edge id="11539" source="HENRY" target="SPEARCHUCKER" weight="5" />
+      <edge id="11540" source="HENRY" target="UGLY JOHN" weight="1" />
+      <edge id="11541" source="HENRY" target="REFEREE" weight="2" />
+      <edge id="11542" source="HENRY" target="325TH CAPTAIN" weight="1" />
+      <edge id="11543" source="HENRY" target="TRAINER" weight="1" />
+      <edge id="11544" source="HENRY" target="VOLLMER" weight="1" />
+      <edge id="11545" source="RADAR" target="HENRY" weight="8" />
+      <edge id="11546" source="RADAR" target="DUKE" weight="4" />
+      <edge id="11547" source="RADAR" target="HAWKEYE" weight="8" />
+      <edge id="11548" source="RADAR" target="DAGO RED" weight="1" />
+      <edge id="11549" source="RADAR" target="PAINLESS" weight="2" />
+      <edge id="11550" source="RADAR" target="BANDINI" weight="1" />
+      <edge id="11551" source="RADAR" target="MURRHARDT" weight="1" />
+      <edge id="11552" source="RADAR" target="UGLY JOHN" weight="1" />
+      <edge id="11553" source="RADAR" target="VOLLMER" weight="3" />
+      <edge id="11554" source="RADAR" target="LESLIE" weight="1" />
+      <edge id="11555" source="RADAR" target="TRAPPER" weight="5" />
+      <edge id="11556" source="RADAR" target="CORPSMAN" weight="1" />
+      <edge id="11557" source="RADAR" target="HO-JON" weight="1" />
+      <edge id="11558" source="RADAR" target="SPEARCHUCKER" weight="2" />
+      <edge id="11559" source="RADAR" target="REFEREE" weight="1" />
+      <edge id="11560" source="RADAR" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11561" source="MOTOR POOL DRIVER" target="DUKE" weight="1" />
+      <edge id="11562" source="MOTOR POOL DRIVER" target="HAWKEYE" weight="1" />
+      <edge id="11563" source="MOTOR POOL DRIVER" target="MOTOR POOL SARGEANT" weight="1" />
+      <edge id="11564" source="DUKE" target="MOTOR POOL DRIVER" weight="1" />
+      <edge id="11565" source="DUKE" target="HAWKEYE" weight="35" />
+      <edge id="11566" source="DUKE" target="MOTOR POOL SARGEANT" weight="1" />
+      <edge id="11567" source="DUKE" target="HENRY" weight="8" />
+      <edge id="11568" source="DUKE" target="DAGO RED" weight="4" />
+      <edge id="11569" source="DUKE" target="PAINLESS" weight="4" />
+      <edge id="11570" source="DUKE" target="BANDINI" weight="1" />
+      <edge id="11571" source="DUKE" target="MURRHARDT" weight="3" />
+      <edge id="11572" source="DUKE" target="RADAR" weight="4" />
+      <edge id="11573" source="DUKE" target="HO-JON'S VOICE" weight="1" />
+      <edge id="11574" source="DUKE" target="FRANK" weight="2" />
+      <edge id="11575" source="DUKE" target="LIEUTENANT SCORCH" weight="1" />
+      <edge id="11576" source="DUKE" target="HO-JON" weight="5" />
+      <edge id="11577" source="DUKE" target="HAWKEYE AND DUKE" weight="1" />
+      <edge id="11578" source="DUKE" target="DUKE AND HAWKEYE" weight="1" />
+      <edge id="11579" source="DUKE" target="TRAPPER" weight="19" />
+      <edge id="11580" source="DUKE" target="LESLIE" weight="1" />
+      <edge id="11581" source="DUKE" target="BANDIDI" weight="1" />
+      <edge id="11582" source="DUKE" target="HOT LIPS' VOICE" weight="1" />
+      <edge id="11583" source="DUKE" target="FRANK'S VOICE" weight="1" />
+      <edge id="11584" source="DUKE" target="HOT LIPS" weight="1" />
+      <edge id="11585" source="DUKE" target="KNOCKO" weight="2" />
+      <edge id="11586" source="DUKE" target="UGLY JOHN" weight="2" />
+      <edge id="11587" source="DUKE" target="GENERAL HAMMOND" weight="3" />
+      <edge id="11588" source="DUKE" target="BRITISH OFFICER" weight="1" />
+      <edge id="11589" source="DUKE" target="NORWEGIAN OFFICER" weight="1" />
+      <edge id="11590" source="DUKE" target="SPEARCHUCKER" weight="7" />
+      <edge id="11591" source="DUKE" target="REFEREE" weight="2" />
+      <edge id="11592" source="DUKE" target="325TH CAPTAIN" weight="1" />
+      <edge id="11593" source="DUKE" target="VOLLMER" weight="1" />
+      <edge id="11594" source="DUKE" target="MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11595" source="DUKE" target="SECOND MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11596" source="DUKE" target="FIRST DICE PLAYER" weight="1" />
+      <edge id="11597" source="DUKE" target="SECOND DICE PLAYER" weight="1" />
+      <edge id="11598" source="DUKE" target="SIGNAL CORPS CAPTAIN" weight="1" />
+      <edge id="11599" source="DUKE" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="11600" source="HAWKEYE" target="MOTOR POOL DRIVER" weight="1" />
+      <edge id="11601" source="HAWKEYE" target="DUKE" weight="35" />
+      <edge id="11602" source="HAWKEYE" target="MOTOR POOL SARGEANT" weight="1" />
+      <edge id="11603" source="HAWKEYE" target="HENRY" weight="9" />
+      <edge id="11604" source="HAWKEYE" target="DAGO RED" weight="7" />
+      <edge id="11605" source="HAWKEYE" target="PAINLESS" weight="6" />
+      <edge id="11606" source="HAWKEYE" target="BANDINI" weight="1" />
+      <edge id="11607" source="HAWKEYE" target="MURRHARDT" weight="3" />
+      <edge id="11608" source="HAWKEYE" target="RADAR" weight="8" />
+      <edge id="11609" source="HAWKEYE" target="HO-JON'S VOICE" weight="1" />
+      <edge id="11610" source="HAWKEYE" target="FRANK" weight="4" />
+      <edge id="11611" source="HAWKEYE" target="LIEUTENANT SCORCH" weight="2" />
+      <edge id="11612" source="HAWKEYE" target="LIEUTENANT DISH" weight="5" />
+      <edge id="11613" source="HAWKEYE" target="HO-JON" weight="7" />
+      <edge id="11614" source="HAWKEYE" target="HAWKEYE AND DUKE" weight="1" />
+      <edge id="11615" source="HAWKEYE" target="DUKE AND HAWKEYE" weight="1" />
+      <edge id="11616" source="HAWKEYE" target="VOLLMER" weight="4" />
+      <edge id="11617" source="HAWKEYE" target="TRAPPER" weight="35" />
+      <edge id="11618" source="HAWKEYE" target="LESLIE" weight="1" />
+      <edge id="11619" source="HAWKEYE" target="UGLY JOHN" weight="5" />
+      <edge id="11620" source="HAWKEYE" target="BANDIDI" weight="1" />
+      <edge id="11621" source="HAWKEYE" target="HOT LIPS" weight="3" />
+      <edge id="11622" source="HAWKEYE" target="DUKE, HAWKEYE" weight="1" />
+      <edge id="11623" source="HAWKEYE" target="PAINLESS AND UGLY JOHN" weight="1" />
+      <edge id="11624" source="HAWKEYE" target="KOREAN DOCTOR" weight="1" />
+      <edge id="11625" source="HAWKEYE" target="PILOT" weight="1" />
+      <edge id="11626" source="HAWKEYE" target="GORMAN" weight="2" />
+      <edge id="11627" source="HAWKEYE" target="PRETTY WAC" weight="1" />
+      <edge id="11628" source="HAWKEYE" target="WARD NURSE" weight="1" />
+      <edge id="11629" source="HAWKEYE" target="NURSE CORPS CAPTAIN" weight="1" />
+      <edge id="11630" source="HAWKEYE" target="COLONEL MERRILL" weight="4" />
+      <edge id="11631" source="HAWKEYE" target="ME LAY" weight="5" />
+      <edge id="11632" source="HAWKEYE" target="CORPORAL" weight="1" />
+      <edge id="11633" source="HAWKEYE" target="GOLF PRO" weight="1" />
+      <edge id="11634" source="HAWKEYE" target="MICHIKO" weight="2" />
+      <edge id="11635" source="HAWKEYE" target="FIRST OR NURSE" weight="1" />
+      <edge id="11636" source="HAWKEYE" target="COLONEL MERILL" weight="1" />
+      <edge id="11637" source="HAWKEYE" target="VOICE" weight="1" />
+      <edge id="11638" source="HAWKEYE" target="PRIVATE FIRST CLASS" weight="1" />
+      <edge id="11639" source="HAWKEYE" target="CORPSMAN" weight="1" />
+      <edge id="11640" source="HAWKEYE" target="GENERAL HAMMOND" weight="4" />
+      <edge id="11641" source="HAWKEYE" target="BRITISH OFFICER" weight="1" />
+      <edge id="11642" source="HAWKEYE" target="NORWEGIAN OFFICER" weight="1" />
+      <edge id="11643" source="HAWKEYE" target="SPEARCHUCKER" weight="9" />
+      <edge id="11644" source="HAWKEYE" target="REFEREE" weight="2" />
+      <edge id="11645" source="HAWKEYE" target="325TH CAPTAIN" weight="1" />
+      <edge id="11646" source="HAWKEYE" target="MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11647" source="HAWKEYE" target="SECOND MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11648" source="HAWKEYE" target="FIRST DICE PLAYER" weight="1" />
+      <edge id="11649" source="HAWKEYE" target="SECOND DICE PLAYER" weight="1" />
+      <edge id="11650" source="HAWKEYE" target="SIGNAL CORPS CAPTAIN" weight="1" />
+      <edge id="11651" source="HAWKEYE" target="STEWARDESS" weight="1" />
+      <edge id="11652" source="HAWKEYE" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="11653" source="HAWKEYE" target="FIVE-YEAR-OLD" weight="1" />
+      <edge id="11654" source="MOTOR POOL SARGEANT" target="MOTOR POOL DRIVER" weight="1" />
+      <edge id="11655" source="MOTOR POOL SARGEANT" target="DUKE" weight="1" />
+      <edge id="11656" source="MOTOR POOL SARGEANT" target="HAWKEYE" weight="1" />
+      <edge id="11657" source="DAGO RED" target="DUKE" weight="4" />
+      <edge id="11658" source="DAGO RED" target="HAWKEYE" weight="7" />
+      <edge id="11659" source="DAGO RED" target="HENRY" weight="1" />
+      <edge id="11660" source="DAGO RED" target="PAINLESS" weight="2" />
+      <edge id="11661" source="DAGO RED" target="BANDINI" weight="1" />
+      <edge id="11662" source="DAGO RED" target="MURRHARDT" weight="1" />
+      <edge id="11663" source="DAGO RED" target="RADAR" weight="1" />
+      <edge id="11664" source="DAGO RED" target="LESLIE" weight="1" />
+      <edge id="11665" source="DAGO RED" target="TRAPPER" weight="3" />
+      <edge id="11666" source="PAINLESS" target="DUKE" weight="4" />
+      <edge id="11667" source="PAINLESS" target="HAWKEYE" weight="6" />
+      <edge id="11668" source="PAINLESS" target="HENRY" weight="1" />
+      <edge id="11669" source="PAINLESS" target="DAGO RED" weight="2" />
+      <edge id="11670" source="PAINLESS" target="BANDINI" weight="1" />
+      <edge id="11671" source="PAINLESS" target="MURRHARDT" weight="2" />
+      <edge id="11672" source="PAINLESS" target="RADAR" weight="2" />
+      <edge id="11673" source="PAINLESS" target="HO-JON" weight="1" />
+      <edge id="11674" source="PAINLESS" target="TRAPPER" weight="3" />
+      <edge id="11675" source="PAINLESS" target="BANDIDI" weight="1" />
+      <edge id="11676" source="PAINLESS" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11677" source="PAINLESS" target="BRITISH OFFICER" weight="1" />
+      <edge id="11678" source="PAINLESS" target="NORWEGIAN OFFICER" weight="1" />
+      <edge id="11679" source="PAINLESS" target="VOLLMER" weight="1" />
+      <edge id="11680" source="BANDINI" target="DUKE" weight="1" />
+      <edge id="11681" source="BANDINI" target="HAWKEYE" weight="1" />
+      <edge id="11682" source="BANDINI" target="HENRY" weight="1" />
+      <edge id="11683" source="BANDINI" target="DAGO RED" weight="1" />
+      <edge id="11684" source="BANDINI" target="PAINLESS" weight="1" />
+      <edge id="11685" source="BANDINI" target="MURRHARDT" weight="1" />
+      <edge id="11686" source="BANDINI" target="RADAR" weight="1" />
+      <edge id="11687" source="MURRHARDT" target="DUKE" weight="3" />
+      <edge id="11688" source="MURRHARDT" target="HAWKEYE" weight="3" />
+      <edge id="11689" source="MURRHARDT" target="HENRY" weight="1" />
+      <edge id="11690" source="MURRHARDT" target="DAGO RED" weight="1" />
+      <edge id="11691" source="MURRHARDT" target="PAINLESS" weight="2" />
+      <edge id="11692" source="MURRHARDT" target="BANDINI" weight="1" />
+      <edge id="11693" source="MURRHARDT" target="RADAR" weight="1" />
+      <edge id="11694" source="MURRHARDT" target="HO-JON" weight="2" />
+      <edge id="11695" source="MURRHARDT" target="TRAPPER" weight="1" />
+      <edge id="11696" source="MURRHARDT" target="BANDIDI" weight="1" />
+      <edge id="11697" source="HO-JON'S VOICE" target="DUKE" weight="1" />
+      <edge id="11698" source="HO-JON'S VOICE" target="HAWKEYE" weight="1" />
+      <edge id="11699" source="HO-JON'S VOICE" target="FRANK" weight="1" />
+      <edge id="11700" source="FRANK" target="HO-JON'S VOICE" weight="1" />
+      <edge id="11701" source="FRANK" target="DUKE" weight="2" />
+      <edge id="11702" source="FRANK" target="HAWKEYE" weight="4" />
+      <edge id="11703" source="FRANK" target="HO-JON" weight="1" />
+      <edge id="11704" source="FRANK" target="HAWKEYE AND DUKE" weight="1" />
+      <edge id="11705" source="FRANK" target="DUKE AND HAWKEYE" weight="1" />
+      <edge id="11706" source="FRANK" target="BOONE" weight="2" />
+      <edge id="11707" source="FRANK" target="TRAPPER" weight="2" />
+      <edge id="11708" source="FRANK" target="HENRY" weight="1" />
+      <edge id="11709" source="FRANK" target="HOT LIPS" weight="5" />
+      <edge id="11710" source="FRANK" target="VOLLMER'S VOICE" weight="1" />
+      <edge id="11711" source="LIEUTENANT SCORCH" target="HAWKEYE" weight="2" />
+      <edge id="11712" source="LIEUTENANT SCORCH" target="DUKE" weight="1" />
+      <edge id="11713" source="LIEUTENANT DISH" target="HAWKEYE" weight="5" />
+      <edge id="11714" source="LIEUTENANT DISH" target="HO-JON" weight="1" />
+      <edge id="11715" source="HO-JON" target="HAWKEYE" weight="7" />
+      <edge id="11716" source="HO-JON" target="DUKE" weight="5" />
+      <edge id="11717" source="HO-JON" target="FRANK" weight="1" />
+      <edge id="11718" source="HO-JON" target="HAWKEYE AND DUKE" weight="1" />
+      <edge id="11719" source="HO-JON" target="DUKE AND HAWKEYE" weight="1" />
+      <edge id="11720" source="HO-JON" target="LIEUTENANT DISH" weight="1" />
+      <edge id="11721" source="HO-JON" target="TRAPPER" weight="3" />
+      <edge id="11722" source="HO-JON" target="PAINLESS" weight="1" />
+      <edge id="11723" source="HO-JON" target="BANDIDI" weight="1" />
+      <edge id="11724" source="HO-JON" target="MURRHARDT" weight="2" />
+      <edge id="11725" source="HO-JON" target="CORPSMAN" weight="1" />
+      <edge id="11726" source="HO-JON" target="RADAR" weight="1" />
+      <edge id="11727" source="HO-JON" target="SPEARCHUCKER" weight="1" />
+      <edge id="11728" source="HAWKEYE AND DUKE" target="FRANK" weight="1" />
+      <edge id="11729" source="HAWKEYE AND DUKE" target="HAWKEYE" weight="1" />
+      <edge id="11730" source="HAWKEYE AND DUKE" target="DUKE" weight="1" />
+      <edge id="11731" source="HAWKEYE AND DUKE" target="HO-JON" weight="1" />
+      <edge id="11732" source="HAWKEYE AND DUKE" target="DUKE AND HAWKEYE" weight="1" />
+      <edge id="11733" source="DUKE AND HAWKEYE" target="FRANK" weight="1" />
+      <edge id="11734" source="DUKE AND HAWKEYE" target="HAWKEYE" weight="1" />
+      <edge id="11735" source="DUKE AND HAWKEYE" target="DUKE" weight="1" />
+      <edge id="11736" source="DUKE AND HAWKEYE" target="HO-JON" weight="1" />
+      <edge id="11737" source="DUKE AND HAWKEYE" target="HAWKEYE AND DUKE" weight="1" />
+      <edge id="11738" source="VOLLMER" target="HAWKEYE" weight="4" />
+      <edge id="11739" source="VOLLMER" target="UGLY JOHN" weight="1" />
+      <edge id="11740" source="VOLLMER" target="RADAR" weight="3" />
+      <edge id="11741" source="VOLLMER" target="TRAPPER" weight="3" />
+      <edge id="11742" source="VOLLMER" target="PILOT" weight="1" />
+      <edge id="11743" source="VOLLMER" target="SPEARCHUCKER" weight="1" />
+      <edge id="11744" source="VOLLMER" target="REFEREE" weight="1" />
+      <edge id="11745" source="VOLLMER" target="DUKE" weight="1" />
+      <edge id="11746" source="VOLLMER" target="HENRY" weight="1" />
+      <edge id="11747" source="VOLLMER" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11748" source="VOLLMER" target="PAINLESS" weight="1" />
+      <edge id="11749" source="TRAPPER" target="DUKE" weight="19" />
+      <edge id="11750" source="TRAPPER" target="HAWKEYE" weight="35" />
+      <edge id="11751" source="TRAPPER" target="DAGO RED" weight="3" />
+      <edge id="11752" source="TRAPPER" target="HO-JON" weight="3" />
+      <edge id="11753" source="TRAPPER" target="PAINLESS" weight="3" />
+      <edge id="11754" source="TRAPPER" target="BANDIDI" weight="1" />
+      <edge id="11755" source="TRAPPER" target="MURRHARDT" weight="1" />
+      <edge id="11756" source="TRAPPER" target="BOONE" weight="1" />
+      <edge id="11757" source="TRAPPER" target="FRANK" weight="2" />
+      <edge id="11758" source="TRAPPER" target="HENRY" weight="7" />
+      <edge id="11759" source="TRAPPER" target="HOT LIPS" weight="4" />
+      <edge id="11760" source="TRAPPER" target="DUKE, HAWKEYE" weight="1" />
+      <edge id="11761" source="TRAPPER" target="PAINLESS AND UGLY JOHN" weight="1" />
+      <edge id="11762" source="TRAPPER" target="HOT LIPS' VOICE" weight="1" />
+      <edge id="11763" source="TRAPPER" target="FRANK'S VOICE" weight="1" />
+      <edge id="11764" source="TRAPPER" target="VOLLMER" weight="3" />
+      <edge id="11765" source="TRAPPER" target="PILOT" weight="1" />
+      <edge id="11766" source="TRAPPER" target="GORMAN" weight="2" />
+      <edge id="11767" source="TRAPPER" target="PRETTY WAC" weight="1" />
+      <edge id="11768" source="TRAPPER" target="WARD NURSE" weight="1" />
+      <edge id="11769" source="TRAPPER" target="NURSE CORPS CAPTAIN" weight="1" />
+      <edge id="11770" source="TRAPPER" target="COLONEL MERRILL" weight="3" />
+      <edge id="11771" source="TRAPPER" target="ME LAY" weight="3" />
+      <edge id="11772" source="TRAPPER" target="CORPORAL" weight="1" />
+      <edge id="11773" source="TRAPPER" target="GOLF PRO" weight="1" />
+      <edge id="11774" source="TRAPPER" target="MICHIKO" weight="1" />
+      <edge id="11775" source="TRAPPER" target="FIRST OR NURSE" weight="1" />
+      <edge id="11776" source="TRAPPER" target="VOICE" weight="1" />
+      <edge id="11777" source="TRAPPER" target="RADAR" weight="5" />
+      <edge id="11778" source="TRAPPER" target="CORPSMAN" weight="1" />
+      <edge id="11779" source="TRAPPER" target="UGLY JOHN" weight="3" />
+      <edge id="11780" source="TRAPPER" target="GENERAL HAMMOND" weight="2" />
+      <edge id="11781" source="TRAPPER" target="SPEARCHUCKER" weight="6" />
+      <edge id="11782" source="TRAPPER" target="REFEREE" weight="2" />
+      <edge id="11783" source="TRAPPER" target="325TH CAPTAIN" weight="1" />
+      <edge id="11784" source="LESLIE" target="DAGO RED" weight="1" />
+      <edge id="11785" source="LESLIE" target="DUKE" weight="1" />
+      <edge id="11786" source="LESLIE" target="HAWKEYE" weight="1" />
+      <edge id="11787" source="LESLIE" target="RADAR" weight="1" />
+      <edge id="11788" source="LESLIE" target="HENRY" weight="2" />
+      <edge id="11789" source="UGLY JOHN" target="HAWKEYE" weight="5" />
+      <edge id="11790" source="UGLY JOHN" target="RADAR" weight="1" />
+      <edge id="11791" source="UGLY JOHN" target="VOLLMER" weight="1" />
+      <edge id="11792" source="UGLY JOHN" target="PRIVATE FIRST CLASS" weight="1" />
+      <edge id="11793" source="UGLY JOHN" target="TRAPPER" weight="3" />
+      <edge id="11794" source="UGLY JOHN" target="DUKE" weight="2" />
+      <edge id="11795" source="UGLY JOHN" target="SPEARCHUCKER" weight="1" />
+      <edge id="11796" source="UGLY JOHN" target="HENRY" weight="1" />
+      <edge id="11797" source="BANDIDI" target="HAWKEYE" weight="1" />
+      <edge id="11798" source="BANDIDI" target="HO-JON" weight="1" />
+      <edge id="11799" source="BANDIDI" target="DUKE" weight="1" />
+      <edge id="11800" source="BANDIDI" target="TRAPPER" weight="1" />
+      <edge id="11801" source="BANDIDI" target="PAINLESS" weight="1" />
+      <edge id="11802" source="BANDIDI" target="MURRHARDT" weight="1" />
+      <edge id="11803" source="BOONE" target="FRANK" weight="2" />
+      <edge id="11804" source="BOONE" target="TRAPPER" weight="1" />
+      <edge id="11805" source="HOT LIPS" target="TRAPPER" weight="4" />
+      <edge id="11806" source="HOT LIPS" target="FRANK" weight="5" />
+      <edge id="11807" source="HOT LIPS" target="HENRY" weight="2" />
+      <edge id="11808" source="HOT LIPS" target="HAWKEYE" weight="3" />
+      <edge id="11809" source="HOT LIPS" target="VOLLMER'S VOICE" weight="1" />
+      <edge id="11810" source="HOT LIPS" target="DUKE" weight="1" />
+      <edge id="11811" source="VOLLMER'S VOICE" target="HOT LIPS" weight="1" />
+      <edge id="11812" source="VOLLMER'S VOICE" target="FRANK" weight="1" />
+      <edge id="11813" source="DUKE, HAWKEYE" target="PAINLESS AND UGLY JOHN" weight="1" />
+      <edge id="11814" source="DUKE, HAWKEYE" target="TRAPPER" weight="1" />
+      <edge id="11815" source="DUKE, HAWKEYE" target="HAWKEYE" weight="1" />
+      <edge id="11816" source="PAINLESS AND UGLY JOHN" target="DUKE, HAWKEYE" weight="1" />
+      <edge id="11817" source="PAINLESS AND UGLY JOHN" target="TRAPPER" weight="1" />
+      <edge id="11818" source="PAINLESS AND UGLY JOHN" target="HAWKEYE" weight="1" />
+      <edge id="11819" source="HOT LIPS' VOICE" target="DUKE" weight="1" />
+      <edge id="11820" source="HOT LIPS' VOICE" target="TRAPPER" weight="1" />
+      <edge id="11821" source="HOT LIPS' VOICE" target="FRANK'S VOICE" weight="1" />
+      <edge id="11822" source="FRANK'S VOICE" target="HOT LIPS' VOICE" weight="1" />
+      <edge id="11823" source="FRANK'S VOICE" target="DUKE" weight="1" />
+      <edge id="11824" source="FRANK'S VOICE" target="TRAPPER" weight="1" />
+      <edge id="11825" source="KOREAN DOCTOR" target="HAWKEYE" weight="1" />
+      <edge id="11826" source="PILOT" target="HAWKEYE" weight="1" />
+      <edge id="11827" source="PILOT" target="TRAPPER" weight="1" />
+      <edge id="11828" source="PILOT" target="VOLLMER" weight="1" />
+      <edge id="11829" source="GORMAN" target="TRAPPER" weight="2" />
+      <edge id="11830" source="GORMAN" target="HAWKEYE" weight="2" />
+      <edge id="11831" source="PRETTY WAC" target="HAWKEYE" weight="1" />
+      <edge id="11832" source="PRETTY WAC" target="TRAPPER" weight="1" />
+      <edge id="11833" source="WARD NURSE" target="HAWKEYE" weight="1" />
+      <edge id="11834" source="WARD NURSE" target="TRAPPER" weight="1" />
+      <edge id="11835" source="WARD NURSE" target="NURSE CORPS CAPTAIN" weight="1" />
+      <edge id="11836" source="NURSE CORPS CAPTAIN" target="HAWKEYE" weight="1" />
+      <edge id="11837" source="NURSE CORPS CAPTAIN" target="TRAPPER" weight="1" />
+      <edge id="11838" source="NURSE CORPS CAPTAIN" target="WARD NURSE" weight="1" />
+      <edge id="11839" source="COLONEL MERRILL" target="TRAPPER" weight="3" />
+      <edge id="11840" source="COLONEL MERRILL" target="HAWKEYE" weight="4" />
+      <edge id="11841" source="COLONEL MERRILL" target="ME LAY" weight="2" />
+      <edge id="11842" source="COLONEL MERRILL" target="FIRST OR NURSE" weight="1" />
+      <edge id="11843" source="COLONEL MERRILL" target="MICHIKO" weight="1" />
+      <edge id="11844" source="COLONEL MERRILL" target="COLONEL MERILL" weight="1" />
+      <edge id="11845" source="ME LAY" target="TRAPPER" weight="3" />
+      <edge id="11846" source="ME LAY" target="COLONEL MERRILL" weight="2" />
+      <edge id="11847" source="ME LAY" target="HAWKEYE" weight="5" />
+      <edge id="11848" source="ME LAY" target="CORPORAL" weight="1" />
+      <edge id="11849" source="ME LAY" target="MICHIKO" weight="3" />
+      <edge id="11850" source="ME LAY" target="COLONEL MERILL" weight="1" />
+      <edge id="11851" source="CORPORAL" target="HAWKEYE" weight="1" />
+      <edge id="11852" source="CORPORAL" target="ME LAY" weight="1" />
+      <edge id="11853" source="CORPORAL" target="TRAPPER" weight="1" />
+      <edge id="11854" source="CORPORAL" target="SECOND LIEUTENANT" weight="1" />
+      <edge id="11855" source="SECOND LIEUTENANT" target="CORPORAL" weight="1" />
+      <edge id="11856" source="GOLF PRO" target="TRAPPER" weight="1" />
+      <edge id="11857" source="GOLF PRO" target="HAWKEYE" weight="1" />
+      <edge id="11858" source="MICHIKO" target="TRAPPER" weight="1" />
+      <edge id="11859" source="MICHIKO" target="ME LAY" weight="3" />
+      <edge id="11860" source="MICHIKO" target="HAWKEYE" weight="2" />
+      <edge id="11861" source="MICHIKO" target="COLONEL MERRILL" weight="1" />
+      <edge id="11862" source="MICHIKO" target="COLONEL MERILL" weight="1" />
+      <edge id="11863" source="FIRST OR NURSE" target="HAWKEYE" weight="1" />
+      <edge id="11864" source="FIRST OR NURSE" target="COLONEL MERRILL" weight="1" />
+      <edge id="11865" source="FIRST OR NURSE" target="TRAPPER" weight="1" />
+      <edge id="11866" source="COLONEL MERILL" target="ME LAY" weight="1" />
+      <edge id="11867" source="COLONEL MERILL" target="COLONEL MERRILL" weight="1" />
+      <edge id="11868" source="COLONEL MERILL" target="MICHIKO" weight="1" />
+      <edge id="11869" source="COLONEL MERILL" target="HAWKEYE" weight="1" />
+      <edge id="11870" source="VOICE" target="HAWKEYE" weight="1" />
+      <edge id="11871" source="VOICE" target="TRAPPER" weight="1" />
+      <edge id="11872" source="KNOCKO" target="DUKE" weight="2" />
+      <edge id="11873" source="PRIVATE FIRST CLASS" target="HAWKEYE" weight="1" />
+      <edge id="11874" source="PRIVATE FIRST CLASS" target="UGLY JOHN" weight="1" />
+      <edge id="11875" source="CORPSMAN" target="HAWKEYE" weight="1" />
+      <edge id="11876" source="CORPSMAN" target="TRAPPER" weight="1" />
+      <edge id="11877" source="CORPSMAN" target="HO-JON" weight="1" />
+      <edge id="11878" source="CORPSMAN" target="RADAR" weight="1" />
+      <edge id="11879" source="GENERAL HAMMOND" target="HAWKEYE" weight="4" />
+      <edge id="11880" source="GENERAL HAMMOND" target="BRITISH OFFICER" weight="1" />
+      <edge id="11881" source="GENERAL HAMMOND" target="DUKE" weight="3" />
+      <edge id="11882" source="GENERAL HAMMOND" target="PAINLESS" weight="1" />
+      <edge id="11883" source="GENERAL HAMMOND" target="NORWEGIAN OFFICER" weight="1" />
+      <edge id="11884" source="GENERAL HAMMOND" target="TRAPPER" weight="2" />
+      <edge id="11885" source="GENERAL HAMMOND" target="HENRY" weight="3" />
+      <edge id="11886" source="GENERAL HAMMOND" target="TRAINER" weight="1" />
+      <edge id="11887" source="GENERAL HAMMOND" target="SPEARCHUCKER" weight="1" />
+      <edge id="11888" source="GENERAL HAMMOND" target="REFEREE" weight="1" />
+      <edge id="11889" source="GENERAL HAMMOND" target="RADAR" weight="1" />
+      <edge id="11890" source="GENERAL HAMMOND" target="VOLLMER" weight="1" />
+      <edge id="11891" source="BRITISH OFFICER" target="HAWKEYE" weight="1" />
+      <edge id="11892" source="BRITISH OFFICER" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11893" source="BRITISH OFFICER" target="DUKE" weight="1" />
+      <edge id="11894" source="BRITISH OFFICER" target="PAINLESS" weight="1" />
+      <edge id="11895" source="BRITISH OFFICER" target="NORWEGIAN OFFICER" weight="1" />
+      <edge id="11896" source="NORWEGIAN OFFICER" target="HAWKEYE" weight="1" />
+      <edge id="11897" source="NORWEGIAN OFFICER" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11898" source="NORWEGIAN OFFICER" target="BRITISH OFFICER" weight="1" />
+      <edge id="11899" source="NORWEGIAN OFFICER" target="DUKE" weight="1" />
+      <edge id="11900" source="NORWEGIAN OFFICER" target="PAINLESS" weight="1" />
+      <edge id="11901" source="SPEARCHUCKER" target="HENRY" weight="5" />
+      <edge id="11902" source="SPEARCHUCKER" target="HAWKEYE" weight="9" />
+      <edge id="11903" source="SPEARCHUCKER" target="DUKE" weight="7" />
+      <edge id="11904" source="SPEARCHUCKER" target="TRAPPER" weight="6" />
+      <edge id="11905" source="SPEARCHUCKER" target="UGLY JOHN" weight="1" />
+      <edge id="11906" source="SPEARCHUCKER" target="REFEREE" weight="2" />
+      <edge id="11907" source="SPEARCHUCKER" target="325TH CAPTAIN" weight="1" />
+      <edge id="11908" source="SPEARCHUCKER" target="RADAR" weight="2" />
+      <edge id="11909" source="SPEARCHUCKER" target="VOLLMER" weight="1" />
+      <edge id="11910" source="SPEARCHUCKER" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11911" source="SPEARCHUCKER" target="HO-JON" weight="1" />
+      <edge id="11912" source="REFEREE" target="HAWKEYE" weight="2" />
+      <edge id="11913" source="REFEREE" target="HENRY" weight="2" />
+      <edge id="11914" source="REFEREE" target="DUKE" weight="2" />
+      <edge id="11915" source="REFEREE" target="SPEARCHUCKER" weight="2" />
+      <edge id="11916" source="REFEREE" target="TRAPPER" weight="2" />
+      <edge id="11917" source="REFEREE" target="325TH CAPTAIN" weight="1" />
+      <edge id="11918" source="REFEREE" target="RADAR" weight="1" />
+      <edge id="11919" source="REFEREE" target="VOLLMER" weight="1" />
+      <edge id="11920" source="REFEREE" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11921" source="325TH CAPTAIN" target="HAWKEYE" weight="1" />
+      <edge id="11922" source="325TH CAPTAIN" target="HENRY" weight="1" />
+      <edge id="11923" source="325TH CAPTAIN" target="DUKE" weight="1" />
+      <edge id="11924" source="325TH CAPTAIN" target="SPEARCHUCKER" weight="1" />
+      <edge id="11925" source="325TH CAPTAIN" target="TRAPPER" weight="1" />
+      <edge id="11926" source="325TH CAPTAIN" target="REFEREE" weight="1" />
+      <edge id="11927" source="TRAINER" target="HENRY" weight="1" />
+      <edge id="11928" source="TRAINER" target="GENERAL HAMMOND" weight="1" />
+      <edge id="11929" source="MEDICAL CORPS SERGEANT" target="DUKE" weight="1" />
+      <edge id="11930" source="MEDICAL CORPS SERGEANT" target="HAWKEYE" weight="1" />
+      <edge id="11931" source="SECOND MEDICAL CORPS SERGEANT" target="HAWKEYE" weight="1" />
+      <edge id="11932" source="SECOND MEDICAL CORPS SERGEANT" target="DUKE" weight="1" />
+      <edge id="11933" source="SECOND MEDICAL CORPS SERGEANT" target="FIRST DICE PLAYER" weight="1" />
+      <edge id="11934" source="SECOND MEDICAL CORPS SERGEANT" target="SECOND DICE PLAYER" weight="1" />
+      <edge id="11935" source="SECOND MEDICAL CORPS SERGEANT" target="SIGNAL CORPS CAPTAIN" weight="1" />
+      <edge id="11936" source="FIRST DICE PLAYER" target="SECOND MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11937" source="FIRST DICE PLAYER" target="HAWKEYE" weight="1" />
+      <edge id="11938" source="FIRST DICE PLAYER" target="DUKE" weight="1" />
+      <edge id="11939" source="FIRST DICE PLAYER" target="SECOND DICE PLAYER" weight="1" />
+      <edge id="11940" source="FIRST DICE PLAYER" target="SIGNAL CORPS CAPTAIN" weight="1" />
+      <edge id="11941" source="SECOND DICE PLAYER" target="SECOND MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11942" source="SECOND DICE PLAYER" target="HAWKEYE" weight="1" />
+      <edge id="11943" source="SECOND DICE PLAYER" target="DUKE" weight="1" />
+      <edge id="11944" source="SECOND DICE PLAYER" target="FIRST DICE PLAYER" weight="1" />
+      <edge id="11945" source="SECOND DICE PLAYER" target="SIGNAL CORPS CAPTAIN" weight="1" />
+      <edge id="11946" source="SIGNAL CORPS CAPTAIN" target="SECOND MEDICAL CORPS SERGEANT" weight="1" />
+      <edge id="11947" source="SIGNAL CORPS CAPTAIN" target="HAWKEYE" weight="1" />
+      <edge id="11948" source="SIGNAL CORPS CAPTAIN" target="DUKE" weight="1" />
+      <edge id="11949" source="SIGNAL CORPS CAPTAIN" target="FIRST DICE PLAYER" weight="1" />
+      <edge id="11950" source="SIGNAL CORPS CAPTAIN" target="SECOND DICE PLAYER" weight="1" />
+      <edge id="11951" source="STEWARDESS" target="HAWKEYE" weight="1" />
+      <edge id="11952" source="ANNOUNCER'S VOICE" target="DUKE" weight="1" />
+      <edge id="11953" source="ANNOUNCER'S VOICE" target="HAWKEYE" weight="1" />
+      <edge id="11954" source="FIVE-YEAR-OLD" target="HAWKEYE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

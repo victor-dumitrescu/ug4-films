@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MR. PINK" label="MR. PINK" />
+      <node id="MR. BLUE" label="MR. BLUE" />
+      <node id="JOE" label="JOE" />
+      <node id="MR. ORANGE" label="MR. ORANGE" />
+      <node id="NICE GUY EDDIE" label="NICE GUY EDDIE" />
+      <node id="MR. BROWN" label="MR. BROWN" />
+      <node id="MR. WHITE" label="MR. WHITE" />
+      <node id="MR. BLONDE" label="MR. BLONDE" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="MR. WRITE" label="MR. WRITE" />
+      <node id="SOMEBODY ELSE" label="SOMEBODY ELSE" />
+      <node id="SOMEBODY" label="SOMEBODY" />
+      <node id="VOICE" label="VOICE" />
+      <node id="TEDDY" label="TEDDY" />
+      <node id="VIC" label="VIC" />
+      <node id="EDDIE" label="EDDIE" />
+      <node id="COP" label="COP" />
+      <node id="JEFFREY" label="JEFFREY" />
+      <node id="FREDDY" label="FREDDY" />
+      <node id="HOLDAWAY" label="HOLDAWAY" />
+      <node id="SHERIFF #1" label="SHERIFF #1" />
+      <node id="SHERIFF #2" label="SHERIFF #2" />
+      <node id="JODIE" label="JODIE" />
+      <node id="COP #1" label="COP #1" />
+      <node id="COP #2" label="COP #2" />
+      <node id="MR. WHITE   MR. PINK   EDDIE" label="MR. WHITE   MR. PINK   EDDIE" />
+      <node id="POLICE FORCE" label="POLICE FORCE" />
+    </nodes>
+    <edges>
+      <edge id="13969" source="MR. PINK" target="MR. BLUE" weight="1" />
+      <edge id="13970" source="MR. PINK" target="JOE" weight="3" />
+      <edge id="13971" source="MR. PINK" target="MR. ORANGE" weight="3" />
+      <edge id="13972" source="MR. PINK" target="NICE GUY EDDIE" weight="1" />
+      <edge id="13973" source="MR. PINK" target="MR. BROWN" weight="2" />
+      <edge id="13974" source="MR. PINK" target="MR. WHITE" weight="12" />
+      <edge id="13975" source="MR. PINK" target="MR. BLONDE" weight="4" />
+      <edge id="13976" source="MR. PINK" target="WAITRESS" weight="1" />
+      <edge id="13977" source="MR. PINK" target="MR. WRITE" weight="1" />
+      <edge id="13978" source="MR. PINK" target="VOICE" weight="2" />
+      <edge id="13979" source="MR. PINK" target="EDDIE" weight="5" />
+      <edge id="13980" source="MR. PINK" target="FREDDY" weight="1" />
+      <edge id="13981" source="MR. PINK" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="13982" source="MR. PINK" target="POLICE FORCE" weight="1" />
+      <edge id="13983" source="MR. BLUE" target="MR. PINK" weight="1" />
+      <edge id="13984" source="MR. BLUE" target="JOE" weight="1" />
+      <edge id="13985" source="MR. BLUE" target="MR. ORANGE" weight="1" />
+      <edge id="13986" source="MR. BLUE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="13987" source="MR. BLUE" target="MR. BROWN" weight="1" />
+      <edge id="13988" source="MR. BLUE" target="MR. WHITE" weight="1" />
+      <edge id="13989" source="MR. BLUE" target="MR. BLONDE" weight="1" />
+      <edge id="13990" source="MR. BLUE" target="WAITRESS" weight="1" />
+      <edge id="13991" source="MR. BLUE" target="MR. WRITE" weight="1" />
+      <edge id="13992" source="JOE" target="MR. PINK" weight="3" />
+      <edge id="13993" source="JOE" target="MR. BLUE" weight="1" />
+      <edge id="13994" source="JOE" target="MR. ORANGE" weight="2" />
+      <edge id="13995" source="JOE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="13996" source="JOE" target="MR. BROWN" weight="2" />
+      <edge id="13997" source="JOE" target="MR. WHITE" weight="4" />
+      <edge id="13998" source="JOE" target="MR. BLONDE" weight="1" />
+      <edge id="13999" source="JOE" target="WAITRESS" weight="1" />
+      <edge id="14000" source="JOE" target="MR. WRITE" weight="1" />
+      <edge id="14001" source="JOE" target="TEDDY" weight="1" />
+      <edge id="14002" source="JOE" target="VIC" weight="1" />
+      <edge id="14003" source="JOE" target="EDDIE" weight="3" />
+      <edge id="14004" source="JOE" target="FREDDY" weight="1" />
+      <edge id="14005" source="JOE" target="VOICE" weight="1" />
+      <edge id="14006" source="JOE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="14007" source="JOE" target="POLICE FORCE" weight="1" />
+      <edge id="14008" source="MR. ORANGE" target="MR. PINK" weight="3" />
+      <edge id="14009" source="MR. ORANGE" target="MR. BLUE" weight="1" />
+      <edge id="14010" source="MR. ORANGE" target="JOE" weight="2" />
+      <edge id="14011" source="MR. ORANGE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14012" source="MR. ORANGE" target="MR. BROWN" weight="1" />
+      <edge id="14013" source="MR. ORANGE" target="MR. WHITE" weight="4" />
+      <edge id="14014" source="MR. ORANGE" target="MR. BLONDE" weight="2" />
+      <edge id="14015" source="MR. ORANGE" target="WAITRESS" weight="1" />
+      <edge id="14016" source="MR. ORANGE" target="MR. WRITE" weight="2" />
+      <edge id="14017" source="MR. ORANGE" target="COP" weight="1" />
+      <edge id="14018" source="MR. ORANGE" target="JEFFREY" weight="1" />
+      <edge id="14019" source="MR. ORANGE" target="EDDIE" weight="1" />
+      <edge id="14020" source="MR. ORANGE" target="VOICE" weight="1" />
+      <edge id="14021" source="MR. ORANGE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="14022" source="MR. ORANGE" target="POLICE FORCE" weight="1" />
+      <edge id="14023" source="NICE GUY EDDIE" target="MR. PINK" weight="1" />
+      <edge id="14024" source="NICE GUY EDDIE" target="MR. BLUE" weight="1" />
+      <edge id="14025" source="NICE GUY EDDIE" target="JOE" weight="1" />
+      <edge id="14026" source="NICE GUY EDDIE" target="MR. ORANGE" weight="1" />
+      <edge id="14027" source="NICE GUY EDDIE" target="MR. BROWN" weight="1" />
+      <edge id="14028" source="NICE GUY EDDIE" target="MR. WHITE" weight="1" />
+      <edge id="14029" source="NICE GUY EDDIE" target="MR. BLONDE" weight="1" />
+      <edge id="14030" source="NICE GUY EDDIE" target="WAITRESS" weight="1" />
+      <edge id="14031" source="NICE GUY EDDIE" target="MR. WRITE" weight="1" />
+      <edge id="14032" source="NICE GUY EDDIE" target="FREDDY" weight="2" />
+      <edge id="14033" source="MR. BROWN" target="MR. PINK" weight="2" />
+      <edge id="14034" source="MR. BROWN" target="MR. BLUE" weight="1" />
+      <edge id="14035" source="MR. BROWN" target="JOE" weight="2" />
+      <edge id="14036" source="MR. BROWN" target="MR. ORANGE" weight="1" />
+      <edge id="14037" source="MR. BROWN" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14038" source="MR. BROWN" target="MR. WHITE" weight="3" />
+      <edge id="14039" source="MR. BROWN" target="MR. BLONDE" weight="1" />
+      <edge id="14040" source="MR. BROWN" target="WAITRESS" weight="1" />
+      <edge id="14041" source="MR. BROWN" target="MR. WRITE" weight="1" />
+      <edge id="14042" source="MR. BROWN" target="EDDIE" weight="1" />
+      <edge id="14043" source="MR. BROWN" target="FREDDY" weight="1" />
+      <edge id="14044" source="MR. WHITE" target="MR. PINK" weight="12" />
+      <edge id="14045" source="MR. WHITE" target="MR. BLUE" weight="1" />
+      <edge id="14046" source="MR. WHITE" target="JOE" weight="4" />
+      <edge id="14047" source="MR. WHITE" target="MR. ORANGE" weight="4" />
+      <edge id="14048" source="MR. WHITE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14049" source="MR. WHITE" target="MR. BROWN" weight="3" />
+      <edge id="14050" source="MR. WHITE" target="MR. BLONDE" weight="4" />
+      <edge id="14051" source="MR. WHITE" target="WAITRESS" weight="1" />
+      <edge id="14052" source="MR. WHITE" target="MR. WRITE" weight="2" />
+      <edge id="14053" source="MR. WHITE" target="VOICE" weight="2" />
+      <edge id="14054" source="MR. WHITE" target="EDDIE" weight="5" />
+      <edge id="14055" source="MR. WHITE" target="FREDDY" weight="6" />
+      <edge id="14056" source="MR. WHITE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="14057" source="MR. WHITE" target="POLICE FORCE" weight="1" />
+      <edge id="14058" source="MR. BLONDE" target="MR. PINK" weight="4" />
+      <edge id="14059" source="MR. BLONDE" target="MR. BLUE" weight="1" />
+      <edge id="14060" source="MR. BLONDE" target="JOE" weight="1" />
+      <edge id="14061" source="MR. BLONDE" target="MR. ORANGE" weight="2" />
+      <edge id="14062" source="MR. BLONDE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14063" source="MR. BLONDE" target="MR. BROWN" weight="1" />
+      <edge id="14064" source="MR. BLONDE" target="MR. WHITE" weight="4" />
+      <edge id="14065" source="MR. BLONDE" target="WAITRESS" weight="1" />
+      <edge id="14066" source="MR. BLONDE" target="MR. WRITE" weight="1" />
+      <edge id="14067" source="MR. BLONDE" target="EDDIE" weight="1" />
+      <edge id="14068" source="MR. BLONDE" target="COP" weight="2" />
+      <edge id="14069" source="MR. BLONDE" target="JEFFREY" weight="1" />
+      <edge id="14070" source="WAITRESS" target="MR. PINK" weight="1" />
+      <edge id="14071" source="WAITRESS" target="MR. BLUE" weight="1" />
+      <edge id="14072" source="WAITRESS" target="JOE" weight="1" />
+      <edge id="14073" source="WAITRESS" target="MR. ORANGE" weight="1" />
+      <edge id="14074" source="WAITRESS" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14075" source="WAITRESS" target="MR. BROWN" weight="1" />
+      <edge id="14076" source="WAITRESS" target="MR. WHITE" weight="1" />
+      <edge id="14077" source="WAITRESS" target="MR. BLONDE" weight="1" />
+      <edge id="14078" source="WAITRESS" target="MR. WRITE" weight="1" />
+      <edge id="14079" source="MR. WRITE" target="MR. PINK" weight="1" />
+      <edge id="14080" source="MR. WRITE" target="MR. BLUE" weight="1" />
+      <edge id="14081" source="MR. WRITE" target="JOE" weight="1" />
+      <edge id="14082" source="MR. WRITE" target="MR. ORANGE" weight="2" />
+      <edge id="14083" source="MR. WRITE" target="NICE GUY EDDIE" weight="1" />
+      <edge id="14084" source="MR. WRITE" target="MR. BROWN" weight="1" />
+      <edge id="14085" source="MR. WRITE" target="MR. WHITE" weight="2" />
+      <edge id="14086" source="MR. WRITE" target="MR. BLONDE" weight="1" />
+      <edge id="14087" source="MR. WRITE" target="WAITRESS" weight="1" />
+      <edge id="14088" source="SOMEBODY ELSE" target="SOMEBODY" weight="1" />
+      <edge id="14089" source="SOMEBODY" target="SOMEBODY ELSE" weight="1" />
+      <edge id="14090" source="VOICE" target="MR. PINK" weight="2" />
+      <edge id="14091" source="VOICE" target="MR. WHITE" weight="2" />
+      <edge id="14092" source="VOICE" target="EDDIE" weight="1" />
+      <edge id="14093" source="VOICE" target="MR. ORANGE" weight="1" />
+      <edge id="14094" source="VOICE" target="JOE" weight="1" />
+      <edge id="14095" source="VOICE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="14096" source="VOICE" target="POLICE FORCE" weight="1" />
+      <edge id="14097" source="TEDDY" target="JOE" weight="1" />
+      <edge id="14098" source="TEDDY" target="VIC" weight="1" />
+      <edge id="14099" source="TEDDY" target="EDDIE" weight="1" />
+      <edge id="14100" source="VIC" target="JOE" weight="1" />
+      <edge id="14101" source="VIC" target="TEDDY" weight="1" />
+      <edge id="14102" source="VIC" target="EDDIE" weight="1" />
+      <edge id="14103" source="EDDIE" target="JOE" weight="3" />
+      <edge id="14104" source="EDDIE" target="TEDDY" weight="1" />
+      <edge id="14105" source="EDDIE" target="VIC" weight="1" />
+      <edge id="14106" source="EDDIE" target="MR. WHITE" weight="5" />
+      <edge id="14107" source="EDDIE" target="MR. PINK" weight="5" />
+      <edge id="14108" source="EDDIE" target="MR. BLONDE" weight="1" />
+      <edge id="14109" source="EDDIE" target="FREDDY" weight="2" />
+      <edge id="14110" source="EDDIE" target="MR. BROWN" weight="1" />
+      <edge id="14111" source="EDDIE" target="MR. ORANGE" weight="1" />
+      <edge id="14112" source="EDDIE" target="VOICE" weight="1" />
+      <edge id="14113" source="EDDIE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+      <edge id="14114" source="EDDIE" target="POLICE FORCE" weight="1" />
+      <edge id="14115" source="COP" target="MR. BLONDE" weight="2" />
+      <edge id="14116" source="COP" target="MR. ORANGE" weight="1" />
+      <edge id="14117" source="COP" target="JEFFREY" weight="1" />
+      <edge id="14118" source="JEFFREY" target="MR. BLONDE" weight="1" />
+      <edge id="14119" source="JEFFREY" target="MR. ORANGE" weight="1" />
+      <edge id="14120" source="JEFFREY" target="COP" weight="1" />
+      <edge id="14121" source="FREDDY" target="HOLDAWAY" weight="6" />
+      <edge id="14122" source="FREDDY" target="MR. WHITE" weight="6" />
+      <edge id="14123" source="FREDDY" target="JOE" weight="1" />
+      <edge id="14124" source="FREDDY" target="NICE GUY EDDIE" weight="2" />
+      <edge id="14125" source="FREDDY" target="SHERIFF #1" weight="1" />
+      <edge id="14126" source="FREDDY" target="SHERIFF #2" weight="1" />
+      <edge id="14127" source="FREDDY" target="JODIE" weight="2" />
+      <edge id="14128" source="FREDDY" target="EDDIE" weight="2" />
+      <edge id="14129" source="FREDDY" target="MR. PINK" weight="1" />
+      <edge id="14130" source="FREDDY" target="MR. BROWN" weight="1" />
+      <edge id="14131" source="HOLDAWAY" target="FREDDY" weight="6" />
+      <edge id="14132" source="HOLDAWAY" target="JODIE" weight="2" />
+      <edge id="14133" source="SHERIFF #1" target="FREDDY" weight="1" />
+      <edge id="14134" source="SHERIFF #1" target="SHERIFF #2" weight="1" />
+      <edge id="14135" source="SHERIFF #2" target="FREDDY" weight="1" />
+      <edge id="14136" source="SHERIFF #2" target="SHERIFF #1" weight="1" />
+      <edge id="14137" source="JODIE" target="FREDDY" weight="2" />
+      <edge id="14138" source="JODIE" target="HOLDAWAY" weight="2" />
+      <edge id="14139" source="COP #1" target="COP #2" weight="1" />
+      <edge id="14140" source="COP #2" target="COP #1" weight="1" />
+      <edge id="14141" source="MR. WHITE   MR. PINK   EDDIE" target="EDDIE" weight="1" />
+      <edge id="14142" source="MR. WHITE   MR. PINK   EDDIE" target="MR. WHITE" weight="1" />
+      <edge id="14143" source="MR. WHITE   MR. PINK   EDDIE" target="MR. ORANGE" weight="1" />
+      <edge id="14144" source="MR. WHITE   MR. PINK   EDDIE" target="MR. PINK" weight="1" />
+      <edge id="14145" source="MR. WHITE   MR. PINK   EDDIE" target="VOICE" weight="1" />
+      <edge id="14146" source="MR. WHITE   MR. PINK   EDDIE" target="JOE" weight="1" />
+      <edge id="14147" source="MR. WHITE   MR. PINK   EDDIE" target="POLICE FORCE" weight="1" />
+      <edge id="14148" source="POLICE FORCE" target="EDDIE" weight="1" />
+      <edge id="14149" source="POLICE FORCE" target="MR. WHITE" weight="1" />
+      <edge id="14150" source="POLICE FORCE" target="MR. ORANGE" weight="1" />
+      <edge id="14151" source="POLICE FORCE" target="MR. PINK" weight="1" />
+      <edge id="14152" source="POLICE FORCE" target="VOICE" weight="1" />
+      <edge id="14153" source="POLICE FORCE" target="JOE" weight="1" />
+      <edge id="14154" source="POLICE FORCE" target="MR. WHITE   MR. PINK   EDDIE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

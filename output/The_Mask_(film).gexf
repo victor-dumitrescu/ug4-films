@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="OLAF" label="OLAF" />
+      <node id="LEIF ERICSON" label="LEIF ERICSON" />
+      <node id="ERICSON" label="ERICSON" />
+      <node id="LOOKOUT" label="LOOKOUT" />
+      <node id="LEIF" label="LEIF" />
+      <node id="WITCH" label="WITCH" />
+      <node id="D.J." label="D.J." />
+      <node id="CHARLIE" label="CHARLIE" />
+      <node id="STANLEY" label="STANLEY" />
+      <node id="MAGGIE" label="MAGGIE" />
+      <node id="LISA" label="LISA" />
+      <node id="TINA" label="TINA" />
+      <node id="DORIAN" label="DORIAN" />
+      <node id="DR. FREEZE" label="DR. FREEZE" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="IRV" label="IRV" />
+      <node id="BURT" label="BURT" />
+      <node id="GIRLS" label="GIRLS" />
+      <node id="BARBIE" label="BARBIE" />
+      <node id="BOBBY" label="BOBBY" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="RENO" label="RENO" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="VOICE" label="VOICE" />
+      <node id="DEATH'S HEAD" label="DEATH'S HEAD" />
+      <node id="MRS. PEENMAN" label="MRS. PEENMAN" />
+      <node id="DR. NEUMAN" label="DR. NEUMAN" />
+      <node id="LARRY KING" label="LARRY KING" />
+      <node id="THE MASK" label="THE MASK" />
+      <node id="STANLEY/MASK" label="STANLEY/MASK" />
+      <node id="MASK" label="MASK" />
+      <node id="DEATH'S HEAD #1" label="DEATH'S HEAD #1" />
+      <node id="DEATH'S HEAD #2" label="DEATH'S HEAD #2" />
+      <node id="BURT AND IRV" label="BURT AND IRV" />
+      <node id="LT. KELLAWAY" label="LT. KELLAWAY" />
+      <node id="KELLAWAY" label="KELLAWAY" />
+      <node id="PARAMEDIC #3" label="PARAMEDIC #3" />
+      <node id="KELLWAY" label="KELLWAY" />
+      <node id="PEGGY" label="PEGGY" />
+      <node id="DICKEY" label="DICKEY" />
+      <node id="SNELL" label="SNELL" />
+      <node id="SWEET EDDY" label="SWEET EDDY" />
+      <node id="FREEZE" label="FREEZE" />
+      <node id="EDDY" label="EDDY" />
+      <node id="COP" label="COP" />
+      <node id="DEPUTY OLIVERAS" label="DEPUTY OLIVERAS" />
+      <node id="MR. DICKEY" label="MR. DICKEY" />
+      <node id="STANELY" label="STANELY" />
+      <node id="LANDLORD" label="LANDLORD" />
+      <node id="THE FIGURE" label="THE FIGURE" />
+      <node id="FIGURE" label="FIGURE" />
+      <node id="SWEDE" label="SWEDE" />
+      <node id="OLIVERAS" label="OLIVERAS" />
+      <node id="MURRAY" label="MURRAY" />
+      <node id="DOYLE" label="DOYLE" />
+      <node id="BULLHORN VOICE" label="BULLHORN VOICE" />
+      <node id="FEMALE COP" label="FEMALE COP" />
+      <node id="DORIAN/MASK" label="DORIAN/MASK" />
+      <node id="THUG" label="THUG" />
+      <node id="GUARD" label="GUARD" />
+      <node id="KEY-GUARD" label="KEY-GUARD" />
+      <node id="THE SWEDE" label="THE SWEDE" />
+      <node id="ORLANDO" label="ORLANDO" />
+      <node id="TILTON" label="TILTON" />
+      <node id="MRS. PEENMAN/MASK" label="MRS. PEENMAN/MASK" />
+      <node id="MRS.PEENMAN/MASK" label="MRS.PEENMAN/MASK" />
+    </nodes>
+    <edges>
+      <edge id="23277" source="OLAF" target="LEIF ERICSON" weight="1" />
+      <edge id="23278" source="OLAF" target="ERICSON" weight="2" />
+      <edge id="23279" source="OLAF" target="LOOKOUT" weight="1" />
+      <edge id="23280" source="OLAF" target="LEIF" weight="1" />
+      <edge id="23281" source="OLAF" target="WITCH" weight="1" />
+      <edge id="23282" source="LEIF ERICSON" target="OLAF" weight="1" />
+      <edge id="23283" source="LEIF ERICSON" target="ERICSON" weight="1" />
+      <edge id="23284" source="LEIF ERICSON" target="LOOKOUT" weight="1" />
+      <edge id="23285" source="LEIF ERICSON" target="LEIF" weight="1" />
+      <edge id="23286" source="ERICSON" target="OLAF" weight="2" />
+      <edge id="23287" source="ERICSON" target="LEIF ERICSON" weight="1" />
+      <edge id="23288" source="ERICSON" target="LOOKOUT" weight="1" />
+      <edge id="23289" source="ERICSON" target="LEIF" weight="1" />
+      <edge id="23290" source="ERICSON" target="WITCH" weight="1" />
+      <edge id="23291" source="LOOKOUT" target="OLAF" weight="1" />
+      <edge id="23292" source="LOOKOUT" target="LEIF ERICSON" weight="1" />
+      <edge id="23293" source="LOOKOUT" target="ERICSON" weight="1" />
+      <edge id="23294" source="LOOKOUT" target="LEIF" weight="1" />
+      <edge id="23295" source="LEIF" target="OLAF" weight="1" />
+      <edge id="23296" source="LEIF" target="LEIF ERICSON" weight="1" />
+      <edge id="23297" source="LEIF" target="ERICSON" weight="1" />
+      <edge id="23298" source="LEIF" target="LOOKOUT" weight="1" />
+      <edge id="23299" source="WITCH" target="ERICSON" weight="1" />
+      <edge id="23300" source="WITCH" target="OLAF" weight="1" />
+      <edge id="23301" source="CHARLIE" target="STANLEY" weight="10" />
+      <edge id="23302" source="CHARLIE" target="MAGGIE" weight="1" />
+      <edge id="23303" source="CHARLIE" target="LISA" weight="1" />
+      <edge id="23304" source="CHARLIE" target="TINA" weight="4" />
+      <edge id="23305" source="CHARLIE" target="DORIAN" weight="2" />
+      <edge id="23306" source="CHARLIE" target="DR. FREEZE" weight="1" />
+      <edge id="23307" source="CHARLIE" target="DRIVER" weight="1" />
+      <edge id="23308" source="CHARLIE" target="GIRLS" weight="1" />
+      <edge id="23309" source="CHARLIE" target="BARBIE" weight="1" />
+      <edge id="23310" source="CHARLIE" target="BOBBY" weight="1" />
+      <edge id="23311" source="CHARLIE" target="DICKEY" weight="2" />
+      <edge id="23312" source="CHARLIE" target="PEGGY" weight="1" />
+      <edge id="23313" source="CHARLIE" target="DR. NEUMAN" weight="1" />
+      <edge id="23314" source="CHARLIE" target="MR. DICKEY" weight="1" />
+      <edge id="23315" source="CHARLIE" target="STANELY" weight="1" />
+      <edge id="23316" source="CHARLIE" target="MRS. PEENMAN" weight="2" />
+      <edge id="23317" source="CHARLIE" target="DORIAN/MASK" weight="1" />
+      <edge id="23318" source="CHARLIE" target="LT. KELLAWAY" weight="1" />
+      <edge id="23319" source="CHARLIE" target="MRS. PEENMAN/MASK" weight="1" />
+      <edge id="23320" source="CHARLIE" target="MRS.PEENMAN/MASK" weight="1" />
+      <edge id="23321" source="STANLEY" target="CHARLIE" weight="10" />
+      <edge id="23322" source="STANLEY" target="MAGGIE" weight="1" />
+      <edge id="23323" source="STANLEY" target="LISA" weight="1" />
+      <edge id="23324" source="STANLEY" target="TINA" weight="8" />
+      <edge id="23325" source="STANLEY" target="DORIAN" weight="5" />
+      <edge id="23326" source="STANLEY" target="DR. FREEZE" weight="1" />
+      <edge id="23327" source="STANLEY" target="DRIVER" weight="1" />
+      <edge id="23328" source="STANLEY" target="IRV" weight="1" />
+      <edge id="23329" source="STANLEY" target="BURT" weight="1" />
+      <edge id="23330" source="STANLEY" target="GIRLS" weight="1" />
+      <edge id="23331" source="STANLEY" target="BARBIE" weight="1" />
+      <edge id="23332" source="STANLEY" target="BOBBY" weight="1" />
+      <edge id="23333" source="STANLEY" target="POLICEMAN" weight="1" />
+      <edge id="23334" source="STANLEY" target="OFFICER" weight="1" />
+      <edge id="23335" source="STANLEY" target="VOICE" weight="1" />
+      <edge id="23336" source="STANLEY" target="DEATH'S HEAD" weight="1" />
+      <edge id="23337" source="STANLEY" target="MRS. PEENMAN" weight="2" />
+      <edge id="23338" source="STANLEY" target="DR. NEUMAN" weight="3" />
+      <edge id="23339" source="STANLEY" target="LARRY KING" weight="1" />
+      <edge id="23340" source="STANLEY" target="THE MASK" weight="3" />
+      <edge id="23341" source="STANLEY" target="LT. KELLAWAY" weight="4" />
+      <edge id="23342" source="STANLEY" target="KELLAWAY" weight="5" />
+      <edge id="23343" source="STANLEY" target="DICKEY" weight="2" />
+      <edge id="23344" source="STANLEY" target="PEGGY" weight="3" />
+      <edge id="23345" source="STANLEY" target="DEPUTY OLIVERAS" weight="1" />
+      <edge id="23346" source="STANLEY" target="MR. DICKEY" weight="1" />
+      <edge id="23347" source="STANLEY" target="STANELY" weight="2" />
+      <edge id="23348" source="STANLEY" target="SWEET EDDY" weight="2" />
+      <edge id="23349" source="STANLEY" target="DORIAN/MASK" weight="3" />
+      <edge id="23350" source="STANLEY" target="DOYLE" weight="1" />
+      <edge id="23351" source="STANLEY" target="GUARD" weight="1" />
+      <edge id="23352" source="STANLEY" target="KEY-GUARD" weight="1" />
+      <edge id="23353" source="STANLEY" target="SWEDE" weight="1" />
+      <edge id="23354" source="STANLEY" target="ORLANDO" weight="1" />
+      <edge id="23355" source="STANLEY" target="MRS. PEENMAN/MASK" weight="1" />
+      <edge id="23356" source="STANLEY" target="MRS.PEENMAN/MASK" weight="1" />
+      <edge id="23357" source="MAGGIE" target="CHARLIE" weight="1" />
+      <edge id="23358" source="MAGGIE" target="STANLEY" weight="1" />
+      <edge id="23359" source="MAGGIE" target="LISA" weight="1" />
+      <edge id="23360" source="LISA" target="CHARLIE" weight="1" />
+      <edge id="23361" source="LISA" target="STANLEY" weight="1" />
+      <edge id="23362" source="LISA" target="MAGGIE" weight="1" />
+      <edge id="23363" source="TINA" target="CHARLIE" weight="4" />
+      <edge id="23364" source="TINA" target="STANLEY" weight="8" />
+      <edge id="23365" source="TINA" target="DORIAN" weight="8" />
+      <edge id="23366" source="TINA" target="DR. FREEZE" weight="2" />
+      <edge id="23367" source="TINA" target="BOBBY" weight="1" />
+      <edge id="23368" source="TINA" target="RENO" weight="1" />
+      <edge id="23369" source="TINA" target="DICKEY" weight="1" />
+      <edge id="23370" source="TINA" target="DR. NEUMAN" weight="1" />
+      <edge id="23371" source="TINA" target="EDDY" weight="1" />
+      <edge id="23372" source="TINA" target="THE MASK" weight="2" />
+      <edge id="23373" source="TINA" target="MR. DICKEY" weight="1" />
+      <edge id="23374" source="TINA" target="STANELY" weight="1" />
+      <edge id="23375" source="TINA" target="KELLAWAY" weight="1" />
+      <edge id="23376" source="TINA" target="GUARD" weight="1" />
+      <edge id="23377" source="TINA" target="KEY-GUARD" weight="1" />
+      <edge id="23378" source="TINA" target="ORLANDO" weight="2" />
+      <edge id="23379" source="TINA" target="DORIAN/MASK" weight="3" />
+      <edge id="23380" source="TINA" target="SWEDE" weight="1" />
+      <edge id="23381" source="TINA" target="SWEET EDDY" weight="1" />
+      <edge id="23382" source="DORIAN" target="CHARLIE" weight="2" />
+      <edge id="23383" source="DORIAN" target="STANLEY" weight="5" />
+      <edge id="23384" source="DORIAN" target="TINA" weight="8" />
+      <edge id="23385" source="DORIAN" target="DR. FREEZE" weight="3" />
+      <edge id="23386" source="DORIAN" target="BOBBY" weight="1" />
+      <edge id="23387" source="DORIAN" target="RENO" weight="1" />
+      <edge id="23388" source="DORIAN" target="SNELL" weight="1" />
+      <edge id="23389" source="DORIAN" target="SWEET EDDY" weight="3" />
+      <edge id="23390" source="DORIAN" target="EDDY" weight="2" />
+      <edge id="23391" source="DORIAN" target="THE MASK" weight="2" />
+      <edge id="23392" source="DORIAN" target="FREEZE" weight="1" />
+      <edge id="23393" source="DORIAN" target="MASK" weight="1" />
+      <edge id="23394" source="DORIAN" target="KELLAWAY" weight="1" />
+      <edge id="23395" source="DORIAN" target="KELLWAY" weight="1" />
+      <edge id="23396" source="DORIAN" target="OFFICER" weight="1" />
+      <edge id="23397" source="DORIAN" target="SWEDE" weight="2" />
+      <edge id="23398" source="DORIAN" target="PEGGY" weight="1" />
+      <edge id="23399" source="DORIAN" target="DORIAN/MASK" weight="3" />
+      <edge id="23400" source="DORIAN" target="ORLANDO" weight="1" />
+      <edge id="23401" source="DR. FREEZE" target="CHARLIE" weight="1" />
+      <edge id="23402" source="DR. FREEZE" target="STANLEY" weight="1" />
+      <edge id="23403" source="DR. FREEZE" target="TINA" weight="2" />
+      <edge id="23404" source="DR. FREEZE" target="DORIAN" weight="3" />
+      <edge id="23405" source="DR. FREEZE" target="RENO" weight="1" />
+      <edge id="23406" source="DR. FREEZE" target="SWEET EDDY" weight="2" />
+      <edge id="23407" source="DR. FREEZE" target="FREEZE" weight="1" />
+      <edge id="23408" source="DR. FREEZE" target="MASK" weight="1" />
+      <edge id="23409" source="DRIVER" target="STANLEY" weight="1" />
+      <edge id="23410" source="DRIVER" target="CHARLIE" weight="1" />
+      <edge id="23411" source="IRV" target="STANLEY" weight="1" />
+      <edge id="23412" source="IRV" target="BURT" weight="2" />
+      <edge id="23413" source="IRV" target="MASK" weight="1" />
+      <edge id="23414" source="IRV" target="BURT AND IRV" weight="1" />
+      <edge id="23415" source="BURT" target="STANLEY" weight="1" />
+      <edge id="23416" source="BURT" target="IRV" weight="2" />
+      <edge id="23417" source="BURT" target="MASK" weight="1" />
+      <edge id="23418" source="BURT" target="BURT AND IRV" weight="1" />
+      <edge id="23419" source="GIRLS" target="STANLEY" weight="1" />
+      <edge id="23420" source="GIRLS" target="CHARLIE" weight="1" />
+      <edge id="23421" source="GIRLS" target="BARBIE" weight="1" />
+      <edge id="23422" source="BARBIE" target="STANLEY" weight="1" />
+      <edge id="23423" source="BARBIE" target="CHARLIE" weight="1" />
+      <edge id="23424" source="BARBIE" target="GIRLS" weight="1" />
+      <edge id="23425" source="BOBBY" target="CHARLIE" weight="1" />
+      <edge id="23426" source="BOBBY" target="STANLEY" weight="1" />
+      <edge id="23427" source="BOBBY" target="DORIAN" weight="1" />
+      <edge id="23428" source="BOBBY" target="TINA" weight="1" />
+      <edge id="23429" source="BOBBY" target="THE MASK" weight="1" />
+      <edge id="23430" source="POLICEMAN" target="STANLEY" weight="1" />
+      <edge id="23431" source="POLICEMAN" target="KELLAWAY" weight="1" />
+      <edge id="23432" source="POLICEMAN" target="MRS. PEENMAN" weight="1" />
+      <edge id="23433" source="POLICEMAN" target="OFFICER" weight="1" />
+      <edge id="23434" source="RENO" target="TINA" weight="1" />
+      <edge id="23435" source="RENO" target="DORIAN" weight="1" />
+      <edge id="23436" source="RENO" target="DR. FREEZE" weight="1" />
+      <edge id="23437" source="OFFICER" target="STANLEY" weight="1" />
+      <edge id="23438" source="OFFICER" target="VOICE" weight="1" />
+      <edge id="23439" source="OFFICER" target="DEATH'S HEAD" weight="1" />
+      <edge id="23440" source="OFFICER" target="KELLAWAY" weight="3" />
+      <edge id="23441" source="OFFICER" target="MRS. PEENMAN" weight="1" />
+      <edge id="23442" source="OFFICER" target="POLICEMAN" weight="1" />
+      <edge id="23443" source="OFFICER" target="BURT AND IRV" weight="1" />
+      <edge id="23444" source="OFFICER" target="PARAMEDIC #3" weight="1" />
+      <edge id="23445" source="OFFICER" target="KELLWAY" weight="2" />
+      <edge id="23446" source="OFFICER" target="PEGGY" weight="1" />
+      <edge id="23447" source="OFFICER" target="DORIAN" weight="1" />
+      <edge id="23448" source="OFFICER" target="THE MASK" weight="1" />
+      <edge id="23449" source="OFFICER" target="MASK" weight="1" />
+      <edge id="23450" source="VOICE" target="OFFICER" weight="1" />
+      <edge id="23451" source="VOICE" target="STANLEY" weight="1" />
+      <edge id="23452" source="VOICE" target="DEATH'S HEAD" weight="1" />
+      <edge id="23453" source="VOICE" target="STANLEY/MASK" weight="1" />
+      <edge id="23454" source="VOICE" target="DEATH'S HEAD #1" weight="1" />
+      <edge id="23455" source="VOICE" target="MASK" weight="1" />
+      <edge id="23456" source="VOICE" target="DEATH'S HEAD #2" weight="1" />
+      <edge id="23457" source="DEATH'S HEAD" target="OFFICER" weight="1" />
+      <edge id="23458" source="DEATH'S HEAD" target="STANLEY" weight="1" />
+      <edge id="23459" source="DEATH'S HEAD" target="VOICE" weight="1" />
+      <edge id="23460" source="MRS. PEENMAN" target="STANLEY" weight="2" />
+      <edge id="23461" source="MRS. PEENMAN" target="KELLAWAY" weight="1" />
+      <edge id="23462" source="MRS. PEENMAN" target="OFFICER" weight="1" />
+      <edge id="23463" source="MRS. PEENMAN" target="POLICEMAN" weight="1" />
+      <edge id="23464" source="MRS. PEENMAN" target="CHARLIE" weight="2" />
+      <edge id="23465" source="MRS. PEENMAN" target="DORIAN/MASK" weight="1" />
+      <edge id="23466" source="MRS. PEENMAN" target="LT. KELLAWAY" weight="1" />
+      <edge id="23467" source="MRS. PEENMAN" target="MRS. PEENMAN/MASK" weight="1" />
+      <edge id="23468" source="MRS. PEENMAN" target="MRS.PEENMAN/MASK" weight="1" />
+      <edge id="23469" source="DR. NEUMAN" target="STANLEY" weight="3" />
+      <edge id="23470" source="DR. NEUMAN" target="LARRY KING" weight="1" />
+      <edge id="23471" source="DR. NEUMAN" target="THE MASK" weight="1" />
+      <edge id="23472" source="DR. NEUMAN" target="TINA" weight="1" />
+      <edge id="23473" source="DR. NEUMAN" target="CHARLIE" weight="1" />
+      <edge id="23474" source="DR. NEUMAN" target="DICKEY" weight="1" />
+      <edge id="23475" source="DR. NEUMAN" target="STANELY" weight="1" />
+      <edge id="23476" source="LARRY KING" target="STANLEY" weight="1" />
+      <edge id="23477" source="LARRY KING" target="DR. NEUMAN" weight="1" />
+      <edge id="23478" source="LARRY KING" target="THE MASK" weight="1" />
+      <edge id="23479" source="THE MASK" target="STANLEY" weight="3" />
+      <edge id="23480" source="THE MASK" target="DR. NEUMAN" weight="1" />
+      <edge id="23481" source="THE MASK" target="LARRY KING" weight="1" />
+      <edge id="23482" source="THE MASK" target="BOBBY" weight="1" />
+      <edge id="23483" source="THE MASK" target="TINA" weight="2" />
+      <edge id="23484" source="THE MASK" target="DORIAN" weight="2" />
+      <edge id="23485" source="THE MASK" target="EDDY" weight="1" />
+      <edge id="23486" source="THE MASK" target="MASK" weight="1" />
+      <edge id="23487" source="THE MASK" target="KELLAWAY" weight="3" />
+      <edge id="23488" source="THE MASK" target="KELLWAY" weight="1" />
+      <edge id="23489" source="THE MASK" target="OFFICER" weight="1" />
+      <edge id="23490" source="THE MASK" target="DOYLE" weight="1" />
+      <edge id="23491" source="THE MASK" target="STANLEY/MASK" weight="1" />
+      <edge id="23492" source="STANLEY/MASK" target="MASK" weight="2" />
+      <edge id="23493" source="STANLEY/MASK" target="VOICE" weight="1" />
+      <edge id="23494" source="STANLEY/MASK" target="DEATH'S HEAD #1" weight="1" />
+      <edge id="23495" source="STANLEY/MASK" target="DEATH'S HEAD #2" weight="1" />
+      <edge id="23496" source="STANLEY/MASK" target="THE MASK" weight="1" />
+      <edge id="23497" source="STANLEY/MASK" target="KELLAWAY" weight="2" />
+      <edge id="23498" source="STANLEY/MASK" target="DOYLE" weight="2" />
+      <edge id="23499" source="STANLEY/MASK" target="BULLHORN VOICE" weight="1" />
+      <edge id="23500" source="STANLEY/MASK" target="FEMALE COP" weight="1" />
+      <edge id="23501" source="STANLEY/MASK" target="LT. KELLAWAY" weight="1" />
+      <edge id="23502" source="STANLEY/MASK" target="PEGGY" weight="1" />
+      <edge id="23503" source="MASK" target="STANLEY/MASK" weight="2" />
+      <edge id="23504" source="MASK" target="VOICE" weight="1" />
+      <edge id="23505" source="MASK" target="DEATH'S HEAD #1" weight="1" />
+      <edge id="23506" source="MASK" target="DEATH'S HEAD #2" weight="1" />
+      <edge id="23507" source="MASK" target="IRV" weight="1" />
+      <edge id="23508" source="MASK" target="BURT" weight="1" />
+      <edge id="23509" source="MASK" target="BURT AND IRV" weight="1" />
+      <edge id="23510" source="MASK" target="DR. FREEZE" weight="1" />
+      <edge id="23511" source="MASK" target="DORIAN" weight="1" />
+      <edge id="23512" source="MASK" target="THE MASK" weight="1" />
+      <edge id="23513" source="MASK" target="KELLAWAY" weight="1" />
+      <edge id="23514" source="MASK" target="KELLWAY" weight="1" />
+      <edge id="23515" source="MASK" target="OFFICER" weight="1" />
+      <edge id="23516" source="DEATH'S HEAD #1" target="STANLEY/MASK" weight="1" />
+      <edge id="23517" source="DEATH'S HEAD #1" target="VOICE" weight="1" />
+      <edge id="23518" source="DEATH'S HEAD #1" target="MASK" weight="1" />
+      <edge id="23519" source="DEATH'S HEAD #1" target="DEATH'S HEAD #2" weight="1" />
+      <edge id="23520" source="DEATH'S HEAD #2" target="STANLEY/MASK" weight="1" />
+      <edge id="23521" source="DEATH'S HEAD #2" target="VOICE" weight="1" />
+      <edge id="23522" source="DEATH'S HEAD #2" target="DEATH'S HEAD #1" weight="1" />
+      <edge id="23523" source="DEATH'S HEAD #2" target="MASK" weight="1" />
+      <edge id="23524" source="BURT AND IRV" target="IRV" weight="1" />
+      <edge id="23525" source="BURT AND IRV" target="BURT" weight="1" />
+      <edge id="23526" source="BURT AND IRV" target="MASK" weight="1" />
+      <edge id="23527" source="BURT AND IRV" target="PARAMEDIC #3" weight="1" />
+      <edge id="23528" source="BURT AND IRV" target="OFFICER" weight="1" />
+      <edge id="23529" source="BURT AND IRV" target="KELLAWAY" weight="1" />
+      <edge id="23530" source="BURT AND IRV" target="KELLWAY" weight="1" />
+      <edge id="23531" source="BURT AND IRV" target="PEGGY" weight="1" />
+      <edge id="23532" source="LT. KELLAWAY" target="STANLEY" weight="4" />
+      <edge id="23533" source="LT. KELLAWAY" target="KELLAWAY" weight="3" />
+      <edge id="23534" source="LT. KELLAWAY" target="DEPUTY OLIVERAS" weight="1" />
+      <edge id="23535" source="LT. KELLAWAY" target="OLIVERAS" weight="1" />
+      <edge id="23536" source="LT. KELLAWAY" target="STANLEY/MASK" weight="1" />
+      <edge id="23537" source="LT. KELLAWAY" target="PEGGY" weight="1" />
+      <edge id="23538" source="LT. KELLAWAY" target="DOYLE" weight="1" />
+      <edge id="23539" source="LT. KELLAWAY" target="CHARLIE" weight="1" />
+      <edge id="23540" source="LT. KELLAWAY" target="MRS. PEENMAN" weight="1" />
+      <edge id="23541" source="LT. KELLAWAY" target="MRS. PEENMAN/MASK" weight="1" />
+      <edge id="23542" source="LT. KELLAWAY" target="MRS.PEENMAN/MASK" weight="1" />
+      <edge id="23543" source="KELLAWAY" target="LT. KELLAWAY" weight="3" />
+      <edge id="23544" source="KELLAWAY" target="STANLEY" weight="5" />
+      <edge id="23545" source="KELLAWAY" target="MRS. PEENMAN" weight="1" />
+      <edge id="23546" source="KELLAWAY" target="OFFICER" weight="3" />
+      <edge id="23547" source="KELLAWAY" target="POLICEMAN" weight="1" />
+      <edge id="23548" source="KELLAWAY" target="BURT AND IRV" weight="1" />
+      <edge id="23549" source="KELLAWAY" target="PARAMEDIC #3" weight="1" />
+      <edge id="23550" source="KELLAWAY" target="KELLWAY" weight="2" />
+      <edge id="23551" source="KELLAWAY" target="PEGGY" weight="2" />
+      <edge id="23552" source="KELLAWAY" target="DORIAN" weight="1" />
+      <edge id="23553" source="KELLAWAY" target="THE MASK" weight="3" />
+      <edge id="23554" source="KELLAWAY" target="MASK" weight="1" />
+      <edge id="23555" source="KELLAWAY" target="COP" weight="1" />
+      <edge id="23556" source="KELLAWAY" target="DEPUTY OLIVERAS" weight="1" />
+      <edge id="23557" source="KELLAWAY" target="TINA" weight="1" />
+      <edge id="23558" source="KELLAWAY" target="DOYLE" weight="2" />
+      <edge id="23559" source="KELLAWAY" target="STANLEY/MASK" weight="2" />
+      <edge id="23560" source="PARAMEDIC #3" target="BURT AND IRV" weight="1" />
+      <edge id="23561" source="PARAMEDIC #3" target="OFFICER" weight="1" />
+      <edge id="23562" source="PARAMEDIC #3" target="KELLAWAY" weight="1" />
+      <edge id="23563" source="PARAMEDIC #3" target="KELLWAY" weight="1" />
+      <edge id="23564" source="PARAMEDIC #3" target="PEGGY" weight="1" />
+      <edge id="23565" source="KELLWAY" target="BURT AND IRV" weight="1" />
+      <edge id="23566" source="KELLWAY" target="PARAMEDIC #3" weight="1" />
+      <edge id="23567" source="KELLWAY" target="OFFICER" weight="2" />
+      <edge id="23568" source="KELLWAY" target="KELLAWAY" weight="2" />
+      <edge id="23569" source="KELLWAY" target="PEGGY" weight="1" />
+      <edge id="23570" source="KELLWAY" target="DORIAN" weight="1" />
+      <edge id="23571" source="KELLWAY" target="THE MASK" weight="1" />
+      <edge id="23572" source="KELLWAY" target="MASK" weight="1" />
+      <edge id="23573" source="PEGGY" target="BURT AND IRV" weight="1" />
+      <edge id="23574" source="PEGGY" target="PARAMEDIC #3" weight="1" />
+      <edge id="23575" source="PEGGY" target="OFFICER" weight="1" />
+      <edge id="23576" source="PEGGY" target="KELLAWAY" weight="2" />
+      <edge id="23577" source="PEGGY" target="KELLWAY" weight="1" />
+      <edge id="23578" source="PEGGY" target="CHARLIE" weight="1" />
+      <edge id="23579" source="PEGGY" target="STANLEY" weight="3" />
+      <edge id="23580" source="PEGGY" target="DICKEY" weight="1" />
+      <edge id="23581" source="PEGGY" target="LANDLORD" weight="1" />
+      <edge id="23582" source="PEGGY" target="THE FIGURE" weight="1" />
+      <edge id="23583" source="PEGGY" target="FIGURE" weight="1" />
+      <edge id="23584" source="PEGGY" target="MURRAY" weight="1" />
+      <edge id="23585" source="PEGGY" target="STANLEY/MASK" weight="1" />
+      <edge id="23586" source="PEGGY" target="LT. KELLAWAY" weight="1" />
+      <edge id="23587" source="PEGGY" target="DORIAN" weight="1" />
+      <edge id="23588" source="PEGGY" target="SWEET EDDY" weight="1" />
+      <edge id="23589" source="PEGGY" target="DORIAN/MASK" weight="1" />
+      <edge id="23590" source="DICKEY" target="CHARLIE" weight="2" />
+      <edge id="23591" source="DICKEY" target="STANLEY" weight="2" />
+      <edge id="23592" source="DICKEY" target="PEGGY" weight="1" />
+      <edge id="23593" source="DICKEY" target="TINA" weight="1" />
+      <edge id="23594" source="DICKEY" target="DR. NEUMAN" weight="1" />
+      <edge id="23595" source="SNELL" target="DORIAN" weight="1" />
+      <edge id="23596" source="SWEET EDDY" target="DR. FREEZE" weight="2" />
+      <edge id="23597" source="SWEET EDDY" target="DORIAN" weight="3" />
+      <edge id="23598" source="SWEET EDDY" target="FREEZE" weight="1" />
+      <edge id="23599" source="SWEET EDDY" target="PEGGY" weight="1" />
+      <edge id="23600" source="SWEET EDDY" target="STANLEY" weight="2" />
+      <edge id="23601" source="SWEET EDDY" target="DORIAN/MASK" weight="2" />
+      <edge id="23602" source="SWEET EDDY" target="SWEDE" weight="1" />
+      <edge id="23603" source="SWEET EDDY" target="TINA" weight="1" />
+      <edge id="23604" source="SWEET EDDY" target="ORLANDO" weight="1" />
+      <edge id="23605" source="FREEZE" target="DR. FREEZE" weight="1" />
+      <edge id="23606" source="FREEZE" target="SWEET EDDY" weight="1" />
+      <edge id="23607" source="FREEZE" target="DORIAN" weight="1" />
+      <edge id="23608" source="FREEZE" target="EDDY" weight="1" />
+      <edge id="23609" source="EDDY" target="TINA" weight="1" />
+      <edge id="23610" source="EDDY" target="DORIAN" weight="2" />
+      <edge id="23611" source="EDDY" target="THE MASK" weight="1" />
+      <edge id="23612" source="EDDY" target="FREEZE" weight="1" />
+      <edge id="23613" source="COP" target="KELLAWAY" weight="1" />
+      <edge id="23614" source="DEPUTY OLIVERAS" target="LT. KELLAWAY" weight="1" />
+      <edge id="23615" source="DEPUTY OLIVERAS" target="STANLEY" weight="1" />
+      <edge id="23616" source="DEPUTY OLIVERAS" target="KELLAWAY" weight="1" />
+      <edge id="23617" source="MR. DICKEY" target="STANLEY" weight="1" />
+      <edge id="23618" source="MR. DICKEY" target="CHARLIE" weight="1" />
+      <edge id="23619" source="MR. DICKEY" target="STANELY" weight="1" />
+      <edge id="23620" source="MR. DICKEY" target="TINA" weight="1" />
+      <edge id="23621" source="STANELY" target="MR. DICKEY" weight="1" />
+      <edge id="23622" source="STANELY" target="STANLEY" weight="2" />
+      <edge id="23623" source="STANELY" target="CHARLIE" weight="1" />
+      <edge id="23624" source="STANELY" target="TINA" weight="1" />
+      <edge id="23625" source="STANELY" target="DR. NEUMAN" weight="1" />
+      <edge id="23626" source="LANDLORD" target="PEGGY" weight="1" />
+      <edge id="23627" source="LANDLORD" target="THE FIGURE" weight="1" />
+      <edge id="23628" source="LANDLORD" target="FIGURE" weight="1" />
+      <edge id="23629" source="THE FIGURE" target="LANDLORD" weight="1" />
+      <edge id="23630" source="THE FIGURE" target="PEGGY" weight="1" />
+      <edge id="23631" source="THE FIGURE" target="FIGURE" weight="1" />
+      <edge id="23632" source="FIGURE" target="LANDLORD" weight="1" />
+      <edge id="23633" source="FIGURE" target="PEGGY" weight="1" />
+      <edge id="23634" source="FIGURE" target="THE FIGURE" weight="1" />
+      <edge id="23635" source="SWEDE" target="DORIAN" weight="2" />
+      <edge id="23636" source="SWEDE" target="DORIAN/MASK" weight="1" />
+      <edge id="23637" source="SWEDE" target="TINA" weight="1" />
+      <edge id="23638" source="SWEDE" target="STANLEY" weight="1" />
+      <edge id="23639" source="SWEDE" target="ORLANDO" weight="1" />
+      <edge id="23640" source="SWEDE" target="SWEET EDDY" weight="1" />
+      <edge id="23641" source="OLIVERAS" target="LT. KELLAWAY" weight="1" />
+      <edge id="23642" source="MURRAY" target="PEGGY" weight="1" />
+      <edge id="23643" source="DOYLE" target="THE MASK" weight="1" />
+      <edge id="23644" source="DOYLE" target="KELLAWAY" weight="2" />
+      <edge id="23645" source="DOYLE" target="STANLEY/MASK" weight="2" />
+      <edge id="23646" source="DOYLE" target="BULLHORN VOICE" weight="1" />
+      <edge id="23647" source="DOYLE" target="FEMALE COP" weight="1" />
+      <edge id="23648" source="DOYLE" target="LT. KELLAWAY" weight="1" />
+      <edge id="23649" source="DOYLE" target="STANLEY" weight="1" />
+      <edge id="23650" source="BULLHORN VOICE" target="STANLEY/MASK" weight="1" />
+      <edge id="23651" source="BULLHORN VOICE" target="FEMALE COP" weight="1" />
+      <edge id="23652" source="BULLHORN VOICE" target="DOYLE" weight="1" />
+      <edge id="23653" source="FEMALE COP" target="BULLHORN VOICE" weight="1" />
+      <edge id="23654" source="FEMALE COP" target="STANLEY/MASK" weight="1" />
+      <edge id="23655" source="FEMALE COP" target="DOYLE" weight="1" />
+      <edge id="23656" source="DORIAN/MASK" target="PEGGY" weight="1" />
+      <edge id="23657" source="DORIAN/MASK" target="STANLEY" weight="3" />
+      <edge id="23658" source="DORIAN/MASK" target="DORIAN" weight="3" />
+      <edge id="23659" source="DORIAN/MASK" target="SWEET EDDY" weight="2" />
+      <edge id="23660" source="DORIAN/MASK" target="CHARLIE" weight="1" />
+      <edge id="23661" source="DORIAN/MASK" target="MRS. PEENMAN" weight="1" />
+      <edge id="23662" source="DORIAN/MASK" target="ORLANDO" weight="2" />
+      <edge id="23663" source="DORIAN/MASK" target="TINA" weight="3" />
+      <edge id="23664" source="DORIAN/MASK" target="TILTON" weight="1" />
+      <edge id="23665" source="DORIAN/MASK" target="SWEDE" weight="1" />
+      <edge id="23666" source="GUARD" target="STANLEY" weight="1" />
+      <edge id="23667" source="GUARD" target="TINA" weight="1" />
+      <edge id="23668" source="GUARD" target="KEY-GUARD" weight="1" />
+      <edge id="23669" source="KEY-GUARD" target="GUARD" weight="1" />
+      <edge id="23670" source="KEY-GUARD" target="STANLEY" weight="1" />
+      <edge id="23671" source="KEY-GUARD" target="TINA" weight="1" />
+      <edge id="23672" source="ORLANDO" target="DORIAN/MASK" weight="2" />
+      <edge id="23673" source="ORLANDO" target="TINA" weight="2" />
+      <edge id="23674" source="ORLANDO" target="SWEDE" weight="1" />
+      <edge id="23675" source="ORLANDO" target="STANLEY" weight="1" />
+      <edge id="23676" source="ORLANDO" target="DORIAN" weight="1" />
+      <edge id="23677" source="ORLANDO" target="SWEET EDDY" weight="1" />
+      <edge id="23678" source="TILTON" target="DORIAN/MASK" weight="1" />
+      <edge id="23679" source="MRS. PEENMAN/MASK" target="STANLEY" weight="1" />
+      <edge id="23680" source="MRS. PEENMAN/MASK" target="LT. KELLAWAY" weight="1" />
+      <edge id="23681" source="MRS. PEENMAN/MASK" target="CHARLIE" weight="1" />
+      <edge id="23682" source="MRS. PEENMAN/MASK" target="MRS. PEENMAN" weight="1" />
+      <edge id="23683" source="MRS. PEENMAN/MASK" target="MRS.PEENMAN/MASK" weight="1" />
+      <edge id="23684" source="MRS.PEENMAN/MASK" target="STANLEY" weight="1" />
+      <edge id="23685" source="MRS.PEENMAN/MASK" target="LT. KELLAWAY" weight="1" />
+      <edge id="23686" source="MRS.PEENMAN/MASK" target="CHARLIE" weight="1" />
+      <edge id="23687" source="MRS.PEENMAN/MASK" target="MRS. PEENMAN" weight="1" />
+      <edge id="23688" source="MRS.PEENMAN/MASK" target="MRS. PEENMAN/MASK" weight="1" />
+    </edges>
+  </graph>
+</gexf>

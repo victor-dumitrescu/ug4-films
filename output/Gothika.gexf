@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MIRANDA" label="MIRANDA" />
+      <node id="CHLOE" label="CHLOE" />
+      <node id="PETE" label="PETE" />
+      <node id="PARSONS" label="PARSONS" />
+      <node id="SHERIFF RYAN" label="SHERIFF RYAN" />
+      <node id="ORDERLY #1" label="ORDERLY #1" />
+      <node id="DOUG" label="DOUG" />
+      <node id="IRENE" label="IRENE" />
+      <node id="JENNA" label="JENNA" />
+      <node id="SHELLEY" label="SHELLEY" />
+      <node id="CONSUELO" label="CONSUELO" />
+      <node id="TEDDY HOWARD" label="TEDDY HOWARD" />
+      <node id="JANITOR" label="JANITOR" />
+      <node id="CLAIRE" label="CLAIRE" />
+      <node id="SIMON" label="SIMON" />
+      <node id="RADIO DJ" label="RADIO DJ" />
+      <node id="OFFICER TURLINGTON" label="OFFICER TURLINGTON" />
+      <node id="DOROTHY" label="DOROTHY" />
+      <node id="OFFICER #1" label="OFFICER #1" />
+      <node id="GUARD #1" label="GUARD #1" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="HOSPITAL LOUDSPEAKER" label="HOSPITAL LOUDSPEAKER" />
+      <node id="NURSE #1" label="NURSE #1" />
+      <node id="TRACY SEAVER" label="TRACY SEAVER" />
+      <node id="FRONT DESK OFFICER" label="FRONT DESK OFFICER" />
+    </nodes>
+    <edges>
+      <edge id="8787" source="MIRANDA" target="CHLOE" weight="6" />
+      <edge id="8788" source="MIRANDA" target="PETE" weight="19" />
+      <edge id="8789" source="MIRANDA" target="PARSONS" weight="4" />
+      <edge id="8790" source="MIRANDA" target="SHERIFF RYAN" weight="6" />
+      <edge id="8791" source="MIRANDA" target="DOUG" weight="1" />
+      <edge id="8792" source="MIRANDA" target="IRENE" weight="7" />
+      <edge id="8793" source="MIRANDA" target="JENNA" weight="4" />
+      <edge id="8794" source="MIRANDA" target="SHELLEY" weight="5" />
+      <edge id="8795" source="MIRANDA" target="CONSUELO" weight="3" />
+      <edge id="8796" source="MIRANDA" target="TEDDY HOWARD" weight="1" />
+      <edge id="8797" source="MIRANDA" target="SIMON" weight="1" />
+      <edge id="8798" source="MIRANDA" target="OFFICER TURLINGTON" weight="4" />
+      <edge id="8799" source="MIRANDA" target="DOROTHY" weight="1" />
+      <edge id="8800" source="MIRANDA" target="ORDERLY #1" weight="1" />
+      <edge id="8801" source="MIRANDA" target="OFFICER" weight="1" />
+      <edge id="8802" source="CHLOE" target="MIRANDA" weight="6" />
+      <edge id="8803" source="CHLOE" target="JENNA" weight="3" />
+      <edge id="8804" source="CHLOE" target="SHELLEY" weight="2" />
+      <edge id="8805" source="CHLOE" target="PARSONS" weight="1" />
+      <edge id="8806" source="CHLOE" target="IRENE" weight="1" />
+      <edge id="8807" source="CHLOE" target="CONSUELO" weight="1" />
+      <edge id="8808" source="CHLOE" target="SHERIFF RYAN" weight="1" />
+      <edge id="8809" source="CHLOE" target="PETE" weight="2" />
+      <edge id="8810" source="PETE" target="MIRANDA" weight="19" />
+      <edge id="8811" source="PETE" target="PARSONS" weight="7" />
+      <edge id="8812" source="PETE" target="IRENE" weight="3" />
+      <edge id="8813" source="PETE" target="SHERIFF RYAN" weight="3" />
+      <edge id="8814" source="PETE" target="TEDDY HOWARD" weight="2" />
+      <edge id="8815" source="PETE" target="OFFICER #1" weight="1" />
+      <edge id="8816" source="PETE" target="ORDERLY #1" weight="1" />
+      <edge id="8817" source="PETE" target="JENNA" weight="1" />
+      <edge id="8818" source="PETE" target="OFFICER TURLINGTON" weight="3" />
+      <edge id="8819" source="PETE" target="CHLOE" weight="2" />
+      <edge id="8820" source="PETE" target="DOCTOR" weight="1" />
+      <edge id="8821" source="PETE" target="TRACY SEAVER" weight="1" />
+      <edge id="8822" source="PETE" target="FRONT DESK OFFICER" weight="1" />
+      <edge id="8823" source="PARSONS" target="PETE" weight="7" />
+      <edge id="8824" source="PARSONS" target="MIRANDA" weight="4" />
+      <edge id="8825" source="PARSONS" target="IRENE" weight="4" />
+      <edge id="8826" source="PARSONS" target="JENNA" weight="2" />
+      <edge id="8827" source="PARSONS" target="CHLOE" weight="1" />
+      <edge id="8828" source="PARSONS" target="CONSUELO" weight="1" />
+      <edge id="8829" source="PARSONS" target="SHERIFF RYAN" weight="2" />
+      <edge id="8830" source="PARSONS" target="TEDDY HOWARD" weight="2" />
+      <edge id="8831" source="PARSONS" target="DOROTHY" weight="1" />
+      <edge id="8832" source="PARSONS" target="OFFICER TURLINGTON" weight="2" />
+      <edge id="8833" source="PARSONS" target="FRONT DESK OFFICER" weight="1" />
+      <edge id="8834" source="SHERIFF RYAN" target="MIRANDA" weight="6" />
+      <edge id="8835" source="SHERIFF RYAN" target="TEDDY HOWARD" weight="2" />
+      <edge id="8836" source="SHERIFF RYAN" target="PARSONS" weight="2" />
+      <edge id="8837" source="SHERIFF RYAN" target="PETE" weight="3" />
+      <edge id="8838" source="SHERIFF RYAN" target="CHLOE" weight="1" />
+      <edge id="8839" source="ORDERLY #1" target="PETE" weight="1" />
+      <edge id="8840" source="ORDERLY #1" target="MIRANDA" weight="1" />
+      <edge id="8841" source="DOUG" target="MIRANDA" weight="1" />
+      <edge id="8842" source="IRENE" target="MIRANDA" weight="7" />
+      <edge id="8843" source="IRENE" target="SHELLEY" weight="1" />
+      <edge id="8844" source="IRENE" target="PARSONS" weight="4" />
+      <edge id="8845" source="IRENE" target="JENNA" weight="2" />
+      <edge id="8846" source="IRENE" target="CHLOE" weight="1" />
+      <edge id="8847" source="IRENE" target="CONSUELO" weight="1" />
+      <edge id="8848" source="IRENE" target="TEDDY HOWARD" weight="1" />
+      <edge id="8849" source="IRENE" target="PETE" weight="3" />
+      <edge id="8850" source="IRENE" target="OFFICER #1" weight="1" />
+      <edge id="8851" source="IRENE" target="OFFICER TURLINGTON" weight="2" />
+      <edge id="8852" source="JENNA" target="CHLOE" weight="3" />
+      <edge id="8853" source="JENNA" target="SHELLEY" weight="2" />
+      <edge id="8854" source="JENNA" target="MIRANDA" weight="4" />
+      <edge id="8855" source="JENNA" target="PARSONS" weight="2" />
+      <edge id="8856" source="JENNA" target="IRENE" weight="2" />
+      <edge id="8857" source="JENNA" target="CONSUELO" weight="1" />
+      <edge id="8858" source="JENNA" target="PETE" weight="1" />
+      <edge id="8859" source="JENNA" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8860" source="SHELLEY" target="CHLOE" weight="2" />
+      <edge id="8861" source="SHELLEY" target="JENNA" weight="2" />
+      <edge id="8862" source="SHELLEY" target="MIRANDA" weight="5" />
+      <edge id="8863" source="SHELLEY" target="IRENE" weight="1" />
+      <edge id="8864" source="SHELLEY" target="OFFICER" weight="1" />
+      <edge id="8865" source="SHELLEY" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8866" source="CONSUELO" target="JENNA" weight="1" />
+      <edge id="8867" source="CONSUELO" target="MIRANDA" weight="3" />
+      <edge id="8868" source="CONSUELO" target="PARSONS" weight="1" />
+      <edge id="8869" source="CONSUELO" target="IRENE" weight="1" />
+      <edge id="8870" source="CONSUELO" target="CHLOE" weight="1" />
+      <edge id="8871" source="TEDDY HOWARD" target="IRENE" weight="1" />
+      <edge id="8872" source="TEDDY HOWARD" target="MIRANDA" weight="1" />
+      <edge id="8873" source="TEDDY HOWARD" target="SHERIFF RYAN" weight="2" />
+      <edge id="8874" source="TEDDY HOWARD" target="PARSONS" weight="2" />
+      <edge id="8875" source="TEDDY HOWARD" target="PETE" weight="2" />
+      <edge id="8876" source="TEDDY HOWARD" target="FRONT DESK OFFICER" weight="1" />
+      <edge id="8877" source="TEDDY HOWARD" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8878" source="CLAIRE" target="SIMON" weight="2" />
+      <edge id="8879" source="SIMON" target="CLAIRE" weight="2" />
+      <edge id="8880" source="SIMON" target="MIRANDA" weight="1" />
+      <edge id="8881" source="OFFICER TURLINGTON" target="MIRANDA" weight="4" />
+      <edge id="8882" source="OFFICER TURLINGTON" target="GUARD #1" weight="1" />
+      <edge id="8883" source="OFFICER TURLINGTON" target="IRENE" weight="2" />
+      <edge id="8884" source="OFFICER TURLINGTON" target="OFFICER" weight="1" />
+      <edge id="8885" source="OFFICER TURLINGTON" target="SHELLEY" weight="1" />
+      <edge id="8886" source="OFFICER TURLINGTON" target="JENNA" weight="1" />
+      <edge id="8887" source="OFFICER TURLINGTON" target="PETE" weight="3" />
+      <edge id="8888" source="OFFICER TURLINGTON" target="PARSONS" weight="2" />
+      <edge id="8889" source="OFFICER TURLINGTON" target="FRONT DESK OFFICER" weight="1" />
+      <edge id="8890" source="OFFICER TURLINGTON" target="TEDDY HOWARD" weight="1" />
+      <edge id="8891" source="DOROTHY" target="MIRANDA" weight="1" />
+      <edge id="8892" source="DOROTHY" target="PARSONS" weight="1" />
+      <edge id="8893" source="OFFICER #1" target="PETE" weight="1" />
+      <edge id="8894" source="OFFICER #1" target="IRENE" weight="1" />
+      <edge id="8895" source="GUARD #1" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8896" source="OFFICER" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8897" source="OFFICER" target="MIRANDA" weight="1" />
+      <edge id="8898" source="OFFICER" target="SHELLEY" weight="1" />
+      <edge id="8899" source="DOCTOR" target="PETE" weight="1" />
+      <edge id="8900" source="DOCTOR" target="HOSPITAL LOUDSPEAKER" weight="1" />
+      <edge id="8901" source="DOCTOR" target="NURSE #1" weight="1" />
+      <edge id="8902" source="HOSPITAL LOUDSPEAKER" target="DOCTOR" weight="1" />
+      <edge id="8903" source="NURSE #1" target="DOCTOR" weight="1" />
+      <edge id="8904" source="TRACY SEAVER" target="PETE" weight="1" />
+      <edge id="8905" source="FRONT DESK OFFICER" target="PETE" weight="1" />
+      <edge id="8906" source="FRONT DESK OFFICER" target="OFFICER TURLINGTON" weight="1" />
+      <edge id="8907" source="FRONT DESK OFFICER" target="TEDDY HOWARD" weight="1" />
+      <edge id="8908" source="FRONT DESK OFFICER" target="PARSONS" weight="1" />
+    </edges>
+  </graph>
+</gexf>

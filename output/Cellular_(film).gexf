@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="WOMAN" label="WOMAN" />
+      <node id="JESSICA" label="JESSICA" />
+      <node id="ROSARIO" label="ROSARIO" />
+      <node id="MALE VOICE" label="MALE VOICE" />
+      <node id="LEAD GUNMAN" label="LEAD GUNMAN" />
+      <node id="CRAIG" label="CRAIG" />
+      <node id="RYAN" label="RYAN" />
+      <node id="CHAD" label="CHAD" />
+      <node id="KID" label="KID" />
+      <node id="CHLOE" label="CHLOE" />
+      <node id="TELEMARKETER" label="TELEMARKETER" />
+      <node id="ROOKIE OFFICER" label="ROOKIE OFFICER" />
+      <node id="GANGBANGER" label="GANGBANGER" />
+      <node id="MOONEY" label="MOONEY" />
+      <node id="NEWS REPORTER" label="NEWS REPORTER" />
+      <node id="DETECTIVE TOMLIN" label="DETECTIVE TOMLIN" />
+      <node id="FEMALE OFFICER" label="FEMALE OFFICER" />
+      <node id="CRACKHEAD TRANNIE" label="CRACKHEAD TRANNIE" />
+      <node id="CREWCUT OFFICER" label="CREWCUT OFFICER" />
+      <node id="LEAD KIDNAPPER" label="LEAD KIDNAPPER" />
+      <node id="GREEK" label="GREEK" />
+      <node id="TIMID BOY" label="TIMID BOY" />
+      <node id="GYM TEACHER" label="GYM TEACHER" />
+      <node id="RENT-A-COP #1" label="RENT-A-COP #1" />
+      <node id="RENT-A-COPS" label="RENT-A-COPS" />
+      <node id="ELLIS" label="ELLIS" />
+      <node id="RICKY" label="RICKY" />
+      <node id="DEASON" label="DEASON" />
+      <node id="COP ONE" label="COP ONE" />
+      <node id="COP TWO" label="COP TWO" />
+      <node id="DEEP MALE VOICE" label="DEEP MALE VOICE" />
+      <node id="IRATE CUSTOMERS" label="IRATE CUSTOMERS" />
+      <node id="OVERLY-PERKY SALESMAN" label="OVERLY-PERKY SALESMAN" />
+      <node id="EASILY-EXCITABLE CUSTOMER" label="EASILY-EXCITABLE CUSTOMER" />
+      <node id="BUSY SALESWOMAN" label="BUSY SALESWOMAN" />
+      <node id="BUSY SALESMAN" label="BUSY SALESMAN" />
+      <node id="SALESWOMAN" label="SALESWOMAN" />
+      <node id="GREER" label="GREER" />
+      <node id="HODGES" label="HODGES" />
+      <node id="RAP TUNE" label="RAP TUNE" />
+      <node id="ESSICA" label="ESSICA" />
+      <node id="ATTRACTIVE WOMAN" label="ATTRACTIVE WOMAN" />
+      <node id="ATTRACTIVE   WOMAN" label="ATTRACTIVE   WOMAN" />
+      <node id="BRITISH ASSHOLE" label="BRITISH ASSHOLE" />
+      <node id="SIMON COWELL" label="SIMON COWELL" />
+      <node id="TRAFFIC COP" label="TRAFFIC COP" />
+      <node id="DETECTOR OPERATOR" label="DETECTOR OPERATOR" />
+      <node id="SECURITY GUARDS" label="SECURITY GUARDS" />
+      <node id="TENSE GUARD" label="TENSE GUARD" />
+      <node id="PUBLIC ADDRESS SYSTEM" label="PUBLIC ADDRESS SYSTEM" />
+      <node id="VOICE" label="VOICE" />
+      <node id="NATIONAL GUARDSMAN" label="NATIONAL GUARDSMAN" />
+      <node id="YOUNG GUARDSMAN" label="YOUNG GUARDSMAN" />
+      <node id="SUPERIOR OFFICER" label="SUPERIOR OFFICER" />
+      <node id="MARILYN" label="MARILYN" />
+      <node id="NEWS ANCHOR" label="NEWS ANCHOR" />
+      <node id="OPERATOR" label="OPERATOR" />
+      <node id="JESSICA'S VOICE" label="JESSICA'S VOICE" />
+      <node id="MAILROOM SUPERVISOR" label="MAILROOM SUPERVISOR" />
+      <node id="MAIL CLERK" label="MAIL CLERK" />
+      <node id="SECURITY GUARD" label="SECURITY GUARD" />
+      <node id="GUARD" label="GUARD" />
+      <node id="COPS" label="COPS" />
+      <node id="BAYBACK" label="BAYBACK" />
+      <node id="PARAMEDIC #1" label="PARAMEDIC #1" />
+      <node id="JADED CASHIER" label="JADED CASHIER" />
+      <node id="TOMLIN" label="TOMLIN" />
+      <node id="ENVIOUS COLLEGE KID" label="ENVIOUS COLLEGE KID" />
+      <node id="FEMALE VOICE" label="FEMALE VOICE" />
+      <node id="CROWD GOER" label="CROWD GOER" />
+    </nodes>
+    <edges>
+      <edge id="3429" source="WOMAN" target="JESSICA" weight="1" />
+      <edge id="3430" source="WOMAN" target="ROSARIO" weight="1" />
+      <edge id="3431" source="WOMAN" target="MALE VOICE" weight="1" />
+      <edge id="3432" source="WOMAN" target="LEAD GUNMAN" weight="1" />
+      <edge id="3433" source="WOMAN" target="CRAIG" weight="1" />
+      <edge id="3434" source="JESSICA" target="WOMAN" weight="1" />
+      <edge id="3435" source="JESSICA" target="ROSARIO" weight="1" />
+      <edge id="3436" source="JESSICA" target="MALE VOICE" weight="2" />
+      <edge id="3437" source="JESSICA" target="LEAD GUNMAN" weight="1" />
+      <edge id="3438" source="JESSICA" target="CRAIG" weight="5" />
+      <edge id="3439" source="JESSICA" target="RYAN" weight="28" />
+      <edge id="3440" source="JESSICA" target="TELEMARKETER" weight="1" />
+      <edge id="3441" source="JESSICA" target="MOONEY" weight="3" />
+      <edge id="3442" source="JESSICA" target="LEAD KIDNAPPER" weight="2" />
+      <edge id="3443" source="JESSICA" target="TIMID BOY" weight="1" />
+      <edge id="3444" source="JESSICA" target="GYM TEACHER" weight="1" />
+      <edge id="3445" source="JESSICA" target="RENT-A-COP #1" weight="1" />
+      <edge id="3446" source="JESSICA" target="RENT-A-COPS" weight="1" />
+      <edge id="3447" source="JESSICA" target="GREEK" weight="8" />
+      <edge id="3448" source="JESSICA" target="GREER" weight="10" />
+      <edge id="3449" source="JESSICA" target="RAP TUNE" weight="1" />
+      <edge id="3450" source="JESSICA" target="BRITISH ASSHOLE" weight="1" />
+      <edge id="3451" source="JESSICA" target="SIMON COWELL" weight="1" />
+      <edge id="3452" source="JESSICA" target="TRAFFIC COP" weight="1" />
+      <edge id="3453" source="JESSICA" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3454" source="JESSICA" target="VOICE" weight="1" />
+      <edge id="3455" source="JESSICA" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3456" source="JESSICA" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3457" source="JESSICA" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3458" source="JESSICA" target="HODGES" weight="1" />
+      <edge id="3459" source="JESSICA" target="DEASON" weight="1" />
+      <edge id="3460" source="JESSICA" target="RICKY" weight="4" />
+      <edge id="3461" source="JESSICA" target="ELLIS" weight="3" />
+      <edge id="3462" source="JESSICA" target="NEWS ANCHOR" weight="1" />
+      <edge id="3463" source="JESSICA" target="CHLOE" weight="1" />
+      <edge id="3464" source="ROSARIO" target="WOMAN" weight="1" />
+      <edge id="3465" source="ROSARIO" target="JESSICA" weight="1" />
+      <edge id="3466" source="ROSARIO" target="MALE VOICE" weight="1" />
+      <edge id="3467" source="ROSARIO" target="LEAD GUNMAN" weight="1" />
+      <edge id="3468" source="ROSARIO" target="CRAIG" weight="1" />
+      <edge id="3469" source="MALE VOICE" target="WOMAN" weight="1" />
+      <edge id="3470" source="MALE VOICE" target="JESSICA" weight="2" />
+      <edge id="3471" source="MALE VOICE" target="ROSARIO" weight="1" />
+      <edge id="3472" source="MALE VOICE" target="LEAD GUNMAN" weight="1" />
+      <edge id="3473" source="MALE VOICE" target="CRAIG" weight="1" />
+      <edge id="3474" source="MALE VOICE" target="RYAN" weight="2" />
+      <edge id="3475" source="MALE VOICE" target="TIMID BOY" weight="1" />
+      <edge id="3476" source="MALE VOICE" target="GYM TEACHER" weight="1" />
+      <edge id="3477" source="MALE VOICE" target="RENT-A-COP #1" weight="1" />
+      <edge id="3478" source="MALE VOICE" target="RENT-A-COPS" weight="1" />
+      <edge id="3479" source="LEAD GUNMAN" target="WOMAN" weight="1" />
+      <edge id="3480" source="LEAD GUNMAN" target="JESSICA" weight="1" />
+      <edge id="3481" source="LEAD GUNMAN" target="ROSARIO" weight="1" />
+      <edge id="3482" source="LEAD GUNMAN" target="MALE VOICE" weight="1" />
+      <edge id="3483" source="LEAD GUNMAN" target="CRAIG" weight="1" />
+      <edge id="3484" source="CRAIG" target="WOMAN" weight="1" />
+      <edge id="3485" source="CRAIG" target="JESSICA" weight="5" />
+      <edge id="3486" source="CRAIG" target="ROSARIO" weight="1" />
+      <edge id="3487" source="CRAIG" target="MALE VOICE" weight="1" />
+      <edge id="3488" source="CRAIG" target="LEAD GUNMAN" weight="1" />
+      <edge id="3489" source="CRAIG" target="RYAN" weight="5" />
+      <edge id="3490" source="CRAIG" target="GREEK" weight="3" />
+      <edge id="3491" source="CRAIG" target="GREER" weight="5" />
+      <edge id="3492" source="CRAIG" target="MARILYN" weight="1" />
+      <edge id="3493" source="CRAIG" target="MOONEY" weight="1" />
+      <edge id="3494" source="CRAIG" target="HODGES" weight="2" />
+      <edge id="3495" source="CRAIG" target="MAILROOM SUPERVISOR" weight="2" />
+      <edge id="3496" source="CRAIG" target="MAIL CLERK" weight="1" />
+      <edge id="3497" source="CRAIG" target="SECURITY GUARD" weight="1" />
+      <edge id="3498" source="RYAN" target="CHAD" weight="1" />
+      <edge id="3499" source="RYAN" target="KID" weight="1" />
+      <edge id="3500" source="RYAN" target="CHLOE" weight="5" />
+      <edge id="3501" source="RYAN" target="JESSICA" weight="28" />
+      <edge id="3502" source="RYAN" target="TELEMARKETER" weight="2" />
+      <edge id="3503" source="RYAN" target="CRACKHEAD TRANNIE" weight="1" />
+      <edge id="3504" source="RYAN" target="CREWCUT OFFICER" weight="1" />
+      <edge id="3505" source="RYAN" target="MOONEY" weight="5" />
+      <edge id="3506" source="RYAN" target="LEAD KIDNAPPER" weight="2" />
+      <edge id="3507" source="RYAN" target="TIMID BOY" weight="1" />
+      <edge id="3508" source="RYAN" target="MALE VOICE" weight="2" />
+      <edge id="3509" source="RYAN" target="GYM TEACHER" weight="1" />
+      <edge id="3510" source="RYAN" target="RENT-A-COP #1" weight="1" />
+      <edge id="3511" source="RYAN" target="RENT-A-COPS" weight="1" />
+      <edge id="3512" source="RYAN" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3513" source="RYAN" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3514" source="RYAN" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3515" source="RYAN" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3516" source="RYAN" target="BUSY SALESMAN" weight="1" />
+      <edge id="3517" source="RYAN" target="SALESWOMAN" weight="1" />
+      <edge id="3518" source="RYAN" target="GREEK" weight="7" />
+      <edge id="3519" source="RYAN" target="GREER" weight="13" />
+      <edge id="3520" source="RYAN" target="RAP TUNE" weight="1" />
+      <edge id="3521" source="RYAN" target="BRITISH ASSHOLE" weight="1" />
+      <edge id="3522" source="RYAN" target="SIMON COWELL" weight="1" />
+      <edge id="3523" source="RYAN" target="TRAFFIC COP" weight="1" />
+      <edge id="3524" source="RYAN" target="DETECTOR OPERATOR" weight="1" />
+      <edge id="3525" source="RYAN" target="SECURITY GUARDS" weight="1" />
+      <edge id="3526" source="RYAN" target="ELLIS" weight="2" />
+      <edge id="3527" source="RYAN" target="TENSE GUARD" weight="1" />
+      <edge id="3528" source="RYAN" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3529" source="RYAN" target="VOICE" weight="1" />
+      <edge id="3530" source="RYAN" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3531" source="RYAN" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3532" source="RYAN" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3533" source="RYAN" target="CRAIG" weight="5" />
+      <edge id="3534" source="RYAN" target="MAILROOM SUPERVISOR" weight="1" />
+      <edge id="3535" source="RYAN" target="MAIL CLERK" weight="2" />
+      <edge id="3536" source="RYAN" target="SECURITY GUARD" weight="1" />
+      <edge id="3537" source="RYAN" target="RICKY" weight="1" />
+      <edge id="3538" source="RYAN" target="ENVIOUS COLLEGE KID" weight="1" />
+      <edge id="3539" source="RYAN" target="HODGES" weight="1" />
+      <edge id="3540" source="RYAN" target="FEMALE VOICE" weight="1" />
+      <edge id="3541" source="RYAN" target="TOMLIN" weight="2" />
+      <edge id="3542" source="RYAN" target="CROWD GOER" weight="1" />
+      <edge id="3543" source="RYAN" target="NEWS ANCHOR" weight="1" />
+      <edge id="3544" source="CHAD" target="RYAN" weight="1" />
+      <edge id="3545" source="CHAD" target="KID" weight="1" />
+      <edge id="3546" source="CHAD" target="CHLOE" weight="1" />
+      <edge id="3547" source="KID" target="RYAN" weight="1" />
+      <edge id="3548" source="KID" target="CHAD" weight="1" />
+      <edge id="3549" source="KID" target="CHLOE" weight="1" />
+      <edge id="3550" source="CHLOE" target="RYAN" weight="5" />
+      <edge id="3551" source="CHLOE" target="CHAD" weight="1" />
+      <edge id="3552" source="CHLOE" target="KID" weight="1" />
+      <edge id="3553" source="CHLOE" target="GREER" weight="2" />
+      <edge id="3554" source="CHLOE" target="FEMALE VOICE" weight="1" />
+      <edge id="3555" source="CHLOE" target="MOONEY" weight="3" />
+      <edge id="3556" source="CHLOE" target="TOMLIN" weight="1" />
+      <edge id="3557" source="CHLOE" target="CROWD GOER" weight="1" />
+      <edge id="3558" source="CHLOE" target="NEWS ANCHOR" weight="1" />
+      <edge id="3559" source="CHLOE" target="JESSICA" weight="1" />
+      <edge id="3560" source="TELEMARKETER" target="RYAN" weight="2" />
+      <edge id="3561" source="TELEMARKETER" target="JESSICA" weight="1" />
+      <edge id="3562" source="ROOKIE OFFICER" target="GANGBANGER" weight="1" />
+      <edge id="3563" source="ROOKIE OFFICER" target="MOONEY" weight="1" />
+      <edge id="3564" source="GANGBANGER" target="ROOKIE OFFICER" weight="1" />
+      <edge id="3565" source="GANGBANGER" target="MOONEY" weight="1" />
+      <edge id="3566" source="MOONEY" target="ROOKIE OFFICER" weight="1" />
+      <edge id="3567" source="MOONEY" target="GANGBANGER" weight="1" />
+      <edge id="3568" source="MOONEY" target="DETECTIVE TOMLIN" weight="3" />
+      <edge id="3569" source="MOONEY" target="FEMALE OFFICER" weight="1" />
+      <edge id="3570" source="MOONEY" target="RYAN" weight="5" />
+      <edge id="3571" source="MOONEY" target="CRACKHEAD TRANNIE" weight="1" />
+      <edge id="3572" source="MOONEY" target="CREWCUT OFFICER" weight="1" />
+      <edge id="3573" source="MOONEY" target="JESSICA" weight="3" />
+      <edge id="3574" source="MOONEY" target="COP ONE" weight="1" />
+      <edge id="3575" source="MOONEY" target="COP TWO" weight="1" />
+      <edge id="3576" source="MOONEY" target="DEEP MALE VOICE" weight="2" />
+      <edge id="3577" source="MOONEY" target="ATTRACTIVE WOMAN" weight="1" />
+      <edge id="3578" source="MOONEY" target="CRAIG" weight="1" />
+      <edge id="3579" source="MOONEY" target="GREER" weight="5" />
+      <edge id="3580" source="MOONEY" target="MARILYN" weight="2" />
+      <edge id="3581" source="MOONEY" target="NEWS ANCHOR" weight="1" />
+      <edge id="3582" source="MOONEY" target="OPERATOR" weight="1" />
+      <edge id="3583" source="MOONEY" target="JESSICA'S VOICE" weight="1" />
+      <edge id="3584" source="MOONEY" target="BAYBACK" weight="1" />
+      <edge id="3585" source="MOONEY" target="PARAMEDIC #1" weight="2" />
+      <edge id="3586" source="MOONEY" target="TOMLIN" weight="3" />
+      <edge id="3587" source="MOONEY" target="CHLOE" weight="3" />
+      <edge id="3588" source="MOONEY" target="CROWD GOER" weight="1" />
+      <edge id="3589" source="MOONEY" target="ELLIS" weight="1" />
+      <edge id="3590" source="MOONEY" target="GREEK" weight="1" />
+      <edge id="3591" source="DETECTIVE TOMLIN" target="MOONEY" weight="3" />
+      <edge id="3592" source="DETECTIVE TOMLIN" target="FEMALE OFFICER" weight="1" />
+      <edge id="3593" source="DETECTIVE TOMLIN" target="COP ONE" weight="1" />
+      <edge id="3594" source="DETECTIVE TOMLIN" target="COP TWO" weight="1" />
+      <edge id="3595" source="DETECTIVE TOMLIN" target="DEEP MALE VOICE" weight="2" />
+      <edge id="3596" source="DETECTIVE TOMLIN" target="ATTRACTIVE WOMAN" weight="1" />
+      <edge id="3597" source="DETECTIVE TOMLIN" target="ATTRACTIVE   WOMAN" weight="1" />
+      <edge id="3598" source="DETECTIVE TOMLIN" target="PARAMEDIC #1" weight="1" />
+      <edge id="3599" source="FEMALE OFFICER" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3600" source="FEMALE OFFICER" target="MOONEY" weight="1" />
+      <edge id="3601" source="CRACKHEAD TRANNIE" target="RYAN" weight="1" />
+      <edge id="3602" source="CRACKHEAD TRANNIE" target="CREWCUT OFFICER" weight="1" />
+      <edge id="3603" source="CRACKHEAD TRANNIE" target="MOONEY" weight="1" />
+      <edge id="3604" source="CREWCUT OFFICER" target="RYAN" weight="1" />
+      <edge id="3605" source="CREWCUT OFFICER" target="CRACKHEAD TRANNIE" weight="1" />
+      <edge id="3606" source="CREWCUT OFFICER" target="MOONEY" weight="1" />
+      <edge id="3607" source="LEAD KIDNAPPER" target="RYAN" weight="2" />
+      <edge id="3608" source="LEAD KIDNAPPER" target="JESSICA" weight="2" />
+      <edge id="3609" source="GREEK" target="RYAN" weight="7" />
+      <edge id="3610" source="GREEK" target="JESSICA" weight="8" />
+      <edge id="3611" source="GREEK" target="GREER" weight="11" />
+      <edge id="3612" source="GREEK" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3613" source="GREEK" target="VOICE" weight="1" />
+      <edge id="3614" source="GREEK" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3615" source="GREEK" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3616" source="GREEK" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3617" source="GREEK" target="ELLIS" weight="2" />
+      <edge id="3618" source="GREEK" target="CRAIG" weight="3" />
+      <edge id="3619" source="GREEK" target="HODGES" weight="1" />
+      <edge id="3620" source="GREEK" target="RICKY" weight="1" />
+      <edge id="3621" source="GREEK" target="MOONEY" weight="1" />
+      <edge id="3622" source="TIMID BOY" target="RYAN" weight="1" />
+      <edge id="3623" source="TIMID BOY" target="JESSICA" weight="1" />
+      <edge id="3624" source="TIMID BOY" target="MALE VOICE" weight="1" />
+      <edge id="3625" source="TIMID BOY" target="GYM TEACHER" weight="1" />
+      <edge id="3626" source="TIMID BOY" target="RENT-A-COP #1" weight="1" />
+      <edge id="3627" source="TIMID BOY" target="RENT-A-COPS" weight="1" />
+      <edge id="3628" source="GYM TEACHER" target="RYAN" weight="1" />
+      <edge id="3629" source="GYM TEACHER" target="JESSICA" weight="1" />
+      <edge id="3630" source="GYM TEACHER" target="TIMID BOY" weight="1" />
+      <edge id="3631" source="GYM TEACHER" target="MALE VOICE" weight="1" />
+      <edge id="3632" source="GYM TEACHER" target="RENT-A-COP #1" weight="1" />
+      <edge id="3633" source="GYM TEACHER" target="RENT-A-COPS" weight="1" />
+      <edge id="3634" source="RENT-A-COP #1" target="RYAN" weight="1" />
+      <edge id="3635" source="RENT-A-COP #1" target="JESSICA" weight="1" />
+      <edge id="3636" source="RENT-A-COP #1" target="TIMID BOY" weight="1" />
+      <edge id="3637" source="RENT-A-COP #1" target="MALE VOICE" weight="1" />
+      <edge id="3638" source="RENT-A-COP #1" target="GYM TEACHER" weight="1" />
+      <edge id="3639" source="RENT-A-COP #1" target="RENT-A-COPS" weight="1" />
+      <edge id="3640" source="RENT-A-COPS" target="RYAN" weight="1" />
+      <edge id="3641" source="RENT-A-COPS" target="JESSICA" weight="1" />
+      <edge id="3642" source="RENT-A-COPS" target="TIMID BOY" weight="1" />
+      <edge id="3643" source="RENT-A-COPS" target="MALE VOICE" weight="1" />
+      <edge id="3644" source="RENT-A-COPS" target="GYM TEACHER" weight="1" />
+      <edge id="3645" source="RENT-A-COPS" target="RENT-A-COP #1" weight="1" />
+      <edge id="3646" source="ELLIS" target="RICKY" weight="2" />
+      <edge id="3647" source="ELLIS" target="DEASON" weight="1" />
+      <edge id="3648" source="ELLIS" target="GREER" weight="4" />
+      <edge id="3649" source="ELLIS" target="RYAN" weight="2" />
+      <edge id="3650" source="ELLIS" target="DETECTOR OPERATOR" weight="1" />
+      <edge id="3651" source="ELLIS" target="SECURITY GUARDS" weight="1" />
+      <edge id="3652" source="ELLIS" target="TENSE GUARD" weight="1" />
+      <edge id="3653" source="ELLIS" target="GREEK" weight="2" />
+      <edge id="3654" source="ELLIS" target="JESSICA" weight="3" />
+      <edge id="3655" source="ELLIS" target="MOONEY" weight="1" />
+      <edge id="3656" source="RICKY" target="ELLIS" weight="2" />
+      <edge id="3657" source="RICKY" target="HODGES" weight="1" />
+      <edge id="3658" source="RICKY" target="JESSICA" weight="4" />
+      <edge id="3659" source="RICKY" target="GREER" weight="2" />
+      <edge id="3660" source="RICKY" target="GREEK" weight="1" />
+      <edge id="3661" source="RICKY" target="RYAN" weight="1" />
+      <edge id="3662" source="DEASON" target="ELLIS" weight="1" />
+      <edge id="3663" source="DEASON" target="JESSICA" weight="1" />
+      <edge id="3664" source="COP ONE" target="MOONEY" weight="1" />
+      <edge id="3665" source="COP ONE" target="COP TWO" weight="1" />
+      <edge id="3666" source="COP ONE" target="DEEP MALE VOICE" weight="1" />
+      <edge id="3667" source="COP ONE" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3668" source="COP TWO" target="COP ONE" weight="1" />
+      <edge id="3669" source="COP TWO" target="MOONEY" weight="1" />
+      <edge id="3670" source="COP TWO" target="DEEP MALE VOICE" weight="1" />
+      <edge id="3671" source="COP TWO" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3672" source="DEEP MALE VOICE" target="COP ONE" weight="1" />
+      <edge id="3673" source="DEEP MALE VOICE" target="MOONEY" weight="2" />
+      <edge id="3674" source="DEEP MALE VOICE" target="COP TWO" weight="1" />
+      <edge id="3675" source="DEEP MALE VOICE" target="DETECTIVE TOMLIN" weight="2" />
+      <edge id="3676" source="DEEP MALE VOICE" target="ATTRACTIVE WOMAN" weight="2" />
+      <edge id="3677" source="DEEP MALE VOICE" target="ATTRACTIVE   WOMAN" weight="1" />
+      <edge id="3678" source="IRATE CUSTOMERS" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3679" source="IRATE CUSTOMERS" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3680" source="IRATE CUSTOMERS" target="RYAN" weight="1" />
+      <edge id="3681" source="IRATE CUSTOMERS" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3682" source="IRATE CUSTOMERS" target="BUSY SALESMAN" weight="1" />
+      <edge id="3683" source="IRATE CUSTOMERS" target="SALESWOMAN" weight="1" />
+      <edge id="3684" source="OVERLY-PERKY SALESMAN" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3685" source="OVERLY-PERKY SALESMAN" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3686" source="OVERLY-PERKY SALESMAN" target="RYAN" weight="1" />
+      <edge id="3687" source="OVERLY-PERKY SALESMAN" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3688" source="OVERLY-PERKY SALESMAN" target="BUSY SALESMAN" weight="1" />
+      <edge id="3689" source="OVERLY-PERKY SALESMAN" target="SALESWOMAN" weight="1" />
+      <edge id="3690" source="EASILY-EXCITABLE CUSTOMER" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3691" source="EASILY-EXCITABLE CUSTOMER" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3692" source="EASILY-EXCITABLE CUSTOMER" target="RYAN" weight="1" />
+      <edge id="3693" source="EASILY-EXCITABLE CUSTOMER" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3694" source="EASILY-EXCITABLE CUSTOMER" target="BUSY SALESMAN" weight="1" />
+      <edge id="3695" source="EASILY-EXCITABLE CUSTOMER" target="SALESWOMAN" weight="1" />
+      <edge id="3696" source="BUSY SALESWOMAN" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3697" source="BUSY SALESWOMAN" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3698" source="BUSY SALESWOMAN" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3699" source="BUSY SALESWOMAN" target="RYAN" weight="1" />
+      <edge id="3700" source="BUSY SALESWOMAN" target="BUSY SALESMAN" weight="1" />
+      <edge id="3701" source="BUSY SALESWOMAN" target="SALESWOMAN" weight="1" />
+      <edge id="3702" source="BUSY SALESMAN" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3703" source="BUSY SALESMAN" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3704" source="BUSY SALESMAN" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3705" source="BUSY SALESMAN" target="RYAN" weight="1" />
+      <edge id="3706" source="BUSY SALESMAN" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3707" source="BUSY SALESMAN" target="SALESWOMAN" weight="1" />
+      <edge id="3708" source="SALESWOMAN" target="IRATE CUSTOMERS" weight="1" />
+      <edge id="3709" source="SALESWOMAN" target="OVERLY-PERKY SALESMAN" weight="1" />
+      <edge id="3710" source="SALESWOMAN" target="EASILY-EXCITABLE CUSTOMER" weight="1" />
+      <edge id="3711" source="SALESWOMAN" target="RYAN" weight="1" />
+      <edge id="3712" source="SALESWOMAN" target="BUSY SALESWOMAN" weight="1" />
+      <edge id="3713" source="SALESWOMAN" target="BUSY SALESMAN" weight="1" />
+      <edge id="3714" source="GREER" target="RYAN" weight="13" />
+      <edge id="3715" source="GREER" target="JESSICA" weight="10" />
+      <edge id="3716" source="GREER" target="GREEK" weight="11" />
+      <edge id="3717" source="GREER" target="RAP TUNE" weight="1" />
+      <edge id="3718" source="GREER" target="ELLIS" weight="4" />
+      <edge id="3719" source="GREER" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3720" source="GREER" target="VOICE" weight="1" />
+      <edge id="3721" source="GREER" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3722" source="GREER" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3723" source="GREER" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3724" source="GREER" target="CRAIG" weight="5" />
+      <edge id="3725" source="GREER" target="MARILYN" weight="1" />
+      <edge id="3726" source="GREER" target="MOONEY" weight="5" />
+      <edge id="3727" source="GREER" target="HODGES" weight="6" />
+      <edge id="3728" source="GREER" target="SECURITY GUARD" weight="1" />
+      <edge id="3729" source="GREER" target="COPS" weight="1" />
+      <edge id="3730" source="GREER" target="RICKY" weight="2" />
+      <edge id="3731" source="GREER" target="TOMLIN" weight="3" />
+      <edge id="3732" source="GREER" target="PARAMEDIC #1" weight="1" />
+      <edge id="3733" source="GREER" target="FEMALE VOICE" weight="1" />
+      <edge id="3734" source="GREER" target="CHLOE" weight="2" />
+      <edge id="3735" source="GREER" target="CROWD GOER" weight="1" />
+      <edge id="3736" source="HODGES" target="RICKY" weight="1" />
+      <edge id="3737" source="HODGES" target="GREEK" weight="1" />
+      <edge id="3738" source="HODGES" target="CRAIG" weight="2" />
+      <edge id="3739" source="HODGES" target="JESSICA" weight="1" />
+      <edge id="3740" source="HODGES" target="GREER" weight="6" />
+      <edge id="3741" source="HODGES" target="MAILROOM SUPERVISOR" weight="1" />
+      <edge id="3742" source="HODGES" target="COPS" weight="1" />
+      <edge id="3743" source="HODGES" target="RYAN" weight="1" />
+      <edge id="3744" source="RAP TUNE" target="JESSICA" weight="1" />
+      <edge id="3745" source="RAP TUNE" target="GREER" weight="1" />
+      <edge id="3746" source="RAP TUNE" target="RYAN" weight="1" />
+      <edge id="3747" source="ATTRACTIVE WOMAN" target="MOONEY" weight="1" />
+      <edge id="3748" source="ATTRACTIVE WOMAN" target="DEEP MALE VOICE" weight="2" />
+      <edge id="3749" source="ATTRACTIVE WOMAN" target="ATTRACTIVE   WOMAN" weight="1" />
+      <edge id="3750" source="ATTRACTIVE WOMAN" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3751" source="ATTRACTIVE   WOMAN" target="DEEP MALE VOICE" weight="1" />
+      <edge id="3752" source="ATTRACTIVE   WOMAN" target="ATTRACTIVE WOMAN" weight="1" />
+      <edge id="3753" source="ATTRACTIVE   WOMAN" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3754" source="BRITISH ASSHOLE" target="JESSICA" weight="1" />
+      <edge id="3755" source="BRITISH ASSHOLE" target="RYAN" weight="1" />
+      <edge id="3756" source="SIMON COWELL" target="RYAN" weight="1" />
+      <edge id="3757" source="SIMON COWELL" target="JESSICA" weight="1" />
+      <edge id="3758" source="SIMON COWELL" target="JADED CASHIER" weight="1" />
+      <edge id="3759" source="TRAFFIC COP" target="RYAN" weight="1" />
+      <edge id="3760" source="TRAFFIC COP" target="JESSICA" weight="1" />
+      <edge id="3761" source="DETECTOR OPERATOR" target="RYAN" weight="1" />
+      <edge id="3762" source="DETECTOR OPERATOR" target="SECURITY GUARDS" weight="1" />
+      <edge id="3763" source="DETECTOR OPERATOR" target="ELLIS" weight="1" />
+      <edge id="3764" source="DETECTOR OPERATOR" target="TENSE GUARD" weight="1" />
+      <edge id="3765" source="SECURITY GUARDS" target="RYAN" weight="1" />
+      <edge id="3766" source="SECURITY GUARDS" target="DETECTOR OPERATOR" weight="1" />
+      <edge id="3767" source="SECURITY GUARDS" target="ELLIS" weight="1" />
+      <edge id="3768" source="SECURITY GUARDS" target="TENSE GUARD" weight="1" />
+      <edge id="3769" source="TENSE GUARD" target="RYAN" weight="1" />
+      <edge id="3770" source="TENSE GUARD" target="DETECTOR OPERATOR" weight="1" />
+      <edge id="3771" source="TENSE GUARD" target="SECURITY GUARDS" weight="1" />
+      <edge id="3772" source="TENSE GUARD" target="ELLIS" weight="1" />
+      <edge id="3773" source="PUBLIC ADDRESS SYSTEM" target="JESSICA" weight="1" />
+      <edge id="3774" source="PUBLIC ADDRESS SYSTEM" target="RYAN" weight="1" />
+      <edge id="3775" source="PUBLIC ADDRESS SYSTEM" target="VOICE" weight="1" />
+      <edge id="3776" source="PUBLIC ADDRESS SYSTEM" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3777" source="PUBLIC ADDRESS SYSTEM" target="GREER" weight="1" />
+      <edge id="3778" source="PUBLIC ADDRESS SYSTEM" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3779" source="PUBLIC ADDRESS SYSTEM" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3780" source="PUBLIC ADDRESS SYSTEM" target="GREEK" weight="1" />
+      <edge id="3781" source="VOICE" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3782" source="VOICE" target="JESSICA" weight="1" />
+      <edge id="3783" source="VOICE" target="RYAN" weight="1" />
+      <edge id="3784" source="VOICE" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3785" source="VOICE" target="GREER" weight="1" />
+      <edge id="3786" source="VOICE" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3787" source="VOICE" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3788" source="VOICE" target="GREEK" weight="1" />
+      <edge id="3789" source="NATIONAL GUARDSMAN" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3790" source="NATIONAL GUARDSMAN" target="JESSICA" weight="1" />
+      <edge id="3791" source="NATIONAL GUARDSMAN" target="RYAN" weight="1" />
+      <edge id="3792" source="NATIONAL GUARDSMAN" target="VOICE" weight="1" />
+      <edge id="3793" source="NATIONAL GUARDSMAN" target="GREER" weight="1" />
+      <edge id="3794" source="NATIONAL GUARDSMAN" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3795" source="NATIONAL GUARDSMAN" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3796" source="NATIONAL GUARDSMAN" target="GREEK" weight="1" />
+      <edge id="3797" source="YOUNG GUARDSMAN" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3798" source="YOUNG GUARDSMAN" target="JESSICA" weight="1" />
+      <edge id="3799" source="YOUNG GUARDSMAN" target="RYAN" weight="1" />
+      <edge id="3800" source="YOUNG GUARDSMAN" target="VOICE" weight="1" />
+      <edge id="3801" source="YOUNG GUARDSMAN" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3802" source="YOUNG GUARDSMAN" target="GREER" weight="1" />
+      <edge id="3803" source="YOUNG GUARDSMAN" target="SUPERIOR OFFICER" weight="1" />
+      <edge id="3804" source="YOUNG GUARDSMAN" target="GREEK" weight="1" />
+      <edge id="3805" source="SUPERIOR OFFICER" target="PUBLIC ADDRESS SYSTEM" weight="1" />
+      <edge id="3806" source="SUPERIOR OFFICER" target="JESSICA" weight="1" />
+      <edge id="3807" source="SUPERIOR OFFICER" target="RYAN" weight="1" />
+      <edge id="3808" source="SUPERIOR OFFICER" target="VOICE" weight="1" />
+      <edge id="3809" source="SUPERIOR OFFICER" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="3810" source="SUPERIOR OFFICER" target="GREER" weight="1" />
+      <edge id="3811" source="SUPERIOR OFFICER" target="YOUNG GUARDSMAN" weight="1" />
+      <edge id="3812" source="SUPERIOR OFFICER" target="GREEK" weight="1" />
+      <edge id="3813" source="MARILYN" target="CRAIG" weight="1" />
+      <edge id="3814" source="MARILYN" target="GREER" weight="1" />
+      <edge id="3815" source="MARILYN" target="MOONEY" weight="2" />
+      <edge id="3816" source="MARILYN" target="NEWS ANCHOR" weight="1" />
+      <edge id="3817" source="MARILYN" target="OPERATOR" weight="1" />
+      <edge id="3818" source="MARILYN" target="JESSICA'S VOICE" weight="1" />
+      <edge id="3819" source="NEWS ANCHOR" target="MARILYN" weight="1" />
+      <edge id="3820" source="NEWS ANCHOR" target="MOONEY" weight="1" />
+      <edge id="3821" source="NEWS ANCHOR" target="OPERATOR" weight="1" />
+      <edge id="3822" source="NEWS ANCHOR" target="JESSICA'S VOICE" weight="1" />
+      <edge id="3823" source="NEWS ANCHOR" target="CHLOE" weight="1" />
+      <edge id="3824" source="NEWS ANCHOR" target="RYAN" weight="1" />
+      <edge id="3825" source="NEWS ANCHOR" target="JESSICA" weight="1" />
+      <edge id="3826" source="OPERATOR" target="MARILYN" weight="1" />
+      <edge id="3827" source="OPERATOR" target="MOONEY" weight="1" />
+      <edge id="3828" source="OPERATOR" target="NEWS ANCHOR" weight="1" />
+      <edge id="3829" source="OPERATOR" target="JESSICA'S VOICE" weight="1" />
+      <edge id="3830" source="JESSICA'S VOICE" target="MARILYN" weight="1" />
+      <edge id="3831" source="JESSICA'S VOICE" target="MOONEY" weight="1" />
+      <edge id="3832" source="JESSICA'S VOICE" target="NEWS ANCHOR" weight="1" />
+      <edge id="3833" source="JESSICA'S VOICE" target="OPERATOR" weight="1" />
+      <edge id="3834" source="MAILROOM SUPERVISOR" target="CRAIG" weight="2" />
+      <edge id="3835" source="MAILROOM SUPERVISOR" target="MAIL CLERK" weight="1" />
+      <edge id="3836" source="MAILROOM SUPERVISOR" target="RYAN" weight="1" />
+      <edge id="3837" source="MAILROOM SUPERVISOR" target="HODGES" weight="1" />
+      <edge id="3838" source="MAIL CLERK" target="MAILROOM SUPERVISOR" weight="1" />
+      <edge id="3839" source="MAIL CLERK" target="CRAIG" weight="1" />
+      <edge id="3840" source="MAIL CLERK" target="RYAN" weight="2" />
+      <edge id="3841" source="MAIL CLERK" target="SECURITY GUARD" weight="1" />
+      <edge id="3842" source="SECURITY GUARD" target="RYAN" weight="1" />
+      <edge id="3843" source="SECURITY GUARD" target="MAIL CLERK" weight="1" />
+      <edge id="3844" source="SECURITY GUARD" target="GREER" weight="1" />
+      <edge id="3845" source="SECURITY GUARD" target="CRAIG" weight="1" />
+      <edge id="3846" source="COPS" target="GREER" weight="1" />
+      <edge id="3847" source="COPS" target="HODGES" weight="1" />
+      <edge id="3848" source="BAYBACK" target="MOONEY" weight="1" />
+      <edge id="3849" source="PARAMEDIC #1" target="DETECTIVE TOMLIN" weight="1" />
+      <edge id="3850" source="PARAMEDIC #1" target="MOONEY" weight="2" />
+      <edge id="3851" source="PARAMEDIC #1" target="TOMLIN" weight="1" />
+      <edge id="3852" source="PARAMEDIC #1" target="GREER" weight="1" />
+      <edge id="3853" source="JADED CASHIER" target="SIMON COWELL" weight="1" />
+      <edge id="3854" source="TOMLIN" target="GREER" weight="3" />
+      <edge id="3855" source="TOMLIN" target="PARAMEDIC #1" weight="1" />
+      <edge id="3856" source="TOMLIN" target="MOONEY" weight="3" />
+      <edge id="3857" source="TOMLIN" target="CHLOE" weight="1" />
+      <edge id="3858" source="TOMLIN" target="RYAN" weight="2" />
+      <edge id="3859" source="TOMLIN" target="CROWD GOER" weight="1" />
+      <edge id="3860" source="ENVIOUS COLLEGE KID" target="RYAN" weight="1" />
+      <edge id="3861" source="FEMALE VOICE" target="GREER" weight="1" />
+      <edge id="3862" source="FEMALE VOICE" target="RYAN" weight="1" />
+      <edge id="3863" source="FEMALE VOICE" target="CHLOE" weight="1" />
+      <edge id="3864" source="CROWD GOER" target="MOONEY" weight="1" />
+      <edge id="3865" source="CROWD GOER" target="CHLOE" weight="1" />
+      <edge id="3866" source="CROWD GOER" target="TOMLIN" weight="1" />
+      <edge id="3867" source="CROWD GOER" target="RYAN" weight="1" />
+      <edge id="3868" source="CROWD GOER" target="GREER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

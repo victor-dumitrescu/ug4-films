@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MIKE" label="MIKE" />
+      <node id="ROB" label="ROB" />
+      <node id="ANSWERING MACHINE" label="ANSWERING MACHINE" />
+      <node id="TRENT" label="TRENT" />
+      <node id="DEALER" label="DEALER" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="BLUEHAIR" label="BLUEHAIR" />
+      <node id="PIT BOSS" label="PIT BOSS" />
+      <node id="CASHIER" label="CASHIER" />
+      <node id="CHRISTY" label="CHRISTY" />
+      <node id="LISA" label="LISA" />
+      <node id="BOTH GIRLS" label="BOTH GIRLS" />
+      <node id="TRENT &amp; MIKE" label="TRENT &amp; MIKE" />
+      <node id="SUE" label="SUE" />
+      <node id="TRENT &amp; SUE" label="TRENT &amp; SUE" />
+      <node id="CHARLES" label="CHARLES" />
+      <node id="BLONDE" label="BLONDE" />
+      <node id="GIRL IN HAT" label="GIRL IN HAT" />
+      <node id="GIRL WITH CIGAR" label="GIRL WITH CIGAR" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="BALD GUY" label="BALD GUY" />
+      <node id="NIKKI" label="NIKKI" />
+      <node id="GUYS" label="GUYS" />
+      <node id="BRUNETTE" label="BRUNETTE" />
+      <node id="LORRAINE" label="LORRAINE" />
+      <node id="FEMALE VOICE" label="FEMALE VOICE" />
+      <node id="MICHELLE" label="MICHELLE" />
+      <node id="FRANK" label="FRANK" />
+    </nodes>
+    <edges>
+      <edge id="17789" source="MIKE" target="ROB" weight="13" />
+      <edge id="17790" source="MIKE" target="ANSWERING MACHINE" weight="4" />
+      <edge id="17791" source="MIKE" target="TRENT" weight="25" />
+      <edge id="17792" source="MIKE" target="DEALER" weight="1" />
+      <edge id="17793" source="MIKE" target="WAITRESS" weight="3" />
+      <edge id="17794" source="MIKE" target="BLUEHAIR" weight="2" />
+      <edge id="17795" source="MIKE" target="PIT BOSS" weight="1" />
+      <edge id="17796" source="MIKE" target="CASHIER" weight="1" />
+      <edge id="17797" source="MIKE" target="CHRISTY" weight="3" />
+      <edge id="17798" source="MIKE" target="LISA" weight="3" />
+      <edge id="17799" source="MIKE" target="BOTH GIRLS" weight="1" />
+      <edge id="17800" source="MIKE" target="TRENT &amp; MIKE" weight="1" />
+      <edge id="17801" source="MIKE" target="SUE" weight="12" />
+      <edge id="17802" source="MIKE" target="TRENT &amp; SUE" weight="2" />
+      <edge id="17803" source="MIKE" target="CHARLES" weight="7" />
+      <edge id="17804" source="MIKE" target="BLONDE" weight="2" />
+      <edge id="17805" source="MIKE" target="GIRL WITH CIGAR" weight="1" />
+      <edge id="17806" source="MIKE" target="BARTENDER" weight="1" />
+      <edge id="17807" source="MIKE" target="BALD GUY" weight="2" />
+      <edge id="17808" source="MIKE" target="NIKKI" weight="1" />
+      <edge id="17809" source="MIKE" target="BRUNETTE" weight="1" />
+      <edge id="17810" source="MIKE" target="LORRAINE" weight="3" />
+      <edge id="17811" source="MIKE" target="FEMALE VOICE" weight="1" />
+      <edge id="17812" source="MIKE" target="MICHELLE" weight="1" />
+      <edge id="17813" source="MIKE" target="FRANK" weight="1" />
+      <edge id="17814" source="ROB" target="MIKE" weight="13" />
+      <edge id="17815" source="ROB" target="CHARLES" weight="6" />
+      <edge id="17816" source="ROB" target="TRENT" weight="6" />
+      <edge id="17817" source="ROB" target="SUE" weight="6" />
+      <edge id="17818" source="ROB" target="BLONDE" weight="1" />
+      <edge id="17819" source="ROB" target="GIRL WITH CIGAR" weight="1" />
+      <edge id="17820" source="ROB" target="BALD GUY" weight="1" />
+      <edge id="17821" source="ROB" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17822" source="ANSWERING MACHINE" target="MIKE" weight="4" />
+      <edge id="17823" source="ANSWERING MACHINE" target="TRENT" weight="1" />
+      <edge id="17824" source="ANSWERING MACHINE" target="NIKKI" weight="1" />
+      <edge id="17825" source="ANSWERING MACHINE" target="ROB" weight="1" />
+      <edge id="17826" source="ANSWERING MACHINE" target="FEMALE VOICE" weight="1" />
+      <edge id="17827" source="ANSWERING MACHINE" target="MICHELLE" weight="1" />
+      <edge id="17828" source="ANSWERING MACHINE" target="LORRAINE" weight="1" />
+      <edge id="17829" source="ANSWERING MACHINE" target="FRANK" weight="1" />
+      <edge id="17830" source="TRENT" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17831" source="TRENT" target="MIKE" weight="25" />
+      <edge id="17832" source="TRENT" target="DEALER" weight="1" />
+      <edge id="17833" source="TRENT" target="WAITRESS" weight="3" />
+      <edge id="17834" source="TRENT" target="BLUEHAIR" weight="2" />
+      <edge id="17835" source="TRENT" target="PIT BOSS" weight="1" />
+      <edge id="17836" source="TRENT" target="CASHIER" weight="1" />
+      <edge id="17837" source="TRENT" target="CHRISTY" weight="4" />
+      <edge id="17838" source="TRENT" target="LISA" weight="3" />
+      <edge id="17839" source="TRENT" target="BOTH GIRLS" weight="1" />
+      <edge id="17840" source="TRENT" target="TRENT &amp; MIKE" weight="1" />
+      <edge id="17841" source="TRENT" target="SUE" weight="15" />
+      <edge id="17842" source="TRENT" target="TRENT &amp; SUE" weight="2" />
+      <edge id="17843" source="TRENT" target="ROB" weight="6" />
+      <edge id="17844" source="TRENT" target="CHARLES" weight="6" />
+      <edge id="17845" source="TRENT" target="GIRL IN HAT" weight="1" />
+      <edge id="17846" source="TRENT" target="GIRL WITH CIGAR" weight="2" />
+      <edge id="17847" source="TRENT" target="BLONDE" weight="1" />
+      <edge id="17848" source="TRENT" target="BARTENDER" weight="1" />
+      <edge id="17849" source="TRENT" target="BALD GUY" weight="2" />
+      <edge id="17850" source="TRENT" target="GUYS" weight="1" />
+      <edge id="17851" source="TRENT" target="BRUNETTE" weight="1" />
+      <edge id="17852" source="TRENT" target="LORRAINE" weight="1" />
+      <edge id="17853" source="DEALER" target="MIKE" weight="1" />
+      <edge id="17854" source="DEALER" target="WAITRESS" weight="1" />
+      <edge id="17855" source="DEALER" target="TRENT" weight="1" />
+      <edge id="17856" source="DEALER" target="BLUEHAIR" weight="1" />
+      <edge id="17857" source="DEALER" target="PIT BOSS" weight="1" />
+      <edge id="17858" source="WAITRESS" target="MIKE" weight="3" />
+      <edge id="17859" source="WAITRESS" target="DEALER" weight="1" />
+      <edge id="17860" source="WAITRESS" target="TRENT" weight="3" />
+      <edge id="17861" source="WAITRESS" target="BLUEHAIR" weight="2" />
+      <edge id="17862" source="WAITRESS" target="PIT BOSS" weight="1" />
+      <edge id="17863" source="WAITRESS" target="CASHIER" weight="1" />
+      <edge id="17864" source="WAITRESS" target="CHRISTY" weight="1" />
+      <edge id="17865" source="BLUEHAIR" target="MIKE" weight="2" />
+      <edge id="17866" source="BLUEHAIR" target="DEALER" weight="1" />
+      <edge id="17867" source="BLUEHAIR" target="WAITRESS" weight="2" />
+      <edge id="17868" source="BLUEHAIR" target="TRENT" weight="2" />
+      <edge id="17869" source="BLUEHAIR" target="PIT BOSS" weight="1" />
+      <edge id="17870" source="PIT BOSS" target="MIKE" weight="1" />
+      <edge id="17871" source="PIT BOSS" target="DEALER" weight="1" />
+      <edge id="17872" source="PIT BOSS" target="WAITRESS" weight="1" />
+      <edge id="17873" source="PIT BOSS" target="TRENT" weight="1" />
+      <edge id="17874" source="PIT BOSS" target="BLUEHAIR" weight="1" />
+      <edge id="17875" source="CASHIER" target="TRENT" weight="1" />
+      <edge id="17876" source="CASHIER" target="MIKE" weight="1" />
+      <edge id="17877" source="CASHIER" target="WAITRESS" weight="1" />
+      <edge id="17878" source="CASHIER" target="CHRISTY" weight="1" />
+      <edge id="17879" source="CHRISTY" target="CASHIER" weight="1" />
+      <edge id="17880" source="CHRISTY" target="TRENT" weight="4" />
+      <edge id="17881" source="CHRISTY" target="MIKE" weight="3" />
+      <edge id="17882" source="CHRISTY" target="WAITRESS" weight="1" />
+      <edge id="17883" source="CHRISTY" target="LISA" weight="4" />
+      <edge id="17884" source="CHRISTY" target="BOTH GIRLS" weight="2" />
+      <edge id="17885" source="CHRISTY" target="TRENT &amp; MIKE" weight="1" />
+      <edge id="17886" source="LISA" target="CHRISTY" weight="4" />
+      <edge id="17887" source="LISA" target="TRENT" weight="3" />
+      <edge id="17888" source="LISA" target="MIKE" weight="3" />
+      <edge id="17889" source="LISA" target="BOTH GIRLS" weight="2" />
+      <edge id="17890" source="LISA" target="TRENT &amp; MIKE" weight="1" />
+      <edge id="17891" source="BOTH GIRLS" target="CHRISTY" weight="2" />
+      <edge id="17892" source="BOTH GIRLS" target="TRENT" weight="1" />
+      <edge id="17893" source="BOTH GIRLS" target="MIKE" weight="1" />
+      <edge id="17894" source="BOTH GIRLS" target="LISA" weight="2" />
+      <edge id="17895" source="BOTH GIRLS" target="TRENT &amp; MIKE" weight="1" />
+      <edge id="17896" source="TRENT &amp; MIKE" target="CHRISTY" weight="1" />
+      <edge id="17897" source="TRENT &amp; MIKE" target="TRENT" weight="1" />
+      <edge id="17898" source="TRENT &amp; MIKE" target="MIKE" weight="1" />
+      <edge id="17899" source="TRENT &amp; MIKE" target="LISA" weight="1" />
+      <edge id="17900" source="TRENT &amp; MIKE" target="BOTH GIRLS" weight="1" />
+      <edge id="17901" source="SUE" target="TRENT" weight="15" />
+      <edge id="17902" source="SUE" target="MIKE" weight="12" />
+      <edge id="17903" source="SUE" target="TRENT &amp; SUE" weight="2" />
+      <edge id="17904" source="SUE" target="ROB" weight="6" />
+      <edge id="17905" source="SUE" target="CHARLES" weight="6" />
+      <edge id="17906" source="SUE" target="GIRL WITH CIGAR" weight="1" />
+      <edge id="17907" source="SUE" target="BLONDE" weight="1" />
+      <edge id="17908" source="SUE" target="BARTENDER" weight="1" />
+      <edge id="17909" source="SUE" target="BALD GUY" weight="2" />
+      <edge id="17910" source="SUE" target="GUYS" weight="1" />
+      <edge id="17911" source="SUE" target="BRUNETTE" weight="1" />
+      <edge id="17912" source="SUE" target="LORRAINE" weight="1" />
+      <edge id="17913" source="TRENT &amp; SUE" target="MIKE" weight="2" />
+      <edge id="17914" source="TRENT &amp; SUE" target="TRENT" weight="2" />
+      <edge id="17915" source="TRENT &amp; SUE" target="SUE" weight="2" />
+      <edge id="17916" source="TRENT &amp; SUE" target="BLONDE" weight="1" />
+      <edge id="17917" source="TRENT &amp; SUE" target="BARTENDER" weight="1" />
+      <edge id="17918" source="TRENT &amp; SUE" target="CHARLES" weight="1" />
+      <edge id="17919" source="CHARLES" target="MIKE" weight="7" />
+      <edge id="17920" source="CHARLES" target="ROB" weight="6" />
+      <edge id="17921" source="CHARLES" target="TRENT" weight="6" />
+      <edge id="17922" source="CHARLES" target="SUE" weight="6" />
+      <edge id="17923" source="CHARLES" target="GIRL WITH CIGAR" weight="1" />
+      <edge id="17924" source="CHARLES" target="BLONDE" weight="1" />
+      <edge id="17925" source="CHARLES" target="BARTENDER" weight="1" />
+      <edge id="17926" source="CHARLES" target="TRENT &amp; SUE" weight="1" />
+      <edge id="17927" source="CHARLES" target="BALD GUY" weight="1" />
+      <edge id="17928" source="BLONDE" target="MIKE" weight="2" />
+      <edge id="17929" source="BLONDE" target="ROB" weight="1" />
+      <edge id="17930" source="BLONDE" target="BARTENDER" weight="1" />
+      <edge id="17931" source="BLONDE" target="TRENT" weight="1" />
+      <edge id="17932" source="BLONDE" target="SUE" weight="1" />
+      <edge id="17933" source="BLONDE" target="CHARLES" weight="1" />
+      <edge id="17934" source="BLONDE" target="TRENT &amp; SUE" weight="1" />
+      <edge id="17935" source="GIRL IN HAT" target="TRENT" weight="1" />
+      <edge id="17936" source="GIRL WITH CIGAR" target="TRENT" weight="2" />
+      <edge id="17937" source="GIRL WITH CIGAR" target="SUE" weight="1" />
+      <edge id="17938" source="GIRL WITH CIGAR" target="MIKE" weight="1" />
+      <edge id="17939" source="GIRL WITH CIGAR" target="ROB" weight="1" />
+      <edge id="17940" source="GIRL WITH CIGAR" target="CHARLES" weight="1" />
+      <edge id="17941" source="BARTENDER" target="MIKE" weight="1" />
+      <edge id="17942" source="BARTENDER" target="BLONDE" weight="1" />
+      <edge id="17943" source="BARTENDER" target="TRENT" weight="1" />
+      <edge id="17944" source="BARTENDER" target="SUE" weight="1" />
+      <edge id="17945" source="BARTENDER" target="CHARLES" weight="1" />
+      <edge id="17946" source="BARTENDER" target="TRENT &amp; SUE" weight="1" />
+      <edge id="17947" source="BALD GUY" target="SUE" weight="2" />
+      <edge id="17948" source="BALD GUY" target="TRENT" weight="2" />
+      <edge id="17949" source="BALD GUY" target="MIKE" weight="2" />
+      <edge id="17950" source="BALD GUY" target="CHARLES" weight="1" />
+      <edge id="17951" source="BALD GUY" target="ROB" weight="1" />
+      <edge id="17952" source="NIKKI" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17953" source="NIKKI" target="MIKE" weight="1" />
+      <edge id="17954" source="GUYS" target="TRENT" weight="1" />
+      <edge id="17955" source="GUYS" target="SUE" weight="1" />
+      <edge id="17956" source="BRUNETTE" target="MIKE" weight="1" />
+      <edge id="17957" source="BRUNETTE" target="TRENT" weight="1" />
+      <edge id="17958" source="BRUNETTE" target="SUE" weight="1" />
+      <edge id="17959" source="BRUNETTE" target="LORRAINE" weight="1" />
+      <edge id="17960" source="LORRAINE" target="MIKE" weight="3" />
+      <edge id="17961" source="LORRAINE" target="BRUNETTE" weight="1" />
+      <edge id="17962" source="LORRAINE" target="TRENT" weight="1" />
+      <edge id="17963" source="LORRAINE" target="SUE" weight="1" />
+      <edge id="17964" source="LORRAINE" target="FEMALE VOICE" weight="1" />
+      <edge id="17965" source="LORRAINE" target="MICHELLE" weight="1" />
+      <edge id="17966" source="LORRAINE" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17967" source="LORRAINE" target="FRANK" weight="1" />
+      <edge id="17968" source="FEMALE VOICE" target="MIKE" weight="1" />
+      <edge id="17969" source="FEMALE VOICE" target="MICHELLE" weight="1" />
+      <edge id="17970" source="FEMALE VOICE" target="LORRAINE" weight="1" />
+      <edge id="17971" source="FEMALE VOICE" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17972" source="FEMALE VOICE" target="FRANK" weight="1" />
+      <edge id="17973" source="MICHELLE" target="MIKE" weight="1" />
+      <edge id="17974" source="MICHELLE" target="FEMALE VOICE" weight="1" />
+      <edge id="17975" source="MICHELLE" target="LORRAINE" weight="1" />
+      <edge id="17976" source="MICHELLE" target="ANSWERING MACHINE" weight="1" />
+      <edge id="17977" source="MICHELLE" target="FRANK" weight="1" />
+      <edge id="17978" source="FRANK" target="MIKE" weight="1" />
+      <edge id="17979" source="FRANK" target="FEMALE VOICE" weight="1" />
+      <edge id="17980" source="FRANK" target="MICHELLE" weight="1" />
+      <edge id="17981" source="FRANK" target="LORRAINE" weight="1" />
+      <edge id="17982" source="FRANK" target="ANSWERING MACHINE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

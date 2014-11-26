@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="BOBBY GREEN" label="BOBBY GREEN" />
+      <node id="ROSARIO DIAZ" label="ROSARIO DIAZ" />
+      <node id="MUFFLED VOICE" label="MUFFLED VOICE" />
+      <node id="LOUIS FALSETTI" label="LOUIS FALSETTI" />
+      <node id="BLOODIED PATRON" label="BLOODIED PATRON" />
+      <node id="MARAT BUZHAYEV" label="MARAT BUZHAYEV" />
+      <node id="KALINA BUZHAYEV" label="KALINA BUZHAYEV" />
+      <node id="BURT GRUSINSKY" label="BURT GRUSINSKY" />
+      <node id="JOSEPH GRUSINSKY" label="JOSEPH GRUSINSKY" />
+      <node id="PHOTOGRAPHER" label="PHOTOGRAPHER" />
+      <node id="RUSSELL DE KEIFER" label="RUSSELL DE KEIFER" />
+      <node id="YOUNG POLICE REPORTER" label="YOUNG POLICE REPORTER" />
+      <node id="MICHAEL SOLO" label="MICHAEL SOLO" />
+      <node id="JACK SHAPIRO" label="JACK SHAPIRO" />
+      <node id="SPIRO GIAVANNIS" label="SPIRO GIAVANNIS" />
+      <node id="FREDDIE" label="FREDDIE" />
+      <node id="HAZEL" label="HAZEL" />
+      <node id="ELI MIRICHENKO" label="ELI MIRICHENKO" />
+      <node id="VADIM NEZHINSKI" label="VADIM NEZHINSKI" />
+      <node id="PAVEL LUBYARSKY" label="PAVEL LUBYARSKY" />
+      <node id="COPS" label="COPS" />
+      <node id="UNIFORMED COP" label="UNIFORMED COP" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+      <node id="PORTLY COP" label="PORTLY COP" />
+      <node id="POLICE CHAPLAIN" label="POLICE CHAPLAIN" />
+      <node id="RANDOM BOXING OFFICERS" label="RANDOM BOXING OFFICERS" />
+      <node id="STOCKY LATINO MAN" label="STOCKY LATINO MAN" />
+      <node id="OTHER PLAYERS" label="OTHER PLAYERS" />
+      <node id="MUSTACHIOED COP" label="MUSTACHIOED COP" />
+      <node id="MAYOR" label="MAYOR" />
+      <node id="GUARD" label="GUARD" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="SANDRA GRUSINSKY" label="SANDRA GRUSINSKY" />
+      <node id="NURSE" label="NURSE" />
+      <node id="GIRL" label="GIRL" />
+      <node id="SERGEANT PROVENZANO" label="SERGEANT PROVENZANO" />
+      <node id="ACCENTED VOICE" label="ACCENTED VOICE" />
+      <node id="ROSARIO DIAZ'S VOICE" label="ROSARIO DIAZ'S VOICE" />
+      <node id="MAN #1" label="MAN #1" />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="PAVEL LUBYARSKY'S VOICE" label="PAVEL LUBYARSKY'S VOICE" />
+      <node id="VADIM NEZHINSKI'S VOICE" label="VADIM NEZHINSKI'S VOICE" />
+      <node id="SLAVIC YOUTH" label="SLAVIC YOUTH" />
+      <node id="RADIOS" label="RADIOS" />
+      <node id="WARRANT UNIT OFFICER" label="WARRANT UNIT OFFICER" />
+      <node id="OFFICERS" label="OFFICERS" />
+      <node id="EMERGENCY SERVICES GUY" label="EMERGENCY SERVICES GUY" />
+      <node id="FAT LADY" label="FAT LADY" />
+      <node id="RANDOM WOMAN" label="RANDOM WOMAN" />
+      <node id="NEIGHBOR" label="NEIGHBOR" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="VITT THE GUARD" label="VITT THE GUARD" />
+      <node id="BURT'S VOICE" label="BURT'S VOICE" />
+      <node id="UNDERTAKER" label="UNDERTAKER" />
+      <node id="COMMISSIONER RUDDY" label="COMMISSIONER RUDDY" />
+      <node id="COMMISSIONER WILLIAM RUDDY" label="COMMISSIONER WILLIAM RUDDY" />
+      <node id="MICHAEL   SOLO" label="MICHAEL   SOLO" />
+      <node id="UNIFORMED OFFICER" label="UNIFORMED OFFICER" />
+      <node id="GUARD'S VOICE" label="GUARD'S VOICE" />
+      <node id="A MAN'S VOICE" label="A MAN'S VOICE" />
+      <node id="BOBBY   GREEN" label="BOBBY   GREEN" />
+      <node id="AFRICAN-AMERICAN MAN" label="AFRICAN-AMERICAN MAN" />
+      <node id="COP'S VOICE" label="COP'S VOICE" />
+      <node id="TOUGH-LOOKING COP" label="TOUGH-LOOKING COP" />
+      <node id="RANDOM OFFICERS" label="RANDOM OFFICERS" />
+    </nodes>
+    <edges>
+      <edge id="25491" source="BOBBY GREEN" target="ROSARIO DIAZ" weight="19" />
+      <edge id="25492" source="BOBBY GREEN" target="MUFFLED VOICE" weight="1" />
+      <edge id="25493" source="BOBBY GREEN" target="LOUIS FALSETTI" weight="12" />
+      <edge id="25494" source="BOBBY GREEN" target="BLOODIED PATRON" weight="1" />
+      <edge id="25495" source="BOBBY GREEN" target="MARAT BUZHAYEV" weight="6" />
+      <edge id="25496" source="BOBBY GREEN" target="KALINA BUZHAYEV" weight="4" />
+      <edge id="25497" source="BOBBY GREEN" target="RUSSELL DE KEIFER" weight="1" />
+      <edge id="25498" source="BOBBY GREEN" target="YOUNG POLICE REPORTER" weight="1" />
+      <edge id="25499" source="BOBBY GREEN" target="JOSEPH GRUSINSKY" weight="15" />
+      <edge id="25500" source="BOBBY GREEN" target="BURT GRUSINSKY" weight="13" />
+      <edge id="25501" source="BOBBY GREEN" target="MICHAEL SOLO" weight="20" />
+      <edge id="25502" source="BOBBY GREEN" target="JACK SHAPIRO" weight="8" />
+      <edge id="25503" source="BOBBY GREEN" target="SPIRO GIAVANNIS" weight="3" />
+      <edge id="25504" source="BOBBY GREEN" target="FREDDIE" weight="2" />
+      <edge id="25505" source="BOBBY GREEN" target="HAZEL" weight="2" />
+      <edge id="25506" source="BOBBY GREEN" target="ELI MIRICHENKO" weight="2" />
+      <edge id="25507" source="BOBBY GREEN" target="VADIM NEZHINSKI" weight="4" />
+      <edge id="25508" source="BOBBY GREEN" target="PAVEL LUBYARSKY" weight="6" />
+      <edge id="25509" source="BOBBY GREEN" target="UNIFORMED COP" weight="1" />
+      <edge id="25510" source="BOBBY GREEN" target="PARAMEDIC" weight="1" />
+      <edge id="25511" source="BOBBY GREEN" target="STOCKY LATINO MAN" weight="1" />
+      <edge id="25512" source="BOBBY GREEN" target="OTHER PLAYERS" weight="1" />
+      <edge id="25513" source="BOBBY GREEN" target="MUSTACHIOED COP" weight="1" />
+      <edge id="25514" source="BOBBY GREEN" target="MAYOR" weight="1" />
+      <edge id="25515" source="BOBBY GREEN" target="GUARD" weight="3" />
+      <edge id="25516" source="BOBBY GREEN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="25517" source="BOBBY GREEN" target="SANDRA GRUSINSKY" weight="2" />
+      <edge id="25518" source="BOBBY GREEN" target="GIRL" weight="1" />
+      <edge id="25519" source="BOBBY GREEN" target="SERGEANT PROVENZANO" weight="1" />
+      <edge id="25520" source="BOBBY GREEN" target="ACCENTED VOICE" weight="1" />
+      <edge id="25521" source="BOBBY GREEN" target="MAN #1" weight="1" />
+      <edge id="25522" source="BOBBY GREEN" target="VADIM NEZHINSKI'S VOICE" weight="1" />
+      <edge id="25523" source="BOBBY GREEN" target="SLAVIC YOUTH" weight="1" />
+      <edge id="25524" source="BOBBY GREEN" target="FAT LADY" weight="1" />
+      <edge id="25525" source="BOBBY GREEN" target="NEIGHBOR" weight="1" />
+      <edge id="25526" source="BOBBY GREEN" target="VITT THE GUARD" weight="2" />
+      <edge id="25527" source="BOBBY GREEN" target="BURT'S VOICE" weight="1" />
+      <edge id="25528" source="BOBBY GREEN" target="UNDERTAKER" weight="1" />
+      <edge id="25529" source="BOBBY GREEN" target="MAN'S VOICE" weight="2" />
+      <edge id="25530" source="BOBBY GREEN" target="COMMISSIONER RUDDY" weight="1" />
+      <edge id="25531" source="BOBBY GREEN" target="COMMISSIONER WILLIAM RUDDY" weight="1" />
+      <edge id="25532" source="BOBBY GREEN" target="MICHAEL   SOLO" weight="1" />
+      <edge id="25533" source="BOBBY GREEN" target="UNIFORMED OFFICER" weight="1" />
+      <edge id="25534" source="BOBBY GREEN" target="GUARD'S VOICE" weight="1" />
+      <edge id="25535" source="BOBBY GREEN" target="A MAN'S VOICE" weight="1" />
+      <edge id="25536" source="BOBBY GREEN" target="BOBBY   GREEN" weight="1" />
+      <edge id="25537" source="BOBBY GREEN" target="TOUGH-LOOKING COP" weight="1" />
+      <edge id="25538" source="BOBBY GREEN" target="RANDOM OFFICERS" weight="1" />
+      <edge id="25539" source="BOBBY GREEN" target="POLICE CHAPLAIN" weight="1" />
+      <edge id="25540" source="ROSARIO DIAZ" target="BOBBY GREEN" weight="19" />
+      <edge id="25541" source="ROSARIO DIAZ" target="MUFFLED VOICE" weight="1" />
+      <edge id="25542" source="ROSARIO DIAZ" target="RUSSELL DE KEIFER" weight="1" />
+      <edge id="25543" source="ROSARIO DIAZ" target="YOUNG POLICE REPORTER" weight="1" />
+      <edge id="25544" source="ROSARIO DIAZ" target="JOSEPH GRUSINSKY" weight="4" />
+      <edge id="25545" source="ROSARIO DIAZ" target="BURT GRUSINSKY" weight="4" />
+      <edge id="25546" source="ROSARIO DIAZ" target="SPIRO GIAVANNIS" weight="3" />
+      <edge id="25547" source="ROSARIO DIAZ" target="LOUIS FALSETTI" weight="4" />
+      <edge id="25548" source="ROSARIO DIAZ" target="VADIM NEZHINSKI" weight="2" />
+      <edge id="25549" source="ROSARIO DIAZ" target="PAVEL LUBYARSKY" weight="2" />
+      <edge id="25550" source="ROSARIO DIAZ" target="STOCKY LATINO MAN" weight="1" />
+      <edge id="25551" source="ROSARIO DIAZ" target="MICHAEL SOLO" weight="2" />
+      <edge id="25552" source="ROSARIO DIAZ" target="OTHER PLAYERS" weight="1" />
+      <edge id="25553" source="ROSARIO DIAZ" target="GIRL" weight="1" />
+      <edge id="25554" source="ROSARIO DIAZ" target="FAT LADY" weight="1" />
+      <edge id="25555" source="ROSARIO DIAZ" target="NEIGHBOR" weight="1" />
+      <edge id="25556" source="ROSARIO DIAZ" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25557" source="ROSARIO DIAZ" target="VITT THE GUARD" weight="1" />
+      <edge id="25558" source="ROSARIO DIAZ" target="BURT'S VOICE" weight="1" />
+      <edge id="25559" source="ROSARIO DIAZ" target="JACK SHAPIRO" weight="1" />
+      <edge id="25560" source="ROSARIO DIAZ" target="MAN'S VOICE" weight="1" />
+      <edge id="25561" source="MUFFLED VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25562" source="MUFFLED VOICE" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25563" source="LOUIS FALSETTI" target="BOBBY GREEN" weight="12" />
+      <edge id="25564" source="LOUIS FALSETTI" target="BLOODIED PATRON" weight="1" />
+      <edge id="25565" source="LOUIS FALSETTI" target="FREDDIE" weight="2" />
+      <edge id="25566" source="LOUIS FALSETTI" target="HAZEL" weight="2" />
+      <edge id="25567" source="LOUIS FALSETTI" target="ROSARIO DIAZ" weight="4" />
+      <edge id="25568" source="LOUIS FALSETTI" target="VADIM NEZHINSKI" weight="3" />
+      <edge id="25569" source="LOUIS FALSETTI" target="PAVEL LUBYARSKY" weight="2" />
+      <edge id="25570" source="LOUIS FALSETTI" target="JOSEPH GRUSINSKY" weight="2" />
+      <edge id="25571" source="LOUIS FALSETTI" target="UNIFORMED COP" weight="1" />
+      <edge id="25572" source="LOUIS FALSETTI" target="PARAMEDIC" weight="1" />
+      <edge id="25573" source="LOUIS FALSETTI" target="MICHAEL SOLO" weight="2" />
+      <edge id="25574" source="LOUIS FALSETTI" target="STOCKY LATINO MAN" weight="1" />
+      <edge id="25575" source="LOUIS FALSETTI" target="OTHER PLAYERS" weight="1" />
+      <edge id="25576" source="LOUIS FALSETTI" target="GIRL" weight="1" />
+      <edge id="25577" source="LOUIS FALSETTI" target="A MAN'S VOICE" weight="1" />
+      <edge id="25578" source="LOUIS FALSETTI" target="BOBBY   GREEN" weight="1" />
+      <edge id="25579" source="LOUIS FALSETTI" target="MARAT BUZHAYEV" weight="1" />
+      <edge id="25580" source="LOUIS FALSETTI" target="ELI MIRICHENKO" weight="1" />
+      <edge id="25581" source="BLOODIED PATRON" target="BOBBY GREEN" weight="1" />
+      <edge id="25582" source="BLOODIED PATRON" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25583" source="MARAT BUZHAYEV" target="BOBBY GREEN" weight="6" />
+      <edge id="25584" source="MARAT BUZHAYEV" target="KALINA BUZHAYEV" weight="3" />
+      <edge id="25585" source="MARAT BUZHAYEV" target="ELI MIRICHENKO" weight="2" />
+      <edge id="25586" source="MARAT BUZHAYEV" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25587" source="MARAT BUZHAYEV" target="HAZEL" weight="1" />
+      <edge id="25588" source="MARAT BUZHAYEV" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25589" source="KALINA BUZHAYEV" target="MARAT BUZHAYEV" weight="3" />
+      <edge id="25590" source="KALINA BUZHAYEV" target="BOBBY GREEN" weight="4" />
+      <edge id="25591" source="KALINA BUZHAYEV" target="ELI MIRICHENKO" weight="1" />
+      <edge id="25592" source="BURT GRUSINSKY" target="JOSEPH GRUSINSKY" weight="6" />
+      <edge id="25593" source="BURT GRUSINSKY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="25594" source="BURT GRUSINSKY" target="YOUNG POLICE REPORTER" weight="1" />
+      <edge id="25595" source="BURT GRUSINSKY" target="BOBBY GREEN" weight="13" />
+      <edge id="25596" source="BURT GRUSINSKY" target="ROSARIO DIAZ" weight="4" />
+      <edge id="25597" source="BURT GRUSINSKY" target="MICHAEL SOLO" weight="5" />
+      <edge id="25598" source="BURT GRUSINSKY" target="JACK SHAPIRO" weight="4" />
+      <edge id="25599" source="BURT GRUSINSKY" target="SPIRO GIAVANNIS" weight="1" />
+      <edge id="25600" source="BURT GRUSINSKY" target="UNIFORMED COP" weight="1" />
+      <edge id="25601" source="BURT GRUSINSKY" target="POLICE CHAPLAIN" weight="1" />
+      <edge id="25602" source="BURT GRUSINSKY" target="RANDOM BOXING OFFICERS" weight="1" />
+      <edge id="25603" source="BURT GRUSINSKY" target="MUSTACHIOED COP" weight="1" />
+      <edge id="25604" source="BURT GRUSINSKY" target="MAYOR" weight="1" />
+      <edge id="25605" source="BURT GRUSINSKY" target="WARRANT UNIT OFFICER" weight="1" />
+      <edge id="25606" source="BURT GRUSINSKY" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25607" source="BURT GRUSINSKY" target="OFFICERS" weight="1" />
+      <edge id="25608" source="BURT GRUSINSKY" target="EMERGENCY SERVICES GUY" weight="1" />
+      <edge id="25609" source="BURT GRUSINSKY" target="NEIGHBOR" weight="1" />
+      <edge id="25610" source="BURT GRUSINSKY" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25611" source="BURT GRUSINSKY" target="VITT THE GUARD" weight="1" />
+      <edge id="25612" source="BURT GRUSINSKY" target="GUARD" weight="1" />
+      <edge id="25613" source="JOSEPH GRUSINSKY" target="BURT GRUSINSKY" weight="6" />
+      <edge id="25614" source="JOSEPH GRUSINSKY" target="PHOTOGRAPHER" weight="1" />
+      <edge id="25615" source="JOSEPH GRUSINSKY" target="YOUNG POLICE REPORTER" weight="1" />
+      <edge id="25616" source="JOSEPH GRUSINSKY" target="BOBBY GREEN" weight="15" />
+      <edge id="25617" source="JOSEPH GRUSINSKY" target="ROSARIO DIAZ" weight="4" />
+      <edge id="25618" source="JOSEPH GRUSINSKY" target="MICHAEL SOLO" weight="8" />
+      <edge id="25619" source="JOSEPH GRUSINSKY" target="JACK SHAPIRO" weight="7" />
+      <edge id="25620" source="JOSEPH GRUSINSKY" target="SPIRO GIAVANNIS" weight="1" />
+      <edge id="25621" source="JOSEPH GRUSINSKY" target="LOUIS FALSETTI" weight="2" />
+      <edge id="25622" source="JOSEPH GRUSINSKY" target="VADIM NEZHINSKI" weight="2" />
+      <edge id="25623" source="JOSEPH GRUSINSKY" target="PAVEL LUBYARSKY" weight="1" />
+      <edge id="25624" source="JOSEPH GRUSINSKY" target="UNIFORMED COP" weight="1" />
+      <edge id="25625" source="JOSEPH GRUSINSKY" target="PARAMEDIC" weight="1" />
+      <edge id="25626" source="JOSEPH GRUSINSKY" target="PAVEL LUBYARSKY'S VOICE" weight="1" />
+      <edge id="25627" source="JOSEPH GRUSINSKY" target="NEIGHBOR" weight="1" />
+      <edge id="25628" source="JOSEPH GRUSINSKY" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25629" source="JOSEPH GRUSINSKY" target="DRIVER" weight="1" />
+      <edge id="25630" source="JOSEPH GRUSINSKY" target="UNDERTAKER" weight="2" />
+      <edge id="25631" source="JOSEPH GRUSINSKY" target="MICHAEL   SOLO" weight="1" />
+      <edge id="25632" source="JOSEPH GRUSINSKY" target="UNIFORMED OFFICER" weight="1" />
+      <edge id="25633" source="JOSEPH GRUSINSKY" target="TOUGH-LOOKING COP" weight="1" />
+      <edge id="25634" source="JOSEPH GRUSINSKY" target="POLICE CHAPLAIN" weight="1" />
+      <edge id="25635" source="PHOTOGRAPHER" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25636" source="PHOTOGRAPHER" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25637" source="RUSSELL DE KEIFER" target="BOBBY GREEN" weight="1" />
+      <edge id="25638" source="RUSSELL DE KEIFER" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25639" source="YOUNG POLICE REPORTER" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25640" source="YOUNG POLICE REPORTER" target="BOBBY GREEN" weight="1" />
+      <edge id="25641" source="YOUNG POLICE REPORTER" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25642" source="YOUNG POLICE REPORTER" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25643" source="MICHAEL SOLO" target="BURT GRUSINSKY" weight="5" />
+      <edge id="25644" source="MICHAEL SOLO" target="BOBBY GREEN" weight="20" />
+      <edge id="25645" source="MICHAEL SOLO" target="JOSEPH GRUSINSKY" weight="8" />
+      <edge id="25646" source="MICHAEL SOLO" target="JACK SHAPIRO" weight="9" />
+      <edge id="25647" source="MICHAEL SOLO" target="UNIFORMED COP" weight="1" />
+      <edge id="25648" source="MICHAEL SOLO" target="PARAMEDIC" weight="1" />
+      <edge id="25649" source="MICHAEL SOLO" target="LOUIS FALSETTI" weight="2" />
+      <edge id="25650" source="MICHAEL SOLO" target="VADIM NEZHINSKI" weight="2" />
+      <edge id="25651" source="MICHAEL SOLO" target="ROSARIO DIAZ" weight="2" />
+      <edge id="25652" source="MICHAEL SOLO" target="STOCKY LATINO MAN" weight="1" />
+      <edge id="25653" source="MICHAEL SOLO" target="OTHER PLAYERS" weight="1" />
+      <edge id="25654" source="MICHAEL SOLO" target="ACCENTED VOICE" weight="1" />
+      <edge id="25655" source="MICHAEL SOLO" target="PAVEL LUBYARSKY" weight="2" />
+      <edge id="25656" source="MICHAEL SOLO" target="VADIM NEZHINSKI'S VOICE" weight="1" />
+      <edge id="25657" source="MICHAEL SOLO" target="SLAVIC YOUTH" weight="1" />
+      <edge id="25658" source="MICHAEL SOLO" target="EMERGENCY SERVICES GUY" weight="1" />
+      <edge id="25659" source="MICHAEL SOLO" target="MICHAEL   SOLO" weight="1" />
+      <edge id="25660" source="MICHAEL SOLO" target="UNIFORMED OFFICER" weight="1" />
+      <edge id="25661" source="MICHAEL SOLO" target="TOUGH-LOOKING COP" weight="1" />
+      <edge id="25662" source="MICHAEL SOLO" target="MAN'S VOICE" weight="1" />
+      <edge id="25663" source="MICHAEL SOLO" target="RANDOM OFFICERS" weight="1" />
+      <edge id="25664" source="JACK SHAPIRO" target="MICHAEL SOLO" weight="9" />
+      <edge id="25665" source="JACK SHAPIRO" target="BURT GRUSINSKY" weight="4" />
+      <edge id="25666" source="JACK SHAPIRO" target="BOBBY GREEN" weight="8" />
+      <edge id="25667" source="JACK SHAPIRO" target="JOSEPH GRUSINSKY" weight="7" />
+      <edge id="25668" source="JACK SHAPIRO" target="WARRANT UNIT OFFICER" weight="1" />
+      <edge id="25669" source="JACK SHAPIRO" target="VADIM NEZHINSKI" weight="2" />
+      <edge id="25670" source="JACK SHAPIRO" target="OFFICERS" weight="1" />
+      <edge id="25671" source="JACK SHAPIRO" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25672" source="JACK SHAPIRO" target="MICHAEL   SOLO" weight="1" />
+      <edge id="25673" source="JACK SHAPIRO" target="UNIFORMED OFFICER" weight="1" />
+      <edge id="25674" source="JACK SHAPIRO" target="TOUGH-LOOKING COP" weight="1" />
+      <edge id="25675" source="SPIRO GIAVANNIS" target="ROSARIO DIAZ" weight="3" />
+      <edge id="25676" source="SPIRO GIAVANNIS" target="BOBBY GREEN" weight="3" />
+      <edge id="25677" source="SPIRO GIAVANNIS" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25678" source="SPIRO GIAVANNIS" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25679" source="SPIRO GIAVANNIS" target="FAT LADY" weight="1" />
+      <edge id="25680" source="SPIRO GIAVANNIS" target="MAN'S VOICE" weight="1" />
+      <edge id="25681" source="FREDDIE" target="BOBBY GREEN" weight="2" />
+      <edge id="25682" source="FREDDIE" target="LOUIS FALSETTI" weight="2" />
+      <edge id="25683" source="FREDDIE" target="HAZEL" weight="1" />
+      <edge id="25684" source="HAZEL" target="BOBBY GREEN" weight="2" />
+      <edge id="25685" source="HAZEL" target="LOUIS FALSETTI" weight="2" />
+      <edge id="25686" source="HAZEL" target="FREDDIE" weight="1" />
+      <edge id="25687" source="HAZEL" target="MARAT BUZHAYEV" weight="1" />
+      <edge id="25688" source="HAZEL" target="ELI MIRICHENKO" weight="1" />
+      <edge id="25689" source="ELI MIRICHENKO" target="BOBBY GREEN" weight="2" />
+      <edge id="25690" source="ELI MIRICHENKO" target="MARAT BUZHAYEV" weight="2" />
+      <edge id="25691" source="ELI MIRICHENKO" target="KALINA BUZHAYEV" weight="1" />
+      <edge id="25692" source="ELI MIRICHENKO" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25693" source="ELI MIRICHENKO" target="HAZEL" weight="1" />
+      <edge id="25694" source="ELI MIRICHENKO" target="AFRICAN-AMERICAN MAN" weight="1" />
+      <edge id="25695" source="ELI MIRICHENKO" target="MAN'S VOICE" weight="1" />
+      <edge id="25696" source="VADIM NEZHINSKI" target="LOUIS FALSETTI" weight="3" />
+      <edge id="25697" source="VADIM NEZHINSKI" target="BOBBY GREEN" weight="4" />
+      <edge id="25698" source="VADIM NEZHINSKI" target="ROSARIO DIAZ" weight="2" />
+      <edge id="25699" source="VADIM NEZHINSKI" target="PAVEL LUBYARSKY" weight="3" />
+      <edge id="25700" source="VADIM NEZHINSKI" target="JOSEPH GRUSINSKY" weight="2" />
+      <edge id="25701" source="VADIM NEZHINSKI" target="UNIFORMED COP" weight="1" />
+      <edge id="25702" source="VADIM NEZHINSKI" target="PARAMEDIC" weight="1" />
+      <edge id="25703" source="VADIM NEZHINSKI" target="MICHAEL SOLO" weight="2" />
+      <edge id="25704" source="VADIM NEZHINSKI" target="GIRL" weight="1" />
+      <edge id="25705" source="VADIM NEZHINSKI" target="VADIM NEZHINSKI'S VOICE" weight="1" />
+      <edge id="25706" source="VADIM NEZHINSKI" target="SLAVIC YOUTH" weight="1" />
+      <edge id="25707" source="VADIM NEZHINSKI" target="WARRANT UNIT OFFICER" weight="1" />
+      <edge id="25708" source="VADIM NEZHINSKI" target="JACK SHAPIRO" weight="2" />
+      <edge id="25709" source="VADIM NEZHINSKI" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25710" source="VADIM NEZHINSKI" target="OFFICERS" weight="1" />
+      <edge id="25711" source="VADIM NEZHINSKI" target="MARAT BUZHAYEV" weight="1" />
+      <edge id="25712" source="PAVEL LUBYARSKY" target="LOUIS FALSETTI" weight="2" />
+      <edge id="25713" source="PAVEL LUBYARSKY" target="BOBBY GREEN" weight="6" />
+      <edge id="25714" source="PAVEL LUBYARSKY" target="ROSARIO DIAZ" weight="2" />
+      <edge id="25715" source="PAVEL LUBYARSKY" target="VADIM NEZHINSKI" weight="3" />
+      <edge id="25716" source="PAVEL LUBYARSKY" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25717" source="PAVEL LUBYARSKY" target="GIRL" weight="1" />
+      <edge id="25718" source="PAVEL LUBYARSKY" target="ACCENTED VOICE" weight="1" />
+      <edge id="25719" source="PAVEL LUBYARSKY" target="MICHAEL SOLO" weight="2" />
+      <edge id="25720" source="PAVEL LUBYARSKY" target="VADIM NEZHINSKI'S VOICE" weight="1" />
+      <edge id="25721" source="PAVEL LUBYARSKY" target="SLAVIC YOUTH" weight="1" />
+      <edge id="25722" source="UNIFORMED COP" target="BOBBY GREEN" weight="1" />
+      <edge id="25723" source="UNIFORMED COP" target="PARAMEDIC" weight="1" />
+      <edge id="25724" source="UNIFORMED COP" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25725" source="UNIFORMED COP" target="MICHAEL SOLO" weight="1" />
+      <edge id="25726" source="UNIFORMED COP" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25727" source="UNIFORMED COP" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25728" source="UNIFORMED COP" target="PORTLY COP" weight="1" />
+      <edge id="25729" source="UNIFORMED COP" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25730" source="UNIFORMED COP" target="POLICE CHAPLAIN" weight="1" />
+      <edge id="25731" source="UNIFORMED COP" target="RANDOM BOXING OFFICERS" weight="1" />
+      <edge id="25732" source="PARAMEDIC" target="BOBBY GREEN" weight="1" />
+      <edge id="25733" source="PARAMEDIC" target="UNIFORMED COP" weight="1" />
+      <edge id="25734" source="PARAMEDIC" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25735" source="PARAMEDIC" target="MICHAEL SOLO" weight="1" />
+      <edge id="25736" source="PARAMEDIC" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25737" source="PARAMEDIC" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25738" source="PORTLY COP" target="UNIFORMED COP" weight="1" />
+      <edge id="25739" source="POLICE CHAPLAIN" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25740" source="POLICE CHAPLAIN" target="UNIFORMED COP" weight="1" />
+      <edge id="25741" source="POLICE CHAPLAIN" target="RANDOM BOXING OFFICERS" weight="1" />
+      <edge id="25742" source="POLICE CHAPLAIN" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25743" source="POLICE CHAPLAIN" target="BOBBY GREEN" weight="1" />
+      <edge id="25744" source="RANDOM BOXING OFFICERS" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25745" source="RANDOM BOXING OFFICERS" target="UNIFORMED COP" weight="1" />
+      <edge id="25746" source="RANDOM BOXING OFFICERS" target="POLICE CHAPLAIN" weight="1" />
+      <edge id="25747" source="STOCKY LATINO MAN" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25748" source="STOCKY LATINO MAN" target="BOBBY GREEN" weight="1" />
+      <edge id="25749" source="STOCKY LATINO MAN" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25750" source="STOCKY LATINO MAN" target="MICHAEL SOLO" weight="1" />
+      <edge id="25751" source="STOCKY LATINO MAN" target="OTHER PLAYERS" weight="1" />
+      <edge id="25752" source="OTHER PLAYERS" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25753" source="OTHER PLAYERS" target="BOBBY GREEN" weight="1" />
+      <edge id="25754" source="OTHER PLAYERS" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25755" source="OTHER PLAYERS" target="STOCKY LATINO MAN" weight="1" />
+      <edge id="25756" source="OTHER PLAYERS" target="MICHAEL SOLO" weight="1" />
+      <edge id="25757" source="MUSTACHIOED COP" target="BOBBY GREEN" weight="1" />
+      <edge id="25758" source="MUSTACHIOED COP" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25759" source="MUSTACHIOED COP" target="MAYOR" weight="1" />
+      <edge id="25760" source="MAYOR" target="BOBBY GREEN" weight="1" />
+      <edge id="25761" source="MAYOR" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25762" source="MAYOR" target="MUSTACHIOED COP" weight="1" />
+      <edge id="25763" source="GUARD" target="BOBBY GREEN" weight="3" />
+      <edge id="25764" source="GUARD" target="WOMAN'S VOICE" weight="1" />
+      <edge id="25765" source="GUARD" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25766" source="GUARD" target="VITT THE GUARD" weight="1" />
+      <edge id="25767" source="GUARD" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25768" source="GUARD" target="GUARD'S VOICE" weight="1" />
+      <edge id="25769" source="WOMAN'S VOICE" target="GUARD" weight="1" />
+      <edge id="25770" source="WOMAN'S VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25771" source="WOMAN'S VOICE" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25772" source="SANDRA GRUSINSKY" target="GUARD" weight="1" />
+      <edge id="25773" source="SANDRA GRUSINSKY" target="BOBBY GREEN" weight="2" />
+      <edge id="25774" source="SANDRA GRUSINSKY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="25775" source="SANDRA GRUSINSKY" target="NEIGHBOR" weight="1" />
+      <edge id="25776" source="SANDRA GRUSINSKY" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25777" source="SANDRA GRUSINSKY" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25778" source="SANDRA GRUSINSKY" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25779" source="GIRL" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25780" source="GIRL" target="BOBBY GREEN" weight="1" />
+      <edge id="25781" source="GIRL" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25782" source="GIRL" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25783" source="GIRL" target="PAVEL LUBYARSKY" weight="1" />
+      <edge id="25784" source="SERGEANT PROVENZANO" target="BOBBY GREEN" weight="1" />
+      <edge id="25785" source="ACCENTED VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25786" source="ACCENTED VOICE" target="PAVEL LUBYARSKY" weight="1" />
+      <edge id="25787" source="ACCENTED VOICE" target="MICHAEL SOLO" weight="1" />
+      <edge id="25788" source="MAN #1" target="BOBBY GREEN" weight="1" />
+      <edge id="25789" source="MAN'S VOICE" target="BOBBY GREEN" weight="2" />
+      <edge id="25790" source="MAN'S VOICE" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25791" source="MAN'S VOICE" target="SPIRO GIAVANNIS" weight="1" />
+      <edge id="25792" source="MAN'S VOICE" target="AFRICAN-AMERICAN MAN" weight="1" />
+      <edge id="25793" source="MAN'S VOICE" target="ELI MIRICHENKO" weight="1" />
+      <edge id="25794" source="MAN'S VOICE" target="MICHAEL SOLO" weight="1" />
+      <edge id="25795" source="PAVEL LUBYARSKY'S VOICE" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25796" source="VADIM NEZHINSKI'S VOICE" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25797" source="VADIM NEZHINSKI'S VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25798" source="VADIM NEZHINSKI'S VOICE" target="SLAVIC YOUTH" weight="1" />
+      <edge id="25799" source="VADIM NEZHINSKI'S VOICE" target="PAVEL LUBYARSKY" weight="1" />
+      <edge id="25800" source="VADIM NEZHINSKI'S VOICE" target="MICHAEL SOLO" weight="1" />
+      <edge id="25801" source="SLAVIC YOUTH" target="VADIM NEZHINSKI'S VOICE" weight="1" />
+      <edge id="25802" source="SLAVIC YOUTH" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25803" source="SLAVIC YOUTH" target="BOBBY GREEN" weight="1" />
+      <edge id="25804" source="SLAVIC YOUTH" target="PAVEL LUBYARSKY" weight="1" />
+      <edge id="25805" source="SLAVIC YOUTH" target="MICHAEL SOLO" weight="1" />
+      <edge id="25806" source="WARRANT UNIT OFFICER" target="JACK SHAPIRO" weight="1" />
+      <edge id="25807" source="WARRANT UNIT OFFICER" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25808" source="WARRANT UNIT OFFICER" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25809" source="WARRANT UNIT OFFICER" target="OFFICERS" weight="1" />
+      <edge id="25810" source="OFFICERS" target="WARRANT UNIT OFFICER" weight="1" />
+      <edge id="25811" source="OFFICERS" target="JACK SHAPIRO" weight="1" />
+      <edge id="25812" source="OFFICERS" target="VADIM NEZHINSKI" weight="1" />
+      <edge id="25813" source="OFFICERS" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25814" source="EMERGENCY SERVICES GUY" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25815" source="EMERGENCY SERVICES GUY" target="MICHAEL SOLO" weight="1" />
+      <edge id="25816" source="FAT LADY" target="SPIRO GIAVANNIS" weight="1" />
+      <edge id="25817" source="FAT LADY" target="BOBBY GREEN" weight="1" />
+      <edge id="25818" source="FAT LADY" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25819" source="NEIGHBOR" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25820" source="NEIGHBOR" target="BOBBY GREEN" weight="1" />
+      <edge id="25821" source="NEIGHBOR" target="SANDRA GRUSINSKY" weight="1" />
+      <edge id="25822" source="NEIGHBOR" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25823" source="NEIGHBOR" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25824" source="DRIVER" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25825" source="VITT THE GUARD" target="BOBBY GREEN" weight="2" />
+      <edge id="25826" source="VITT THE GUARD" target="BURT GRUSINSKY" weight="1" />
+      <edge id="25827" source="VITT THE GUARD" target="GUARD" weight="1" />
+      <edge id="25828" source="VITT THE GUARD" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25829" source="VITT THE GUARD" target="BURT'S VOICE" weight="1" />
+      <edge id="25830" source="BURT'S VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25831" source="BURT'S VOICE" target="ROSARIO DIAZ" weight="1" />
+      <edge id="25832" source="BURT'S VOICE" target="VITT THE GUARD" weight="1" />
+      <edge id="25833" source="UNDERTAKER" target="JOSEPH GRUSINSKY" weight="2" />
+      <edge id="25834" source="UNDERTAKER" target="BOBBY GREEN" weight="1" />
+      <edge id="25835" source="COMMISSIONER RUDDY" target="BOBBY GREEN" weight="1" />
+      <edge id="25836" source="COMMISSIONER WILLIAM RUDDY" target="BOBBY GREEN" weight="1" />
+      <edge id="25837" source="MICHAEL   SOLO" target="JACK SHAPIRO" weight="1" />
+      <edge id="25838" source="MICHAEL   SOLO" target="UNIFORMED OFFICER" weight="1" />
+      <edge id="25839" source="MICHAEL   SOLO" target="BOBBY GREEN" weight="1" />
+      <edge id="25840" source="MICHAEL   SOLO" target="MICHAEL SOLO" weight="1" />
+      <edge id="25841" source="MICHAEL   SOLO" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25842" source="UNIFORMED OFFICER" target="MICHAEL   SOLO" weight="1" />
+      <edge id="25843" source="UNIFORMED OFFICER" target="JACK SHAPIRO" weight="1" />
+      <edge id="25844" source="UNIFORMED OFFICER" target="BOBBY GREEN" weight="1" />
+      <edge id="25845" source="UNIFORMED OFFICER" target="MICHAEL SOLO" weight="1" />
+      <edge id="25846" source="UNIFORMED OFFICER" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25847" source="GUARD'S VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25848" source="GUARD'S VOICE" target="GUARD" weight="1" />
+      <edge id="25849" source="A MAN'S VOICE" target="BOBBY GREEN" weight="1" />
+      <edge id="25850" source="A MAN'S VOICE" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25851" source="A MAN'S VOICE" target="BOBBY   GREEN" weight="1" />
+      <edge id="25852" source="BOBBY   GREEN" target="A MAN'S VOICE" weight="1" />
+      <edge id="25853" source="BOBBY   GREEN" target="BOBBY GREEN" weight="1" />
+      <edge id="25854" source="BOBBY   GREEN" target="LOUIS FALSETTI" weight="1" />
+      <edge id="25855" source="AFRICAN-AMERICAN MAN" target="MAN'S VOICE" weight="1" />
+      <edge id="25856" source="AFRICAN-AMERICAN MAN" target="ELI MIRICHENKO" weight="1" />
+      <edge id="25857" source="TOUGH-LOOKING COP" target="BOBBY GREEN" weight="1" />
+      <edge id="25858" source="TOUGH-LOOKING COP" target="MICHAEL SOLO" weight="1" />
+      <edge id="25859" source="TOUGH-LOOKING COP" target="JACK SHAPIRO" weight="1" />
+      <edge id="25860" source="TOUGH-LOOKING COP" target="JOSEPH GRUSINSKY" weight="1" />
+      <edge id="25861" source="RANDOM OFFICERS" target="BOBBY GREEN" weight="1" />
+      <edge id="25862" source="RANDOM OFFICERS" target="MICHAEL SOLO" weight="1" />
+    </edges>
+  </graph>
+</gexf>

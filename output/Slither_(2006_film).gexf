@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="STARLA" label="STARLA" />
+      <node id="WILL" label="WILL" />
+      <node id="JACK" label="JACK" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="KYLIE" label="KYLIE" />
+      <node id="GRANT" label="GRANT" />
+      <node id="TREVOR" label="TREVOR" />
+      <node id="WALLY" label="WALLY" />
+      <node id="BILL" label="BILL" />
+      <node id="SHELBY" label="SHELBY" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="BARKEEP" label="BARKEEP" />
+      <node id="BRENDA" label="BRENDA" />
+      <node id="CAMPER" label="CAMPER" />
+      <node id="NEIGHBOR" label="NEIGHBOR" />
+      <node id="JANENE" label="JANENE" />
+      <node id="BUTCHER" label="BUTCHER" />
+      <node id="BOY" label="BOY" />
+      <node id="BRENDA'S HUSBAND" label="BRENDA'S HUSBAND" />
+      <node id="SHERRY" label="SHERRY" />
+      <node id="PASTOR" label="PASTOR" />
+      <node id="CONGREGATION" label="CONGREGATION" />
+      <node id="REDNECK" label="REDNECK" />
+      <node id="KYLIE'S MOM" label="KYLIE'S MOM" />
+      <node id="KYLIE'S DAD" label="KYLIE'S DAD" />
+      <node id="GOOD OL' BOY" label="GOOD OL' BOY" />
+      <node id="OLDER COP" label="OLDER COP" />
+      <node id="KYLIE'S SISTER 1" label="KYLIE'S SISTER 1" />
+      <node id="KYLIE'S SISTER 2" label="KYLIE'S SISTER 2" />
+      <node id="KYLIE'S SISTERS" label="KYLIE'S SISTERS" />
+      <node id="RANCHER" label="RANCHER" />
+      <node id="DISEASED TOWNSFOLK" label="DISEASED TOWNSFOLK" />
+      <node id="DISEASED WOMAN" label="DISEASED WOMAN" />
+      <node id="DISEASED KID" label="DISEASED KID" />
+      <node id="SMASHED-FACE MAN" label="SMASHED-FACE MAN" />
+      <node id="NO LONGER PRETTY" label="NO LONGER PRETTY" />
+      <node id="FAT SICK GUY" label="FAT SICK GUY" />
+      <node id="MR. INAPPROPRIATE" label="MR. INAPPROPRIATE" />
+      <node id="DISEASED MAN" label="DISEASED MAN" />
+      <node id="CASHIER" label="CASHIER" />
+    </nodes>
+    <edges>
+      <edge id="15231" source="STARLA" target="WILL" weight="1" />
+      <edge id="15232" source="STARLA" target="GRANT" weight="11" />
+      <edge id="15233" source="STARLA" target="JANENE" weight="2" />
+      <edge id="15234" source="STARLA" target="BOY" weight="1" />
+      <edge id="15235" source="STARLA" target="TREVOR" weight="8" />
+      <edge id="15236" source="STARLA" target="BILL" weight="18" />
+      <edge id="15237" source="STARLA" target="MARGARET" weight="4" />
+      <edge id="15238" source="STARLA" target="JACK" weight="3" />
+      <edge id="15239" source="STARLA" target="WALLY" weight="6" />
+      <edge id="15240" source="STARLA" target="SHERRY" weight="1" />
+      <edge id="15241" source="STARLA" target="GOOD OL' BOY" weight="1" />
+      <edge id="15242" source="STARLA" target="OLDER COP" weight="2" />
+      <edge id="15243" source="STARLA" target="REDNECK" weight="2" />
+      <edge id="15244" source="STARLA" target="BRENDA" weight="1" />
+      <edge id="15245" source="STARLA" target="SHELBY" weight="3" />
+      <edge id="15246" source="STARLA" target="KYLIE" weight="1" />
+      <edge id="15247" source="STARLA" target="DISEASED WOMAN" weight="1" />
+      <edge id="15248" source="STARLA" target="DISEASED KID" weight="1" />
+      <edge id="15249" source="STARLA" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15250" source="STARLA" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15251" source="STARLA" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15252" source="STARLA" target="FAT SICK GUY" weight="1" />
+      <edge id="15253" source="STARLA" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15254" source="STARLA" target="WAITRESS" weight="1" />
+      <edge id="15255" source="STARLA" target="DISEASED MAN" weight="1" />
+      <edge id="15256" source="WILL" target="STARLA" weight="1" />
+      <edge id="15257" source="JACK" target="MOTHER" weight="1" />
+      <edge id="15258" source="JACK" target="GRANT" weight="1" />
+      <edge id="15259" source="JACK" target="STARLA" weight="3" />
+      <edge id="15260" source="JACK" target="TREVOR" weight="6" />
+      <edge id="15261" source="JACK" target="BILL" weight="4" />
+      <edge id="15262" source="JACK" target="MARGARET" weight="4" />
+      <edge id="15263" source="JACK" target="SHERRY" weight="1" />
+      <edge id="15264" source="JACK" target="SHELBY" weight="1" />
+      <edge id="15265" source="JACK" target="REDNECK" weight="3" />
+      <edge id="15266" source="JACK" target="GOOD OL' BOY" weight="1" />
+      <edge id="15267" source="JACK" target="WALLY" weight="3" />
+      <edge id="15268" source="JACK" target="OLDER COP" weight="2" />
+      <edge id="15269" source="JACK" target="BRENDA" weight="1" />
+      <edge id="15270" source="MOTHER" target="JACK" weight="1" />
+      <edge id="15271" source="KYLIE" target="KYLIE'S MOM" weight="3" />
+      <edge id="15272" source="KYLIE" target="KYLIE'S DAD" weight="3" />
+      <edge id="15273" source="KYLIE" target="KYLIE'S SISTER 2" weight="1" />
+      <edge id="15274" source="KYLIE" target="KYLIE'S SISTER 1" weight="1" />
+      <edge id="15275" source="KYLIE" target="BILL" weight="3" />
+      <edge id="15276" source="KYLIE" target="KYLIE'S SISTERS" weight="1" />
+      <edge id="15277" source="KYLIE" target="RANCHER" weight="1" />
+      <edge id="15278" source="KYLIE" target="TREVOR" weight="2" />
+      <edge id="15279" source="KYLIE" target="SHELBY" weight="1" />
+      <edge id="15280" source="KYLIE" target="STARLA" weight="1" />
+      <edge id="15281" source="GRANT" target="SECRETARY" weight="1" />
+      <edge id="15282" source="GRANT" target="STARLA" weight="11" />
+      <edge id="15283" source="GRANT" target="BARKEEP" weight="1" />
+      <edge id="15284" source="GRANT" target="BRENDA" weight="4" />
+      <edge id="15285" source="GRANT" target="CAMPER" weight="1" />
+      <edge id="15286" source="GRANT" target="NEIGHBOR" weight="1" />
+      <edge id="15287" source="GRANT" target="BUTCHER" weight="1" />
+      <edge id="15288" source="GRANT" target="TREVOR" weight="2" />
+      <edge id="15289" source="GRANT" target="BILL" weight="3" />
+      <edge id="15290" source="GRANT" target="MARGARET" weight="1" />
+      <edge id="15291" source="GRANT" target="JACK" weight="1" />
+      <edge id="15292" source="GRANT" target="JANENE" weight="1" />
+      <edge id="15293" source="GRANT" target="WALLY" weight="1" />
+      <edge id="15294" source="TREVOR" target="WALLY" weight="6" />
+      <edge id="15295" source="TREVOR" target="BILL" weight="15" />
+      <edge id="15296" source="TREVOR" target="SHELBY" weight="5" />
+      <edge id="15297" source="TREVOR" target="GRANT" weight="2" />
+      <edge id="15298" source="TREVOR" target="STARLA" weight="8" />
+      <edge id="15299" source="TREVOR" target="MARGARET" weight="8" />
+      <edge id="15300" source="TREVOR" target="JACK" weight="6" />
+      <edge id="15301" source="TREVOR" target="SHERRY" weight="1" />
+      <edge id="15302" source="TREVOR" target="REDNECK" weight="3" />
+      <edge id="15303" source="TREVOR" target="OLDER COP" weight="1" />
+      <edge id="15304" source="TREVOR" target="KYLIE" weight="2" />
+      <edge id="15305" source="WALLY" target="TREVOR" weight="6" />
+      <edge id="15306" source="WALLY" target="BILL" weight="10" />
+      <edge id="15307" source="WALLY" target="SHELBY" weight="1" />
+      <edge id="15308" source="WALLY" target="WAITRESS" weight="1" />
+      <edge id="15309" source="WALLY" target="MARGARET" weight="5" />
+      <edge id="15310" source="WALLY" target="STARLA" weight="6" />
+      <edge id="15311" source="WALLY" target="GRANT" weight="1" />
+      <edge id="15312" source="WALLY" target="REDNECK" weight="3" />
+      <edge id="15313" source="WALLY" target="JACK" weight="3" />
+      <edge id="15314" source="WALLY" target="OLDER COP" weight="3" />
+      <edge id="15315" source="WALLY" target="BRENDA" weight="2" />
+      <edge id="15316" source="BILL" target="TREVOR" weight="15" />
+      <edge id="15317" source="BILL" target="WALLY" weight="10" />
+      <edge id="15318" source="BILL" target="SHELBY" weight="6" />
+      <edge id="15319" source="BILL" target="WAITRESS" weight="1" />
+      <edge id="15320" source="BILL" target="MARGARET" weight="6" />
+      <edge id="15321" source="BILL" target="GRANT" weight="3" />
+      <edge id="15322" source="BILL" target="STARLA" weight="18" />
+      <edge id="15323" source="BILL" target="JACK" weight="4" />
+      <edge id="15324" source="BILL" target="PASTOR" weight="1" />
+      <edge id="15325" source="BILL" target="CONGREGATION" weight="1" />
+      <edge id="15326" source="BILL" target="SHERRY" weight="1" />
+      <edge id="15327" source="BILL" target="REDNECK" weight="3" />
+      <edge id="15328" source="BILL" target="GOOD OL' BOY" weight="1" />
+      <edge id="15329" source="BILL" target="OLDER COP" weight="3" />
+      <edge id="15330" source="BILL" target="BRENDA" weight="2" />
+      <edge id="15331" source="BILL" target="KYLIE'S DAD" weight="1" />
+      <edge id="15332" source="BILL" target="KYLIE'S SISTERS" weight="1" />
+      <edge id="15333" source="BILL" target="KYLIE" weight="3" />
+      <edge id="15334" source="BILL" target="RANCHER" weight="1" />
+      <edge id="15335" source="BILL" target="DISEASED TOWNSFOLK" weight="1" />
+      <edge id="15336" source="BILL" target="CASHIER" weight="1" />
+      <edge id="15337" source="SHELBY" target="TREVOR" weight="5" />
+      <edge id="15338" source="SHELBY" target="WALLY" weight="1" />
+      <edge id="15339" source="SHELBY" target="BILL" weight="6" />
+      <edge id="15340" source="SHELBY" target="JACK" weight="1" />
+      <edge id="15341" source="SHELBY" target="SHERRY" weight="1" />
+      <edge id="15342" source="SHELBY" target="KYLIE" weight="1" />
+      <edge id="15343" source="SHELBY" target="STARLA" weight="3" />
+      <edge id="15344" source="SHELBY" target="DISEASED WOMAN" weight="2" />
+      <edge id="15345" source="SHELBY" target="DISEASED KID" weight="1" />
+      <edge id="15346" source="SHELBY" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15347" source="SHELBY" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15348" source="SHELBY" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15349" source="SHELBY" target="FAT SICK GUY" weight="1" />
+      <edge id="15350" source="SHELBY" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15351" source="SHELBY" target="WAITRESS" weight="1" />
+      <edge id="15352" source="SHELBY" target="DISEASED MAN" weight="1" />
+      <edge id="15353" source="SHELBY" target="PASTOR" weight="1" />
+      <edge id="15354" source="WAITRESS" target="BILL" weight="1" />
+      <edge id="15355" source="WAITRESS" target="MARGARET" weight="1" />
+      <edge id="15356" source="WAITRESS" target="WALLY" weight="1" />
+      <edge id="15357" source="WAITRESS" target="DISEASED WOMAN" weight="1" />
+      <edge id="15358" source="WAITRESS" target="DISEASED KID" weight="1" />
+      <edge id="15359" source="WAITRESS" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15360" source="WAITRESS" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15361" source="WAITRESS" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15362" source="WAITRESS" target="SHELBY" weight="1" />
+      <edge id="15363" source="WAITRESS" target="FAT SICK GUY" weight="1" />
+      <edge id="15364" source="WAITRESS" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15365" source="WAITRESS" target="STARLA" weight="1" />
+      <edge id="15366" source="WAITRESS" target="DISEASED MAN" weight="1" />
+      <edge id="15367" source="MARGARET" target="WAITRESS" weight="1" />
+      <edge id="15368" source="MARGARET" target="BILL" weight="6" />
+      <edge id="15369" source="MARGARET" target="WALLY" weight="5" />
+      <edge id="15370" source="MARGARET" target="GRANT" weight="1" />
+      <edge id="15371" source="MARGARET" target="STARLA" weight="4" />
+      <edge id="15372" source="MARGARET" target="TREVOR" weight="8" />
+      <edge id="15373" source="MARGARET" target="JACK" weight="4" />
+      <edge id="15374" source="MARGARET" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15375" source="MARGARET" target="REDNECK" weight="2" />
+      <edge id="15376" source="MARGARET" target="OLDER COP" weight="1" />
+      <edge id="15377" source="SECRETARY" target="GRANT" weight="1" />
+      <edge id="15378" source="BARKEEP" target="GRANT" weight="1" />
+      <edge id="15379" source="BARKEEP" target="BRENDA" weight="1" />
+      <edge id="15380" source="BRENDA" target="GRANT" weight="4" />
+      <edge id="15381" source="BRENDA" target="BARKEEP" weight="1" />
+      <edge id="15382" source="BRENDA" target="BILL" weight="2" />
+      <edge id="15383" source="BRENDA" target="OLDER COP" weight="2" />
+      <edge id="15384" source="BRENDA" target="WALLY" weight="2" />
+      <edge id="15385" source="BRENDA" target="REDNECK" weight="1" />
+      <edge id="15386" source="BRENDA" target="JACK" weight="1" />
+      <edge id="15387" source="BRENDA" target="STARLA" weight="1" />
+      <edge id="15388" source="CAMPER" target="GRANT" weight="1" />
+      <edge id="15389" source="NEIGHBOR" target="GRANT" weight="1" />
+      <edge id="15390" source="JANENE" target="STARLA" weight="2" />
+      <edge id="15391" source="JANENE" target="GRANT" weight="1" />
+      <edge id="15392" source="BUTCHER" target="GRANT" weight="1" />
+      <edge id="15393" source="BOY" target="STARLA" weight="1" />
+      <edge id="15394" source="BRENDA'S HUSBAND" target="MARGARET" weight="1" />
+      <edge id="15395" source="BRENDA'S HUSBAND" target="DISEASED WOMAN" weight="1" />
+      <edge id="15396" source="BRENDA'S HUSBAND" target="DISEASED KID" weight="1" />
+      <edge id="15397" source="BRENDA'S HUSBAND" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15398" source="BRENDA'S HUSBAND" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15399" source="BRENDA'S HUSBAND" target="SHELBY" weight="1" />
+      <edge id="15400" source="BRENDA'S HUSBAND" target="FAT SICK GUY" weight="1" />
+      <edge id="15401" source="BRENDA'S HUSBAND" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15402" source="BRENDA'S HUSBAND" target="WAITRESS" weight="1" />
+      <edge id="15403" source="BRENDA'S HUSBAND" target="STARLA" weight="1" />
+      <edge id="15404" source="BRENDA'S HUSBAND" target="DISEASED MAN" weight="1" />
+      <edge id="15405" source="SHERRY" target="STARLA" weight="1" />
+      <edge id="15406" source="SHERRY" target="JACK" weight="1" />
+      <edge id="15407" source="SHERRY" target="BILL" weight="1" />
+      <edge id="15408" source="SHERRY" target="TREVOR" weight="1" />
+      <edge id="15409" source="SHERRY" target="SHELBY" weight="1" />
+      <edge id="15410" source="PASTOR" target="BILL" weight="1" />
+      <edge id="15411" source="PASTOR" target="CONGREGATION" weight="1" />
+      <edge id="15412" source="PASTOR" target="DISEASED WOMAN" weight="1" />
+      <edge id="15413" source="PASTOR" target="SHELBY" weight="1" />
+      <edge id="15414" source="CONGREGATION" target="PASTOR" weight="1" />
+      <edge id="15415" source="CONGREGATION" target="BILL" weight="1" />
+      <edge id="15416" source="REDNECK" target="BILL" weight="3" />
+      <edge id="15417" source="REDNECK" target="WALLY" weight="3" />
+      <edge id="15418" source="REDNECK" target="TREVOR" weight="3" />
+      <edge id="15419" source="REDNECK" target="JACK" weight="3" />
+      <edge id="15420" source="REDNECK" target="GOOD OL' BOY" weight="1" />
+      <edge id="15421" source="REDNECK" target="MARGARET" weight="2" />
+      <edge id="15422" source="REDNECK" target="OLDER COP" weight="2" />
+      <edge id="15423" source="REDNECK" target="BRENDA" weight="1" />
+      <edge id="15424" source="REDNECK" target="STARLA" weight="2" />
+      <edge id="15425" source="KYLIE'S MOM" target="KYLIE" weight="3" />
+      <edge id="15426" source="KYLIE'S MOM" target="KYLIE'S DAD" weight="2" />
+      <edge id="15427" source="KYLIE'S MOM" target="KYLIE'S SISTER 1" weight="2" />
+      <edge id="15428" source="KYLIE'S MOM" target="KYLIE'S SISTER 2" weight="2" />
+      <edge id="15429" source="KYLIE'S DAD" target="KYLIE'S MOM" weight="2" />
+      <edge id="15430" source="KYLIE'S DAD" target="KYLIE" weight="3" />
+      <edge id="15431" source="KYLIE'S DAD" target="KYLIE'S SISTER 2" weight="1" />
+      <edge id="15432" source="KYLIE'S DAD" target="KYLIE'S SISTER 1" weight="1" />
+      <edge id="15433" source="KYLIE'S DAD" target="BILL" weight="1" />
+      <edge id="15434" source="KYLIE'S DAD" target="KYLIE'S SISTERS" weight="1" />
+      <edge id="15435" source="KYLIE'S DAD" target="RANCHER" weight="1" />
+      <edge id="15436" source="GOOD OL' BOY" target="JACK" weight="1" />
+      <edge id="15437" source="GOOD OL' BOY" target="REDNECK" weight="1" />
+      <edge id="15438" source="GOOD OL' BOY" target="STARLA" weight="1" />
+      <edge id="15439" source="GOOD OL' BOY" target="BILL" weight="1" />
+      <edge id="15440" source="OLDER COP" target="BILL" weight="3" />
+      <edge id="15441" source="OLDER COP" target="BRENDA" weight="2" />
+      <edge id="15442" source="OLDER COP" target="WALLY" weight="3" />
+      <edge id="15443" source="OLDER COP" target="REDNECK" weight="2" />
+      <edge id="15444" source="OLDER COP" target="JACK" weight="2" />
+      <edge id="15445" source="OLDER COP" target="STARLA" weight="2" />
+      <edge id="15446" source="OLDER COP" target="MARGARET" weight="1" />
+      <edge id="15447" source="OLDER COP" target="TREVOR" weight="1" />
+      <edge id="15448" source="KYLIE'S SISTER 1" target="KYLIE'S MOM" weight="2" />
+      <edge id="15449" source="KYLIE'S SISTER 1" target="KYLIE'S SISTER 2" weight="2" />
+      <edge id="15450" source="KYLIE'S SISTER 1" target="KYLIE'S DAD" weight="1" />
+      <edge id="15451" source="KYLIE'S SISTER 1" target="KYLIE" weight="1" />
+      <edge id="15452" source="KYLIE'S SISTER 2" target="KYLIE'S MOM" weight="2" />
+      <edge id="15453" source="KYLIE'S SISTER 2" target="KYLIE'S SISTER 1" weight="2" />
+      <edge id="15454" source="KYLIE'S SISTER 2" target="KYLIE'S DAD" weight="1" />
+      <edge id="15455" source="KYLIE'S SISTER 2" target="KYLIE" weight="1" />
+      <edge id="15456" source="KYLIE'S SISTERS" target="BILL" weight="1" />
+      <edge id="15457" source="KYLIE'S SISTERS" target="KYLIE'S DAD" weight="1" />
+      <edge id="15458" source="KYLIE'S SISTERS" target="KYLIE" weight="1" />
+      <edge id="15459" source="KYLIE'S SISTERS" target="RANCHER" weight="1" />
+      <edge id="15460" source="RANCHER" target="BILL" weight="1" />
+      <edge id="15461" source="RANCHER" target="KYLIE'S DAD" weight="1" />
+      <edge id="15462" source="RANCHER" target="KYLIE'S SISTERS" weight="1" />
+      <edge id="15463" source="RANCHER" target="KYLIE" weight="1" />
+      <edge id="15464" source="DISEASED TOWNSFOLK" target="BILL" weight="1" />
+      <edge id="15465" source="DISEASED WOMAN" target="DISEASED KID" weight="1" />
+      <edge id="15466" source="DISEASED WOMAN" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15467" source="DISEASED WOMAN" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15468" source="DISEASED WOMAN" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15469" source="DISEASED WOMAN" target="SHELBY" weight="2" />
+      <edge id="15470" source="DISEASED WOMAN" target="FAT SICK GUY" weight="1" />
+      <edge id="15471" source="DISEASED WOMAN" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15472" source="DISEASED WOMAN" target="WAITRESS" weight="1" />
+      <edge id="15473" source="DISEASED WOMAN" target="STARLA" weight="1" />
+      <edge id="15474" source="DISEASED WOMAN" target="DISEASED MAN" weight="1" />
+      <edge id="15475" source="DISEASED WOMAN" target="PASTOR" weight="1" />
+      <edge id="15476" source="DISEASED KID" target="DISEASED WOMAN" weight="1" />
+      <edge id="15477" source="DISEASED KID" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15478" source="DISEASED KID" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15479" source="DISEASED KID" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15480" source="DISEASED KID" target="SHELBY" weight="1" />
+      <edge id="15481" source="DISEASED KID" target="FAT SICK GUY" weight="1" />
+      <edge id="15482" source="DISEASED KID" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15483" source="DISEASED KID" target="WAITRESS" weight="1" />
+      <edge id="15484" source="DISEASED KID" target="STARLA" weight="1" />
+      <edge id="15485" source="DISEASED KID" target="DISEASED MAN" weight="1" />
+      <edge id="15486" source="SMASHED-FACE MAN" target="DISEASED WOMAN" weight="1" />
+      <edge id="15487" source="SMASHED-FACE MAN" target="DISEASED KID" weight="1" />
+      <edge id="15488" source="SMASHED-FACE MAN" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15489" source="SMASHED-FACE MAN" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15490" source="SMASHED-FACE MAN" target="SHELBY" weight="1" />
+      <edge id="15491" source="SMASHED-FACE MAN" target="FAT SICK GUY" weight="1" />
+      <edge id="15492" source="SMASHED-FACE MAN" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15493" source="SMASHED-FACE MAN" target="WAITRESS" weight="1" />
+      <edge id="15494" source="SMASHED-FACE MAN" target="STARLA" weight="1" />
+      <edge id="15495" source="SMASHED-FACE MAN" target="DISEASED MAN" weight="1" />
+      <edge id="15496" source="NO LONGER PRETTY" target="DISEASED WOMAN" weight="1" />
+      <edge id="15497" source="NO LONGER PRETTY" target="DISEASED KID" weight="1" />
+      <edge id="15498" source="NO LONGER PRETTY" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15499" source="NO LONGER PRETTY" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15500" source="NO LONGER PRETTY" target="SHELBY" weight="1" />
+      <edge id="15501" source="NO LONGER PRETTY" target="FAT SICK GUY" weight="1" />
+      <edge id="15502" source="NO LONGER PRETTY" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15503" source="NO LONGER PRETTY" target="WAITRESS" weight="1" />
+      <edge id="15504" source="NO LONGER PRETTY" target="STARLA" weight="1" />
+      <edge id="15505" source="NO LONGER PRETTY" target="DISEASED MAN" weight="1" />
+      <edge id="15506" source="FAT SICK GUY" target="DISEASED WOMAN" weight="1" />
+      <edge id="15507" source="FAT SICK GUY" target="DISEASED KID" weight="1" />
+      <edge id="15508" source="FAT SICK GUY" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15509" source="FAT SICK GUY" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15510" source="FAT SICK GUY" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15511" source="FAT SICK GUY" target="SHELBY" weight="1" />
+      <edge id="15512" source="FAT SICK GUY" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15513" source="FAT SICK GUY" target="WAITRESS" weight="1" />
+      <edge id="15514" source="FAT SICK GUY" target="STARLA" weight="1" />
+      <edge id="15515" source="FAT SICK GUY" target="DISEASED MAN" weight="1" />
+      <edge id="15516" source="MR. INAPPROPRIATE" target="DISEASED WOMAN" weight="1" />
+      <edge id="15517" source="MR. INAPPROPRIATE" target="DISEASED KID" weight="1" />
+      <edge id="15518" source="MR. INAPPROPRIATE" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15519" source="MR. INAPPROPRIATE" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15520" source="MR. INAPPROPRIATE" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15521" source="MR. INAPPROPRIATE" target="SHELBY" weight="1" />
+      <edge id="15522" source="MR. INAPPROPRIATE" target="FAT SICK GUY" weight="1" />
+      <edge id="15523" source="MR. INAPPROPRIATE" target="WAITRESS" weight="1" />
+      <edge id="15524" source="MR. INAPPROPRIATE" target="STARLA" weight="1" />
+      <edge id="15525" source="MR. INAPPROPRIATE" target="DISEASED MAN" weight="1" />
+      <edge id="15526" source="DISEASED MAN" target="DISEASED WOMAN" weight="1" />
+      <edge id="15527" source="DISEASED MAN" target="DISEASED KID" weight="1" />
+      <edge id="15528" source="DISEASED MAN" target="SMASHED-FACE MAN" weight="1" />
+      <edge id="15529" source="DISEASED MAN" target="NO LONGER PRETTY" weight="1" />
+      <edge id="15530" source="DISEASED MAN" target="BRENDA'S HUSBAND" weight="1" />
+      <edge id="15531" source="DISEASED MAN" target="SHELBY" weight="1" />
+      <edge id="15532" source="DISEASED MAN" target="FAT SICK GUY" weight="1" />
+      <edge id="15533" source="DISEASED MAN" target="MR. INAPPROPRIATE" weight="1" />
+      <edge id="15534" source="DISEASED MAN" target="WAITRESS" weight="1" />
+      <edge id="15535" source="DISEASED MAN" target="STARLA" weight="1" />
+      <edge id="15536" source="CASHIER" target="BILL" weight="1" />
+    </edges>
+  </graph>
+</gexf>

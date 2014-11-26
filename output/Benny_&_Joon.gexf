@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="Randy" label="Randy" />
+      <node id="Eric" label="Eric" />
+      <node id="Benny" label="Benny" />
+      <node id="Waldo" label="Waldo" />
+      <node id="Postman" label="Postman" />
+      <node id="Girl" label="Girl" />
+      <node id="Joon" label="Joon" />
+      <node id="Smeal" label="Smeal" />
+      <node id="Man" label="Man" />
+      <node id="Mike" label="Mike" />
+      <node id="Thomas" label="Thomas" />
+      <node id="SW" label="SW" />
+      <node id="Police" label="Police" />
+      <node id="Jack" label="Jack" />
+      <node id="Sam" label="Sam" />
+      <node id="Ruthie" label="Ruthie" />
+      <node id="Owner" label="Owner" />
+      <node id="AM1" label="AM1" />
+      <node id="Woman" label="Woman" />
+      <node id="Lady" label="Lady" />
+      <node id="Man1" label="Man1" />
+      <node id="Man2" label="Man2" />
+      <node id="Man3" label="Man3" />
+    </nodes>
+    <edges>
+      <edge id="2013" source="Randy" target="Eric" weight="2" />
+      <edge id="2014" source="Randy" target="Benny" weight="2" />
+      <edge id="2015" source="Randy" target="Waldo" weight="1" />
+      <edge id="2016" source="Randy" target="Postman" weight="1" />
+      <edge id="2017" source="Randy" target="Ruthie" weight="1" />
+      <edge id="2018" source="Eric" target="Randy" weight="2" />
+      <edge id="2019" source="Eric" target="Benny" weight="9" />
+      <edge id="2020" source="Eric" target="Waldo" weight="1" />
+      <edge id="2021" source="Eric" target="Postman" weight="1" />
+      <edge id="2022" source="Eric" target="Girl" weight="2" />
+      <edge id="2023" source="Eric" target="Joon" weight="4" />
+      <edge id="2024" source="Eric" target="Smeal" weight="1" />
+      <edge id="2025" source="Eric" target="Man" weight="1" />
+      <edge id="2026" source="Eric" target="Mike" weight="2" />
+      <edge id="2027" source="Eric" target="Thomas" weight="2" />
+      <edge id="2028" source="Eric" target="Ruthie" weight="1" />
+      <edge id="2029" source="Benny" target="Randy" weight="2" />
+      <edge id="2030" source="Benny" target="Eric" weight="9" />
+      <edge id="2031" source="Benny" target="Waldo" weight="2" />
+      <edge id="2032" source="Benny" target="Postman" weight="1" />
+      <edge id="2033" source="Benny" target="Girl" weight="2" />
+      <edge id="2034" source="Benny" target="Joon" weight="27" />
+      <edge id="2035" source="Benny" target="Smeal" weight="1" />
+      <edge id="2036" source="Benny" target="Man" weight="1" />
+      <edge id="2037" source="Benny" target="Mike" weight="5" />
+      <edge id="2038" source="Benny" target="Thomas" weight="6" />
+      <edge id="2039" source="Benny" target="SW" weight="5" />
+      <edge id="2040" source="Benny" target="Police" weight="1" />
+      <edge id="2041" source="Benny" target="Jack" weight="1" />
+      <edge id="2042" source="Benny" target="Sam" weight="15" />
+      <edge id="2043" source="Benny" target="Ruthie" weight="10" />
+      <edge id="2044" source="Benny" target="Woman" weight="1" />
+      <edge id="2045" source="Benny" target="Lady" weight="1" />
+      <edge id="2046" source="Waldo" target="Randy" weight="1" />
+      <edge id="2047" source="Waldo" target="Eric" weight="1" />
+      <edge id="2048" source="Waldo" target="Benny" weight="2" />
+      <edge id="2049" source="Waldo" target="Postman" weight="1" />
+      <edge id="2050" source="Waldo" target="Joon" weight="1" />
+      <edge id="2051" source="Waldo" target="Police" weight="1" />
+      <edge id="2052" source="Waldo" target="Jack" weight="1" />
+      <edge id="2053" source="Postman" target="Randy" weight="1" />
+      <edge id="2054" source="Postman" target="Eric" weight="1" />
+      <edge id="2055" source="Postman" target="Benny" weight="1" />
+      <edge id="2056" source="Postman" target="Waldo" weight="1" />
+      <edge id="2057" source="Girl" target="Benny" weight="2" />
+      <edge id="2058" source="Girl" target="Eric" weight="2" />
+      <edge id="2059" source="Girl" target="Joon" weight="1" />
+      <edge id="2060" source="Girl" target="Smeal" weight="1" />
+      <edge id="2061" source="Joon" target="Benny" weight="27" />
+      <edge id="2062" source="Joon" target="Girl" weight="1" />
+      <edge id="2063" source="Joon" target="Eric" weight="4" />
+      <edge id="2064" source="Joon" target="Smeal" weight="1" />
+      <edge id="2065" source="Joon" target="Man" weight="1" />
+      <edge id="2066" source="Joon" target="Mike" weight="5" />
+      <edge id="2067" source="Joon" target="Thomas" weight="4" />
+      <edge id="2068" source="Joon" target="Police" weight="1" />
+      <edge id="2069" source="Joon" target="Waldo" weight="1" />
+      <edge id="2070" source="Joon" target="Jack" weight="1" />
+      <edge id="2071" source="Joon" target="Sam" weight="19" />
+      <edge id="2072" source="Joon" target="Ruthie" weight="2" />
+      <edge id="2073" source="Joon" target="SW" weight="2" />
+      <edge id="2074" source="Joon" target="AM1" weight="1" />
+      <edge id="2075" source="Smeal" target="Benny" weight="1" />
+      <edge id="2076" source="Smeal" target="Girl" weight="1" />
+      <edge id="2077" source="Smeal" target="Eric" weight="1" />
+      <edge id="2078" source="Smeal" target="Joon" weight="1" />
+      <edge id="2079" source="Man" target="Mike" weight="1" />
+      <edge id="2080" source="Man" target="Benny" weight="1" />
+      <edge id="2081" source="Man" target="Thomas" weight="1" />
+      <edge id="2082" source="Man" target="Eric" weight="1" />
+      <edge id="2083" source="Man" target="Joon" weight="1" />
+      <edge id="2084" source="Man" target="Ruthie" weight="1" />
+      <edge id="2085" source="Man" target="Sam" weight="1" />
+      <edge id="2086" source="Mike" target="Man" weight="1" />
+      <edge id="2087" source="Mike" target="Benny" weight="5" />
+      <edge id="2088" source="Mike" target="Thomas" weight="4" />
+      <edge id="2089" source="Mike" target="Eric" weight="2" />
+      <edge id="2090" source="Mike" target="Joon" weight="5" />
+      <edge id="2091" source="Mike" target="Sam" weight="1" />
+      <edge id="2092" source="Thomas" target="Man" weight="1" />
+      <edge id="2093" source="Thomas" target="Mike" weight="4" />
+      <edge id="2094" source="Thomas" target="Benny" weight="6" />
+      <edge id="2095" source="Thomas" target="Eric" weight="2" />
+      <edge id="2096" source="Thomas" target="Joon" weight="4" />
+      <edge id="2097" source="Thomas" target="Sam" weight="4" />
+      <edge id="2098" source="Thomas" target="Man1" weight="1" />
+      <edge id="2099" source="SW" target="Benny" weight="5" />
+      <edge id="2100" source="SW" target="Joon" weight="2" />
+      <edge id="2101" source="Police" target="Joon" weight="1" />
+      <edge id="2102" source="Police" target="Benny" weight="1" />
+      <edge id="2103" source="Police" target="Waldo" weight="1" />
+      <edge id="2104" source="Police" target="Jack" weight="1" />
+      <edge id="2105" source="Jack" target="Joon" weight="1" />
+      <edge id="2106" source="Jack" target="Police" weight="1" />
+      <edge id="2107" source="Jack" target="Benny" weight="1" />
+      <edge id="2108" source="Jack" target="Waldo" weight="1" />
+      <edge id="2109" source="Sam" target="Mike" weight="1" />
+      <edge id="2110" source="Sam" target="Benny" weight="15" />
+      <edge id="2111" source="Sam" target="Joon" weight="19" />
+      <edge id="2112" source="Sam" target="Ruthie" weight="2" />
+      <edge id="2113" source="Sam" target="Man" weight="1" />
+      <edge id="2114" source="Sam" target="Owner" weight="1" />
+      <edge id="2115" source="Sam" target="AM1" weight="1" />
+      <edge id="2116" source="Sam" target="Lady" weight="2" />
+      <edge id="2117" source="Sam" target="Thomas" weight="4" />
+      <edge id="2118" source="Sam" target="Man1" weight="2" />
+      <edge id="2119" source="Sam" target="Man2" weight="1" />
+      <edge id="2120" source="Sam" target="Man3" weight="1" />
+      <edge id="2121" source="Ruthie" target="Sam" weight="2" />
+      <edge id="2122" source="Ruthie" target="Man" weight="1" />
+      <edge id="2123" source="Ruthie" target="Joon" weight="2" />
+      <edge id="2124" source="Ruthie" target="Benny" weight="10" />
+      <edge id="2125" source="Ruthie" target="Eric" weight="1" />
+      <edge id="2126" source="Ruthie" target="Randy" weight="1" />
+      <edge id="2127" source="Owner" target="Sam" weight="1" />
+      <edge id="2128" source="AM1" target="Joon" weight="1" />
+      <edge id="2129" source="AM1" target="Sam" weight="1" />
+      <edge id="2130" source="Woman" target="Benny" weight="1" />
+      <edge id="2131" source="Lady" target="Sam" weight="2" />
+      <edge id="2132" source="Lady" target="Benny" weight="1" />
+      <edge id="2133" source="Man1" target="Sam" weight="2" />
+      <edge id="2134" source="Man1" target="Man2" weight="1" />
+      <edge id="2135" source="Man1" target="Man3" weight="2" />
+      <edge id="2136" source="Man1" target="Thomas" weight="1" />
+      <edge id="2137" source="Man2" target="Sam" weight="1" />
+      <edge id="2138" source="Man2" target="Man1" weight="1" />
+      <edge id="2139" source="Man2" target="Man3" weight="1" />
+      <edge id="2140" source="Man3" target="Sam" weight="1" />
+      <edge id="2141" source="Man3" target="Man1" weight="2" />
+      <edge id="2142" source="Man3" target="Man2" weight="1" />
+    </edges>
+  </graph>
+</gexf>

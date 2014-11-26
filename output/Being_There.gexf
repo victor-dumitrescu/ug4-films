@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="LOUISE" label="LOUISE" />
+      <node id="CHANCE" label="CHANCE" />
+      <node id="HAYES" label="HAYES" />
+      <node id="FRANKLIN" label="FRANKLIN" />
+      <node id="LOLO" label="LOLO" />
+      <node id="ABBAZ" label="ABBAZ" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="DAVID" label="DAVID" />
+      <node id="JEFFREY" label="JEFFREY" />
+      <node id="BYSTANDER" label="BYSTANDER" />
+      <node id="EVE" label="EVE" />
+      <node id="WILSON" label="WILSON" />
+      <node id="CONSTANCE" label="CONSTANCE" />
+      <node id="RAND" label="RAND" />
+      <node id="ALLENBY" label="ALLENBY" />
+      <node id="BILLINGS" label="BILLINGS" />
+      <node id="LEWIS" label="LEWIS" />
+      <node id="SMYTHE" label="SMYTHE" />
+      <node id="WOLTZ" label="WOLTZ" />
+      <node id="MRS. AUBREY" label="MRS. AUBREY" />
+      <node id="TERESA" label="TERESA" />
+      <node id="PRESIDENT" label="PRESIDENT" />
+      <node id="RIFF" label="RIFF" />
+      <node id="KAUFMAN" label="KAUFMAN" />
+      <node id="PRESIDENT'S VOICE" label="PRESIDENT'S VOICE" />
+      <node id="COURTNEY" label="COURTNEY" />
+      <node id="JENNIFER" label="JENNIFER" />
+      <node id="PERKINS" label="PERKINS" />
+      <node id="KINNEY" label="KINNEY" />
+      <node id="HULL" label="HULL" />
+      <node id="COLSON" label="COLSON" />
+      <node id="DUPONT" label="DUPONT" />
+      <node id="JOHANNA" label="JOHANNA" />
+      <node id="FIRST LADY" label="FIRST LADY" />
+      <node id="PRESIDENT," label="PRESIDENT," />
+      <node id="SALLY" label="SALLY" />
+      <node id="AIDES" label="AIDES" />
+      <node id="MAGGIE" label="MAGGIE" />
+      <node id="REPORTER #1" label="REPORTER #1" />
+      <node id="REPORTER #2" label="REPORTER #2" />
+      <node id="REPORTER #3" label="REPORTER #3" />
+      <node id="TV REPORTER" label="TV REPORTER" />
+      <node id="WATSON" label="WATSON" />
+      <node id="SOPHIE" label="SOPHIE" />
+      <node id="SKRAPINOV" label="SKRAPINOV" />
+      <node id="KARPATOV" label="KARPATOV" />
+      <node id="STUART" label="STUART" />
+      <node id="STIEGLER" label="STIEGLER" />
+      <node id="MONROE" label="MONROE" />
+      <node id="TOWNSEND" label="TOWNSEND" />
+      <node id="DENNIS" label="DENNIS" />
+      <node id="KAUFMAN'S VOICE" label="KAUFMAN'S VOICE" />
+      <node id="DENNIS' VOICE" label="DENNIS' VOICE" />
+      <node id="NOVOGROD" label="NOVOGROD" />
+      <node id="GROUP TOAST" label="GROUP TOAST" />
+      <node id="HONEYCUTT" label="HONEYCUTT" />
+      <node id="BALDWIN" label="BALDWIN" />
+      <node id="DUDLEY" label="DUDLEY" />
+      <node id="NELSON" label="NELSON" />
+      <node id="CALDWELL" label="CALDWELL" />
+      <node id="BENNET" label="BENNET" />
+      <node id="MURRAY" label="MURRAY" />
+    </nodes>
+    <edges>
+      <edge id="1739" source="LOUISE" target="CHANCE" weight="4" />
+      <edge id="1740" source="CHANCE" target="LOUISE" weight="4" />
+      <edge id="1741" source="CHANCE" target="FRANKLIN" weight="6" />
+      <edge id="1742" source="CHANCE" target="HAYES" weight="5" />
+      <edge id="1743" source="CHANCE" target="LOLO" weight="1" />
+      <edge id="1744" source="CHANCE" target="ABBAZ" weight="1" />
+      <edge id="1745" source="CHANCE" target="POLICEMAN" weight="1" />
+      <edge id="1746" source="CHANCE" target="DAVID" weight="1" />
+      <edge id="1747" source="CHANCE" target="JEFFREY" weight="2" />
+      <edge id="1748" source="CHANCE" target="BYSTANDER" weight="1" />
+      <edge id="1749" source="CHANCE" target="EVE" weight="21" />
+      <edge id="1750" source="CHANCE" target="WILSON" weight="5" />
+      <edge id="1751" source="CHANCE" target="ALLENBY" weight="7" />
+      <edge id="1752" source="CHANCE" target="RAND" weight="14" />
+      <edge id="1753" source="CHANCE" target="BILLINGS" weight="1" />
+      <edge id="1754" source="CHANCE" target="CONSTANCE" weight="1" />
+      <edge id="1755" source="CHANCE" target="LEWIS" weight="1" />
+      <edge id="1756" source="CHANCE" target="SMYTHE" weight="1" />
+      <edge id="1757" source="CHANCE" target="TERESA" weight="2" />
+      <edge id="1758" source="CHANCE" target="MRS. AUBREY" weight="3" />
+      <edge id="1759" source="CHANCE" target="WOLTZ" weight="1" />
+      <edge id="1760" source="CHANCE" target="PRESIDENT" weight="2" />
+      <edge id="1761" source="CHANCE" target="COURTNEY" weight="1" />
+      <edge id="1762" source="CHANCE" target="JENNIFER" weight="1" />
+      <edge id="1763" source="CHANCE" target="PERKINS" weight="2" />
+      <edge id="1764" source="CHANCE" target="HULL" weight="3" />
+      <edge id="1765" source="CHANCE" target="COLSON" weight="1" />
+      <edge id="1766" source="CHANCE" target="DUPONT" weight="6" />
+      <edge id="1767" source="CHANCE" target="JOHANNA" weight="1" />
+      <edge id="1768" source="CHANCE" target="MAGGIE" weight="1" />
+      <edge id="1769" source="CHANCE" target="REPORTER #1" weight="1" />
+      <edge id="1770" source="CHANCE" target="REPORTER #2" weight="1" />
+      <edge id="1771" source="CHANCE" target="REPORTER #3" weight="1" />
+      <edge id="1772" source="CHANCE" target="TV REPORTER" weight="1" />
+      <edge id="1773" source="CHANCE" target="WATSON" weight="1" />
+      <edge id="1774" source="CHANCE" target="SOPHIE" weight="2" />
+      <edge id="1775" source="CHANCE" target="SKRAPINOV" weight="1" />
+      <edge id="1776" source="CHANCE" target="KARPATOV" weight="1" />
+      <edge id="1777" source="CHANCE" target="STIEGLER" weight="1" />
+      <edge id="1778" source="CHANCE" target="DENNIS" weight="1" />
+      <edge id="1779" source="CHANCE" target="DENNIS' VOICE" weight="1" />
+      <edge id="1780" source="HAYES" target="FRANKLIN" weight="6" />
+      <edge id="1781" source="HAYES" target="CHANCE" weight="5" />
+      <edge id="1782" source="FRANKLIN" target="HAYES" weight="6" />
+      <edge id="1783" source="FRANKLIN" target="CHANCE" weight="6" />
+      <edge id="1784" source="FRANKLIN" target="JOHANNA" weight="2" />
+      <edge id="1785" source="FRANKLIN" target="DUPONT" weight="1" />
+      <edge id="1786" source="FRANKLIN" target="SALLY" weight="1" />
+      <edge id="1787" source="FRANKLIN" target="KINNEY" weight="1" />
+      <edge id="1788" source="FRANKLIN" target="COURTNEY" weight="2" />
+      <edge id="1789" source="FRANKLIN" target="STUART" weight="1" />
+      <edge id="1790" source="FRANKLIN" target="ALLENBY" weight="1" />
+      <edge id="1791" source="LOLO" target="CHANCE" weight="1" />
+      <edge id="1792" source="LOLO" target="ABBAZ" weight="1" />
+      <edge id="1793" source="ABBAZ" target="CHANCE" weight="1" />
+      <edge id="1794" source="ABBAZ" target="LOLO" weight="1" />
+      <edge id="1795" source="POLICEMAN" target="CHANCE" weight="1" />
+      <edge id="1796" source="DAVID" target="CHANCE" weight="1" />
+      <edge id="1797" source="DAVID" target="JEFFREY" weight="1" />
+      <edge id="1798" source="DAVID" target="BYSTANDER" weight="1" />
+      <edge id="1799" source="DAVID" target="EVE" weight="1" />
+      <edge id="1800" source="JEFFREY" target="DAVID" weight="1" />
+      <edge id="1801" source="JEFFREY" target="CHANCE" weight="2" />
+      <edge id="1802" source="JEFFREY" target="BYSTANDER" weight="1" />
+      <edge id="1803" source="JEFFREY" target="EVE" weight="3" />
+      <edge id="1804" source="BYSTANDER" target="DAVID" weight="1" />
+      <edge id="1805" source="BYSTANDER" target="CHANCE" weight="1" />
+      <edge id="1806" source="BYSTANDER" target="JEFFREY" weight="1" />
+      <edge id="1807" source="BYSTANDER" target="EVE" weight="1" />
+      <edge id="1808" source="EVE" target="DAVID" weight="1" />
+      <edge id="1809" source="EVE" target="CHANCE" weight="21" />
+      <edge id="1810" source="EVE" target="JEFFREY" weight="3" />
+      <edge id="1811" source="EVE" target="BYSTANDER" weight="1" />
+      <edge id="1812" source="EVE" target="WILSON" weight="3" />
+      <edge id="1813" source="EVE" target="CONSTANCE" weight="1" />
+      <edge id="1814" source="EVE" target="RAND" weight="4" />
+      <edge id="1815" source="EVE" target="ALLENBY" weight="7" />
+      <edge id="1816" source="EVE" target="MRS. AUBREY" weight="1" />
+      <edge id="1817" source="EVE" target="PERKINS" weight="1" />
+      <edge id="1818" source="EVE" target="DUPONT" weight="1" />
+      <edge id="1819" source="EVE" target="MAGGIE" weight="1" />
+      <edge id="1820" source="EVE" target="REPORTER #1" weight="1" />
+      <edge id="1821" source="EVE" target="REPORTER #2" weight="1" />
+      <edge id="1822" source="EVE" target="REPORTER #3" weight="1" />
+      <edge id="1823" source="EVE" target="TV REPORTER" weight="1" />
+      <edge id="1824" source="EVE" target="WATSON" weight="1" />
+      <edge id="1825" source="EVE" target="SOPHIE" weight="2" />
+      <edge id="1826" source="EVE" target="SKRAPINOV" weight="1" />
+      <edge id="1827" source="EVE" target="KARPATOV" weight="1" />
+      <edge id="1828" source="EVE" target="TERESA" weight="1" />
+      <edge id="1829" source="EVE" target="PRESIDENT" weight="1" />
+      <edge id="1830" source="EVE" target="FIRST LADY" weight="1" />
+      <edge id="1831" source="WILSON" target="EVE" weight="3" />
+      <edge id="1832" source="WILSON" target="CHANCE" weight="5" />
+      <edge id="1833" source="WILSON" target="WOLTZ" weight="1" />
+      <edge id="1834" source="WILSON" target="PERKINS" weight="1" />
+      <edge id="1835" source="CONSTANCE" target="RAND" weight="2" />
+      <edge id="1836" source="CONSTANCE" target="EVE" weight="1" />
+      <edge id="1837" source="CONSTANCE" target="CHANCE" weight="1" />
+      <edge id="1838" source="CONSTANCE" target="BILLINGS" weight="1" />
+      <edge id="1839" source="RAND" target="CONSTANCE" weight="2" />
+      <edge id="1840" source="RAND" target="EVE" weight="4" />
+      <edge id="1841" source="RAND" target="CHANCE" weight="14" />
+      <edge id="1842" source="RAND" target="BILLINGS" weight="1" />
+      <edge id="1843" source="RAND" target="ALLENBY" weight="5" />
+      <edge id="1844" source="RAND" target="TERESA" weight="1" />
+      <edge id="1845" source="RAND" target="MRS. AUBREY" weight="1" />
+      <edge id="1846" source="RAND" target="WOLTZ" weight="1" />
+      <edge id="1847" source="RAND" target="PRESIDENT" weight="2" />
+      <edge id="1848" source="RAND" target="DUPONT" weight="1" />
+      <edge id="1849" source="RAND" target="MONROE" weight="1" />
+      <edge id="1850" source="RAND" target="TOWNSEND" weight="1" />
+      <edge id="1851" source="ALLENBY" target="CHANCE" weight="7" />
+      <edge id="1852" source="ALLENBY" target="EVE" weight="7" />
+      <edge id="1853" source="ALLENBY" target="RAND" weight="5" />
+      <edge id="1854" source="ALLENBY" target="LEWIS" weight="1" />
+      <edge id="1855" source="ALLENBY" target="RIFF" weight="1" />
+      <edge id="1856" source="ALLENBY" target="PRESIDENT'S VOICE" weight="1" />
+      <edge id="1857" source="ALLENBY" target="MRS. AUBREY" weight="1" />
+      <edge id="1858" source="ALLENBY" target="COURTNEY" weight="1" />
+      <edge id="1859" source="ALLENBY" target="STUART" weight="1" />
+      <edge id="1860" source="ALLENBY" target="FRANKLIN" weight="1" />
+      <edge id="1861" source="ALLENBY" target="PRESIDENT" weight="1" />
+      <edge id="1862" source="ALLENBY" target="FIRST LADY" weight="1" />
+      <edge id="1863" source="BILLINGS" target="RAND" weight="1" />
+      <edge id="1864" source="BILLINGS" target="CHANCE" weight="1" />
+      <edge id="1865" source="BILLINGS" target="CONSTANCE" weight="1" />
+      <edge id="1866" source="LEWIS" target="CHANCE" weight="1" />
+      <edge id="1867" source="LEWIS" target="ALLENBY" weight="1" />
+      <edge id="1868" source="SMYTHE" target="CHANCE" weight="1" />
+      <edge id="1869" source="WOLTZ" target="WILSON" weight="1" />
+      <edge id="1870" source="WOLTZ" target="RAND" weight="1" />
+      <edge id="1871" source="WOLTZ" target="CHANCE" weight="1" />
+      <edge id="1872" source="MRS. AUBREY" target="RAND" weight="1" />
+      <edge id="1873" source="MRS. AUBREY" target="CHANCE" weight="3" />
+      <edge id="1874" source="MRS. AUBREY" target="EVE" weight="1" />
+      <edge id="1875" source="MRS. AUBREY" target="ALLENBY" weight="1" />
+      <edge id="1876" source="MRS. AUBREY" target="JENNIFER" weight="1" />
+      <edge id="1877" source="TERESA" target="RAND" weight="1" />
+      <edge id="1878" source="TERESA" target="CHANCE" weight="2" />
+      <edge id="1879" source="TERESA" target="EVE" weight="1" />
+      <edge id="1880" source="PRESIDENT" target="RAND" weight="2" />
+      <edge id="1881" source="PRESIDENT" target="CHANCE" weight="2" />
+      <edge id="1882" source="PRESIDENT" target="KAUFMAN" weight="4" />
+      <edge id="1883" source="PRESIDENT" target="DUPONT" weight="2" />
+      <edge id="1884" source="PRESIDENT" target="AIDES" weight="1" />
+      <edge id="1885" source="PRESIDENT" target="FIRST LADY" weight="3" />
+      <edge id="1886" source="PRESIDENT" target="KAUFMAN'S VOICE" weight="1" />
+      <edge id="1887" source="PRESIDENT" target="HONEYCUTT" weight="1" />
+      <edge id="1888" source="PRESIDENT" target="BALDWIN" weight="1" />
+      <edge id="1889" source="PRESIDENT" target="EVE" weight="1" />
+      <edge id="1890" source="PRESIDENT" target="ALLENBY" weight="1" />
+      <edge id="1891" source="RIFF" target="ALLENBY" weight="1" />
+      <edge id="1892" source="KAUFMAN" target="PRESIDENT" weight="4" />
+      <edge id="1893" source="KAUFMAN" target="FIRST LADY" weight="1" />
+      <edge id="1894" source="PRESIDENT'S VOICE" target="ALLENBY" weight="1" />
+      <edge id="1895" source="COURTNEY" target="CHANCE" weight="1" />
+      <edge id="1896" source="COURTNEY" target="KINNEY" weight="2" />
+      <edge id="1897" source="COURTNEY" target="FRANKLIN" weight="2" />
+      <edge id="1898" source="COURTNEY" target="SALLY" weight="1" />
+      <edge id="1899" source="COURTNEY" target="STUART" weight="1" />
+      <edge id="1900" source="COURTNEY" target="ALLENBY" weight="1" />
+      <edge id="1901" source="JENNIFER" target="CHANCE" weight="1" />
+      <edge id="1902" source="JENNIFER" target="MRS. AUBREY" weight="1" />
+      <edge id="1903" source="PERKINS" target="CHANCE" weight="2" />
+      <edge id="1904" source="PERKINS" target="EVE" weight="1" />
+      <edge id="1905" source="PERKINS" target="WILSON" weight="1" />
+      <edge id="1906" source="KINNEY" target="COURTNEY" weight="2" />
+      <edge id="1907" source="KINNEY" target="FRANKLIN" weight="1" />
+      <edge id="1908" source="KINNEY" target="SALLY" weight="1" />
+      <edge id="1909" source="HULL" target="CHANCE" weight="3" />
+      <edge id="1910" source="HULL" target="COLSON" weight="1" />
+      <edge id="1911" source="COLSON" target="CHANCE" weight="1" />
+      <edge id="1912" source="COLSON" target="HULL" weight="1" />
+      <edge id="1913" source="DUPONT" target="CHANCE" weight="6" />
+      <edge id="1914" source="DUPONT" target="PRESIDENT" weight="2" />
+      <edge id="1915" source="DUPONT" target="FRANKLIN" weight="1" />
+      <edge id="1916" source="DUPONT" target="JOHANNA" weight="1" />
+      <edge id="1917" source="DUPONT" target="RAND" weight="1" />
+      <edge id="1918" source="DUPONT" target="EVE" weight="1" />
+      <edge id="1919" source="JOHANNA" target="CHANCE" weight="1" />
+      <edge id="1920" source="JOHANNA" target="FRANKLIN" weight="2" />
+      <edge id="1921" source="JOHANNA" target="DUPONT" weight="1" />
+      <edge id="1922" source="FIRST LADY" target="PRESIDENT," weight="1" />
+      <edge id="1923" source="FIRST LADY" target="PRESIDENT" weight="3" />
+      <edge id="1924" source="FIRST LADY" target="KAUFMAN" weight="1" />
+      <edge id="1925" source="FIRST LADY" target="KAUFMAN'S VOICE" weight="1" />
+      <edge id="1926" source="FIRST LADY" target="EVE" weight="1" />
+      <edge id="1927" source="FIRST LADY" target="ALLENBY" weight="1" />
+      <edge id="1928" source="PRESIDENT," target="FIRST LADY" weight="1" />
+      <edge id="1929" source="SALLY" target="FRANKLIN" weight="1" />
+      <edge id="1930" source="SALLY" target="KINNEY" weight="1" />
+      <edge id="1931" source="SALLY" target="COURTNEY" weight="1" />
+      <edge id="1932" source="AIDES" target="PRESIDENT" weight="1" />
+      <edge id="1933" source="MAGGIE" target="CHANCE" weight="1" />
+      <edge id="1934" source="MAGGIE" target="EVE" weight="1" />
+      <edge id="1935" source="REPORTER #1" target="CHANCE" weight="1" />
+      <edge id="1936" source="REPORTER #1" target="REPORTER #2" weight="1" />
+      <edge id="1937" source="REPORTER #1" target="REPORTER #3" weight="1" />
+      <edge id="1938" source="REPORTER #1" target="TV REPORTER" weight="1" />
+      <edge id="1939" source="REPORTER #1" target="EVE" weight="1" />
+      <edge id="1940" source="REPORTER #2" target="REPORTER #1" weight="1" />
+      <edge id="1941" source="REPORTER #2" target="CHANCE" weight="1" />
+      <edge id="1942" source="REPORTER #2" target="REPORTER #3" weight="1" />
+      <edge id="1943" source="REPORTER #2" target="TV REPORTER" weight="1" />
+      <edge id="1944" source="REPORTER #2" target="EVE" weight="1" />
+      <edge id="1945" source="REPORTER #3" target="REPORTER #1" weight="1" />
+      <edge id="1946" source="REPORTER #3" target="CHANCE" weight="1" />
+      <edge id="1947" source="REPORTER #3" target="REPORTER #2" weight="1" />
+      <edge id="1948" source="REPORTER #3" target="TV REPORTER" weight="1" />
+      <edge id="1949" source="REPORTER #3" target="EVE" weight="1" />
+      <edge id="1950" source="TV REPORTER" target="REPORTER #1" weight="1" />
+      <edge id="1951" source="TV REPORTER" target="CHANCE" weight="1" />
+      <edge id="1952" source="TV REPORTER" target="REPORTER #2" weight="1" />
+      <edge id="1953" source="TV REPORTER" target="REPORTER #3" weight="1" />
+      <edge id="1954" source="TV REPORTER" target="EVE" weight="1" />
+      <edge id="1955" source="WATSON" target="EVE" weight="1" />
+      <edge id="1956" source="WATSON" target="CHANCE" weight="1" />
+      <edge id="1957" source="WATSON" target="SOPHIE" weight="1" />
+      <edge id="1958" source="SOPHIE" target="WATSON" weight="1" />
+      <edge id="1959" source="SOPHIE" target="EVE" weight="2" />
+      <edge id="1960" source="SOPHIE" target="CHANCE" weight="2" />
+      <edge id="1961" source="SOPHIE" target="SKRAPINOV" weight="1" />
+      <edge id="1962" source="SOPHIE" target="KARPATOV" weight="1" />
+      <edge id="1963" source="SKRAPINOV" target="EVE" weight="1" />
+      <edge id="1964" source="SKRAPINOV" target="SOPHIE" weight="1" />
+      <edge id="1965" source="SKRAPINOV" target="CHANCE" weight="1" />
+      <edge id="1966" source="SKRAPINOV" target="KARPATOV" weight="1" />
+      <edge id="1967" source="SKRAPINOV" target="NOVOGROD" weight="1" />
+      <edge id="1968" source="SKRAPINOV" target="GROUP TOAST" weight="1" />
+      <edge id="1969" source="KARPATOV" target="SKRAPINOV" weight="1" />
+      <edge id="1970" source="KARPATOV" target="EVE" weight="1" />
+      <edge id="1971" source="KARPATOV" target="SOPHIE" weight="1" />
+      <edge id="1972" source="KARPATOV" target="CHANCE" weight="1" />
+      <edge id="1973" source="STUART" target="COURTNEY" weight="1" />
+      <edge id="1974" source="STUART" target="FRANKLIN" weight="1" />
+      <edge id="1975" source="STUART" target="ALLENBY" weight="1" />
+      <edge id="1976" source="STIEGLER" target="CHANCE" weight="1" />
+      <edge id="1977" source="MONROE" target="RAND" weight="1" />
+      <edge id="1978" source="MONROE" target="TOWNSEND" weight="1" />
+      <edge id="1979" source="TOWNSEND" target="RAND" weight="1" />
+      <edge id="1980" source="TOWNSEND" target="MONROE" weight="1" />
+      <edge id="1981" source="DENNIS" target="CHANCE" weight="1" />
+      <edge id="1982" source="KAUFMAN'S VOICE" target="FIRST LADY" weight="1" />
+      <edge id="1983" source="KAUFMAN'S VOICE" target="PRESIDENT" weight="1" />
+      <edge id="1984" source="DENNIS' VOICE" target="CHANCE" weight="1" />
+      <edge id="1985" source="NOVOGROD" target="SKRAPINOV" weight="1" />
+      <edge id="1986" source="NOVOGROD" target="GROUP TOAST" weight="1" />
+      <edge id="1987" source="GROUP TOAST" target="NOVOGROD" weight="1" />
+      <edge id="1988" source="GROUP TOAST" target="SKRAPINOV" weight="1" />
+      <edge id="1989" source="HONEYCUTT" target="BALDWIN" weight="1" />
+      <edge id="1990" source="HONEYCUTT" target="PRESIDENT" weight="1" />
+      <edge id="1991" source="BALDWIN" target="HONEYCUTT" weight="1" />
+      <edge id="1992" source="BALDWIN" target="PRESIDENT" weight="1" />
+      <edge id="1993" source="DUDLEY" target="NELSON" weight="1" />
+      <edge id="1994" source="DUDLEY" target="CALDWELL" weight="1" />
+      <edge id="1995" source="DUDLEY" target="BENNET" weight="1" />
+      <edge id="1996" source="DUDLEY" target="MURRAY" weight="1" />
+      <edge id="1997" source="NELSON" target="DUDLEY" weight="1" />
+      <edge id="1998" source="NELSON" target="CALDWELL" weight="1" />
+      <edge id="1999" source="NELSON" target="BENNET" weight="1" />
+      <edge id="2000" source="NELSON" target="MURRAY" weight="1" />
+      <edge id="2001" source="CALDWELL" target="DUDLEY" weight="1" />
+      <edge id="2002" source="CALDWELL" target="NELSON" weight="1" />
+      <edge id="2003" source="CALDWELL" target="BENNET" weight="1" />
+      <edge id="2004" source="CALDWELL" target="MURRAY" weight="1" />
+      <edge id="2005" source="BENNET" target="DUDLEY" weight="1" />
+      <edge id="2006" source="BENNET" target="NELSON" weight="1" />
+      <edge id="2007" source="BENNET" target="CALDWELL" weight="1" />
+      <edge id="2008" source="BENNET" target="MURRAY" weight="1" />
+      <edge id="2009" source="MURRAY" target="DUDLEY" weight="1" />
+      <edge id="2010" source="MURRAY" target="NELSON" weight="1" />
+      <edge id="2011" source="MURRAY" target="CALDWELL" weight="1" />
+      <edge id="2012" source="MURRAY" target="BENNET" weight="1" />
+    </edges>
+  </graph>
+</gexf>

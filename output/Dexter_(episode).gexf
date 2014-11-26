@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="DEXTER" label="DEXTER" />
+      <node id="NEW ANGLE" label="NEW ANGLE" />
+      <node id="A MAN" label="A MAN" />
+      <node id="DONOVAN" label="DONOVAN" />
+      <node id="HARRY" label="HARRY" />
+      <node id="YOUNG DEXTER" label="YOUNG DEXTER" />
+      <node id="DEBRA" label="DEBRA" />
+      <node id="COP" label="COP" />
+      <node id="MASUKA" label="MASUKA" />
+      <node id="BATISTA" label="BATISTA" />
+      <node id="DETECTIVE BOB" label="DETECTIVE BOB" />
+      <node id="DETECTIVE DAN" label="DETECTIVE DAN" />
+      <node id="CAMILLIA" label="CAMILLIA" />
+      <node id="SGT. DOAKES" label="SGT. DOAKES" />
+      <node id="UNIFORMED COP" label="UNIFORMED COP" />
+      <node id="RITA" label="RITA" />
+      <node id="ASTOR" label="ASTOR" />
+      <node id="CODY" label="CODY" />
+      <node id="WIFE" label="WIFE" />
+      <node id="DESK SERGEANT" label="DESK SERGEANT" />
+      <node id="LAGUERTA" label="LAGUERTA" />
+      <node id="COP #2" label="COP #2" />
+      <node id="JAWORSKI" label="JAWORSKI" />
+    </nodes>
+    <edges>
+      <edge id="5309" source="DEXTER" target="NEW ANGLE" weight="1" />
+      <edge id="5310" source="DEXTER" target="A MAN" weight="1" />
+      <edge id="5311" source="DEXTER" target="DONOVAN" weight="2" />
+      <edge id="5312" source="DEXTER" target="DEBRA" weight="7" />
+      <edge id="5313" source="DEXTER" target="COP" weight="1" />
+      <edge id="5314" source="DEXTER" target="MASUKA" weight="2" />
+      <edge id="5315" source="DEXTER" target="BATISTA" weight="2" />
+      <edge id="5316" source="DEXTER" target="DETECTIVE BOB" weight="1" />
+      <edge id="5317" source="DEXTER" target="DETECTIVE DAN" weight="1" />
+      <edge id="5318" source="DEXTER" target="CAMILLIA" weight="1" />
+      <edge id="5319" source="DEXTER" target="SGT. DOAKES" weight="3" />
+      <edge id="5320" source="DEXTER" target="UNIFORMED COP" weight="1" />
+      <edge id="5321" source="DEXTER" target="HARRY" weight="1" />
+      <edge id="5322" source="DEXTER" target="RITA" weight="8" />
+      <edge id="5323" source="DEXTER" target="ASTOR" weight="1" />
+      <edge id="5324" source="DEXTER" target="CODY" weight="2" />
+      <edge id="5325" source="DEXTER" target="YOUNG DEXTER" weight="1" />
+      <edge id="5326" source="DEXTER" target="WIFE" weight="1" />
+      <edge id="5327" source="DEXTER" target="DESK SERGEANT" weight="1" />
+      <edge id="5328" source="DEXTER" target="LAGUERTA" weight="5" />
+      <edge id="5329" source="DEXTER" target="COP #2" weight="1" />
+      <edge id="5330" source="DEXTER" target="JAWORSKI" weight="2" />
+      <edge id="5331" source="NEW ANGLE" target="A MAN" weight="1" />
+      <edge id="5332" source="NEW ANGLE" target="DEXTER" weight="1" />
+      <edge id="5333" source="NEW ANGLE" target="DONOVAN" weight="1" />
+      <edge id="5334" source="A MAN" target="NEW ANGLE" weight="1" />
+      <edge id="5335" source="A MAN" target="DEXTER" weight="1" />
+      <edge id="5336" source="A MAN" target="DONOVAN" weight="1" />
+      <edge id="5337" source="DONOVAN" target="NEW ANGLE" weight="1" />
+      <edge id="5338" source="DONOVAN" target="A MAN" weight="1" />
+      <edge id="5339" source="DONOVAN" target="DEXTER" weight="2" />
+      <edge id="5340" source="HARRY" target="YOUNG DEXTER" weight="3" />
+      <edge id="5341" source="HARRY" target="DEXTER" weight="1" />
+      <edge id="5342" source="HARRY" target="DEBRA" weight="1" />
+      <edge id="5343" source="YOUNG DEXTER" target="HARRY" weight="3" />
+      <edge id="5344" source="YOUNG DEXTER" target="DEXTER" weight="1" />
+      <edge id="5345" source="YOUNG DEXTER" target="DEBRA" weight="1" />
+      <edge id="5346" source="DEBRA" target="DEXTER" weight="7" />
+      <edge id="5347" source="DEBRA" target="COP" weight="1" />
+      <edge id="5348" source="DEBRA" target="DETECTIVE BOB" weight="1" />
+      <edge id="5349" source="DEBRA" target="DETECTIVE DAN" weight="1" />
+      <edge id="5350" source="DEBRA" target="YOUNG DEXTER" weight="1" />
+      <edge id="5351" source="DEBRA" target="HARRY" weight="1" />
+      <edge id="5352" source="DEBRA" target="COP #2" weight="1" />
+      <edge id="5353" source="DEBRA" target="MASUKA" weight="1" />
+      <edge id="5354" source="DEBRA" target="LAGUERTA" weight="2" />
+      <edge id="5355" source="COP" target="DEXTER" weight="1" />
+      <edge id="5356" source="COP" target="DEBRA" weight="1" />
+      <edge id="5357" source="MASUKA" target="DEXTER" weight="2" />
+      <edge id="5358" source="MASUKA" target="BATISTA" weight="1" />
+      <edge id="5359" source="MASUKA" target="COP #2" weight="1" />
+      <edge id="5360" source="MASUKA" target="DEBRA" weight="1" />
+      <edge id="5361" source="MASUKA" target="LAGUERTA" weight="1" />
+      <edge id="5362" source="BATISTA" target="DEXTER" weight="2" />
+      <edge id="5363" source="BATISTA" target="MASUKA" weight="1" />
+      <edge id="5364" source="DETECTIVE BOB" target="DEXTER" weight="1" />
+      <edge id="5365" source="DETECTIVE BOB" target="DETECTIVE DAN" weight="1" />
+      <edge id="5366" source="DETECTIVE BOB" target="DEBRA" weight="1" />
+      <edge id="5367" source="DETECTIVE DAN" target="DETECTIVE BOB" weight="1" />
+      <edge id="5368" source="DETECTIVE DAN" target="DEXTER" weight="1" />
+      <edge id="5369" source="DETECTIVE DAN" target="DEBRA" weight="1" />
+      <edge id="5370" source="CAMILLIA" target="DEXTER" weight="1" />
+      <edge id="5371" source="SGT. DOAKES" target="DEXTER" weight="3" />
+      <edge id="5372" source="SGT. DOAKES" target="WIFE" weight="1" />
+      <edge id="5373" source="SGT. DOAKES" target="DESK SERGEANT" weight="1" />
+      <edge id="5374" source="SGT. DOAKES" target="LAGUERTA" weight="2" />
+      <edge id="5375" source="UNIFORMED COP" target="DEXTER" weight="1" />
+      <edge id="5376" source="RITA" target="DEXTER" weight="8" />
+      <edge id="5377" source="RITA" target="ASTOR" weight="1" />
+      <edge id="5378" source="RITA" target="CODY" weight="2" />
+      <edge id="5379" source="ASTOR" target="DEXTER" weight="1" />
+      <edge id="5380" source="ASTOR" target="CODY" weight="1" />
+      <edge id="5381" source="ASTOR" target="RITA" weight="1" />
+      <edge id="5382" source="CODY" target="ASTOR" weight="1" />
+      <edge id="5383" source="CODY" target="DEXTER" weight="2" />
+      <edge id="5384" source="CODY" target="RITA" weight="2" />
+      <edge id="5385" source="WIFE" target="DESK SERGEANT" weight="1" />
+      <edge id="5386" source="WIFE" target="DEXTER" weight="1" />
+      <edge id="5387" source="WIFE" target="SGT. DOAKES" weight="1" />
+      <edge id="5388" source="WIFE" target="LAGUERTA" weight="1" />
+      <edge id="5389" source="DESK SERGEANT" target="WIFE" weight="1" />
+      <edge id="5390" source="DESK SERGEANT" target="DEXTER" weight="1" />
+      <edge id="5391" source="DESK SERGEANT" target="SGT. DOAKES" weight="1" />
+      <edge id="5392" source="DESK SERGEANT" target="LAGUERTA" weight="1" />
+      <edge id="5393" source="LAGUERTA" target="WIFE" weight="1" />
+      <edge id="5394" source="LAGUERTA" target="DESK SERGEANT" weight="1" />
+      <edge id="5395" source="LAGUERTA" target="DEXTER" weight="5" />
+      <edge id="5396" source="LAGUERTA" target="SGT. DOAKES" weight="2" />
+      <edge id="5397" source="LAGUERTA" target="COP #2" weight="1" />
+      <edge id="5398" source="LAGUERTA" target="DEBRA" weight="2" />
+      <edge id="5399" source="LAGUERTA" target="MASUKA" weight="1" />
+      <edge id="5400" source="COP #2" target="DEXTER" weight="1" />
+      <edge id="5401" source="COP #2" target="DEBRA" weight="1" />
+      <edge id="5402" source="COP #2" target="MASUKA" weight="1" />
+      <edge id="5403" source="COP #2" target="LAGUERTA" weight="1" />
+      <edge id="5404" source="JAWORSKI" target="DEXTER" weight="2" />
+    </edges>
+  </graph>
+</gexf>

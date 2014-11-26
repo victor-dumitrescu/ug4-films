@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HELEN" label="HELEN" />
+      <node id="COP" label="COP" />
+      <node id="CHESSMASTER" label="CHESSMASTER" />
+      <node id="COMPUTER" label="COMPUTER" />
+      <node id="M.J." label="M.J." />
+      <node id="RUBEN" label="RUBEN" />
+      <node id="SUSAN" label="SUSAN" />
+      <node id="QUINN" label="QUINN" />
+      <node id="MIKE" label="MIKE" />
+      <node id="DOC" label="DOC" />
+      <node id="PHONE VOICE" label="PHONE VOICE" />
+      <node id="PHOTOGRAPHER" label="PHOTOGRAPHER" />
+      <node id="NH" label="NH" />
+      <node id="NIKKO" label="NIKKO" />
+      <node id="CONFESSOR" label="CONFESSOR" />
+      <node id="HARVEY" label="HARVEY" />
+      <node id="PACHULSKI" label="PACHULSKI" />
+      <node id="FEMALE PHONE VOICE" label="FEMALE PHONE VOICE" />
+      <node id="ANDY" label="ANDY" />
+      <node id="ATTORNEY" label="ATTORNEY" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="HUSBAND" label="HUSBAND" />
+      <node id="VOICE" label="VOICE" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="PETER" label="PETER" />
+      <node id="SCANNER" label="SCANNER" />
+      <node id="TECH GUY" label="TECH GUY" />
+      <node id="MAN" label="MAN" />
+      <node id="BURT" label="BURT" />
+      <node id="CONRAD" label="CONRAD" />
+      <node id="SAKS" label="SAKS" />
+      <node id="GIGI" label="GIGI" />
+      <node id="FELIX" label="FELIX" />
+      <node id="MITCHELL" label="MITCHELL" />
+      <node id="DARYLL LEE" label="DARYLL LEE" />
+      <node id="DARYLL" label="DARYLL" />
+      <node id="MAC" label="MAC" />
+      <node id="KID" label="KID" />
+      <node id="ANSWERING MACHINE" label="ANSWERING MACHINE" />
+      <node id="DETECTIVE" label="DETECTIVE" />
+      <node id="DETECTIVE 2" label="DETECTIVE 2" />
+      <node id="TV" label="TV" />
+      <node id="FBI" label="FBI" />
+      <node id="SWAT COMM" label="SWAT COMM" />
+      <node id="NJ" label="NJ" />
+      <node id="RADIO NEWS" label="RADIO NEWS" />
+      <node id="GIRL" label="GIRL" />
+      <node id="STUDENT" label="STUDENT" />
+      <node id="COMPUTER VOICE" label="COMPUTER VOICE" />
+      <node id="FRED" label="FRED" />
+      <node id="SWAT" label="SWAT" />
+      <node id="M.J. &amp; HELEN" label="M.J. &amp; HELEN" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+    </nodes>
+    <edges>
+      <edge id="4443" source="HELEN" target="CHESSMASTER" weight="1" />
+      <edge id="4444" source="HELEN" target="COMPUTER" weight="1" />
+      <edge id="4445" source="HELEN" target="M.J." weight="20" />
+      <edge id="4446" source="HELEN" target="PACHULSKI" weight="1" />
+      <edge id="4447" source="HELEN" target="ANDY" weight="9" />
+      <edge id="4448" source="HELEN" target="RUBEN" weight="10" />
+      <edge id="4449" source="HELEN" target="ATTORNEY" weight="1" />
+      <edge id="4450" source="HELEN" target="JUDGE" weight="1" />
+      <edge id="4451" source="HELEN" target="QUINN" weight="2" />
+      <edge id="4452" source="HELEN" target="VOICE" weight="1" />
+      <edge id="4453" source="HELEN" target="TECH GUY" weight="1" />
+      <edge id="4454" source="HELEN" target="COP" weight="1" />
+      <edge id="4455" source="HELEN" target="DARYLL LEE" weight="1" />
+      <edge id="4456" source="HELEN" target="DARYLL" weight="1" />
+      <edge id="4457" source="HELEN" target="ANSWERING MACHINE" weight="1" />
+      <edge id="4458" source="HELEN" target="NIKKO" weight="1" />
+      <edge id="4459" source="HELEN" target="NJ" weight="1" />
+      <edge id="4460" source="HELEN" target="PETER" weight="2" />
+      <edge id="4461" source="HELEN" target="COMPUTER VOICE" weight="1" />
+      <edge id="4462" source="HELEN" target="FRED" weight="1" />
+      <edge id="4463" source="HELEN" target="SAKS" weight="1" />
+      <edge id="4464" source="HELEN" target="M.J. &amp; HELEN" weight="1" />
+      <edge id="4465" source="HELEN" target="PARAMEDIC" weight="1" />
+      <edge id="4466" source="HELEN" target="SUSAN" weight="1" />
+      <edge id="4467" source="COP" target="DOC" weight="1" />
+      <edge id="4468" source="COP" target="M.J." weight="2" />
+      <edge id="4469" source="COP" target="PHONE VOICE" weight="1" />
+      <edge id="4470" source="COP" target="TECH GUY" weight="1" />
+      <edge id="4471" source="COP" target="RUBEN" weight="1" />
+      <edge id="4472" source="COP" target="HELEN" weight="1" />
+      <edge id="4473" source="CHESSMASTER" target="HELEN" weight="1" />
+      <edge id="4474" source="CHESSMASTER" target="COMPUTER" weight="1" />
+      <edge id="4475" source="COMPUTER" target="HELEN" weight="1" />
+      <edge id="4476" source="COMPUTER" target="CHESSMASTER" weight="1" />
+      <edge id="4477" source="M.J." target="RUBEN" weight="15" />
+      <edge id="4478" source="M.J." target="SUSAN" weight="4" />
+      <edge id="4479" source="M.J." target="QUINN" weight="13" />
+      <edge id="4480" source="M.J." target="MIKE" weight="2" />
+      <edge id="4481" source="M.J." target="DOC" weight="2" />
+      <edge id="4482" source="M.J." target="COP" weight="2" />
+      <edge id="4483" source="M.J." target="PHONE VOICE" weight="1" />
+      <edge id="4484" source="M.J." target="PHOTOGRAPHER" weight="1" />
+      <edge id="4485" source="M.J." target="NH" weight="1" />
+      <edge id="4486" source="M.J." target="NIKKO" weight="7" />
+      <edge id="4487" source="M.J." target="CONFESSOR" weight="1" />
+      <edge id="4488" source="M.J." target="HARVEY" weight="1" />
+      <edge id="4489" source="M.J." target="PACHULSKI" weight="2" />
+      <edge id="4490" source="M.J." target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4491" source="M.J." target="HELEN" weight="20" />
+      <edge id="4492" source="M.J." target="ANDY" weight="5" />
+      <edge id="4493" source="M.J." target="ATTORNEY" weight="1" />
+      <edge id="4494" source="M.J." target="JUDGE" weight="1" />
+      <edge id="4495" source="M.J." target="TECH GUY" weight="1" />
+      <edge id="4496" source="M.J." target="SAKS" weight="2" />
+      <edge id="4497" source="M.J." target="GIGI" weight="2" />
+      <edge id="4498" source="M.J." target="MITCHELL" weight="1" />
+      <edge id="4499" source="M.J." target="MAC" weight="1" />
+      <edge id="4500" source="M.J." target="CONRAD" weight="1" />
+      <edge id="4501" source="M.J." target="KID" weight="1" />
+      <edge id="4502" source="M.J." target="ANSWERING MACHINE" weight="1" />
+      <edge id="4503" source="M.J." target="DETECTIVE" weight="1" />
+      <edge id="4504" source="M.J." target="DETECTIVE 2" weight="1" />
+      <edge id="4505" source="M.J." target="NJ" weight="1" />
+      <edge id="4506" source="M.J." target="GIRL" weight="1" />
+      <edge id="4507" source="M.J." target="PETER" weight="1" />
+      <edge id="4508" source="M.J." target="COMPUTER VOICE" weight="1" />
+      <edge id="4509" source="M.J." target="PARAMEDIC" weight="1" />
+      <edge id="4510" source="RUBEN" target="M.J." weight="15" />
+      <edge id="4511" source="RUBEN" target="SUSAN" weight="2" />
+      <edge id="4512" source="RUBEN" target="QUINN" weight="3" />
+      <edge id="4513" source="RUBEN" target="NIKKO" weight="5" />
+      <edge id="4514" source="RUBEN" target="CONFESSOR" weight="1" />
+      <edge id="4515" source="RUBEN" target="HARVEY" weight="1" />
+      <edge id="4516" source="RUBEN" target="PACHULSKI" weight="1" />
+      <edge id="4517" source="RUBEN" target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4518" source="RUBEN" target="ANDY" weight="5" />
+      <edge id="4519" source="RUBEN" target="HELEN" weight="10" />
+      <edge id="4520" source="RUBEN" target="VOICE" weight="1" />
+      <edge id="4521" source="RUBEN" target="DOC" weight="1" />
+      <edge id="4522" source="RUBEN" target="TECH GUY" weight="1" />
+      <edge id="4523" source="RUBEN" target="COP" weight="1" />
+      <edge id="4524" source="RUBEN" target="MAN" weight="1" />
+      <edge id="4525" source="RUBEN" target="BURT" weight="1" />
+      <edge id="4526" source="RUBEN" target="CONRAD" weight="2" />
+      <edge id="4527" source="RUBEN" target="MAC" weight="1" />
+      <edge id="4528" source="RUBEN" target="KID" weight="1" />
+      <edge id="4529" source="SUSAN" target="M.J." weight="4" />
+      <edge id="4530" source="SUSAN" target="RUBEN" weight="2" />
+      <edge id="4531" source="SUSAN" target="QUINN" weight="3" />
+      <edge id="4532" source="SUSAN" target="NH" weight="1" />
+      <edge id="4533" source="SUSAN" target="NIKKO" weight="1" />
+      <edge id="4534" source="SUSAN" target="DOC" weight="1" />
+      <edge id="4535" source="SUSAN" target="HELEN" weight="1" />
+      <edge id="4536" source="QUINN" target="M.J." weight="13" />
+      <edge id="4537" source="QUINN" target="RUBEN" weight="3" />
+      <edge id="4538" source="QUINN" target="SUSAN" weight="3" />
+      <edge id="4539" source="QUINN" target="NH" weight="1" />
+      <edge id="4540" source="QUINN" target="ATTORNEY" weight="1" />
+      <edge id="4541" source="QUINN" target="HELEN" weight="2" />
+      <edge id="4542" source="QUINN" target="JUDGE" weight="1" />
+      <edge id="4543" source="QUINN" target="NIKKO" weight="3" />
+      <edge id="4544" source="QUINN" target="SAKS" weight="3" />
+      <edge id="4545" source="QUINN" target="GIGI" weight="1" />
+      <edge id="4546" source="QUINN" target="MAC" weight="1" />
+      <edge id="4547" source="QUINN" target="DETECTIVE" weight="1" />
+      <edge id="4548" source="QUINN" target="DETECTIVE 2" weight="1" />
+      <edge id="4549" source="QUINN" target="ANDY" weight="1" />
+      <edge id="4550" source="QUINN" target="FBI" weight="1" />
+      <edge id="4551" source="QUINN" target="PARAMEDIC" weight="1" />
+      <edge id="4552" source="MIKE" target="M.J." weight="2" />
+      <edge id="4553" source="DOC" target="M.J." weight="2" />
+      <edge id="4554" source="DOC" target="COP" weight="1" />
+      <edge id="4555" source="DOC" target="PHONE VOICE" weight="1" />
+      <edge id="4556" source="DOC" target="RUBEN" weight="1" />
+      <edge id="4557" source="DOC" target="NIKKO" weight="1" />
+      <edge id="4558" source="DOC" target="SUSAN" weight="1" />
+      <edge id="4559" source="PHONE VOICE" target="DOC" weight="1" />
+      <edge id="4560" source="PHONE VOICE" target="M.J." weight="1" />
+      <edge id="4561" source="PHONE VOICE" target="COP" weight="1" />
+      <edge id="4562" source="PHOTOGRAPHER" target="M.J." weight="1" />
+      <edge id="4563" source="NH" target="SUSAN" weight="1" />
+      <edge id="4564" source="NH" target="M.J." weight="1" />
+      <edge id="4565" source="NH" target="QUINN" weight="1" />
+      <edge id="4566" source="NIKKO" target="CONFESSOR" weight="1" />
+      <edge id="4567" source="NIKKO" target="HARVEY" weight="1" />
+      <edge id="4568" source="NIKKO" target="M.J." weight="7" />
+      <edge id="4569" source="NIKKO" target="RUBEN" weight="5" />
+      <edge id="4570" source="NIKKO" target="PACHULSKI" weight="1" />
+      <edge id="4571" source="NIKKO" target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4572" source="NIKKO" target="DOC" weight="1" />
+      <edge id="4573" source="NIKKO" target="SUSAN" weight="1" />
+      <edge id="4574" source="NIKKO" target="QUINN" weight="3" />
+      <edge id="4575" source="NIKKO" target="MAC" weight="1" />
+      <edge id="4576" source="NIKKO" target="KID" weight="1" />
+      <edge id="4577" source="NIKKO" target="NJ" weight="1" />
+      <edge id="4578" source="NIKKO" target="HELEN" weight="1" />
+      <edge id="4579" source="CONFESSOR" target="NIKKO" weight="1" />
+      <edge id="4580" source="CONFESSOR" target="HARVEY" weight="1" />
+      <edge id="4581" source="CONFESSOR" target="M.J." weight="1" />
+      <edge id="4582" source="CONFESSOR" target="RUBEN" weight="1" />
+      <edge id="4583" source="CONFESSOR" target="PACHULSKI" weight="1" />
+      <edge id="4584" source="CONFESSOR" target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4585" source="HARVEY" target="NIKKO" weight="1" />
+      <edge id="4586" source="HARVEY" target="CONFESSOR" weight="1" />
+      <edge id="4587" source="HARVEY" target="M.J." weight="1" />
+      <edge id="4588" source="HARVEY" target="RUBEN" weight="1" />
+      <edge id="4589" source="HARVEY" target="PACHULSKI" weight="1" />
+      <edge id="4590" source="HARVEY" target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4591" source="PACHULSKI" target="NIKKO" weight="1" />
+      <edge id="4592" source="PACHULSKI" target="CONFESSOR" weight="1" />
+      <edge id="4593" source="PACHULSKI" target="HARVEY" weight="1" />
+      <edge id="4594" source="PACHULSKI" target="M.J." weight="2" />
+      <edge id="4595" source="PACHULSKI" target="RUBEN" weight="1" />
+      <edge id="4596" source="PACHULSKI" target="FEMALE PHONE VOICE" weight="1" />
+      <edge id="4597" source="PACHULSKI" target="HELEN" weight="1" />
+      <edge id="4598" source="FEMALE PHONE VOICE" target="NIKKO" weight="1" />
+      <edge id="4599" source="FEMALE PHONE VOICE" target="CONFESSOR" weight="1" />
+      <edge id="4600" source="FEMALE PHONE VOICE" target="HARVEY" weight="1" />
+      <edge id="4601" source="FEMALE PHONE VOICE" target="M.J." weight="1" />
+      <edge id="4602" source="FEMALE PHONE VOICE" target="RUBEN" weight="1" />
+      <edge id="4603" source="FEMALE PHONE VOICE" target="PACHULSKI" weight="1" />
+      <edge id="4604" source="ANDY" target="HELEN" weight="9" />
+      <edge id="4605" source="ANDY" target="RUBEN" weight="5" />
+      <edge id="4606" source="ANDY" target="M.J." weight="5" />
+      <edge id="4607" source="ANDY" target="FBI" weight="1" />
+      <edge id="4608" source="ANDY" target="SAKS" weight="1" />
+      <edge id="4609" source="ANDY" target="QUINN" weight="1" />
+      <edge id="4610" source="ATTORNEY" target="HELEN" weight="1" />
+      <edge id="4611" source="ATTORNEY" target="JUDGE" weight="1" />
+      <edge id="4612" source="ATTORNEY" target="QUINN" weight="1" />
+      <edge id="4613" source="ATTORNEY" target="M.J." weight="1" />
+      <edge id="4614" source="JUDGE" target="ATTORNEY" weight="1" />
+      <edge id="4615" source="JUDGE" target="HELEN" weight="1" />
+      <edge id="4616" source="JUDGE" target="QUINN" weight="1" />
+      <edge id="4617" source="JUDGE" target="M.J." weight="1" />
+      <edge id="4618" source="VOICE" target="HELEN" weight="1" />
+      <edge id="4619" source="VOICE" target="RUBEN" weight="1" />
+      <edge id="4620" source="WOMAN" target="PETER" weight="1" />
+      <edge id="4621" source="PETER" target="WOMAN" weight="1" />
+      <edge id="4622" source="PETER" target="HELEN" weight="2" />
+      <edge id="4623" source="PETER" target="M.J." weight="1" />
+      <edge id="4624" source="PETER" target="COMPUTER VOICE" weight="1" />
+      <edge id="4625" source="PETER" target="M.J. &amp; HELEN" weight="1" />
+      <edge id="4626" source="TECH GUY" target="M.J." weight="1" />
+      <edge id="4627" source="TECH GUY" target="COP" weight="1" />
+      <edge id="4628" source="TECH GUY" target="RUBEN" weight="1" />
+      <edge id="4629" source="TECH GUY" target="HELEN" weight="1" />
+      <edge id="4630" source="MAN" target="RUBEN" weight="1" />
+      <edge id="4631" source="MAN" target="BURT" weight="1" />
+      <edge id="4632" source="MAN" target="CONRAD" weight="1" />
+      <edge id="4633" source="BURT" target="MAN" weight="1" />
+      <edge id="4634" source="BURT" target="RUBEN" weight="1" />
+      <edge id="4635" source="BURT" target="CONRAD" weight="1" />
+      <edge id="4636" source="CONRAD" target="MAN" weight="1" />
+      <edge id="4637" source="CONRAD" target="RUBEN" weight="2" />
+      <edge id="4638" source="CONRAD" target="BURT" weight="1" />
+      <edge id="4639" source="CONRAD" target="M.J." weight="1" />
+      <edge id="4640" source="SAKS" target="M.J." weight="2" />
+      <edge id="4641" source="SAKS" target="QUINN" weight="3" />
+      <edge id="4642" source="SAKS" target="GIGI" weight="1" />
+      <edge id="4643" source="SAKS" target="DETECTIVE" weight="1" />
+      <edge id="4644" source="SAKS" target="DETECTIVE 2" weight="1" />
+      <edge id="4645" source="SAKS" target="ANDY" weight="1" />
+      <edge id="4646" source="SAKS" target="FBI" weight="1" />
+      <edge id="4647" source="SAKS" target="HELEN" weight="1" />
+      <edge id="4648" source="SAKS" target="SWAT" weight="1" />
+      <edge id="4649" source="GIGI" target="SAKS" weight="1" />
+      <edge id="4650" source="GIGI" target="M.J." weight="2" />
+      <edge id="4651" source="GIGI" target="QUINN" weight="1" />
+      <edge id="4652" source="MITCHELL" target="M.J." weight="1" />
+      <edge id="4653" source="DARYLL LEE" target="HELEN" weight="1" />
+      <edge id="4654" source="DARYLL LEE" target="DARYLL" weight="1" />
+      <edge id="4655" source="DARYLL" target="DARYLL LEE" weight="1" />
+      <edge id="4656" source="DARYLL" target="HELEN" weight="1" />
+      <edge id="4657" source="MAC" target="M.J." weight="1" />
+      <edge id="4658" source="MAC" target="RUBEN" weight="1" />
+      <edge id="4659" source="MAC" target="NIKKO" weight="1" />
+      <edge id="4660" source="MAC" target="QUINN" weight="1" />
+      <edge id="4661" source="KID" target="RUBEN" weight="1" />
+      <edge id="4662" source="KID" target="NIKKO" weight="1" />
+      <edge id="4663" source="KID" target="M.J." weight="1" />
+      <edge id="4664" source="ANSWERING MACHINE" target="HELEN" weight="1" />
+      <edge id="4665" source="ANSWERING MACHINE" target="M.J." weight="1" />
+      <edge id="4666" source="DETECTIVE" target="M.J." weight="1" />
+      <edge id="4667" source="DETECTIVE" target="DETECTIVE 2" weight="1" />
+      <edge id="4668" source="DETECTIVE" target="QUINN" weight="1" />
+      <edge id="4669" source="DETECTIVE" target="SAKS" weight="1" />
+      <edge id="4670" source="DETECTIVE 2" target="M.J." weight="1" />
+      <edge id="4671" source="DETECTIVE 2" target="DETECTIVE" weight="1" />
+      <edge id="4672" source="DETECTIVE 2" target="QUINN" weight="1" />
+      <edge id="4673" source="DETECTIVE 2" target="SAKS" weight="1" />
+      <edge id="4674" source="FBI" target="ANDY" weight="1" />
+      <edge id="4675" source="FBI" target="SAKS" weight="1" />
+      <edge id="4676" source="FBI" target="QUINN" weight="1" />
+      <edge id="4677" source="NJ" target="NIKKO" weight="1" />
+      <edge id="4678" source="NJ" target="M.J." weight="1" />
+      <edge id="4679" source="NJ" target="HELEN" weight="1" />
+      <edge id="4680" source="GIRL" target="M.J." weight="1" />
+      <edge id="4681" source="COMPUTER VOICE" target="HELEN" weight="1" />
+      <edge id="4682" source="COMPUTER VOICE" target="PETER" weight="1" />
+      <edge id="4683" source="COMPUTER VOICE" target="M.J." weight="1" />
+      <edge id="4684" source="FRED" target="HELEN" weight="1" />
+      <edge id="4685" source="SWAT" target="SAKS" weight="1" />
+      <edge id="4686" source="M.J. &amp; HELEN" target="PETER" weight="1" />
+      <edge id="4687" source="M.J. &amp; HELEN" target="HELEN" weight="1" />
+      <edge id="4688" source="PARAMEDIC" target="M.J." weight="1" />
+      <edge id="4689" source="PARAMEDIC" target="QUINN" weight="1" />
+      <edge id="4690" source="PARAMEDIC" target="HELEN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

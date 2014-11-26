@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="WHITACRE" label="WHITACRE" />
+      <node id="ALEXANDER" label="ALEXANDER" />
+      <node id="LIZ TAYLOR" label="LIZ TAYLOR" />
+      <node id="DISCOURAGED FOREMAN" label="DISCOURAGED FOREMAN" />
+      <node id="ANDREAS" label="ANDREAS" />
+      <node id="WILSON" label="WILSON" />
+      <node id="GINGER" label="GINGER" />
+      <node id="FUJIWARA" label="FUJIWARA" />
+      <node id="CHEVIRON" label="CHEVIRON" />
+      <node id="SHEPARD" label="SHEPARD" />
+      <node id="SID HULSE" label="SID HULSE" />
+      <node id="SHEPARD WHITACRE" label="SHEPARD WHITACRE" />
+      <node id="PAISLEY" label="PAISLEY" />
+      <node id="MEDFORD" label="MEDFORD" />
+      <node id="WHITACRE WHITACRE" label="WHITACRE WHITACRE" />
+      <node id="AGENT PAISLEY" label="AGENT PAISLEY" />
+      <node id="MESSAGE VOICE" label="MESSAGE VOICE" />
+      <node id="COMPUTER VOICE" label="COMPUTER VOICE" />
+      <node id="CELL PHONE" label="CELL PHONE" />
+      <node id="TERRY WILSON" label="TERRY WILSON" />
+      <node id="HERNDON" label="HERNDON" />
+      <node id="MARTY ALLISON" label="MARTY ALLISON" />
+      <node id="RICHTER" label="RICHTER" />
+      <node id="ROLLIER" label="ROLLIER" />
+      <node id="CROUY" label="CROUY" />
+      <node id="RUSTY THE GARDENER" label="RUSTY THE GARDENER" />
+      <node id="AFRICAN AMERICAN MAN" label="AFRICAN AMERICAN MAN" />
+      <node id="ADM SUIT" label="ADM SUIT" />
+      <node id="YAMADA" label="YAMADA" />
+      <node id="IKEDA" label="IKEDA" />
+      <node id="ROBIN MANN" label="ROBIN MANN" />
+      <node id="WILSON WHITACRE" label="WILSON WHITACRE" />
+      <node id="LYSINE EXEC" label="LYSINE EXEC" />
+      <node id="MCDEERE" label="MCDEERE" />
+      <node id="TARRANCE" label="TARRANCE" />
+      <node id="MC DEERE" label="MC DEERE" />
+      <node id="SCHMIDT" label="SCHMIDT" />
+      <node id="BRIEL" label="BRIEL" />
+      <node id="MIMOTO" label="MIMOTO" />
+      <node id="VISOR" label="VISOR" />
+      <node id="SUH" label="SUH" />
+      <node id="MR. CHAUDRET" label="MR. CHAUDRET" />
+      <node id="MUTCHNIK" label="MUTCHNIK" />
+      <node id="VISITING CLIENT" label="VISITING CLIENT" />
+      <node id="STUNNED WAITRESS" label="STUNNED WAITRESS" />
+      <node id="PHONE AGENT" label="PHONE AGENT" />
+      <node id="AGENT TEMPLES" label="AGENT TEMPLES" />
+      <node id="DWAYNE ANDREAS" label="DWAYNE ANDREAS" />
+      <node id="AUBREY DANIEL" label="AUBREY DANIEL" />
+      <node id="MICK ANDREAS" label="MICK ANDREAS" />
+      <node id="JOHN DOWD" label="JOHN DOWD" />
+      <node id="EPSTEIN" label="EPSTEIN" />
+      <node id="KILMAN" label="KILMAN" />
+      <node id="COMPETING VOICE" label="COMPETING VOICE" />
+      <node id="TV ANNCR" label="TV ANNCR" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="REPORTER 2" label="REPORTER 2" />
+      <node id="REPORTER 3" label="REPORTER 3" />
+      <node id="HENKOFF" label="HENKOFF" />
+      <node id="ROBERTS" label="ROBERTS" />
+      <node id="ZAIDEMAN" label="ZAIDEMAN" />
+      <node id="HERBST" label="HERBST" />
+      <node id="MARY SPEARING" label="MARY SPEARING" />
+      <node id="D' ANGELO" label="D' ANGELO" />
+      <node id="RUSTY" label="RUSTY" />
+      <node id="MILLER" label="MILLER" />
+      <node id="LAWYER" label="LAWYER" />
+      <node id="NEVER SEEN BEFORE" label="NEVER SEEN BEFORE" />
+      <node id="WHITACRE'S MOM" label="WHITACRE'S MOM" />
+      <node id="ZENNER" label="ZENNER" />
+      <node id="AGENT GRANT" label="AGENT GRANT" />
+      <node id="HULSE" label="HULSE" />
+      <node id="AGENT BASSET" label="AGENT BASSET" />
+      <node id="ALLISON" label="ALLISON" />
+      <node id="LOCAL NEWS ANCHOR" label="LOCAL NEWS ANCHOR" />
+      <node id="WALKER" label="WALKER" />
+      <node id="CLERK" label="CLERK" />
+      <node id="JUDGE BAKER" label="JUDGE BAKER" />
+      <node id="CORRECTIONAL OFFICER" label="CORRECTIONAL OFFICER" />
+      <node id="NEW OWNER" label="NEW OWNER" />
+      <node id="GROCERY CASHIER" label="GROCERY CASHIER" />
+    </nodes>
+    <edges>
+      <edge id="22687" source="WHITACRE" target="ALEXANDER" weight="5" />
+      <edge id="22688" source="WHITACRE" target="LIZ TAYLOR" weight="6" />
+      <edge id="22689" source="WHITACRE" target="DISCOURAGED FOREMAN" weight="1" />
+      <edge id="22690" source="WHITACRE" target="ANDREAS" weight="12" />
+      <edge id="22691" source="WHITACRE" target="WILSON" weight="4" />
+      <edge id="22692" source="WHITACRE" target="GINGER" weight="19" />
+      <edge id="22693" source="WHITACRE" target="FUJIWARA" weight="1" />
+      <edge id="22694" source="WHITACRE" target="CHEVIRON" weight="8" />
+      <edge id="22695" source="WHITACRE" target="SHEPARD" weight="36" />
+      <edge id="22696" source="WHITACRE" target="SID HULSE" weight="1" />
+      <edge id="22697" source="WHITACRE" target="SHEPARD WHITACRE" weight="1" />
+      <edge id="22698" source="WHITACRE" target="PAISLEY" weight="4" />
+      <edge id="22699" source="WHITACRE" target="WHITACRE WHITACRE" weight="2" />
+      <edge id="22700" source="WHITACRE" target="AGENT PAISLEY" weight="1" />
+      <edge id="22701" source="WHITACRE" target="MESSAGE VOICE" weight="1" />
+      <edge id="22702" source="WHITACRE" target="COMPUTER VOICE" weight="2" />
+      <edge id="22703" source="WHITACRE" target="CELL PHONE" weight="1" />
+      <edge id="22704" source="WHITACRE" target="TERRY WILSON" weight="10" />
+      <edge id="22705" source="WHITACRE" target="MARTY ALLISON" weight="2" />
+      <edge id="22706" source="WHITACRE" target="RICHTER" weight="1" />
+      <edge id="22707" source="WHITACRE" target="HERNDON" weight="19" />
+      <edge id="22708" source="WHITACRE" target="ROLLIER" weight="1" />
+      <edge id="22709" source="WHITACRE" target="CROUY" weight="1" />
+      <edge id="22710" source="WHITACRE" target="RUSTY THE GARDENER" weight="1" />
+      <edge id="22711" source="WHITACRE" target="AFRICAN AMERICAN MAN" weight="2" />
+      <edge id="22712" source="WHITACRE" target="ADM SUIT" weight="1" />
+      <edge id="22713" source="WHITACRE" target="YAMADA" weight="2" />
+      <edge id="22714" source="WHITACRE" target="IKEDA" weight="4" />
+      <edge id="22715" source="WHITACRE" target="ROBIN MANN" weight="3" />
+      <edge id="22716" source="WHITACRE" target="WILSON WHITACRE" weight="1" />
+      <edge id="22717" source="WHITACRE" target="LYSINE EXEC" weight="1" />
+      <edge id="22718" source="WHITACRE" target="MCDEERE" weight="1" />
+      <edge id="22719" source="WHITACRE" target="TARRANCE" weight="1" />
+      <edge id="22720" source="WHITACRE" target="MC DEERE" weight="1" />
+      <edge id="22721" source="WHITACRE" target="SCHMIDT" weight="1" />
+      <edge id="22722" source="WHITACRE" target="BRIEL" weight="1" />
+      <edge id="22723" source="WHITACRE" target="MIMOTO" weight="3" />
+      <edge id="22724" source="WHITACRE" target="VISOR" weight="1" />
+      <edge id="22725" source="WHITACRE" target="SUH" weight="1" />
+      <edge id="22726" source="WHITACRE" target="MR. CHAUDRET" weight="1" />
+      <edge id="22727" source="WHITACRE" target="MUTCHNIK" weight="2" />
+      <edge id="22728" source="WHITACRE" target="VISITING CLIENT" weight="1" />
+      <edge id="22729" source="WHITACRE" target="STUNNED WAITRESS" weight="1" />
+      <edge id="22730" source="WHITACRE" target="PHONE AGENT" weight="1" />
+      <edge id="22731" source="WHITACRE" target="AGENT TEMPLES" weight="1" />
+      <edge id="22732" source="WHITACRE" target="DWAYNE ANDREAS" weight="1" />
+      <edge id="22733" source="WHITACRE" target="AUBREY DANIEL" weight="5" />
+      <edge id="22734" source="WHITACRE" target="MICK ANDREAS" weight="1" />
+      <edge id="22735" source="WHITACRE" target="JOHN DOWD" weight="2" />
+      <edge id="22736" source="WHITACRE" target="EPSTEIN" weight="8" />
+      <edge id="22737" source="WHITACRE" target="KILMAN" weight="2" />
+      <edge id="22738" source="WHITACRE" target="COMPETING VOICE" weight="1" />
+      <edge id="22739" source="WHITACRE" target="TV ANNCR" weight="1" />
+      <edge id="22740" source="WHITACRE" target="REPORTER" weight="1" />
+      <edge id="22741" source="WHITACRE" target="REPORTER 2" weight="1" />
+      <edge id="22742" source="WHITACRE" target="REPORTER 3" weight="1" />
+      <edge id="22743" source="WHITACRE" target="HENKOFF" weight="1" />
+      <edge id="22744" source="WHITACRE" target="MEDFORD" weight="1" />
+      <edge id="22745" source="WHITACRE" target="ZAIDEMAN" weight="1" />
+      <edge id="22746" source="WHITACRE" target="HERBST" weight="1" />
+      <edge id="22747" source="WHITACRE" target="MARY SPEARING" weight="1" />
+      <edge id="22748" source="WHITACRE" target="RUSTY" weight="1" />
+      <edge id="22749" source="WHITACRE" target="MILLER" weight="2" />
+      <edge id="22750" source="WHITACRE" target="LAWYER" weight="1" />
+      <edge id="22751" source="WHITACRE" target="NEVER SEEN BEFORE" weight="1" />
+      <edge id="22752" source="WHITACRE" target="WHITACRE'S MOM" weight="1" />
+      <edge id="22753" source="WHITACRE" target="D' ANGELO" weight="2" />
+      <edge id="22754" source="WHITACRE" target="ALLISON" weight="1" />
+      <edge id="22755" source="WHITACRE" target="LOCAL NEWS ANCHOR" weight="1" />
+      <edge id="22756" source="WHITACRE" target="WALKER" weight="1" />
+      <edge id="22757" source="WHITACRE" target="CLERK" weight="1" />
+      <edge id="22758" source="WHITACRE" target="JUDGE BAKER" weight="1" />
+      <edge id="22759" source="WHITACRE" target="CORRECTIONAL OFFICER" weight="1" />
+      <edge id="22760" source="ALEXANDER" target="WHITACRE" weight="5" />
+      <edge id="22761" source="ALEXANDER" target="GINGER" weight="3" />
+      <edge id="22762" source="ALEXANDER" target="SHEPARD" weight="1" />
+      <edge id="22763" source="ALEXANDER" target="PAISLEY" weight="1" />
+      <edge id="22764" source="ALEXANDER" target="TV ANNCR" weight="1" />
+      <edge id="22765" source="ALEXANDER" target="RUSTY" weight="1" />
+      <edge id="22766" source="LIZ TAYLOR" target="WHITACRE" weight="6" />
+      <edge id="22767" source="LIZ TAYLOR" target="FUJIWARA" weight="1" />
+      <edge id="22768" source="LIZ TAYLOR" target="ANDREAS" weight="2" />
+      <edge id="22769" source="LIZ TAYLOR" target="CHEVIRON" weight="3" />
+      <edge id="22770" source="LIZ TAYLOR" target="SHEPARD" weight="1" />
+      <edge id="22771" source="DISCOURAGED FOREMAN" target="WHITACRE" weight="1" />
+      <edge id="22772" source="ANDREAS" target="WILSON" weight="3" />
+      <edge id="22773" source="ANDREAS" target="WHITACRE" weight="12" />
+      <edge id="22774" source="ANDREAS" target="CHEVIRON" weight="3" />
+      <edge id="22775" source="ANDREAS" target="LIZ TAYLOR" weight="2" />
+      <edge id="22776" source="ANDREAS" target="SHEPARD" weight="4" />
+      <edge id="22777" source="ANDREAS" target="MESSAGE VOICE" weight="1" />
+      <edge id="22778" source="ANDREAS" target="COMPUTER VOICE" weight="1" />
+      <edge id="22779" source="ANDREAS" target="CELL PHONE" weight="1" />
+      <edge id="22780" source="ANDREAS" target="TERRY WILSON" weight="2" />
+      <edge id="22781" source="ANDREAS" target="ADM SUIT" weight="1" />
+      <edge id="22782" source="ANDREAS" target="IKEDA" weight="2" />
+      <edge id="22783" source="ANDREAS" target="YAMADA" weight="1" />
+      <edge id="22784" source="ANDREAS" target="ROBIN MANN" weight="1" />
+      <edge id="22785" source="ANDREAS" target="HERNDON" weight="1" />
+      <edge id="22786" source="ANDREAS" target="JOHN DOWD" weight="1" />
+      <edge id="22787" source="ANDREAS" target="AUBREY DANIEL" weight="1" />
+      <edge id="22788" source="WILSON" target="ANDREAS" weight="3" />
+      <edge id="22789" source="WILSON" target="WHITACRE" weight="4" />
+      <edge id="22790" source="WILSON" target="MESSAGE VOICE" weight="1" />
+      <edge id="22791" source="WILSON" target="COMPUTER VOICE" weight="1" />
+      <edge id="22792" source="WILSON" target="CELL PHONE" weight="1" />
+      <edge id="22793" source="WILSON" target="TERRY WILSON" weight="3" />
+      <edge id="22794" source="WILSON" target="SHEPARD" weight="2" />
+      <edge id="22795" source="WILSON" target="ROLLIER" weight="1" />
+      <edge id="22796" source="WILSON" target="CROUY" weight="1" />
+      <edge id="22797" source="GINGER" target="WHITACRE" weight="19" />
+      <edge id="22798" source="GINGER" target="ALEXANDER" weight="3" />
+      <edge id="22799" source="GINGER" target="SHEPARD" weight="8" />
+      <edge id="22800" source="GINGER" target="CHEVIRON" weight="1" />
+      <edge id="22801" source="GINGER" target="SID HULSE" weight="1" />
+      <edge id="22802" source="GINGER" target="SHEPARD WHITACRE" weight="1" />
+      <edge id="22803" source="GINGER" target="PAISLEY" weight="1" />
+      <edge id="22804" source="GINGER" target="EPSTEIN" weight="1" />
+      <edge id="22805" source="GINGER" target="KILMAN" weight="1" />
+      <edge id="22806" source="GINGER" target="HERNDON" weight="3" />
+      <edge id="22807" source="GINGER" target="RUSTY" weight="1" />
+      <edge id="22808" source="GINGER" target="MILLER" weight="1" />
+      <edge id="22809" source="GINGER" target="LAWYER" weight="1" />
+      <edge id="22810" source="GINGER" target="NEVER SEEN BEFORE" weight="1" />
+      <edge id="22811" source="GINGER" target="WHITACRE'S MOM" weight="1" />
+      <edge id="22812" source="GINGER" target="LOCAL NEWS ANCHOR" weight="1" />
+      <edge id="22813" source="FUJIWARA" target="WHITACRE" weight="1" />
+      <edge id="22814" source="FUJIWARA" target="LIZ TAYLOR" weight="1" />
+      <edge id="22815" source="CHEVIRON" target="WHITACRE" weight="8" />
+      <edge id="22816" source="CHEVIRON" target="ANDREAS" weight="3" />
+      <edge id="22817" source="CHEVIRON" target="SHEPARD" weight="3" />
+      <edge id="22818" source="CHEVIRON" target="GINGER" weight="1" />
+      <edge id="22819" source="CHEVIRON" target="LIZ TAYLOR" weight="3" />
+      <edge id="22820" source="CHEVIRON" target="AUBREY DANIEL" weight="1" />
+      <edge id="22821" source="SHEPARD" target="WHITACRE" weight="36" />
+      <edge id="22822" source="SHEPARD" target="CHEVIRON" weight="3" />
+      <edge id="22823" source="SHEPARD" target="GINGER" weight="8" />
+      <edge id="22824" source="SHEPARD" target="SHEPARD WHITACRE" weight="1" />
+      <edge id="22825" source="SHEPARD" target="ALEXANDER" weight="1" />
+      <edge id="22826" source="SHEPARD" target="PAISLEY" weight="4" />
+      <edge id="22827" source="SHEPARD" target="MEDFORD" weight="2" />
+      <edge id="22828" source="SHEPARD" target="ANDREAS" weight="4" />
+      <edge id="22829" source="SHEPARD" target="LIZ TAYLOR" weight="1" />
+      <edge id="22830" source="SHEPARD" target="WHITACRE WHITACRE" weight="2" />
+      <edge id="22831" source="SHEPARD" target="AGENT PAISLEY" weight="1" />
+      <edge id="22832" source="SHEPARD" target="WILSON" weight="2" />
+      <edge id="22833" source="SHEPARD" target="MESSAGE VOICE" weight="1" />
+      <edge id="22834" source="SHEPARD" target="COMPUTER VOICE" weight="2" />
+      <edge id="22835" source="SHEPARD" target="CELL PHONE" weight="1" />
+      <edge id="22836" source="SHEPARD" target="TERRY WILSON" weight="5" />
+      <edge id="22837" source="SHEPARD" target="HERNDON" weight="22" />
+      <edge id="22838" source="SHEPARD" target="MARTY ALLISON" weight="1" />
+      <edge id="22839" source="SHEPARD" target="RICHTER" weight="1" />
+      <edge id="22840" source="SHEPARD" target="YAMADA" weight="1" />
+      <edge id="22841" source="SHEPARD" target="IKEDA" weight="1" />
+      <edge id="22842" source="SHEPARD" target="ROBIN MANN" weight="3" />
+      <edge id="22843" source="SHEPARD" target="BRIEL" weight="1" />
+      <edge id="22844" source="SHEPARD" target="MUTCHNIK" weight="3" />
+      <edge id="22845" source="SHEPARD" target="VISITING CLIENT" weight="1" />
+      <edge id="22846" source="SHEPARD" target="STUNNED WAITRESS" weight="1" />
+      <edge id="22847" source="SHEPARD" target="PHONE AGENT" weight="1" />
+      <edge id="22848" source="SHEPARD" target="AGENT TEMPLES" weight="1" />
+      <edge id="22849" source="SID HULSE" target="WHITACRE" weight="1" />
+      <edge id="22850" source="SID HULSE" target="GINGER" weight="1" />
+      <edge id="22851" source="SHEPARD WHITACRE" target="GINGER" weight="1" />
+      <edge id="22852" source="SHEPARD WHITACRE" target="WHITACRE" weight="1" />
+      <edge id="22853" source="SHEPARD WHITACRE" target="SHEPARD" weight="1" />
+      <edge id="22854" source="PAISLEY" target="SHEPARD" weight="4" />
+      <edge id="22855" source="PAISLEY" target="WHITACRE" weight="4" />
+      <edge id="22856" source="PAISLEY" target="ALEXANDER" weight="1" />
+      <edge id="22857" source="PAISLEY" target="GINGER" weight="1" />
+      <edge id="22858" source="PAISLEY" target="WHITACRE WHITACRE" weight="1" />
+      <edge id="22859" source="PAISLEY" target="AGENT PAISLEY" weight="1" />
+      <edge id="22860" source="PAISLEY" target="MEDFORD" weight="1" />
+      <edge id="22861" source="PAISLEY" target="HERNDON" weight="1" />
+      <edge id="22862" source="MEDFORD" target="SHEPARD" weight="2" />
+      <edge id="22863" source="MEDFORD" target="WHITACRE" weight="1" />
+      <edge id="22864" source="MEDFORD" target="PAISLEY" weight="1" />
+      <edge id="22865" source="MEDFORD" target="HERNDON" weight="1" />
+      <edge id="22866" source="WHITACRE WHITACRE" target="PAISLEY" weight="1" />
+      <edge id="22867" source="WHITACRE WHITACRE" target="SHEPARD" weight="2" />
+      <edge id="22868" source="WHITACRE WHITACRE" target="WHITACRE" weight="2" />
+      <edge id="22869" source="WHITACRE WHITACRE" target="AGENT PAISLEY" weight="1" />
+      <edge id="22870" source="WHITACRE WHITACRE" target="HERNDON" weight="1" />
+      <edge id="22871" source="AGENT PAISLEY" target="PAISLEY" weight="1" />
+      <edge id="22872" source="AGENT PAISLEY" target="SHEPARD" weight="1" />
+      <edge id="22873" source="AGENT PAISLEY" target="WHITACRE" weight="1" />
+      <edge id="22874" source="AGENT PAISLEY" target="WHITACRE WHITACRE" weight="1" />
+      <edge id="22875" source="MESSAGE VOICE" target="WHITACRE" weight="1" />
+      <edge id="22876" source="MESSAGE VOICE" target="ANDREAS" weight="1" />
+      <edge id="22877" source="MESSAGE VOICE" target="WILSON" weight="1" />
+      <edge id="22878" source="MESSAGE VOICE" target="COMPUTER VOICE" weight="1" />
+      <edge id="22879" source="MESSAGE VOICE" target="CELL PHONE" weight="1" />
+      <edge id="22880" source="MESSAGE VOICE" target="TERRY WILSON" weight="1" />
+      <edge id="22881" source="MESSAGE VOICE" target="SHEPARD" weight="1" />
+      <edge id="22882" source="COMPUTER VOICE" target="WHITACRE" weight="2" />
+      <edge id="22883" source="COMPUTER VOICE" target="ANDREAS" weight="1" />
+      <edge id="22884" source="COMPUTER VOICE" target="WILSON" weight="1" />
+      <edge id="22885" source="COMPUTER VOICE" target="MESSAGE VOICE" weight="1" />
+      <edge id="22886" source="COMPUTER VOICE" target="CELL PHONE" weight="1" />
+      <edge id="22887" source="COMPUTER VOICE" target="TERRY WILSON" weight="1" />
+      <edge id="22888" source="COMPUTER VOICE" target="SHEPARD" weight="2" />
+      <edge id="22889" source="COMPUTER VOICE" target="MARTY ALLISON" weight="1" />
+      <edge id="22890" source="COMPUTER VOICE" target="RICHTER" weight="1" />
+      <edge id="22891" source="CELL PHONE" target="WHITACRE" weight="1" />
+      <edge id="22892" source="CELL PHONE" target="ANDREAS" weight="1" />
+      <edge id="22893" source="CELL PHONE" target="WILSON" weight="1" />
+      <edge id="22894" source="CELL PHONE" target="MESSAGE VOICE" weight="1" />
+      <edge id="22895" source="CELL PHONE" target="COMPUTER VOICE" weight="1" />
+      <edge id="22896" source="CELL PHONE" target="TERRY WILSON" weight="1" />
+      <edge id="22897" source="CELL PHONE" target="SHEPARD" weight="1" />
+      <edge id="22898" source="TERRY WILSON" target="WHITACRE" weight="10" />
+      <edge id="22899" source="TERRY WILSON" target="ANDREAS" weight="2" />
+      <edge id="22900" source="TERRY WILSON" target="WILSON" weight="3" />
+      <edge id="22901" source="TERRY WILSON" target="MESSAGE VOICE" weight="1" />
+      <edge id="22902" source="TERRY WILSON" target="COMPUTER VOICE" weight="1" />
+      <edge id="22903" source="TERRY WILSON" target="CELL PHONE" weight="1" />
+      <edge id="22904" source="TERRY WILSON" target="SHEPARD" weight="5" />
+      <edge id="22905" source="TERRY WILSON" target="ROLLIER" weight="1" />
+      <edge id="22906" source="TERRY WILSON" target="CROUY" weight="1" />
+      <edge id="22907" source="TERRY WILSON" target="HERNDON" weight="4" />
+      <edge id="22908" source="TERRY WILSON" target="MIMOTO" weight="3" />
+      <edge id="22909" source="TERRY WILSON" target="VISOR" weight="1" />
+      <edge id="22910" source="TERRY WILSON" target="IKEDA" weight="1" />
+      <edge id="22911" source="TERRY WILSON" target="SUH" weight="1" />
+      <edge id="22912" source="TERRY WILSON" target="MR. CHAUDRET" weight="1" />
+      <edge id="22913" source="TERRY WILSON" target="VISITING CLIENT" weight="1" />
+      <edge id="22914" source="TERRY WILSON" target="STUNNED WAITRESS" weight="1" />
+      <edge id="22915" source="HERNDON" target="SHEPARD" weight="22" />
+      <edge id="22916" source="HERNDON" target="WHITACRE" weight="19" />
+      <edge id="22917" source="HERNDON" target="WHITACRE WHITACRE" weight="1" />
+      <edge id="22918" source="HERNDON" target="TERRY WILSON" weight="4" />
+      <edge id="22919" source="HERNDON" target="YAMADA" weight="1" />
+      <edge id="22920" source="HERNDON" target="ANDREAS" weight="1" />
+      <edge id="22921" source="HERNDON" target="IKEDA" weight="1" />
+      <edge id="22922" source="HERNDON" target="ROBIN MANN" weight="3" />
+      <edge id="22923" source="HERNDON" target="BRIEL" weight="1" />
+      <edge id="22924" source="HERNDON" target="MIMOTO" weight="1" />
+      <edge id="22925" source="HERNDON" target="SUH" weight="1" />
+      <edge id="22926" source="HERNDON" target="MR. CHAUDRET" weight="1" />
+      <edge id="22927" source="HERNDON" target="MUTCHNIK" weight="3" />
+      <edge id="22928" source="HERNDON" target="VISITING CLIENT" weight="1" />
+      <edge id="22929" source="HERNDON" target="STUNNED WAITRESS" weight="1" />
+      <edge id="22930" source="HERNDON" target="PHONE AGENT" weight="1" />
+      <edge id="22931" source="HERNDON" target="AGENT TEMPLES" weight="1" />
+      <edge id="22932" source="HERNDON" target="GINGER" weight="3" />
+      <edge id="22933" source="HERNDON" target="MEDFORD" weight="1" />
+      <edge id="22934" source="HERNDON" target="PAISLEY" weight="1" />
+      <edge id="22935" source="HERNDON" target="CORRECTIONAL OFFICER" weight="1" />
+      <edge id="22936" source="MARTY ALLISON" target="COMPUTER VOICE" weight="1" />
+      <edge id="22937" source="MARTY ALLISON" target="SHEPARD" weight="1" />
+      <edge id="22938" source="MARTY ALLISON" target="WHITACRE" weight="2" />
+      <edge id="22939" source="MARTY ALLISON" target="RICHTER" weight="1" />
+      <edge id="22940" source="MARTY ALLISON" target="AGENT BASSET" weight="1" />
+      <edge id="22941" source="RICHTER" target="MARTY ALLISON" weight="1" />
+      <edge id="22942" source="RICHTER" target="COMPUTER VOICE" weight="1" />
+      <edge id="22943" source="RICHTER" target="SHEPARD" weight="1" />
+      <edge id="22944" source="RICHTER" target="WHITACRE" weight="1" />
+      <edge id="22945" source="RICHTER" target="AGENT BASSET" weight="1" />
+      <edge id="22946" source="ROLLIER" target="WILSON" weight="1" />
+      <edge id="22947" source="ROLLIER" target="WHITACRE" weight="1" />
+      <edge id="22948" source="ROLLIER" target="CROUY" weight="1" />
+      <edge id="22949" source="ROLLIER" target="TERRY WILSON" weight="1" />
+      <edge id="22950" source="CROUY" target="WILSON" weight="1" />
+      <edge id="22951" source="CROUY" target="WHITACRE" weight="1" />
+      <edge id="22952" source="CROUY" target="ROLLIER" weight="1" />
+      <edge id="22953" source="CROUY" target="TERRY WILSON" weight="1" />
+      <edge id="22954" source="RUSTY THE GARDENER" target="WHITACRE" weight="1" />
+      <edge id="22955" source="AFRICAN AMERICAN MAN" target="WHITACRE" weight="2" />
+      <edge id="22956" source="ADM SUIT" target="WHITACRE" weight="1" />
+      <edge id="22957" source="ADM SUIT" target="ANDREAS" weight="1" />
+      <edge id="22958" source="YAMADA" target="WHITACRE" weight="2" />
+      <edge id="22959" source="YAMADA" target="ANDREAS" weight="1" />
+      <edge id="22960" source="YAMADA" target="IKEDA" weight="1" />
+      <edge id="22961" source="YAMADA" target="ROBIN MANN" weight="1" />
+      <edge id="22962" source="YAMADA" target="HERNDON" weight="1" />
+      <edge id="22963" source="YAMADA" target="SHEPARD" weight="1" />
+      <edge id="22964" source="IKEDA" target="ANDREAS" weight="2" />
+      <edge id="22965" source="IKEDA" target="WHITACRE" weight="4" />
+      <edge id="22966" source="IKEDA" target="YAMADA" weight="1" />
+      <edge id="22967" source="IKEDA" target="ROBIN MANN" weight="1" />
+      <edge id="22968" source="IKEDA" target="HERNDON" weight="1" />
+      <edge id="22969" source="IKEDA" target="SHEPARD" weight="1" />
+      <edge id="22970" source="IKEDA" target="WILSON WHITACRE" weight="1" />
+      <edge id="22971" source="IKEDA" target="TERRY WILSON" weight="1" />
+      <edge id="22972" source="IKEDA" target="MIMOTO" weight="1" />
+      <edge id="22973" source="IKEDA" target="VISOR" weight="1" />
+      <edge id="22974" source="ROBIN MANN" target="YAMADA" weight="1" />
+      <edge id="22975" source="ROBIN MANN" target="ANDREAS" weight="1" />
+      <edge id="22976" source="ROBIN MANN" target="IKEDA" weight="1" />
+      <edge id="22977" source="ROBIN MANN" target="WHITACRE" weight="3" />
+      <edge id="22978" source="ROBIN MANN" target="HERNDON" weight="3" />
+      <edge id="22979" source="ROBIN MANN" target="SHEPARD" weight="3" />
+      <edge id="22980" source="ROBIN MANN" target="MUTCHNIK" weight="2" />
+      <edge id="22981" source="ROBIN MANN" target="EPSTEIN" weight="1" />
+      <edge id="22982" source="ROBIN MANN" target="HERBST" weight="1" />
+      <edge id="22983" source="ROBIN MANN" target="MARY SPEARING" weight="1" />
+      <edge id="22984" source="WILSON WHITACRE" target="IKEDA" weight="1" />
+      <edge id="22985" source="WILSON WHITACRE" target="WHITACRE" weight="1" />
+      <edge id="22986" source="LYSINE EXEC" target="WHITACRE" weight="1" />
+      <edge id="22987" source="MCDEERE" target="TARRANCE" weight="1" />
+      <edge id="22988" source="MCDEERE" target="MC DEERE" weight="1" />
+      <edge id="22989" source="MCDEERE" target="WHITACRE" weight="1" />
+      <edge id="22990" source="TARRANCE" target="MCDEERE" weight="1" />
+      <edge id="22991" source="TARRANCE" target="MC DEERE" weight="1" />
+      <edge id="22992" source="TARRANCE" target="WHITACRE" weight="1" />
+      <edge id="22993" source="MC DEERE" target="MCDEERE" weight="1" />
+      <edge id="22994" source="MC DEERE" target="TARRANCE" weight="1" />
+      <edge id="22995" source="MC DEERE" target="WHITACRE" weight="1" />
+      <edge id="22996" source="SCHMIDT" target="WHITACRE" weight="1" />
+      <edge id="22997" source="BRIEL" target="WHITACRE" weight="1" />
+      <edge id="22998" source="BRIEL" target="SHEPARD" weight="1" />
+      <edge id="22999" source="BRIEL" target="HERNDON" weight="1" />
+      <edge id="23000" source="MIMOTO" target="TERRY WILSON" weight="3" />
+      <edge id="23001" source="MIMOTO" target="VISOR" weight="1" />
+      <edge id="23002" source="MIMOTO" target="IKEDA" weight="1" />
+      <edge id="23003" source="MIMOTO" target="WHITACRE" weight="3" />
+      <edge id="23004" source="MIMOTO" target="SUH" weight="1" />
+      <edge id="23005" source="MIMOTO" target="MR. CHAUDRET" weight="1" />
+      <edge id="23006" source="MIMOTO" target="HERNDON" weight="1" />
+      <edge id="23007" source="VISOR" target="TERRY WILSON" weight="1" />
+      <edge id="23008" source="VISOR" target="MIMOTO" weight="1" />
+      <edge id="23009" source="VISOR" target="IKEDA" weight="1" />
+      <edge id="23010" source="VISOR" target="WHITACRE" weight="1" />
+      <edge id="23011" source="SUH" target="TERRY WILSON" weight="1" />
+      <edge id="23012" source="SUH" target="WHITACRE" weight="1" />
+      <edge id="23013" source="SUH" target="MIMOTO" weight="1" />
+      <edge id="23014" source="SUH" target="MR. CHAUDRET" weight="1" />
+      <edge id="23015" source="SUH" target="HERNDON" weight="1" />
+      <edge id="23016" source="MR. CHAUDRET" target="TERRY WILSON" weight="1" />
+      <edge id="23017" source="MR. CHAUDRET" target="WHITACRE" weight="1" />
+      <edge id="23018" source="MR. CHAUDRET" target="MIMOTO" weight="1" />
+      <edge id="23019" source="MR. CHAUDRET" target="SUH" weight="1" />
+      <edge id="23020" source="MR. CHAUDRET" target="HERNDON" weight="1" />
+      <edge id="23021" source="MUTCHNIK" target="SHEPARD" weight="3" />
+      <edge id="23022" source="MUTCHNIK" target="ROBIN MANN" weight="2" />
+      <edge id="23023" source="MUTCHNIK" target="HERNDON" weight="3" />
+      <edge id="23024" source="MUTCHNIK" target="WHITACRE" weight="2" />
+      <edge id="23025" source="MUTCHNIK" target="PHONE AGENT" weight="1" />
+      <edge id="23026" source="MUTCHNIK" target="AGENT TEMPLES" weight="1" />
+      <edge id="23027" source="VISITING CLIENT" target="TERRY WILSON" weight="1" />
+      <edge id="23028" source="VISITING CLIENT" target="WHITACRE" weight="1" />
+      <edge id="23029" source="VISITING CLIENT" target="HERNDON" weight="1" />
+      <edge id="23030" source="VISITING CLIENT" target="SHEPARD" weight="1" />
+      <edge id="23031" source="VISITING CLIENT" target="STUNNED WAITRESS" weight="1" />
+      <edge id="23032" source="STUNNED WAITRESS" target="TERRY WILSON" weight="1" />
+      <edge id="23033" source="STUNNED WAITRESS" target="WHITACRE" weight="1" />
+      <edge id="23034" source="STUNNED WAITRESS" target="VISITING CLIENT" weight="1" />
+      <edge id="23035" source="STUNNED WAITRESS" target="HERNDON" weight="1" />
+      <edge id="23036" source="STUNNED WAITRESS" target="SHEPARD" weight="1" />
+      <edge id="23037" source="PHONE AGENT" target="WHITACRE" weight="1" />
+      <edge id="23038" source="PHONE AGENT" target="SHEPARD" weight="1" />
+      <edge id="23039" source="PHONE AGENT" target="HERNDON" weight="1" />
+      <edge id="23040" source="PHONE AGENT" target="AGENT TEMPLES" weight="1" />
+      <edge id="23041" source="PHONE AGENT" target="MUTCHNIK" weight="1" />
+      <edge id="23042" source="AGENT TEMPLES" target="WHITACRE" weight="1" />
+      <edge id="23043" source="AGENT TEMPLES" target="SHEPARD" weight="1" />
+      <edge id="23044" source="AGENT TEMPLES" target="HERNDON" weight="1" />
+      <edge id="23045" source="AGENT TEMPLES" target="PHONE AGENT" weight="1" />
+      <edge id="23046" source="AGENT TEMPLES" target="MUTCHNIK" weight="1" />
+      <edge id="23047" source="DWAYNE ANDREAS" target="WHITACRE" weight="1" />
+      <edge id="23048" source="DWAYNE ANDREAS" target="AUBREY DANIEL" weight="1" />
+      <edge id="23049" source="DWAYNE ANDREAS" target="MICK ANDREAS" weight="1" />
+      <edge id="23050" source="DWAYNE ANDREAS" target="JOHN DOWD" weight="1" />
+      <edge id="23051" source="AUBREY DANIEL" target="WHITACRE" weight="5" />
+      <edge id="23052" source="AUBREY DANIEL" target="DWAYNE ANDREAS" weight="1" />
+      <edge id="23053" source="AUBREY DANIEL" target="MICK ANDREAS" weight="1" />
+      <edge id="23054" source="AUBREY DANIEL" target="JOHN DOWD" weight="2" />
+      <edge id="23055" source="AUBREY DANIEL" target="ANDREAS" weight="1" />
+      <edge id="23056" source="AUBREY DANIEL" target="CHEVIRON" weight="1" />
+      <edge id="23057" source="MICK ANDREAS" target="WHITACRE" weight="1" />
+      <edge id="23058" source="MICK ANDREAS" target="DWAYNE ANDREAS" weight="1" />
+      <edge id="23059" source="MICK ANDREAS" target="AUBREY DANIEL" weight="1" />
+      <edge id="23060" source="MICK ANDREAS" target="JOHN DOWD" weight="1" />
+      <edge id="23061" source="JOHN DOWD" target="WHITACRE" weight="2" />
+      <edge id="23062" source="JOHN DOWD" target="DWAYNE ANDREAS" weight="1" />
+      <edge id="23063" source="JOHN DOWD" target="AUBREY DANIEL" weight="2" />
+      <edge id="23064" source="JOHN DOWD" target="MICK ANDREAS" weight="1" />
+      <edge id="23065" source="JOHN DOWD" target="ANDREAS" weight="1" />
+      <edge id="23066" source="EPSTEIN" target="WHITACRE" weight="8" />
+      <edge id="23067" source="EPSTEIN" target="GINGER" weight="1" />
+      <edge id="23068" source="EPSTEIN" target="KILMAN" weight="1" />
+      <edge id="23069" source="EPSTEIN" target="ZAIDEMAN" weight="1" />
+      <edge id="23070" source="EPSTEIN" target="ROBIN MANN" weight="1" />
+      <edge id="23071" source="EPSTEIN" target="HERBST" weight="1" />
+      <edge id="23072" source="EPSTEIN" target="MARY SPEARING" weight="1" />
+      <edge id="23073" source="EPSTEIN" target="D' ANGELO" weight="1" />
+      <edge id="23074" source="KILMAN" target="EPSTEIN" weight="1" />
+      <edge id="23075" source="KILMAN" target="WHITACRE" weight="2" />
+      <edge id="23076" source="KILMAN" target="GINGER" weight="1" />
+      <edge id="23077" source="COMPETING VOICE" target="WHITACRE" weight="1" />
+      <edge id="23078" source="TV ANNCR" target="WHITACRE" weight="1" />
+      <edge id="23079" source="TV ANNCR" target="ALEXANDER" weight="1" />
+      <edge id="23080" source="REPORTER" target="REPORTER 2" weight="1" />
+      <edge id="23081" source="REPORTER" target="REPORTER 3" weight="1" />
+      <edge id="23082" source="REPORTER" target="WHITACRE" weight="1" />
+      <edge id="23083" source="REPORTER 2" target="REPORTER" weight="1" />
+      <edge id="23084" source="REPORTER 2" target="REPORTER 3" weight="1" />
+      <edge id="23085" source="REPORTER 2" target="WHITACRE" weight="1" />
+      <edge id="23086" source="REPORTER 3" target="REPORTER" weight="1" />
+      <edge id="23087" source="REPORTER 3" target="REPORTER 2" weight="1" />
+      <edge id="23088" source="REPORTER 3" target="WHITACRE" weight="1" />
+      <edge id="23089" source="HENKOFF" target="WHITACRE" weight="1" />
+      <edge id="23090" source="ZAIDEMAN" target="WHITACRE" weight="1" />
+      <edge id="23091" source="ZAIDEMAN" target="EPSTEIN" weight="1" />
+      <edge id="23092" source="HERBST" target="ROBIN MANN" weight="1" />
+      <edge id="23093" source="HERBST" target="EPSTEIN" weight="1" />
+      <edge id="23094" source="HERBST" target="WHITACRE" weight="1" />
+      <edge id="23095" source="HERBST" target="MARY SPEARING" weight="1" />
+      <edge id="23096" source="MARY SPEARING" target="ROBIN MANN" weight="1" />
+      <edge id="23097" source="MARY SPEARING" target="EPSTEIN" weight="1" />
+      <edge id="23098" source="MARY SPEARING" target="HERBST" weight="1" />
+      <edge id="23099" source="MARY SPEARING" target="WHITACRE" weight="1" />
+      <edge id="23100" source="MARY SPEARING" target="WALKER" weight="1" />
+      <edge id="23101" source="D' ANGELO" target="EPSTEIN" weight="1" />
+      <edge id="23102" source="D' ANGELO" target="WHITACRE" weight="2" />
+      <edge id="23103" source="RUSTY" target="WHITACRE" weight="1" />
+      <edge id="23104" source="RUSTY" target="GINGER" weight="1" />
+      <edge id="23105" source="RUSTY" target="ALEXANDER" weight="1" />
+      <edge id="23106" source="MILLER" target="WHITACRE" weight="2" />
+      <edge id="23107" source="MILLER" target="GINGER" weight="1" />
+      <edge id="23108" source="MILLER" target="LAWYER" weight="1" />
+      <edge id="23109" source="MILLER" target="NEVER SEEN BEFORE" weight="1" />
+      <edge id="23110" source="MILLER" target="WHITACRE'S MOM" weight="1" />
+      <edge id="23111" source="LAWYER" target="GINGER" weight="1" />
+      <edge id="23112" source="LAWYER" target="MILLER" weight="1" />
+      <edge id="23113" source="LAWYER" target="WHITACRE" weight="1" />
+      <edge id="23114" source="LAWYER" target="NEVER SEEN BEFORE" weight="1" />
+      <edge id="23115" source="LAWYER" target="WHITACRE'S MOM" weight="1" />
+      <edge id="23116" source="NEVER SEEN BEFORE" target="GINGER" weight="1" />
+      <edge id="23117" source="NEVER SEEN BEFORE" target="MILLER" weight="1" />
+      <edge id="23118" source="NEVER SEEN BEFORE" target="WHITACRE" weight="1" />
+      <edge id="23119" source="NEVER SEEN BEFORE" target="LAWYER" weight="1" />
+      <edge id="23120" source="NEVER SEEN BEFORE" target="WHITACRE'S MOM" weight="1" />
+      <edge id="23121" source="WHITACRE'S MOM" target="GINGER" weight="1" />
+      <edge id="23122" source="WHITACRE'S MOM" target="MILLER" weight="1" />
+      <edge id="23123" source="WHITACRE'S MOM" target="WHITACRE" weight="1" />
+      <edge id="23124" source="WHITACRE'S MOM" target="LAWYER" weight="1" />
+      <edge id="23125" source="WHITACRE'S MOM" target="NEVER SEEN BEFORE" weight="1" />
+      <edge id="23126" source="ZENNER" target="AGENT GRANT" weight="1" />
+      <edge id="23127" source="ZENNER" target="HULSE" weight="1" />
+      <edge id="23128" source="AGENT GRANT" target="ZENNER" weight="1" />
+      <edge id="23129" source="AGENT GRANT" target="HULSE" weight="1" />
+      <edge id="23130" source="HULSE" target="ZENNER" weight="1" />
+      <edge id="23131" source="HULSE" target="AGENT GRANT" weight="1" />
+      <edge id="23132" source="AGENT BASSET" target="RICHTER" weight="1" />
+      <edge id="23133" source="AGENT BASSET" target="MARTY ALLISON" weight="1" />
+      <edge id="23134" source="ALLISON" target="WHITACRE" weight="1" />
+      <edge id="23135" source="LOCAL NEWS ANCHOR" target="WHITACRE" weight="1" />
+      <edge id="23136" source="LOCAL NEWS ANCHOR" target="GINGER" weight="1" />
+      <edge id="23137" source="WALKER" target="MARY SPEARING" weight="1" />
+      <edge id="23138" source="WALKER" target="WHITACRE" weight="1" />
+      <edge id="23139" source="CLERK" target="JUDGE BAKER" weight="1" />
+      <edge id="23140" source="CLERK" target="WHITACRE" weight="1" />
+      <edge id="23141" source="JUDGE BAKER" target="CLERK" weight="1" />
+      <edge id="23142" source="JUDGE BAKER" target="WHITACRE" weight="1" />
+      <edge id="23143" source="CORRECTIONAL OFFICER" target="WHITACRE" weight="1" />
+      <edge id="23144" source="CORRECTIONAL OFFICER" target="HERNDON" weight="1" />
+    </edges>
+  </graph>
+</gexf>

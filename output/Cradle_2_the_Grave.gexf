@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="DOUGLAS" label="DOUGLAS" />
+      <node id="ARMORED TRUCK GUARD" label="ARMORED TRUCK GUARD" />
+      <node id="FAIT" label="FAIT" />
+      <node id="CHRISTOPHE" label="CHRISTOPHE" />
+      <node id="SU" label="SU" />
+      <node id="DARIA" label="DARIA" />
+      <node id="TOMMY" label="TOMMY" />
+      <node id="MILES" label="MILES" />
+      <node id="SWAT COP" label="SWAT COP" />
+      <node id="SWAT COP #2" label="SWAT COP #2" />
+      <node id="SWAT COP #3" label="SWAT COP #3" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="SWAT COP #4" label="SWAT COP #4" />
+      <node id="RADIO" label="RADIO" />
+      <node id="LING" label="LING" />
+      <node id="CHARLES" label="CHARLES" />
+      <node id="SONA" label="SONA" />
+      <node id="COP" label="COP" />
+      <node id="VANESSA" label="VANESSA" />
+      <node id="TONITA" label="TONITA" />
+      <node id="VOICE" label="VOICE" />
+      <node id="ARCHIE" label="ARCHIE" />
+      <node id="MAN UNLOADING HOT TVS" label="MAN UNLOADING HOT TVS" />
+      <node id="LING THUG #1" label="LING THUG #1" />
+      <node id="LING THUG #2" label="LING THUG #2" />
+      <node id="CHAMBERS" label="CHAMBERS" />
+      <node id="METZ" label="METZ" />
+      <node id="CHICKENS" label="CHICKENS" />
+      <node id="RUSSELL" label="RUSSELL" />
+      <node id="ODION" label="ODION" />
+      <node id="GUARD" label="GUARD" />
+      <node id="DOORMAN" label="DOORMAN" />
+      <node id="CHAMBERS MAN" label="CHAMBERS MAN" />
+      <node id="RING ANNOUNCER" label="RING ANNOUNCER" />
+      <node id="FIGHT CLUB FAN" label="FIGHT CLUB FAN" />
+      <node id="BRUISER" label="BRUISER" />
+      <node id="COP #1" label="COP #1" />
+      <node id="COP #2" label="COP #2" />
+      <node id="PARAMEDIC" label="PARAMEDIC" />
+      <node id="MOTO-RIDER #1" label="MOTO-RIDER #1" />
+      <node id="MOTO-RIDER #2" label="MOTO-RIDER #2" />
+      <node id="TV ANCHOR" label="TV ANCHOR" />
+      <node id="RUSSIAN BUYER" label="RUSSIAN BUYER" />
+      <node id="AFRICAN BUYER" label="AFRICAN BUYER" />
+      <node id="PAKISTANI BUYER" label="PAKISTANI BUYER" />
+      <node id="FRENCH BUYER" label="FRENCH BUYER" />
+      <node id="EGYPTIAN BUYER" label="EGYPTIAN BUYER" />
+    </nodes>
+    <edges>
+      <edge id="4691" source="DOUGLAS" target="ARMORED TRUCK GUARD" weight="1" />
+      <edge id="4692" source="DOUGLAS" target="DARIA" weight="2" />
+      <edge id="4693" source="DOUGLAS" target="TOMMY" weight="2" />
+      <edge id="4694" source="DOUGLAS" target="FAIT" weight="1" />
+      <edge id="4695" source="ARMORED TRUCK GUARD" target="DOUGLAS" weight="1" />
+      <edge id="4696" source="FAIT" target="CHRISTOPHE" weight="2" />
+      <edge id="4697" source="FAIT" target="TOMMY" weight="5" />
+      <edge id="4698" source="FAIT" target="DARIA" weight="9" />
+      <edge id="4699" source="FAIT" target="DOUGLAS" weight="1" />
+      <edge id="4700" source="FAIT" target="MILES" weight="12" />
+      <edge id="4701" source="FAIT" target="SU" weight="13" />
+      <edge id="4702" source="FAIT" target="DRIVER" weight="1" />
+      <edge id="4703" source="FAIT" target="SWAT COP #4" weight="1" />
+      <edge id="4704" source="FAIT" target="RADIO" weight="1" />
+      <edge id="4705" source="FAIT" target="VANESSA" weight="5" />
+      <edge id="4706" source="FAIT" target="TONITA" weight="1" />
+      <edge id="4707" source="FAIT" target="VOICE" weight="1" />
+      <edge id="4708" source="FAIT" target="ARCHIE" weight="5" />
+      <edge id="4709" source="FAIT" target="MAN UNLOADING HOT TVS" weight="1" />
+      <edge id="4710" source="FAIT" target="LING" weight="5" />
+      <edge id="4711" source="FAIT" target="LING THUG #1" weight="1" />
+      <edge id="4712" source="FAIT" target="LING THUG #2" weight="1" />
+      <edge id="4713" source="FAIT" target="CHARLES" weight="2" />
+      <edge id="4714" source="FAIT" target="CHAMBERS" weight="1" />
+      <edge id="4715" source="FAIT" target="METZ" weight="1" />
+      <edge id="4716" source="FAIT" target="CHICKENS" weight="1" />
+      <edge id="4717" source="FAIT" target="PARAMEDIC" weight="2" />
+      <edge id="4718" source="FAIT" target="COP #1" weight="1" />
+      <edge id="4719" source="FAIT" target="MOTO-RIDER #1" weight="1" />
+      <edge id="4720" source="FAIT" target="RUSSELL" weight="1" />
+      <edge id="4721" source="FAIT" target="SONA" weight="1" />
+      <edge id="4722" source="CHRISTOPHE" target="FAIT" weight="2" />
+      <edge id="4723" source="CHRISTOPHE" target="SU" weight="2" />
+      <edge id="4724" source="CHRISTOPHE" target="LING" weight="2" />
+      <edge id="4725" source="CHRISTOPHE" target="SONA" weight="1" />
+      <edge id="4726" source="SU" target="CHRISTOPHE" weight="2" />
+      <edge id="4727" source="SU" target="FAIT" weight="13" />
+      <edge id="4728" source="SU" target="MILES" weight="3" />
+      <edge id="4729" source="SU" target="COP" weight="1" />
+      <edge id="4730" source="SU" target="LING" weight="4" />
+      <edge id="4731" source="SU" target="LING THUG #1" weight="1" />
+      <edge id="4732" source="SU" target="LING THUG #2" weight="1" />
+      <edge id="4733" source="SU" target="ARCHIE" weight="10" />
+      <edge id="4734" source="SU" target="VANESSA" weight="2" />
+      <edge id="4735" source="SU" target="CHAMBERS" weight="1" />
+      <edge id="4736" source="SU" target="METZ" weight="1" />
+      <edge id="4737" source="SU" target="CHICKENS" weight="1" />
+      <edge id="4738" source="SU" target="GUARD" weight="1" />
+      <edge id="4739" source="SU" target="RING ANNOUNCER" weight="2" />
+      <edge id="4740" source="SU" target="FIGHT CLUB FAN" weight="1" />
+      <edge id="4741" source="SU" target="BRUISER" weight="1" />
+      <edge id="4742" source="SU" target="MOTO-RIDER #1" weight="1" />
+      <edge id="4743" source="SU" target="MOTO-RIDER #2" weight="1" />
+      <edge id="4744" source="SU" target="DARIA" weight="4" />
+      <edge id="4745" source="SU" target="TOMMY" weight="4" />
+      <edge id="4746" source="SU" target="RUSSELL" weight="1" />
+      <edge id="4747" source="DARIA" target="DOUGLAS" weight="2" />
+      <edge id="4748" source="DARIA" target="TOMMY" weight="6" />
+      <edge id="4749" source="DARIA" target="FAIT" weight="9" />
+      <edge id="4750" source="DARIA" target="MILES" weight="7" />
+      <edge id="4751" source="DARIA" target="ODION" weight="1" />
+      <edge id="4752" source="DARIA" target="CHAMBERS MAN" weight="1" />
+      <edge id="4753" source="DARIA" target="SU" weight="4" />
+      <edge id="4754" source="DARIA" target="RING ANNOUNCER" weight="1" />
+      <edge id="4755" source="DARIA" target="MOTO-RIDER #1" weight="1" />
+      <edge id="4756" source="DARIA" target="MOTO-RIDER #2" weight="1" />
+      <edge id="4757" source="DARIA" target="VANESSA" weight="1" />
+      <edge id="4758" source="DARIA" target="ARCHIE" weight="3" />
+      <edge id="4759" source="DARIA" target="RUSSELL" weight="1" />
+      <edge id="4760" source="DARIA" target="LING" weight="1" />
+      <edge id="4761" source="TOMMY" target="DARIA" weight="6" />
+      <edge id="4762" source="TOMMY" target="DOUGLAS" weight="2" />
+      <edge id="4763" source="TOMMY" target="FAIT" weight="5" />
+      <edge id="4764" source="TOMMY" target="MILES" weight="3" />
+      <edge id="4765" source="TOMMY" target="DOORMAN" weight="2" />
+      <edge id="4766" source="TOMMY" target="SU" weight="4" />
+      <edge id="4767" source="TOMMY" target="VANESSA" weight="1" />
+      <edge id="4768" source="TOMMY" target="ARCHIE" weight="5" />
+      <edge id="4769" source="TOMMY" target="PAKISTANI BUYER" weight="1" />
+      <edge id="4770" source="TOMMY" target="RUSSIAN BUYER" weight="1" />
+      <edge id="4771" source="TOMMY" target="FRENCH BUYER" weight="1" />
+      <edge id="4772" source="TOMMY" target="AFRICAN BUYER" weight="1" />
+      <edge id="4773" source="TOMMY" target="EGYPTIAN BUYER" weight="1" />
+      <edge id="4774" source="TOMMY" target="RUSSELL" weight="2" />
+      <edge id="4775" source="TOMMY" target="LING" weight="1" />
+      <edge id="4776" source="MILES" target="FAIT" weight="12" />
+      <edge id="4777" source="MILES" target="DARIA" weight="7" />
+      <edge id="4778" source="MILES" target="SU" weight="3" />
+      <edge id="4779" source="MILES" target="TOMMY" weight="3" />
+      <edge id="4780" source="MILES" target="VANESSA" weight="2" />
+      <edge id="4781" source="MILES" target="ARCHIE" weight="2" />
+      <edge id="4782" source="MILES" target="CHARLES" weight="1" />
+      <edge id="4783" source="MILES" target="LING" weight="1" />
+      <edge id="4784" source="DRIVER" target="SWAT COP #4" weight="1" />
+      <edge id="4785" source="DRIVER" target="FAIT" weight="1" />
+      <edge id="4786" source="DRIVER" target="RADIO" weight="1" />
+      <edge id="4787" source="SWAT COP #4" target="DRIVER" weight="1" />
+      <edge id="4788" source="SWAT COP #4" target="FAIT" weight="1" />
+      <edge id="4789" source="SWAT COP #4" target="RADIO" weight="1" />
+      <edge id="4790" source="RADIO" target="DRIVER" weight="1" />
+      <edge id="4791" source="RADIO" target="SWAT COP #4" weight="1" />
+      <edge id="4792" source="RADIO" target="FAIT" weight="1" />
+      <edge id="4793" source="LING" target="CHARLES" weight="2" />
+      <edge id="4794" source="LING" target="SONA" weight="6" />
+      <edge id="4795" source="LING" target="CHRISTOPHE" weight="2" />
+      <edge id="4796" source="LING" target="SU" weight="4" />
+      <edge id="4797" source="LING" target="FAIT" weight="5" />
+      <edge id="4798" source="LING" target="VANESSA" weight="2" />
+      <edge id="4799" source="LING" target="ARCHIE" weight="2" />
+      <edge id="4800" source="LING" target="CHAMBERS" weight="1" />
+      <edge id="4801" source="LING" target="RUSSELL" weight="3" />
+      <edge id="4802" source="LING" target="RUSSIAN BUYER" weight="1" />
+      <edge id="4803" source="LING" target="AFRICAN BUYER" weight="1" />
+      <edge id="4804" source="LING" target="PAKISTANI BUYER" weight="1" />
+      <edge id="4805" source="LING" target="FRENCH BUYER" weight="1" />
+      <edge id="4806" source="LING" target="EGYPTIAN BUYER" weight="1" />
+      <edge id="4807" source="LING" target="TOMMY" weight="1" />
+      <edge id="4808" source="LING" target="DARIA" weight="1" />
+      <edge id="4809" source="LING" target="MILES" weight="1" />
+      <edge id="4810" source="CHARLES" target="LING" weight="2" />
+      <edge id="4811" source="CHARLES" target="SONA" weight="3" />
+      <edge id="4812" source="CHARLES" target="LING THUG #1" weight="1" />
+      <edge id="4813" source="CHARLES" target="VANESSA" weight="3" />
+      <edge id="4814" source="CHARLES" target="FAIT" weight="2" />
+      <edge id="4815" source="CHARLES" target="RUSSELL" weight="2" />
+      <edge id="4816" source="CHARLES" target="MILES" weight="1" />
+      <edge id="4817" source="SONA" target="LING" weight="6" />
+      <edge id="4818" source="SONA" target="CHARLES" weight="3" />
+      <edge id="4819" source="SONA" target="CHRISTOPHE" weight="1" />
+      <edge id="4820" source="SONA" target="VANESSA" weight="2" />
+      <edge id="4821" source="SONA" target="RUSSELL" weight="4" />
+      <edge id="4822" source="SONA" target="FAIT" weight="1" />
+      <edge id="4823" source="SONA" target="RUSSIAN BUYER" weight="2" />
+      <edge id="4824" source="SONA" target="AFRICAN BUYER" weight="2" />
+      <edge id="4825" source="SONA" target="PAKISTANI BUYER" weight="2" />
+      <edge id="4826" source="SONA" target="FRENCH BUYER" weight="2" />
+      <edge id="4827" source="SONA" target="EGYPTIAN BUYER" weight="2" />
+      <edge id="4828" source="COP" target="SU" weight="1" />
+      <edge id="4829" source="VANESSA" target="FAIT" weight="5" />
+      <edge id="4830" source="VANESSA" target="LING" weight="2" />
+      <edge id="4831" source="VANESSA" target="ARCHIE" weight="2" />
+      <edge id="4832" source="VANESSA" target="SU" weight="2" />
+      <edge id="4833" source="VANESSA" target="SONA" weight="2" />
+      <edge id="4834" source="VANESSA" target="CHARLES" weight="3" />
+      <edge id="4835" source="VANESSA" target="RUSSELL" weight="1" />
+      <edge id="4836" source="VANESSA" target="TOMMY" weight="1" />
+      <edge id="4837" source="VANESSA" target="MILES" weight="2" />
+      <edge id="4838" source="VANESSA" target="DARIA" weight="1" />
+      <edge id="4839" source="TONITA" target="FAIT" weight="1" />
+      <edge id="4840" source="VOICE" target="ARCHIE" weight="1" />
+      <edge id="4841" source="VOICE" target="FAIT" weight="1" />
+      <edge id="4842" source="VOICE" target="MAN UNLOADING HOT TVS" weight="1" />
+      <edge id="4843" source="ARCHIE" target="VOICE" weight="1" />
+      <edge id="4844" source="ARCHIE" target="FAIT" weight="5" />
+      <edge id="4845" source="ARCHIE" target="MAN UNLOADING HOT TVS" weight="1" />
+      <edge id="4846" source="ARCHIE" target="SU" weight="10" />
+      <edge id="4847" source="ARCHIE" target="LING" weight="2" />
+      <edge id="4848" source="ARCHIE" target="VANESSA" weight="2" />
+      <edge id="4849" source="ARCHIE" target="GUARD" weight="1" />
+      <edge id="4850" source="ARCHIE" target="RING ANNOUNCER" weight="1" />
+      <edge id="4851" source="ARCHIE" target="FIGHT CLUB FAN" weight="1" />
+      <edge id="4852" source="ARCHIE" target="BRUISER" weight="1" />
+      <edge id="4853" source="ARCHIE" target="TOMMY" weight="5" />
+      <edge id="4854" source="ARCHIE" target="MILES" weight="2" />
+      <edge id="4855" source="ARCHIE" target="DARIA" weight="3" />
+      <edge id="4856" source="ARCHIE" target="RUSSELL" weight="1" />
+      <edge id="4857" source="MAN UNLOADING HOT TVS" target="VOICE" weight="1" />
+      <edge id="4858" source="MAN UNLOADING HOT TVS" target="ARCHIE" weight="1" />
+      <edge id="4859" source="MAN UNLOADING HOT TVS" target="FAIT" weight="1" />
+      <edge id="4860" source="LING THUG #1" target="FAIT" weight="1" />
+      <edge id="4861" source="LING THUG #1" target="LING THUG #2" weight="1" />
+      <edge id="4862" source="LING THUG #1" target="SU" weight="1" />
+      <edge id="4863" source="LING THUG #1" target="CHARLES" weight="1" />
+      <edge id="4864" source="LING THUG #2" target="LING THUG #1" weight="1" />
+      <edge id="4865" source="LING THUG #2" target="FAIT" weight="1" />
+      <edge id="4866" source="LING THUG #2" target="SU" weight="1" />
+      <edge id="4867" source="CHAMBERS" target="METZ" weight="1" />
+      <edge id="4868" source="CHAMBERS" target="FAIT" weight="1" />
+      <edge id="4869" source="CHAMBERS" target="SU" weight="1" />
+      <edge id="4870" source="CHAMBERS" target="CHICKENS" weight="1" />
+      <edge id="4871" source="CHAMBERS" target="LING" weight="1" />
+      <edge id="4872" source="METZ" target="CHAMBERS" weight="1" />
+      <edge id="4873" source="METZ" target="FAIT" weight="1" />
+      <edge id="4874" source="METZ" target="SU" weight="1" />
+      <edge id="4875" source="METZ" target="CHICKENS" weight="1" />
+      <edge id="4876" source="CHICKENS" target="CHAMBERS" weight="1" />
+      <edge id="4877" source="CHICKENS" target="METZ" weight="1" />
+      <edge id="4878" source="CHICKENS" target="FAIT" weight="1" />
+      <edge id="4879" source="CHICKENS" target="SU" weight="1" />
+      <edge id="4880" source="RUSSELL" target="CHARLES" weight="2" />
+      <edge id="4881" source="RUSSELL" target="SONA" weight="4" />
+      <edge id="4882" source="RUSSELL" target="VANESSA" weight="1" />
+      <edge id="4883" source="RUSSELL" target="LING" weight="3" />
+      <edge id="4884" source="RUSSELL" target="FAIT" weight="1" />
+      <edge id="4885" source="RUSSELL" target="RUSSIAN BUYER" weight="2" />
+      <edge id="4886" source="RUSSELL" target="AFRICAN BUYER" weight="2" />
+      <edge id="4887" source="RUSSELL" target="PAKISTANI BUYER" weight="2" />
+      <edge id="4888" source="RUSSELL" target="FRENCH BUYER" weight="2" />
+      <edge id="4889" source="RUSSELL" target="EGYPTIAN BUYER" weight="2" />
+      <edge id="4890" source="RUSSELL" target="TOMMY" weight="2" />
+      <edge id="4891" source="RUSSELL" target="ARCHIE" weight="1" />
+      <edge id="4892" source="RUSSELL" target="SU" weight="1" />
+      <edge id="4893" source="RUSSELL" target="DARIA" weight="1" />
+      <edge id="4894" source="ODION" target="DARIA" weight="1" />
+      <edge id="4895" source="ODION" target="CHAMBERS MAN" weight="1" />
+      <edge id="4896" source="ODION" target="COP #1" weight="1" />
+      <edge id="4897" source="ODION" target="COP #2" weight="1" />
+      <edge id="4898" source="GUARD" target="SU" weight="1" />
+      <edge id="4899" source="GUARD" target="ARCHIE" weight="1" />
+      <edge id="4900" source="DOORMAN" target="TOMMY" weight="2" />
+      <edge id="4901" source="CHAMBERS MAN" target="ODION" weight="1" />
+      <edge id="4902" source="CHAMBERS MAN" target="DARIA" weight="1" />
+      <edge id="4903" source="RING ANNOUNCER" target="ARCHIE" weight="1" />
+      <edge id="4904" source="RING ANNOUNCER" target="SU" weight="2" />
+      <edge id="4905" source="RING ANNOUNCER" target="FIGHT CLUB FAN" weight="1" />
+      <edge id="4906" source="RING ANNOUNCER" target="BRUISER" weight="1" />
+      <edge id="4907" source="RING ANNOUNCER" target="MOTO-RIDER #1" weight="1" />
+      <edge id="4908" source="RING ANNOUNCER" target="MOTO-RIDER #2" weight="1" />
+      <edge id="4909" source="RING ANNOUNCER" target="DARIA" weight="1" />
+      <edge id="4910" source="FIGHT CLUB FAN" target="ARCHIE" weight="1" />
+      <edge id="4911" source="FIGHT CLUB FAN" target="SU" weight="1" />
+      <edge id="4912" source="FIGHT CLUB FAN" target="RING ANNOUNCER" weight="1" />
+      <edge id="4913" source="FIGHT CLUB FAN" target="BRUISER" weight="1" />
+      <edge id="4914" source="BRUISER" target="ARCHIE" weight="1" />
+      <edge id="4915" source="BRUISER" target="SU" weight="1" />
+      <edge id="4916" source="BRUISER" target="RING ANNOUNCER" weight="1" />
+      <edge id="4917" source="BRUISER" target="FIGHT CLUB FAN" weight="1" />
+      <edge id="4918" source="COP #1" target="ODION" weight="1" />
+      <edge id="4919" source="COP #1" target="COP #2" weight="1" />
+      <edge id="4920" source="COP #1" target="PARAMEDIC" weight="1" />
+      <edge id="4921" source="COP #1" target="FAIT" weight="1" />
+      <edge id="4922" source="COP #2" target="COP #1" weight="1" />
+      <edge id="4923" source="COP #2" target="ODION" weight="1" />
+      <edge id="4924" source="PARAMEDIC" target="FAIT" weight="2" />
+      <edge id="4925" source="PARAMEDIC" target="COP #1" weight="1" />
+      <edge id="4926" source="MOTO-RIDER #1" target="SU" weight="1" />
+      <edge id="4927" source="MOTO-RIDER #1" target="RING ANNOUNCER" weight="1" />
+      <edge id="4928" source="MOTO-RIDER #1" target="MOTO-RIDER #2" weight="1" />
+      <edge id="4929" source="MOTO-RIDER #1" target="DARIA" weight="1" />
+      <edge id="4930" source="MOTO-RIDER #1" target="FAIT" weight="1" />
+      <edge id="4931" source="MOTO-RIDER #2" target="SU" weight="1" />
+      <edge id="4932" source="MOTO-RIDER #2" target="RING ANNOUNCER" weight="1" />
+      <edge id="4933" source="MOTO-RIDER #2" target="MOTO-RIDER #1" weight="1" />
+      <edge id="4934" source="MOTO-RIDER #2" target="DARIA" weight="1" />
+      <edge id="4935" source="RUSSIAN BUYER" target="LING" weight="1" />
+      <edge id="4936" source="RUSSIAN BUYER" target="RUSSELL" weight="2" />
+      <edge id="4937" source="RUSSIAN BUYER" target="SONA" weight="2" />
+      <edge id="4938" source="RUSSIAN BUYER" target="AFRICAN BUYER" weight="3" />
+      <edge id="4939" source="RUSSIAN BUYER" target="PAKISTANI BUYER" weight="3" />
+      <edge id="4940" source="RUSSIAN BUYER" target="FRENCH BUYER" weight="3" />
+      <edge id="4941" source="RUSSIAN BUYER" target="EGYPTIAN BUYER" weight="3" />
+      <edge id="4942" source="RUSSIAN BUYER" target="TOMMY" weight="1" />
+      <edge id="4943" source="AFRICAN BUYER" target="LING" weight="1" />
+      <edge id="4944" source="AFRICAN BUYER" target="RUSSELL" weight="2" />
+      <edge id="4945" source="AFRICAN BUYER" target="SONA" weight="2" />
+      <edge id="4946" source="AFRICAN BUYER" target="RUSSIAN BUYER" weight="3" />
+      <edge id="4947" source="AFRICAN BUYER" target="PAKISTANI BUYER" weight="3" />
+      <edge id="4948" source="AFRICAN BUYER" target="FRENCH BUYER" weight="3" />
+      <edge id="4949" source="AFRICAN BUYER" target="EGYPTIAN BUYER" weight="3" />
+      <edge id="4950" source="AFRICAN BUYER" target="TOMMY" weight="1" />
+      <edge id="4951" source="PAKISTANI BUYER" target="LING" weight="1" />
+      <edge id="4952" source="PAKISTANI BUYER" target="RUSSELL" weight="2" />
+      <edge id="4953" source="PAKISTANI BUYER" target="SONA" weight="2" />
+      <edge id="4954" source="PAKISTANI BUYER" target="RUSSIAN BUYER" weight="3" />
+      <edge id="4955" source="PAKISTANI BUYER" target="AFRICAN BUYER" weight="3" />
+      <edge id="4956" source="PAKISTANI BUYER" target="FRENCH BUYER" weight="3" />
+      <edge id="4957" source="PAKISTANI BUYER" target="EGYPTIAN BUYER" weight="3" />
+      <edge id="4958" source="PAKISTANI BUYER" target="TOMMY" weight="1" />
+      <edge id="4959" source="FRENCH BUYER" target="LING" weight="1" />
+      <edge id="4960" source="FRENCH BUYER" target="RUSSELL" weight="2" />
+      <edge id="4961" source="FRENCH BUYER" target="SONA" weight="2" />
+      <edge id="4962" source="FRENCH BUYER" target="RUSSIAN BUYER" weight="3" />
+      <edge id="4963" source="FRENCH BUYER" target="AFRICAN BUYER" weight="3" />
+      <edge id="4964" source="FRENCH BUYER" target="PAKISTANI BUYER" weight="3" />
+      <edge id="4965" source="FRENCH BUYER" target="EGYPTIAN BUYER" weight="3" />
+      <edge id="4966" source="FRENCH BUYER" target="TOMMY" weight="1" />
+      <edge id="4967" source="EGYPTIAN BUYER" target="LING" weight="1" />
+      <edge id="4968" source="EGYPTIAN BUYER" target="RUSSELL" weight="2" />
+      <edge id="4969" source="EGYPTIAN BUYER" target="SONA" weight="2" />
+      <edge id="4970" source="EGYPTIAN BUYER" target="RUSSIAN BUYER" weight="3" />
+      <edge id="4971" source="EGYPTIAN BUYER" target="AFRICAN BUYER" weight="3" />
+      <edge id="4972" source="EGYPTIAN BUYER" target="PAKISTANI BUYER" weight="3" />
+      <edge id="4973" source="EGYPTIAN BUYER" target="FRENCH BUYER" weight="3" />
+      <edge id="4974" source="EGYPTIAN BUYER" target="TOMMY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

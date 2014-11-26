@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GERALD" label="GERALD" />
+      <node id="SID" label="SID" />
+      <node id="JACK" label="JACK" />
+      <node id="CARTER" label="CARTER" />
+      <node id="BARMAN" label="BARMAN" />
+      <node id="EDNA" label="EDNA" />
+      <node id="UNDERTAKER" label="UNDERTAKER" />
+      <node id="DOREEN" label="DOREEN" />
+      <node id="EDDIE" label="EDDIE" />
+      <node id="KEITH" label="KEITH" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="ERIC" label="ERIC" />
+      <node id="RAY" label="RAY" />
+      <node id="KINNEAR" label="KINNEAR" />
+      <node id="HARRY" label="HARRY" />
+      <node id="GLENDA" label="GLENDA" />
+      <node id="BILLY" label="BILLY" />
+      <node id="ANNA" label="ANNA" />
+      <node id="THORPE" label="THORPE" />
+      <node id="MAN" label="MAN" />
+      <node id="OLD WOMAN" label="OLD WOMAN" />
+      <node id="BRUMBY" label="BRUMBY" />
+      <node id="MRS BRUMBY" label="MRS BRUMBY" />
+      <node id="SANDRA" label="SANDRA" />
+      <node id="CON" label="CON" />
+      <node id="PETER" label="PETER" />
+      <node id="SHAMIR" label="SHAMIR" />
+      <node id="GIRL" label="GIRL" />
+      <node id="ALBERT" label="ALBERT" />
+      <node id="INTERIOR DECORATOR" label="INTERIOR DECORATOR" />
+      <node id="FIRST WOMAN" label="FIRST WOMAN" />
+      <node id="SECOND WOMAN" label="SECOND WOMAN" />
+    </nodes>
+    <edges>
+      <edge id="8055" source="GERALD" target="SID" weight="1" />
+      <edge id="8056" source="GERALD" target="JACK" weight="1" />
+      <edge id="8057" source="GERALD" target="ANNA" weight="1" />
+      <edge id="8058" source="SID" target="GERALD" weight="1" />
+      <edge id="8059" source="SID" target="JACK" weight="1" />
+      <edge id="8060" source="JACK" target="GERALD" weight="1" />
+      <edge id="8061" source="JACK" target="SID" weight="1" />
+      <edge id="8062" source="CARTER" target="BARMAN" weight="1" />
+      <edge id="8063" source="CARTER" target="EDNA" weight="12" />
+      <edge id="8064" source="CARTER" target="UNDERTAKER" weight="2" />
+      <edge id="8065" source="CARTER" target="DOREEN" weight="4" />
+      <edge id="8066" source="CARTER" target="EDDIE" weight="3" />
+      <edge id="8067" source="CARTER" target="KEITH" weight="7" />
+      <edge id="8068" source="CARTER" target="MARGARET" weight="2" />
+      <edge id="8069" source="CARTER" target="ERIC" weight="6" />
+      <edge id="8070" source="CARTER" target="RAY" weight="1" />
+      <edge id="8071" source="CARTER" target="KINNEAR" weight="1" />
+      <edge id="8072" source="CARTER" target="HARRY" weight="1" />
+      <edge id="8073" source="CARTER" target="GLENDA" weight="5" />
+      <edge id="8074" source="CARTER" target="BILLY" weight="1" />
+      <edge id="8075" source="CARTER" target="THORPE" weight="2" />
+      <edge id="8076" source="CARTER" target="MAN" weight="1" />
+      <edge id="8077" source="CARTER" target="OLD WOMAN" weight="1" />
+      <edge id="8078" source="CARTER" target="MRS BRUMBY" weight="1" />
+      <edge id="8079" source="CARTER" target="BRUMBY" weight="3" />
+      <edge id="8080" source="CARTER" target="CON" weight="4" />
+      <edge id="8081" source="CARTER" target="PETER" weight="3" />
+      <edge id="8082" source="CARTER" target="SHAMIR" weight="1" />
+      <edge id="8083" source="CARTER" target="ALBERT" weight="2" />
+      <edge id="8084" source="CARTER" target="FIRST WOMAN" weight="1" />
+      <edge id="8085" source="CARTER" target="SECOND WOMAN" weight="1" />
+      <edge id="8086" source="BARMAN" target="CARTER" weight="1" />
+      <edge id="8087" source="EDNA" target="CARTER" weight="12" />
+      <edge id="8088" source="EDNA" target="OLD WOMAN" weight="1" />
+      <edge id="8089" source="EDNA" target="THORPE" weight="1" />
+      <edge id="8090" source="EDNA" target="KEITH" weight="1" />
+      <edge id="8091" source="EDNA" target="CON" weight="2" />
+      <edge id="8092" source="EDNA" target="PETER" weight="1" />
+      <edge id="8093" source="UNDERTAKER" target="CARTER" weight="2" />
+      <edge id="8094" source="UNDERTAKER" target="DOREEN" weight="1" />
+      <edge id="8095" source="DOREEN" target="CARTER" weight="4" />
+      <edge id="8096" source="DOREEN" target="UNDERTAKER" weight="1" />
+      <edge id="8097" source="DOREEN" target="EDDIE" weight="1" />
+      <edge id="8098" source="DOREEN" target="KEITH" weight="1" />
+      <edge id="8099" source="EDDIE" target="CARTER" weight="3" />
+      <edge id="8100" source="EDDIE" target="KEITH" weight="3" />
+      <edge id="8101" source="EDDIE" target="DOREEN" weight="1" />
+      <edge id="8102" source="KEITH" target="EDDIE" weight="3" />
+      <edge id="8103" source="KEITH" target="CARTER" weight="7" />
+      <edge id="8104" source="KEITH" target="DOREEN" weight="1" />
+      <edge id="8105" source="KEITH" target="THORPE" weight="2" />
+      <edge id="8106" source="KEITH" target="MAN" weight="1" />
+      <edge id="8107" source="KEITH" target="EDNA" weight="1" />
+      <edge id="8108" source="MARGARET" target="CARTER" weight="2" />
+      <edge id="8109" source="MARGARET" target="CON" weight="1" />
+      <edge id="8110" source="MARGARET" target="PETER" weight="1" />
+      <edge id="8111" source="ERIC" target="CARTER" weight="6" />
+      <edge id="8112" source="ERIC" target="RAY" weight="1" />
+      <edge id="8113" source="ERIC" target="KINNEAR" weight="3" />
+      <edge id="8114" source="ERIC" target="HARRY" weight="1" />
+      <edge id="8115" source="ERIC" target="GLENDA" weight="1" />
+      <edge id="8116" source="ERIC" target="PETER" weight="1" />
+      <edge id="8117" source="ERIC" target="CON" weight="1" />
+      <edge id="8118" source="RAY" target="ERIC" weight="1" />
+      <edge id="8119" source="RAY" target="KINNEAR" weight="1" />
+      <edge id="8120" source="RAY" target="CARTER" weight="1" />
+      <edge id="8121" source="RAY" target="HARRY" weight="1" />
+      <edge id="8122" source="RAY" target="GLENDA" weight="1" />
+      <edge id="8123" source="KINNEAR" target="RAY" weight="1" />
+      <edge id="8124" source="KINNEAR" target="ERIC" weight="3" />
+      <edge id="8125" source="KINNEAR" target="CARTER" weight="1" />
+      <edge id="8126" source="KINNEAR" target="HARRY" weight="1" />
+      <edge id="8127" source="KINNEAR" target="GLENDA" weight="1" />
+      <edge id="8128" source="HARRY" target="RAY" weight="1" />
+      <edge id="8129" source="HARRY" target="ERIC" weight="1" />
+      <edge id="8130" source="HARRY" target="KINNEAR" weight="1" />
+      <edge id="8131" source="HARRY" target="CARTER" weight="1" />
+      <edge id="8132" source="HARRY" target="GLENDA" weight="1" />
+      <edge id="8133" source="GLENDA" target="RAY" weight="1" />
+      <edge id="8134" source="GLENDA" target="ERIC" weight="1" />
+      <edge id="8135" source="GLENDA" target="KINNEAR" weight="1" />
+      <edge id="8136" source="GLENDA" target="CARTER" weight="5" />
+      <edge id="8137" source="GLENDA" target="HARRY" weight="1" />
+      <edge id="8138" source="BILLY" target="CARTER" weight="1" />
+      <edge id="8139" source="ANNA" target="GERALD" weight="1" />
+      <edge id="8140" source="THORPE" target="KEITH" weight="2" />
+      <edge id="8141" source="THORPE" target="CARTER" weight="2" />
+      <edge id="8142" source="THORPE" target="MAN" weight="1" />
+      <edge id="8143" source="THORPE" target="EDNA" weight="1" />
+      <edge id="8144" source="MAN" target="KEITH" weight="1" />
+      <edge id="8145" source="MAN" target="CARTER" weight="1" />
+      <edge id="8146" source="MAN" target="THORPE" weight="1" />
+      <edge id="8147" source="OLD WOMAN" target="CARTER" weight="1" />
+      <edge id="8148" source="OLD WOMAN" target="EDNA" weight="1" />
+      <edge id="8149" source="BRUMBY" target="MRS BRUMBY" weight="2" />
+      <edge id="8150" source="BRUMBY" target="SANDRA" weight="1" />
+      <edge id="8151" source="BRUMBY" target="CARTER" weight="3" />
+      <edge id="8152" source="BRUMBY" target="INTERIOR DECORATOR" weight="1" />
+      <edge id="8153" source="MRS BRUMBY" target="BRUMBY" weight="2" />
+      <edge id="8154" source="MRS BRUMBY" target="SANDRA" weight="1" />
+      <edge id="8155" source="MRS BRUMBY" target="CARTER" weight="1" />
+      <edge id="8156" source="SANDRA" target="BRUMBY" weight="1" />
+      <edge id="8157" source="SANDRA" target="MRS BRUMBY" weight="1" />
+      <edge id="8158" source="CON" target="CARTER" weight="4" />
+      <edge id="8159" source="CON" target="EDNA" weight="2" />
+      <edge id="8160" source="CON" target="PETER" weight="5" />
+      <edge id="8161" source="CON" target="MARGARET" weight="1" />
+      <edge id="8162" source="CON" target="ERIC" weight="1" />
+      <edge id="8163" source="PETER" target="CARTER" weight="3" />
+      <edge id="8164" source="PETER" target="EDNA" weight="1" />
+      <edge id="8165" source="PETER" target="CON" weight="5" />
+      <edge id="8166" source="PETER" target="MARGARET" weight="1" />
+      <edge id="8167" source="PETER" target="ERIC" weight="1" />
+      <edge id="8168" source="SHAMIR" target="CARTER" weight="1" />
+      <edge id="8169" source="ALBERT" target="CARTER" weight="2" />
+      <edge id="8170" source="INTERIOR DECORATOR" target="BRUMBY" weight="1" />
+      <edge id="8171" source="FIRST WOMAN" target="CARTER" weight="1" />
+      <edge id="8172" source="FIRST WOMAN" target="SECOND WOMAN" weight="1" />
+      <edge id="8173" source="SECOND WOMAN" target="CARTER" weight="1" />
+      <edge id="8174" source="SECOND WOMAN" target="FIRST WOMAN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

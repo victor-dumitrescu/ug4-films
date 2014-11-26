@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="WERNER" label="WERNER" />
+      <node id="JULIUS" label="JULIUS" />
+      <node id="OLD WOMAN" label="OLD WOMAN" />
+      <node id="ORIENTAL" label="ORIENTAL" />
+      <node id="VINCE" label="VINCE" />
+      <node id="CARLA" label="CARLA" />
+      <node id="MAN" label="MAN" />
+      <node id="AL" label="AL" />
+      <node id="NEWSCASTER" label="NEWSCASTER" />
+      <node id="OWNER" label="OWNER" />
+      <node id="STEWARDESS" label="STEWARDESS" />
+      <node id="HIJACKER" label="HIJACKER" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="MARNIE" label="MARNIE" />
+      <node id="FEMALE" label="FEMALE" />
+      <node id="LINDA" label="LINDA" />
+      <node id="BURT KLANE" label="BURT KLANE" />
+      <node id="BOB KLANE" label="BOB KLANE" />
+      <node id="BIKER #1" label="BIKER #1" />
+      <node id="COP" label="COP" />
+      <node id="MOTHER SUPERIOR" label="MOTHER SUPERIOR" />
+      <node id="SEVEN FOOTER" label="SEVEN FOOTER" />
+      <node id="GUARD" label="GUARD" />
+      <node id="GARFIELD" label="GARFIELD" />
+      <node id="MOVER" label="MOVER" />
+      <node id="MISS BUSBY" label="MISS BUSBY" />
+      <node id="MORRIS KLANE" label="MORRIS KLANE" />
+      <node id="LARSON" label="LARSON" />
+      <node id="SECRETARY" label="SECRETARY" />
+      <node id="WEBSTER" label="WEBSTER" />
+      <node id="LARSEN" label="LARSEN" />
+      <node id="GRANGER" label="GRANGER" />
+      <node id="GIRL" label="GIRL" />
+      <node id="BODY SHOP OWNER" label="BODY SHOP OWNER" />
+      <node id="VOICE" label="VOICE" />
+      <node id="McKINLEY" label="McKINLEY" />
+      <node id="NEIGHBOR" label="NEIGHBOR" />
+      <node id="BOB" label="BOB" />
+      <node id="TRAVEN" label="TRAVEN" />
+      <node id="SALES CLERK" label="SALES CLERK" />
+      <node id="MARNIE/LINDA" label="MARNIE/LINDA" />
+      <node id="BEETROOT" label="BEETROOT" />
+      <node id="CUSTODIAN" label="CUSTODIAN" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="GARDENER" label="GARDENER" />
+      <node id="GARDNER" label="GARDNER" />
+      <node id="PAINTER" label="PAINTER" />
+      <node id="CREEP" label="CREEP" />
+      <node id="BODYGUARD" label="BODYGUARD" />
+      <node id="MARY ANNE" label="MARY ANNE" />
+    </nodes>
+    <edges>
+      <edge id="25201" source="WERNER" target="JULIUS" weight="4" />
+      <edge id="25202" source="WERNER" target="OLD WOMAN" weight="1" />
+      <edge id="25203" source="WERNER" target="ORIENTAL" weight="1" />
+      <edge id="25204" source="JULIUS" target="WERNER" weight="4" />
+      <edge id="25205" source="JULIUS" target="OLD WOMAN" weight="1" />
+      <edge id="25206" source="JULIUS" target="ORIENTAL" weight="1" />
+      <edge id="25207" source="JULIUS" target="STEWARDESS" weight="1" />
+      <edge id="25208" source="JULIUS" target="HIJACKER" weight="1" />
+      <edge id="25209" source="JULIUS" target="BIKER #1" weight="1" />
+      <edge id="25210" source="JULIUS" target="MOTHER SUPERIOR" weight="3" />
+      <edge id="25211" source="JULIUS" target="GUARD" weight="1" />
+      <edge id="25212" source="JULIUS" target="VINCE" weight="37" />
+      <edge id="25213" source="JULIUS" target="MORRIS KLANE" weight="2" />
+      <edge id="25214" source="JULIUS" target="LINDA" weight="8" />
+      <edge id="25215" source="JULIUS" target="MARNIE" weight="11" />
+      <edge id="25216" source="JULIUS" target="BURT KLANE" weight="2" />
+      <edge id="25217" source="JULIUS" target="GRANGER" weight="2" />
+      <edge id="25218" source="JULIUS" target="GIRL" weight="1" />
+      <edge id="25219" source="JULIUS" target="NEIGHBOR" weight="1" />
+      <edge id="25220" source="JULIUS" target="TRAVEN" weight="3" />
+      <edge id="25221" source="JULIUS" target="SALES CLERK" weight="1" />
+      <edge id="25222" source="JULIUS" target="MARNIE/LINDA" weight="1" />
+      <edge id="25223" source="JULIUS" target="BOB KLANE" weight="1" />
+      <edge id="25224" source="JULIUS" target="CUSTODIAN" weight="1" />
+      <edge id="25225" source="JULIUS" target="WOMAN" weight="1" />
+      <edge id="25226" source="JULIUS" target="GARDENER" weight="1" />
+      <edge id="25227" source="JULIUS" target="GARDNER" weight="1" />
+      <edge id="25228" source="JULIUS" target="CREEP" weight="1" />
+      <edge id="25229" source="JULIUS" target="WEBSTER" weight="4" />
+      <edge id="25230" source="JULIUS" target="MARY ANNE" weight="2" />
+      <edge id="25231" source="OLD WOMAN" target="JULIUS" weight="1" />
+      <edge id="25232" source="OLD WOMAN" target="ORIENTAL" weight="1" />
+      <edge id="25233" source="OLD WOMAN" target="WERNER" weight="1" />
+      <edge id="25234" source="ORIENTAL" target="OLD WOMAN" weight="1" />
+      <edge id="25235" source="ORIENTAL" target="JULIUS" weight="1" />
+      <edge id="25236" source="ORIENTAL" target="WERNER" weight="1" />
+      <edge id="25237" source="VINCE" target="CARLA" weight="3" />
+      <edge id="25238" source="VINCE" target="MAN" weight="1" />
+      <edge id="25239" source="VINCE" target="AL" weight="2" />
+      <edge id="25240" source="VINCE" target="OWNER" weight="1" />
+      <edge id="25241" source="VINCE" target="BARTENDER" weight="1" />
+      <edge id="25242" source="VINCE" target="MARNIE" weight="11" />
+      <edge id="25243" source="VINCE" target="FEMALE" weight="1" />
+      <edge id="25244" source="VINCE" target="LINDA" weight="15" />
+      <edge id="25245" source="VINCE" target="BURT KLANE" weight="4" />
+      <edge id="25246" source="VINCE" target="BOB KLANE" weight="2" />
+      <edge id="25247" source="VINCE" target="COP" weight="1" />
+      <edge id="25248" source="VINCE" target="SEVEN FOOTER" weight="1" />
+      <edge id="25249" source="VINCE" target="GUARD" weight="2" />
+      <edge id="25250" source="VINCE" target="JULIUS" weight="37" />
+      <edge id="25251" source="VINCE" target="MOVER" weight="1" />
+      <edge id="25252" source="VINCE" target="MISS BUSBY" weight="1" />
+      <edge id="25253" source="VINCE" target="MORRIS KLANE" weight="2" />
+      <edge id="25254" source="VINCE" target="GARFIELD" weight="1" />
+      <edge id="25255" source="VINCE" target="BODY SHOP OWNER" weight="1" />
+      <edge id="25256" source="VINCE" target="VOICE" weight="1" />
+      <edge id="25257" source="VINCE" target="McKINLEY" weight="5" />
+      <edge id="25258" source="VINCE" target="NEIGHBOR" weight="1" />
+      <edge id="25259" source="VINCE" target="TRAVEN" weight="3" />
+      <edge id="25260" source="VINCE" target="SALES CLERK" weight="1" />
+      <edge id="25261" source="VINCE" target="MARNIE/LINDA" weight="1" />
+      <edge id="25262" source="VINCE" target="CUSTODIAN" weight="1" />
+      <edge id="25263" source="VINCE" target="WOMAN" weight="1" />
+      <edge id="25264" source="VINCE" target="GARDENER" weight="1" />
+      <edge id="25265" source="VINCE" target="GARDNER" weight="1" />
+      <edge id="25266" source="VINCE" target="BEETROOT" weight="1" />
+      <edge id="25267" source="VINCE" target="BODYGUARD" weight="1" />
+      <edge id="25268" source="VINCE" target="WEBSTER" weight="1" />
+      <edge id="25269" source="VINCE" target="MARY ANNE" weight="2" />
+      <edge id="25270" source="CARLA" target="VINCE" weight="3" />
+      <edge id="25271" source="CARLA" target="MAN" weight="1" />
+      <edge id="25272" source="CARLA" target="AL" weight="3" />
+      <edge id="25273" source="CARLA" target="WEBSTER" weight="1" />
+      <edge id="25274" source="MAN" target="VINCE" weight="1" />
+      <edge id="25275" source="MAN" target="CARLA" weight="1" />
+      <edge id="25276" source="AL" target="VINCE" weight="2" />
+      <edge id="25277" source="AL" target="CARLA" weight="3" />
+      <edge id="25278" source="AL" target="GARFIELD" weight="1" />
+      <edge id="25279" source="AL" target="WEBSTER" weight="1" />
+      <edge id="25280" source="OWNER" target="VINCE" weight="1" />
+      <edge id="25281" source="STEWARDESS" target="JULIUS" weight="1" />
+      <edge id="25282" source="STEWARDESS" target="HIJACKER" weight="1" />
+      <edge id="25283" source="HIJACKER" target="JULIUS" weight="1" />
+      <edge id="25284" source="HIJACKER" target="STEWARDESS" weight="1" />
+      <edge id="25285" source="BARTENDER" target="VINCE" weight="1" />
+      <edge id="25286" source="BARTENDER" target="MARNIE" weight="1" />
+      <edge id="25287" source="BARTENDER" target="FEMALE" weight="1" />
+      <edge id="25288" source="BARTENDER" target="LINDA" weight="1" />
+      <edge id="25289" source="MARNIE" target="BARTENDER" weight="1" />
+      <edge id="25290" source="MARNIE" target="VINCE" weight="11" />
+      <edge id="25291" source="MARNIE" target="FEMALE" weight="1" />
+      <edge id="25292" source="MARNIE" target="LINDA" weight="10" />
+      <edge id="25293" source="MARNIE" target="BURT KLANE" weight="2" />
+      <edge id="25294" source="MARNIE" target="JULIUS" weight="11" />
+      <edge id="25295" source="MARNIE" target="NEIGHBOR" weight="1" />
+      <edge id="25296" source="MARNIE" target="BOB KLANE" weight="1" />
+      <edge id="25297" source="MARNIE" target="MORRIS KLANE" weight="1" />
+      <edge id="25298" source="FEMALE" target="BARTENDER" weight="1" />
+      <edge id="25299" source="FEMALE" target="VINCE" weight="1" />
+      <edge id="25300" source="FEMALE" target="MARNIE" weight="1" />
+      <edge id="25301" source="FEMALE" target="LINDA" weight="1" />
+      <edge id="25302" source="LINDA" target="BARTENDER" weight="1" />
+      <edge id="25303" source="LINDA" target="VINCE" weight="15" />
+      <edge id="25304" source="LINDA" target="MARNIE" weight="10" />
+      <edge id="25305" source="LINDA" target="FEMALE" weight="1" />
+      <edge id="25306" source="LINDA" target="BURT KLANE" weight="3" />
+      <edge id="25307" source="LINDA" target="BOB KLANE" weight="2" />
+      <edge id="25308" source="LINDA" target="JULIUS" weight="8" />
+      <edge id="25309" source="LINDA" target="NEIGHBOR" weight="1" />
+      <edge id="25310" source="LINDA" target="MARNIE/LINDA" weight="1" />
+      <edge id="25311" source="LINDA" target="MORRIS KLANE" weight="1" />
+      <edge id="25312" source="LINDA" target="WOMAN" weight="1" />
+      <edge id="25313" source="LINDA" target="GARDENER" weight="1" />
+      <edge id="25314" source="LINDA" target="GARDNER" weight="1" />
+      <edge id="25315" source="BURT KLANE" target="VINCE" weight="4" />
+      <edge id="25316" source="BURT KLANE" target="LINDA" weight="3" />
+      <edge id="25317" source="BURT KLANE" target="MARNIE" weight="2" />
+      <edge id="25318" source="BURT KLANE" target="BOB KLANE" weight="2" />
+      <edge id="25319" source="BURT KLANE" target="JULIUS" weight="2" />
+      <edge id="25320" source="BURT KLANE" target="WEBSTER" weight="2" />
+      <edge id="25321" source="BURT KLANE" target="BOB" weight="1" />
+      <edge id="25322" source="BURT KLANE" target="MORRIS KLANE" weight="1" />
+      <edge id="25323" source="BOB KLANE" target="BURT KLANE" weight="2" />
+      <edge id="25324" source="BOB KLANE" target="VINCE" weight="2" />
+      <edge id="25325" source="BOB KLANE" target="LINDA" weight="2" />
+      <edge id="25326" source="BOB KLANE" target="MARNIE" weight="1" />
+      <edge id="25327" source="BOB KLANE" target="JULIUS" weight="1" />
+      <edge id="25328" source="BOB KLANE" target="MORRIS KLANE" weight="1" />
+      <edge id="25329" source="BIKER #1" target="JULIUS" weight="1" />
+      <edge id="25330" source="COP" target="VINCE" weight="1" />
+      <edge id="25331" source="MOTHER SUPERIOR" target="JULIUS" weight="3" />
+      <edge id="25332" source="SEVEN FOOTER" target="VINCE" weight="1" />
+      <edge id="25333" source="SEVEN FOOTER" target="GUARD" weight="1" />
+      <edge id="25334" source="GUARD" target="SEVEN FOOTER" weight="1" />
+      <edge id="25335" source="GUARD" target="VINCE" weight="2" />
+      <edge id="25336" source="GUARD" target="JULIUS" weight="1" />
+      <edge id="25337" source="GARFIELD" target="AL" weight="1" />
+      <edge id="25338" source="GARFIELD" target="LARSON" weight="2" />
+      <edge id="25339" source="GARFIELD" target="SECRETARY" weight="1" />
+      <edge id="25340" source="GARFIELD" target="WEBSTER" weight="1" />
+      <edge id="25341" source="GARFIELD" target="LARSEN" weight="1" />
+      <edge id="25342" source="GARFIELD" target="BODY SHOP OWNER" weight="1" />
+      <edge id="25343" source="GARFIELD" target="VINCE" weight="1" />
+      <edge id="25344" source="MOVER" target="VINCE" weight="1" />
+      <edge id="25345" source="MISS BUSBY" target="VINCE" weight="1" />
+      <edge id="25346" source="MORRIS KLANE" target="VINCE" weight="2" />
+      <edge id="25347" source="MORRIS KLANE" target="JULIUS" weight="2" />
+      <edge id="25348" source="MORRIS KLANE" target="LINDA" weight="1" />
+      <edge id="25349" source="MORRIS KLANE" target="MARNIE" weight="1" />
+      <edge id="25350" source="MORRIS KLANE" target="BURT KLANE" weight="1" />
+      <edge id="25351" source="MORRIS KLANE" target="BOB KLANE" weight="1" />
+      <edge id="25352" source="LARSON" target="GARFIELD" weight="2" />
+      <edge id="25353" source="LARSON" target="WEBSTER" weight="1" />
+      <edge id="25354" source="LARSON" target="LARSEN" weight="1" />
+      <edge id="25355" source="SECRETARY" target="GARFIELD" weight="1" />
+      <edge id="25356" source="WEBSTER" target="GARFIELD" weight="1" />
+      <edge id="25357" source="WEBSTER" target="LARSON" weight="1" />
+      <edge id="25358" source="WEBSTER" target="LARSEN" weight="1" />
+      <edge id="25359" source="WEBSTER" target="AL" weight="1" />
+      <edge id="25360" source="WEBSTER" target="CARLA" weight="1" />
+      <edge id="25361" source="WEBSTER" target="BURT KLANE" weight="2" />
+      <edge id="25362" source="WEBSTER" target="BOB" weight="1" />
+      <edge id="25363" source="WEBSTER" target="BEETROOT" weight="1" />
+      <edge id="25364" source="WEBSTER" target="JULIUS" weight="4" />
+      <edge id="25365" source="WEBSTER" target="VINCE" weight="1" />
+      <edge id="25366" source="LARSEN" target="GARFIELD" weight="1" />
+      <edge id="25367" source="LARSEN" target="WEBSTER" weight="1" />
+      <edge id="25368" source="LARSEN" target="LARSON" weight="1" />
+      <edge id="25369" source="GRANGER" target="JULIUS" weight="2" />
+      <edge id="25370" source="GRANGER" target="GIRL" weight="1" />
+      <edge id="25371" source="GIRL" target="GRANGER" weight="1" />
+      <edge id="25372" source="GIRL" target="JULIUS" weight="1" />
+      <edge id="25373" source="BODY SHOP OWNER" target="GARFIELD" weight="1" />
+      <edge id="25374" source="BODY SHOP OWNER" target="VINCE" weight="1" />
+      <edge id="25375" source="VOICE" target="McKINLEY" weight="1" />
+      <edge id="25376" source="VOICE" target="VINCE" weight="1" />
+      <edge id="25377" source="McKINLEY" target="VOICE" weight="1" />
+      <edge id="25378" source="McKINLEY" target="VINCE" weight="5" />
+      <edge id="25379" source="NEIGHBOR" target="VINCE" weight="1" />
+      <edge id="25380" source="NEIGHBOR" target="JULIUS" weight="1" />
+      <edge id="25381" source="NEIGHBOR" target="LINDA" weight="1" />
+      <edge id="25382" source="NEIGHBOR" target="MARNIE" weight="1" />
+      <edge id="25383" source="BOB" target="WEBSTER" weight="1" />
+      <edge id="25384" source="BOB" target="BURT KLANE" weight="1" />
+      <edge id="25385" source="TRAVEN" target="VINCE" weight="3" />
+      <edge id="25386" source="TRAVEN" target="JULIUS" weight="3" />
+      <edge id="25387" source="SALES CLERK" target="JULIUS" weight="1" />
+      <edge id="25388" source="SALES CLERK" target="VINCE" weight="1" />
+      <edge id="25389" source="MARNIE/LINDA" target="JULIUS" weight="1" />
+      <edge id="25390" source="MARNIE/LINDA" target="VINCE" weight="1" />
+      <edge id="25391" source="MARNIE/LINDA" target="LINDA" weight="1" />
+      <edge id="25392" source="BEETROOT" target="WEBSTER" weight="1" />
+      <edge id="25393" source="BEETROOT" target="VINCE" weight="1" />
+      <edge id="25394" source="BEETROOT" target="BODYGUARD" weight="1" />
+      <edge id="25395" source="CUSTODIAN" target="JULIUS" weight="1" />
+      <edge id="25396" source="CUSTODIAN" target="VINCE" weight="1" />
+      <edge id="25397" source="WOMAN" target="JULIUS" weight="1" />
+      <edge id="25398" source="WOMAN" target="VINCE" weight="1" />
+      <edge id="25399" source="WOMAN" target="LINDA" weight="1" />
+      <edge id="25400" source="WOMAN" target="GARDENER" weight="1" />
+      <edge id="25401" source="WOMAN" target="GARDNER" weight="1" />
+      <edge id="25402" source="GARDENER" target="JULIUS" weight="1" />
+      <edge id="25403" source="GARDENER" target="VINCE" weight="1" />
+      <edge id="25404" source="GARDENER" target="LINDA" weight="1" />
+      <edge id="25405" source="GARDENER" target="WOMAN" weight="1" />
+      <edge id="25406" source="GARDENER" target="GARDNER" weight="1" />
+      <edge id="25407" source="GARDENER" target="PAINTER" weight="1" />
+      <edge id="25408" source="GARDNER" target="JULIUS" weight="1" />
+      <edge id="25409" source="GARDNER" target="VINCE" weight="1" />
+      <edge id="25410" source="GARDNER" target="LINDA" weight="1" />
+      <edge id="25411" source="GARDNER" target="WOMAN" weight="1" />
+      <edge id="25412" source="GARDNER" target="GARDENER" weight="1" />
+      <edge id="25413" source="PAINTER" target="GARDENER" weight="1" />
+      <edge id="25414" source="CREEP" target="JULIUS" weight="1" />
+      <edge id="25415" source="BODYGUARD" target="BEETROOT" weight="1" />
+      <edge id="25416" source="BODYGUARD" target="VINCE" weight="1" />
+      <edge id="25417" source="MARY ANNE" target="VINCE" weight="2" />
+      <edge id="25418" source="MARY ANNE" target="JULIUS" weight="2" />
+    </edges>
+  </graph>
+</gexf>

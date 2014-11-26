@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GARETH" label="GARETH" />
+      <node id="LORD WALTON" label="LORD WALTON" />
+      <node id="MORRISON" label="MORRISON" />
+      <node id="HUBERT" label="HUBERT" />
+      <node id="GUARD" label="GUARD" />
+      <node id="GALLERY GUIDE" label="GALLERY GUIDE" />
+      <node id="GEORGE" label="GEORGE" />
+      <node id="VINCENT" label="VINCENT" />
+      <node id="SUIT MAN" label="SUIT MAN" />
+      <node id="MISS HUTCHINSON" label="MISS HUTCHINSON" />
+      <node id="SIR RUPERT" label="SIR RUPERT" />
+      <node id="PROGRAMMER" label="PROGRAMMER" />
+      <node id="BEAN" label="BEAN" />
+      <node id="MR. BEAN" label="MR. BEAN" />
+      <node id="GRIERSON" label="GRIERSON" />
+      <node id="BERNIE" label="BERNIE" />
+      <node id="CHECK-IN LADY" label="CHECK-IN LADY" />
+      <node id="DAVID" label="DAVID" />
+      <node id="CHARLES" label="CHARLES" />
+      <node id="ALISON" label="ALISON" />
+      <node id="KEVIN" label="KEVIN" />
+      <node id="OLD LADY" label="OLD LADY" />
+      <node id="JENNIFER" label="JENNIFER" />
+      <node id="COP 1" label="COP 1" />
+      <node id="BRUTUS" label="BRUTUS" />
+      <node id="STINGO" label="STINGO" />
+      <node id="CAB DRIVER" label="CAB DRIVER" />
+      <node id="ANNIE" label="ANNIE" />
+      <node id="OLD LADY 1" label="OLD LADY 1" />
+      <node id="OLD LADY 2" label="OLD LADY 2" />
+      <node id="THOMAS GRIERSON" label="THOMAS GRIERSON" />
+      <node id="ROBBER" label="ROBBER" />
+      <node id="ELMER" label="ELMER" />
+      <node id="ELEVATOR VOICE" label="ELEVATOR VOICE" />
+      <node id="THIN WOMAN" label="THIN WOMAN" />
+      <node id="REYNOLDS" label="REYNOLDS" />
+      <node id="DOCTOR 1" label="DOCTOR 1" />
+      <node id="NURSE" label="NURSE" />
+      <node id="DOCTOR JACOBSON" label="DOCTOR JACOBSON" />
+      <node id="NURSE 2" label="NURSE 2" />
+      <node id="ASSISTANT" label="ASSISTANT" />
+      <node id="SIDE-KICK" label="SIDE-KICK" />
+      <node id="DOCTOR 2" label="DOCTOR 2" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="HOSPITAL PORTER" label="HOSPITAL PORTER" />
+      <node id="CLEANER" label="CLEANER" />
+    </nodes>
+    <edges>
+      <edge id="1525" source="GARETH" target="LORD WALTON" weight="3" />
+      <edge id="1526" source="GARETH" target="MORRISON" weight="1" />
+      <edge id="1527" source="GARETH" target="HUBERT" weight="3" />
+      <edge id="1528" source="GARETH" target="GEORGE" weight="1" />
+      <edge id="1529" source="GARETH" target="VINCENT" weight="2" />
+      <edge id="1530" source="GARETH" target="MISS HUTCHINSON" weight="1" />
+      <edge id="1531" source="GARETH" target="SIR RUPERT" weight="1" />
+      <edge id="1532" source="LORD WALTON" target="GARETH" weight="3" />
+      <edge id="1533" source="LORD WALTON" target="MORRISON" weight="1" />
+      <edge id="1534" source="LORD WALTON" target="HUBERT" weight="3" />
+      <edge id="1535" source="LORD WALTON" target="GEORGE" weight="1" />
+      <edge id="1536" source="LORD WALTON" target="VINCENT" weight="1" />
+      <edge id="1537" source="LORD WALTON" target="MISS HUTCHINSON" weight="2" />
+      <edge id="1538" source="LORD WALTON" target="SIR RUPERT" weight="1" />
+      <edge id="1539" source="LORD WALTON" target="MR. BEAN" weight="1" />
+      <edge id="1540" source="MORRISON" target="GARETH" weight="1" />
+      <edge id="1541" source="MORRISON" target="LORD WALTON" weight="1" />
+      <edge id="1542" source="MORRISON" target="HUBERT" weight="1" />
+      <edge id="1543" source="HUBERT" target="GARETH" weight="3" />
+      <edge id="1544" source="HUBERT" target="LORD WALTON" weight="3" />
+      <edge id="1545" source="HUBERT" target="MORRISON" weight="1" />
+      <edge id="1546" source="HUBERT" target="GEORGE" weight="1" />
+      <edge id="1547" source="HUBERT" target="VINCENT" weight="1" />
+      <edge id="1548" source="HUBERT" target="MISS HUTCHINSON" weight="1" />
+      <edge id="1549" source="HUBERT" target="SIR RUPERT" weight="1" />
+      <edge id="1550" source="GEORGE" target="GARETH" weight="1" />
+      <edge id="1551" source="GEORGE" target="HUBERT" weight="1" />
+      <edge id="1552" source="GEORGE" target="LORD WALTON" weight="1" />
+      <edge id="1553" source="VINCENT" target="GARETH" weight="2" />
+      <edge id="1554" source="VINCENT" target="HUBERT" weight="1" />
+      <edge id="1555" source="VINCENT" target="LORD WALTON" weight="1" />
+      <edge id="1556" source="VINCENT" target="MISS HUTCHINSON" weight="1" />
+      <edge id="1557" source="VINCENT" target="SIR RUPERT" weight="1" />
+      <edge id="1558" source="SUIT MAN" target="MISS HUTCHINSON" weight="1" />
+      <edge id="1559" source="MISS HUTCHINSON" target="GARETH" weight="1" />
+      <edge id="1560" source="MISS HUTCHINSON" target="VINCENT" weight="1" />
+      <edge id="1561" source="MISS HUTCHINSON" target="HUBERT" weight="1" />
+      <edge id="1562" source="MISS HUTCHINSON" target="LORD WALTON" weight="2" />
+      <edge id="1563" source="MISS HUTCHINSON" target="SIR RUPERT" weight="1" />
+      <edge id="1564" source="MISS HUTCHINSON" target="SUIT MAN" weight="1" />
+      <edge id="1565" source="SIR RUPERT" target="GARETH" weight="1" />
+      <edge id="1566" source="SIR RUPERT" target="VINCENT" weight="1" />
+      <edge id="1567" source="SIR RUPERT" target="HUBERT" weight="1" />
+      <edge id="1568" source="SIR RUPERT" target="LORD WALTON" weight="1" />
+      <edge id="1569" source="SIR RUPERT" target="MISS HUTCHINSON" weight="1" />
+      <edge id="1570" source="PROGRAMMER" target="BEAN" weight="1" />
+      <edge id="1571" source="BEAN" target="PROGRAMMER" weight="1" />
+      <edge id="1572" source="BEAN" target="KEVIN" weight="3" />
+      <edge id="1573" source="BEAN" target="ALISON" weight="2" />
+      <edge id="1574" source="BEAN" target="DAVID" weight="14" />
+      <edge id="1575" source="BEAN" target="OLD LADY 1" weight="1" />
+      <edge id="1576" source="BEAN" target="OLD LADY 2" weight="1" />
+      <edge id="1577" source="BEAN" target="ANNIE" weight="1" />
+      <edge id="1578" source="BEAN" target="GRIERSON" weight="5" />
+      <edge id="1579" source="BEAN" target="THOMAS GRIERSON" weight="1" />
+      <edge id="1580" source="BEAN" target="BERNIE" weight="3" />
+      <edge id="1581" source="BEAN" target="ROBBER" weight="1" />
+      <edge id="1582" source="BEAN" target="ELMER" weight="1" />
+      <edge id="1583" source="BEAN" target="REYNOLDS" weight="1" />
+      <edge id="1584" source="BEAN" target="NURSE 2" weight="1" />
+      <edge id="1585" source="MR. BEAN" target="LORD WALTON" weight="1" />
+      <edge id="1586" source="MR. BEAN" target="BRUTUS" weight="1" />
+      <edge id="1587" source="MR. BEAN" target="KEVIN" weight="1" />
+      <edge id="1588" source="MR. BEAN" target="BERNIE" weight="1" />
+      <edge id="1589" source="GRIERSON" target="BERNIE" weight="11" />
+      <edge id="1590" source="GRIERSON" target="DAVID" weight="11" />
+      <edge id="1591" source="GRIERSON" target="BEAN" weight="5" />
+      <edge id="1592" source="GRIERSON" target="THOMAS GRIERSON" weight="1" />
+      <edge id="1593" source="GRIERSON" target="ELMER" weight="1" />
+      <edge id="1594" source="GRIERSON" target="ANNIE" weight="1" />
+      <edge id="1595" source="GRIERSON" target="REYNOLDS" weight="5" />
+      <edge id="1596" source="GRIERSON" target="SIDE-KICK" weight="1" />
+      <edge id="1597" source="BERNIE" target="GRIERSON" weight="11" />
+      <edge id="1598" source="BERNIE" target="DAVID" weight="10" />
+      <edge id="1599" source="BERNIE" target="BEAN" weight="3" />
+      <edge id="1600" source="BERNIE" target="THOMAS GRIERSON" weight="1" />
+      <edge id="1601" source="BERNIE" target="ANNIE" weight="2" />
+      <edge id="1602" source="BERNIE" target="KEVIN" weight="2" />
+      <edge id="1603" source="BERNIE" target="ELMER" weight="1" />
+      <edge id="1604" source="BERNIE" target="MR. BEAN" weight="1" />
+      <edge id="1605" source="BERNIE" target="REYNOLDS" weight="3" />
+      <edge id="1606" source="DAVID" target="GRIERSON" weight="11" />
+      <edge id="1607" source="DAVID" target="BERNIE" weight="10" />
+      <edge id="1608" source="DAVID" target="CHARLES" weight="1" />
+      <edge id="1609" source="DAVID" target="ALISON" weight="16" />
+      <edge id="1610" source="DAVID" target="KEVIN" weight="14" />
+      <edge id="1611" source="DAVID" target="JENNIFER" weight="9" />
+      <edge id="1612" source="DAVID" target="STINGO" weight="2" />
+      <edge id="1613" source="DAVID" target="BEAN" weight="14" />
+      <edge id="1614" source="DAVID" target="ANNIE" weight="6" />
+      <edge id="1615" source="DAVID" target="OLD LADY 1" weight="1" />
+      <edge id="1616" source="DAVID" target="OLD LADY 2" weight="1" />
+      <edge id="1617" source="DAVID" target="THOMAS GRIERSON" weight="1" />
+      <edge id="1618" source="DAVID" target="ROBBER" weight="1" />
+      <edge id="1619" source="DAVID" target="ELMER" weight="4" />
+      <edge id="1620" source="DAVID" target="REYNOLDS" weight="3" />
+      <edge id="1621" source="DAVID" target="BRUTUS" weight="1" />
+      <edge id="1622" source="DAVID" target="DOCTOR 1" weight="1" />
+      <edge id="1623" source="DAVID" target="SIDE-KICK" weight="2" />
+      <edge id="1624" source="DAVID" target="ASSISTANT" weight="1" />
+      <edge id="1625" source="DAVID" target="DOCTOR 2" weight="1" />
+      <edge id="1626" source="DAVID" target="DOCTOR" weight="1" />
+      <edge id="1627" source="DAVID" target="HOSPITAL PORTER" weight="1" />
+      <edge id="1628" source="CHARLES" target="DAVID" weight="1" />
+      <edge id="1629" source="CHARLES" target="ALISON" weight="1" />
+      <edge id="1630" source="ALISON" target="DAVID" weight="16" />
+      <edge id="1631" source="ALISON" target="CHARLES" weight="1" />
+      <edge id="1632" source="ALISON" target="KEVIN" weight="5" />
+      <edge id="1633" source="ALISON" target="JENNIFER" weight="4" />
+      <edge id="1634" source="ALISON" target="STINGO" weight="1" />
+      <edge id="1635" source="ALISON" target="BEAN" weight="2" />
+      <edge id="1636" source="ALISON" target="DOCTOR 1" weight="1" />
+      <edge id="1637" source="ALISON" target="SIDE-KICK" weight="1" />
+      <edge id="1638" source="ALISON" target="ASSISTANT" weight="1" />
+      <edge id="1639" source="ALISON" target="DOCTOR 2" weight="1" />
+      <edge id="1640" source="ALISON" target="DOCTOR" weight="1" />
+      <edge id="1641" source="ALISON" target="HOSPITAL PORTER" weight="1" />
+      <edge id="1642" source="KEVIN" target="ALISON" weight="5" />
+      <edge id="1643" source="KEVIN" target="DAVID" weight="14" />
+      <edge id="1644" source="KEVIN" target="JENNIFER" weight="5" />
+      <edge id="1645" source="KEVIN" target="BEAN" weight="3" />
+      <edge id="1646" source="KEVIN" target="STINGO" weight="1" />
+      <edge id="1647" source="KEVIN" target="ANNIE" weight="1" />
+      <edge id="1648" source="KEVIN" target="BERNIE" weight="2" />
+      <edge id="1649" source="KEVIN" target="MR. BEAN" weight="1" />
+      <edge id="1650" source="KEVIN" target="BRUTUS" weight="1" />
+      <edge id="1651" source="KEVIN" target="ELMER" weight="1" />
+      <edge id="1652" source="KEVIN" target="HOSPITAL PORTER" weight="1" />
+      <edge id="1653" source="JENNIFER" target="DAVID" weight="9" />
+      <edge id="1654" source="JENNIFER" target="ALISON" weight="4" />
+      <edge id="1655" source="JENNIFER" target="KEVIN" weight="5" />
+      <edge id="1656" source="JENNIFER" target="STINGO" weight="2" />
+      <edge id="1657" source="COP 1" target="ROBBER" weight="1" />
+      <edge id="1658" source="BRUTUS" target="MR. BEAN" weight="1" />
+      <edge id="1659" source="BRUTUS" target="ELMER" weight="2" />
+      <edge id="1660" source="BRUTUS" target="KEVIN" weight="1" />
+      <edge id="1661" source="BRUTUS" target="DAVID" weight="1" />
+      <edge id="1662" source="STINGO" target="ALISON" weight="1" />
+      <edge id="1663" source="STINGO" target="DAVID" weight="2" />
+      <edge id="1664" source="STINGO" target="JENNIFER" weight="2" />
+      <edge id="1665" source="STINGO" target="KEVIN" weight="1" />
+      <edge id="1666" source="ANNIE" target="DAVID" weight="6" />
+      <edge id="1667" source="ANNIE" target="OLD LADY 1" weight="1" />
+      <edge id="1668" source="ANNIE" target="OLD LADY 2" weight="1" />
+      <edge id="1669" source="ANNIE" target="BEAN" weight="1" />
+      <edge id="1670" source="ANNIE" target="KEVIN" weight="1" />
+      <edge id="1671" source="ANNIE" target="BERNIE" weight="2" />
+      <edge id="1672" source="ANNIE" target="GRIERSON" weight="1" />
+      <edge id="1673" source="ANNIE" target="REYNOLDS" weight="1" />
+      <edge id="1674" source="OLD LADY 1" target="DAVID" weight="1" />
+      <edge id="1675" source="OLD LADY 1" target="OLD LADY 2" weight="1" />
+      <edge id="1676" source="OLD LADY 1" target="ANNIE" weight="1" />
+      <edge id="1677" source="OLD LADY 1" target="BEAN" weight="1" />
+      <edge id="1678" source="OLD LADY 2" target="DAVID" weight="1" />
+      <edge id="1679" source="OLD LADY 2" target="OLD LADY 1" weight="1" />
+      <edge id="1680" source="OLD LADY 2" target="ANNIE" weight="1" />
+      <edge id="1681" source="OLD LADY 2" target="BEAN" weight="1" />
+      <edge id="1682" source="THOMAS GRIERSON" target="GRIERSON" weight="1" />
+      <edge id="1683" source="THOMAS GRIERSON" target="DAVID" weight="1" />
+      <edge id="1684" source="THOMAS GRIERSON" target="BEAN" weight="1" />
+      <edge id="1685" source="THOMAS GRIERSON" target="BERNIE" weight="1" />
+      <edge id="1686" source="ROBBER" target="DAVID" weight="1" />
+      <edge id="1687" source="ROBBER" target="BEAN" weight="1" />
+      <edge id="1688" source="ROBBER" target="COP 1" weight="1" />
+      <edge id="1689" source="ELMER" target="DAVID" weight="4" />
+      <edge id="1690" source="ELMER" target="GRIERSON" weight="1" />
+      <edge id="1691" source="ELMER" target="BEAN" weight="1" />
+      <edge id="1692" source="ELMER" target="BERNIE" weight="1" />
+      <edge id="1693" source="ELMER" target="REYNOLDS" weight="1" />
+      <edge id="1694" source="ELMER" target="BRUTUS" weight="2" />
+      <edge id="1695" source="ELMER" target="KEVIN" weight="1" />
+      <edge id="1696" source="ELEVATOR VOICE" target="THIN WOMAN" weight="1" />
+      <edge id="1697" source="THIN WOMAN" target="ELEVATOR VOICE" weight="1" />
+      <edge id="1698" source="REYNOLDS" target="GRIERSON" weight="5" />
+      <edge id="1699" source="REYNOLDS" target="BERNIE" weight="3" />
+      <edge id="1700" source="REYNOLDS" target="ANNIE" weight="1" />
+      <edge id="1701" source="REYNOLDS" target="ELMER" weight="1" />
+      <edge id="1702" source="REYNOLDS" target="DAVID" weight="3" />
+      <edge id="1703" source="REYNOLDS" target="BEAN" weight="1" />
+      <edge id="1704" source="DOCTOR 1" target="ALISON" weight="1" />
+      <edge id="1705" source="DOCTOR 1" target="DAVID" weight="1" />
+      <edge id="1706" source="NURSE" target="DOCTOR JACOBSON" weight="1" />
+      <edge id="1707" source="NURSE" target="ASSISTANT" weight="1" />
+      <edge id="1708" source="NURSE" target="NURSE 2" weight="1" />
+      <edge id="1709" source="DOCTOR JACOBSON" target="NURSE" weight="1" />
+      <edge id="1710" source="NURSE 2" target="BEAN" weight="1" />
+      <edge id="1711" source="NURSE 2" target="ASSISTANT" weight="1" />
+      <edge id="1712" source="NURSE 2" target="NURSE" weight="1" />
+      <edge id="1713" source="ASSISTANT" target="NURSE 2" weight="1" />
+      <edge id="1714" source="ASSISTANT" target="NURSE" weight="1" />
+      <edge id="1715" source="ASSISTANT" target="SIDE-KICK" weight="1" />
+      <edge id="1716" source="ASSISTANT" target="ALISON" weight="1" />
+      <edge id="1717" source="ASSISTANT" target="DAVID" weight="1" />
+      <edge id="1718" source="ASSISTANT" target="DOCTOR 2" weight="1" />
+      <edge id="1719" source="ASSISTANT" target="DOCTOR" weight="1" />
+      <edge id="1720" source="SIDE-KICK" target="ASSISTANT" weight="1" />
+      <edge id="1721" source="SIDE-KICK" target="ALISON" weight="1" />
+      <edge id="1722" source="SIDE-KICK" target="DAVID" weight="2" />
+      <edge id="1723" source="SIDE-KICK" target="DOCTOR 2" weight="1" />
+      <edge id="1724" source="SIDE-KICK" target="DOCTOR" weight="1" />
+      <edge id="1725" source="SIDE-KICK" target="GRIERSON" weight="1" />
+      <edge id="1726" source="DOCTOR 2" target="SIDE-KICK" weight="1" />
+      <edge id="1727" source="DOCTOR 2" target="ASSISTANT" weight="1" />
+      <edge id="1728" source="DOCTOR 2" target="ALISON" weight="1" />
+      <edge id="1729" source="DOCTOR 2" target="DAVID" weight="1" />
+      <edge id="1730" source="DOCTOR 2" target="DOCTOR" weight="1" />
+      <edge id="1731" source="DOCTOR" target="SIDE-KICK" weight="1" />
+      <edge id="1732" source="DOCTOR" target="ASSISTANT" weight="1" />
+      <edge id="1733" source="DOCTOR" target="ALISON" weight="1" />
+      <edge id="1734" source="DOCTOR" target="DAVID" weight="1" />
+      <edge id="1735" source="DOCTOR" target="DOCTOR 2" weight="1" />
+      <edge id="1736" source="HOSPITAL PORTER" target="ALISON" weight="1" />
+      <edge id="1737" source="HOSPITAL PORTER" target="DAVID" weight="1" />
+      <edge id="1738" source="HOSPITAL PORTER" target="KEVIN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

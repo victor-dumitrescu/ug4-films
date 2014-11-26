@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="T.J." label="T.J." />
+      <node id="RAY" label="RAY" />
+      <node id="RICKY" label="RICKY" />
+      <node id="VERSAILLES" label="VERSAILLES" />
+      <node id="MATT" label="MATT" />
+      <node id="MOHAWK TEENAGER" label="MOHAWK TEENAGER" />
+      <node id="TICKET TAKER" label="TICKET TAKER" />
+      <node id="TICKER TAKET" label="TICKER TAKET" />
+      <node id="LILA" label="LILA" />
+      <node id="JIMMY" label="JIMMY" />
+      <node id="MIKE" label="MIKE" />
+      <node id="BRUNO" label="BRUNO" />
+      <node id="RENTACENTER MAN" label="RENTACENTER MAN" />
+      <node id="EVELYN" label="EVELYN" />
+      <node id="WEATHER MAN" label="WEATHER MAN" />
+      <node id="RAY'S VOICE" label="RAY'S VOICE" />
+      <node id="TROY" label="TROY" />
+      <node id="BERNIE" label="BERNIE" />
+      <node id="CUSTOMER" label="CUSTOMER" />
+      <node id="TROOPER" label="TROOPER" />
+      <node id="ROSALIE" label="ROSALIE" />
+      <node id="Lila" label="Lila" />
+      <node id="DEALER" label="DEALER" />
+      <node id="MITCH" label="MITCH" />
+      <node id="TROOPER NAPOLI" label="TROOPER NAPOLI" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="DISPATCHER" label="DISPATCHER" />
+      <node id="VELMA" label="VELMA" />
+      <node id="THREE RIVERS" label="THREE RIVERS" />
+      <node id="BARBARA" label="BARBARA" />
+    </nodes>
+    <edges>
+      <edge id="7965" source="T.J." target="RAY" weight="10" />
+      <edge id="7966" source="T.J." target="VERSAILLES" weight="1" />
+      <edge id="7967" source="T.J." target="RICKY" weight="6" />
+      <edge id="7968" source="T.J." target="RENTACENTER MAN" weight="1" />
+      <edge id="7969" source="T.J." target="WEATHER MAN" weight="1" />
+      <edge id="7970" source="T.J." target="MITCH" weight="1" />
+      <edge id="7971" source="RAY" target="T.J." weight="10" />
+      <edge id="7972" source="RAY" target="RICKY" weight="7" />
+      <edge id="7973" source="RAY" target="VERSAILLES" weight="2" />
+      <edge id="7974" source="RAY" target="MATT" weight="1" />
+      <edge id="7975" source="RAY" target="MOHAWK TEENAGER" weight="1" />
+      <edge id="7976" source="RAY" target="TICKET TAKER" weight="2" />
+      <edge id="7977" source="RAY" target="TICKER TAKET" weight="1" />
+      <edge id="7978" source="RAY" target="LILA" weight="40" />
+      <edge id="7979" source="RAY" target="BRUNO" weight="2" />
+      <edge id="7980" source="RAY" target="WEATHER MAN" weight="1" />
+      <edge id="7981" source="RAY" target="RAY'S VOICE" weight="1" />
+      <edge id="7982" source="RAY" target="TROY" weight="2" />
+      <edge id="7983" source="RAY" target="CUSTOMER" weight="1" />
+      <edge id="7984" source="RAY" target="TROOPER" weight="1" />
+      <edge id="7985" source="RAY" target="Lila" weight="1" />
+      <edge id="7986" source="RAY" target="DEALER" weight="1" />
+      <edge id="7987" source="RAY" target="TROOPER NAPOLI" weight="5" />
+      <edge id="7988" source="RAY" target="BERNIE" weight="2" />
+      <edge id="7989" source="RICKY" target="RAY" weight="7" />
+      <edge id="7990" source="RICKY" target="T.J." weight="6" />
+      <edge id="7991" source="RICKY" target="VERSAILLES" weight="1" />
+      <edge id="7992" source="RICKY" target="TROOPER NAPOLI" weight="1" />
+      <edge id="7993" source="VERSAILLES" target="T.J." weight="1" />
+      <edge id="7994" source="VERSAILLES" target="RAY" weight="2" />
+      <edge id="7995" source="VERSAILLES" target="RICKY" weight="1" />
+      <edge id="7996" source="MATT" target="RAY" weight="1" />
+      <edge id="7997" source="MOHAWK TEENAGER" target="RAY" weight="1" />
+      <edge id="7998" source="TICKET TAKER" target="RAY" weight="2" />
+      <edge id="7999" source="TICKET TAKER" target="TICKER TAKET" weight="1" />
+      <edge id="8000" source="TICKER TAKET" target="TICKET TAKER" weight="1" />
+      <edge id="8001" source="TICKER TAKET" target="RAY" weight="1" />
+      <edge id="8002" source="LILA" target="RAY" weight="40" />
+      <edge id="8003" source="LILA" target="JIMMY" weight="3" />
+      <edge id="8004" source="LILA" target="MIKE" weight="1" />
+      <edge id="8005" source="LILA" target="BRUNO" weight="3" />
+      <edge id="8006" source="LILA" target="BERNIE" weight="5" />
+      <edge id="8007" source="LILA" target="ROSALIE" weight="1" />
+      <edge id="8008" source="LILA" target="Lila" weight="1" />
+      <edge id="8009" source="LILA" target="BARTENDER" weight="1" />
+      <edge id="8010" source="LILA" target="EVELYN" weight="1" />
+      <edge id="8011" source="JIMMY" target="LILA" weight="3" />
+      <edge id="8012" source="JIMMY" target="VELMA" weight="1" />
+      <edge id="8013" source="JIMMY" target="THREE RIVERS" weight="1" />
+      <edge id="8014" source="MIKE" target="LILA" weight="1" />
+      <edge id="8015" source="BRUNO" target="RAY" weight="2" />
+      <edge id="8016" source="BRUNO" target="LILA" weight="3" />
+      <edge id="8017" source="BRUNO" target="BARTENDER" weight="1" />
+      <edge id="8018" source="RENTACENTER MAN" target="T.J." weight="1" />
+      <edge id="8019" source="EVELYN" target="LILA" weight="1" />
+      <edge id="8020" source="WEATHER MAN" target="T.J." weight="1" />
+      <edge id="8021" source="WEATHER MAN" target="RAY" weight="1" />
+      <edge id="8022" source="RAY'S VOICE" target="RAY" weight="1" />
+      <edge id="8023" source="RAY'S VOICE" target="TROY" weight="1" />
+      <edge id="8024" source="TROY" target="RAY'S VOICE" weight="1" />
+      <edge id="8025" source="TROY" target="RAY" weight="2" />
+      <edge id="8026" source="BERNIE" target="LILA" weight="5" />
+      <edge id="8027" source="BERNIE" target="THREE RIVERS" weight="1" />
+      <edge id="8028" source="BERNIE" target="ROSALIE" weight="1" />
+      <edge id="8029" source="BERNIE" target="BARBARA" weight="1" />
+      <edge id="8030" source="BERNIE" target="RAY" weight="2" />
+      <edge id="8031" source="CUSTOMER" target="RAY" weight="1" />
+      <edge id="8032" source="CUSTOMER" target="TROOPER" weight="1" />
+      <edge id="8033" source="TROOPER" target="RAY" weight="1" />
+      <edge id="8034" source="TROOPER" target="CUSTOMER" weight="1" />
+      <edge id="8035" source="ROSALIE" target="LILA" weight="1" />
+      <edge id="8036" source="ROSALIE" target="THREE RIVERS" weight="1" />
+      <edge id="8037" source="ROSALIE" target="BARBARA" weight="1" />
+      <edge id="8038" source="ROSALIE" target="BERNIE" weight="1" />
+      <edge id="8039" source="Lila" target="RAY" weight="1" />
+      <edge id="8040" source="Lila" target="LILA" weight="1" />
+      <edge id="8041" source="DEALER" target="RAY" weight="1" />
+      <edge id="8042" source="MITCH" target="T.J." weight="1" />
+      <edge id="8043" source="TROOPER NAPOLI" target="RAY" weight="5" />
+      <edge id="8044" source="TROOPER NAPOLI" target="RICKY" weight="1" />
+      <edge id="8045" source="BARTENDER" target="LILA" weight="1" />
+      <edge id="8046" source="BARTENDER" target="BRUNO" weight="1" />
+      <edge id="8047" source="VELMA" target="JIMMY" weight="1" />
+      <edge id="8048" source="THREE RIVERS" target="ROSALIE" weight="1" />
+      <edge id="8049" source="THREE RIVERS" target="BARBARA" weight="1" />
+      <edge id="8050" source="THREE RIVERS" target="BERNIE" weight="1" />
+      <edge id="8051" source="THREE RIVERS" target="JIMMY" weight="1" />
+      <edge id="8052" source="BARBARA" target="THREE RIVERS" weight="1" />
+      <edge id="8053" source="BARBARA" target="ROSALIE" weight="1" />
+      <edge id="8054" source="BARBARA" target="BERNIE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

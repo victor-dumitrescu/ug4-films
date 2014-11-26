@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GRUMPY" label="GRUMPY" />
+      <node id="CHUCKLES" label="CHUCKLES" />
+      <node id="HAPPY" label="HAPPY" />
+      <node id="DOPEY" label="DOPEY" />
+      <node id="BANK MANAGER" label="BANK MANAGER" />
+      <node id="BOZO" label="BOZO" />
+      <node id="THE JOKER" label="THE JOKER" />
+      <node id="DEALER" label="DEALER" />
+      <node id="BUYER" label="BUYER" />
+      <node id="ENGEL" label="ENGEL" />
+      <node id="MAYOR" label="MAYOR" />
+      <node id="RAMIREZ" label="RAMIREZ" />
+      <node id="WUERTZ" label="WUERTZ" />
+      <node id="GORDON" label="GORDON" />
+      <node id="CHECHEN" label="CHECHEN" />
+      <node id="JUNKIE" label="JUNKIE" />
+      <node id="VOICE" label="VOICE" />
+      <node id="SCARECROW" label="SCARECROW" />
+      <node id="BODYGUARD" label="BODYGUARD" />
+      <node id="&quot;BATMAN&quot;" label="&quot;BATMAN&quot;" />
+      <node id="BATMAN" label="BATMAN" />
+      <node id="ALFRED" label="ALFRED" />
+      <node id="WAYNE" label="WAYNE" />
+      <node id="DENT" label="DENT" />
+      <node id="RACHEL" label="RACHEL" />
+      <node id="MARONI" label="MARONI" />
+      <node id="ROSSI" label="ROSSI" />
+      <node id="LAU" label="LAU" />
+      <node id="FOX" label="FOX" />
+      <node id="REESE" label="REESE" />
+      <node id="NATASCHA" label="NATASCHA" />
+      <node id="CRIME BOSS" label="CRIME BOSS" />
+      <node id="GAMBOL" label="GAMBOL" />
+      <node id="VP" label="VP" />
+      <node id="EVANS" label="EVANS" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="JUDGE SURRILLO" label="JUDGE SURRILLO" />
+      <node id="LOEB" label="LOEB" />
+      <node id="MAN" label="MAN" />
+      <node id="COMMISSIONER LOEB" label="COMMISSIONER LOEB" />
+      <node id="SURRILLO" label="SURRILLO" />
+      <node id="MAN 1" label="MAN 1" />
+      <node id="MAN 2" label="MAN 2" />
+      <node id="STEPHENS" label="STEPHENS" />
+      <node id="ASSISTANT DA" label="ASSISTANT DA" />
+      <node id="THUG" label="THUG" />
+      <node id="GENTLEMAN" label="GENTLEMAN" />
+      <node id="MALE GUEST" label="MALE GUEST" />
+      <node id="FEMALE GUEST" label="FEMALE GUEST" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="DISPATCH" label="DISPATCH" />
+      <node id="POLICE SNIPER" label="POLICE SNIPER" />
+      <node id="BARBARA" label="BARBARA" />
+      <node id="MISTRESS" label="MISTRESS" />
+      <node id="JOKER'S THUG" label="JOKER'S THUG" />
+      <node id="HECKLER" label="HECKLER" />
+      <node id="COP HECKLER" label="COP HECKLER" />
+      <node id="ACTING COMISSIONER" label="ACTING COMISSIONER" />
+      <node id="SHOTGUN SWAT" label="SHOTGUN SWAT" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="RADIO" label="RADIO" />
+      <node id="BATMOBILE VOICE" label="BATMOBILE VOICE" />
+      <node id="PILOT" label="PILOT" />
+      <node id="DETECTIVE MURPHY" label="DETECTIVE MURPHY" />
+      <node id="FAT THUG" label="FAT THUG" />
+      <node id="JAMES" label="JAMES" />
+      <node id="COP" label="COP" />
+      <node id="MEDIC" label="MEDIC" />
+      <node id="SERGEANT" label="SERGEANT" />
+      <node id="CALLER 1" label="CALLER 1" />
+      <node id="CALLER 2" label="CALLER 2" />
+      <node id="OLD LADY" label="OLD LADY" />
+      <node id="UNIFORMED COP" label="UNIFORMED COP" />
+      <node id="NURSE" label="NURSE" />
+      <node id="POLK" label="POLK" />
+      <node id="BERG" label="BERG" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="CIVILIAN" label="CIVILIAN" />
+      <node id="NATIONAL GUARDSMAN" label="NATIONAL GUARDSMAN" />
+      <node id="FIRST MATE" label="FIRST MATE" />
+      <node id="PILOT [PRISON FERRY]" label="PILOT [PRISON FERRY]" />
+      <node id="PILOT [PASSENGER FERRY]" label="PILOT [PASSENGER FERRY]" />
+      <node id="NATIONAL GUARD COMMANDER" label="NATIONAL GUARD COMMANDER" />
+      <node id="BUSINESSMAN" label="BUSINESSMAN" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="PASSENGER 1" label="PASSENGER 1" />
+      <node id="PASSENGER 2" label="PASSENGER 2" />
+      <node id="SWAT" label="SWAT" />
+      <node id="SWAT SNIPER" label="SWAT SNIPER" />
+      <node id="SWAT LEADER" label="SWAT LEADER" />
+      <node id="SNIPER" label="SNIPER" />
+      <node id="PRISONER 1" label="PRISONER 1" />
+      <node id="PASSENGER 3" label="PASSENGER 3" />
+      <node id="TATTOOED PRISONER" label="TATTOOED PRISONER" />
+    </nodes>
+    <edges>
+      <edge id="20201" source="GRUMPY" target="CHUCKLES" weight="1" />
+      <edge id="20202" source="GRUMPY" target="BANK MANAGER" weight="2" />
+      <edge id="20203" source="GRUMPY" target="HAPPY" weight="1" />
+      <edge id="20204" source="GRUMPY" target="BOZO" weight="1" />
+      <edge id="20205" source="GRUMPY" target="THE JOKER" weight="1" />
+      <edge id="20206" source="CHUCKLES" target="GRUMPY" weight="1" />
+      <edge id="20207" source="HAPPY" target="DOPEY" weight="2" />
+      <edge id="20208" source="HAPPY" target="GRUMPY" weight="1" />
+      <edge id="20209" source="DOPEY" target="HAPPY" weight="2" />
+      <edge id="20210" source="BANK MANAGER" target="GRUMPY" weight="2" />
+      <edge id="20211" source="BANK MANAGER" target="BOZO" weight="1" />
+      <edge id="20212" source="BANK MANAGER" target="THE JOKER" weight="1" />
+      <edge id="20213" source="BOZO" target="GRUMPY" weight="1" />
+      <edge id="20214" source="BOZO" target="BANK MANAGER" weight="1" />
+      <edge id="20215" source="BOZO" target="THE JOKER" weight="1" />
+      <edge id="20216" source="THE JOKER" target="GRUMPY" weight="1" />
+      <edge id="20217" source="THE JOKER" target="BOZO" weight="1" />
+      <edge id="20218" source="THE JOKER" target="BANK MANAGER" weight="1" />
+      <edge id="20219" source="THE JOKER" target="CHECHEN" weight="2" />
+      <edge id="20220" source="THE JOKER" target="LAU" weight="1" />
+      <edge id="20221" source="THE JOKER" target="MARONI" weight="1" />
+      <edge id="20222" source="THE JOKER" target="GAMBOL" weight="2" />
+      <edge id="20223" source="THE JOKER" target="BODYGUARD" weight="1" />
+      <edge id="20224" source="THE JOKER" target="WAYNE" weight="2" />
+      <edge id="20225" source="THE JOKER" target="ALFRED" weight="1" />
+      <edge id="20226" source="THE JOKER" target="MAYOR" weight="1" />
+      <edge id="20227" source="THE JOKER" target="ENGEL" weight="2" />
+      <edge id="20228" source="THE JOKER" target="VOICE" weight="2" />
+      <edge id="20229" source="THE JOKER" target="MAN" weight="1" />
+      <edge id="20230" source="THE JOKER" target="ASSISTANT DA" weight="1" />
+      <edge id="20231" source="THE JOKER" target="GENTLEMAN" weight="1" />
+      <edge id="20232" source="THE JOKER" target="RACHEL" weight="1" />
+      <edge id="20233" source="THE JOKER" target="BATMAN" weight="9" />
+      <edge id="20234" source="THE JOKER" target="DRIVER" weight="1" />
+      <edge id="20235" source="THE JOKER" target="JOKER'S THUG" weight="1" />
+      <edge id="20236" source="THE JOKER" target="THUG" weight="1" />
+      <edge id="20237" source="THE JOKER" target="GORDON" weight="3" />
+      <edge id="20238" source="THE JOKER" target="STEPHENS" weight="3" />
+      <edge id="20239" source="THE JOKER" target="DETECTIVE MURPHY" weight="2" />
+      <edge id="20240" source="THE JOKER" target="UNIFORMED COP" weight="1" />
+      <edge id="20241" source="THE JOKER" target="DENT" weight="2" />
+      <edge id="20242" source="THE JOKER" target="FOX" weight="3" />
+      <edge id="20243" source="THE JOKER" target="NATIONAL GUARD COMMANDER" weight="1" />
+      <edge id="20244" source="THE JOKER" target="PILOT [PRISON FERRY]" weight="1" />
+      <edge id="20245" source="DEALER" target="BUYER" weight="1" />
+      <edge id="20246" source="BUYER" target="DEALER" weight="1" />
+      <edge id="20247" source="ENGEL" target="MAYOR" weight="2" />
+      <edge id="20248" source="ENGEL" target="RAMIREZ" weight="1" />
+      <edge id="20249" source="ENGEL" target="WUERTZ" weight="1" />
+      <edge id="20250" source="ENGEL" target="WAYNE" weight="1" />
+      <edge id="20251" source="ENGEL" target="ALFRED" weight="2" />
+      <edge id="20252" source="ENGEL" target="VOICE" weight="1" />
+      <edge id="20253" source="ENGEL" target="MAN" weight="1" />
+      <edge id="20254" source="ENGEL" target="THE JOKER" weight="2" />
+      <edge id="20255" source="ENGEL" target="GORDON" weight="2" />
+      <edge id="20256" source="ENGEL" target="POLICE SNIPER" weight="1" />
+      <edge id="20257" source="ENGEL" target="CALLER 1" weight="1" />
+      <edge id="20258" source="ENGEL" target="REESE" weight="1" />
+      <edge id="20259" source="ENGEL" target="CALLER 2" weight="1" />
+      <edge id="20260" source="ENGEL" target="OLD LADY" weight="1" />
+      <edge id="20261" source="ENGEL" target="BATMAN" weight="1" />
+      <edge id="20262" source="MAYOR" target="ENGEL" weight="2" />
+      <edge id="20263" source="MAYOR" target="RAMIREZ" weight="1" />
+      <edge id="20264" source="MAYOR" target="WUERTZ" weight="1" />
+      <edge id="20265" source="MAYOR" target="DENT" weight="1" />
+      <edge id="20266" source="MAYOR" target="LOEB" weight="1" />
+      <edge id="20267" source="MAYOR" target="GORDON" weight="3" />
+      <edge id="20268" source="MAYOR" target="WAYNE" weight="1" />
+      <edge id="20269" source="MAYOR" target="ALFRED" weight="1" />
+      <edge id="20270" source="MAYOR" target="VOICE" weight="1" />
+      <edge id="20271" source="MAYOR" target="MAN" weight="1" />
+      <edge id="20272" source="MAYOR" target="THE JOKER" weight="1" />
+      <edge id="20273" source="RAMIREZ" target="ENGEL" weight="1" />
+      <edge id="20274" source="RAMIREZ" target="MAYOR" weight="1" />
+      <edge id="20275" source="RAMIREZ" target="WUERTZ" weight="1" />
+      <edge id="20276" source="RAMIREZ" target="GORDON" weight="4" />
+      <edge id="20277" source="RAMIREZ" target="BATMAN" weight="2" />
+      <edge id="20278" source="RAMIREZ" target="VOICE" weight="1" />
+      <edge id="20279" source="RAMIREZ" target="DENT" weight="2" />
+      <edge id="20280" source="RAMIREZ" target="BARBARA" weight="1" />
+      <edge id="20281" source="WUERTZ" target="ENGEL" weight="1" />
+      <edge id="20282" source="WUERTZ" target="MAYOR" weight="1" />
+      <edge id="20283" source="WUERTZ" target="RAMIREZ" weight="1" />
+      <edge id="20284" source="WUERTZ" target="BARTENDER" weight="1" />
+      <edge id="20285" source="WUERTZ" target="DENT" weight="1" />
+      <edge id="20286" source="GORDON" target="RAMIREZ" weight="4" />
+      <edge id="20287" source="GORDON" target="BATMAN" weight="8" />
+      <edge id="20288" source="GORDON" target="DENT" weight="12" />
+      <edge id="20289" source="GORDON" target="RACHEL" weight="1" />
+      <edge id="20290" source="GORDON" target="CHECHEN" weight="1" />
+      <edge id="20291" source="GORDON" target="MARONI" weight="2" />
+      <edge id="20292" source="GORDON" target="MAYOR" weight="3" />
+      <edge id="20293" source="GORDON" target="LOEB" weight="3" />
+      <edge id="20294" source="GORDON" target="COMMISSIONER LOEB" weight="1" />
+      <edge id="20295" source="GORDON" target="STEPHENS" weight="2" />
+      <edge id="20296" source="GORDON" target="VOICE" weight="2" />
+      <edge id="20297" source="GORDON" target="ENGEL" weight="2" />
+      <edge id="20298" source="GORDON" target="POLICE SNIPER" weight="1" />
+      <edge id="20299" source="GORDON" target="THE JOKER" weight="3" />
+      <edge id="20300" source="GORDON" target="JAMES" weight="3" />
+      <edge id="20301" source="GORDON" target="SERGEANT" weight="1" />
+      <edge id="20302" source="GORDON" target="DETECTIVE MURPHY" weight="1" />
+      <edge id="20303" source="GORDON" target="UNIFORMED COP" weight="1" />
+      <edge id="20304" source="GORDON" target="BERG" weight="3" />
+      <edge id="20305" source="GORDON" target="WAYNE" weight="1" />
+      <edge id="20306" source="GORDON" target="COP" weight="2" />
+      <edge id="20307" source="GORDON" target="SWAT SNIPER" weight="1" />
+      <edge id="20308" source="GORDON" target="SWAT LEADER" weight="2" />
+      <edge id="20309" source="GORDON" target="BARBARA" weight="1" />
+      <edge id="20310" source="CHECHEN" target="JUNKIE" weight="1" />
+      <edge id="20311" source="CHECHEN" target="VOICE" weight="1" />
+      <edge id="20312" source="CHECHEN" target="SCARECROW" weight="1" />
+      <edge id="20313" source="CHECHEN" target="BODYGUARD" weight="1" />
+      <edge id="20314" source="CHECHEN" target="CRIME BOSS" weight="1" />
+      <edge id="20315" source="CHECHEN" target="LAU" weight="2" />
+      <edge id="20316" source="CHECHEN" target="MARONI" weight="3" />
+      <edge id="20317" source="CHECHEN" target="GAMBOL" weight="1" />
+      <edge id="20318" source="CHECHEN" target="THE JOKER" weight="2" />
+      <edge id="20319" source="CHECHEN" target="DENT" weight="1" />
+      <edge id="20320" source="CHECHEN" target="GORDON" weight="1" />
+      <edge id="20321" source="JUNKIE" target="CHECHEN" weight="1" />
+      <edge id="20322" source="JUNKIE" target="VOICE" weight="1" />
+      <edge id="20323" source="JUNKIE" target="SCARECROW" weight="1" />
+      <edge id="20324" source="JUNKIE" target="BODYGUARD" weight="1" />
+      <edge id="20325" source="VOICE" target="CHECHEN" weight="1" />
+      <edge id="20326" source="VOICE" target="JUNKIE" weight="1" />
+      <edge id="20327" source="VOICE" target="SCARECROW" weight="1" />
+      <edge id="20328" source="VOICE" target="BODYGUARD" weight="1" />
+      <edge id="20329" source="VOICE" target="WAYNE" weight="1" />
+      <edge id="20330" source="VOICE" target="ALFRED" weight="1" />
+      <edge id="20331" source="VOICE" target="MAYOR" weight="1" />
+      <edge id="20332" source="VOICE" target="ENGEL" weight="1" />
+      <edge id="20333" source="VOICE" target="MAN" weight="1" />
+      <edge id="20334" source="VOICE" target="THE JOKER" weight="2" />
+      <edge id="20335" source="VOICE" target="DISPATCH" weight="1" />
+      <edge id="20336" source="VOICE" target="GORDON" weight="2" />
+      <edge id="20337" source="VOICE" target="RAMIREZ" weight="1" />
+      <edge id="20338" source="VOICE" target="BATMAN" weight="1" />
+      <edge id="20339" source="SCARECROW" target="CHECHEN" weight="1" />
+      <edge id="20340" source="SCARECROW" target="JUNKIE" weight="1" />
+      <edge id="20341" source="SCARECROW" target="VOICE" weight="1" />
+      <edge id="20342" source="SCARECROW" target="BODYGUARD" weight="1" />
+      <edge id="20343" source="SCARECROW" target="&quot;BATMAN&quot;" weight="1" />
+      <edge id="20344" source="SCARECROW" target="BATMAN" weight="1" />
+      <edge id="20345" source="BODYGUARD" target="CHECHEN" weight="1" />
+      <edge id="20346" source="BODYGUARD" target="JUNKIE" weight="1" />
+      <edge id="20347" source="BODYGUARD" target="VOICE" weight="1" />
+      <edge id="20348" source="BODYGUARD" target="SCARECROW" weight="1" />
+      <edge id="20349" source="BODYGUARD" target="GAMBOL" weight="1" />
+      <edge id="20350" source="BODYGUARD" target="THE JOKER" weight="1" />
+      <edge id="20351" source="BODYGUARD" target="LAU" weight="1" />
+      <edge id="20352" source="&quot;BATMAN&quot;" target="BATMAN" weight="1" />
+      <edge id="20353" source="&quot;BATMAN&quot;" target="SCARECROW" weight="1" />
+      <edge id="20354" source="BATMAN" target="&quot;BATMAN&quot;" weight="1" />
+      <edge id="20355" source="BATMAN" target="SCARECROW" weight="1" />
+      <edge id="20356" source="BATMAN" target="RAMIREZ" weight="2" />
+      <edge id="20357" source="BATMAN" target="GORDON" weight="8" />
+      <edge id="20358" source="BATMAN" target="DENT" weight="3" />
+      <edge id="20359" source="BATMAN" target="THE JOKER" weight="9" />
+      <edge id="20360" source="BATMAN" target="RACHEL" weight="2" />
+      <edge id="20361" source="BATMAN" target="VOICE" weight="1" />
+      <edge id="20362" source="BATMAN" target="MARONI" weight="2" />
+      <edge id="20363" source="BATMAN" target="JOKER'S THUG" weight="1" />
+      <edge id="20364" source="BATMAN" target="FOX" weight="3" />
+      <edge id="20365" source="BATMAN" target="WAYNE" weight="1" />
+      <edge id="20366" source="BATMAN" target="SWAT SNIPER" weight="1" />
+      <edge id="20367" source="BATMAN" target="SWAT LEADER" weight="1" />
+      <edge id="20368" source="BATMAN" target="ENGEL" weight="1" />
+      <edge id="20369" source="BATMAN" target="JAMES" weight="1" />
+      <edge id="20370" source="ALFRED" target="WAYNE" weight="10" />
+      <edge id="20371" source="ALFRED" target="MAYOR" weight="1" />
+      <edge id="20372" source="ALFRED" target="ENGEL" weight="2" />
+      <edge id="20373" source="ALFRED" target="VOICE" weight="1" />
+      <edge id="20374" source="ALFRED" target="MAN" weight="1" />
+      <edge id="20375" source="ALFRED" target="THE JOKER" weight="1" />
+      <edge id="20376" source="ALFRED" target="RACHEL" weight="2" />
+      <edge id="20377" source="ALFRED" target="DENT" weight="2" />
+      <edge id="20378" source="WAYNE" target="ALFRED" weight="10" />
+      <edge id="20379" source="WAYNE" target="FOX" weight="7" />
+      <edge id="20380" source="WAYNE" target="DENT" weight="4" />
+      <edge id="20381" source="WAYNE" target="RACHEL" weight="5" />
+      <edge id="20382" source="WAYNE" target="NATASCHA" weight="2" />
+      <edge id="20383" source="WAYNE" target="MAYOR" weight="1" />
+      <edge id="20384" source="WAYNE" target="ENGEL" weight="1" />
+      <edge id="20385" source="WAYNE" target="VOICE" weight="1" />
+      <edge id="20386" source="WAYNE" target="MAN" weight="1" />
+      <edge id="20387" source="WAYNE" target="THE JOKER" weight="2" />
+      <edge id="20388" source="WAYNE" target="REESE" weight="1" />
+      <edge id="20389" source="WAYNE" target="GORDON" weight="1" />
+      <edge id="20390" source="WAYNE" target="BATMAN" weight="1" />
+      <edge id="20391" source="DENT" target="RACHEL" weight="18" />
+      <edge id="20392" source="DENT" target="MARONI" weight="3" />
+      <edge id="20393" source="DENT" target="ROSSI" weight="1" />
+      <edge id="20394" source="DENT" target="GORDON" weight="12" />
+      <edge id="20395" source="DENT" target="WAYNE" weight="4" />
+      <edge id="20396" source="DENT" target="NATASCHA" weight="2" />
+      <edge id="20397" source="DENT" target="BATMAN" weight="3" />
+      <edge id="20398" source="DENT" target="REPORTER" weight="3" />
+      <edge id="20399" source="DENT" target="CHECHEN" weight="1" />
+      <edge id="20400" source="DENT" target="MAYOR" weight="1" />
+      <edge id="20401" source="DENT" target="LOEB" weight="1" />
+      <edge id="20402" source="DENT" target="ALFRED" weight="2" />
+      <edge id="20403" source="DENT" target="STEPHENS" weight="1" />
+      <edge id="20404" source="DENT" target="LAU" weight="1" />
+      <edge id="20405" source="DENT" target="JOKER'S THUG" weight="1" />
+      <edge id="20406" source="DENT" target="HECKLER" weight="2" />
+      <edge id="20407" source="DENT" target="COP HECKLER" weight="1" />
+      <edge id="20408" source="DENT" target="ACTING COMISSIONER" weight="1" />
+      <edge id="20409" source="DENT" target="RAMIREZ" weight="2" />
+      <edge id="20410" source="DENT" target="THE JOKER" weight="2" />
+      <edge id="20411" source="DENT" target="BARTENDER" weight="1" />
+      <edge id="20412" source="DENT" target="WUERTZ" weight="1" />
+      <edge id="20413" source="DENT" target="SWAT LEADER" weight="1" />
+      <edge id="20414" source="DENT" target="BARBARA" weight="1" />
+      <edge id="20415" source="RACHEL" target="DENT" weight="18" />
+      <edge id="20416" source="RACHEL" target="MARONI" weight="1" />
+      <edge id="20417" source="RACHEL" target="WAYNE" weight="5" />
+      <edge id="20418" source="RACHEL" target="NATASCHA" weight="2" />
+      <edge id="20419" source="RACHEL" target="LAU" weight="2" />
+      <edge id="20420" source="RACHEL" target="EVANS" weight="1" />
+      <edge id="20421" source="RACHEL" target="GORDON" weight="1" />
+      <edge id="20422" source="RACHEL" target="ALFRED" weight="2" />
+      <edge id="20423" source="RACHEL" target="THE JOKER" weight="1" />
+      <edge id="20424" source="RACHEL" target="GENTLEMAN" weight="1" />
+      <edge id="20425" source="RACHEL" target="BATMAN" weight="2" />
+      <edge id="20426" source="RACHEL" target="ACTING COMISSIONER" weight="1" />
+      <edge id="20427" source="MARONI" target="DENT" weight="3" />
+      <edge id="20428" source="MARONI" target="RACHEL" weight="1" />
+      <edge id="20429" source="MARONI" target="CRIME BOSS" weight="1" />
+      <edge id="20430" source="MARONI" target="LAU" weight="2" />
+      <edge id="20431" source="MARONI" target="CHECHEN" weight="3" />
+      <edge id="20432" source="MARONI" target="GAMBOL" weight="1" />
+      <edge id="20433" source="MARONI" target="THE JOKER" weight="1" />
+      <edge id="20434" source="MARONI" target="GORDON" weight="2" />
+      <edge id="20435" source="MARONI" target="MISTRESS" weight="1" />
+      <edge id="20436" source="MARONI" target="BATMAN" weight="2" />
+      <edge id="20437" source="ROSSI" target="DENT" weight="1" />
+      <edge id="20438" source="LAU" target="FOX" weight="3" />
+      <edge id="20439" source="LAU" target="REESE" weight="1" />
+      <edge id="20440" source="LAU" target="CRIME BOSS" weight="1" />
+      <edge id="20441" source="LAU" target="CHECHEN" weight="2" />
+      <edge id="20442" source="LAU" target="MARONI" weight="2" />
+      <edge id="20443" source="LAU" target="GAMBOL" weight="1" />
+      <edge id="20444" source="LAU" target="THE JOKER" weight="1" />
+      <edge id="20445" source="LAU" target="BODYGUARD" weight="1" />
+      <edge id="20446" source="LAU" target="RACHEL" weight="2" />
+      <edge id="20447" source="LAU" target="EVANS" weight="1" />
+      <edge id="20448" source="LAU" target="DENT" weight="1" />
+      <edge id="20449" source="FOX" target="LAU" weight="3" />
+      <edge id="20450" source="FOX" target="REESE" weight="3" />
+      <edge id="20451" source="FOX" target="WAYNE" weight="7" />
+      <edge id="20452" source="FOX" target="VP" weight="1" />
+      <edge id="20453" source="FOX" target="BATMAN" weight="3" />
+      <edge id="20454" source="FOX" target="THE JOKER" weight="3" />
+      <edge id="20455" source="REESE" target="LAU" weight="1" />
+      <edge id="20456" source="REESE" target="FOX" weight="3" />
+      <edge id="20457" source="REESE" target="WAYNE" weight="1" />
+      <edge id="20458" source="REESE" target="CALLER 1" weight="1" />
+      <edge id="20459" source="REESE" target="ENGEL" weight="1" />
+      <edge id="20460" source="REESE" target="CALLER 2" weight="1" />
+      <edge id="20461" source="REESE" target="OLD LADY" weight="1" />
+      <edge id="20462" source="NATASCHA" target="DENT" weight="2" />
+      <edge id="20463" source="NATASCHA" target="RACHEL" weight="2" />
+      <edge id="20464" source="NATASCHA" target="WAYNE" weight="2" />
+      <edge id="20465" source="CRIME BOSS" target="LAU" weight="1" />
+      <edge id="20466" source="CRIME BOSS" target="CHECHEN" weight="1" />
+      <edge id="20467" source="CRIME BOSS" target="MARONI" weight="1" />
+      <edge id="20468" source="GAMBOL" target="CHECHEN" weight="1" />
+      <edge id="20469" source="GAMBOL" target="LAU" weight="1" />
+      <edge id="20470" source="GAMBOL" target="MARONI" weight="1" />
+      <edge id="20471" source="GAMBOL" target="THE JOKER" weight="2" />
+      <edge id="20472" source="GAMBOL" target="BODYGUARD" weight="1" />
+      <edge id="20473" source="VP" target="FOX" weight="1" />
+      <edge id="20474" source="EVANS" target="RACHEL" weight="1" />
+      <edge id="20475" source="EVANS" target="LAU" weight="1" />
+      <edge id="20476" source="REPORTER" target="DENT" weight="3" />
+      <edge id="20477" source="REPORTER" target="HECKLER" weight="2" />
+      <edge id="20478" source="REPORTER" target="COP HECKLER" weight="1" />
+      <edge id="20479" source="LOEB" target="MAYOR" weight="1" />
+      <edge id="20480" source="LOEB" target="DENT" weight="1" />
+      <edge id="20481" source="LOEB" target="GORDON" weight="3" />
+      <edge id="20482" source="LOEB" target="COMMISSIONER LOEB" weight="1" />
+      <edge id="20483" source="LOEB" target="STEPHENS" weight="1" />
+      <edge id="20484" source="MAN" target="WAYNE" weight="1" />
+      <edge id="20485" source="MAN" target="ALFRED" weight="1" />
+      <edge id="20486" source="MAN" target="MAYOR" weight="1" />
+      <edge id="20487" source="MAN" target="ENGEL" weight="1" />
+      <edge id="20488" source="MAN" target="VOICE" weight="1" />
+      <edge id="20489" source="MAN" target="THE JOKER" weight="1" />
+      <edge id="20490" source="COMMISSIONER LOEB" target="GORDON" weight="1" />
+      <edge id="20491" source="COMMISSIONER LOEB" target="LOEB" weight="1" />
+      <edge id="20492" source="SURRILLO" target="MAN 1" weight="1" />
+      <edge id="20493" source="SURRILLO" target="MAN 2" weight="1" />
+      <edge id="20494" source="MAN 1" target="SURRILLO" weight="1" />
+      <edge id="20495" source="MAN 1" target="MAN 2" weight="1" />
+      <edge id="20496" source="MAN 2" target="SURRILLO" weight="1" />
+      <edge id="20497" source="MAN 2" target="MAN 1" weight="1" />
+      <edge id="20498" source="STEPHENS" target="LOEB" weight="1" />
+      <edge id="20499" source="STEPHENS" target="GORDON" weight="2" />
+      <edge id="20500" source="STEPHENS" target="DENT" weight="1" />
+      <edge id="20501" source="STEPHENS" target="BARBARA" weight="1" />
+      <edge id="20502" source="STEPHENS" target="THE JOKER" weight="3" />
+      <edge id="20503" source="STEPHENS" target="DETECTIVE MURPHY" weight="1" />
+      <edge id="20504" source="ASSISTANT DA" target="THE JOKER" weight="1" />
+      <edge id="20505" source="THUG" target="THE JOKER" weight="1" />
+      <edge id="20506" source="GENTLEMAN" target="THE JOKER" weight="1" />
+      <edge id="20507" source="GENTLEMAN" target="RACHEL" weight="1" />
+      <edge id="20508" source="MALE GUEST" target="FEMALE GUEST" weight="1" />
+      <edge id="20509" source="FEMALE GUEST" target="MALE GUEST" weight="1" />
+      <edge id="20510" source="DRIVER" target="THE JOKER" weight="1" />
+      <edge id="20511" source="DISPATCH" target="VOICE" weight="1" />
+      <edge id="20512" source="POLICE SNIPER" target="ENGEL" weight="1" />
+      <edge id="20513" source="POLICE SNIPER" target="GORDON" weight="1" />
+      <edge id="20514" source="BARBARA" target="STEPHENS" weight="1" />
+      <edge id="20515" source="BARBARA" target="RAMIREZ" weight="1" />
+      <edge id="20516" source="BARBARA" target="DENT" weight="1" />
+      <edge id="20517" source="BARBARA" target="GORDON" weight="1" />
+      <edge id="20518" source="MISTRESS" target="MARONI" weight="1" />
+      <edge id="20519" source="JOKER'S THUG" target="DENT" weight="1" />
+      <edge id="20520" source="JOKER'S THUG" target="BATMAN" weight="1" />
+      <edge id="20521" source="JOKER'S THUG" target="THE JOKER" weight="1" />
+      <edge id="20522" source="HECKLER" target="DENT" weight="2" />
+      <edge id="20523" source="HECKLER" target="REPORTER" weight="2" />
+      <edge id="20524" source="HECKLER" target="COP HECKLER" weight="1" />
+      <edge id="20525" source="COP HECKLER" target="HECKLER" weight="1" />
+      <edge id="20526" source="COP HECKLER" target="DENT" weight="1" />
+      <edge id="20527" source="COP HECKLER" target="REPORTER" weight="1" />
+      <edge id="20528" source="ACTING COMISSIONER" target="RACHEL" weight="1" />
+      <edge id="20529" source="ACTING COMISSIONER" target="DENT" weight="1" />
+      <edge id="20530" source="SHOTGUN SWAT" target="RADIO" weight="1" />
+      <edge id="20531" source="RADIO" target="SHOTGUN SWAT" weight="1" />
+      <edge id="20532" source="DETECTIVE MURPHY" target="FAT THUG" weight="1" />
+      <edge id="20533" source="DETECTIVE MURPHY" target="STEPHENS" weight="1" />
+      <edge id="20534" source="DETECTIVE MURPHY" target="THE JOKER" weight="2" />
+      <edge id="20535" source="DETECTIVE MURPHY" target="GORDON" weight="1" />
+      <edge id="20536" source="DETECTIVE MURPHY" target="UNIFORMED COP" weight="1" />
+      <edge id="20537" source="FAT THUG" target="DETECTIVE MURPHY" weight="1" />
+      <edge id="20538" source="FAT THUG" target="COP" weight="1" />
+      <edge id="20539" source="JAMES" target="GORDON" weight="3" />
+      <edge id="20540" source="JAMES" target="BATMAN" weight="1" />
+      <edge id="20541" source="COP" target="FAT THUG" weight="1" />
+      <edge id="20542" source="COP" target="GORDON" weight="2" />
+      <edge id="20543" source="SERGEANT" target="GORDON" weight="1" />
+      <edge id="20544" source="CALLER 1" target="REESE" weight="1" />
+      <edge id="20545" source="CALLER 1" target="ENGEL" weight="1" />
+      <edge id="20546" source="CALLER 1" target="CALLER 2" weight="1" />
+      <edge id="20547" source="CALLER 1" target="OLD LADY" weight="1" />
+      <edge id="20548" source="CALLER 2" target="CALLER 1" weight="1" />
+      <edge id="20549" source="CALLER 2" target="REESE" weight="1" />
+      <edge id="20550" source="CALLER 2" target="ENGEL" weight="1" />
+      <edge id="20551" source="CALLER 2" target="OLD LADY" weight="1" />
+      <edge id="20552" source="OLD LADY" target="CALLER 1" weight="1" />
+      <edge id="20553" source="OLD LADY" target="REESE" weight="1" />
+      <edge id="20554" source="OLD LADY" target="ENGEL" weight="1" />
+      <edge id="20555" source="OLD LADY" target="CALLER 2" weight="1" />
+      <edge id="20556" source="UNIFORMED COP" target="THE JOKER" weight="1" />
+      <edge id="20557" source="UNIFORMED COP" target="GORDON" weight="1" />
+      <edge id="20558" source="UNIFORMED COP" target="DETECTIVE MURPHY" weight="1" />
+      <edge id="20559" source="BERG" target="GORDON" weight="3" />
+      <edge id="20560" source="BARTENDER" target="WUERTZ" weight="1" />
+      <edge id="20561" source="BARTENDER" target="DENT" weight="1" />
+      <edge id="20562" source="CIVILIAN" target="NATIONAL GUARDSMAN" weight="1" />
+      <edge id="20563" source="NATIONAL GUARDSMAN" target="CIVILIAN" weight="1" />
+      <edge id="20564" source="FIRST MATE" target="PILOT [PRISON FERRY]" weight="1" />
+      <edge id="20565" source="PILOT [PRISON FERRY]" target="FIRST MATE" weight="1" />
+      <edge id="20566" source="PILOT [PRISON FERRY]" target="THE JOKER" weight="1" />
+      <edge id="20567" source="PILOT [PASSENGER FERRY]" target="PASSENGER 3" weight="1" />
+      <edge id="20568" source="NATIONAL GUARD COMMANDER" target="THE JOKER" weight="1" />
+      <edge id="20569" source="NATIONAL GUARD COMMANDER" target="BUSINESSMAN" weight="1" />
+      <edge id="20570" source="NATIONAL GUARD COMMANDER" target="MOTHER" weight="1" />
+      <edge id="20571" source="NATIONAL GUARD COMMANDER" target="PASSENGER 1" weight="1" />
+      <edge id="20572" source="NATIONAL GUARD COMMANDER" target="PASSENGER 2" weight="1" />
+      <edge id="20573" source="BUSINESSMAN" target="NATIONAL GUARD COMMANDER" weight="1" />
+      <edge id="20574" source="BUSINESSMAN" target="MOTHER" weight="1" />
+      <edge id="20575" source="BUSINESSMAN" target="PASSENGER 1" weight="1" />
+      <edge id="20576" source="BUSINESSMAN" target="PASSENGER 2" weight="1" />
+      <edge id="20577" source="MOTHER" target="NATIONAL GUARD COMMANDER" weight="1" />
+      <edge id="20578" source="MOTHER" target="BUSINESSMAN" weight="1" />
+      <edge id="20579" source="MOTHER" target="PASSENGER 1" weight="1" />
+      <edge id="20580" source="MOTHER" target="PASSENGER 2" weight="1" />
+      <edge id="20581" source="PASSENGER 1" target="NATIONAL GUARD COMMANDER" weight="1" />
+      <edge id="20582" source="PASSENGER 1" target="BUSINESSMAN" weight="1" />
+      <edge id="20583" source="PASSENGER 1" target="MOTHER" weight="1" />
+      <edge id="20584" source="PASSENGER 1" target="PASSENGER 2" weight="1" />
+      <edge id="20585" source="PASSENGER 2" target="NATIONAL GUARD COMMANDER" weight="1" />
+      <edge id="20586" source="PASSENGER 2" target="BUSINESSMAN" weight="1" />
+      <edge id="20587" source="PASSENGER 2" target="MOTHER" weight="1" />
+      <edge id="20588" source="PASSENGER 2" target="PASSENGER 1" weight="1" />
+      <edge id="20589" source="SWAT SNIPER" target="GORDON" weight="1" />
+      <edge id="20590" source="SWAT SNIPER" target="BATMAN" weight="1" />
+      <edge id="20591" source="SWAT SNIPER" target="SWAT LEADER" weight="1" />
+      <edge id="20592" source="SWAT LEADER" target="GORDON" weight="2" />
+      <edge id="20593" source="SWAT LEADER" target="SWAT SNIPER" weight="1" />
+      <edge id="20594" source="SWAT LEADER" target="BATMAN" weight="1" />
+      <edge id="20595" source="SWAT LEADER" target="DENT" weight="1" />
+      <edge id="20596" source="PASSENGER 3" target="PILOT [PASSENGER FERRY]" weight="1" />
+    </edges>
+  </graph>
+</gexf>

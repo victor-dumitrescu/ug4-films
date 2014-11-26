@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MR. TURNER" label="MR. TURNER" />
+      <node id="TRACY" label="TRACY" />
+      <node id="VICK" label="VICK" />
+      <node id="STU" label="STU" />
+      <node id="DOUG" label="DOUG" />
+      <node id="ALAN" label="ALAN" />
+      <node id="FRONT DESK MAN" label="FRONT DESK MAN" />
+      <node id="ATASHIR" label="ATASHIR" />
+      <node id="ALAN &amp; DOUG &amp; VICK" label="ALAN &amp; DOUG &amp; VICK" />
+      <node id="ALAN &amp; STU &amp; VICK" label="ALAN &amp; STU &amp; VICK" />
+      <node id="PILE OF NEWSPAPERS" label="PILE OF NEWSPAPERS" />
+      <node id="MAN" label="MAN" />
+      <node id="GAY MAN" label="GAY MAN" />
+      <node id="VOICE BEHIND THEM" label="VOICE BEHIND THEM" />
+      <node id="STEVE" label="STEVE" />
+      <node id="CARLA" label="CARLA" />
+      <node id="BECKY" label="BECKY" />
+      <node id="KALOLO FANALUA" label="KALOLO FANALUA" />
+      <node id="CHASTITY" label="CHASTITY" />
+      <node id="PLATINUM THE STRIPPER" label="PLATINUM THE STRIPPER" />
+      <node id="STARR" label="STARR" />
+      <node id="ANASTASIA" label="ANASTASIA" />
+      <node id="STRIP CLUB D.J." label="STRIP CLUB D.J." />
+      <node id="STRIPPER D.J." label="STRIPPER D.J." />
+      <node id="CRAZY HORSE SECURITY GUARD" label="CRAZY HORSE SECURITY GUARD" />
+      <node id="LAS VEGAS POLICEMAN" label="LAS VEGAS POLICEMAN" />
+      <node id="OFFICER MERRIWEATHER" label="OFFICER MERRIWEATHER" />
+      <node id="OFFICER BLADEN" label="OFFICER BLADEN" />
+      <node id="VICK &amp; ALAN &amp; STU &amp; DOUG" label="VICK &amp; ALAN &amp; STU &amp; DOUG" />
+      <node id="DOORMAN" label="DOORMAN" />
+      <node id="WAITER" label="WAITER" />
+      <node id="BOUNCER" label="BOUNCER" />
+      <node id="BEEFCAKE COWBOY" label="BEEFCAKE COWBOY" />
+      <node id="ROGER" label="ROGER" />
+      <node id="DALLAS" label="DALLAS" />
+      <node id="JIMMY LANG" label="JIMMY LANG" />
+      <node id="ROULETTE CROUPIER" label="ROULETTE CROUPIER" />
+      <node id="BLACK DOUG" label="BLACK DOUG" />
+      <node id="KIKIOLANI" label="KIKIOLANI" />
+      <node id="MINISTER" label="MINISTER" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="VOICE" label="VOICE" />
+      <node id="HAYLEE" label="HAYLEE" />
+      <node id="KAITLIN" label="KAITLIN" />
+      <node id="ERIN" label="ERIN" />
+      <node id="THE GUYS" label="THE GUYS" />
+    </nodes>
+    <edges>
+      <edge id="21615" source="MR. TURNER" target="TRACY" weight="5" />
+      <edge id="21616" source="MR. TURNER" target="VICK" weight="3" />
+      <edge id="21617" source="MR. TURNER" target="ALAN" weight="2" />
+      <edge id="21618" source="MR. TURNER" target="DOUG" weight="1" />
+      <edge id="21619" source="MR. TURNER" target="MINISTER" weight="1" />
+      <edge id="21620" source="MR. TURNER" target="STU" weight="1" />
+      <edge id="21621" source="MR. TURNER" target="BECKY" weight="1" />
+      <edge id="21622" source="MR. TURNER" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21623" source="MR. TURNER" target="CHASTITY" weight="1" />
+      <edge id="21624" source="MR. TURNER" target="VOICE" weight="1" />
+      <edge id="21625" source="MR. TURNER" target="HAYLEE" weight="1" />
+      <edge id="21626" source="MR. TURNER" target="KAITLIN" weight="1" />
+      <edge id="21627" source="MR. TURNER" target="ERIN" weight="1" />
+      <edge id="21628" source="TRACY" target="MR. TURNER" weight="5" />
+      <edge id="21629" source="TRACY" target="VICK" weight="5" />
+      <edge id="21630" source="TRACY" target="STU" weight="2" />
+      <edge id="21631" source="TRACY" target="ALAN" weight="3" />
+      <edge id="21632" source="TRACY" target="DOUG" weight="1" />
+      <edge id="21633" source="TRACY" target="MINISTER" weight="1" />
+      <edge id="21634" source="TRACY" target="BECKY" weight="1" />
+      <edge id="21635" source="TRACY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21636" source="TRACY" target="CHASTITY" weight="1" />
+      <edge id="21637" source="TRACY" target="VOICE" weight="1" />
+      <edge id="21638" source="TRACY" target="HAYLEE" weight="1" />
+      <edge id="21639" source="TRACY" target="KAITLIN" weight="1" />
+      <edge id="21640" source="TRACY" target="ERIN" weight="1" />
+      <edge id="21641" source="VICK" target="TRACY" weight="5" />
+      <edge id="21642" source="VICK" target="STU" weight="39" />
+      <edge id="21643" source="VICK" target="DOUG" weight="6" />
+      <edge id="21644" source="VICK" target="ALAN" weight="42" />
+      <edge id="21645" source="VICK" target="FRONT DESK MAN" weight="1" />
+      <edge id="21646" source="VICK" target="ATASHIR" weight="4" />
+      <edge id="21647" source="VICK" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21648" source="VICK" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21649" source="VICK" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21650" source="VICK" target="MAN" weight="1" />
+      <edge id="21651" source="VICK" target="GAY MAN" weight="1" />
+      <edge id="21652" source="VICK" target="VOICE BEHIND THEM" weight="2" />
+      <edge id="21653" source="VICK" target="STEVE" weight="1" />
+      <edge id="21654" source="VICK" target="CARLA" weight="1" />
+      <edge id="21655" source="VICK" target="BECKY" weight="2" />
+      <edge id="21656" source="VICK" target="KALOLO FANALUA" weight="2" />
+      <edge id="21657" source="VICK" target="CHASTITY" weight="11" />
+      <edge id="21658" source="VICK" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21659" source="VICK" target="STARR" weight="1" />
+      <edge id="21660" source="VICK" target="ANASTASIA" weight="1" />
+      <edge id="21661" source="VICK" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21662" source="VICK" target="STRIPPER D.J." weight="2" />
+      <edge id="21663" source="VICK" target="CRAZY HORSE SECURITY GUARD" weight="1" />
+      <edge id="21664" source="VICK" target="LAS VEGAS POLICEMAN" weight="1" />
+      <edge id="21665" source="VICK" target="OFFICER MERRIWEATHER" weight="1" />
+      <edge id="21666" source="VICK" target="OFFICER BLADEN" weight="1" />
+      <edge id="21667" source="VICK" target="VICK &amp; ALAN &amp; STU &amp; DOUG" weight="1" />
+      <edge id="21668" source="VICK" target="DOORMAN" weight="1" />
+      <edge id="21669" source="VICK" target="WAITER" weight="1" />
+      <edge id="21670" source="VICK" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21671" source="VICK" target="ROGER" weight="1" />
+      <edge id="21672" source="VICK" target="DALLAS" weight="1" />
+      <edge id="21673" source="VICK" target="JIMMY LANG" weight="3" />
+      <edge id="21674" source="VICK" target="ROULETTE CROUPIER" weight="1" />
+      <edge id="21675" source="VICK" target="MR. TURNER" weight="3" />
+      <edge id="21676" source="VICK" target="BLACK DOUG" weight="1" />
+      <edge id="21677" source="VICK" target="KIKIOLANI" weight="1" />
+      <edge id="21678" source="VICK" target="MINISTER" weight="1" />
+      <edge id="21679" source="VICK" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21680" source="VICK" target="VOICE" weight="1" />
+      <edge id="21681" source="VICK" target="HAYLEE" weight="1" />
+      <edge id="21682" source="VICK" target="KAITLIN" weight="1" />
+      <edge id="21683" source="VICK" target="ERIN" weight="1" />
+      <edge id="21684" source="VICK" target="THE GUYS" weight="1" />
+      <edge id="21685" source="STU" target="VICK" weight="39" />
+      <edge id="21686" source="STU" target="DOUG" weight="6" />
+      <edge id="21687" source="STU" target="ALAN" weight="39" />
+      <edge id="21688" source="STU" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21689" source="STU" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21690" source="STU" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21691" source="STU" target="GAY MAN" weight="1" />
+      <edge id="21692" source="STU" target="ATASHIR" weight="2" />
+      <edge id="21693" source="STU" target="VOICE BEHIND THEM" weight="2" />
+      <edge id="21694" source="STU" target="STEVE" weight="1" />
+      <edge id="21695" source="STU" target="CARLA" weight="1" />
+      <edge id="21696" source="STU" target="BECKY" weight="2" />
+      <edge id="21697" source="STU" target="KALOLO FANALUA" weight="2" />
+      <edge id="21698" source="STU" target="CHASTITY" weight="10" />
+      <edge id="21699" source="STU" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21700" source="STU" target="STARR" weight="1" />
+      <edge id="21701" source="STU" target="ANASTASIA" weight="1" />
+      <edge id="21702" source="STU" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21703" source="STU" target="STRIPPER D.J." weight="2" />
+      <edge id="21704" source="STU" target="CRAZY HORSE SECURITY GUARD" weight="1" />
+      <edge id="21705" source="STU" target="LAS VEGAS POLICEMAN" weight="1" />
+      <edge id="21706" source="STU" target="OFFICER MERRIWEATHER" weight="1" />
+      <edge id="21707" source="STU" target="OFFICER BLADEN" weight="1" />
+      <edge id="21708" source="STU" target="VICK &amp; ALAN &amp; STU &amp; DOUG" weight="1" />
+      <edge id="21709" source="STU" target="TRACY" weight="2" />
+      <edge id="21710" source="STU" target="DOORMAN" weight="1" />
+      <edge id="21711" source="STU" target="WAITER" weight="1" />
+      <edge id="21712" source="STU" target="BOUNCER" weight="1" />
+      <edge id="21713" source="STU" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21714" source="STU" target="ROGER" weight="1" />
+      <edge id="21715" source="STU" target="DALLAS" weight="1" />
+      <edge id="21716" source="STU" target="JIMMY LANG" weight="3" />
+      <edge id="21717" source="STU" target="ROULETTE CROUPIER" weight="1" />
+      <edge id="21718" source="STU" target="BLACK DOUG" weight="1" />
+      <edge id="21719" source="STU" target="KIKIOLANI" weight="1" />
+      <edge id="21720" source="STU" target="MR. TURNER" weight="1" />
+      <edge id="21721" source="STU" target="MINISTER" weight="1" />
+      <edge id="21722" source="STU" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21723" source="STU" target="VOICE" weight="1" />
+      <edge id="21724" source="STU" target="HAYLEE" weight="1" />
+      <edge id="21725" source="STU" target="KAITLIN" weight="1" />
+      <edge id="21726" source="STU" target="ERIN" weight="1" />
+      <edge id="21727" source="STU" target="THE GUYS" weight="1" />
+      <edge id="21728" source="DOUG" target="STU" weight="6" />
+      <edge id="21729" source="DOUG" target="VICK" weight="6" />
+      <edge id="21730" source="DOUG" target="ALAN" weight="6" />
+      <edge id="21731" source="DOUG" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21732" source="DOUG" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21733" source="DOUG" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21734" source="DOUG" target="TRACY" weight="1" />
+      <edge id="21735" source="DOUG" target="MR. TURNER" weight="1" />
+      <edge id="21736" source="DOUG" target="MINISTER" weight="1" />
+      <edge id="21737" source="DOUG" target="BECKY" weight="1" />
+      <edge id="21738" source="DOUG" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21739" source="DOUG" target="CHASTITY" weight="1" />
+      <edge id="21740" source="DOUG" target="VOICE" weight="1" />
+      <edge id="21741" source="DOUG" target="HAYLEE" weight="1" />
+      <edge id="21742" source="DOUG" target="KAITLIN" weight="1" />
+      <edge id="21743" source="DOUG" target="ERIN" weight="1" />
+      <edge id="21744" source="DOUG" target="JIMMY LANG" weight="1" />
+      <edge id="21745" source="DOUG" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="21746" source="DOUG" target="THE GUYS" weight="1" />
+      <edge id="21747" source="ALAN" target="STU" weight="39" />
+      <edge id="21748" source="ALAN" target="VICK" weight="42" />
+      <edge id="21749" source="ALAN" target="DOUG" weight="6" />
+      <edge id="21750" source="ALAN" target="FRONT DESK MAN" weight="1" />
+      <edge id="21751" source="ALAN" target="ATASHIR" weight="3" />
+      <edge id="21752" source="ALAN" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21753" source="ALAN" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21754" source="ALAN" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21755" source="ALAN" target="GAY MAN" weight="1" />
+      <edge id="21756" source="ALAN" target="VOICE BEHIND THEM" weight="2" />
+      <edge id="21757" source="ALAN" target="STEVE" weight="1" />
+      <edge id="21758" source="ALAN" target="CARLA" weight="1" />
+      <edge id="21759" source="ALAN" target="BECKY" weight="2" />
+      <edge id="21760" source="ALAN" target="KALOLO FANALUA" weight="2" />
+      <edge id="21761" source="ALAN" target="CHASTITY" weight="10" />
+      <edge id="21762" source="ALAN" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21763" source="ALAN" target="STARR" weight="1" />
+      <edge id="21764" source="ALAN" target="ANASTASIA" weight="1" />
+      <edge id="21765" source="ALAN" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21766" source="ALAN" target="STRIPPER D.J." weight="1" />
+      <edge id="21767" source="ALAN" target="LAS VEGAS POLICEMAN" weight="1" />
+      <edge id="21768" source="ALAN" target="OFFICER MERRIWEATHER" weight="1" />
+      <edge id="21769" source="ALAN" target="OFFICER BLADEN" weight="1" />
+      <edge id="21770" source="ALAN" target="VICK &amp; ALAN &amp; STU &amp; DOUG" weight="1" />
+      <edge id="21771" source="ALAN" target="TRACY" weight="3" />
+      <edge id="21772" source="ALAN" target="DOORMAN" weight="1" />
+      <edge id="21773" source="ALAN" target="WAITER" weight="1" />
+      <edge id="21774" source="ALAN" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21775" source="ALAN" target="ROGER" weight="1" />
+      <edge id="21776" source="ALAN" target="DALLAS" weight="1" />
+      <edge id="21777" source="ALAN" target="JIMMY LANG" weight="3" />
+      <edge id="21778" source="ALAN" target="ROULETTE CROUPIER" weight="1" />
+      <edge id="21779" source="ALAN" target="BLACK DOUG" weight="1" />
+      <edge id="21780" source="ALAN" target="KIKIOLANI" weight="1" />
+      <edge id="21781" source="ALAN" target="MR. TURNER" weight="2" />
+      <edge id="21782" source="ALAN" target="MINISTER" weight="1" />
+      <edge id="21783" source="ALAN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21784" source="ALAN" target="VOICE" weight="1" />
+      <edge id="21785" source="ALAN" target="HAYLEE" weight="1" />
+      <edge id="21786" source="ALAN" target="KAITLIN" weight="1" />
+      <edge id="21787" source="ALAN" target="ERIN" weight="1" />
+      <edge id="21788" source="ALAN" target="THE GUYS" weight="1" />
+      <edge id="21789" source="FRONT DESK MAN" target="VICK" weight="1" />
+      <edge id="21790" source="FRONT DESK MAN" target="ATASHIR" weight="1" />
+      <edge id="21791" source="FRONT DESK MAN" target="ALAN" weight="1" />
+      <edge id="21792" source="ATASHIR" target="FRONT DESK MAN" weight="1" />
+      <edge id="21793" source="ATASHIR" target="VICK" weight="4" />
+      <edge id="21794" source="ATASHIR" target="ALAN" weight="3" />
+      <edge id="21795" source="ATASHIR" target="STU" weight="2" />
+      <edge id="21796" source="ATASHIR" target="GAY MAN" weight="1" />
+      <edge id="21797" source="ALAN &amp; DOUG &amp; VICK" target="STU" weight="1" />
+      <edge id="21798" source="ALAN &amp; DOUG &amp; VICK" target="VICK" weight="1" />
+      <edge id="21799" source="ALAN &amp; DOUG &amp; VICK" target="ALAN" weight="1" />
+      <edge id="21800" source="ALAN &amp; DOUG &amp; VICK" target="DOUG" weight="1" />
+      <edge id="21801" source="ALAN &amp; DOUG &amp; VICK" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21802" source="ALAN &amp; DOUG &amp; VICK" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21803" source="ALAN &amp; STU &amp; VICK" target="STU" weight="1" />
+      <edge id="21804" source="ALAN &amp; STU &amp; VICK" target="VICK" weight="1" />
+      <edge id="21805" source="ALAN &amp; STU &amp; VICK" target="ALAN" weight="1" />
+      <edge id="21806" source="ALAN &amp; STU &amp; VICK" target="DOUG" weight="1" />
+      <edge id="21807" source="ALAN &amp; STU &amp; VICK" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21808" source="ALAN &amp; STU &amp; VICK" target="PILE OF NEWSPAPERS" weight="1" />
+      <edge id="21809" source="PILE OF NEWSPAPERS" target="STU" weight="1" />
+      <edge id="21810" source="PILE OF NEWSPAPERS" target="VICK" weight="1" />
+      <edge id="21811" source="PILE OF NEWSPAPERS" target="ALAN" weight="1" />
+      <edge id="21812" source="PILE OF NEWSPAPERS" target="DOUG" weight="1" />
+      <edge id="21813" source="PILE OF NEWSPAPERS" target="ALAN &amp; DOUG &amp; VICK" weight="1" />
+      <edge id="21814" source="PILE OF NEWSPAPERS" target="ALAN &amp; STU &amp; VICK" weight="1" />
+      <edge id="21815" source="MAN" target="VICK" weight="1" />
+      <edge id="21816" source="GAY MAN" target="STU" weight="1" />
+      <edge id="21817" source="GAY MAN" target="ALAN" weight="1" />
+      <edge id="21818" source="GAY MAN" target="ATASHIR" weight="1" />
+      <edge id="21819" source="GAY MAN" target="VICK" weight="1" />
+      <edge id="21820" source="VOICE BEHIND THEM" target="ALAN" weight="2" />
+      <edge id="21821" source="VOICE BEHIND THEM" target="STEVE" weight="1" />
+      <edge id="21822" source="VOICE BEHIND THEM" target="VICK" weight="2" />
+      <edge id="21823" source="VOICE BEHIND THEM" target="STU" weight="2" />
+      <edge id="21824" source="VOICE BEHIND THEM" target="CARLA" weight="1" />
+      <edge id="21825" source="VOICE BEHIND THEM" target="BECKY" weight="1" />
+      <edge id="21826" source="VOICE BEHIND THEM" target="JIMMY LANG" weight="1" />
+      <edge id="21827" source="VOICE BEHIND THEM" target="DOUG" weight="1" />
+      <edge id="21828" source="VOICE BEHIND THEM" target="THE GUYS" weight="1" />
+      <edge id="21829" source="STEVE" target="ALAN" weight="1" />
+      <edge id="21830" source="STEVE" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="21831" source="STEVE" target="VICK" weight="1" />
+      <edge id="21832" source="STEVE" target="STU" weight="1" />
+      <edge id="21833" source="STEVE" target="CARLA" weight="1" />
+      <edge id="21834" source="STEVE" target="BECKY" weight="1" />
+      <edge id="21835" source="CARLA" target="ALAN" weight="1" />
+      <edge id="21836" source="CARLA" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="21837" source="CARLA" target="STEVE" weight="1" />
+      <edge id="21838" source="CARLA" target="VICK" weight="1" />
+      <edge id="21839" source="CARLA" target="STU" weight="1" />
+      <edge id="21840" source="CARLA" target="BECKY" weight="1" />
+      <edge id="21841" source="BECKY" target="ALAN" weight="2" />
+      <edge id="21842" source="BECKY" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="21843" source="BECKY" target="STEVE" weight="1" />
+      <edge id="21844" source="BECKY" target="VICK" weight="2" />
+      <edge id="21845" source="BECKY" target="STU" weight="2" />
+      <edge id="21846" source="BECKY" target="CARLA" weight="1" />
+      <edge id="21847" source="BECKY" target="TRACY" weight="1" />
+      <edge id="21848" source="BECKY" target="MR. TURNER" weight="1" />
+      <edge id="21849" source="BECKY" target="DOUG" weight="1" />
+      <edge id="21850" source="BECKY" target="MINISTER" weight="1" />
+      <edge id="21851" source="BECKY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21852" source="BECKY" target="CHASTITY" weight="1" />
+      <edge id="21853" source="BECKY" target="VOICE" weight="1" />
+      <edge id="21854" source="BECKY" target="HAYLEE" weight="1" />
+      <edge id="21855" source="BECKY" target="KAITLIN" weight="1" />
+      <edge id="21856" source="BECKY" target="ERIN" weight="1" />
+      <edge id="21857" source="KALOLO FANALUA" target="VICK" weight="2" />
+      <edge id="21858" source="KALOLO FANALUA" target="ALAN" weight="2" />
+      <edge id="21859" source="KALOLO FANALUA" target="STU" weight="2" />
+      <edge id="21860" source="KALOLO FANALUA" target="JIMMY LANG" weight="1" />
+      <edge id="21861" source="CHASTITY" target="STU" weight="10" />
+      <edge id="21862" source="CHASTITY" target="VICK" weight="11" />
+      <edge id="21863" source="CHASTITY" target="ALAN" weight="10" />
+      <edge id="21864" source="CHASTITY" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21865" source="CHASTITY" target="STARR" weight="1" />
+      <edge id="21866" source="CHASTITY" target="ANASTASIA" weight="1" />
+      <edge id="21867" source="CHASTITY" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21868" source="CHASTITY" target="STRIPPER D.J." weight="2" />
+      <edge id="21869" source="CHASTITY" target="CRAZY HORSE SECURITY GUARD" weight="1" />
+      <edge id="21870" source="CHASTITY" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21871" source="CHASTITY" target="ROGER" weight="1" />
+      <edge id="21872" source="CHASTITY" target="DALLAS" weight="1" />
+      <edge id="21873" source="CHASTITY" target="ROULETTE CROUPIER" weight="1" />
+      <edge id="21874" source="CHASTITY" target="TRACY" weight="1" />
+      <edge id="21875" source="CHASTITY" target="MR. TURNER" weight="1" />
+      <edge id="21876" source="CHASTITY" target="DOUG" weight="1" />
+      <edge id="21877" source="CHASTITY" target="MINISTER" weight="1" />
+      <edge id="21878" source="CHASTITY" target="BECKY" weight="1" />
+      <edge id="21879" source="CHASTITY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="21880" source="CHASTITY" target="VOICE" weight="1" />
+      <edge id="21881" source="CHASTITY" target="HAYLEE" weight="1" />
+      <edge id="21882" source="CHASTITY" target="KAITLIN" weight="1" />
+      <edge id="21883" source="CHASTITY" target="ERIN" weight="1" />
+      <edge id="21884" source="PLATINUM THE STRIPPER" target="ALAN" weight="1" />
+      <edge id="21885" source="PLATINUM THE STRIPPER" target="CHASTITY" weight="1" />
+      <edge id="21886" source="PLATINUM THE STRIPPER" target="STU" weight="1" />
+      <edge id="21887" source="PLATINUM THE STRIPPER" target="VICK" weight="1" />
+      <edge id="21888" source="PLATINUM THE STRIPPER" target="STARR" weight="1" />
+      <edge id="21889" source="PLATINUM THE STRIPPER" target="ANASTASIA" weight="1" />
+      <edge id="21890" source="PLATINUM THE STRIPPER" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21891" source="PLATINUM THE STRIPPER" target="STRIPPER D.J." weight="1" />
+      <edge id="21892" source="STARR" target="ALAN" weight="1" />
+      <edge id="21893" source="STARR" target="CHASTITY" weight="1" />
+      <edge id="21894" source="STARR" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21895" source="STARR" target="STU" weight="1" />
+      <edge id="21896" source="STARR" target="VICK" weight="1" />
+      <edge id="21897" source="STARR" target="ANASTASIA" weight="1" />
+      <edge id="21898" source="STARR" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21899" source="STARR" target="STRIPPER D.J." weight="1" />
+      <edge id="21900" source="ANASTASIA" target="ALAN" weight="1" />
+      <edge id="21901" source="ANASTASIA" target="CHASTITY" weight="1" />
+      <edge id="21902" source="ANASTASIA" target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21903" source="ANASTASIA" target="STU" weight="1" />
+      <edge id="21904" source="ANASTASIA" target="VICK" weight="1" />
+      <edge id="21905" source="ANASTASIA" target="STARR" weight="1" />
+      <edge id="21906" source="ANASTASIA" target="STRIP CLUB D.J." weight="1" />
+      <edge id="21907" source="ANASTASIA" target="STRIPPER D.J." weight="1" />
+      <edge id="21908" source="STRIP CLUB D.J." target="ALAN" weight="1" />
+      <edge id="21909" source="STRIP CLUB D.J." target="CHASTITY" weight="1" />
+      <edge id="21910" source="STRIP CLUB D.J." target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21911" source="STRIP CLUB D.J." target="STU" weight="1" />
+      <edge id="21912" source="STRIP CLUB D.J." target="VICK" weight="1" />
+      <edge id="21913" source="STRIP CLUB D.J." target="STARR" weight="1" />
+      <edge id="21914" source="STRIP CLUB D.J." target="ANASTASIA" weight="1" />
+      <edge id="21915" source="STRIP CLUB D.J." target="STRIPPER D.J." weight="1" />
+      <edge id="21916" source="STRIPPER D.J." target="ALAN" weight="1" />
+      <edge id="21917" source="STRIPPER D.J." target="CHASTITY" weight="2" />
+      <edge id="21918" source="STRIPPER D.J." target="PLATINUM THE STRIPPER" weight="1" />
+      <edge id="21919" source="STRIPPER D.J." target="STU" weight="2" />
+      <edge id="21920" source="STRIPPER D.J." target="VICK" weight="2" />
+      <edge id="21921" source="STRIPPER D.J." target="STARR" weight="1" />
+      <edge id="21922" source="STRIPPER D.J." target="ANASTASIA" weight="1" />
+      <edge id="21923" source="STRIPPER D.J." target="STRIP CLUB D.J." weight="1" />
+      <edge id="21924" source="STRIPPER D.J." target="CRAZY HORSE SECURITY GUARD" weight="1" />
+      <edge id="21925" source="CRAZY HORSE SECURITY GUARD" target="STRIPPER D.J." weight="1" />
+      <edge id="21926" source="CRAZY HORSE SECURITY GUARD" target="CHASTITY" weight="1" />
+      <edge id="21927" source="CRAZY HORSE SECURITY GUARD" target="STU" weight="1" />
+      <edge id="21928" source="CRAZY HORSE SECURITY GUARD" target="VICK" weight="1" />
+      <edge id="21929" source="LAS VEGAS POLICEMAN" target="STU" weight="1" />
+      <edge id="21930" source="LAS VEGAS POLICEMAN" target="VICK" weight="1" />
+      <edge id="21931" source="LAS VEGAS POLICEMAN" target="ALAN" weight="1" />
+      <edge id="21932" source="OFFICER MERRIWEATHER" target="VICK" weight="1" />
+      <edge id="21933" source="OFFICER MERRIWEATHER" target="OFFICER BLADEN" weight="1" />
+      <edge id="21934" source="OFFICER MERRIWEATHER" target="ALAN" weight="1" />
+      <edge id="21935" source="OFFICER MERRIWEATHER" target="STU" weight="1" />
+      <edge id="21936" source="OFFICER MERRIWEATHER" target="VICK &amp; ALAN &amp; STU &amp; DOUG" weight="1" />
+      <edge id="21937" source="OFFICER BLADEN" target="OFFICER MERRIWEATHER" weight="1" />
+      <edge id="21938" source="OFFICER BLADEN" target="VICK" weight="1" />
+      <edge id="21939" source="OFFICER BLADEN" target="ALAN" weight="1" />
+      <edge id="21940" source="OFFICER BLADEN" target="STU" weight="1" />
+      <edge id="21941" source="OFFICER BLADEN" target="VICK &amp; ALAN &amp; STU &amp; DOUG" weight="1" />
+      <edge id="21942" source="VICK &amp; ALAN &amp; STU &amp; DOUG" target="OFFICER MERRIWEATHER" weight="1" />
+      <edge id="21943" source="VICK &amp; ALAN &amp; STU &amp; DOUG" target="VICK" weight="1" />
+      <edge id="21944" source="VICK &amp; ALAN &amp; STU &amp; DOUG" target="OFFICER BLADEN" weight="1" />
+      <edge id="21945" source="VICK &amp; ALAN &amp; STU &amp; DOUG" target="ALAN" weight="1" />
+      <edge id="21946" source="VICK &amp; ALAN &amp; STU &amp; DOUG" target="STU" weight="1" />
+      <edge id="21947" source="DOORMAN" target="ALAN" weight="1" />
+      <edge id="21948" source="DOORMAN" target="VICK" weight="1" />
+      <edge id="21949" source="DOORMAN" target="STU" weight="1" />
+      <edge id="21950" source="WAITER" target="VICK" weight="1" />
+      <edge id="21951" source="WAITER" target="STU" weight="1" />
+      <edge id="21952" source="WAITER" target="ALAN" weight="1" />
+      <edge id="21953" source="BOUNCER" target="STU" weight="1" />
+      <edge id="21954" source="BEEFCAKE COWBOY" target="VICK" weight="1" />
+      <edge id="21955" source="BEEFCAKE COWBOY" target="ROGER" weight="1" />
+      <edge id="21956" source="BEEFCAKE COWBOY" target="STU" weight="1" />
+      <edge id="21957" source="BEEFCAKE COWBOY" target="ALAN" weight="1" />
+      <edge id="21958" source="BEEFCAKE COWBOY" target="CHASTITY" weight="1" />
+      <edge id="21959" source="BEEFCAKE COWBOY" target="DALLAS" weight="1" />
+      <edge id="21960" source="ROGER" target="VICK" weight="1" />
+      <edge id="21961" source="ROGER" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21962" source="ROGER" target="STU" weight="1" />
+      <edge id="21963" source="ROGER" target="ALAN" weight="1" />
+      <edge id="21964" source="ROGER" target="CHASTITY" weight="1" />
+      <edge id="21965" source="ROGER" target="DALLAS" weight="1" />
+      <edge id="21966" source="DALLAS" target="VICK" weight="1" />
+      <edge id="21967" source="DALLAS" target="BEEFCAKE COWBOY" weight="1" />
+      <edge id="21968" source="DALLAS" target="ROGER" weight="1" />
+      <edge id="21969" source="DALLAS" target="STU" weight="1" />
+      <edge id="21970" source="DALLAS" target="ALAN" weight="1" />
+      <edge id="21971" source="DALLAS" target="CHASTITY" weight="1" />
+      <edge id="21972" source="JIMMY LANG" target="KALOLO FANALUA" weight="1" />
+      <edge id="21973" source="JIMMY LANG" target="STU" weight="3" />
+      <edge id="21974" source="JIMMY LANG" target="VICK" weight="3" />
+      <edge id="21975" source="JIMMY LANG" target="ALAN" weight="3" />
+      <edge id="21976" source="JIMMY LANG" target="BLACK DOUG" weight="1" />
+      <edge id="21977" source="JIMMY LANG" target="KIKIOLANI" weight="1" />
+      <edge id="21978" source="JIMMY LANG" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="21979" source="JIMMY LANG" target="DOUG" weight="1" />
+      <edge id="21980" source="JIMMY LANG" target="THE GUYS" weight="1" />
+      <edge id="21981" source="ROULETTE CROUPIER" target="ALAN" weight="1" />
+      <edge id="21982" source="ROULETTE CROUPIER" target="STU" weight="1" />
+      <edge id="21983" source="ROULETTE CROUPIER" target="VICK" weight="1" />
+      <edge id="21984" source="ROULETTE CROUPIER" target="CHASTITY" weight="1" />
+      <edge id="21985" source="BLACK DOUG" target="ALAN" weight="1" />
+      <edge id="21986" source="BLACK DOUG" target="VICK" weight="1" />
+      <edge id="21987" source="BLACK DOUG" target="STU" weight="1" />
+      <edge id="21988" source="BLACK DOUG" target="JIMMY LANG" weight="1" />
+      <edge id="21989" source="BLACK DOUG" target="KIKIOLANI" weight="1" />
+      <edge id="21990" source="KIKIOLANI" target="ALAN" weight="1" />
+      <edge id="21991" source="KIKIOLANI" target="VICK" weight="1" />
+      <edge id="21992" source="KIKIOLANI" target="STU" weight="1" />
+      <edge id="21993" source="KIKIOLANI" target="JIMMY LANG" weight="1" />
+      <edge id="21994" source="KIKIOLANI" target="BLACK DOUG" weight="1" />
+      <edge id="21995" source="MINISTER" target="VICK" weight="1" />
+      <edge id="21996" source="MINISTER" target="TRACY" weight="1" />
+      <edge id="21997" source="MINISTER" target="MR. TURNER" weight="1" />
+      <edge id="21998" source="MINISTER" target="DOUG" weight="1" />
+      <edge id="21999" source="MINISTER" target="ALAN" weight="1" />
+      <edge id="22000" source="MINISTER" target="STU" weight="1" />
+      <edge id="22001" source="MINISTER" target="BECKY" weight="1" />
+      <edge id="22002" source="MINISTER" target="WOMAN'S VOICE" weight="1" />
+      <edge id="22003" source="MINISTER" target="CHASTITY" weight="1" />
+      <edge id="22004" source="MINISTER" target="VOICE" weight="1" />
+      <edge id="22005" source="MINISTER" target="HAYLEE" weight="1" />
+      <edge id="22006" source="MINISTER" target="KAITLIN" weight="1" />
+      <edge id="22007" source="MINISTER" target="ERIN" weight="1" />
+      <edge id="22008" source="WOMAN'S VOICE" target="VICK" weight="1" />
+      <edge id="22009" source="WOMAN'S VOICE" target="TRACY" weight="1" />
+      <edge id="22010" source="WOMAN'S VOICE" target="MR. TURNER" weight="1" />
+      <edge id="22011" source="WOMAN'S VOICE" target="DOUG" weight="1" />
+      <edge id="22012" source="WOMAN'S VOICE" target="MINISTER" weight="1" />
+      <edge id="22013" source="WOMAN'S VOICE" target="ALAN" weight="1" />
+      <edge id="22014" source="WOMAN'S VOICE" target="STU" weight="1" />
+      <edge id="22015" source="WOMAN'S VOICE" target="BECKY" weight="1" />
+      <edge id="22016" source="WOMAN'S VOICE" target="CHASTITY" weight="1" />
+      <edge id="22017" source="WOMAN'S VOICE" target="VOICE" weight="1" />
+      <edge id="22018" source="WOMAN'S VOICE" target="HAYLEE" weight="1" />
+      <edge id="22019" source="WOMAN'S VOICE" target="KAITLIN" weight="1" />
+      <edge id="22020" source="WOMAN'S VOICE" target="ERIN" weight="1" />
+      <edge id="22021" source="VOICE" target="VICK" weight="1" />
+      <edge id="22022" source="VOICE" target="TRACY" weight="1" />
+      <edge id="22023" source="VOICE" target="MR. TURNER" weight="1" />
+      <edge id="22024" source="VOICE" target="DOUG" weight="1" />
+      <edge id="22025" source="VOICE" target="MINISTER" weight="1" />
+      <edge id="22026" source="VOICE" target="ALAN" weight="1" />
+      <edge id="22027" source="VOICE" target="STU" weight="1" />
+      <edge id="22028" source="VOICE" target="BECKY" weight="1" />
+      <edge id="22029" source="VOICE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="22030" source="VOICE" target="CHASTITY" weight="1" />
+      <edge id="22031" source="VOICE" target="HAYLEE" weight="1" />
+      <edge id="22032" source="VOICE" target="KAITLIN" weight="1" />
+      <edge id="22033" source="VOICE" target="ERIN" weight="1" />
+      <edge id="22034" source="HAYLEE" target="VICK" weight="1" />
+      <edge id="22035" source="HAYLEE" target="TRACY" weight="1" />
+      <edge id="22036" source="HAYLEE" target="MR. TURNER" weight="1" />
+      <edge id="22037" source="HAYLEE" target="DOUG" weight="1" />
+      <edge id="22038" source="HAYLEE" target="MINISTER" weight="1" />
+      <edge id="22039" source="HAYLEE" target="ALAN" weight="1" />
+      <edge id="22040" source="HAYLEE" target="STU" weight="1" />
+      <edge id="22041" source="HAYLEE" target="BECKY" weight="1" />
+      <edge id="22042" source="HAYLEE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="22043" source="HAYLEE" target="CHASTITY" weight="1" />
+      <edge id="22044" source="HAYLEE" target="VOICE" weight="1" />
+      <edge id="22045" source="HAYLEE" target="KAITLIN" weight="1" />
+      <edge id="22046" source="HAYLEE" target="ERIN" weight="1" />
+      <edge id="22047" source="KAITLIN" target="VICK" weight="1" />
+      <edge id="22048" source="KAITLIN" target="TRACY" weight="1" />
+      <edge id="22049" source="KAITLIN" target="MR. TURNER" weight="1" />
+      <edge id="22050" source="KAITLIN" target="DOUG" weight="1" />
+      <edge id="22051" source="KAITLIN" target="MINISTER" weight="1" />
+      <edge id="22052" source="KAITLIN" target="ALAN" weight="1" />
+      <edge id="22053" source="KAITLIN" target="STU" weight="1" />
+      <edge id="22054" source="KAITLIN" target="BECKY" weight="1" />
+      <edge id="22055" source="KAITLIN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="22056" source="KAITLIN" target="CHASTITY" weight="1" />
+      <edge id="22057" source="KAITLIN" target="VOICE" weight="1" />
+      <edge id="22058" source="KAITLIN" target="HAYLEE" weight="1" />
+      <edge id="22059" source="KAITLIN" target="ERIN" weight="1" />
+      <edge id="22060" source="ERIN" target="VICK" weight="1" />
+      <edge id="22061" source="ERIN" target="TRACY" weight="1" />
+      <edge id="22062" source="ERIN" target="MR. TURNER" weight="1" />
+      <edge id="22063" source="ERIN" target="DOUG" weight="1" />
+      <edge id="22064" source="ERIN" target="MINISTER" weight="1" />
+      <edge id="22065" source="ERIN" target="ALAN" weight="1" />
+      <edge id="22066" source="ERIN" target="STU" weight="1" />
+      <edge id="22067" source="ERIN" target="BECKY" weight="1" />
+      <edge id="22068" source="ERIN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="22069" source="ERIN" target="CHASTITY" weight="1" />
+      <edge id="22070" source="ERIN" target="VOICE" weight="1" />
+      <edge id="22071" source="ERIN" target="HAYLEE" weight="1" />
+      <edge id="22072" source="ERIN" target="KAITLIN" weight="1" />
+      <edge id="22073" source="THE GUYS" target="VICK" weight="1" />
+      <edge id="22074" source="THE GUYS" target="JIMMY LANG" weight="1" />
+      <edge id="22075" source="THE GUYS" target="ALAN" weight="1" />
+      <edge id="22076" source="THE GUYS" target="VOICE BEHIND THEM" weight="1" />
+      <edge id="22077" source="THE GUYS" target="STU" weight="1" />
+      <edge id="22078" source="THE GUYS" target="DOUG" weight="1" />
+    </edges>
+  </graph>
+</gexf>

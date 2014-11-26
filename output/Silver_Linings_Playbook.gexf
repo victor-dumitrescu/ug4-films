@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="PAT" label="PAT" />
+      <node id="MALE ORDERLY" label="MALE ORDERLY" />
+      <node id="DANNY" label="DANNY" />
+      <node id="DR. TIMBERS" label="DR. TIMBERS" />
+      <node id="DOLORES" label="DOLORES" />
+      <node id="RANDY" label="RANDY" />
+      <node id="PAT SR." label="PAT SR." />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="DR. PATEL" label="DR. PATEL" />
+      <node id="RICKY" label="RICKY" />
+      <node id="NANCY" label="NANCY" />
+      <node id="RONNIE" label="RONNIE" />
+      <node id="VERONICA" label="VERONICA" />
+      <node id="OFFICER KEOGH" label="OFFICER KEOGH" />
+      <node id="PAT AND RONNIE" label="PAT AND RONNIE" />
+      <node id="TIFFANY" label="TIFFANY" />
+      <node id="RICKYY" label="RICKYY" />
+      <node id="RICKY'S MOTHER ROSALIE" label="RICKY'S MOTHER ROSALIE" />
+      <node id="CHILD" label="CHILD" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="MAN" label="MAN" />
+      <node id="TIFFANY'S MOTHER" label="TIFFANY'S MOTHER" />
+      <node id="TIFFANY'S FATHER" label="TIFFANY'S FATHER" />
+      <node id="JORDIE" label="JORDIE" />
+      <node id="JAKE" label="JAKE" />
+      <node id="RONNIE/RANDY/DANNY/DELORES" label="RONNIE/RANDY/DANNY/DELORES" />
+      <node id="RANDY LAUGHS" label="RANDY LAUGHS" />
+      <node id="GUY #1" label="GUY #1" />
+      <node id="GUY #2" label="GUY #2" />
+      <node id="GUY #1 LAUGHS" label="GUY #1 LAUGHS" />
+      <node id="FAN #1" label="FAN #1" />
+      <node id="INDIAN MAN" label="INDIAN MAN" />
+      <node id="COP" label="COP" />
+      <node id="MALE OFFICIAL" label="MALE OFFICIAL" />
+      <node id="GUY AT BAR" label="GUY AT BAR" />
+      <node id="EMCEE" label="EMCEE" />
+      <node id="SPORTS ANNOUNCER" label="SPORTS ANNOUNCER" />
+      <node id="FEMALE DANCER" label="FEMALE DANCER" />
+      <node id="MALE DANCER" label="MALE DANCER" />
+      <node id="NIKKI" label="NIKKI" />
+    </nodes>
+    <edges>
+      <edge id="14887" source="PAT" target="MALE ORDERLY" weight="1" />
+      <edge id="14888" source="PAT" target="DANNY" weight="9" />
+      <edge id="14889" source="PAT" target="DOLORES" weight="29" />
+      <edge id="14890" source="PAT" target="RANDY" weight="7" />
+      <edge id="14891" source="PAT" target="PAT SR." weight="25" />
+      <edge id="14892" source="PAT" target="RECEPTIONIST" weight="1" />
+      <edge id="14893" source="PAT" target="DR. PATEL" weight="7" />
+      <edge id="14894" source="PAT" target="RICKY" weight="1" />
+      <edge id="14895" source="PAT" target="NANCY" weight="2" />
+      <edge id="14896" source="PAT" target="RONNIE" weight="11" />
+      <edge id="14897" source="PAT" target="VERONICA" weight="6" />
+      <edge id="14898" source="PAT" target="OFFICER KEOGH" weight="8" />
+      <edge id="14899" source="PAT" target="PAT AND RONNIE" weight="1" />
+      <edge id="14900" source="PAT" target="TIFFANY" weight="24" />
+      <edge id="14901" source="PAT" target="CHILD" weight="1" />
+      <edge id="14902" source="PAT" target="WAITRESS" weight="1" />
+      <edge id="14903" source="PAT" target="MAN" weight="1" />
+      <edge id="14904" source="PAT" target="TIFFANY'S MOTHER" weight="1" />
+      <edge id="14905" source="PAT" target="TIFFANY'S FATHER" weight="1" />
+      <edge id="14906" source="PAT" target="JORDIE" weight="2" />
+      <edge id="14907" source="PAT" target="JAKE" weight="6" />
+      <edge id="14908" source="PAT" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="14909" source="PAT" target="RANDY LAUGHS" weight="1" />
+      <edge id="14910" source="PAT" target="GUY #1" weight="1" />
+      <edge id="14911" source="PAT" target="GUY #2" weight="1" />
+      <edge id="14912" source="PAT" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="14913" source="PAT" target="FAN #1" weight="1" />
+      <edge id="14914" source="PAT" target="INDIAN MAN" weight="1" />
+      <edge id="14915" source="PAT" target="COP" weight="1" />
+      <edge id="14916" source="PAT" target="MALE OFFICIAL" weight="1" />
+      <edge id="14917" source="PAT" target="GUY AT BAR" weight="1" />
+      <edge id="14918" source="PAT" target="EMCEE" weight="2" />
+      <edge id="14919" source="PAT" target="FEMALE DANCER" weight="1" />
+      <edge id="14920" source="PAT" target="MALE DANCER" weight="1" />
+      <edge id="14921" source="PAT" target="NIKKI" weight="1" />
+      <edge id="14922" source="MALE ORDERLY" target="PAT" weight="1" />
+      <edge id="14923" source="DANNY" target="PAT" weight="9" />
+      <edge id="14924" source="DANNY" target="DOLORES" weight="6" />
+      <edge id="14925" source="DANNY" target="PAT SR." weight="6" />
+      <edge id="14926" source="DANNY" target="RONNIE" weight="2" />
+      <edge id="14927" source="DANNY" target="JAKE" weight="3" />
+      <edge id="14928" source="DANNY" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="14929" source="DANNY" target="OFFICER KEOGH" weight="1" />
+      <edge id="14930" source="DANNY" target="RANDY LAUGHS" weight="1" />
+      <edge id="14931" source="DANNY" target="TIFFANY" weight="3" />
+      <edge id="14932" source="DANNY" target="RANDY" weight="2" />
+      <edge id="14933" source="DANNY" target="DR. PATEL" weight="1" />
+      <edge id="14934" source="DANNY" target="SPORTS ANNOUNCER" weight="1" />
+      <edge id="14935" source="DANNY" target="EMCEE" weight="1" />
+      <edge id="14936" source="DANNY" target="FEMALE DANCER" weight="1" />
+      <edge id="14937" source="DANNY" target="MALE DANCER" weight="1" />
+      <edge id="14938" source="DANNY" target="NIKKI" weight="1" />
+      <edge id="14939" source="DR. TIMBERS" target="DOLORES" weight="1" />
+      <edge id="14940" source="DOLORES" target="DR. TIMBERS" weight="1" />
+      <edge id="14941" source="DOLORES" target="PAT" weight="29" />
+      <edge id="14942" source="DOLORES" target="DANNY" weight="6" />
+      <edge id="14943" source="DOLORES" target="PAT SR." weight="22" />
+      <edge id="14944" source="DOLORES" target="RANDY" weight="5" />
+      <edge id="14945" source="DOLORES" target="DR. PATEL" weight="3" />
+      <edge id="14946" source="DOLORES" target="RICKY" weight="1" />
+      <edge id="14947" source="DOLORES" target="OFFICER KEOGH" weight="5" />
+      <edge id="14948" source="DOLORES" target="RONNIE" weight="2" />
+      <edge id="14949" source="DOLORES" target="JAKE" weight="4" />
+      <edge id="14950" source="DOLORES" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="14951" source="DOLORES" target="RANDY LAUGHS" weight="1" />
+      <edge id="14952" source="DOLORES" target="TIFFANY" weight="5" />
+      <edge id="14953" source="DOLORES" target="GUY AT BAR" weight="1" />
+      <edge id="14954" source="DOLORES" target="EMCEE" weight="1" />
+      <edge id="14955" source="RANDY" target="PAT" weight="7" />
+      <edge id="14956" source="RANDY" target="PAT SR." weight="9" />
+      <edge id="14957" source="RANDY" target="DOLORES" weight="5" />
+      <edge id="14958" source="RANDY" target="JAKE" weight="5" />
+      <edge id="14959" source="RANDY" target="DR. PATEL" weight="2" />
+      <edge id="14960" source="RANDY" target="TIFFANY" weight="3" />
+      <edge id="14961" source="RANDY" target="RONNIE" weight="3" />
+      <edge id="14962" source="RANDY" target="DANNY" weight="2" />
+      <edge id="14963" source="RANDY" target="EMCEE" weight="1" />
+      <edge id="14964" source="RANDY" target="FEMALE DANCER" weight="1" />
+      <edge id="14965" source="RANDY" target="MALE DANCER" weight="1" />
+      <edge id="14966" source="RANDY" target="NIKKI" weight="1" />
+      <edge id="14967" source="PAT SR." target="RANDY" weight="9" />
+      <edge id="14968" source="PAT SR." target="PAT" weight="25" />
+      <edge id="14969" source="PAT SR." target="DOLORES" weight="22" />
+      <edge id="14970" source="PAT SR." target="RICKY" weight="4" />
+      <edge id="14971" source="PAT SR." target="OFFICER KEOGH" weight="5" />
+      <edge id="14972" source="PAT SR." target="RICKY'S MOTHER ROSALIE" weight="1" />
+      <edge id="14973" source="PAT SR." target="DANNY" weight="6" />
+      <edge id="14974" source="PAT SR." target="RONNIE" weight="4" />
+      <edge id="14975" source="PAT SR." target="JAKE" weight="6" />
+      <edge id="14976" source="PAT SR." target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="14977" source="PAT SR." target="RANDY LAUGHS" weight="1" />
+      <edge id="14978" source="PAT SR." target="DR. PATEL" weight="2" />
+      <edge id="14979" source="PAT SR." target="TIFFANY" weight="5" />
+      <edge id="14980" source="PAT SR." target="TIFFANY'S MOTHER" weight="1" />
+      <edge id="14981" source="PAT SR." target="SPORTS ANNOUNCER" weight="1" />
+      <edge id="14982" source="PAT SR." target="EMCEE" weight="1" />
+      <edge id="14983" source="PAT SR." target="FEMALE DANCER" weight="1" />
+      <edge id="14984" source="PAT SR." target="MALE DANCER" weight="1" />
+      <edge id="14985" source="PAT SR." target="NIKKI" weight="1" />
+      <edge id="14986" source="RECEPTIONIST" target="PAT" weight="1" />
+      <edge id="14987" source="DR. PATEL" target="PAT" weight="7" />
+      <edge id="14988" source="DR. PATEL" target="DOLORES" weight="3" />
+      <edge id="14989" source="DR. PATEL" target="JAKE" weight="3" />
+      <edge id="14990" source="DR. PATEL" target="GUY #1" weight="1" />
+      <edge id="14991" source="DR. PATEL" target="GUY #2" weight="1" />
+      <edge id="14992" source="DR. PATEL" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="14993" source="DR. PATEL" target="RONNIE" weight="2" />
+      <edge id="14994" source="DR. PATEL" target="FAN #1" weight="1" />
+      <edge id="14995" source="DR. PATEL" target="INDIAN MAN" weight="1" />
+      <edge id="14996" source="DR. PATEL" target="COP" weight="1" />
+      <edge id="14997" source="DR. PATEL" target="PAT SR." weight="2" />
+      <edge id="14998" source="DR. PATEL" target="TIFFANY" weight="2" />
+      <edge id="14999" source="DR. PATEL" target="RANDY" weight="2" />
+      <edge id="15000" source="DR. PATEL" target="DANNY" weight="1" />
+      <edge id="15001" source="RICKY" target="PAT SR." weight="4" />
+      <edge id="15002" source="RICKY" target="PAT" weight="1" />
+      <edge id="15003" source="RICKY" target="DOLORES" weight="1" />
+      <edge id="15004" source="NANCY" target="PAT" weight="2" />
+      <edge id="15005" source="RONNIE" target="PAT" weight="11" />
+      <edge id="15006" source="RONNIE" target="VERONICA" weight="7" />
+      <edge id="15007" source="RONNIE" target="PAT AND RONNIE" weight="1" />
+      <edge id="15008" source="RONNIE" target="TIFFANY" weight="7" />
+      <edge id="15009" source="RONNIE" target="PAT SR." weight="4" />
+      <edge id="15010" source="RONNIE" target="DANNY" weight="2" />
+      <edge id="15011" source="RONNIE" target="DOLORES" weight="2" />
+      <edge id="15012" source="RONNIE" target="JAKE" weight="5" />
+      <edge id="15013" source="RONNIE" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="15014" source="RONNIE" target="OFFICER KEOGH" weight="1" />
+      <edge id="15015" source="RONNIE" target="RANDY LAUGHS" weight="1" />
+      <edge id="15016" source="RONNIE" target="GUY #1" weight="1" />
+      <edge id="15017" source="RONNIE" target="GUY #2" weight="1" />
+      <edge id="15018" source="RONNIE" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15019" source="RONNIE" target="DR. PATEL" weight="2" />
+      <edge id="15020" source="RONNIE" target="FAN #1" weight="1" />
+      <edge id="15021" source="RONNIE" target="INDIAN MAN" weight="1" />
+      <edge id="15022" source="RONNIE" target="COP" weight="1" />
+      <edge id="15023" source="RONNIE" target="RANDY" weight="3" />
+      <edge id="15024" source="RONNIE" target="GUY AT BAR" weight="1" />
+      <edge id="15025" source="RONNIE" target="EMCEE" weight="2" />
+      <edge id="15026" source="RONNIE" target="FEMALE DANCER" weight="1" />
+      <edge id="15027" source="RONNIE" target="MALE DANCER" weight="1" />
+      <edge id="15028" source="RONNIE" target="NIKKI" weight="1" />
+      <edge id="15029" source="VERONICA" target="PAT" weight="6" />
+      <edge id="15030" source="VERONICA" target="RONNIE" weight="7" />
+      <edge id="15031" source="VERONICA" target="PAT AND RONNIE" weight="1" />
+      <edge id="15032" source="VERONICA" target="TIFFANY" weight="5" />
+      <edge id="15033" source="VERONICA" target="GUY AT BAR" weight="1" />
+      <edge id="15034" source="VERONICA" target="EMCEE" weight="1" />
+      <edge id="15035" source="OFFICER KEOGH" target="PAT SR." weight="5" />
+      <edge id="15036" source="OFFICER KEOGH" target="PAT" weight="8" />
+      <edge id="15037" source="OFFICER KEOGH" target="DOLORES" weight="5" />
+      <edge id="15038" source="OFFICER KEOGH" target="TIFFANY" weight="1" />
+      <edge id="15039" source="OFFICER KEOGH" target="MAN" weight="1" />
+      <edge id="15040" source="OFFICER KEOGH" target="DANNY" weight="1" />
+      <edge id="15041" source="OFFICER KEOGH" target="RONNIE" weight="1" />
+      <edge id="15042" source="OFFICER KEOGH" target="JAKE" weight="1" />
+      <edge id="15043" source="OFFICER KEOGH" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="15044" source="OFFICER KEOGH" target="RANDY LAUGHS" weight="1" />
+      <edge id="15045" source="PAT AND RONNIE" target="RONNIE" weight="1" />
+      <edge id="15046" source="PAT AND RONNIE" target="PAT" weight="1" />
+      <edge id="15047" source="PAT AND RONNIE" target="TIFFANY" weight="1" />
+      <edge id="15048" source="PAT AND RONNIE" target="VERONICA" weight="1" />
+      <edge id="15049" source="TIFFANY" target="RONNIE" weight="7" />
+      <edge id="15050" source="TIFFANY" target="PAT" weight="24" />
+      <edge id="15051" source="TIFFANY" target="PAT AND RONNIE" weight="1" />
+      <edge id="15052" source="TIFFANY" target="VERONICA" weight="5" />
+      <edge id="15053" source="TIFFANY" target="CHILD" weight="1" />
+      <edge id="15054" source="TIFFANY" target="WAITRESS" weight="1" />
+      <edge id="15055" source="TIFFANY" target="MAN" weight="1" />
+      <edge id="15056" source="TIFFANY" target="OFFICER KEOGH" weight="1" />
+      <edge id="15057" source="TIFFANY" target="DANNY" weight="3" />
+      <edge id="15058" source="TIFFANY" target="PAT SR." weight="5" />
+      <edge id="15059" source="TIFFANY" target="DR. PATEL" weight="2" />
+      <edge id="15060" source="TIFFANY" target="JAKE" weight="3" />
+      <edge id="15061" source="TIFFANY" target="DOLORES" weight="5" />
+      <edge id="15062" source="TIFFANY" target="RANDY" weight="3" />
+      <edge id="15063" source="TIFFANY" target="MALE OFFICIAL" weight="1" />
+      <edge id="15064" source="TIFFANY" target="GUY AT BAR" weight="2" />
+      <edge id="15065" source="TIFFANY" target="EMCEE" weight="3" />
+      <edge id="15066" source="TIFFANY" target="FEMALE DANCER" weight="1" />
+      <edge id="15067" source="TIFFANY" target="MALE DANCER" weight="1" />
+      <edge id="15068" source="TIFFANY" target="NIKKI" weight="1" />
+      <edge id="15069" source="RICKY'S MOTHER ROSALIE" target="PAT SR." weight="1" />
+      <edge id="15070" source="CHILD" target="TIFFANY" weight="1" />
+      <edge id="15071" source="CHILD" target="PAT" weight="1" />
+      <edge id="15072" source="WAITRESS" target="TIFFANY" weight="1" />
+      <edge id="15073" source="WAITRESS" target="PAT" weight="1" />
+      <edge id="15074" source="MAN" target="PAT" weight="1" />
+      <edge id="15075" source="MAN" target="TIFFANY" weight="1" />
+      <edge id="15076" source="MAN" target="OFFICER KEOGH" weight="1" />
+      <edge id="15077" source="TIFFANY'S MOTHER" target="PAT" weight="1" />
+      <edge id="15078" source="TIFFANY'S MOTHER" target="TIFFANY'S FATHER" weight="1" />
+      <edge id="15079" source="TIFFANY'S MOTHER" target="JORDIE" weight="1" />
+      <edge id="15080" source="TIFFANY'S MOTHER" target="PAT SR." weight="1" />
+      <edge id="15081" source="TIFFANY'S FATHER" target="PAT" weight="1" />
+      <edge id="15082" source="TIFFANY'S FATHER" target="TIFFANY'S MOTHER" weight="1" />
+      <edge id="15083" source="TIFFANY'S FATHER" target="JORDIE" weight="1" />
+      <edge id="15084" source="JORDIE" target="PAT" weight="2" />
+      <edge id="15085" source="JORDIE" target="TIFFANY'S MOTHER" weight="1" />
+      <edge id="15086" source="JORDIE" target="TIFFANY'S FATHER" weight="1" />
+      <edge id="15087" source="JAKE" target="PAT" weight="6" />
+      <edge id="15088" source="JAKE" target="PAT SR." weight="6" />
+      <edge id="15089" source="JAKE" target="DANNY" weight="3" />
+      <edge id="15090" source="JAKE" target="RONNIE" weight="5" />
+      <edge id="15091" source="JAKE" target="DOLORES" weight="4" />
+      <edge id="15092" source="JAKE" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="15093" source="JAKE" target="OFFICER KEOGH" weight="1" />
+      <edge id="15094" source="JAKE" target="RANDY LAUGHS" weight="1" />
+      <edge id="15095" source="JAKE" target="RANDY" weight="5" />
+      <edge id="15096" source="JAKE" target="GUY #1" weight="1" />
+      <edge id="15097" source="JAKE" target="GUY #2" weight="1" />
+      <edge id="15098" source="JAKE" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15099" source="JAKE" target="DR. PATEL" weight="3" />
+      <edge id="15100" source="JAKE" target="FAN #1" weight="1" />
+      <edge id="15101" source="JAKE" target="INDIAN MAN" weight="1" />
+      <edge id="15102" source="JAKE" target="COP" weight="1" />
+      <edge id="15103" source="JAKE" target="TIFFANY" weight="3" />
+      <edge id="15104" source="JAKE" target="EMCEE" weight="1" />
+      <edge id="15105" source="JAKE" target="FEMALE DANCER" weight="1" />
+      <edge id="15106" source="JAKE" target="MALE DANCER" weight="1" />
+      <edge id="15107" source="JAKE" target="NIKKI" weight="1" />
+      <edge id="15108" source="RONNIE/RANDY/DANNY/DELORES" target="PAT" weight="1" />
+      <edge id="15109" source="RONNIE/RANDY/DANNY/DELORES" target="PAT SR." weight="1" />
+      <edge id="15110" source="RONNIE/RANDY/DANNY/DELORES" target="DANNY" weight="1" />
+      <edge id="15111" source="RONNIE/RANDY/DANNY/DELORES" target="RONNIE" weight="1" />
+      <edge id="15112" source="RONNIE/RANDY/DANNY/DELORES" target="DOLORES" weight="1" />
+      <edge id="15113" source="RONNIE/RANDY/DANNY/DELORES" target="JAKE" weight="1" />
+      <edge id="15114" source="RONNIE/RANDY/DANNY/DELORES" target="OFFICER KEOGH" weight="1" />
+      <edge id="15115" source="RONNIE/RANDY/DANNY/DELORES" target="RANDY LAUGHS" weight="1" />
+      <edge id="15116" source="RANDY LAUGHS" target="PAT" weight="1" />
+      <edge id="15117" source="RANDY LAUGHS" target="PAT SR." weight="1" />
+      <edge id="15118" source="RANDY LAUGHS" target="DANNY" weight="1" />
+      <edge id="15119" source="RANDY LAUGHS" target="RONNIE" weight="1" />
+      <edge id="15120" source="RANDY LAUGHS" target="DOLORES" weight="1" />
+      <edge id="15121" source="RANDY LAUGHS" target="JAKE" weight="1" />
+      <edge id="15122" source="RANDY LAUGHS" target="RONNIE/RANDY/DANNY/DELORES" weight="1" />
+      <edge id="15123" source="RANDY LAUGHS" target="OFFICER KEOGH" weight="1" />
+      <edge id="15124" source="GUY #1" target="JAKE" weight="1" />
+      <edge id="15125" source="GUY #1" target="PAT" weight="1" />
+      <edge id="15126" source="GUY #1" target="GUY #2" weight="1" />
+      <edge id="15127" source="GUY #1" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15128" source="GUY #1" target="DR. PATEL" weight="1" />
+      <edge id="15129" source="GUY #1" target="RONNIE" weight="1" />
+      <edge id="15130" source="GUY #1" target="FAN #1" weight="1" />
+      <edge id="15131" source="GUY #1" target="INDIAN MAN" weight="1" />
+      <edge id="15132" source="GUY #1" target="COP" weight="1" />
+      <edge id="15133" source="GUY #2" target="JAKE" weight="1" />
+      <edge id="15134" source="GUY #2" target="PAT" weight="1" />
+      <edge id="15135" source="GUY #2" target="GUY #1" weight="1" />
+      <edge id="15136" source="GUY #2" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15137" source="GUY #2" target="DR. PATEL" weight="1" />
+      <edge id="15138" source="GUY #2" target="RONNIE" weight="1" />
+      <edge id="15139" source="GUY #2" target="FAN #1" weight="1" />
+      <edge id="15140" source="GUY #2" target="INDIAN MAN" weight="1" />
+      <edge id="15141" source="GUY #2" target="COP" weight="1" />
+      <edge id="15142" source="GUY #1 LAUGHS" target="JAKE" weight="1" />
+      <edge id="15143" source="GUY #1 LAUGHS" target="PAT" weight="1" />
+      <edge id="15144" source="GUY #1 LAUGHS" target="GUY #1" weight="1" />
+      <edge id="15145" source="GUY #1 LAUGHS" target="GUY #2" weight="1" />
+      <edge id="15146" source="GUY #1 LAUGHS" target="DR. PATEL" weight="1" />
+      <edge id="15147" source="GUY #1 LAUGHS" target="RONNIE" weight="1" />
+      <edge id="15148" source="GUY #1 LAUGHS" target="FAN #1" weight="1" />
+      <edge id="15149" source="GUY #1 LAUGHS" target="INDIAN MAN" weight="1" />
+      <edge id="15150" source="GUY #1 LAUGHS" target="COP" weight="1" />
+      <edge id="15151" source="FAN #1" target="JAKE" weight="1" />
+      <edge id="15152" source="FAN #1" target="PAT" weight="1" />
+      <edge id="15153" source="FAN #1" target="GUY #1" weight="1" />
+      <edge id="15154" source="FAN #1" target="GUY #2" weight="1" />
+      <edge id="15155" source="FAN #1" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15156" source="FAN #1" target="DR. PATEL" weight="1" />
+      <edge id="15157" source="FAN #1" target="RONNIE" weight="1" />
+      <edge id="15158" source="FAN #1" target="INDIAN MAN" weight="1" />
+      <edge id="15159" source="FAN #1" target="COP" weight="1" />
+      <edge id="15160" source="INDIAN MAN" target="JAKE" weight="1" />
+      <edge id="15161" source="INDIAN MAN" target="PAT" weight="1" />
+      <edge id="15162" source="INDIAN MAN" target="GUY #1" weight="1" />
+      <edge id="15163" source="INDIAN MAN" target="GUY #2" weight="1" />
+      <edge id="15164" source="INDIAN MAN" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15165" source="INDIAN MAN" target="DR. PATEL" weight="1" />
+      <edge id="15166" source="INDIAN MAN" target="RONNIE" weight="1" />
+      <edge id="15167" source="INDIAN MAN" target="FAN #1" weight="1" />
+      <edge id="15168" source="INDIAN MAN" target="COP" weight="1" />
+      <edge id="15169" source="COP" target="JAKE" weight="1" />
+      <edge id="15170" source="COP" target="PAT" weight="1" />
+      <edge id="15171" source="COP" target="GUY #1" weight="1" />
+      <edge id="15172" source="COP" target="GUY #2" weight="1" />
+      <edge id="15173" source="COP" target="GUY #1 LAUGHS" weight="1" />
+      <edge id="15174" source="COP" target="DR. PATEL" weight="1" />
+      <edge id="15175" source="COP" target="RONNIE" weight="1" />
+      <edge id="15176" source="COP" target="FAN #1" weight="1" />
+      <edge id="15177" source="COP" target="INDIAN MAN" weight="1" />
+      <edge id="15178" source="MALE OFFICIAL" target="TIFFANY" weight="1" />
+      <edge id="15179" source="MALE OFFICIAL" target="PAT" weight="1" />
+      <edge id="15180" source="GUY AT BAR" target="TIFFANY" weight="2" />
+      <edge id="15181" source="GUY AT BAR" target="VERONICA" weight="1" />
+      <edge id="15182" source="GUY AT BAR" target="RONNIE" weight="1" />
+      <edge id="15183" source="GUY AT BAR" target="EMCEE" weight="2" />
+      <edge id="15184" source="GUY AT BAR" target="DOLORES" weight="1" />
+      <edge id="15185" source="GUY AT BAR" target="PAT" weight="1" />
+      <edge id="15186" source="EMCEE" target="TIFFANY" weight="3" />
+      <edge id="15187" source="EMCEE" target="VERONICA" weight="1" />
+      <edge id="15188" source="EMCEE" target="RONNIE" weight="2" />
+      <edge id="15189" source="EMCEE" target="GUY AT BAR" weight="2" />
+      <edge id="15190" source="EMCEE" target="DOLORES" weight="1" />
+      <edge id="15191" source="EMCEE" target="PAT" weight="2" />
+      <edge id="15192" source="EMCEE" target="DANNY" weight="1" />
+      <edge id="15193" source="EMCEE" target="JAKE" weight="1" />
+      <edge id="15194" source="EMCEE" target="FEMALE DANCER" weight="1" />
+      <edge id="15195" source="EMCEE" target="MALE DANCER" weight="1" />
+      <edge id="15196" source="EMCEE" target="RANDY" weight="1" />
+      <edge id="15197" source="EMCEE" target="PAT SR." weight="1" />
+      <edge id="15198" source="EMCEE" target="NIKKI" weight="1" />
+      <edge id="15199" source="SPORTS ANNOUNCER" target="DANNY" weight="1" />
+      <edge id="15200" source="SPORTS ANNOUNCER" target="PAT SR." weight="1" />
+      <edge id="15201" source="FEMALE DANCER" target="RONNIE" weight="1" />
+      <edge id="15202" source="FEMALE DANCER" target="TIFFANY" weight="1" />
+      <edge id="15203" source="FEMALE DANCER" target="EMCEE" weight="1" />
+      <edge id="15204" source="FEMALE DANCER" target="DANNY" weight="1" />
+      <edge id="15205" source="FEMALE DANCER" target="JAKE" weight="1" />
+      <edge id="15206" source="FEMALE DANCER" target="MALE DANCER" weight="1" />
+      <edge id="15207" source="FEMALE DANCER" target="RANDY" weight="1" />
+      <edge id="15208" source="FEMALE DANCER" target="PAT" weight="1" />
+      <edge id="15209" source="FEMALE DANCER" target="PAT SR." weight="1" />
+      <edge id="15210" source="FEMALE DANCER" target="NIKKI" weight="1" />
+      <edge id="15211" source="MALE DANCER" target="RONNIE" weight="1" />
+      <edge id="15212" source="MALE DANCER" target="TIFFANY" weight="1" />
+      <edge id="15213" source="MALE DANCER" target="EMCEE" weight="1" />
+      <edge id="15214" source="MALE DANCER" target="DANNY" weight="1" />
+      <edge id="15215" source="MALE DANCER" target="JAKE" weight="1" />
+      <edge id="15216" source="MALE DANCER" target="FEMALE DANCER" weight="1" />
+      <edge id="15217" source="MALE DANCER" target="RANDY" weight="1" />
+      <edge id="15218" source="MALE DANCER" target="PAT" weight="1" />
+      <edge id="15219" source="MALE DANCER" target="PAT SR." weight="1" />
+      <edge id="15220" source="MALE DANCER" target="NIKKI" weight="1" />
+      <edge id="15221" source="NIKKI" target="RONNIE" weight="1" />
+      <edge id="15222" source="NIKKI" target="TIFFANY" weight="1" />
+      <edge id="15223" source="NIKKI" target="EMCEE" weight="1" />
+      <edge id="15224" source="NIKKI" target="DANNY" weight="1" />
+      <edge id="15225" source="NIKKI" target="JAKE" weight="1" />
+      <edge id="15226" source="NIKKI" target="FEMALE DANCER" weight="1" />
+      <edge id="15227" source="NIKKI" target="MALE DANCER" weight="1" />
+      <edge id="15228" source="NIKKI" target="RANDY" weight="1" />
+      <edge id="15229" source="NIKKI" target="PAT" weight="1" />
+      <edge id="15230" source="NIKKI" target="PAT SR." weight="1" />
+    </edges>
+  </graph>
+</gexf>

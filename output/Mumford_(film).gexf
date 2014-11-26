@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="FOLLETT" label="FOLLETT" />
+      <node id="LANDLADY" label="LANDLADY" />
+      <node id="MUMFORD" label="MUMFORD" />
+      <node id="LILY" label="LILY" />
+      <node id="PATRON" label="PATRON" />
+      <node id="LIONEL" label="LIONEL" />
+      <node id="NESSA" label="NESSA" />
+      <node id="SKIP" label="SKIP" />
+      <node id="ALTHEA" label="ALTHEA" />
+      <node id="COOK" label="COOK" />
+      <node id="SHEELER" label="SHEELER" />
+      <node id="DELBANCO" label="DELBANCO" />
+      <node id="SOFIE" label="SOFIE" />
+      <node id="KATIE" label="KATIE" />
+      <node id="MARTIN" label="MARTIN" />
+      <node id="JEREMY" label="JEREMY" />
+      <node id="MRS. COOK" label="MRS. COOK" />
+      <node id="LANDLADY'S DAUGHTER" label="LANDLADY'S DAUGHTER" />
+      <node id="BEN" label="BEN" />
+      <node id="MR. COOK" label="MR. COOK" />
+      <node id="YOUNG PHARMACIST" label="YOUNG PHARMACIST" />
+      <node id="GILROY" label="GILROY" />
+      <node id="ROBERT STACK" label="ROBERT STACK" />
+      <node id="MUMFORD'S SISTER" label="MUMFORD'S SISTER" />
+      <node id="GREGORY" label="GREGORY" />
+      <node id="BROTHER TIMOTHY" label="BROTHER TIMOTHY" />
+      <node id="JUDGE OTTO" label="JUDGE OTTO" />
+      <node id="CORRECTIONAL OFFICER" label="CORRECTIONAL OFFICER" />
+    </nodes>
+    <edges>
+      <edge id="12565" source="FOLLETT" target="LANDLADY" weight="2" />
+      <edge id="12566" source="FOLLETT" target="MUMFORD" weight="6" />
+      <edge id="12567" source="FOLLETT" target="LANDLADY'S DAUGHTER" weight="1" />
+      <edge id="12568" source="FOLLETT" target="YOUNG PHARMACIST" weight="1" />
+      <edge id="12569" source="FOLLETT" target="SOFIE" weight="1" />
+      <edge id="12570" source="LANDLADY" target="FOLLETT" weight="2" />
+      <edge id="12571" source="LANDLADY" target="MUMFORD" weight="1" />
+      <edge id="12572" source="MUMFORD" target="LANDLADY" weight="1" />
+      <edge id="12573" source="MUMFORD" target="FOLLETT" weight="6" />
+      <edge id="12574" source="MUMFORD" target="LILY" weight="5" />
+      <edge id="12575" source="MUMFORD" target="PATRON" weight="1" />
+      <edge id="12576" source="MUMFORD" target="LIONEL" weight="6" />
+      <edge id="12577" source="MUMFORD" target="NESSA" weight="3" />
+      <edge id="12578" source="MUMFORD" target="SKIP" weight="18" />
+      <edge id="12579" source="MUMFORD" target="ALTHEA" weight="6" />
+      <edge id="12580" source="MUMFORD" target="COOK" weight="3" />
+      <edge id="12581" source="MUMFORD" target="SOFIE" weight="13" />
+      <edge id="12582" source="MUMFORD" target="KATIE" weight="2" />
+      <edge id="12583" source="MUMFORD" target="MARTIN" weight="4" />
+      <edge id="12584" source="MUMFORD" target="JEREMY" weight="2" />
+      <edge id="12585" source="MUMFORD" target="MRS. COOK" weight="3" />
+      <edge id="12586" source="MUMFORD" target="LANDLADY'S DAUGHTER" weight="1" />
+      <edge id="12587" source="MUMFORD" target="DELBANCO" weight="3" />
+      <edge id="12588" source="MUMFORD" target="SHEELER" weight="2" />
+      <edge id="12589" source="MUMFORD" target="BEN" weight="1" />
+      <edge id="12590" source="MUMFORD" target="MR. COOK" weight="1" />
+      <edge id="12591" source="MUMFORD" target="YOUNG PHARMACIST" weight="1" />
+      <edge id="12592" source="MUMFORD" target="GILROY" weight="1" />
+      <edge id="12593" source="MUMFORD" target="JUDGE OTTO" weight="1" />
+      <edge id="12594" source="MUMFORD" target="CORRECTIONAL OFFICER" weight="1" />
+      <edge id="12595" source="LILY" target="MUMFORD" weight="5" />
+      <edge id="12596" source="LILY" target="PATRON" weight="1" />
+      <edge id="12597" source="LILY" target="LIONEL" weight="1" />
+      <edge id="12598" source="LILY" target="MARTIN" weight="1" />
+      <edge id="12599" source="LILY" target="SKIP" weight="1" />
+      <edge id="12600" source="LILY" target="DELBANCO" weight="1" />
+      <edge id="12601" source="LILY" target="SHEELER" weight="1" />
+      <edge id="12602" source="PATRON" target="LILY" weight="1" />
+      <edge id="12603" source="PATRON" target="MUMFORD" weight="1" />
+      <edge id="12604" source="PATRON" target="LIONEL" weight="1" />
+      <edge id="12605" source="LIONEL" target="LILY" weight="1" />
+      <edge id="12606" source="LIONEL" target="MUMFORD" weight="6" />
+      <edge id="12607" source="LIONEL" target="PATRON" weight="1" />
+      <edge id="12608" source="LIONEL" target="ALTHEA" weight="1" />
+      <edge id="12609" source="LIONEL" target="SHEELER" weight="2" />
+      <edge id="12610" source="LIONEL" target="DELBANCO" weight="2" />
+      <edge id="12611" source="LIONEL" target="JUDGE OTTO" weight="1" />
+      <edge id="12612" source="LIONEL" target="SOFIE" weight="1" />
+      <edge id="12613" source="NESSA" target="MUMFORD" weight="3" />
+      <edge id="12614" source="NESSA" target="MARTIN" weight="1" />
+      <edge id="12615" source="NESSA" target="GILROY" weight="1" />
+      <edge id="12616" source="SKIP" target="MUMFORD" weight="18" />
+      <edge id="12617" source="SKIP" target="LILY" weight="1" />
+      <edge id="12618" source="SKIP" target="DELBANCO" weight="1" />
+      <edge id="12619" source="SKIP" target="SHEELER" weight="1" />
+      <edge id="12620" source="ALTHEA" target="LIONEL" weight="1" />
+      <edge id="12621" source="ALTHEA" target="MUMFORD" weight="6" />
+      <edge id="12622" source="ALTHEA" target="KATIE" weight="1" />
+      <edge id="12623" source="ALTHEA" target="JEREMY" weight="1" />
+      <edge id="12624" source="COOK" target="MUMFORD" weight="3" />
+      <edge id="12625" source="COOK" target="MRS. COOK" weight="1" />
+      <edge id="12626" source="COOK" target="BEN" weight="1" />
+      <edge id="12627" source="COOK" target="MR. COOK" weight="1" />
+      <edge id="12628" source="SHEELER" target="LIONEL" weight="2" />
+      <edge id="12629" source="SHEELER" target="DELBANCO" weight="5" />
+      <edge id="12630" source="SHEELER" target="MUMFORD" weight="2" />
+      <edge id="12631" source="SHEELER" target="LILY" weight="1" />
+      <edge id="12632" source="SHEELER" target="SKIP" weight="1" />
+      <edge id="12633" source="DELBANCO" target="LIONEL" weight="2" />
+      <edge id="12634" source="DELBANCO" target="SHEELER" weight="5" />
+      <edge id="12635" source="DELBANCO" target="MUMFORD" weight="3" />
+      <edge id="12636" source="DELBANCO" target="LILY" weight="1" />
+      <edge id="12637" source="DELBANCO" target="SKIP" weight="1" />
+      <edge id="12638" source="SOFIE" target="MUMFORD" weight="13" />
+      <edge id="12639" source="SOFIE" target="MRS. COOK" weight="2" />
+      <edge id="12640" source="SOFIE" target="FOLLETT" weight="1" />
+      <edge id="12641" source="SOFIE" target="JUDGE OTTO" weight="1" />
+      <edge id="12642" source="SOFIE" target="LIONEL" weight="1" />
+      <edge id="12643" source="KATIE" target="ALTHEA" weight="1" />
+      <edge id="12644" source="KATIE" target="MUMFORD" weight="2" />
+      <edge id="12645" source="KATIE" target="MARTIN" weight="1" />
+      <edge id="12646" source="KATIE" target="JEREMY" weight="1" />
+      <edge id="12647" source="MARTIN" target="KATIE" weight="1" />
+      <edge id="12648" source="MARTIN" target="JEREMY" weight="1" />
+      <edge id="12649" source="MARTIN" target="MUMFORD" weight="4" />
+      <edge id="12650" source="MARTIN" target="LILY" weight="1" />
+      <edge id="12651" source="MARTIN" target="NESSA" weight="1" />
+      <edge id="12652" source="MARTIN" target="GILROY" weight="1" />
+      <edge id="12653" source="JEREMY" target="MARTIN" weight="1" />
+      <edge id="12654" source="JEREMY" target="KATIE" weight="1" />
+      <edge id="12655" source="JEREMY" target="MUMFORD" weight="2" />
+      <edge id="12656" source="JEREMY" target="ALTHEA" weight="1" />
+      <edge id="12657" source="MRS. COOK" target="SOFIE" weight="2" />
+      <edge id="12658" source="MRS. COOK" target="MUMFORD" weight="3" />
+      <edge id="12659" source="MRS. COOK" target="COOK" weight="1" />
+      <edge id="12660" source="MRS. COOK" target="BEN" weight="1" />
+      <edge id="12661" source="MRS. COOK" target="MR. COOK" weight="1" />
+      <edge id="12662" source="LANDLADY'S DAUGHTER" target="FOLLETT" weight="1" />
+      <edge id="12663" source="LANDLADY'S DAUGHTER" target="MUMFORD" weight="1" />
+      <edge id="12664" source="BEN" target="COOK" weight="1" />
+      <edge id="12665" source="BEN" target="MRS. COOK" weight="1" />
+      <edge id="12666" source="BEN" target="MUMFORD" weight="1" />
+      <edge id="12667" source="BEN" target="MR. COOK" weight="1" />
+      <edge id="12668" source="MR. COOK" target="COOK" weight="1" />
+      <edge id="12669" source="MR. COOK" target="MRS. COOK" weight="1" />
+      <edge id="12670" source="MR. COOK" target="BEN" weight="1" />
+      <edge id="12671" source="MR. COOK" target="MUMFORD" weight="1" />
+      <edge id="12672" source="YOUNG PHARMACIST" target="FOLLETT" weight="1" />
+      <edge id="12673" source="YOUNG PHARMACIST" target="MUMFORD" weight="1" />
+      <edge id="12674" source="GILROY" target="NESSA" weight="1" />
+      <edge id="12675" source="GILROY" target="MUMFORD" weight="1" />
+      <edge id="12676" source="GILROY" target="MARTIN" weight="1" />
+      <edge id="12677" source="ROBERT STACK" target="MUMFORD'S SISTER" weight="1" />
+      <edge id="12678" source="ROBERT STACK" target="GREGORY" weight="1" />
+      <edge id="12679" source="ROBERT STACK" target="BROTHER TIMOTHY" weight="1" />
+      <edge id="12680" source="MUMFORD'S SISTER" target="ROBERT STACK" weight="1" />
+      <edge id="12681" source="MUMFORD'S SISTER" target="GREGORY" weight="1" />
+      <edge id="12682" source="MUMFORD'S SISTER" target="BROTHER TIMOTHY" weight="1" />
+      <edge id="12683" source="GREGORY" target="ROBERT STACK" weight="1" />
+      <edge id="12684" source="GREGORY" target="MUMFORD'S SISTER" weight="1" />
+      <edge id="12685" source="GREGORY" target="BROTHER TIMOTHY" weight="1" />
+      <edge id="12686" source="BROTHER TIMOTHY" target="ROBERT STACK" weight="1" />
+      <edge id="12687" source="BROTHER TIMOTHY" target="MUMFORD'S SISTER" weight="1" />
+      <edge id="12688" source="BROTHER TIMOTHY" target="GREGORY" weight="1" />
+      <edge id="12689" source="JUDGE OTTO" target="MUMFORD" weight="1" />
+      <edge id="12690" source="JUDGE OTTO" target="LIONEL" weight="1" />
+      <edge id="12691" source="JUDGE OTTO" target="SOFIE" weight="1" />
+      <edge id="12692" source="CORRECTIONAL OFFICER" target="MUMFORD" weight="1" />
+    </edges>
+  </graph>
+</gexf>

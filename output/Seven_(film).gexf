@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="MAN" label="MAN" />
+      <node id="SOMERSET" label="SOMERSET" />
+      <node id="MILLS" label="MILLS" />
+      <node id="FIRST THUG" label="FIRST THUG" />
+      <node id="SECOND THUG" label="SECOND THUG" />
+      <node id="TAYLOR" label="TAYLOR" />
+      <node id="DAVIS" label="DAVIS" />
+      <node id="PHOTOGRAPHER" label="PHOTOGRAPHER" />
+      <node id="O'NEILL" label="O'NEILL" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="TRACY" label="TRACY" />
+      <node id="STRANGE MAN" label="STRANGE MAN" />
+      <node id="OLD MAN" label="OLD MAN" />
+      <node id="SANTIAGO" label="SANTIAGO" />
+      <node id="DETECTIVE" label="DETECTIVE" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="WORKMAN" label="WORKMAN" />
+      <node id="CHRIS" label="CHRIS" />
+      <node id="VAGRANT" label="VAGRANT" />
+      <node id="A REPORTER" label="A REPORTER" />
+      <node id="TALBOT" label="TALBOT" />
+      <node id="WILLIAM" label="WILLIAM" />
+      <node id="PREACHER" label="PREACHER" />
+      <node id="JOHN" label="JOHN" />
+      <node id="BARKER" label="BARKER" />
+      <node id="MRS GOLD" label="MRS GOLD" />
+      <node id="FORENSIC" label="FORENSIC" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="FEMALE COP" label="FEMALE COP" />
+      <node id="CALIFORNIA" label="CALIFORNIA" />
+      <node id="BLACK COP" label="BLACK COP" />
+      <node id="BLOND COP" label="BLOND COP" />
+      <node id="BEARDSLEY" label="BEARDSLEY" />
+      <node id="BLEEKER" label="BLEEKER" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="STONE" label="STONE" />
+      <node id="NUN" label="NUN" />
+      <node id="DARIO" label="DARIO" />
+      <node id="ONE FORENSIC" label="ONE FORENSIC" />
+      <node id="COP" label="COP" />
+      <node id="SKETCH ARTIST" label="SKETCH ARTIST" />
+      <node id="SARAH" label="SARAH" />
+      <node id="SARA" label="SARA" />
+      <node id="JOHN DOE" label="JOHN DOE" />
+      <node id="CLERK" label="CLERK" />
+      <node id="WILD BILL" label="WILD BILL" />
+      <node id="POLICEMAN" label="POLICEMAN" />
+      <node id="FAT MAN" label="FAT MAN" />
+      <node id="CRAZED MAN" label="CRAZED MAN" />
+      <node id="SECOND ATTENDANT" label="SECOND ATTENDANT" />
+      <node id="FIRST ATTENDANT" label="FIRST ATTENDANT" />
+      <node id="SERGEANT" label="SERGEANT" />
+      <node id="UNIFORMED COP" label="UNIFORMED COP" />
+      <node id="ANOTHER COP" label="ANOTHER COP" />
+      <node id="ONE COP" label="ONE COP" />
+      <node id="SWARR" label="SWARR" />
+      <node id="PILOT" label="PILOT" />
+      <node id="MOVER" label="MOVER" />
+    </nodes>
+    <edges>
+      <edge id="14155" source="MAN'S VOICE" target="MAN" weight="1" />
+      <edge id="14156" source="MAN'S VOICE" target="SOMERSET" weight="1" />
+      <edge id="14157" source="MAN'S VOICE" target="A REPORTER" weight="1" />
+      <edge id="14158" source="MAN'S VOICE" target="TALBOT" weight="1" />
+      <edge id="14159" source="MAN'S VOICE" target="MILLS" weight="1" />
+      <edge id="14160" source="MAN" target="MAN'S VOICE" weight="1" />
+      <edge id="14161" source="MAN" target="SOMERSET" weight="1" />
+      <edge id="14162" source="SOMERSET" target="MAN'S VOICE" weight="1" />
+      <edge id="14163" source="SOMERSET" target="MAN" weight="1" />
+      <edge id="14164" source="SOMERSET" target="TAYLOR" weight="1" />
+      <edge id="14165" source="SOMERSET" target="MILLS" weight="44" />
+      <edge id="14166" source="SOMERSET" target="DAVIS" weight="1" />
+      <edge id="14167" source="SOMERSET" target="PHOTOGRAPHER" weight="1" />
+      <edge id="14168" source="SOMERSET" target="O'NEILL" weight="2" />
+      <edge id="14169" source="SOMERSET" target="SANTIAGO" weight="1" />
+      <edge id="14170" source="SOMERSET" target="CAPTAIN" weight="6" />
+      <edge id="14171" source="SOMERSET" target="WORKMAN" weight="1" />
+      <edge id="14172" source="SOMERSET" target="VAGRANT" weight="1" />
+      <edge id="14173" source="SOMERSET" target="WILLIAM" weight="2" />
+      <edge id="14174" source="SOMERSET" target="TRACY" weight="11" />
+      <edge id="14175" source="SOMERSET" target="MRS GOLD" weight="2" />
+      <edge id="14176" source="SOMERSET" target="FORENSIC" weight="1" />
+      <edge id="14177" source="SOMERSET" target="TECHNICIAN" weight="1" />
+      <edge id="14178" source="SOMERSET" target="FEMALE COP" weight="1" />
+      <edge id="14179" source="SOMERSET" target="CALIFORNIA" weight="6" />
+      <edge id="14180" source="SOMERSET" target="BLACK COP" weight="1" />
+      <edge id="14181" source="SOMERSET" target="BLOND COP" weight="1" />
+      <edge id="14182" source="SOMERSET" target="JOHN" weight="1" />
+      <edge id="14183" source="SOMERSET" target="BLEEKER" weight="5" />
+      <edge id="14184" source="SOMERSET" target="STONE" weight="1" />
+      <edge id="14185" source="SOMERSET" target="NUN" weight="1" />
+      <edge id="14186" source="SOMERSET" target="DARIO" weight="1" />
+      <edge id="14187" source="SOMERSET" target="CLERK" weight="1" />
+      <edge id="14188" source="SOMERSET" target="WILD BILL" weight="1" />
+      <edge id="14189" source="SOMERSET" target="POLICEMAN" weight="1" />
+      <edge id="14190" source="SOMERSET" target="CRAZED MAN" weight="1" />
+      <edge id="14191" source="SOMERSET" target="SERGEANT" weight="1" />
+      <edge id="14192" source="SOMERSET" target="UNIFORMED COP" weight="1" />
+      <edge id="14193" source="SOMERSET" target="ANOTHER COP" weight="1" />
+      <edge id="14194" source="SOMERSET" target="ONE COP" weight="1" />
+      <edge id="14195" source="SOMERSET" target="JOHN DOE" weight="3" />
+      <edge id="14196" source="SOMERSET" target="COP" weight="1" />
+      <edge id="14197" source="SOMERSET" target="SWARR" weight="1" />
+      <edge id="14198" source="SOMERSET" target="TALBOT" weight="1" />
+      <edge id="14199" source="SOMERSET" target="MOVER" weight="1" />
+      <edge id="14200" source="MILLS" target="FIRST THUG" weight="1" />
+      <edge id="14201" source="MILLS" target="SECOND THUG" weight="1" />
+      <edge id="14202" source="MILLS" target="TAYLOR" weight="1" />
+      <edge id="14203" source="MILLS" target="SOMERSET" weight="44" />
+      <edge id="14204" source="MILLS" target="DAVIS" weight="1" />
+      <edge id="14205" source="MILLS" target="PHOTOGRAPHER" weight="1" />
+      <edge id="14206" source="MILLS" target="O'NEILL" weight="2" />
+      <edge id="14207" source="MILLS" target="TRACY" weight="6" />
+      <edge id="14208" source="MILLS" target="STRANGE MAN" weight="2" />
+      <edge id="14209" source="MILLS" target="OLD MAN" weight="1" />
+      <edge id="14210" source="MILLS" target="SANTIAGO" weight="1" />
+      <edge id="14211" source="MILLS" target="DETECTIVE" weight="1" />
+      <edge id="14212" source="MILLS" target="CAPTAIN" weight="5" />
+      <edge id="14213" source="MILLS" target="CHRIS" weight="1" />
+      <edge id="14214" source="MILLS" target="MAN'S VOICE" weight="1" />
+      <edge id="14215" source="MILLS" target="A REPORTER" weight="1" />
+      <edge id="14216" source="MILLS" target="TALBOT" weight="2" />
+      <edge id="14217" source="MILLS" target="MRS GOLD" weight="2" />
+      <edge id="14218" source="MILLS" target="FORENSIC" weight="1" />
+      <edge id="14219" source="MILLS" target="TECHNICIAN" weight="1" />
+      <edge id="14220" source="MILLS" target="FEMALE COP" weight="1" />
+      <edge id="14221" source="MILLS" target="CALIFORNIA" weight="4" />
+      <edge id="14222" source="MILLS" target="BLACK COP" weight="1" />
+      <edge id="14223" source="MILLS" target="BLOND COP" weight="1" />
+      <edge id="14224" source="MILLS" target="JOHN" weight="1" />
+      <edge id="14225" source="MILLS" target="BEARDSLEY" weight="1" />
+      <edge id="14226" source="MILLS" target="OFFICER" weight="1" />
+      <edge id="14227" source="MILLS" target="DARIO" weight="1" />
+      <edge id="14228" source="MILLS" target="SKETCH ARTIST" weight="1" />
+      <edge id="14229" source="MILLS" target="SARAH" weight="1" />
+      <edge id="14230" source="MILLS" target="SARA" weight="1" />
+      <edge id="14231" source="MILLS" target="JOHN DOE" weight="8" />
+      <edge id="14232" source="MILLS" target="WILD BILL" weight="1" />
+      <edge id="14233" source="MILLS" target="POLICEMAN" weight="1" />
+      <edge id="14234" source="MILLS" target="SERGEANT" weight="1" />
+      <edge id="14235" source="MILLS" target="UNIFORMED COP" weight="1" />
+      <edge id="14236" source="MILLS" target="ANOTHER COP" weight="1" />
+      <edge id="14237" source="MILLS" target="ONE COP" weight="1" />
+      <edge id="14238" source="MILLS" target="COP" weight="1" />
+      <edge id="14239" source="MILLS" target="SWARR" weight="1" />
+      <edge id="14240" source="FIRST THUG" target="MILLS" weight="1" />
+      <edge id="14241" source="FIRST THUG" target="SECOND THUG" weight="1" />
+      <edge id="14242" source="SECOND THUG" target="MILLS" weight="1" />
+      <edge id="14243" source="SECOND THUG" target="FIRST THUG" weight="1" />
+      <edge id="14244" source="TAYLOR" target="SOMERSET" weight="1" />
+      <edge id="14245" source="TAYLOR" target="MILLS" weight="1" />
+      <edge id="14246" source="DAVIS" target="SOMERSET" weight="1" />
+      <edge id="14247" source="DAVIS" target="MILLS" weight="1" />
+      <edge id="14248" source="PHOTOGRAPHER" target="MILLS" weight="1" />
+      <edge id="14249" source="PHOTOGRAPHER" target="SOMERSET" weight="1" />
+      <edge id="14250" source="PHOTOGRAPHER" target="O'NEILL" weight="1" />
+      <edge id="14251" source="O'NEILL" target="PHOTOGRAPHER" weight="1" />
+      <edge id="14252" source="O'NEILL" target="MILLS" weight="2" />
+      <edge id="14253" source="O'NEILL" target="SOMERSET" weight="2" />
+      <edge id="14254" source="O'NEILL" target="CAPTAIN" weight="1" />
+      <edge id="14255" source="WOMAN'S VOICE" target="WOMAN" weight="1" />
+      <edge id="14256" source="WOMAN'S VOICE" target="TRACY" weight="1" />
+      <edge id="14257" source="WOMAN" target="WOMAN'S VOICE" weight="1" />
+      <edge id="14258" source="WOMAN" target="TRACY" weight="1" />
+      <edge id="14259" source="TRACY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="14260" source="TRACY" target="WOMAN" weight="1" />
+      <edge id="14261" source="TRACY" target="MILLS" weight="6" />
+      <edge id="14262" source="TRACY" target="STRANGE MAN" weight="1" />
+      <edge id="14263" source="TRACY" target="SOMERSET" weight="11" />
+      <edge id="14264" source="TRACY" target="CLERK" weight="1" />
+      <edge id="14265" source="TRACY" target="MOVER" weight="1" />
+      <edge id="14266" source="STRANGE MAN" target="MILLS" weight="2" />
+      <edge id="14267" source="STRANGE MAN" target="TRACY" weight="1" />
+      <edge id="14268" source="STRANGE MAN" target="OLD MAN" weight="1" />
+      <edge id="14269" source="OLD MAN" target="MILLS" weight="1" />
+      <edge id="14270" source="OLD MAN" target="STRANGE MAN" weight="1" />
+      <edge id="14271" source="SANTIAGO" target="MILLS" weight="1" />
+      <edge id="14272" source="SANTIAGO" target="SOMERSET" weight="1" />
+      <edge id="14273" source="DETECTIVE" target="MILLS" weight="1" />
+      <edge id="14274" source="CAPTAIN" target="SOMERSET" weight="6" />
+      <edge id="14275" source="CAPTAIN" target="MILLS" weight="5" />
+      <edge id="14276" source="CAPTAIN" target="WORKMAN" weight="1" />
+      <edge id="14277" source="CAPTAIN" target="FEMALE COP" weight="1" />
+      <edge id="14278" source="CAPTAIN" target="CALIFORNIA" weight="1" />
+      <edge id="14279" source="CAPTAIN" target="O'NEILL" weight="1" />
+      <edge id="14280" source="CAPTAIN" target="SWARR" weight="1" />
+      <edge id="14281" source="CAPTAIN" target="TALBOT" weight="1" />
+      <edge id="14282" source="WORKMAN" target="CAPTAIN" weight="1" />
+      <edge id="14283" source="WORKMAN" target="SOMERSET" weight="1" />
+      <edge id="14284" source="CHRIS" target="MILLS" weight="1" />
+      <edge id="14285" source="VAGRANT" target="SOMERSET" weight="1" />
+      <edge id="14286" source="A REPORTER" target="MAN'S VOICE" weight="1" />
+      <edge id="14287" source="A REPORTER" target="TALBOT" weight="1" />
+      <edge id="14288" source="A REPORTER" target="MILLS" weight="1" />
+      <edge id="14289" source="TALBOT" target="MAN'S VOICE" weight="1" />
+      <edge id="14290" source="TALBOT" target="A REPORTER" weight="1" />
+      <edge id="14291" source="TALBOT" target="MILLS" weight="2" />
+      <edge id="14292" source="TALBOT" target="SWARR" weight="1" />
+      <edge id="14293" source="TALBOT" target="SOMERSET" weight="1" />
+      <edge id="14294" source="TALBOT" target="CAPTAIN" weight="1" />
+      <edge id="14295" source="WILLIAM" target="SOMERSET" weight="2" />
+      <edge id="14296" source="PREACHER" target="JOHN" weight="1" />
+      <edge id="14297" source="JOHN" target="PREACHER" weight="1" />
+      <edge id="14298" source="JOHN" target="SOMERSET" weight="1" />
+      <edge id="14299" source="JOHN" target="MILLS" weight="1" />
+      <edge id="14300" source="MRS GOLD" target="MILLS" weight="2" />
+      <edge id="14301" source="MRS GOLD" target="SOMERSET" weight="2" />
+      <edge id="14302" source="FORENSIC" target="MILLS" weight="1" />
+      <edge id="14303" source="FORENSIC" target="SOMERSET" weight="1" />
+      <edge id="14304" source="TECHNICIAN" target="SOMERSET" weight="1" />
+      <edge id="14305" source="TECHNICIAN" target="MILLS" weight="1" />
+      <edge id="14306" source="FEMALE COP" target="CAPTAIN" weight="1" />
+      <edge id="14307" source="FEMALE COP" target="CALIFORNIA" weight="1" />
+      <edge id="14308" source="FEMALE COP" target="SOMERSET" weight="1" />
+      <edge id="14309" source="FEMALE COP" target="MILLS" weight="1" />
+      <edge id="14310" source="CALIFORNIA" target="CAPTAIN" weight="1" />
+      <edge id="14311" source="CALIFORNIA" target="FEMALE COP" weight="1" />
+      <edge id="14312" source="CALIFORNIA" target="SOMERSET" weight="6" />
+      <edge id="14313" source="CALIFORNIA" target="MILLS" weight="4" />
+      <edge id="14314" source="CALIFORNIA" target="BLACK COP" weight="1" />
+      <edge id="14315" source="CALIFORNIA" target="BLOND COP" weight="1" />
+      <edge id="14316" source="CALIFORNIA" target="PILOT" weight="2" />
+      <edge id="14317" source="CALIFORNIA" target="JOHN DOE" weight="1" />
+      <edge id="14318" source="BLACK COP" target="MILLS" weight="1" />
+      <edge id="14319" source="BLACK COP" target="CALIFORNIA" weight="1" />
+      <edge id="14320" source="BLACK COP" target="SOMERSET" weight="1" />
+      <edge id="14321" source="BLACK COP" target="BLOND COP" weight="1" />
+      <edge id="14322" source="BLOND COP" target="MILLS" weight="1" />
+      <edge id="14323" source="BLOND COP" target="CALIFORNIA" weight="1" />
+      <edge id="14324" source="BLOND COP" target="SOMERSET" weight="1" />
+      <edge id="14325" source="BLOND COP" target="BLACK COP" weight="1" />
+      <edge id="14326" source="BEARDSLEY" target="MILLS" weight="1" />
+      <edge id="14327" source="BLEEKER" target="SOMERSET" weight="5" />
+      <edge id="14328" source="OFFICER" target="MILLS" weight="1" />
+      <edge id="14329" source="STONE" target="SOMERSET" weight="1" />
+      <edge id="14330" source="STONE" target="NUN" weight="1" />
+      <edge id="14331" source="NUN" target="SOMERSET" weight="1" />
+      <edge id="14332" source="NUN" target="STONE" weight="1" />
+      <edge id="14333" source="DARIO" target="SOMERSET" weight="1" />
+      <edge id="14334" source="DARIO" target="MILLS" weight="1" />
+      <edge id="14335" source="ONE FORENSIC" target="COP" weight="1" />
+      <edge id="14336" source="COP" target="ONE FORENSIC" weight="1" />
+      <edge id="14337" source="COP" target="FAT MAN" weight="1" />
+      <edge id="14338" source="COP" target="SOMERSET" weight="1" />
+      <edge id="14339" source="COP" target="MILLS" weight="1" />
+      <edge id="14340" source="COP" target="SERGEANT" weight="1" />
+      <edge id="14341" source="COP" target="UNIFORMED COP" weight="1" />
+      <edge id="14342" source="COP" target="ANOTHER COP" weight="1" />
+      <edge id="14343" source="COP" target="ONE COP" weight="1" />
+      <edge id="14344" source="COP" target="JOHN DOE" weight="1" />
+      <edge id="14345" source="SKETCH ARTIST" target="MILLS" weight="1" />
+      <edge id="14346" source="SKETCH ARTIST" target="SARAH" weight="1" />
+      <edge id="14347" source="SKETCH ARTIST" target="SARA" weight="1" />
+      <edge id="14348" source="SARAH" target="SKETCH ARTIST" weight="1" />
+      <edge id="14349" source="SARAH" target="MILLS" weight="1" />
+      <edge id="14350" source="SARAH" target="SARA" weight="1" />
+      <edge id="14351" source="SARA" target="SKETCH ARTIST" weight="1" />
+      <edge id="14352" source="SARA" target="MILLS" weight="1" />
+      <edge id="14353" source="SARA" target="SARAH" weight="1" />
+      <edge id="14354" source="JOHN DOE" target="MILLS" weight="8" />
+      <edge id="14355" source="JOHN DOE" target="SOMERSET" weight="3" />
+      <edge id="14356" source="JOHN DOE" target="SERGEANT" weight="1" />
+      <edge id="14357" source="JOHN DOE" target="UNIFORMED COP" weight="1" />
+      <edge id="14358" source="JOHN DOE" target="ANOTHER COP" weight="1" />
+      <edge id="14359" source="JOHN DOE" target="ONE COP" weight="1" />
+      <edge id="14360" source="JOHN DOE" target="COP" weight="1" />
+      <edge id="14361" source="JOHN DOE" target="CALIFORNIA" weight="1" />
+      <edge id="14362" source="CLERK" target="SOMERSET" weight="1" />
+      <edge id="14363" source="CLERK" target="TRACY" weight="1" />
+      <edge id="14364" source="WILD BILL" target="MILLS" weight="1" />
+      <edge id="14365" source="WILD BILL" target="SOMERSET" weight="1" />
+      <edge id="14366" source="WILD BILL" target="POLICEMAN" weight="1" />
+      <edge id="14367" source="POLICEMAN" target="WILD BILL" weight="1" />
+      <edge id="14368" source="POLICEMAN" target="MILLS" weight="1" />
+      <edge id="14369" source="POLICEMAN" target="SOMERSET" weight="1" />
+      <edge id="14370" source="FAT MAN" target="COP" weight="1" />
+      <edge id="14371" source="CRAZED MAN" target="SECOND ATTENDANT" weight="1" />
+      <edge id="14372" source="CRAZED MAN" target="FIRST ATTENDANT" weight="1" />
+      <edge id="14373" source="CRAZED MAN" target="SOMERSET" weight="1" />
+      <edge id="14374" source="SECOND ATTENDANT" target="CRAZED MAN" weight="1" />
+      <edge id="14375" source="SECOND ATTENDANT" target="FIRST ATTENDANT" weight="1" />
+      <edge id="14376" source="FIRST ATTENDANT" target="CRAZED MAN" weight="1" />
+      <edge id="14377" source="FIRST ATTENDANT" target="SECOND ATTENDANT" weight="1" />
+      <edge id="14378" source="SERGEANT" target="SOMERSET" weight="1" />
+      <edge id="14379" source="SERGEANT" target="MILLS" weight="1" />
+      <edge id="14380" source="SERGEANT" target="UNIFORMED COP" weight="1" />
+      <edge id="14381" source="SERGEANT" target="ANOTHER COP" weight="1" />
+      <edge id="14382" source="SERGEANT" target="ONE COP" weight="1" />
+      <edge id="14383" source="SERGEANT" target="JOHN DOE" weight="1" />
+      <edge id="14384" source="SERGEANT" target="COP" weight="1" />
+      <edge id="14385" source="UNIFORMED COP" target="SOMERSET" weight="1" />
+      <edge id="14386" source="UNIFORMED COP" target="MILLS" weight="1" />
+      <edge id="14387" source="UNIFORMED COP" target="SERGEANT" weight="1" />
+      <edge id="14388" source="UNIFORMED COP" target="ANOTHER COP" weight="1" />
+      <edge id="14389" source="UNIFORMED COP" target="ONE COP" weight="1" />
+      <edge id="14390" source="UNIFORMED COP" target="JOHN DOE" weight="1" />
+      <edge id="14391" source="UNIFORMED COP" target="COP" weight="1" />
+      <edge id="14392" source="ANOTHER COP" target="SOMERSET" weight="1" />
+      <edge id="14393" source="ANOTHER COP" target="MILLS" weight="1" />
+      <edge id="14394" source="ANOTHER COP" target="SERGEANT" weight="1" />
+      <edge id="14395" source="ANOTHER COP" target="UNIFORMED COP" weight="1" />
+      <edge id="14396" source="ANOTHER COP" target="ONE COP" weight="1" />
+      <edge id="14397" source="ANOTHER COP" target="JOHN DOE" weight="1" />
+      <edge id="14398" source="ANOTHER COP" target="COP" weight="1" />
+      <edge id="14399" source="ONE COP" target="SOMERSET" weight="1" />
+      <edge id="14400" source="ONE COP" target="MILLS" weight="1" />
+      <edge id="14401" source="ONE COP" target="SERGEANT" weight="1" />
+      <edge id="14402" source="ONE COP" target="UNIFORMED COP" weight="1" />
+      <edge id="14403" source="ONE COP" target="ANOTHER COP" weight="1" />
+      <edge id="14404" source="ONE COP" target="JOHN DOE" weight="1" />
+      <edge id="14405" source="ONE COP" target="COP" weight="1" />
+      <edge id="14406" source="SWARR" target="TALBOT" weight="1" />
+      <edge id="14407" source="SWARR" target="MILLS" weight="1" />
+      <edge id="14408" source="SWARR" target="SOMERSET" weight="1" />
+      <edge id="14409" source="SWARR" target="CAPTAIN" weight="1" />
+      <edge id="14410" source="PILOT" target="CALIFORNIA" weight="2" />
+      <edge id="14411" source="MOVER" target="SOMERSET" weight="1" />
+      <edge id="14412" source="MOVER" target="TRACY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MALE PAGEANT ANNOUNCER" label="MALE PAGEANT ANNOUNCER" />
+      <node id="ADAM WEST" label="ADAM WEST" />
+      <node id="GLADYS LEEMAN" label="GLADYS LEEMAN" />
+      <node id="IRIS" label="IRIS" />
+      <node id="GLADYS" label="GLADYS" />
+      <node id="DOCUMENTARIAN" label="DOCUMENTARIAN" />
+      <node id="ELDERLY MAN" label="ELDERLY MAN" />
+      <node id="LESLIE MILLER" label="LESLIE MILLER" />
+      <node id="LESLIE" label="LESLIE" />
+      <node id="AMBER ATKINS" label="AMBER ATKINS" />
+      <node id="AMBER" label="AMBER" />
+      <node id="BECKY" label="BECKY" />
+      <node id="LISA" label="LISA" />
+      <node id="TESS" label="TESS" />
+      <node id="IONA HILDERBRANTDT" label="IONA HILDERBRANTDT" />
+      <node id="MR. HOWARD" label="MR. HOWARD" />
+      <node id="MOLLY" label="MOLLY" />
+      <node id="MRS. HOWARD" label="MRS. HOWARD" />
+      <node id="TINA" label="TINA" />
+      <node id="MICHELLE" label="MICHELLE" />
+      <node id="CONNIE" label="CONNIE" />
+      <node id="JANELLE" label="JANELLE" />
+      <node id="TAMMY CURRY" label="TAMMY CURRY" />
+      <node id="TAMMY" label="TAMMY" />
+      <node id="FEMALE MOURNER #1" label="FEMALE MOURNER #1" />
+      <node id="FRY GIRL #1" label="FRY GIRL #1" />
+      <node id="PREGNANT FRY GIRL" label="PREGNANT FRY GIRL" />
+      <node id="CHLORIS" label="CHLORIS" />
+      <node id="MARY" label="MARY" />
+      <node id="ANNETTE" label="ANNETTE" />
+      <node id="LESTER" label="LESTER" />
+      <node id="TONY" label="TONY" />
+      <node id="JOHN" label="JOHN" />
+      <node id="HAROLD" label="HAROLD" />
+      <node id="HANK" label="HANK" />
+      <node id="PAT" label="PAT" />
+      <node id="BRETT" label="BRETT" />
+      <node id="IONA" label="IONA" />
+      <node id="AMBER/BRETT" label="AMBER/BRETT" />
+      <node id="LORETTA" label="LORETTA" />
+      <node id="MR. LARSON" label="MR. LARSON" />
+      <node id="TWIN OFFICER #1" label="TWIN OFFICER #1" />
+      <node id="TWIN OFFICER #2" label="TWIN OFFICER #2" />
+      <node id="FIREMAN #1" label="FIREMAN #1" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="ROCKER KID #1" label="ROCKER KID #1" />
+      <node id="ROCKER KID #2" label="ROCKER KID #2" />
+      <node id="ROCKER KIDS" label="ROCKER KIDS" />
+      <node id="CANDY STRIPER" label="CANDY STRIPER" />
+      <node id="CREW GUY" label="CREW GUY" />
+      <node id="ELDERLY MAN/MAYOR" label="ELDERLY MAN/MAYOR" />
+      <node id="LISA'S FATHER" label="LISA'S FATHER" />
+      <node id="MAYOR" label="MAYOR" />
+      <node id="SCOTT" label="SCOTT" />
+      <node id="PASTOR" label="PASTOR" />
+      <node id="MALE REPORTER #1" label="MALE REPORTER #1" />
+      <node id="TERRY" label="TERRY" />
+      <node id="COLLEEN" label="COLLEEN" />
+      <node id="MR. MELCHOIR" label="MR. MELCHOIR" />
+      <node id="MISS MINNEAPOLIS" label="MISS MINNEAPOLIS" />
+      <node id="FEMALE REPORTER" label="FEMALE REPORTER" />
+      <node id="FEMALE REPORTER #2" label="FEMALE REPORTER #2" />
+      <node id="CATHY" label="CATHY" />
+      <node id="FEMALE PRISONER" label="FEMALE PRISONER" />
+      <node id="MAN AT FOOD SHACK" label="MAN AT FOOD SHACK" />
+      <node id="BLONDE NEWS ANCHOR" label="BLONDE NEWS ANCHOR" />
+    </nodes>
+    <edges>
+      <edge id="5405" source="MALE PAGEANT ANNOUNCER" target="ADAM WEST" weight="1" />
+      <edge id="5406" source="ADAM WEST" target="MALE PAGEANT ANNOUNCER" weight="1" />
+      <edge id="5407" source="GLADYS LEEMAN" target="IRIS" weight="1" />
+      <edge id="5408" source="GLADYS LEEMAN" target="GLADYS" weight="1" />
+      <edge id="5409" source="GLADYS LEEMAN" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5410" source="IRIS" target="GLADYS LEEMAN" weight="1" />
+      <edge id="5411" source="IRIS" target="GLADYS" weight="11" />
+      <edge id="5412" source="IRIS" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5413" source="IRIS" target="FEMALE MOURNER #1" weight="1" />
+      <edge id="5414" source="IRIS" target="TONY" weight="1" />
+      <edge id="5415" source="IRIS" target="MARY" weight="1" />
+      <edge id="5416" source="IRIS" target="LESLIE" weight="2" />
+      <edge id="5417" source="IRIS" target="BECKY" weight="4" />
+      <edge id="5418" source="IRIS" target="AMBER" weight="5" />
+      <edge id="5419" source="IRIS" target="TESS" weight="4" />
+      <edge id="5420" source="IRIS" target="JANELLE" weight="1" />
+      <edge id="5421" source="IRIS" target="MOLLY" weight="2" />
+      <edge id="5422" source="IRIS" target="CREW GUY" weight="1" />
+      <edge id="5423" source="IRIS" target="LISA" weight="2" />
+      <edge id="5424" source="IRIS" target="HANK" weight="3" />
+      <edge id="5425" source="IRIS" target="LORETTA" weight="2" />
+      <edge id="5426" source="IRIS" target="CHLORIS" weight="1" />
+      <edge id="5427" source="IRIS" target="MICHELLE" weight="1" />
+      <edge id="5428" source="IRIS" target="JOHN" weight="1" />
+      <edge id="5429" source="IRIS" target="HAROLD" weight="1" />
+      <edge id="5430" source="IRIS" target="MALE REPORTER #1" weight="1" />
+      <edge id="5431" source="GLADYS" target="GLADYS LEEMAN" weight="1" />
+      <edge id="5432" source="GLADYS" target="IRIS" weight="11" />
+      <edge id="5433" source="GLADYS" target="DOCUMENTARIAN" weight="6" />
+      <edge id="5434" source="GLADYS" target="FEMALE MOURNER #1" weight="1" />
+      <edge id="5435" source="GLADYS" target="LESTER" weight="4" />
+      <edge id="5436" source="GLADYS" target="BECKY" weight="9" />
+      <edge id="5437" source="GLADYS" target="TONY" weight="1" />
+      <edge id="5438" source="GLADYS" target="JOHN" weight="1" />
+      <edge id="5439" source="GLADYS" target="HAROLD" weight="1" />
+      <edge id="5440" source="GLADYS" target="TESS" weight="2" />
+      <edge id="5441" source="GLADYS" target="MOLLY" weight="3" />
+      <edge id="5442" source="GLADYS" target="LESLIE" weight="1" />
+      <edge id="5443" source="GLADYS" target="MICHELLE" weight="2" />
+      <edge id="5444" source="GLADYS" target="LISA" weight="3" />
+      <edge id="5445" source="GLADYS" target="JANELLE" weight="1" />
+      <edge id="5446" source="GLADYS" target="HANK" weight="3" />
+      <edge id="5447" source="GLADYS" target="AMBER" weight="5" />
+      <edge id="5448" source="GLADYS" target="LORETTA" weight="2" />
+      <edge id="5449" source="GLADYS" target="CHLORIS" weight="1" />
+      <edge id="5450" source="GLADYS" target="PAT" weight="1" />
+      <edge id="5451" source="GLADYS" target="ANNETTE" weight="1" />
+      <edge id="5452" source="GLADYS" target="FRY GIRL #1" weight="1" />
+      <edge id="5453" source="GLADYS" target="PREGNANT FRY GIRL" weight="1" />
+      <edge id="5454" source="GLADYS" target="SCOTT" weight="1" />
+      <edge id="5455" source="GLADYS" target="FEMALE PRISONER" weight="1" />
+      <edge id="5456" source="GLADYS" target="FEMALE REPORTER" weight="1" />
+      <edge id="5457" source="GLADYS" target="MAN AT FOOD SHACK" weight="1" />
+      <edge id="5458" source="DOCUMENTARIAN" target="GLADYS LEEMAN" weight="1" />
+      <edge id="5459" source="DOCUMENTARIAN" target="IRIS" weight="3" />
+      <edge id="5460" source="DOCUMENTARIAN" target="GLADYS" weight="6" />
+      <edge id="5461" source="DOCUMENTARIAN" target="AMBER" weight="9" />
+      <edge id="5462" source="DOCUMENTARIAN" target="LISA" weight="2" />
+      <edge id="5463" source="DOCUMENTARIAN" target="TAMMY" weight="1" />
+      <edge id="5464" source="DOCUMENTARIAN" target="JOHN" weight="3" />
+      <edge id="5465" source="DOCUMENTARIAN" target="HAROLD" weight="4" />
+      <edge id="5466" source="DOCUMENTARIAN" target="HANK" weight="3" />
+      <edge id="5467" source="DOCUMENTARIAN" target="BRETT" weight="1" />
+      <edge id="5468" source="DOCUMENTARIAN" target="AMBER/BRETT" weight="1" />
+      <edge id="5469" source="DOCUMENTARIAN" target="ANNETTE" weight="3" />
+      <edge id="5470" source="DOCUMENTARIAN" target="LORETTA" weight="3" />
+      <edge id="5471" source="DOCUMENTARIAN" target="BECKY" weight="5" />
+      <edge id="5472" source="DOCUMENTARIAN" target="DOCTOR" weight="1" />
+      <edge id="5473" source="DOCUMENTARIAN" target="TESS" weight="3" />
+      <edge id="5474" source="DOCUMENTARIAN" target="MOLLY" weight="1" />
+      <edge id="5475" source="DOCUMENTARIAN" target="LESLIE" weight="3" />
+      <edge id="5476" source="DOCUMENTARIAN" target="MICHELLE" weight="1" />
+      <edge id="5477" source="DOCUMENTARIAN" target="JANELLE" weight="2" />
+      <edge id="5478" source="DOCUMENTARIAN" target="MARY" weight="1" />
+      <edge id="5479" source="DOCUMENTARIAN" target="FRY GIRL #1" weight="1" />
+      <edge id="5480" source="DOCUMENTARIAN" target="PREGNANT FRY GIRL" weight="1" />
+      <edge id="5481" source="DOCUMENTARIAN" target="LESTER" weight="2" />
+      <edge id="5482" source="DOCUMENTARIAN" target="SCOTT" weight="1" />
+      <edge id="5483" source="LESLIE MILLER" target="LESLIE" weight="1" />
+      <edge id="5484" source="LESLIE" target="LESLIE MILLER" weight="1" />
+      <edge id="5485" source="LESLIE" target="GLADYS" weight="1" />
+      <edge id="5486" source="LESLIE" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5487" source="LESLIE" target="JOHN" weight="2" />
+      <edge id="5488" source="LESLIE" target="HAROLD" weight="2" />
+      <edge id="5489" source="LESLIE" target="TESS" weight="3" />
+      <edge id="5490" source="LESLIE" target="MOLLY" weight="1" />
+      <edge id="5491" source="LESLIE" target="MICHELLE" weight="3" />
+      <edge id="5492" source="LESLIE" target="BECKY" weight="4" />
+      <edge id="5493" source="LESLIE" target="LISA" weight="4" />
+      <edge id="5494" source="LESLIE" target="JANELLE" weight="2" />
+      <edge id="5495" source="LESLIE" target="HANK" weight="2" />
+      <edge id="5496" source="LESLIE" target="AMBER" weight="7" />
+      <edge id="5497" source="LESLIE" target="MARY" weight="1" />
+      <edge id="5498" source="LESLIE" target="IRIS" weight="2" />
+      <edge id="5499" source="LESLIE" target="CHLORIS" weight="1" />
+      <edge id="5500" source="LESLIE" target="PAT" weight="1" />
+      <edge id="5501" source="LESLIE" target="LISA'S FATHER" weight="1" />
+      <edge id="5502" source="AMBER" target="DOCUMENTARIAN" weight="9" />
+      <edge id="5503" source="AMBER" target="MARY" weight="3" />
+      <edge id="5504" source="AMBER" target="BECKY" weight="7" />
+      <edge id="5505" source="AMBER" target="ANNETTE" weight="7" />
+      <edge id="5506" source="AMBER" target="BRETT" weight="2" />
+      <edge id="5507" source="AMBER" target="AMBER/BRETT" weight="1" />
+      <edge id="5508" source="AMBER" target="MR. LARSON" weight="2" />
+      <edge id="5509" source="AMBER" target="FIREMAN #1" weight="1" />
+      <edge id="5510" source="AMBER" target="LORETTA" weight="12" />
+      <edge id="5511" source="AMBER" target="DOCTOR" weight="1" />
+      <edge id="5512" source="AMBER" target="CANDY STRIPER" weight="1" />
+      <edge id="5513" source="AMBER" target="GLADYS" weight="5" />
+      <edge id="5514" source="AMBER" target="JOHN" weight="2" />
+      <edge id="5515" source="AMBER" target="HAROLD" weight="2" />
+      <edge id="5516" source="AMBER" target="TESS" weight="5" />
+      <edge id="5517" source="AMBER" target="MOLLY" weight="3" />
+      <edge id="5518" source="AMBER" target="LESLIE" weight="7" />
+      <edge id="5519" source="AMBER" target="MICHELLE" weight="5" />
+      <edge id="5520" source="AMBER" target="LISA" weight="4" />
+      <edge id="5521" source="AMBER" target="JANELLE" weight="2" />
+      <edge id="5522" source="AMBER" target="HANK" weight="2" />
+      <edge id="5523" source="AMBER" target="IRIS" weight="5" />
+      <edge id="5524" source="AMBER" target="CREW GUY" weight="2" />
+      <edge id="5525" source="AMBER" target="CHLORIS" weight="2" />
+      <edge id="5526" source="AMBER" target="PAT" weight="1" />
+      <edge id="5527" source="AMBER" target="LISA'S FATHER" weight="1" />
+      <edge id="5528" source="AMBER" target="LESTER" weight="1" />
+      <edge id="5529" source="AMBER" target="SCOTT" weight="1" />
+      <edge id="5530" source="AMBER" target="TERRY" weight="2" />
+      <edge id="5531" source="AMBER" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5532" source="AMBER" target="COLLEEN" weight="1" />
+      <edge id="5533" source="AMBER" target="FEMALE REPORTER" weight="3" />
+      <edge id="5534" source="AMBER" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5535" source="AMBER" target="CATHY" weight="1" />
+      <edge id="5536" source="AMBER" target="MAN AT FOOD SHACK" weight="1" />
+      <edge id="5537" source="AMBER" target="BLONDE NEWS ANCHOR" weight="1" />
+      <edge id="5538" source="BECKY" target="AMBER" weight="7" />
+      <edge id="5539" source="BECKY" target="MARY" weight="2" />
+      <edge id="5540" source="BECKY" target="LESTER" weight="2" />
+      <edge id="5541" source="BECKY" target="GLADYS" weight="9" />
+      <edge id="5542" source="BECKY" target="BRETT" weight="1" />
+      <edge id="5543" source="BECKY" target="DOCUMENTARIAN" weight="5" />
+      <edge id="5544" source="BECKY" target="JOHN" weight="2" />
+      <edge id="5545" source="BECKY" target="HAROLD" weight="2" />
+      <edge id="5546" source="BECKY" target="TESS" weight="4" />
+      <edge id="5547" source="BECKY" target="MOLLY" weight="3" />
+      <edge id="5548" source="BECKY" target="LESLIE" weight="4" />
+      <edge id="5549" source="BECKY" target="MICHELLE" weight="2" />
+      <edge id="5550" source="BECKY" target="LISA" weight="3" />
+      <edge id="5551" source="BECKY" target="JANELLE" weight="2" />
+      <edge id="5552" source="BECKY" target="HANK" weight="3" />
+      <edge id="5553" source="BECKY" target="IRIS" weight="4" />
+      <edge id="5554" source="BECKY" target="CREW GUY" weight="1" />
+      <edge id="5555" source="BECKY" target="LORETTA" weight="1" />
+      <edge id="5556" source="BECKY" target="CHLORIS" weight="1" />
+      <edge id="5557" source="BECKY" target="PAT" weight="1" />
+      <edge id="5558" source="BECKY" target="ANNETTE" weight="1" />
+      <edge id="5559" source="LISA" target="DOCUMENTARIAN" weight="2" />
+      <edge id="5560" source="LISA" target="CHLORIS" weight="2" />
+      <edge id="5561" source="LISA" target="MARY" weight="1" />
+      <edge id="5562" source="LISA" target="GLADYS" weight="3" />
+      <edge id="5563" source="LISA" target="JOHN" weight="1" />
+      <edge id="5564" source="LISA" target="HAROLD" weight="1" />
+      <edge id="5565" source="LISA" target="TESS" weight="1" />
+      <edge id="5566" source="LISA" target="MOLLY" weight="2" />
+      <edge id="5567" source="LISA" target="LESLIE" weight="4" />
+      <edge id="5568" source="LISA" target="MICHELLE" weight="3" />
+      <edge id="5569" source="LISA" target="BECKY" weight="3" />
+      <edge id="5570" source="LISA" target="JANELLE" weight="1" />
+      <edge id="5571" source="LISA" target="HANK" weight="2" />
+      <edge id="5572" source="LISA" target="AMBER" weight="4" />
+      <edge id="5573" source="LISA" target="IRIS" weight="2" />
+      <edge id="5574" source="LISA" target="LORETTA" weight="1" />
+      <edge id="5575" source="LISA" target="PAT" weight="1" />
+      <edge id="5576" source="LISA" target="LISA'S FATHER" weight="1" />
+      <edge id="5577" source="TESS" target="GLADYS" weight="2" />
+      <edge id="5578" source="TESS" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5579" source="TESS" target="JOHN" weight="2" />
+      <edge id="5580" source="TESS" target="HAROLD" weight="2" />
+      <edge id="5581" source="TESS" target="MOLLY" weight="2" />
+      <edge id="5582" source="TESS" target="LESLIE" weight="3" />
+      <edge id="5583" source="TESS" target="MICHELLE" weight="1" />
+      <edge id="5584" source="TESS" target="BECKY" weight="4" />
+      <edge id="5585" source="TESS" target="LISA" weight="1" />
+      <edge id="5586" source="TESS" target="JANELLE" weight="2" />
+      <edge id="5587" source="TESS" target="HANK" weight="2" />
+      <edge id="5588" source="TESS" target="AMBER" weight="5" />
+      <edge id="5589" source="TESS" target="MARY" weight="1" />
+      <edge id="5590" source="TESS" target="IRIS" weight="4" />
+      <edge id="5591" source="TESS" target="CREW GUY" weight="1" />
+      <edge id="5592" source="TESS" target="LORETTA" weight="1" />
+      <edge id="5593" source="TESS" target="CHLORIS" weight="1" />
+      <edge id="5594" source="MR. HOWARD" target="MOLLY" weight="2" />
+      <edge id="5595" source="MR. HOWARD" target="MRS. HOWARD" weight="3" />
+      <edge id="5596" source="MR. HOWARD" target="TINA" weight="2" />
+      <edge id="5597" source="MR. HOWARD" target="PAT" weight="1" />
+      <edge id="5598" source="MOLLY" target="MR. HOWARD" weight="2" />
+      <edge id="5599" source="MOLLY" target="MRS. HOWARD" weight="2" />
+      <edge id="5600" source="MOLLY" target="TINA" weight="1" />
+      <edge id="5601" source="MOLLY" target="GLADYS" weight="3" />
+      <edge id="5602" source="MOLLY" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5603" source="MOLLY" target="JOHN" weight="1" />
+      <edge id="5604" source="MOLLY" target="HAROLD" weight="1" />
+      <edge id="5605" source="MOLLY" target="TESS" weight="2" />
+      <edge id="5606" source="MOLLY" target="LESLIE" weight="1" />
+      <edge id="5607" source="MOLLY" target="MICHELLE" weight="2" />
+      <edge id="5608" source="MOLLY" target="BECKY" weight="3" />
+      <edge id="5609" source="MOLLY" target="LISA" weight="2" />
+      <edge id="5610" source="MOLLY" target="JANELLE" weight="1" />
+      <edge id="5611" source="MOLLY" target="HANK" weight="2" />
+      <edge id="5612" source="MOLLY" target="AMBER" weight="3" />
+      <edge id="5613" source="MOLLY" target="IRIS" weight="2" />
+      <edge id="5614" source="MOLLY" target="CREW GUY" weight="1" />
+      <edge id="5615" source="MOLLY" target="LORETTA" weight="1" />
+      <edge id="5616" source="MRS. HOWARD" target="MR. HOWARD" weight="3" />
+      <edge id="5617" source="MRS. HOWARD" target="MOLLY" weight="2" />
+      <edge id="5618" source="MRS. HOWARD" target="TINA" weight="1" />
+      <edge id="5619" source="MRS. HOWARD" target="PAT" weight="1" />
+      <edge id="5620" source="TINA" target="MR. HOWARD" weight="2" />
+      <edge id="5621" source="TINA" target="MOLLY" weight="1" />
+      <edge id="5622" source="TINA" target="MRS. HOWARD" weight="1" />
+      <edge id="5623" source="MICHELLE" target="CONNIE" weight="1" />
+      <edge id="5624" source="MICHELLE" target="GLADYS" weight="2" />
+      <edge id="5625" source="MICHELLE" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5626" source="MICHELLE" target="JOHN" weight="1" />
+      <edge id="5627" source="MICHELLE" target="HAROLD" weight="1" />
+      <edge id="5628" source="MICHELLE" target="TESS" weight="1" />
+      <edge id="5629" source="MICHELLE" target="MOLLY" weight="2" />
+      <edge id="5630" source="MICHELLE" target="LESLIE" weight="3" />
+      <edge id="5631" source="MICHELLE" target="BECKY" weight="2" />
+      <edge id="5632" source="MICHELLE" target="LISA" weight="3" />
+      <edge id="5633" source="MICHELLE" target="JANELLE" weight="1" />
+      <edge id="5634" source="MICHELLE" target="HANK" weight="1" />
+      <edge id="5635" source="MICHELLE" target="AMBER" weight="5" />
+      <edge id="5636" source="MICHELLE" target="CHLORIS" weight="1" />
+      <edge id="5637" source="MICHELLE" target="IRIS" weight="1" />
+      <edge id="5638" source="CONNIE" target="MICHELLE" weight="1" />
+      <edge id="5639" source="JANELLE" target="GLADYS" weight="1" />
+      <edge id="5640" source="JANELLE" target="DOCUMENTARIAN" weight="2" />
+      <edge id="5641" source="JANELLE" target="JOHN" weight="1" />
+      <edge id="5642" source="JANELLE" target="HAROLD" weight="1" />
+      <edge id="5643" source="JANELLE" target="TESS" weight="2" />
+      <edge id="5644" source="JANELLE" target="MOLLY" weight="1" />
+      <edge id="5645" source="JANELLE" target="LESLIE" weight="2" />
+      <edge id="5646" source="JANELLE" target="MICHELLE" weight="1" />
+      <edge id="5647" source="JANELLE" target="BECKY" weight="2" />
+      <edge id="5648" source="JANELLE" target="LISA" weight="1" />
+      <edge id="5649" source="JANELLE" target="HANK" weight="1" />
+      <edge id="5650" source="JANELLE" target="AMBER" weight="2" />
+      <edge id="5651" source="JANELLE" target="MARY" weight="1" />
+      <edge id="5652" source="JANELLE" target="IRIS" weight="1" />
+      <edge id="5653" source="TAMMY" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5654" source="FEMALE MOURNER #1" target="GLADYS" weight="1" />
+      <edge id="5655" source="FEMALE MOURNER #1" target="IRIS" weight="1" />
+      <edge id="5656" source="FRY GIRL #1" target="PREGNANT FRY GIRL" weight="2" />
+      <edge id="5657" source="FRY GIRL #1" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5658" source="FRY GIRL #1" target="LESTER" weight="1" />
+      <edge id="5659" source="FRY GIRL #1" target="GLADYS" weight="1" />
+      <edge id="5660" source="PREGNANT FRY GIRL" target="FRY GIRL #1" weight="2" />
+      <edge id="5661" source="PREGNANT FRY GIRL" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5662" source="PREGNANT FRY GIRL" target="LESTER" weight="1" />
+      <edge id="5663" source="PREGNANT FRY GIRL" target="GLADYS" weight="1" />
+      <edge id="5664" source="CHLORIS" target="LISA" weight="2" />
+      <edge id="5665" source="CHLORIS" target="MARY" weight="1" />
+      <edge id="5666" source="CHLORIS" target="BECKY" weight="1" />
+      <edge id="5667" source="CHLORIS" target="LESLIE" weight="1" />
+      <edge id="5668" source="CHLORIS" target="AMBER" weight="2" />
+      <edge id="5669" source="CHLORIS" target="MICHELLE" weight="1" />
+      <edge id="5670" source="CHLORIS" target="IRIS" weight="1" />
+      <edge id="5671" source="CHLORIS" target="GLADYS" weight="1" />
+      <edge id="5672" source="CHLORIS" target="LORETTA" weight="1" />
+      <edge id="5673" source="CHLORIS" target="TESS" weight="1" />
+      <edge id="5674" source="MARY" target="CHLORIS" weight="1" />
+      <edge id="5675" source="MARY" target="LISA" weight="1" />
+      <edge id="5676" source="MARY" target="AMBER" weight="3" />
+      <edge id="5677" source="MARY" target="BECKY" weight="2" />
+      <edge id="5678" source="MARY" target="IRIS" weight="1" />
+      <edge id="5679" source="MARY" target="LESLIE" weight="1" />
+      <edge id="5680" source="MARY" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5681" source="MARY" target="TESS" weight="1" />
+      <edge id="5682" source="MARY" target="JANELLE" weight="1" />
+      <edge id="5683" source="ANNETTE" target="AMBER" weight="7" />
+      <edge id="5684" source="ANNETTE" target="LORETTA" weight="6" />
+      <edge id="5685" source="ANNETTE" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5686" source="ANNETTE" target="DOCTOR" weight="1" />
+      <edge id="5687" source="ANNETTE" target="CANDY STRIPER" weight="1" />
+      <edge id="5688" source="ANNETTE" target="GLADYS" weight="1" />
+      <edge id="5689" source="ANNETTE" target="PAT" weight="1" />
+      <edge id="5690" source="ANNETTE" target="BECKY" weight="1" />
+      <edge id="5691" source="LESTER" target="GLADYS" weight="4" />
+      <edge id="5692" source="LESTER" target="BECKY" weight="2" />
+      <edge id="5693" source="LESTER" target="FRY GIRL #1" weight="1" />
+      <edge id="5694" source="LESTER" target="PREGNANT FRY GIRL" weight="1" />
+      <edge id="5695" source="LESTER" target="DOCUMENTARIAN" weight="2" />
+      <edge id="5696" source="LESTER" target="AMBER" weight="1" />
+      <edge id="5697" source="LESTER" target="SCOTT" weight="1" />
+      <edge id="5698" source="TONY" target="GLADYS" weight="1" />
+      <edge id="5699" source="TONY" target="IRIS" weight="1" />
+      <edge id="5700" source="JOHN" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5701" source="JOHN" target="PAT" weight="1" />
+      <edge id="5702" source="JOHN" target="BRETT" weight="1" />
+      <edge id="5703" source="JOHN" target="GLADYS" weight="1" />
+      <edge id="5704" source="JOHN" target="HAROLD" weight="2" />
+      <edge id="5705" source="JOHN" target="TESS" weight="2" />
+      <edge id="5706" source="JOHN" target="MOLLY" weight="1" />
+      <edge id="5707" source="JOHN" target="LESLIE" weight="2" />
+      <edge id="5708" source="JOHN" target="MICHELLE" weight="1" />
+      <edge id="5709" source="JOHN" target="BECKY" weight="2" />
+      <edge id="5710" source="JOHN" target="LISA" weight="1" />
+      <edge id="5711" source="JOHN" target="JANELLE" weight="1" />
+      <edge id="5712" source="JOHN" target="HANK" weight="2" />
+      <edge id="5713" source="JOHN" target="AMBER" weight="2" />
+      <edge id="5714" source="JOHN" target="IRIS" weight="1" />
+      <edge id="5715" source="HAROLD" target="DOCUMENTARIAN" weight="4" />
+      <edge id="5716" source="HAROLD" target="HANK" weight="4" />
+      <edge id="5717" source="HAROLD" target="GLADYS" weight="1" />
+      <edge id="5718" source="HAROLD" target="JOHN" weight="2" />
+      <edge id="5719" source="HAROLD" target="TESS" weight="2" />
+      <edge id="5720" source="HAROLD" target="MOLLY" weight="1" />
+      <edge id="5721" source="HAROLD" target="LESLIE" weight="2" />
+      <edge id="5722" source="HAROLD" target="MICHELLE" weight="1" />
+      <edge id="5723" source="HAROLD" target="BECKY" weight="2" />
+      <edge id="5724" source="HAROLD" target="LISA" weight="1" />
+      <edge id="5725" source="HAROLD" target="JANELLE" weight="1" />
+      <edge id="5726" source="HAROLD" target="AMBER" weight="2" />
+      <edge id="5727" source="HAROLD" target="IRIS" weight="1" />
+      <edge id="5728" source="HANK" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5729" source="HANK" target="HAROLD" weight="4" />
+      <edge id="5730" source="HANK" target="GLADYS" weight="3" />
+      <edge id="5731" source="HANK" target="JOHN" weight="2" />
+      <edge id="5732" source="HANK" target="TESS" weight="2" />
+      <edge id="5733" source="HANK" target="MOLLY" weight="2" />
+      <edge id="5734" source="HANK" target="LESLIE" weight="2" />
+      <edge id="5735" source="HANK" target="MICHELLE" weight="1" />
+      <edge id="5736" source="HANK" target="BECKY" weight="3" />
+      <edge id="5737" source="HANK" target="LISA" weight="2" />
+      <edge id="5738" source="HANK" target="JANELLE" weight="1" />
+      <edge id="5739" source="HANK" target="AMBER" weight="2" />
+      <edge id="5740" source="HANK" target="IRIS" weight="3" />
+      <edge id="5741" source="HANK" target="LORETTA" weight="1" />
+      <edge id="5742" source="PAT" target="JOHN" weight="1" />
+      <edge id="5743" source="PAT" target="BRETT" weight="1" />
+      <edge id="5744" source="PAT" target="MR. HOWARD" weight="1" />
+      <edge id="5745" source="PAT" target="MRS. HOWARD" weight="1" />
+      <edge id="5746" source="PAT" target="GLADYS" weight="1" />
+      <edge id="5747" source="PAT" target="BECKY" weight="1" />
+      <edge id="5748" source="PAT" target="ANNETTE" weight="1" />
+      <edge id="5749" source="PAT" target="AMBER" weight="1" />
+      <edge id="5750" source="PAT" target="LESLIE" weight="1" />
+      <edge id="5751" source="PAT" target="LISA" weight="1" />
+      <edge id="5752" source="PAT" target="LISA'S FATHER" weight="1" />
+      <edge id="5753" source="BRETT" target="JOHN" weight="1" />
+      <edge id="5754" source="BRETT" target="PAT" weight="1" />
+      <edge id="5755" source="BRETT" target="BECKY" weight="1" />
+      <edge id="5756" source="BRETT" target="AMBER" weight="2" />
+      <edge id="5757" source="BRETT" target="AMBER/BRETT" weight="1" />
+      <edge id="5758" source="BRETT" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5759" source="AMBER/BRETT" target="BRETT" weight="1" />
+      <edge id="5760" source="AMBER/BRETT" target="AMBER" weight="1" />
+      <edge id="5761" source="AMBER/BRETT" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5762" source="LORETTA" target="ANNETTE" weight="6" />
+      <edge id="5763" source="LORETTA" target="DOCUMENTARIAN" weight="3" />
+      <edge id="5764" source="LORETTA" target="AMBER" weight="12" />
+      <edge id="5765" source="LORETTA" target="FIREMAN #1" weight="1" />
+      <edge id="5766" source="LORETTA" target="CANDY STRIPER" weight="1" />
+      <edge id="5767" source="LORETTA" target="IRIS" weight="2" />
+      <edge id="5768" source="LORETTA" target="BECKY" weight="1" />
+      <edge id="5769" source="LORETTA" target="LISA" weight="1" />
+      <edge id="5770" source="LORETTA" target="MOLLY" weight="1" />
+      <edge id="5771" source="LORETTA" target="HANK" weight="1" />
+      <edge id="5772" source="LORETTA" target="GLADYS" weight="2" />
+      <edge id="5773" source="LORETTA" target="TESS" weight="1" />
+      <edge id="5774" source="LORETTA" target="CHLORIS" weight="1" />
+      <edge id="5775" source="MR. LARSON" target="AMBER" weight="2" />
+      <edge id="5776" source="TWIN OFFICER #1" target="TWIN OFFICER #2" weight="2" />
+      <edge id="5777" source="TWIN OFFICER #2" target="TWIN OFFICER #1" weight="2" />
+      <edge id="5778" source="FIREMAN #1" target="AMBER" weight="1" />
+      <edge id="5779" source="FIREMAN #1" target="LORETTA" weight="1" />
+      <edge id="5780" source="DOCTOR" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5781" source="DOCTOR" target="AMBER" weight="1" />
+      <edge id="5782" source="DOCTOR" target="ANNETTE" weight="1" />
+      <edge id="5783" source="ROCKER KID #1" target="ROCKER KID #2" weight="1" />
+      <edge id="5784" source="ROCKER KID #1" target="ROCKER KIDS" weight="1" />
+      <edge id="5785" source="ROCKER KID #2" target="ROCKER KID #1" weight="1" />
+      <edge id="5786" source="ROCKER KID #2" target="ROCKER KIDS" weight="1" />
+      <edge id="5787" source="ROCKER KIDS" target="ROCKER KID #1" weight="1" />
+      <edge id="5788" source="ROCKER KIDS" target="ROCKER KID #2" weight="1" />
+      <edge id="5789" source="CANDY STRIPER" target="LORETTA" weight="1" />
+      <edge id="5790" source="CANDY STRIPER" target="AMBER" weight="1" />
+      <edge id="5791" source="CANDY STRIPER" target="ANNETTE" weight="1" />
+      <edge id="5792" source="CREW GUY" target="MOLLY" weight="1" />
+      <edge id="5793" source="CREW GUY" target="TESS" weight="1" />
+      <edge id="5794" source="CREW GUY" target="IRIS" weight="1" />
+      <edge id="5795" source="CREW GUY" target="AMBER" weight="2" />
+      <edge id="5796" source="CREW GUY" target="BECKY" weight="1" />
+      <edge id="5797" source="CREW GUY" target="TERRY" weight="1" />
+      <edge id="5798" source="CREW GUY" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5799" source="CREW GUY" target="COLLEEN" weight="1" />
+      <edge id="5800" source="CREW GUY" target="FEMALE REPORTER" weight="1" />
+      <edge id="5801" source="CREW GUY" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5802" source="LISA'S FATHER" target="AMBER" weight="1" />
+      <edge id="5803" source="LISA'S FATHER" target="LESLIE" weight="1" />
+      <edge id="5804" source="LISA'S FATHER" target="PAT" weight="1" />
+      <edge id="5805" source="LISA'S FATHER" target="LISA" weight="1" />
+      <edge id="5806" source="MAYOR" target="COLLEEN" weight="1" />
+      <edge id="5807" source="SCOTT" target="AMBER" weight="1" />
+      <edge id="5808" source="SCOTT" target="GLADYS" weight="1" />
+      <edge id="5809" source="SCOTT" target="LESTER" weight="1" />
+      <edge id="5810" source="SCOTT" target="DOCUMENTARIAN" weight="1" />
+      <edge id="5811" source="MALE REPORTER #1" target="IRIS" weight="1" />
+      <edge id="5812" source="TERRY" target="AMBER" weight="2" />
+      <edge id="5813" source="TERRY" target="COLLEEN" weight="2" />
+      <edge id="5814" source="TERRY" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5815" source="TERRY" target="FEMALE REPORTER" weight="1" />
+      <edge id="5816" source="TERRY" target="CREW GUY" weight="1" />
+      <edge id="5817" source="TERRY" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5818" source="COLLEEN" target="TERRY" weight="2" />
+      <edge id="5819" source="COLLEEN" target="AMBER" weight="1" />
+      <edge id="5820" source="COLLEEN" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5821" source="COLLEEN" target="FEMALE REPORTER" weight="1" />
+      <edge id="5822" source="COLLEEN" target="CREW GUY" weight="1" />
+      <edge id="5823" source="COLLEEN" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5824" source="COLLEEN" target="MAYOR" weight="1" />
+      <edge id="5825" source="MISS MINNEAPOLIS" target="AMBER" weight="1" />
+      <edge id="5826" source="MISS MINNEAPOLIS" target="TERRY" weight="1" />
+      <edge id="5827" source="MISS MINNEAPOLIS" target="COLLEEN" weight="1" />
+      <edge id="5828" source="MISS MINNEAPOLIS" target="FEMALE REPORTER" weight="1" />
+      <edge id="5829" source="MISS MINNEAPOLIS" target="CREW GUY" weight="1" />
+      <edge id="5830" source="MISS MINNEAPOLIS" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5831" source="FEMALE REPORTER" target="AMBER" weight="3" />
+      <edge id="5832" source="FEMALE REPORTER" target="TERRY" weight="1" />
+      <edge id="5833" source="FEMALE REPORTER" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5834" source="FEMALE REPORTER" target="COLLEEN" weight="1" />
+      <edge id="5835" source="FEMALE REPORTER" target="CREW GUY" weight="1" />
+      <edge id="5836" source="FEMALE REPORTER" target="FEMALE REPORTER #2" weight="1" />
+      <edge id="5837" source="FEMALE REPORTER" target="CATHY" weight="1" />
+      <edge id="5838" source="FEMALE REPORTER" target="GLADYS" weight="1" />
+      <edge id="5839" source="FEMALE REPORTER" target="MAN AT FOOD SHACK" weight="1" />
+      <edge id="5840" source="FEMALE REPORTER #2" target="AMBER" weight="1" />
+      <edge id="5841" source="FEMALE REPORTER #2" target="TERRY" weight="1" />
+      <edge id="5842" source="FEMALE REPORTER #2" target="MISS MINNEAPOLIS" weight="1" />
+      <edge id="5843" source="FEMALE REPORTER #2" target="COLLEEN" weight="1" />
+      <edge id="5844" source="FEMALE REPORTER #2" target="FEMALE REPORTER" weight="1" />
+      <edge id="5845" source="FEMALE REPORTER #2" target="CREW GUY" weight="1" />
+      <edge id="5846" source="CATHY" target="FEMALE REPORTER" weight="1" />
+      <edge id="5847" source="CATHY" target="AMBER" weight="1" />
+      <edge id="5848" source="FEMALE PRISONER" target="GLADYS" weight="1" />
+      <edge id="5849" source="MAN AT FOOD SHACK" target="GLADYS" weight="1" />
+      <edge id="5850" source="MAN AT FOOD SHACK" target="FEMALE REPORTER" weight="1" />
+      <edge id="5851" source="MAN AT FOOD SHACK" target="AMBER" weight="1" />
+      <edge id="5852" source="BLONDE NEWS ANCHOR" target="AMBER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

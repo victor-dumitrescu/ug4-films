@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="FIGURE" label="FIGURE" />
+      <node id="DANTE" label="DANTE" />
+      <node id="ACTIVIST" label="ACTIVIST" />
+      <node id="CUSTOMER" label="CUSTOMER" />
+      <node id="JAY" label="JAY" />
+      <node id="GUY" label="GUY" />
+      <node id="LISTENER 1" label="LISTENER 1" />
+      <node id="LISTENER 2" label="LISTENER 2" />
+      <node id="LISTENER 3" label="LISTENER 3" />
+      <node id="CROWD" label="CROWD" />
+      <node id="VERONICA" label="VERONICA" />
+      <node id="SOMEONE" label="SOMEONE" />
+      <node id="WILLAM" label="WILLAM" />
+      <node id="IMPATIENT CUSTOMER" label="IMPATIENT CUSTOMER" />
+      <node id="V.A. CUSTOMER" label="V.A. CUSTOMER" />
+      <node id="RANDAL" label="RANDAL" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="SMALL CHILD" label="SMALL CHILD" />
+      <node id="GIRL 1" label="GIRL 1" />
+      <node id="GIRL 2" label="GIRL 2" />
+      <node id="SILENT BOB" label="SILENT BOB" />
+      <node id="OLAF" label="OLAF" />
+      <node id="MAN" label="MAN" />
+      <node id="BLUE-COLLAR MAN" label="BLUE-COLLAR MAN" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="INDECISIVE CUSTOMER" label="INDECISIVE CUSTOMER" />
+      <node id="SMOKER" label="SMOKER" />
+      <node id="LITTLE GIRL" label="LITTLE GIRL" />
+      <node id="FIRST" label="FIRST" />
+      <node id="SECOND" label="SECOND" />
+      <node id="THIRD" label="THIRD" />
+      <node id="SANFORD" label="SANFORD" />
+      <node id="DANTE AND CUSTOMER" label="DANTE AND CUSTOMER" />
+      <node id="REDDING" label="REDDING" />
+      <node id="OLD MAN" label="OLD MAN" />
+      <node id="KID" label="KID" />
+      <node id="DANTE AND RANDAL" label="DANTE AND RANDAL" />
+      <node id="TRAINER" label="TRAINER" />
+      <node id="HEATHER" label="HEATHER" />
+      <node id="SUITED MAN" label="SUITED MAN" />
+      <node id="VOICE" label="VOICE" />
+      <node id="JOHN" label="JOHN" />
+      <node id="CAITLIN" label="CAITLIN" />
+      <node id="CORONER" label="CORONER" />
+      <node id="ATTENDANT 1" label="ATTENDANT 1" />
+    </nodes>
+    <edges>
+      <edge id="4145" source="FIGURE" target="DANTE" weight="1" />
+      <edge id="4146" source="DANTE" target="FIGURE" weight="1" />
+      <edge id="4147" source="DANTE" target="ACTIVIST" weight="2" />
+      <edge id="4148" source="DANTE" target="CUSTOMER" weight="11" />
+      <edge id="4149" source="DANTE" target="LISTENER 1" weight="1" />
+      <edge id="4150" source="DANTE" target="LISTENER 2" weight="1" />
+      <edge id="4151" source="DANTE" target="LISTENER 3" weight="1" />
+      <edge id="4152" source="DANTE" target="CROWD" weight="1" />
+      <edge id="4153" source="DANTE" target="VERONICA" weight="4" />
+      <edge id="4154" source="DANTE" target="SOMEONE" weight="2" />
+      <edge id="4155" source="DANTE" target="WILLAM" weight="1" />
+      <edge id="4156" source="DANTE" target="IMPATIENT CUSTOMER" weight="2" />
+      <edge id="4157" source="DANTE" target="RANDAL" weight="18" />
+      <edge id="4158" source="DANTE" target="MAN" weight="1" />
+      <edge id="4159" source="DANTE" target="BLUE-COLLAR MAN" weight="1" />
+      <edge id="4160" source="DANTE" target="WOMAN" weight="2" />
+      <edge id="4161" source="DANTE" target="SMOKER" weight="1" />
+      <edge id="4162" source="DANTE" target="LITTLE GIRL" weight="1" />
+      <edge id="4163" source="DANTE" target="FIRST" weight="1" />
+      <edge id="4164" source="DANTE" target="SECOND" weight="1" />
+      <edge id="4165" source="DANTE" target="THIRD" weight="1" />
+      <edge id="4166" source="DANTE" target="SANFORD" weight="2" />
+      <edge id="4167" source="DANTE" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4168" source="DANTE" target="JAY" weight="3" />
+      <edge id="4169" source="DANTE" target="REDDING" weight="1" />
+      <edge id="4170" source="DANTE" target="OLD MAN" weight="1" />
+      <edge id="4171" source="DANTE" target="KID" weight="1" />
+      <edge id="4172" source="DANTE" target="DANTE AND RANDAL" weight="1" />
+      <edge id="4173" source="DANTE" target="TRAINER" weight="1" />
+      <edge id="4174" source="DANTE" target="HEATHER" weight="1" />
+      <edge id="4175" source="DANTE" target="SUITED MAN" weight="1" />
+      <edge id="4176" source="DANTE" target="VOICE" weight="1" />
+      <edge id="4177" source="DANTE" target="CAITLIN" weight="3" />
+      <edge id="4178" source="DANTE" target="CORONER" weight="1" />
+      <edge id="4179" source="DANTE" target="ATTENDANT 1" weight="1" />
+      <edge id="4180" source="DANTE" target="SILENT BOB" weight="1" />
+      <edge id="4181" source="ACTIVIST" target="DANTE" weight="2" />
+      <edge id="4182" source="ACTIVIST" target="CUSTOMER" weight="1" />
+      <edge id="4183" source="ACTIVIST" target="LISTENER 1" weight="1" />
+      <edge id="4184" source="ACTIVIST" target="LISTENER 2" weight="1" />
+      <edge id="4185" source="ACTIVIST" target="LISTENER 3" weight="1" />
+      <edge id="4186" source="ACTIVIST" target="CROWD" weight="1" />
+      <edge id="4187" source="ACTIVIST" target="VERONICA" weight="1" />
+      <edge id="4188" source="ACTIVIST" target="SOMEONE" weight="1" />
+      <edge id="4189" source="CUSTOMER" target="DANTE" weight="11" />
+      <edge id="4190" source="CUSTOMER" target="ACTIVIST" weight="1" />
+      <edge id="4191" source="CUSTOMER" target="VERONICA" weight="3" />
+      <edge id="4192" source="CUSTOMER" target="WILLAM" weight="1" />
+      <edge id="4193" source="CUSTOMER" target="LITTLE GIRL" weight="1" />
+      <edge id="4194" source="CUSTOMER" target="RANDAL" weight="8" />
+      <edge id="4195" source="CUSTOMER" target="FIRST" weight="1" />
+      <edge id="4196" source="CUSTOMER" target="SECOND" weight="1" />
+      <edge id="4197" source="CUSTOMER" target="THIRD" weight="1" />
+      <edge id="4198" source="CUSTOMER" target="SOMEONE" weight="1" />
+      <edge id="4199" source="CUSTOMER" target="WOMAN" weight="1" />
+      <edge id="4200" source="CUSTOMER" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4201" source="CUSTOMER" target="SANFORD" weight="1" />
+      <edge id="4202" source="CUSTOMER" target="JAY" weight="1" />
+      <edge id="4203" source="CUSTOMER" target="REDDING" weight="1" />
+      <edge id="4204" source="CUSTOMER" target="DANTE AND RANDAL" weight="1" />
+      <edge id="4205" source="CUSTOMER" target="CAITLIN" weight="1" />
+      <edge id="4206" source="JAY" target="GUY" weight="1" />
+      <edge id="4207" source="JAY" target="GIRL 1" weight="1" />
+      <edge id="4208" source="JAY" target="GIRL 2" weight="1" />
+      <edge id="4209" source="JAY" target="SILENT BOB" weight="2" />
+      <edge id="4210" source="JAY" target="OLAF" weight="1" />
+      <edge id="4211" source="JAY" target="DANTE" weight="3" />
+      <edge id="4212" source="JAY" target="CUSTOMER" weight="1" />
+      <edge id="4213" source="JAY" target="SOMEONE" weight="1" />
+      <edge id="4214" source="JAY" target="WOMAN" weight="1" />
+      <edge id="4215" source="JAY" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4216" source="JAY" target="SANFORD" weight="1" />
+      <edge id="4217" source="JAY" target="REDDING" weight="1" />
+      <edge id="4218" source="JAY" target="RANDAL" weight="1" />
+      <edge id="4219" source="JAY" target="KID" weight="1" />
+      <edge id="4220" source="JAY" target="IMPATIENT CUSTOMER" weight="1" />
+      <edge id="4221" source="JAY" target="JOHN" weight="1" />
+      <edge id="4222" source="GUY" target="JAY" weight="1" />
+      <edge id="4223" source="LISTENER 1" target="ACTIVIST" weight="1" />
+      <edge id="4224" source="LISTENER 1" target="LISTENER 2" weight="1" />
+      <edge id="4225" source="LISTENER 1" target="LISTENER 3" weight="1" />
+      <edge id="4226" source="LISTENER 1" target="DANTE" weight="1" />
+      <edge id="4227" source="LISTENER 1" target="CROWD" weight="1" />
+      <edge id="4228" source="LISTENER 1" target="VERONICA" weight="1" />
+      <edge id="4229" source="LISTENER 1" target="SOMEONE" weight="1" />
+      <edge id="4230" source="LISTENER 2" target="ACTIVIST" weight="1" />
+      <edge id="4231" source="LISTENER 2" target="LISTENER 1" weight="1" />
+      <edge id="4232" source="LISTENER 2" target="LISTENER 3" weight="1" />
+      <edge id="4233" source="LISTENER 2" target="DANTE" weight="1" />
+      <edge id="4234" source="LISTENER 2" target="CROWD" weight="1" />
+      <edge id="4235" source="LISTENER 2" target="VERONICA" weight="1" />
+      <edge id="4236" source="LISTENER 2" target="SOMEONE" weight="1" />
+      <edge id="4237" source="LISTENER 3" target="ACTIVIST" weight="1" />
+      <edge id="4238" source="LISTENER 3" target="LISTENER 1" weight="1" />
+      <edge id="4239" source="LISTENER 3" target="LISTENER 2" weight="1" />
+      <edge id="4240" source="LISTENER 3" target="DANTE" weight="1" />
+      <edge id="4241" source="LISTENER 3" target="CROWD" weight="1" />
+      <edge id="4242" source="LISTENER 3" target="VERONICA" weight="1" />
+      <edge id="4243" source="LISTENER 3" target="SOMEONE" weight="1" />
+      <edge id="4244" source="CROWD" target="ACTIVIST" weight="1" />
+      <edge id="4245" source="CROWD" target="LISTENER 1" weight="1" />
+      <edge id="4246" source="CROWD" target="LISTENER 2" weight="1" />
+      <edge id="4247" source="CROWD" target="LISTENER 3" weight="1" />
+      <edge id="4248" source="CROWD" target="DANTE" weight="1" />
+      <edge id="4249" source="CROWD" target="VERONICA" weight="1" />
+      <edge id="4250" source="CROWD" target="SOMEONE" weight="1" />
+      <edge id="4251" source="VERONICA" target="ACTIVIST" weight="1" />
+      <edge id="4252" source="VERONICA" target="LISTENER 1" weight="1" />
+      <edge id="4253" source="VERONICA" target="LISTENER 2" weight="1" />
+      <edge id="4254" source="VERONICA" target="LISTENER 3" weight="1" />
+      <edge id="4255" source="VERONICA" target="DANTE" weight="4" />
+      <edge id="4256" source="VERONICA" target="CROWD" weight="1" />
+      <edge id="4257" source="VERONICA" target="SOMEONE" weight="1" />
+      <edge id="4258" source="VERONICA" target="WILLAM" weight="1" />
+      <edge id="4259" source="VERONICA" target="CUSTOMER" weight="3" />
+      <edge id="4260" source="VERONICA" target="LITTLE GIRL" weight="1" />
+      <edge id="4261" source="VERONICA" target="RANDAL" weight="2" />
+      <edge id="4262" source="VERONICA" target="FIRST" weight="1" />
+      <edge id="4263" source="VERONICA" target="SECOND" weight="1" />
+      <edge id="4264" source="VERONICA" target="THIRD" weight="1" />
+      <edge id="4265" source="SOMEONE" target="ACTIVIST" weight="1" />
+      <edge id="4266" source="SOMEONE" target="LISTENER 1" weight="1" />
+      <edge id="4267" source="SOMEONE" target="LISTENER 2" weight="1" />
+      <edge id="4268" source="SOMEONE" target="LISTENER 3" weight="1" />
+      <edge id="4269" source="SOMEONE" target="DANTE" weight="2" />
+      <edge id="4270" source="SOMEONE" target="CROWD" weight="1" />
+      <edge id="4271" source="SOMEONE" target="VERONICA" weight="1" />
+      <edge id="4272" source="SOMEONE" target="CUSTOMER" weight="1" />
+      <edge id="4273" source="SOMEONE" target="WOMAN" weight="1" />
+      <edge id="4274" source="SOMEONE" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4275" source="SOMEONE" target="SANFORD" weight="1" />
+      <edge id="4276" source="SOMEONE" target="JAY" weight="1" />
+      <edge id="4277" source="SOMEONE" target="REDDING" weight="1" />
+      <edge id="4278" source="WILLAM" target="DANTE" weight="1" />
+      <edge id="4279" source="WILLAM" target="VERONICA" weight="1" />
+      <edge id="4280" source="WILLAM" target="CUSTOMER" weight="1" />
+      <edge id="4281" source="IMPATIENT CUSTOMER" target="DANTE" weight="2" />
+      <edge id="4282" source="IMPATIENT CUSTOMER" target="V.A. CUSTOMER" weight="1" />
+      <edge id="4283" source="IMPATIENT CUSTOMER" target="RANDAL" weight="3" />
+      <edge id="4284" source="IMPATIENT CUSTOMER" target="JAY" weight="1" />
+      <edge id="4285" source="IMPATIENT CUSTOMER" target="KID" weight="1" />
+      <edge id="4286" source="V.A. CUSTOMER" target="RANDAL" weight="1" />
+      <edge id="4287" source="V.A. CUSTOMER" target="IMPATIENT CUSTOMER" weight="1" />
+      <edge id="4288" source="RANDAL" target="V.A. CUSTOMER" weight="1" />
+      <edge id="4289" source="RANDAL" target="IMPATIENT CUSTOMER" weight="3" />
+      <edge id="4290" source="RANDAL" target="DANTE" weight="18" />
+      <edge id="4291" source="RANDAL" target="MOTHER" weight="2" />
+      <edge id="4292" source="RANDAL" target="SMALL CHILD" weight="2" />
+      <edge id="4293" source="RANDAL" target="MAN" weight="1" />
+      <edge id="4294" source="RANDAL" target="BLUE-COLLAR MAN" weight="1" />
+      <edge id="4295" source="RANDAL" target="WOMAN" weight="1" />
+      <edge id="4296" source="RANDAL" target="INDECISIVE CUSTOMER" weight="1" />
+      <edge id="4297" source="RANDAL" target="SMOKER" weight="1" />
+      <edge id="4298" source="RANDAL" target="LITTLE GIRL" weight="1" />
+      <edge id="4299" source="RANDAL" target="CUSTOMER" weight="8" />
+      <edge id="4300" source="RANDAL" target="FIRST" weight="1" />
+      <edge id="4301" source="RANDAL" target="SECOND" weight="1" />
+      <edge id="4302" source="RANDAL" target="THIRD" weight="1" />
+      <edge id="4303" source="RANDAL" target="VERONICA" weight="2" />
+      <edge id="4304" source="RANDAL" target="SANFORD" weight="1" />
+      <edge id="4305" source="RANDAL" target="OLD MAN" weight="1" />
+      <edge id="4306" source="RANDAL" target="JAY" weight="1" />
+      <edge id="4307" source="RANDAL" target="KID" weight="1" />
+      <edge id="4308" source="RANDAL" target="DANTE AND RANDAL" weight="1" />
+      <edge id="4309" source="RANDAL" target="CAITLIN" weight="2" />
+      <edge id="4310" source="RANDAL" target="CORONER" weight="1" />
+      <edge id="4311" source="RANDAL" target="ATTENDANT 1" weight="1" />
+      <edge id="4312" source="MOTHER" target="RANDAL" weight="2" />
+      <edge id="4313" source="MOTHER" target="SMALL CHILD" weight="2" />
+      <edge id="4314" source="MOTHER" target="CAITLIN" weight="1" />
+      <edge id="4315" source="SMALL CHILD" target="RANDAL" weight="2" />
+      <edge id="4316" source="SMALL CHILD" target="MOTHER" weight="2" />
+      <edge id="4317" source="SMALL CHILD" target="CAITLIN" weight="1" />
+      <edge id="4318" source="GIRL 1" target="JAY" weight="1" />
+      <edge id="4319" source="GIRL 1" target="GIRL 2" weight="1" />
+      <edge id="4320" source="GIRL 1" target="SILENT BOB" weight="1" />
+      <edge id="4321" source="GIRL 1" target="OLAF" weight="1" />
+      <edge id="4322" source="GIRL 2" target="JAY" weight="1" />
+      <edge id="4323" source="GIRL 2" target="GIRL 1" weight="1" />
+      <edge id="4324" source="GIRL 2" target="SILENT BOB" weight="1" />
+      <edge id="4325" source="GIRL 2" target="OLAF" weight="1" />
+      <edge id="4326" source="SILENT BOB" target="JAY" weight="2" />
+      <edge id="4327" source="SILENT BOB" target="GIRL 1" weight="1" />
+      <edge id="4328" source="SILENT BOB" target="GIRL 2" weight="1" />
+      <edge id="4329" source="SILENT BOB" target="OLAF" weight="1" />
+      <edge id="4330" source="SILENT BOB" target="DANTE" weight="1" />
+      <edge id="4331" source="OLAF" target="JAY" weight="1" />
+      <edge id="4332" source="OLAF" target="GIRL 1" weight="1" />
+      <edge id="4333" source="OLAF" target="GIRL 2" weight="1" />
+      <edge id="4334" source="OLAF" target="SILENT BOB" weight="1" />
+      <edge id="4335" source="MAN" target="DANTE" weight="1" />
+      <edge id="4336" source="MAN" target="RANDAL" weight="1" />
+      <edge id="4337" source="MAN" target="BLUE-COLLAR MAN" weight="1" />
+      <edge id="4338" source="MAN" target="WOMAN" weight="1" />
+      <edge id="4339" source="BLUE-COLLAR MAN" target="DANTE" weight="1" />
+      <edge id="4340" source="BLUE-COLLAR MAN" target="MAN" weight="1" />
+      <edge id="4341" source="BLUE-COLLAR MAN" target="RANDAL" weight="1" />
+      <edge id="4342" source="BLUE-COLLAR MAN" target="WOMAN" weight="1" />
+      <edge id="4343" source="WOMAN" target="DANTE" weight="2" />
+      <edge id="4344" source="WOMAN" target="MAN" weight="1" />
+      <edge id="4345" source="WOMAN" target="RANDAL" weight="1" />
+      <edge id="4346" source="WOMAN" target="BLUE-COLLAR MAN" weight="1" />
+      <edge id="4347" source="WOMAN" target="CUSTOMER" weight="1" />
+      <edge id="4348" source="WOMAN" target="SOMEONE" weight="1" />
+      <edge id="4349" source="WOMAN" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4350" source="WOMAN" target="SANFORD" weight="1" />
+      <edge id="4351" source="WOMAN" target="JAY" weight="1" />
+      <edge id="4352" source="WOMAN" target="REDDING" weight="1" />
+      <edge id="4353" source="INDECISIVE CUSTOMER" target="RANDAL" weight="1" />
+      <edge id="4354" source="SMOKER" target="RANDAL" weight="1" />
+      <edge id="4355" source="SMOKER" target="DANTE" weight="1" />
+      <edge id="4356" source="LITTLE GIRL" target="DANTE" weight="1" />
+      <edge id="4357" source="LITTLE GIRL" target="RANDAL" weight="1" />
+      <edge id="4358" source="LITTLE GIRL" target="CUSTOMER" weight="1" />
+      <edge id="4359" source="LITTLE GIRL" target="FIRST" weight="1" />
+      <edge id="4360" source="LITTLE GIRL" target="SECOND" weight="1" />
+      <edge id="4361" source="LITTLE GIRL" target="THIRD" weight="1" />
+      <edge id="4362" source="LITTLE GIRL" target="VERONICA" weight="1" />
+      <edge id="4363" source="FIRST" target="LITTLE GIRL" weight="1" />
+      <edge id="4364" source="FIRST" target="DANTE" weight="1" />
+      <edge id="4365" source="FIRST" target="RANDAL" weight="1" />
+      <edge id="4366" source="FIRST" target="CUSTOMER" weight="1" />
+      <edge id="4367" source="FIRST" target="SECOND" weight="1" />
+      <edge id="4368" source="FIRST" target="THIRD" weight="1" />
+      <edge id="4369" source="FIRST" target="VERONICA" weight="1" />
+      <edge id="4370" source="SECOND" target="LITTLE GIRL" weight="1" />
+      <edge id="4371" source="SECOND" target="DANTE" weight="1" />
+      <edge id="4372" source="SECOND" target="RANDAL" weight="1" />
+      <edge id="4373" source="SECOND" target="CUSTOMER" weight="1" />
+      <edge id="4374" source="SECOND" target="FIRST" weight="1" />
+      <edge id="4375" source="SECOND" target="THIRD" weight="1" />
+      <edge id="4376" source="SECOND" target="VERONICA" weight="1" />
+      <edge id="4377" source="THIRD" target="LITTLE GIRL" weight="1" />
+      <edge id="4378" source="THIRD" target="DANTE" weight="1" />
+      <edge id="4379" source="THIRD" target="RANDAL" weight="1" />
+      <edge id="4380" source="THIRD" target="CUSTOMER" weight="1" />
+      <edge id="4381" source="THIRD" target="FIRST" weight="1" />
+      <edge id="4382" source="THIRD" target="SECOND" weight="1" />
+      <edge id="4383" source="THIRD" target="VERONICA" weight="1" />
+      <edge id="4384" source="SANFORD" target="DANTE" weight="2" />
+      <edge id="4385" source="SANFORD" target="RANDAL" weight="1" />
+      <edge id="4386" source="SANFORD" target="CUSTOMER" weight="1" />
+      <edge id="4387" source="SANFORD" target="SOMEONE" weight="1" />
+      <edge id="4388" source="SANFORD" target="WOMAN" weight="1" />
+      <edge id="4389" source="SANFORD" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4390" source="SANFORD" target="JAY" weight="1" />
+      <edge id="4391" source="SANFORD" target="REDDING" weight="1" />
+      <edge id="4392" source="DANTE AND CUSTOMER" target="DANTE" weight="1" />
+      <edge id="4393" source="DANTE AND CUSTOMER" target="CUSTOMER" weight="1" />
+      <edge id="4394" source="DANTE AND CUSTOMER" target="SOMEONE" weight="1" />
+      <edge id="4395" source="DANTE AND CUSTOMER" target="WOMAN" weight="1" />
+      <edge id="4396" source="DANTE AND CUSTOMER" target="SANFORD" weight="1" />
+      <edge id="4397" source="DANTE AND CUSTOMER" target="JAY" weight="1" />
+      <edge id="4398" source="DANTE AND CUSTOMER" target="REDDING" weight="1" />
+      <edge id="4399" source="REDDING" target="DANTE" weight="1" />
+      <edge id="4400" source="REDDING" target="CUSTOMER" weight="1" />
+      <edge id="4401" source="REDDING" target="SOMEONE" weight="1" />
+      <edge id="4402" source="REDDING" target="WOMAN" weight="1" />
+      <edge id="4403" source="REDDING" target="DANTE AND CUSTOMER" weight="1" />
+      <edge id="4404" source="REDDING" target="SANFORD" weight="1" />
+      <edge id="4405" source="REDDING" target="JAY" weight="1" />
+      <edge id="4406" source="OLD MAN" target="DANTE" weight="1" />
+      <edge id="4407" source="OLD MAN" target="RANDAL" weight="1" />
+      <edge id="4408" source="KID" target="DANTE" weight="1" />
+      <edge id="4409" source="KID" target="RANDAL" weight="1" />
+      <edge id="4410" source="KID" target="JAY" weight="1" />
+      <edge id="4411" source="KID" target="IMPATIENT CUSTOMER" weight="1" />
+      <edge id="4412" source="DANTE AND RANDAL" target="RANDAL" weight="1" />
+      <edge id="4413" source="DANTE AND RANDAL" target="DANTE" weight="1" />
+      <edge id="4414" source="DANTE AND RANDAL" target="CUSTOMER" weight="1" />
+      <edge id="4415" source="TRAINER" target="DANTE" weight="1" />
+      <edge id="4416" source="TRAINER" target="HEATHER" weight="1" />
+      <edge id="4417" source="TRAINER" target="SUITED MAN" weight="1" />
+      <edge id="4418" source="TRAINER" target="VOICE" weight="1" />
+      <edge id="4419" source="HEATHER" target="TRAINER" weight="1" />
+      <edge id="4420" source="HEATHER" target="DANTE" weight="1" />
+      <edge id="4421" source="HEATHER" target="SUITED MAN" weight="1" />
+      <edge id="4422" source="HEATHER" target="VOICE" weight="1" />
+      <edge id="4423" source="SUITED MAN" target="TRAINER" weight="1" />
+      <edge id="4424" source="SUITED MAN" target="DANTE" weight="1" />
+      <edge id="4425" source="SUITED MAN" target="HEATHER" weight="1" />
+      <edge id="4426" source="SUITED MAN" target="VOICE" weight="1" />
+      <edge id="4427" source="VOICE" target="TRAINER" weight="1" />
+      <edge id="4428" source="VOICE" target="DANTE" weight="1" />
+      <edge id="4429" source="VOICE" target="HEATHER" weight="1" />
+      <edge id="4430" source="VOICE" target="SUITED MAN" weight="1" />
+      <edge id="4431" source="JOHN" target="JAY" weight="1" />
+      <edge id="4432" source="CAITLIN" target="DANTE" weight="3" />
+      <edge id="4433" source="CAITLIN" target="CUSTOMER" weight="1" />
+      <edge id="4434" source="CAITLIN" target="RANDAL" weight="2" />
+      <edge id="4435" source="CAITLIN" target="MOTHER" weight="1" />
+      <edge id="4436" source="CAITLIN" target="SMALL CHILD" weight="1" />
+      <edge id="4437" source="CORONER" target="DANTE" weight="1" />
+      <edge id="4438" source="CORONER" target="RANDAL" weight="1" />
+      <edge id="4439" source="CORONER" target="ATTENDANT 1" weight="1" />
+      <edge id="4440" source="ATTENDANT 1" target="CORONER" weight="1" />
+      <edge id="4441" source="ATTENDANT 1" target="DANTE" weight="1" />
+      <edge id="4442" source="ATTENDANT 1" target="RANDAL" weight="1" />
+    </edges>
+  </graph>
+</gexf>

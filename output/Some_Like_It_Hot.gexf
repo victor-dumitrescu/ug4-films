@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MULLIGAN" label="MULLIGAN" />
+      <node id="TOOTHPICK CHARLIE" label="TOOTHPICK CHARLIE" />
+      <node id="CAPTAIN" label="CAPTAIN" />
+      <node id="MOZARELLA" label="MOZARELLA" />
+      <node id="FUNERAL DIRECTOR" label="FUNERAL DIRECTOR" />
+      <node id="WAITER" label="WAITER" />
+      <node id="DRUNK" label="DRUNK" />
+      <node id="JERRY" label="JERRY" />
+      <node id="JOE" label="JOE" />
+      <node id="SPATS" label="SPATS" />
+      <node id="SECOND HENCHMAN" label="SECOND HENCHMAN" />
+      <node id="FIRST SECRETARY" label="FIRST SECRETARY" />
+      <node id="SECOND SECRETARY" label="SECOND SECRETARY" />
+      <node id="NELLIE" label="NELLIE" />
+      <node id="NELLIE'S VOICE" label="NELLIE'S VOICE" />
+      <node id="OTHER SECRETARY" label="OTHER SECRETARY" />
+      <node id="POLIAKOFF" label="POLIAKOFF" />
+      <node id="SUE" label="SUE" />
+      <node id="BIENSTOCK" label="BIENSTOCK" />
+      <node id="MECHANIC" label="MECHANIC" />
+      <node id="FIRST HENCHMAN" label="FIRST HENCHMAN" />
+      <node id="ANNOUNCER'S VOICE" label="ANNOUNCER'S VOICE" />
+      <node id="NEWSBOY" label="NEWSBOY" />
+      <node id="MARY LOU" label="MARY LOU" />
+      <node id="GIRLS" label="GIRLS" />
+      <node id="ROSELLA" label="ROSELLA" />
+      <node id="OLGA" label="OLGA" />
+      <node id="DOLORES" label="DOLORES" />
+      <node id="SUGAR" label="SUGAR" />
+      <node id="EMILY" label="EMILY" />
+      <node id="CONDUCTOR" label="CONDUCTOR" />
+      <node id="SUGAR'S VOICE" label="SUGAR'S VOICE" />
+      <node id="OSGOOD" label="OSGOOD" />
+      <node id="BELLHOP" label="BELLHOP" />
+      <node id="BIENSTOCK'S VOICE" label="BIENSTOCK'S VOICE" />
+      <node id="DOLORES' VOICE" label="DOLORES' VOICE" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="JUNIOR" label="JUNIOR" />
+      <node id="FIRST OFFICIAL" label="FIRST OFFICIAL" />
+      <node id="PARADISE" label="PARADISE" />
+      <node id="SECOND OFFICIAL" label="SECOND OFFICIAL" />
+      <node id="SPATS' VOICE" label="SPATS' VOICE" />
+      <node id="OPERATOR" label="OPERATOR" />
+      <node id="BONAPARTE" label="BONAPARTE" />
+    </nodes>
+    <edges>
+      <edge id="16007" source="MULLIGAN" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16008" source="MULLIGAN" target="CAPTAIN" weight="1" />
+      <edge id="16009" source="MULLIGAN" target="MOZARELLA" weight="1" />
+      <edge id="16010" source="MULLIGAN" target="FUNERAL DIRECTOR" weight="1" />
+      <edge id="16011" source="MULLIGAN" target="WAITER" weight="1" />
+      <edge id="16012" source="MULLIGAN" target="DRUNK" weight="1" />
+      <edge id="16013" source="MULLIGAN" target="JERRY" weight="2" />
+      <edge id="16014" source="MULLIGAN" target="JOE" weight="3" />
+      <edge id="16015" source="MULLIGAN" target="SPATS" weight="3" />
+      <edge id="16016" source="MULLIGAN" target="SECOND HENCHMAN" weight="2" />
+      <edge id="16017" source="MULLIGAN" target="FIRST OFFICIAL" weight="1" />
+      <edge id="16018" source="MULLIGAN" target="PARADISE" weight="2" />
+      <edge id="16019" source="MULLIGAN" target="SECOND OFFICIAL" weight="2" />
+      <edge id="16020" source="MULLIGAN" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16021" source="MULLIGAN" target="BONAPARTE" weight="1" />
+      <edge id="16022" source="TOOTHPICK CHARLIE" target="MULLIGAN" weight="1" />
+      <edge id="16023" source="TOOTHPICK CHARLIE" target="CAPTAIN" weight="1" />
+      <edge id="16024" source="TOOTHPICK CHARLIE" target="JERRY" weight="1" />
+      <edge id="16025" source="TOOTHPICK CHARLIE" target="JOE" weight="1" />
+      <edge id="16026" source="TOOTHPICK CHARLIE" target="MECHANIC" weight="1" />
+      <edge id="16027" source="TOOTHPICK CHARLIE" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16028" source="TOOTHPICK CHARLIE" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16029" source="TOOTHPICK CHARLIE" target="SPATS" weight="1" />
+      <edge id="16030" source="CAPTAIN" target="MULLIGAN" weight="1" />
+      <edge id="16031" source="CAPTAIN" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16032" source="MOZARELLA" target="MULLIGAN" weight="1" />
+      <edge id="16033" source="MOZARELLA" target="FUNERAL DIRECTOR" weight="1" />
+      <edge id="16034" source="FUNERAL DIRECTOR" target="MOZARELLA" weight="1" />
+      <edge id="16035" source="FUNERAL DIRECTOR" target="MULLIGAN" weight="1" />
+      <edge id="16036" source="WAITER" target="MULLIGAN" weight="1" />
+      <edge id="16037" source="WAITER" target="DRUNK" weight="1" />
+      <edge id="16038" source="WAITER" target="JERRY" weight="1" />
+      <edge id="16039" source="WAITER" target="JOE" weight="1" />
+      <edge id="16040" source="WAITER" target="SPATS" weight="1" />
+      <edge id="16041" source="WAITER" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16042" source="DRUNK" target="MULLIGAN" weight="1" />
+      <edge id="16043" source="DRUNK" target="WAITER" weight="1" />
+      <edge id="16044" source="DRUNK" target="JERRY" weight="2" />
+      <edge id="16045" source="DRUNK" target="JOE" weight="2" />
+      <edge id="16046" source="DRUNK" target="SPATS" weight="1" />
+      <edge id="16047" source="DRUNK" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16048" source="JERRY" target="MULLIGAN" weight="2" />
+      <edge id="16049" source="JERRY" target="WAITER" weight="1" />
+      <edge id="16050" source="JERRY" target="DRUNK" weight="2" />
+      <edge id="16051" source="JERRY" target="JOE" weight="33" />
+      <edge id="16052" source="JERRY" target="SPATS" weight="5" />
+      <edge id="16053" source="JERRY" target="SECOND HENCHMAN" weight="5" />
+      <edge id="16054" source="JERRY" target="NELLIE" weight="2" />
+      <edge id="16055" source="JERRY" target="OTHER SECRETARY" weight="1" />
+      <edge id="16056" source="JERRY" target="POLIAKOFF" weight="1" />
+      <edge id="16057" source="JERRY" target="SUE" weight="6" />
+      <edge id="16058" source="JERRY" target="BIENSTOCK" weight="6" />
+      <edge id="16059" source="JERRY" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16060" source="JERRY" target="MECHANIC" weight="1" />
+      <edge id="16061" source="JERRY" target="FIRST HENCHMAN" weight="4" />
+      <edge id="16062" source="JERRY" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16063" source="JERRY" target="NEWSBOY" weight="1" />
+      <edge id="16064" source="JERRY" target="MARY LOU" weight="2" />
+      <edge id="16065" source="JERRY" target="GIRLS" weight="2" />
+      <edge id="16066" source="JERRY" target="ROSELLA" weight="3" />
+      <edge id="16067" source="JERRY" target="OLGA" weight="2" />
+      <edge id="16068" source="JERRY" target="DOLORES" weight="4" />
+      <edge id="16069" source="JERRY" target="SUGAR" weight="15" />
+      <edge id="16070" source="JERRY" target="EMILY" weight="2" />
+      <edge id="16071" source="JERRY" target="CONDUCTOR" weight="1" />
+      <edge id="16072" source="JERRY" target="SUGAR'S VOICE" weight="2" />
+      <edge id="16073" source="JERRY" target="OSGOOD" weight="6" />
+      <edge id="16074" source="JERRY" target="BELLHOP" weight="3" />
+      <edge id="16075" source="JERRY" target="BIENSTOCK'S VOICE" weight="1" />
+      <edge id="16076" source="JERRY" target="DOLORES' VOICE" weight="1" />
+      <edge id="16077" source="JERRY" target="MOTHER" weight="1" />
+      <edge id="16078" source="JERRY" target="JUNIOR" weight="1" />
+      <edge id="16079" source="JERRY" target="FIRST OFFICIAL" weight="2" />
+      <edge id="16080" source="JERRY" target="PARADISE" weight="1" />
+      <edge id="16081" source="JERRY" target="SECOND OFFICIAL" weight="2" />
+      <edge id="16082" source="JERRY" target="SPATS' VOICE" weight="1" />
+      <edge id="16083" source="JERRY" target="OPERATOR" weight="1" />
+      <edge id="16084" source="JOE" target="MULLIGAN" weight="3" />
+      <edge id="16085" source="JOE" target="WAITER" weight="1" />
+      <edge id="16086" source="JOE" target="DRUNK" weight="2" />
+      <edge id="16087" source="JOE" target="JERRY" weight="33" />
+      <edge id="16088" source="JOE" target="SPATS" weight="6" />
+      <edge id="16089" source="JOE" target="SECOND HENCHMAN" weight="5" />
+      <edge id="16090" source="JOE" target="FIRST SECRETARY" weight="1" />
+      <edge id="16091" source="JOE" target="SECOND SECRETARY" weight="1" />
+      <edge id="16092" source="JOE" target="NELLIE" weight="3" />
+      <edge id="16093" source="JOE" target="NELLIE'S VOICE" weight="1" />
+      <edge id="16094" source="JOE" target="OTHER SECRETARY" weight="1" />
+      <edge id="16095" source="JOE" target="POLIAKOFF" weight="1" />
+      <edge id="16096" source="JOE" target="SUE" weight="7" />
+      <edge id="16097" source="JOE" target="BIENSTOCK" weight="6" />
+      <edge id="16098" source="JOE" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16099" source="JOE" target="MECHANIC" weight="1" />
+      <edge id="16100" source="JOE" target="FIRST HENCHMAN" weight="4" />
+      <edge id="16101" source="JOE" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16102" source="JOE" target="NEWSBOY" weight="1" />
+      <edge id="16103" source="JOE" target="MARY LOU" weight="2" />
+      <edge id="16104" source="JOE" target="GIRLS" weight="2" />
+      <edge id="16105" source="JOE" target="ROSELLA" weight="2" />
+      <edge id="16106" source="JOE" target="OLGA" weight="3" />
+      <edge id="16107" source="JOE" target="DOLORES" weight="4" />
+      <edge id="16108" source="JOE" target="SUGAR" weight="25" />
+      <edge id="16109" source="JOE" target="EMILY" weight="2" />
+      <edge id="16110" source="JOE" target="SUGAR'S VOICE" weight="2" />
+      <edge id="16111" source="JOE" target="OSGOOD" weight="3" />
+      <edge id="16112" source="JOE" target="BELLHOP" weight="3" />
+      <edge id="16113" source="JOE" target="BIENSTOCK'S VOICE" weight="1" />
+      <edge id="16114" source="JOE" target="DOLORES' VOICE" weight="1" />
+      <edge id="16115" source="JOE" target="MOTHER" weight="1" />
+      <edge id="16116" source="JOE" target="JUNIOR" weight="1" />
+      <edge id="16117" source="JOE" target="FIRST OFFICIAL" weight="2" />
+      <edge id="16118" source="JOE" target="PARADISE" weight="2" />
+      <edge id="16119" source="JOE" target="SECOND OFFICIAL" weight="4" />
+      <edge id="16120" source="JOE" target="SPATS' VOICE" weight="1" />
+      <edge id="16121" source="JOE" target="OPERATOR" weight="1" />
+      <edge id="16122" source="JOE" target="BONAPARTE" weight="1" />
+      <edge id="16123" source="SPATS" target="MULLIGAN" weight="3" />
+      <edge id="16124" source="SPATS" target="WAITER" weight="1" />
+      <edge id="16125" source="SPATS" target="DRUNK" weight="1" />
+      <edge id="16126" source="SPATS" target="JERRY" weight="5" />
+      <edge id="16127" source="SPATS" target="JOE" weight="6" />
+      <edge id="16128" source="SPATS" target="SECOND HENCHMAN" weight="6" />
+      <edge id="16129" source="SPATS" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16130" source="SPATS" target="MECHANIC" weight="1" />
+      <edge id="16131" source="SPATS" target="FIRST HENCHMAN" weight="5" />
+      <edge id="16132" source="SPATS" target="FIRST OFFICIAL" weight="1" />
+      <edge id="16133" source="SPATS" target="PARADISE" weight="2" />
+      <edge id="16134" source="SPATS" target="SECOND OFFICIAL" weight="2" />
+      <edge id="16135" source="SPATS" target="SPATS' VOICE" weight="1" />
+      <edge id="16136" source="SPATS" target="OPERATOR" weight="1" />
+      <edge id="16137" source="SPATS" target="BONAPARTE" weight="2" />
+      <edge id="16138" source="SECOND HENCHMAN" target="MULLIGAN" weight="2" />
+      <edge id="16139" source="SECOND HENCHMAN" target="WAITER" weight="1" />
+      <edge id="16140" source="SECOND HENCHMAN" target="DRUNK" weight="1" />
+      <edge id="16141" source="SECOND HENCHMAN" target="JERRY" weight="5" />
+      <edge id="16142" source="SECOND HENCHMAN" target="JOE" weight="5" />
+      <edge id="16143" source="SECOND HENCHMAN" target="SPATS" weight="6" />
+      <edge id="16144" source="SECOND HENCHMAN" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16145" source="SECOND HENCHMAN" target="MECHANIC" weight="1" />
+      <edge id="16146" source="SECOND HENCHMAN" target="FIRST HENCHMAN" weight="5" />
+      <edge id="16147" source="SECOND HENCHMAN" target="FIRST OFFICIAL" weight="1" />
+      <edge id="16148" source="SECOND HENCHMAN" target="PARADISE" weight="1" />
+      <edge id="16149" source="SECOND HENCHMAN" target="SECOND OFFICIAL" weight="1" />
+      <edge id="16150" source="SECOND HENCHMAN" target="SPATS' VOICE" weight="1" />
+      <edge id="16151" source="SECOND HENCHMAN" target="OPERATOR" weight="1" />
+      <edge id="16152" source="SECOND HENCHMAN" target="BONAPARTE" weight="1" />
+      <edge id="16153" source="FIRST SECRETARY" target="JOE" weight="1" />
+      <edge id="16154" source="FIRST SECRETARY" target="SECOND SECRETARY" weight="1" />
+      <edge id="16155" source="FIRST SECRETARY" target="NELLIE" weight="1" />
+      <edge id="16156" source="FIRST SECRETARY" target="NELLIE'S VOICE" weight="1" />
+      <edge id="16157" source="SECOND SECRETARY" target="JOE" weight="1" />
+      <edge id="16158" source="SECOND SECRETARY" target="FIRST SECRETARY" weight="1" />
+      <edge id="16159" source="SECOND SECRETARY" target="NELLIE" weight="1" />
+      <edge id="16160" source="SECOND SECRETARY" target="NELLIE'S VOICE" weight="1" />
+      <edge id="16161" source="NELLIE" target="JOE" weight="3" />
+      <edge id="16162" source="NELLIE" target="FIRST SECRETARY" weight="1" />
+      <edge id="16163" source="NELLIE" target="SECOND SECRETARY" weight="1" />
+      <edge id="16164" source="NELLIE" target="NELLIE'S VOICE" weight="1" />
+      <edge id="16165" source="NELLIE" target="JERRY" weight="2" />
+      <edge id="16166" source="NELLIE" target="OTHER SECRETARY" weight="1" />
+      <edge id="16167" source="NELLIE'S VOICE" target="JOE" weight="1" />
+      <edge id="16168" source="NELLIE'S VOICE" target="FIRST SECRETARY" weight="1" />
+      <edge id="16169" source="NELLIE'S VOICE" target="SECOND SECRETARY" weight="1" />
+      <edge id="16170" source="NELLIE'S VOICE" target="NELLIE" weight="1" />
+      <edge id="16171" source="OTHER SECRETARY" target="JOE" weight="1" />
+      <edge id="16172" source="OTHER SECRETARY" target="NELLIE" weight="1" />
+      <edge id="16173" source="OTHER SECRETARY" target="JERRY" weight="1" />
+      <edge id="16174" source="POLIAKOFF" target="SUE" weight="1" />
+      <edge id="16175" source="POLIAKOFF" target="BIENSTOCK" weight="1" />
+      <edge id="16176" source="POLIAKOFF" target="JOE" weight="1" />
+      <edge id="16177" source="POLIAKOFF" target="JERRY" weight="1" />
+      <edge id="16178" source="SUE" target="POLIAKOFF" weight="1" />
+      <edge id="16179" source="SUE" target="BIENSTOCK" weight="6" />
+      <edge id="16180" source="SUE" target="JOE" weight="7" />
+      <edge id="16181" source="SUE" target="JERRY" weight="6" />
+      <edge id="16182" source="SUE" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16183" source="SUE" target="NEWSBOY" weight="1" />
+      <edge id="16184" source="SUE" target="MARY LOU" weight="1" />
+      <edge id="16185" source="SUE" target="GIRLS" weight="1" />
+      <edge id="16186" source="SUE" target="ROSELLA" weight="1" />
+      <edge id="16187" source="SUE" target="OLGA" weight="1" />
+      <edge id="16188" source="SUE" target="DOLORES" weight="2" />
+      <edge id="16189" source="SUE" target="SUGAR" weight="5" />
+      <edge id="16190" source="SUE" target="EMILY" weight="1" />
+      <edge id="16191" source="SUE" target="CONDUCTOR" weight="1" />
+      <edge id="16192" source="SUE" target="BELLHOP" weight="1" />
+      <edge id="16193" source="SUE" target="SECOND OFFICIAL" weight="1" />
+      <edge id="16194" source="BIENSTOCK" target="POLIAKOFF" weight="1" />
+      <edge id="16195" source="BIENSTOCK" target="SUE" weight="6" />
+      <edge id="16196" source="BIENSTOCK" target="JOE" weight="6" />
+      <edge id="16197" source="BIENSTOCK" target="JERRY" weight="6" />
+      <edge id="16198" source="BIENSTOCK" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16199" source="BIENSTOCK" target="NEWSBOY" weight="1" />
+      <edge id="16200" source="BIENSTOCK" target="MARY LOU" weight="1" />
+      <edge id="16201" source="BIENSTOCK" target="GIRLS" weight="1" />
+      <edge id="16202" source="BIENSTOCK" target="ROSELLA" weight="1" />
+      <edge id="16203" source="BIENSTOCK" target="OLGA" weight="1" />
+      <edge id="16204" source="BIENSTOCK" target="DOLORES" weight="2" />
+      <edge id="16205" source="BIENSTOCK" target="SUGAR" weight="4" />
+      <edge id="16206" source="BIENSTOCK" target="EMILY" weight="1" />
+      <edge id="16207" source="BIENSTOCK" target="CONDUCTOR" weight="1" />
+      <edge id="16208" source="BIENSTOCK" target="BELLHOP" weight="1" />
+      <edge id="16209" source="BIENSTOCK" target="BIENSTOCK'S VOICE" weight="1" />
+      <edge id="16210" source="MECHANIC" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16211" source="MECHANIC" target="JERRY" weight="1" />
+      <edge id="16212" source="MECHANIC" target="JOE" weight="1" />
+      <edge id="16213" source="MECHANIC" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16214" source="MECHANIC" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16215" source="MECHANIC" target="SPATS" weight="1" />
+      <edge id="16216" source="FIRST HENCHMAN" target="TOOTHPICK CHARLIE" weight="1" />
+      <edge id="16217" source="FIRST HENCHMAN" target="JERRY" weight="4" />
+      <edge id="16218" source="FIRST HENCHMAN" target="JOE" weight="4" />
+      <edge id="16219" source="FIRST HENCHMAN" target="MECHANIC" weight="1" />
+      <edge id="16220" source="FIRST HENCHMAN" target="SECOND HENCHMAN" weight="5" />
+      <edge id="16221" source="FIRST HENCHMAN" target="SPATS" weight="5" />
+      <edge id="16222" source="FIRST HENCHMAN" target="FIRST OFFICIAL" weight="1" />
+      <edge id="16223" source="FIRST HENCHMAN" target="PARADISE" weight="1" />
+      <edge id="16224" source="FIRST HENCHMAN" target="SECOND OFFICIAL" weight="1" />
+      <edge id="16225" source="FIRST HENCHMAN" target="MULLIGAN" weight="1" />
+      <edge id="16226" source="FIRST HENCHMAN" target="SPATS' VOICE" weight="1" />
+      <edge id="16227" source="FIRST HENCHMAN" target="OPERATOR" weight="1" />
+      <edge id="16228" source="FIRST HENCHMAN" target="BONAPARTE" weight="1" />
+      <edge id="16229" source="ANNOUNCER'S VOICE" target="JERRY" weight="1" />
+      <edge id="16230" source="ANNOUNCER'S VOICE" target="JOE" weight="1" />
+      <edge id="16231" source="ANNOUNCER'S VOICE" target="NEWSBOY" weight="1" />
+      <edge id="16232" source="ANNOUNCER'S VOICE" target="SUE" weight="1" />
+      <edge id="16233" source="ANNOUNCER'S VOICE" target="BIENSTOCK" weight="1" />
+      <edge id="16234" source="ANNOUNCER'S VOICE" target="MARY LOU" weight="1" />
+      <edge id="16235" source="ANNOUNCER'S VOICE" target="GIRLS" weight="1" />
+      <edge id="16236" source="ANNOUNCER'S VOICE" target="ROSELLA" weight="1" />
+      <edge id="16237" source="ANNOUNCER'S VOICE" target="OLGA" weight="1" />
+      <edge id="16238" source="ANNOUNCER'S VOICE" target="DOLORES" weight="1" />
+      <edge id="16239" source="NEWSBOY" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16240" source="NEWSBOY" target="JERRY" weight="1" />
+      <edge id="16241" source="NEWSBOY" target="JOE" weight="1" />
+      <edge id="16242" source="NEWSBOY" target="SUE" weight="1" />
+      <edge id="16243" source="NEWSBOY" target="BIENSTOCK" weight="1" />
+      <edge id="16244" source="NEWSBOY" target="MARY LOU" weight="1" />
+      <edge id="16245" source="NEWSBOY" target="GIRLS" weight="1" />
+      <edge id="16246" source="NEWSBOY" target="ROSELLA" weight="1" />
+      <edge id="16247" source="NEWSBOY" target="OLGA" weight="1" />
+      <edge id="16248" source="NEWSBOY" target="DOLORES" weight="1" />
+      <edge id="16249" source="MARY LOU" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16250" source="MARY LOU" target="JERRY" weight="2" />
+      <edge id="16251" source="MARY LOU" target="JOE" weight="2" />
+      <edge id="16252" source="MARY LOU" target="NEWSBOY" weight="1" />
+      <edge id="16253" source="MARY LOU" target="SUE" weight="1" />
+      <edge id="16254" source="MARY LOU" target="BIENSTOCK" weight="1" />
+      <edge id="16255" source="MARY LOU" target="GIRLS" weight="2" />
+      <edge id="16256" source="MARY LOU" target="ROSELLA" weight="2" />
+      <edge id="16257" source="MARY LOU" target="OLGA" weight="2" />
+      <edge id="16258" source="MARY LOU" target="DOLORES" weight="2" />
+      <edge id="16259" source="MARY LOU" target="SUGAR" weight="1" />
+      <edge id="16260" source="MARY LOU" target="EMILY" weight="1" />
+      <edge id="16261" source="GIRLS" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16262" source="GIRLS" target="JERRY" weight="2" />
+      <edge id="16263" source="GIRLS" target="JOE" weight="2" />
+      <edge id="16264" source="GIRLS" target="NEWSBOY" weight="1" />
+      <edge id="16265" source="GIRLS" target="SUE" weight="1" />
+      <edge id="16266" source="GIRLS" target="BIENSTOCK" weight="1" />
+      <edge id="16267" source="GIRLS" target="MARY LOU" weight="2" />
+      <edge id="16268" source="GIRLS" target="ROSELLA" weight="2" />
+      <edge id="16269" source="GIRLS" target="OLGA" weight="2" />
+      <edge id="16270" source="GIRLS" target="DOLORES" weight="2" />
+      <edge id="16271" source="GIRLS" target="SUGAR" weight="1" />
+      <edge id="16272" source="GIRLS" target="EMILY" weight="1" />
+      <edge id="16273" source="ROSELLA" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16274" source="ROSELLA" target="JERRY" weight="3" />
+      <edge id="16275" source="ROSELLA" target="JOE" weight="2" />
+      <edge id="16276" source="ROSELLA" target="NEWSBOY" weight="1" />
+      <edge id="16277" source="ROSELLA" target="SUE" weight="1" />
+      <edge id="16278" source="ROSELLA" target="BIENSTOCK" weight="1" />
+      <edge id="16279" source="ROSELLA" target="MARY LOU" weight="2" />
+      <edge id="16280" source="ROSELLA" target="GIRLS" weight="2" />
+      <edge id="16281" source="ROSELLA" target="OLGA" weight="2" />
+      <edge id="16282" source="ROSELLA" target="DOLORES" weight="3" />
+      <edge id="16283" source="ROSELLA" target="SUGAR" weight="1" />
+      <edge id="16284" source="ROSELLA" target="EMILY" weight="1" />
+      <edge id="16285" source="OLGA" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16286" source="OLGA" target="JERRY" weight="2" />
+      <edge id="16287" source="OLGA" target="JOE" weight="3" />
+      <edge id="16288" source="OLGA" target="NEWSBOY" weight="1" />
+      <edge id="16289" source="OLGA" target="SUE" weight="1" />
+      <edge id="16290" source="OLGA" target="BIENSTOCK" weight="1" />
+      <edge id="16291" source="OLGA" target="MARY LOU" weight="2" />
+      <edge id="16292" source="OLGA" target="GIRLS" weight="2" />
+      <edge id="16293" source="OLGA" target="ROSELLA" weight="2" />
+      <edge id="16294" source="OLGA" target="DOLORES" weight="2" />
+      <edge id="16295" source="OLGA" target="SUGAR" weight="2" />
+      <edge id="16296" source="OLGA" target="EMILY" weight="1" />
+      <edge id="16297" source="DOLORES" target="ANNOUNCER'S VOICE" weight="1" />
+      <edge id="16298" source="DOLORES" target="JERRY" weight="4" />
+      <edge id="16299" source="DOLORES" target="JOE" weight="4" />
+      <edge id="16300" source="DOLORES" target="NEWSBOY" weight="1" />
+      <edge id="16301" source="DOLORES" target="SUE" weight="2" />
+      <edge id="16302" source="DOLORES" target="BIENSTOCK" weight="2" />
+      <edge id="16303" source="DOLORES" target="MARY LOU" weight="2" />
+      <edge id="16304" source="DOLORES" target="GIRLS" weight="2" />
+      <edge id="16305" source="DOLORES" target="ROSELLA" weight="3" />
+      <edge id="16306" source="DOLORES" target="OLGA" weight="2" />
+      <edge id="16307" source="DOLORES" target="SUGAR" weight="4" />
+      <edge id="16308" source="DOLORES" target="EMILY" weight="1" />
+      <edge id="16309" source="SUGAR" target="JERRY" weight="15" />
+      <edge id="16310" source="SUGAR" target="JOE" weight="25" />
+      <edge id="16311" source="SUGAR" target="SUE" weight="5" />
+      <edge id="16312" source="SUGAR" target="BIENSTOCK" weight="4" />
+      <edge id="16313" source="SUGAR" target="EMILY" weight="2" />
+      <edge id="16314" source="SUGAR" target="DOLORES" weight="4" />
+      <edge id="16315" source="SUGAR" target="MARY LOU" weight="1" />
+      <edge id="16316" source="SUGAR" target="ROSELLA" weight="1" />
+      <edge id="16317" source="SUGAR" target="GIRLS" weight="1" />
+      <edge id="16318" source="SUGAR" target="OLGA" weight="2" />
+      <edge id="16319" source="SUGAR" target="SUGAR'S VOICE" weight="2" />
+      <edge id="16320" source="SUGAR" target="OSGOOD" weight="3" />
+      <edge id="16321" source="SUGAR" target="BELLHOP" weight="3" />
+      <edge id="16322" source="SUGAR" target="BIENSTOCK'S VOICE" weight="1" />
+      <edge id="16323" source="SUGAR" target="DOLORES' VOICE" weight="1" />
+      <edge id="16324" source="SUGAR" target="MOTHER" weight="1" />
+      <edge id="16325" source="SUGAR" target="JUNIOR" weight="1" />
+      <edge id="16326" source="SUGAR" target="SECOND OFFICIAL" weight="1" />
+      <edge id="16327" source="EMILY" target="JERRY" weight="2" />
+      <edge id="16328" source="EMILY" target="JOE" weight="2" />
+      <edge id="16329" source="EMILY" target="SUGAR" weight="2" />
+      <edge id="16330" source="EMILY" target="SUE" weight="1" />
+      <edge id="16331" source="EMILY" target="BIENSTOCK" weight="1" />
+      <edge id="16332" source="EMILY" target="DOLORES" weight="1" />
+      <edge id="16333" source="EMILY" target="MARY LOU" weight="1" />
+      <edge id="16334" source="EMILY" target="ROSELLA" weight="1" />
+      <edge id="16335" source="EMILY" target="GIRLS" weight="1" />
+      <edge id="16336" source="EMILY" target="OLGA" weight="1" />
+      <edge id="16337" source="CONDUCTOR" target="SUE" weight="1" />
+      <edge id="16338" source="CONDUCTOR" target="BIENSTOCK" weight="1" />
+      <edge id="16339" source="CONDUCTOR" target="JERRY" weight="1" />
+      <edge id="16340" source="SUGAR'S VOICE" target="JOE" weight="2" />
+      <edge id="16341" source="SUGAR'S VOICE" target="SUGAR" weight="2" />
+      <edge id="16342" source="SUGAR'S VOICE" target="JERRY" weight="2" />
+      <edge id="16343" source="SUGAR'S VOICE" target="BELLHOP" weight="1" />
+      <edge id="16344" source="OSGOOD" target="JERRY" weight="6" />
+      <edge id="16345" source="OSGOOD" target="SUGAR" weight="3" />
+      <edge id="16346" source="OSGOOD" target="JOE" weight="3" />
+      <edge id="16347" source="BELLHOP" target="JOE" weight="3" />
+      <edge id="16348" source="BELLHOP" target="JERRY" weight="3" />
+      <edge id="16349" source="BELLHOP" target="BIENSTOCK'S VOICE" weight="1" />
+      <edge id="16350" source="BELLHOP" target="BIENSTOCK" weight="1" />
+      <edge id="16351" source="BELLHOP" target="SUGAR" weight="3" />
+      <edge id="16352" source="BELLHOP" target="SUE" weight="1" />
+      <edge id="16353" source="BELLHOP" target="SUGAR'S VOICE" weight="1" />
+      <edge id="16354" source="BIENSTOCK'S VOICE" target="BELLHOP" weight="1" />
+      <edge id="16355" source="BIENSTOCK'S VOICE" target="JOE" weight="1" />
+      <edge id="16356" source="BIENSTOCK'S VOICE" target="JERRY" weight="1" />
+      <edge id="16357" source="BIENSTOCK'S VOICE" target="BIENSTOCK" weight="1" />
+      <edge id="16358" source="BIENSTOCK'S VOICE" target="SUGAR" weight="1" />
+      <edge id="16359" source="DOLORES' VOICE" target="SUGAR" weight="1" />
+      <edge id="16360" source="DOLORES' VOICE" target="JERRY" weight="1" />
+      <edge id="16361" source="DOLORES' VOICE" target="MOTHER" weight="1" />
+      <edge id="16362" source="DOLORES' VOICE" target="JUNIOR" weight="1" />
+      <edge id="16363" source="DOLORES' VOICE" target="JOE" weight="1" />
+      <edge id="16364" source="MOTHER" target="SUGAR" weight="1" />
+      <edge id="16365" source="MOTHER" target="JERRY" weight="1" />
+      <edge id="16366" source="MOTHER" target="DOLORES' VOICE" weight="1" />
+      <edge id="16367" source="MOTHER" target="JUNIOR" weight="1" />
+      <edge id="16368" source="MOTHER" target="JOE" weight="1" />
+      <edge id="16369" source="JUNIOR" target="SUGAR" weight="1" />
+      <edge id="16370" source="JUNIOR" target="JERRY" weight="1" />
+      <edge id="16371" source="JUNIOR" target="DOLORES' VOICE" weight="1" />
+      <edge id="16372" source="JUNIOR" target="MOTHER" weight="1" />
+      <edge id="16373" source="JUNIOR" target="JOE" weight="1" />
+      <edge id="16374" source="FIRST OFFICIAL" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16375" source="FIRST OFFICIAL" target="SPATS" weight="1" />
+      <edge id="16376" source="FIRST OFFICIAL" target="PARADISE" weight="1" />
+      <edge id="16377" source="FIRST OFFICIAL" target="SECOND OFFICIAL" weight="2" />
+      <edge id="16378" source="FIRST OFFICIAL" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16379" source="FIRST OFFICIAL" target="MULLIGAN" weight="1" />
+      <edge id="16380" source="FIRST OFFICIAL" target="JERRY" weight="2" />
+      <edge id="16381" source="FIRST OFFICIAL" target="JOE" weight="2" />
+      <edge id="16382" source="PARADISE" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16383" source="PARADISE" target="FIRST OFFICIAL" weight="1" />
+      <edge id="16384" source="PARADISE" target="SPATS" weight="2" />
+      <edge id="16385" source="PARADISE" target="SECOND OFFICIAL" weight="2" />
+      <edge id="16386" source="PARADISE" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16387" source="PARADISE" target="MULLIGAN" weight="2" />
+      <edge id="16388" source="PARADISE" target="JERRY" weight="1" />
+      <edge id="16389" source="PARADISE" target="JOE" weight="2" />
+      <edge id="16390" source="PARADISE" target="BONAPARTE" weight="1" />
+      <edge id="16391" source="SECOND OFFICIAL" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16392" source="SECOND OFFICIAL" target="FIRST OFFICIAL" weight="2" />
+      <edge id="16393" source="SECOND OFFICIAL" target="SPATS" weight="2" />
+      <edge id="16394" source="SECOND OFFICIAL" target="PARADISE" weight="2" />
+      <edge id="16395" source="SECOND OFFICIAL" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16396" source="SECOND OFFICIAL" target="MULLIGAN" weight="2" />
+      <edge id="16397" source="SECOND OFFICIAL" target="JERRY" weight="2" />
+      <edge id="16398" source="SECOND OFFICIAL" target="JOE" weight="4" />
+      <edge id="16399" source="SECOND OFFICIAL" target="BONAPARTE" weight="1" />
+      <edge id="16400" source="SECOND OFFICIAL" target="SUGAR" weight="1" />
+      <edge id="16401" source="SECOND OFFICIAL" target="SUE" weight="1" />
+      <edge id="16402" source="SPATS' VOICE" target="JOE" weight="1" />
+      <edge id="16403" source="SPATS' VOICE" target="SPATS" weight="1" />
+      <edge id="16404" source="SPATS' VOICE" target="JERRY" weight="1" />
+      <edge id="16405" source="SPATS' VOICE" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16406" source="SPATS' VOICE" target="OPERATOR" weight="1" />
+      <edge id="16407" source="SPATS' VOICE" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16408" source="OPERATOR" target="JOE" weight="1" />
+      <edge id="16409" source="OPERATOR" target="SPATS' VOICE" weight="1" />
+      <edge id="16410" source="OPERATOR" target="SPATS" weight="1" />
+      <edge id="16411" source="OPERATOR" target="JERRY" weight="1" />
+      <edge id="16412" source="OPERATOR" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16413" source="OPERATOR" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16414" source="BONAPARTE" target="SPATS" weight="2" />
+      <edge id="16415" source="BONAPARTE" target="FIRST HENCHMAN" weight="1" />
+      <edge id="16416" source="BONAPARTE" target="SECOND HENCHMAN" weight="1" />
+      <edge id="16417" source="BONAPARTE" target="SECOND OFFICIAL" weight="1" />
+      <edge id="16418" source="BONAPARTE" target="PARADISE" weight="1" />
+      <edge id="16419" source="BONAPARTE" target="JOE" weight="1" />
+      <edge id="16420" source="BONAPARTE" target="MULLIGAN" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GILMAN" label="GILMAN" />
+      <node id="MASON" label="MASON" />
+      <node id="KAYLA" label="KAYLA" />
+      <node id="LOGAN" label="LOGAN" />
+      <node id="CARNY BARKER" label="CARNY BARKER" />
+      <node id="SHERRLENE" label="SHERRLENE" />
+      <node id="BEAK" label="BEAK" />
+      <node id="VICTOR CREED" label="VICTOR CREED" />
+      <node id="STRYKER" label="STRYKER" />
+      <node id="AGENT ZERO" label="AGENT ZERO" />
+      <node id="FOURTH GRADERS" label="FOURTH GRADERS" />
+      <node id="SUPERVISOR" label="SUPERVISOR" />
+      <node id="FOREMAN" label="FOREMAN" />
+      <node id="PHELAN" label="PHELAN" />
+      <node id="VAN MIER" label="VAN MIER" />
+      <node id="MARCUSE" label="MARCUSE" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="SURGEON" label="SURGEON" />
+      <node id="MALE NURSE #1" label="MALE NURSE #1" />
+      <node id="MALE NURSE #2" label="MALE NURSE #2" />
+      <node id="HINES" label="HINES" />
+      <node id="CORNELIUS" label="CORNELIUS" />
+      <node id="TECHNICIAN #1" label="TECHNICIAN #1" />
+      <node id="TECHNICIAN #2" label="TECHNICIAN #2" />
+      <node id="GENERAL MUNSON" label="GENERAL MUNSON" />
+      <node id="SOLDIER #1" label="SOLDIER #1" />
+      <node id="HEATHER HUDSON" label="HEATHER HUDSON" />
+      <node id="JAMES HUDSON" label="JAMES HUDSON" />
+      <node id="GUNNER" label="GUNNER" />
+      <node id="PILOT" label="PILOT" />
+      <node id="OPERATOR" label="OPERATOR" />
+      <node id="FRANCIS" label="FRANCIS" />
+      <node id="LADY OF THE NIGHT" label="LADY OF THE NIGHT" />
+      <node id="WRAITH" label="WRAITH" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="YOUNG WOMAN" label="YOUNG WOMAN" />
+      <node id="STOCK BOY #1" label="STOCK BOY #1" />
+      <node id="STOCK BOY #2" label="STOCK BOY #2" />
+      <node id="FRED J. DUKES" label="FRED J. DUKES" />
+      <node id="BOUNCER" label="BOUNCER" />
+      <node id="PUSHER" label="PUSHER" />
+      <node id="SKINHEAD" label="SKINHEAD" />
+      <node id="BARBARUS" label="BARBARUS" />
+      <node id="YOUNG SENTRY" label="YOUNG SENTRY" />
+      <node id="YOUNG SCIENTIST" label="YOUNG SCIENTIST" />
+      <node id="TECHNICIAN" label="TECHNICIAN" />
+      <node id="SENTRY #1" label="SENTRY #1" />
+      <node id="SENTRY #2" label="SENTRY #2" />
+      <node id="SENTRIES" label="SENTRIES" />
+      <node id="LEAD TECHNICIAN" label="LEAD TECHNICIAN" />
+    </nodes>
+    <edges>
+      <edge id="26233" source="GILMAN" target="MASON" weight="1" />
+      <edge id="26234" source="MASON" target="GILMAN" weight="1" />
+      <edge id="26235" source="KAYLA" target="LOGAN" weight="12" />
+      <edge id="26236" source="KAYLA" target="FOURTH GRADERS" weight="1" />
+      <edge id="26237" source="KAYLA" target="SUPERVISOR" weight="1" />
+      <edge id="26238" source="KAYLA" target="FOREMAN" weight="1" />
+      <edge id="26239" source="KAYLA" target="REPORTER" weight="1" />
+      <edge id="26240" source="KAYLA" target="YOUNG WOMAN" weight="1" />
+      <edge id="26241" source="KAYLA" target="STRYKER" weight="5" />
+      <edge id="26242" source="KAYLA" target="VICTOR CREED" weight="5" />
+      <edge id="26243" source="KAYLA" target="CORNELIUS" weight="2" />
+      <edge id="26244" source="KAYLA" target="HINES" weight="1" />
+      <edge id="26245" source="KAYLA" target="SENTRY #1" weight="1" />
+      <edge id="26246" source="KAYLA" target="SENTRY #2" weight="1" />
+      <edge id="26247" source="KAYLA" target="SENTRIES" weight="1" />
+      <edge id="26248" source="KAYLA" target="LEAD TECHNICIAN" weight="1" />
+      <edge id="26249" source="LOGAN" target="KAYLA" weight="12" />
+      <edge id="26250" source="LOGAN" target="STRYKER" weight="9" />
+      <edge id="26251" source="LOGAN" target="AGENT ZERO" weight="2" />
+      <edge id="26252" source="LOGAN" target="FOURTH GRADERS" weight="1" />
+      <edge id="26253" source="LOGAN" target="SUPERVISOR" weight="1" />
+      <edge id="26254" source="LOGAN" target="PHELAN" weight="1" />
+      <edge id="26255" source="LOGAN" target="VAN MIER" weight="1" />
+      <edge id="26256" source="LOGAN" target="MARCUSE" weight="1" />
+      <edge id="26257" source="LOGAN" target="SURGEON" weight="1" />
+      <edge id="26258" source="LOGAN" target="MALE NURSE #1" weight="1" />
+      <edge id="26259" source="LOGAN" target="JAMES HUDSON" weight="2" />
+      <edge id="26260" source="LOGAN" target="HEATHER HUDSON" weight="1" />
+      <edge id="26261" source="LOGAN" target="OPERATOR" weight="1" />
+      <edge id="26262" source="LOGAN" target="LADY OF THE NIGHT" weight="1" />
+      <edge id="26263" source="LOGAN" target="WRAITH" weight="2" />
+      <edge id="26264" source="LOGAN" target="STOCK BOY #1" weight="1" />
+      <edge id="26265" source="LOGAN" target="STOCK BOY #2" weight="1" />
+      <edge id="26266" source="LOGAN" target="FRED J. DUKES" weight="1" />
+      <edge id="26267" source="LOGAN" target="PUSHER" weight="1" />
+      <edge id="26268" source="LOGAN" target="SKINHEAD" weight="1" />
+      <edge id="26269" source="LOGAN" target="BARBARUS" weight="1" />
+      <edge id="26270" source="LOGAN" target="HINES" weight="6" />
+      <edge id="26271" source="LOGAN" target="YOUNG SCIENTIST" weight="1" />
+      <edge id="26272" source="LOGAN" target="TECHNICIAN" weight="1" />
+      <edge id="26273" source="LOGAN" target="VICTOR CREED" weight="3" />
+      <edge id="26274" source="LOGAN" target="CORNELIUS" weight="1" />
+      <edge id="26275" source="LOGAN" target="LEAD TECHNICIAN" weight="1" />
+      <edge id="26276" source="SHERRLENE" target="BEAK" weight="1" />
+      <edge id="26277" source="BEAK" target="SHERRLENE" weight="1" />
+      <edge id="26278" source="BEAK" target="VICTOR CREED" weight="2" />
+      <edge id="26279" source="VICTOR CREED" target="BEAK" weight="2" />
+      <edge id="26280" source="VICTOR CREED" target="BARTENDER" weight="1" />
+      <edge id="26281" source="VICTOR CREED" target="FRANCIS" weight="1" />
+      <edge id="26282" source="VICTOR CREED" target="WRAITH" weight="1" />
+      <edge id="26283" source="VICTOR CREED" target="STRYKER" weight="3" />
+      <edge id="26284" source="VICTOR CREED" target="KAYLA" weight="5" />
+      <edge id="26285" source="VICTOR CREED" target="LOGAN" weight="3" />
+      <edge id="26286" source="VICTOR CREED" target="CORNELIUS" weight="1" />
+      <edge id="26287" source="VICTOR CREED" target="HINES" weight="1" />
+      <edge id="26288" source="VICTOR CREED" target="SENTRY #1" weight="1" />
+      <edge id="26289" source="VICTOR CREED" target="SENTRY #2" weight="1" />
+      <edge id="26290" source="VICTOR CREED" target="SENTRIES" weight="1" />
+      <edge id="26291" source="VICTOR CREED" target="LEAD TECHNICIAN" weight="1" />
+      <edge id="26292" source="STRYKER" target="LOGAN" weight="9" />
+      <edge id="26293" source="STRYKER" target="AGENT ZERO" weight="4" />
+      <edge id="26294" source="STRYKER" target="SURGEON" weight="1" />
+      <edge id="26295" source="STRYKER" target="MALE NURSE #1" weight="1" />
+      <edge id="26296" source="STRYKER" target="HINES" weight="7" />
+      <edge id="26297" source="STRYKER" target="GENERAL MUNSON" weight="6" />
+      <edge id="26298" source="STRYKER" target="CORNELIUS" weight="3" />
+      <edge id="26299" source="STRYKER" target="TECHNICIAN #2" weight="1" />
+      <edge id="26300" source="STRYKER" target="OPERATOR" weight="1" />
+      <edge id="26301" source="STRYKER" target="KAYLA" weight="5" />
+      <edge id="26302" source="STRYKER" target="VICTOR CREED" weight="3" />
+      <edge id="26303" source="STRYKER" target="LEAD TECHNICIAN" weight="1" />
+      <edge id="26304" source="AGENT ZERO" target="LOGAN" weight="2" />
+      <edge id="26305" source="AGENT ZERO" target="STRYKER" weight="4" />
+      <edge id="26306" source="AGENT ZERO" target="GUNNER" weight="1" />
+      <edge id="26307" source="FOURTH GRADERS" target="LOGAN" weight="1" />
+      <edge id="26308" source="FOURTH GRADERS" target="KAYLA" weight="1" />
+      <edge id="26309" source="SUPERVISOR" target="KAYLA" weight="1" />
+      <edge id="26310" source="SUPERVISOR" target="LOGAN" weight="1" />
+      <edge id="26311" source="FOREMAN" target="KAYLA" weight="1" />
+      <edge id="26312" source="PHELAN" target="VAN MIER" weight="1" />
+      <edge id="26313" source="PHELAN" target="MARCUSE" weight="1" />
+      <edge id="26314" source="PHELAN" target="LOGAN" weight="1" />
+      <edge id="26315" source="VAN MIER" target="PHELAN" weight="1" />
+      <edge id="26316" source="VAN MIER" target="MARCUSE" weight="1" />
+      <edge id="26317" source="VAN MIER" target="LOGAN" weight="1" />
+      <edge id="26318" source="MARCUSE" target="PHELAN" weight="1" />
+      <edge id="26319" source="MARCUSE" target="VAN MIER" weight="1" />
+      <edge id="26320" source="MARCUSE" target="LOGAN" weight="1" />
+      <edge id="26321" source="BARTENDER" target="VICTOR CREED" weight="1" />
+      <edge id="26322" source="SURGEON" target="MALE NURSE #1" weight="2" />
+      <edge id="26323" source="SURGEON" target="MALE NURSE #2" weight="1" />
+      <edge id="26324" source="SURGEON" target="LOGAN" weight="1" />
+      <edge id="26325" source="SURGEON" target="STRYKER" weight="1" />
+      <edge id="26326" source="MALE NURSE #1" target="SURGEON" weight="2" />
+      <edge id="26327" source="MALE NURSE #1" target="MALE NURSE #2" weight="1" />
+      <edge id="26328" source="MALE NURSE #1" target="LOGAN" weight="1" />
+      <edge id="26329" source="MALE NURSE #1" target="STRYKER" weight="1" />
+      <edge id="26330" source="MALE NURSE #2" target="SURGEON" weight="1" />
+      <edge id="26331" source="MALE NURSE #2" target="MALE NURSE #1" weight="1" />
+      <edge id="26332" source="HINES" target="STRYKER" weight="7" />
+      <edge id="26333" source="HINES" target="TECHNICIAN #1" weight="2" />
+      <edge id="26334" source="HINES" target="TECHNICIAN #2" weight="4" />
+      <edge id="26335" source="HINES" target="CORNELIUS" weight="3" />
+      <edge id="26336" source="HINES" target="GENERAL MUNSON" weight="2" />
+      <edge id="26337" source="HINES" target="LOGAN" weight="6" />
+      <edge id="26338" source="HINES" target="YOUNG SENTRY" weight="1" />
+      <edge id="26339" source="HINES" target="YOUNG SCIENTIST" weight="1" />
+      <edge id="26340" source="HINES" target="TECHNICIAN" weight="1" />
+      <edge id="26341" source="HINES" target="VICTOR CREED" weight="1" />
+      <edge id="26342" source="HINES" target="KAYLA" weight="1" />
+      <edge id="26343" source="CORNELIUS" target="TECHNICIAN #1" weight="2" />
+      <edge id="26344" source="CORNELIUS" target="TECHNICIAN #2" weight="4" />
+      <edge id="26345" source="CORNELIUS" target="HINES" weight="3" />
+      <edge id="26346" source="CORNELIUS" target="STRYKER" weight="3" />
+      <edge id="26347" source="CORNELIUS" target="LOGAN" weight="1" />
+      <edge id="26348" source="CORNELIUS" target="KAYLA" weight="2" />
+      <edge id="26349" source="CORNELIUS" target="VICTOR CREED" weight="1" />
+      <edge id="26350" source="TECHNICIAN #1" target="CORNELIUS" weight="2" />
+      <edge id="26351" source="TECHNICIAN #1" target="TECHNICIAN #2" weight="3" />
+      <edge id="26352" source="TECHNICIAN #1" target="HINES" weight="2" />
+      <edge id="26353" source="TECHNICIAN #2" target="CORNELIUS" weight="4" />
+      <edge id="26354" source="TECHNICIAN #2" target="TECHNICIAN #1" weight="3" />
+      <edge id="26355" source="TECHNICIAN #2" target="HINES" weight="4" />
+      <edge id="26356" source="TECHNICIAN #2" target="STRYKER" weight="1" />
+      <edge id="26357" source="GENERAL MUNSON" target="STRYKER" weight="6" />
+      <edge id="26358" source="GENERAL MUNSON" target="HINES" weight="2" />
+      <edge id="26359" source="HEATHER HUDSON" target="JAMES HUDSON" weight="2" />
+      <edge id="26360" source="HEATHER HUDSON" target="LOGAN" weight="1" />
+      <edge id="26361" source="JAMES HUDSON" target="HEATHER HUDSON" weight="2" />
+      <edge id="26362" source="JAMES HUDSON" target="LOGAN" weight="2" />
+      <edge id="26363" source="GUNNER" target="AGENT ZERO" weight="1" />
+      <edge id="26364" source="GUNNER" target="PILOT" weight="1" />
+      <edge id="26365" source="PILOT" target="GUNNER" weight="1" />
+      <edge id="26366" source="OPERATOR" target="LOGAN" weight="1" />
+      <edge id="26367" source="OPERATOR" target="STRYKER" weight="1" />
+      <edge id="26368" source="FRANCIS" target="VICTOR CREED" weight="1" />
+      <edge id="26369" source="LADY OF THE NIGHT" target="LOGAN" weight="1" />
+      <edge id="26370" source="WRAITH" target="LOGAN" weight="2" />
+      <edge id="26371" source="WRAITH" target="VICTOR CREED" weight="1" />
+      <edge id="26372" source="REPORTER" target="YOUNG WOMAN" weight="1" />
+      <edge id="26373" source="REPORTER" target="KAYLA" weight="1" />
+      <edge id="26374" source="YOUNG WOMAN" target="REPORTER" weight="1" />
+      <edge id="26375" source="YOUNG WOMAN" target="KAYLA" weight="1" />
+      <edge id="26376" source="STOCK BOY #1" target="STOCK BOY #2" weight="1" />
+      <edge id="26377" source="STOCK BOY #1" target="LOGAN" weight="1" />
+      <edge id="26378" source="STOCK BOY #1" target="FRED J. DUKES" weight="1" />
+      <edge id="26379" source="STOCK BOY #2" target="STOCK BOY #1" weight="1" />
+      <edge id="26380" source="STOCK BOY #2" target="LOGAN" weight="1" />
+      <edge id="26381" source="STOCK BOY #2" target="FRED J. DUKES" weight="1" />
+      <edge id="26382" source="FRED J. DUKES" target="STOCK BOY #1" weight="1" />
+      <edge id="26383" source="FRED J. DUKES" target="STOCK BOY #2" weight="1" />
+      <edge id="26384" source="FRED J. DUKES" target="LOGAN" weight="1" />
+      <edge id="26385" source="PUSHER" target="LOGAN" weight="1" />
+      <edge id="26386" source="SKINHEAD" target="LOGAN" weight="1" />
+      <edge id="26387" source="BARBARUS" target="LOGAN" weight="1" />
+      <edge id="26388" source="YOUNG SENTRY" target="HINES" weight="1" />
+      <edge id="26389" source="YOUNG SCIENTIST" target="HINES" weight="1" />
+      <edge id="26390" source="YOUNG SCIENTIST" target="LOGAN" weight="1" />
+      <edge id="26391" source="TECHNICIAN" target="HINES" weight="1" />
+      <edge id="26392" source="TECHNICIAN" target="LOGAN" weight="1" />
+      <edge id="26393" source="SENTRY #1" target="SENTRY #2" weight="1" />
+      <edge id="26394" source="SENTRY #1" target="KAYLA" weight="1" />
+      <edge id="26395" source="SENTRY #1" target="SENTRIES" weight="1" />
+      <edge id="26396" source="SENTRY #1" target="VICTOR CREED" weight="1" />
+      <edge id="26397" source="SENTRY #2" target="SENTRY #1" weight="1" />
+      <edge id="26398" source="SENTRY #2" target="KAYLA" weight="1" />
+      <edge id="26399" source="SENTRY #2" target="SENTRIES" weight="1" />
+      <edge id="26400" source="SENTRY #2" target="VICTOR CREED" weight="1" />
+      <edge id="26401" source="SENTRIES" target="SENTRY #1" weight="1" />
+      <edge id="26402" source="SENTRIES" target="SENTRY #2" weight="1" />
+      <edge id="26403" source="SENTRIES" target="KAYLA" weight="1" />
+      <edge id="26404" source="SENTRIES" target="VICTOR CREED" weight="1" />
+      <edge id="26405" source="LEAD TECHNICIAN" target="STRYKER" weight="1" />
+      <edge id="26406" source="LEAD TECHNICIAN" target="VICTOR CREED" weight="1" />
+      <edge id="26407" source="LEAD TECHNICIAN" target="LOGAN" weight="1" />
+      <edge id="26408" source="LEAD TECHNICIAN" target="KAYLA" weight="1" />
+    </edges>
+  </graph>
+</gexf>

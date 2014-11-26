@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="HOWARD" label="HOWARD" />
+      <node id="JEFF" label="JEFF" />
+      <node id="AMY" label="AMY" />
+      <node id="TRUCKER" label="TRUCKER" />
+      <node id="EARL" label="EARL" />
+      <node id="RED" label="RED" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="FLO" label="FLO" />
+      <node id="CB VOICE" label="CB VOICE" />
+      <node id="SHERIFF BOYD" label="SHERIFF BOYD" />
+      <node id="DISPATCHER" label="DISPATCHER" />
+      <node id="DEPUTY CARVER" label="DEPUTY CARVER" />
+      <node id="BARFLY" label="BARFLY" />
+      <node id="SLUGGISH MAN" label="SLUGGISH MAN" />
+      <node id="BILLY" label="BILLY" />
+      <node id="DRIVER OF VAN" label="DRIVER OF VAN" />
+      <node id="AL" label="AL" />
+      <node id="CALHOUN" label="CALHOUN" />
+      <node id="COWBOY" label="COWBOY" />
+      <node id="TOW TRUCK DRIVER" label="TOW TRUCK DRIVER" />
+      <node id="DEKE" label="DEKE" />
+      <node id="ARLEEN" label="ARLEEN" />
+      <node id="FBI AGENT" label="FBI AGENT" />
+      <node id="FBI" label="FBI" />
+      <node id="THE END" label="THE END" />
+    </nodes>
+    <edges>
+      <edge id="2247" source="HOWARD" target="JEFF" weight="3" />
+      <edge id="2248" source="JEFF" target="HOWARD" weight="3" />
+      <edge id="2249" source="JEFF" target="AMY" weight="14" />
+      <edge id="2250" source="JEFF" target="EARL" weight="9" />
+      <edge id="2251" source="JEFF" target="RED" weight="11" />
+      <edge id="2252" source="JEFF" target="BARTENDER" weight="3" />
+      <edge id="2253" source="JEFF" target="FLO" weight="2" />
+      <edge id="2254" source="JEFF" target="CB VOICE" weight="1" />
+      <edge id="2255" source="JEFF" target="SHERIFF BOYD" weight="6" />
+      <edge id="2256" source="JEFF" target="DISPATCHER" weight="2" />
+      <edge id="2257" source="JEFF" target="DEPUTY CARVER" weight="1" />
+      <edge id="2258" source="JEFF" target="BARFLY" weight="1" />
+      <edge id="2259" source="JEFF" target="SLUGGISH MAN" weight="1" />
+      <edge id="2260" source="JEFF" target="BILLY" weight="4" />
+      <edge id="2261" source="JEFF" target="DRIVER OF VAN" weight="1" />
+      <edge id="2262" source="JEFF" target="AL" weight="2" />
+      <edge id="2263" source="JEFF" target="CALHOUN" weight="1" />
+      <edge id="2264" source="JEFF" target="COWBOY" weight="1" />
+      <edge id="2265" source="JEFF" target="TOW TRUCK DRIVER" weight="1" />
+      <edge id="2266" source="JEFF" target="ARLEEN" weight="1" />
+      <edge id="2267" source="JEFF" target="DEKE" weight="2" />
+      <edge id="2268" source="JEFF" target="FBI AGENT" weight="1" />
+      <edge id="2269" source="JEFF" target="FBI" weight="1" />
+      <edge id="2270" source="AMY" target="JEFF" weight="14" />
+      <edge id="2271" source="AMY" target="TRUCKER" weight="1" />
+      <edge id="2272" source="AMY" target="EARL" weight="1" />
+      <edge id="2273" source="AMY" target="RED" weight="3" />
+      <edge id="2274" source="AMY" target="DEKE" weight="1" />
+      <edge id="2275" source="AMY" target="BILLY" weight="1" />
+      <edge id="2276" source="AMY" target="FBI AGENT" weight="1" />
+      <edge id="2277" source="AMY" target="FBI" weight="1" />
+      <edge id="2278" source="TRUCKER" target="AMY" weight="1" />
+      <edge id="2279" source="EARL" target="JEFF" weight="9" />
+      <edge id="2280" source="EARL" target="AMY" weight="1" />
+      <edge id="2281" source="EARL" target="DRIVER OF VAN" weight="1" />
+      <edge id="2282" source="EARL" target="AL" weight="2" />
+      <edge id="2283" source="EARL" target="BILLY" weight="2" />
+      <edge id="2284" source="EARL" target="RED" weight="1" />
+      <edge id="2285" source="EARL" target="SHERIFF BOYD" weight="1" />
+      <edge id="2286" source="EARL" target="DISPATCHER" weight="1" />
+      <edge id="2287" source="RED" target="JEFF" weight="11" />
+      <edge id="2288" source="RED" target="AMY" weight="3" />
+      <edge id="2289" source="RED" target="CB VOICE" weight="1" />
+      <edge id="2290" source="RED" target="SHERIFF BOYD" weight="4" />
+      <edge id="2291" source="RED" target="DISPATCHER" weight="1" />
+      <edge id="2292" source="RED" target="EARL" weight="1" />
+      <edge id="2293" source="RED" target="BILLY" weight="5" />
+      <edge id="2294" source="RED" target="AL" weight="6" />
+      <edge id="2295" source="RED" target="DEKE" weight="4" />
+      <edge id="2296" source="RED" target="ARLEEN" weight="4" />
+      <edge id="2297" source="BARTENDER" target="JEFF" weight="3" />
+      <edge id="2298" source="BARTENDER" target="FLO" weight="2" />
+      <edge id="2299" source="BARTENDER" target="BARFLY" weight="1" />
+      <edge id="2300" source="FLO" target="JEFF" weight="2" />
+      <edge id="2301" source="FLO" target="BARTENDER" weight="2" />
+      <edge id="2302" source="FLO" target="BARFLY" weight="1" />
+      <edge id="2303" source="CB VOICE" target="JEFF" weight="1" />
+      <edge id="2304" source="CB VOICE" target="RED" weight="1" />
+      <edge id="2305" source="CB VOICE" target="SHERIFF BOYD" weight="1" />
+      <edge id="2306" source="SHERIFF BOYD" target="JEFF" weight="6" />
+      <edge id="2307" source="SHERIFF BOYD" target="RED" weight="4" />
+      <edge id="2308" source="SHERIFF BOYD" target="CB VOICE" weight="1" />
+      <edge id="2309" source="SHERIFF BOYD" target="DISPATCHER" weight="2" />
+      <edge id="2310" source="SHERIFF BOYD" target="EARL" weight="1" />
+      <edge id="2311" source="DISPATCHER" target="SHERIFF BOYD" weight="2" />
+      <edge id="2312" source="DISPATCHER" target="JEFF" weight="2" />
+      <edge id="2313" source="DISPATCHER" target="RED" weight="1" />
+      <edge id="2314" source="DISPATCHER" target="EARL" weight="1" />
+      <edge id="2315" source="DEPUTY CARVER" target="JEFF" weight="1" />
+      <edge id="2316" source="BARFLY" target="JEFF" weight="1" />
+      <edge id="2317" source="BARFLY" target="BARTENDER" weight="1" />
+      <edge id="2318" source="BARFLY" target="FLO" weight="1" />
+      <edge id="2319" source="SLUGGISH MAN" target="JEFF" weight="1" />
+      <edge id="2320" source="SLUGGISH MAN" target="BILLY" weight="1" />
+      <edge id="2321" source="BILLY" target="JEFF" weight="4" />
+      <edge id="2322" source="BILLY" target="SLUGGISH MAN" weight="1" />
+      <edge id="2323" source="BILLY" target="EARL" weight="2" />
+      <edge id="2324" source="BILLY" target="RED" weight="5" />
+      <edge id="2325" source="BILLY" target="AL" weight="4" />
+      <edge id="2326" source="BILLY" target="ARLEEN" weight="1" />
+      <edge id="2327" source="BILLY" target="AMY" weight="1" />
+      <edge id="2328" source="DRIVER OF VAN" target="JEFF" weight="1" />
+      <edge id="2329" source="DRIVER OF VAN" target="EARL" weight="1" />
+      <edge id="2330" source="AL" target="EARL" weight="2" />
+      <edge id="2331" source="AL" target="RED" weight="6" />
+      <edge id="2332" source="AL" target="JEFF" weight="2" />
+      <edge id="2333" source="AL" target="BILLY" weight="4" />
+      <edge id="2334" source="AL" target="ARLEEN" weight="2" />
+      <edge id="2335" source="AL" target="DEKE" weight="1" />
+      <edge id="2336" source="CALHOUN" target="JEFF" weight="1" />
+      <edge id="2337" source="CALHOUN" target="COWBOY" weight="1" />
+      <edge id="2338" source="COWBOY" target="JEFF" weight="1" />
+      <edge id="2339" source="COWBOY" target="CALHOUN" weight="1" />
+      <edge id="2340" source="TOW TRUCK DRIVER" target="JEFF" weight="1" />
+      <edge id="2341" source="DEKE" target="RED" weight="4" />
+      <edge id="2342" source="DEKE" target="ARLEEN" weight="3" />
+      <edge id="2343" source="DEKE" target="JEFF" weight="2" />
+      <edge id="2344" source="DEKE" target="AL" weight="1" />
+      <edge id="2345" source="DEKE" target="AMY" weight="1" />
+      <edge id="2346" source="ARLEEN" target="DEKE" weight="3" />
+      <edge id="2347" source="ARLEEN" target="RED" weight="4" />
+      <edge id="2348" source="ARLEEN" target="AL" weight="2" />
+      <edge id="2349" source="ARLEEN" target="BILLY" weight="1" />
+      <edge id="2350" source="ARLEEN" target="JEFF" weight="1" />
+      <edge id="2351" source="FBI AGENT" target="JEFF" weight="1" />
+      <edge id="2352" source="FBI AGENT" target="AMY" weight="1" />
+      <edge id="2353" source="FBI AGENT" target="FBI" weight="1" />
+      <edge id="2354" source="FBI" target="JEFF" weight="1" />
+      <edge id="2355" source="FBI" target="FBI AGENT" weight="1" />
+      <edge id="2356" source="FBI" target="AMY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

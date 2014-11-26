@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="GABRIEL" label="GABRIEL" />
+      <node id="ROBERTS" label="ROBERTS" />
+      <node id="STANLEY" label="STANLEY" />
+      <node id="MARCO" label="MARCO" />
+      <node id="A.D. JOY" label="A.D. JOY" />
+      <node id="SWAT LEADER" label="SWAT LEADER" />
+      <node id="TORVALDS" label="TORVALDS" />
+      <node id="ANOTHER CUSTOMS OFFICIAL" label="ANOTHER CUSTOMS OFFICIAL" />
+      <node id="DARK SUIT #2" label="DARK SUIT #2" />
+      <node id="SENATOR REISMAN" label="SENATOR REISMAN" />
+      <node id="KAPLAN" label="KAPLAN" />
+      <node id="GINGER" label="GINGER" />
+      <node id="MELISSA" label="MELISSA" />
+      <node id="AGENT #1" label="AGENT #1" />
+      <node id="AGENT #2" label="AGENT #2" />
+      <node id="LAWYER" label="LAWYER" />
+      <node id="BAD AGENT #1" label="BAD AGENT #1" />
+      <node id="FBI OPERATOR" label="FBI OPERATOR" />
+      <node id="HELGA" label="HELGA" />
+      <node id="FBI COMPUTER GEEK #1" label="FBI COMPUTER GEEK #1" />
+      <node id="FBI COMPUTER GEEK #2" label="FBI COMPUTER GEEK #2" />
+      <node id="FBI COMPUTER GEEK #3" label="FBI COMPUTER GEEK #3" />
+      <node id="MAN" label="MAN" />
+      <node id="HOLLY" label="HOLLY" />
+      <node id="DARK SUIT #1" label="DARK SUIT #1" />
+      <node id="RANDOM AGENT" label="RANDOM AGENT" />
+      <node id="FBI AGENT #1" label="FBI AGENT #1" />
+      <node id="REISMAN" label="REISMAN" />
+      <node id="COMMUNICATION" label="COMMUNICATION" />
+      <node id="MERC" label="MERC" />
+      <node id="OPERATOR" label="OPERATOR" />
+      <node id="CYPHER MERC #3" label="CYPHER MERC #3" />
+      <node id="COMPUTER MERC" label="COMPUTER MERC" />
+      <node id="AGENT TORRES" label="AGENT TORRES" />
+      <node id="AGENT THOMAS" label="AGENT THOMAS" />
+      <node id="BROKER" label="BROKER" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="SWAT GUY" label="SWAT GUY" />
+      <node id="DOCTOR MICHEALS" label="DOCTOR MICHEALS" />
+      <node id="TORRES" label="TORRES" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="BANK EXECUTIVE" label="BANK EXECUTIVE" />
+      <node id="WOMAN FROM BANK" label="WOMAN FROM BANK" />
+    </nodes>
+    <edges>
+      <edge id="17983" source="GABRIEL" target="ROBERTS" weight="3" />
+      <edge id="17984" source="GABRIEL" target="STANLEY" weight="22" />
+      <edge id="17985" source="GABRIEL" target="MARCO" weight="4" />
+      <edge id="17986" source="GABRIEL" target="A.D. JOY" weight="1" />
+      <edge id="17987" source="GABRIEL" target="SWAT LEADER" weight="1" />
+      <edge id="17988" source="GABRIEL" target="GINGER" weight="5" />
+      <edge id="17989" source="GABRIEL" target="HELGA" weight="1" />
+      <edge id="17990" source="GABRIEL" target="REISMAN" weight="3" />
+      <edge id="17991" source="GABRIEL" target="MERC" weight="2" />
+      <edge id="17992" source="GABRIEL" target="OPERATOR" weight="1" />
+      <edge id="17993" source="GABRIEL" target="CYPHER MERC #3" weight="1" />
+      <edge id="17994" source="GABRIEL" target="COMPUTER MERC" weight="1" />
+      <edge id="17995" source="GABRIEL" target="DRIVER" weight="1" />
+      <edge id="17996" source="ROBERTS" target="GABRIEL" weight="3" />
+      <edge id="17997" source="ROBERTS" target="STANLEY" weight="4" />
+      <edge id="17998" source="ROBERTS" target="A.D. JOY" weight="3" />
+      <edge id="17999" source="ROBERTS" target="SWAT LEADER" weight="1" />
+      <edge id="18000" source="ROBERTS" target="AGENT #1" weight="2" />
+      <edge id="18001" source="ROBERTS" target="AGENT #2" weight="1" />
+      <edge id="18002" source="ROBERTS" target="LAWYER" weight="2" />
+      <edge id="18003" source="ROBERTS" target="TORVALDS" weight="1" />
+      <edge id="18004" source="ROBERTS" target="FBI OPERATOR" weight="1" />
+      <edge id="18005" source="ROBERTS" target="FBI COMPUTER GEEK #1" weight="2" />
+      <edge id="18006" source="ROBERTS" target="FBI COMPUTER GEEK #2" weight="2" />
+      <edge id="18007" source="ROBERTS" target="FBI COMPUTER GEEK #3" weight="1" />
+      <edge id="18008" source="ROBERTS" target="DARK SUIT #2" weight="1" />
+      <edge id="18009" source="ROBERTS" target="RANDOM AGENT" weight="1" />
+      <edge id="18010" source="ROBERTS" target="FBI AGENT #1" weight="1" />
+      <edge id="18011" source="ROBERTS" target="SWAT GUY" weight="1" />
+      <edge id="18012" source="ROBERTS" target="DOCTOR MICHEALS" weight="1" />
+      <edge id="18013" source="ROBERTS" target="TORRES" weight="1" />
+      <edge id="18014" source="STANLEY" target="GABRIEL" weight="22" />
+      <edge id="18015" source="STANLEY" target="ROBERTS" weight="4" />
+      <edge id="18016" source="STANLEY" target="GINGER" weight="14" />
+      <edge id="18017" source="STANLEY" target="MELISSA" weight="2" />
+      <edge id="18018" source="STANLEY" target="HELGA" weight="1" />
+      <edge id="18019" source="STANLEY" target="MAN" weight="1" />
+      <edge id="18020" source="STANLEY" target="HOLLY" weight="4" />
+      <edge id="18021" source="STANLEY" target="DARK SUIT #1" weight="1" />
+      <edge id="18022" source="STANLEY" target="DARK SUIT #2" weight="1" />
+      <edge id="18023" source="STANLEY" target="RANDOM AGENT" weight="1" />
+      <edge id="18024" source="STANLEY" target="MARCO" weight="4" />
+      <edge id="18025" source="STANLEY" target="MERC" weight="2" />
+      <edge id="18026" source="STANLEY" target="OPERATOR" weight="1" />
+      <edge id="18027" source="STANLEY" target="CYPHER MERC #3" weight="1" />
+      <edge id="18028" source="STANLEY" target="COMPUTER MERC" weight="1" />
+      <edge id="18029" source="STANLEY" target="DOCTOR MICHEALS" weight="1" />
+      <edge id="18030" source="STANLEY" target="TORRES" weight="1" />
+      <edge id="18031" source="MARCO" target="GABRIEL" weight="4" />
+      <edge id="18032" source="MARCO" target="STANLEY" weight="4" />
+      <edge id="18033" source="MARCO" target="CYPHER MERC #3" weight="1" />
+      <edge id="18034" source="A.D. JOY" target="SWAT LEADER" weight="1" />
+      <edge id="18035" source="A.D. JOY" target="ROBERTS" weight="3" />
+      <edge id="18036" source="A.D. JOY" target="GABRIEL" weight="1" />
+      <edge id="18037" source="A.D. JOY" target="FBI OPERATOR" weight="1" />
+      <edge id="18038" source="A.D. JOY" target="AGENT TORRES" weight="1" />
+      <edge id="18039" source="A.D. JOY" target="AGENT THOMAS" weight="1" />
+      <edge id="18040" source="SWAT LEADER" target="A.D. JOY" weight="1" />
+      <edge id="18041" source="SWAT LEADER" target="ROBERTS" weight="1" />
+      <edge id="18042" source="SWAT LEADER" target="GABRIEL" weight="1" />
+      <edge id="18043" source="TORVALDS" target="ANOTHER CUSTOMS OFFICIAL" weight="1" />
+      <edge id="18044" source="TORVALDS" target="AGENT #1" weight="1" />
+      <edge id="18045" source="TORVALDS" target="AGENT #2" weight="1" />
+      <edge id="18046" source="TORVALDS" target="LAWYER" weight="1" />
+      <edge id="18047" source="TORVALDS" target="ROBERTS" weight="1" />
+      <edge id="18048" source="TORVALDS" target="BAD AGENT #1" weight="1" />
+      <edge id="18049" source="ANOTHER CUSTOMS OFFICIAL" target="TORVALDS" weight="1" />
+      <edge id="18050" source="DARK SUIT #2" target="ROBERTS" weight="1" />
+      <edge id="18051" source="DARK SUIT #2" target="STANLEY" weight="1" />
+      <edge id="18052" source="DARK SUIT #2" target="RANDOM AGENT" weight="1" />
+      <edge id="18053" source="SENATOR REISMAN" target="KAPLAN" weight="2" />
+      <edge id="18054" source="KAPLAN" target="SENATOR REISMAN" weight="2" />
+      <edge id="18055" source="KAPLAN" target="REISMAN" weight="1" />
+      <edge id="18056" source="GINGER" target="STANLEY" weight="14" />
+      <edge id="18057" source="GINGER" target="GABRIEL" weight="5" />
+      <edge id="18058" source="GINGER" target="HELGA" weight="1" />
+      <edge id="18059" source="GINGER" target="WOMAN FROM BANK" weight="1" />
+      <edge id="18060" source="GINGER" target="MAN" weight="1" />
+      <edge id="18061" source="MELISSA" target="STANLEY" weight="2" />
+      <edge id="18062" source="AGENT #1" target="AGENT #2" weight="1" />
+      <edge id="18063" source="AGENT #1" target="LAWYER" weight="1" />
+      <edge id="18064" source="AGENT #1" target="ROBERTS" weight="2" />
+      <edge id="18065" source="AGENT #1" target="TORVALDS" weight="1" />
+      <edge id="18066" source="AGENT #2" target="AGENT #1" weight="1" />
+      <edge id="18067" source="AGENT #2" target="LAWYER" weight="1" />
+      <edge id="18068" source="AGENT #2" target="ROBERTS" weight="1" />
+      <edge id="18069" source="AGENT #2" target="TORVALDS" weight="1" />
+      <edge id="18070" source="LAWYER" target="AGENT #1" weight="1" />
+      <edge id="18071" source="LAWYER" target="AGENT #2" weight="1" />
+      <edge id="18072" source="LAWYER" target="ROBERTS" weight="2" />
+      <edge id="18073" source="LAWYER" target="TORVALDS" weight="1" />
+      <edge id="18074" source="BAD AGENT #1" target="TORVALDS" weight="1" />
+      <edge id="18075" source="FBI OPERATOR" target="ROBERTS" weight="1" />
+      <edge id="18076" source="FBI OPERATOR" target="A.D. JOY" weight="1" />
+      <edge id="18077" source="HELGA" target="GINGER" weight="1" />
+      <edge id="18078" source="HELGA" target="STANLEY" weight="1" />
+      <edge id="18079" source="HELGA" target="GABRIEL" weight="1" />
+      <edge id="18080" source="FBI COMPUTER GEEK #1" target="ROBERTS" weight="2" />
+      <edge id="18081" source="FBI COMPUTER GEEK #1" target="FBI COMPUTER GEEK #2" weight="2" />
+      <edge id="18082" source="FBI COMPUTER GEEK #1" target="FBI COMPUTER GEEK #3" weight="1" />
+      <edge id="18083" source="FBI COMPUTER GEEK #1" target="FBI AGENT #1" weight="1" />
+      <edge id="18084" source="FBI COMPUTER GEEK #2" target="ROBERTS" weight="2" />
+      <edge id="18085" source="FBI COMPUTER GEEK #2" target="FBI COMPUTER GEEK #1" weight="2" />
+      <edge id="18086" source="FBI COMPUTER GEEK #2" target="FBI COMPUTER GEEK #3" weight="1" />
+      <edge id="18087" source="FBI COMPUTER GEEK #2" target="FBI AGENT #1" weight="1" />
+      <edge id="18088" source="FBI COMPUTER GEEK #3" target="ROBERTS" weight="1" />
+      <edge id="18089" source="FBI COMPUTER GEEK #3" target="FBI COMPUTER GEEK #1" weight="1" />
+      <edge id="18090" source="FBI COMPUTER GEEK #3" target="FBI COMPUTER GEEK #2" weight="1" />
+      <edge id="18091" source="MAN" target="HOLLY" weight="1" />
+      <edge id="18092" source="MAN" target="STANLEY" weight="1" />
+      <edge id="18093" source="MAN" target="WOMAN FROM BANK" weight="1" />
+      <edge id="18094" source="MAN" target="GINGER" weight="1" />
+      <edge id="18095" source="HOLLY" target="MAN" weight="1" />
+      <edge id="18096" source="HOLLY" target="STANLEY" weight="4" />
+      <edge id="18097" source="HOLLY" target="DARK SUIT #1" weight="1" />
+      <edge id="18098" source="DARK SUIT #1" target="STANLEY" weight="1" />
+      <edge id="18099" source="DARK SUIT #1" target="HOLLY" weight="1" />
+      <edge id="18100" source="RANDOM AGENT" target="ROBERTS" weight="1" />
+      <edge id="18101" source="RANDOM AGENT" target="DARK SUIT #2" weight="1" />
+      <edge id="18102" source="RANDOM AGENT" target="STANLEY" weight="1" />
+      <edge id="18103" source="FBI AGENT #1" target="ROBERTS" weight="1" />
+      <edge id="18104" source="FBI AGENT #1" target="FBI COMPUTER GEEK #1" weight="1" />
+      <edge id="18105" source="FBI AGENT #1" target="FBI COMPUTER GEEK #2" weight="1" />
+      <edge id="18106" source="REISMAN" target="COMMUNICATION" weight="1" />
+      <edge id="18107" source="REISMAN" target="GABRIEL" weight="3" />
+      <edge id="18108" source="REISMAN" target="KAPLAN" weight="1" />
+      <edge id="18109" source="COMMUNICATION" target="REISMAN" weight="1" />
+      <edge id="18110" source="MERC" target="GABRIEL" weight="2" />
+      <edge id="18111" source="MERC" target="STANLEY" weight="2" />
+      <edge id="18112" source="MERC" target="OPERATOR" weight="1" />
+      <edge id="18113" source="MERC" target="COMPUTER MERC" weight="1" />
+      <edge id="18114" source="OPERATOR" target="GABRIEL" weight="1" />
+      <edge id="18115" source="OPERATOR" target="MERC" weight="1" />
+      <edge id="18116" source="OPERATOR" target="STANLEY" weight="1" />
+      <edge id="18117" source="CYPHER MERC #3" target="STANLEY" weight="1" />
+      <edge id="18118" source="CYPHER MERC #3" target="GABRIEL" weight="1" />
+      <edge id="18119" source="CYPHER MERC #3" target="MARCO" weight="1" />
+      <edge id="18120" source="COMPUTER MERC" target="STANLEY" weight="1" />
+      <edge id="18121" source="COMPUTER MERC" target="GABRIEL" weight="1" />
+      <edge id="18122" source="COMPUTER MERC" target="MERC" weight="1" />
+      <edge id="18123" source="AGENT TORRES" target="A.D. JOY" weight="1" />
+      <edge id="18124" source="AGENT TORRES" target="AGENT THOMAS" weight="1" />
+      <edge id="18125" source="AGENT THOMAS" target="A.D. JOY" weight="1" />
+      <edge id="18126" source="AGENT THOMAS" target="AGENT TORRES" weight="1" />
+      <edge id="18127" source="DRIVER" target="GABRIEL" weight="1" />
+      <edge id="18128" source="SWAT GUY" target="ROBERTS" weight="1" />
+      <edge id="18129" source="DOCTOR MICHEALS" target="STANLEY" weight="1" />
+      <edge id="18130" source="DOCTOR MICHEALS" target="ROBERTS" weight="1" />
+      <edge id="18131" source="DOCTOR MICHEALS" target="TORRES" weight="1" />
+      <edge id="18132" source="TORRES" target="STANLEY" weight="1" />
+      <edge id="18133" source="TORRES" target="DOCTOR MICHEALS" weight="1" />
+      <edge id="18134" source="TORRES" target="ROBERTS" weight="1" />
+      <edge id="18135" source="WOMAN" target="BANK EXECUTIVE" weight="1" />
+      <edge id="18136" source="BANK EXECUTIVE" target="WOMAN" weight="1" />
+      <edge id="18137" source="WOMAN FROM BANK" target="MAN" weight="1" />
+      <edge id="18138" source="WOMAN FROM BANK" target="GINGER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

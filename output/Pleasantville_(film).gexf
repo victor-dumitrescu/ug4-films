@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="COLLEGE COUNSELOR" label="COLLEGE COUNSELOR" />
+      <node id="HEALTH TEACHER" label="HEALTH TEACHER" />
+      <node id="SCIENCE TEACHER" label="SCIENCE TEACHER" />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="WOMAN'S VOICE" label="WOMAN'S VOICE" />
+      <node id="BETTY" label="BETTY" />
+      <node id="GEORGE" label="GEORGE" />
+      <node id="DAVID" label="DAVID" />
+      <node id="DAVID'S MOM" label="DAVID'S MOM" />
+      <node id="BUD AND MARY SUE TOGETHER" label="BUD AND MARY SUE TOGETHER" />
+      <node id="MARY SUE" label="MARY SUE" />
+      <node id="BUD" label="BUD" />
+      <node id="HOWARD" label="HOWARD" />
+      <node id="KIMMY" label="KIMMY" />
+      <node id="JENNIFER" label="JENNIFER" />
+      <node id="CHRISTIN" label="CHRISTIN" />
+      <node id="MARK" label="MARK" />
+      <node id="MARK'S LACKEYS" label="MARK'S LACKEYS" />
+      <node id="JENNIFER'S LACKEYS" label="JENNIFER'S LACKEYS" />
+      <node id="VARIOUS LACKEYS" label="VARIOUS LACKEYS" />
+      <node id="TV REPAIRMAN" label="TV REPAIRMAN" />
+      <node id="VOICE" label="VOICE" />
+      <node id="MARK DAVIS" label="MARK DAVIS" />
+      <node id="PAT BOONE" label="PAT BOONE" />
+      <node id="MR. SIMPSON" label="MR. SIMPSON" />
+      <node id="FIREMAN" label="FIREMAN" />
+      <node id="BOY'S VOICE" label="BOY'S VOICE" />
+      <node id="SKIP" label="SKIP" />
+      <node id="MISS PETERS" label="MISS PETERS" />
+      <node id="TOMMY" label="TOMMY" />
+      <node id="COACH" label="COACH" />
+      <node id="PEGGY JANE" label="PEGGY JANE" />
+      <node id="LISA ANNE" label="LISA ANNE" />
+      <node id="BETTY JEAN" label="BETTY JEAN" />
+      <node id="ALL THREE TOGETHER" label="ALL THREE TOGETHER" />
+      <node id="MR. JOHNSON" label="MR. JOHNSON" />
+      <node id="GIRL'S VOICES" label="GIRL'S VOICES" />
+      <node id="LIL' RICHARD" label="LIL' RICHARD" />
+      <node id="DR. HENDERSON" label="DR. HENDERSON" />
+      <node id="LIL RICHARD" label="LIL RICHARD" />
+      <node id="GUS" label="GUS" />
+      <node id="RALPH" label="RALPH" />
+      <node id="BURT" label="BURT" />
+      <node id="BOB" label="BOB" />
+      <node id="MARGE" label="MARGE" />
+      <node id="MARY" label="MARY" />
+      <node id="GIRL'S VOICE" label="GIRL'S VOICE" />
+      <node id="MARGARET" label="MARGARET" />
+      <node id="JENNIFIER" label="JENNIFIER" />
+      <node id="VARIOUS KIDS" label="VARIOUS KIDS" />
+      <node id="WILL" label="WILL" />
+      <node id="SAM COOKE" label="SAM COOKE" />
+      <node id="MEN" label="MEN" />
+      <node id="WHITEY" label="WHITEY" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="BUDDY HOLLY" label="BUDDY HOLLY" />
+      <node id="DAN" label="DAN" />
+      <node id="BIG BOB" label="BIG BOB" />
+      <node id="TV ANNOUNCER" label="TV ANNOUNCER" />
+    </nodes>
+    <edges>
+      <edge id="13575" source="SCIENCE TEACHER" target="MAN'S VOICE" weight="1" />
+      <edge id="13576" source="MAN'S VOICE" target="SCIENCE TEACHER" weight="1" />
+      <edge id="13577" source="MAN'S VOICE" target="DAVID" weight="1" />
+      <edge id="13578" source="MAN'S VOICE" target="TV REPAIRMAN" weight="1" />
+      <edge id="13579" source="WOMAN'S VOICE" target="BETTY" weight="1" />
+      <edge id="13580" source="WOMAN'S VOICE" target="GEORGE" weight="1" />
+      <edge id="13581" source="BETTY" target="WOMAN'S VOICE" weight="1" />
+      <edge id="13582" source="BETTY" target="GEORGE" weight="7" />
+      <edge id="13583" source="BETTY" target="DAVID" weight="10" />
+      <edge id="13584" source="BETTY" target="DAVID'S MOM" weight="2" />
+      <edge id="13585" source="BETTY" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13586" source="BETTY" target="MARY SUE" weight="1" />
+      <edge id="13587" source="BETTY" target="BUD" weight="1" />
+      <edge id="13588" source="BETTY" target="JENNIFER" weight="5" />
+      <edge id="13589" source="BETTY" target="VOICE" weight="1" />
+      <edge id="13590" source="BETTY" target="TV REPAIRMAN" weight="2" />
+      <edge id="13591" source="BETTY" target="MARK DAVIS" weight="1" />
+      <edge id="13592" source="BETTY" target="PAT BOONE" weight="1" />
+      <edge id="13593" source="BETTY" target="MR. JOHNSON" weight="3" />
+      <edge id="13594" source="BETTY" target="BIG BOB" weight="1" />
+      <edge id="13595" source="BETTY" target="MARGARET" weight="1" />
+      <edge id="13596" source="GEORGE" target="WOMAN'S VOICE" weight="1" />
+      <edge id="13597" source="GEORGE" target="BETTY" weight="7" />
+      <edge id="13598" source="GEORGE" target="DAVID" weight="8" />
+      <edge id="13599" source="GEORGE" target="DAVID'S MOM" weight="2" />
+      <edge id="13600" source="GEORGE" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13601" source="GEORGE" target="MARY SUE" weight="1" />
+      <edge id="13602" source="GEORGE" target="BUD" weight="1" />
+      <edge id="13603" source="GEORGE" target="JENNIFER" weight="2" />
+      <edge id="13604" source="GEORGE" target="VOICE" weight="1" />
+      <edge id="13605" source="GEORGE" target="TV REPAIRMAN" weight="1" />
+      <edge id="13606" source="GEORGE" target="MARK DAVIS" weight="1" />
+      <edge id="13607" source="GEORGE" target="PAT BOONE" weight="1" />
+      <edge id="13608" source="GEORGE" target="GUS" weight="2" />
+      <edge id="13609" source="GEORGE" target="RALPH" weight="1" />
+      <edge id="13610" source="GEORGE" target="BURT" weight="2" />
+      <edge id="13611" source="GEORGE" target="BOB" weight="4" />
+      <edge id="13612" source="GEORGE" target="MEN" weight="1" />
+      <edge id="13613" source="GEORGE" target="DAN" weight="1" />
+      <edge id="13614" source="GEORGE" target="BIG BOB" weight="1" />
+      <edge id="13615" source="GEORGE" target="MR. JOHNSON" weight="2" />
+      <edge id="13616" source="DAVID" target="GEORGE" weight="8" />
+      <edge id="13617" source="DAVID" target="BETTY" weight="10" />
+      <edge id="13618" source="DAVID" target="DAVID'S MOM" weight="3" />
+      <edge id="13619" source="DAVID" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13620" source="DAVID" target="MARY SUE" weight="2" />
+      <edge id="13621" source="DAVID" target="BUD" weight="2" />
+      <edge id="13622" source="DAVID" target="HOWARD" weight="1" />
+      <edge id="13623" source="DAVID" target="KIMMY" weight="1" />
+      <edge id="13624" source="DAVID" target="JENNIFER" weight="20" />
+      <edge id="13625" source="DAVID" target="CHRISTIN" weight="1" />
+      <edge id="13626" source="DAVID" target="MARK" weight="1" />
+      <edge id="13627" source="DAVID" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13628" source="DAVID" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13629" source="DAVID" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13630" source="DAVID" target="TV REPAIRMAN" weight="7" />
+      <edge id="13631" source="DAVID" target="VOICE" weight="1" />
+      <edge id="13632" source="DAVID" target="MARK DAVIS" weight="1" />
+      <edge id="13633" source="DAVID" target="PAT BOONE" weight="1" />
+      <edge id="13634" source="DAVID" target="MR. SIMPSON" weight="1" />
+      <edge id="13635" source="DAVID" target="FIREMAN" weight="2" />
+      <edge id="13636" source="DAVID" target="BOY'S VOICE" weight="1" />
+      <edge id="13637" source="DAVID" target="SKIP" weight="5" />
+      <edge id="13638" source="DAVID" target="COACH" weight="2" />
+      <edge id="13639" source="DAVID" target="PEGGY JANE" weight="4" />
+      <edge id="13640" source="DAVID" target="LISA ANNE" weight="2" />
+      <edge id="13641" source="DAVID" target="BETTY JEAN" weight="1" />
+      <edge id="13642" source="DAVID" target="ALL THREE TOGETHER" weight="1" />
+      <edge id="13643" source="DAVID" target="MR. JOHNSON" weight="9" />
+      <edge id="13644" source="DAVID" target="TOMMY" weight="2" />
+      <edge id="13645" source="DAVID" target="BOB" weight="3" />
+      <edge id="13646" source="DAVID" target="GIRL'S VOICE" weight="1" />
+      <edge id="13647" source="DAVID" target="MARGARET" weight="10" />
+      <edge id="13648" source="DAVID" target="JENNIFIER" weight="1" />
+      <edge id="13649" source="DAVID" target="VARIOUS KIDS" weight="2" />
+      <edge id="13650" source="DAVID" target="WILL" weight="2" />
+      <edge id="13651" source="DAVID" target="MAN'S VOICE" weight="1" />
+      <edge id="13652" source="DAVID" target="SAM COOKE" weight="1" />
+      <edge id="13653" source="DAVID" target="WHITEY" weight="1" />
+      <edge id="13654" source="DAVID" target="BUDDY HOLLY" weight="1" />
+      <edge id="13655" source="DAVID" target="DAN" weight="1" />
+      <edge id="13656" source="DAVID" target="BIG BOB" weight="2" />
+      <edge id="13657" source="DAVID" target="TV ANNOUNCER" weight="1" />
+      <edge id="13658" source="DAVID'S MOM" target="GEORGE" weight="2" />
+      <edge id="13659" source="DAVID'S MOM" target="DAVID" weight="3" />
+      <edge id="13660" source="DAVID'S MOM" target="BETTY" weight="2" />
+      <edge id="13661" source="DAVID'S MOM" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13662" source="DAVID'S MOM" target="MARY SUE" weight="1" />
+      <edge id="13663" source="DAVID'S MOM" target="BUD" weight="1" />
+      <edge id="13664" source="DAVID'S MOM" target="TV ANNOUNCER" weight="1" />
+      <edge id="13665" source="BUD AND MARY SUE TOGETHER" target="DAVID'S MOM" weight="1" />
+      <edge id="13666" source="BUD AND MARY SUE TOGETHER" target="GEORGE" weight="1" />
+      <edge id="13667" source="BUD AND MARY SUE TOGETHER" target="DAVID" weight="1" />
+      <edge id="13668" source="BUD AND MARY SUE TOGETHER" target="MARY SUE" weight="1" />
+      <edge id="13669" source="BUD AND MARY SUE TOGETHER" target="BETTY" weight="1" />
+      <edge id="13670" source="BUD AND MARY SUE TOGETHER" target="BUD" weight="1" />
+      <edge id="13671" source="MARY SUE" target="DAVID'S MOM" weight="1" />
+      <edge id="13672" source="MARY SUE" target="GEORGE" weight="1" />
+      <edge id="13673" source="MARY SUE" target="DAVID" weight="2" />
+      <edge id="13674" source="MARY SUE" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13675" source="MARY SUE" target="BETTY" weight="1" />
+      <edge id="13676" source="MARY SUE" target="BUD" weight="2" />
+      <edge id="13677" source="MARY SUE" target="TV REPAIRMAN" weight="1" />
+      <edge id="13678" source="MARY SUE" target="JENNIFER" weight="1" />
+      <edge id="13679" source="BUD" target="DAVID'S MOM" weight="1" />
+      <edge id="13680" source="BUD" target="GEORGE" weight="1" />
+      <edge id="13681" source="BUD" target="DAVID" weight="2" />
+      <edge id="13682" source="BUD" target="BUD AND MARY SUE TOGETHER" weight="1" />
+      <edge id="13683" source="BUD" target="MARY SUE" weight="2" />
+      <edge id="13684" source="BUD" target="BETTY" weight="1" />
+      <edge id="13685" source="BUD" target="TV REPAIRMAN" weight="1" />
+      <edge id="13686" source="BUD" target="JENNIFER" weight="1" />
+      <edge id="13687" source="HOWARD" target="DAVID" weight="1" />
+      <edge id="13688" source="HOWARD" target="KIMMY" weight="1" />
+      <edge id="13689" source="HOWARD" target="JENNIFER" weight="1" />
+      <edge id="13690" source="HOWARD" target="CHRISTIN" weight="1" />
+      <edge id="13691" source="HOWARD" target="MARK" weight="1" />
+      <edge id="13692" source="HOWARD" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13693" source="HOWARD" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13694" source="HOWARD" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13695" source="KIMMY" target="HOWARD" weight="1" />
+      <edge id="13696" source="KIMMY" target="DAVID" weight="1" />
+      <edge id="13697" source="KIMMY" target="JENNIFER" weight="1" />
+      <edge id="13698" source="KIMMY" target="CHRISTIN" weight="1" />
+      <edge id="13699" source="KIMMY" target="MARK" weight="1" />
+      <edge id="13700" source="KIMMY" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13701" source="KIMMY" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13702" source="KIMMY" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13703" source="JENNIFER" target="HOWARD" weight="1" />
+      <edge id="13704" source="JENNIFER" target="DAVID" weight="20" />
+      <edge id="13705" source="JENNIFER" target="KIMMY" weight="1" />
+      <edge id="13706" source="JENNIFER" target="CHRISTIN" weight="1" />
+      <edge id="13707" source="JENNIFER" target="MARK" weight="1" />
+      <edge id="13708" source="JENNIFER" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13709" source="JENNIFER" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13710" source="JENNIFER" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13711" source="JENNIFER" target="TV REPAIRMAN" weight="4" />
+      <edge id="13712" source="JENNIFER" target="BUD" weight="1" />
+      <edge id="13713" source="JENNIFER" target="MARY SUE" weight="1" />
+      <edge id="13714" source="JENNIFER" target="GEORGE" weight="2" />
+      <edge id="13715" source="JENNIFER" target="VOICE" weight="1" />
+      <edge id="13716" source="JENNIFER" target="BETTY" weight="5" />
+      <edge id="13717" source="JENNIFER" target="MARK DAVIS" weight="1" />
+      <edge id="13718" source="JENNIFER" target="PAT BOONE" weight="1" />
+      <edge id="13719" source="JENNIFER" target="MR. SIMPSON" weight="1" />
+      <edge id="13720" source="JENNIFER" target="FIREMAN" weight="1" />
+      <edge id="13721" source="JENNIFER" target="BOY'S VOICE" weight="1" />
+      <edge id="13722" source="JENNIFER" target="SKIP" weight="8" />
+      <edge id="13723" source="JENNIFER" target="MISS PETERS" weight="1" />
+      <edge id="13724" source="JENNIFER" target="TOMMY" weight="3" />
+      <edge id="13725" source="JENNIFER" target="PEGGY JANE" weight="5" />
+      <edge id="13726" source="JENNIFER" target="LISA ANNE" weight="2" />
+      <edge id="13727" source="JENNIFER" target="BETTY JEAN" weight="2" />
+      <edge id="13728" source="JENNIFER" target="ALL THREE TOGETHER" weight="1" />
+      <edge id="13729" source="JENNIFER" target="MR. JOHNSON" weight="3" />
+      <edge id="13730" source="JENNIFER" target="GIRL'S VOICES" weight="1" />
+      <edge id="13731" source="JENNIFER" target="JENNIFIER" weight="1" />
+      <edge id="13732" source="JENNIFER" target="VARIOUS KIDS" weight="1" />
+      <edge id="13733" source="JENNIFER" target="MARGARET" weight="2" />
+      <edge id="13734" source="JENNIFER" target="WILL" weight="1" />
+      <edge id="13735" source="CHRISTIN" target="HOWARD" weight="1" />
+      <edge id="13736" source="CHRISTIN" target="DAVID" weight="1" />
+      <edge id="13737" source="CHRISTIN" target="KIMMY" weight="1" />
+      <edge id="13738" source="CHRISTIN" target="JENNIFER" weight="1" />
+      <edge id="13739" source="CHRISTIN" target="MARK" weight="1" />
+      <edge id="13740" source="CHRISTIN" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13741" source="CHRISTIN" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13742" source="CHRISTIN" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13743" source="MARK" target="HOWARD" weight="1" />
+      <edge id="13744" source="MARK" target="DAVID" weight="1" />
+      <edge id="13745" source="MARK" target="KIMMY" weight="1" />
+      <edge id="13746" source="MARK" target="JENNIFER" weight="1" />
+      <edge id="13747" source="MARK" target="CHRISTIN" weight="1" />
+      <edge id="13748" source="MARK" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13749" source="MARK" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13750" source="MARK" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13751" source="MARK'S LACKEYS" target="HOWARD" weight="1" />
+      <edge id="13752" source="MARK'S LACKEYS" target="DAVID" weight="1" />
+      <edge id="13753" source="MARK'S LACKEYS" target="KIMMY" weight="1" />
+      <edge id="13754" source="MARK'S LACKEYS" target="JENNIFER" weight="1" />
+      <edge id="13755" source="MARK'S LACKEYS" target="CHRISTIN" weight="1" />
+      <edge id="13756" source="MARK'S LACKEYS" target="MARK" weight="1" />
+      <edge id="13757" source="MARK'S LACKEYS" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13758" source="MARK'S LACKEYS" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13759" source="JENNIFER'S LACKEYS" target="HOWARD" weight="1" />
+      <edge id="13760" source="JENNIFER'S LACKEYS" target="DAVID" weight="1" />
+      <edge id="13761" source="JENNIFER'S LACKEYS" target="KIMMY" weight="1" />
+      <edge id="13762" source="JENNIFER'S LACKEYS" target="JENNIFER" weight="1" />
+      <edge id="13763" source="JENNIFER'S LACKEYS" target="CHRISTIN" weight="1" />
+      <edge id="13764" source="JENNIFER'S LACKEYS" target="MARK" weight="1" />
+      <edge id="13765" source="JENNIFER'S LACKEYS" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13766" source="JENNIFER'S LACKEYS" target="VARIOUS LACKEYS" weight="1" />
+      <edge id="13767" source="VARIOUS LACKEYS" target="HOWARD" weight="1" />
+      <edge id="13768" source="VARIOUS LACKEYS" target="DAVID" weight="1" />
+      <edge id="13769" source="VARIOUS LACKEYS" target="KIMMY" weight="1" />
+      <edge id="13770" source="VARIOUS LACKEYS" target="JENNIFER" weight="1" />
+      <edge id="13771" source="VARIOUS LACKEYS" target="CHRISTIN" weight="1" />
+      <edge id="13772" source="VARIOUS LACKEYS" target="MARK" weight="1" />
+      <edge id="13773" source="VARIOUS LACKEYS" target="MARK'S LACKEYS" weight="1" />
+      <edge id="13774" source="VARIOUS LACKEYS" target="JENNIFER'S LACKEYS" weight="1" />
+      <edge id="13775" source="TV REPAIRMAN" target="JENNIFER" weight="4" />
+      <edge id="13776" source="TV REPAIRMAN" target="DAVID" weight="7" />
+      <edge id="13777" source="TV REPAIRMAN" target="BUD" weight="1" />
+      <edge id="13778" source="TV REPAIRMAN" target="MARY SUE" weight="1" />
+      <edge id="13779" source="TV REPAIRMAN" target="GEORGE" weight="1" />
+      <edge id="13780" source="TV REPAIRMAN" target="VOICE" weight="1" />
+      <edge id="13781" source="TV REPAIRMAN" target="BETTY" weight="2" />
+      <edge id="13782" source="TV REPAIRMAN" target="MARK DAVIS" weight="1" />
+      <edge id="13783" source="TV REPAIRMAN" target="MAN'S VOICE" weight="1" />
+      <edge id="13784" source="VOICE" target="DAVID" weight="1" />
+      <edge id="13785" source="VOICE" target="JENNIFER" weight="1" />
+      <edge id="13786" source="VOICE" target="GEORGE" weight="1" />
+      <edge id="13787" source="VOICE" target="TV REPAIRMAN" weight="1" />
+      <edge id="13788" source="VOICE" target="BETTY" weight="1" />
+      <edge id="13789" source="VOICE" target="MARK DAVIS" weight="1" />
+      <edge id="13790" source="MARK DAVIS" target="DAVID" weight="1" />
+      <edge id="13791" source="MARK DAVIS" target="JENNIFER" weight="1" />
+      <edge id="13792" source="MARK DAVIS" target="GEORGE" weight="1" />
+      <edge id="13793" source="MARK DAVIS" target="VOICE" weight="1" />
+      <edge id="13794" source="MARK DAVIS" target="TV REPAIRMAN" weight="1" />
+      <edge id="13795" source="MARK DAVIS" target="BETTY" weight="1" />
+      <edge id="13796" source="PAT BOONE" target="GEORGE" weight="1" />
+      <edge id="13797" source="PAT BOONE" target="DAVID" weight="1" />
+      <edge id="13798" source="PAT BOONE" target="JENNIFER" weight="1" />
+      <edge id="13799" source="PAT BOONE" target="BETTY" weight="1" />
+      <edge id="13800" source="MR. SIMPSON" target="JENNIFER" weight="1" />
+      <edge id="13801" source="MR. SIMPSON" target="DAVID" weight="1" />
+      <edge id="13802" source="MR. SIMPSON" target="FIREMAN" weight="1" />
+      <edge id="13803" source="MR. SIMPSON" target="BOY'S VOICE" weight="1" />
+      <edge id="13804" source="MR. SIMPSON" target="SKIP" weight="1" />
+      <edge id="13805" source="FIREMAN" target="JENNIFER" weight="1" />
+      <edge id="13806" source="FIREMAN" target="DAVID" weight="2" />
+      <edge id="13807" source="FIREMAN" target="MR. SIMPSON" weight="1" />
+      <edge id="13808" source="FIREMAN" target="BOY'S VOICE" weight="1" />
+      <edge id="13809" source="FIREMAN" target="SKIP" weight="1" />
+      <edge id="13810" source="FIREMAN" target="BOB" weight="1" />
+      <edge id="13811" source="BOY'S VOICE" target="JENNIFER" weight="1" />
+      <edge id="13812" source="BOY'S VOICE" target="DAVID" weight="1" />
+      <edge id="13813" source="BOY'S VOICE" target="MR. SIMPSON" weight="1" />
+      <edge id="13814" source="BOY'S VOICE" target="FIREMAN" weight="1" />
+      <edge id="13815" source="BOY'S VOICE" target="SKIP" weight="1" />
+      <edge id="13816" source="SKIP" target="JENNIFER" weight="8" />
+      <edge id="13817" source="SKIP" target="DAVID" weight="5" />
+      <edge id="13818" source="SKIP" target="MR. SIMPSON" weight="1" />
+      <edge id="13819" source="SKIP" target="FIREMAN" weight="1" />
+      <edge id="13820" source="SKIP" target="BOY'S VOICE" weight="1" />
+      <edge id="13821" source="SKIP" target="COACH" weight="1" />
+      <edge id="13822" source="SKIP" target="PEGGY JANE" weight="1" />
+      <edge id="13823" source="SKIP" target="MR. JOHNSON" weight="1" />
+      <edge id="13824" source="SKIP" target="MARGARET" weight="1" />
+      <edge id="13825" source="MISS PETERS" target="TOMMY" weight="1" />
+      <edge id="13826" source="MISS PETERS" target="JENNIFER" weight="1" />
+      <edge id="13827" source="TOMMY" target="MISS PETERS" weight="1" />
+      <edge id="13828" source="TOMMY" target="JENNIFER" weight="3" />
+      <edge id="13829" source="TOMMY" target="DAVID" weight="2" />
+      <edge id="13830" source="TOMMY" target="PEGGY JANE" weight="2" />
+      <edge id="13831" source="TOMMY" target="JENNIFIER" weight="1" />
+      <edge id="13832" source="TOMMY" target="VARIOUS KIDS" weight="1" />
+      <edge id="13833" source="TOMMY" target="MARGARET" weight="1" />
+      <edge id="13834" source="TOMMY" target="WILL" weight="1" />
+      <edge id="13835" source="COACH" target="DAVID" weight="2" />
+      <edge id="13836" source="COACH" target="SKIP" weight="1" />
+      <edge id="13837" source="PEGGY JANE" target="JENNIFER" weight="5" />
+      <edge id="13838" source="PEGGY JANE" target="DAVID" weight="4" />
+      <edge id="13839" source="PEGGY JANE" target="LISA ANNE" weight="2" />
+      <edge id="13840" source="PEGGY JANE" target="BETTY JEAN" weight="2" />
+      <edge id="13841" source="PEGGY JANE" target="ALL THREE TOGETHER" weight="1" />
+      <edge id="13842" source="PEGGY JANE" target="MR. JOHNSON" weight="1" />
+      <edge id="13843" source="PEGGY JANE" target="SKIP" weight="1" />
+      <edge id="13844" source="PEGGY JANE" target="GIRL'S VOICES" weight="1" />
+      <edge id="13845" source="PEGGY JANE" target="TOMMY" weight="2" />
+      <edge id="13846" source="PEGGY JANE" target="JENNIFIER" weight="1" />
+      <edge id="13847" source="PEGGY JANE" target="VARIOUS KIDS" weight="1" />
+      <edge id="13848" source="PEGGY JANE" target="MARGARET" weight="1" />
+      <edge id="13849" source="PEGGY JANE" target="WILL" weight="1" />
+      <edge id="13850" source="LISA ANNE" target="JENNIFER" weight="2" />
+      <edge id="13851" source="LISA ANNE" target="DAVID" weight="2" />
+      <edge id="13852" source="LISA ANNE" target="PEGGY JANE" weight="2" />
+      <edge id="13853" source="LISA ANNE" target="BETTY JEAN" weight="2" />
+      <edge id="13854" source="LISA ANNE" target="ALL THREE TOGETHER" weight="1" />
+      <edge id="13855" source="LISA ANNE" target="GIRL'S VOICES" weight="1" />
+      <edge id="13856" source="LISA ANNE" target="VARIOUS KIDS" weight="1" />
+      <edge id="13857" source="LISA ANNE" target="WILL" weight="1" />
+      <edge id="13858" source="LISA ANNE" target="BUDDY HOLLY" weight="1" />
+      <edge id="13859" source="BETTY JEAN" target="JENNIFER" weight="2" />
+      <edge id="13860" source="BETTY JEAN" target="DAVID" weight="1" />
+      <edge id="13861" source="BETTY JEAN" target="PEGGY JANE" weight="2" />
+      <edge id="13862" source="BETTY JEAN" target="LISA ANNE" weight="2" />
+      <edge id="13863" source="BETTY JEAN" target="ALL THREE TOGETHER" weight="1" />
+      <edge id="13864" source="BETTY JEAN" target="GIRL'S VOICES" weight="1" />
+      <edge id="13865" source="ALL THREE TOGETHER" target="JENNIFER" weight="1" />
+      <edge id="13866" source="ALL THREE TOGETHER" target="DAVID" weight="1" />
+      <edge id="13867" source="ALL THREE TOGETHER" target="PEGGY JANE" weight="1" />
+      <edge id="13868" source="ALL THREE TOGETHER" target="LISA ANNE" weight="1" />
+      <edge id="13869" source="ALL THREE TOGETHER" target="BETTY JEAN" weight="1" />
+      <edge id="13870" source="MR. JOHNSON" target="DAVID" weight="9" />
+      <edge id="13871" source="MR. JOHNSON" target="PEGGY JANE" weight="1" />
+      <edge id="13872" source="MR. JOHNSON" target="SKIP" weight="1" />
+      <edge id="13873" source="MR. JOHNSON" target="JENNIFER" weight="3" />
+      <edge id="13874" source="MR. JOHNSON" target="BETTY" weight="3" />
+      <edge id="13875" source="MR. JOHNSON" target="BIG BOB" weight="1" />
+      <edge id="13876" source="MR. JOHNSON" target="BOB" weight="1" />
+      <edge id="13877" source="MR. JOHNSON" target="GEORGE" weight="2" />
+      <edge id="13878" source="GIRL'S VOICES" target="JENNIFER" weight="1" />
+      <edge id="13879" source="GIRL'S VOICES" target="LISA ANNE" weight="1" />
+      <edge id="13880" source="GIRL'S VOICES" target="PEGGY JANE" weight="1" />
+      <edge id="13881" source="GIRL'S VOICES" target="BETTY JEAN" weight="1" />
+      <edge id="13882" source="GUS" target="GEORGE" weight="2" />
+      <edge id="13883" source="GUS" target="RALPH" weight="1" />
+      <edge id="13884" source="GUS" target="BURT" weight="3" />
+      <edge id="13885" source="GUS" target="BOB" weight="3" />
+      <edge id="13886" source="GUS" target="MEN" weight="1" />
+      <edge id="13887" source="RALPH" target="GUS" weight="1" />
+      <edge id="13888" source="RALPH" target="GEORGE" weight="1" />
+      <edge id="13889" source="RALPH" target="BURT" weight="1" />
+      <edge id="13890" source="RALPH" target="BOB" weight="1" />
+      <edge id="13891" source="BURT" target="GUS" weight="3" />
+      <edge id="13892" source="BURT" target="GEORGE" weight="2" />
+      <edge id="13893" source="BURT" target="RALPH" weight="1" />
+      <edge id="13894" source="BURT" target="BOB" weight="4" />
+      <edge id="13895" source="BURT" target="MEN" weight="1" />
+      <edge id="13896" source="BURT" target="WOMAN" weight="1" />
+      <edge id="13897" source="BOB" target="GUS" weight="3" />
+      <edge id="13898" source="BOB" target="GEORGE" weight="4" />
+      <edge id="13899" source="BOB" target="RALPH" weight="1" />
+      <edge id="13900" source="BOB" target="BURT" weight="4" />
+      <edge id="13901" source="BOB" target="DAVID" weight="3" />
+      <edge id="13902" source="BOB" target="FIREMAN" weight="1" />
+      <edge id="13903" source="BOB" target="MEN" weight="1" />
+      <edge id="13904" source="BOB" target="WOMAN" weight="1" />
+      <edge id="13905" source="BOB" target="BIG BOB" weight="1" />
+      <edge id="13906" source="BOB" target="MR. JOHNSON" weight="1" />
+      <edge id="13907" source="MARGE" target="MARY" weight="1" />
+      <edge id="13908" source="MARY" target="MARGE" weight="1" />
+      <edge id="13909" source="GIRL'S VOICE" target="MARGARET" weight="1" />
+      <edge id="13910" source="GIRL'S VOICE" target="DAVID" weight="1" />
+      <edge id="13911" source="MARGARET" target="GIRL'S VOICE" weight="1" />
+      <edge id="13912" source="MARGARET" target="DAVID" weight="10" />
+      <edge id="13913" source="MARGARET" target="JENNIFER" weight="2" />
+      <edge id="13914" source="MARGARET" target="JENNIFIER" weight="1" />
+      <edge id="13915" source="MARGARET" target="VARIOUS KIDS" weight="1" />
+      <edge id="13916" source="MARGARET" target="TOMMY" weight="1" />
+      <edge id="13917" source="MARGARET" target="WILL" weight="1" />
+      <edge id="13918" source="MARGARET" target="PEGGY JANE" weight="1" />
+      <edge id="13919" source="MARGARET" target="WHITEY" weight="1" />
+      <edge id="13920" source="MARGARET" target="SKIP" weight="1" />
+      <edge id="13921" source="MARGARET" target="BETTY" weight="1" />
+      <edge id="13922" source="JENNIFIER" target="JENNIFER" weight="1" />
+      <edge id="13923" source="JENNIFIER" target="DAVID" weight="1" />
+      <edge id="13924" source="JENNIFIER" target="VARIOUS KIDS" weight="1" />
+      <edge id="13925" source="JENNIFIER" target="TOMMY" weight="1" />
+      <edge id="13926" source="JENNIFIER" target="MARGARET" weight="1" />
+      <edge id="13927" source="JENNIFIER" target="WILL" weight="1" />
+      <edge id="13928" source="JENNIFIER" target="PEGGY JANE" weight="1" />
+      <edge id="13929" source="VARIOUS KIDS" target="JENNIFER" weight="1" />
+      <edge id="13930" source="VARIOUS KIDS" target="DAVID" weight="2" />
+      <edge id="13931" source="VARIOUS KIDS" target="JENNIFIER" weight="1" />
+      <edge id="13932" source="VARIOUS KIDS" target="TOMMY" weight="1" />
+      <edge id="13933" source="VARIOUS KIDS" target="MARGARET" weight="1" />
+      <edge id="13934" source="VARIOUS KIDS" target="WILL" weight="2" />
+      <edge id="13935" source="VARIOUS KIDS" target="PEGGY JANE" weight="1" />
+      <edge id="13936" source="VARIOUS KIDS" target="LISA ANNE" weight="1" />
+      <edge id="13937" source="VARIOUS KIDS" target="BUDDY HOLLY" weight="1" />
+      <edge id="13938" source="WILL" target="JENNIFER" weight="1" />
+      <edge id="13939" source="WILL" target="DAVID" weight="2" />
+      <edge id="13940" source="WILL" target="JENNIFIER" weight="1" />
+      <edge id="13941" source="WILL" target="VARIOUS KIDS" weight="2" />
+      <edge id="13942" source="WILL" target="TOMMY" weight="1" />
+      <edge id="13943" source="WILL" target="MARGARET" weight="1" />
+      <edge id="13944" source="WILL" target="PEGGY JANE" weight="1" />
+      <edge id="13945" source="WILL" target="LISA ANNE" weight="1" />
+      <edge id="13946" source="WILL" target="BUDDY HOLLY" weight="1" />
+      <edge id="13947" source="SAM COOKE" target="DAVID" weight="1" />
+      <edge id="13948" source="MEN" target="BOB" weight="1" />
+      <edge id="13949" source="MEN" target="GEORGE" weight="1" />
+      <edge id="13950" source="MEN" target="GUS" weight="1" />
+      <edge id="13951" source="MEN" target="BURT" weight="1" />
+      <edge id="13952" source="WHITEY" target="MARGARET" weight="1" />
+      <edge id="13953" source="WHITEY" target="DAVID" weight="1" />
+      <edge id="13954" source="WOMAN" target="BURT" weight="1" />
+      <edge id="13955" source="WOMAN" target="BOB" weight="1" />
+      <edge id="13956" source="BUDDY HOLLY" target="LISA ANNE" weight="1" />
+      <edge id="13957" source="BUDDY HOLLY" target="DAVID" weight="1" />
+      <edge id="13958" source="BUDDY HOLLY" target="VARIOUS KIDS" weight="1" />
+      <edge id="13959" source="BUDDY HOLLY" target="WILL" weight="1" />
+      <edge id="13960" source="DAN" target="DAVID" weight="1" />
+      <edge id="13961" source="DAN" target="GEORGE" weight="1" />
+      <edge id="13962" source="BIG BOB" target="DAVID" weight="2" />
+      <edge id="13963" source="BIG BOB" target="BOB" weight="1" />
+      <edge id="13964" source="BIG BOB" target="MR. JOHNSON" weight="1" />
+      <edge id="13965" source="BIG BOB" target="GEORGE" weight="1" />
+      <edge id="13966" source="BIG BOB" target="BETTY" weight="1" />
+      <edge id="13967" source="TV ANNOUNCER" target="DAVID" weight="1" />
+      <edge id="13968" source="TV ANNOUNCER" target="DAVID'S MOM" weight="1" />
+    </edges>
+  </graph>
+</gexf>

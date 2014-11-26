@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="TRACY" label="TRACY" />
+      <node id="JIM" label="JIM" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="VOICE" label="VOICE" />
+      <node id="PAUL" label="PAUL" />
+      <node id="DEREK" label="DEREK" />
+      <node id="MICHELLE" label="MICHELLE" />
+      <node id="LARRY FOUCH" label="LARRY FOUCH" />
+      <node id="DAVE" label="DAVE" />
+      <node id="SHERRY" label="SHERRY" />
+      <node id="WALT" label="WALT" />
+      <node id="DOUG SCHENKEN" label="DOUG SCHENKEN" />
+      <node id="DIANE" label="DIANE" />
+      <node id="TRACY'S VOICE" label="TRACY'S VOICE" />
+      <node id="GUY" label="GUY" />
+      <node id="TAMMY" label="TAMMY" />
+      <node id="LISA" label="LISA" />
+      <node id="NOTE" label="NOTE" />
+      <node id="DIANE/SHERRY" label="DIANE/SHERRY" />
+      <node id="DIANE/TRACY" label="DIANE/TRACY" />
+      <node id="JERRY" label="JERRY" />
+      <node id="DOUG'S BUDDY" label="DOUG'S BUDDY" />
+      <node id="STUDENTS" label="STUDENTS" />
+      <node id="RON" label="RON" />
+      <node id="DUDE" label="DUDE" />
+      <node id="ERIC" label="ERIC" />
+      <node id="MR. BECKMAN" label="MR. BECKMAN" />
+      <node id="EMPLOYEE" label="EMPLOYEE" />
+      <node id="DICK METZIER" label="DICK METZIER" />
+      <node id="DICK" label="DICK" />
+      <node id="JO" label="JO" />
+      <node id="SHERRY AND DIANE" label="SHERRY AND DIANE" />
+      <node id="MRS. FLICK" label="MRS. FLICK" />
+      <node id="MISS BEEDER" label="MISS BEEDER" />
+      <node id="CLARK" label="CLARK" />
+      <node id="TONY" label="TONY" />
+      <node id="SHERRY'S VOICE" label="SHERRY'S VOICE" />
+      <node id="SALESLADY" label="SALESLADY" />
+      <node id="TEACHER" label="TEACHER" />
+      <node id="PHIL" label="PHIL" />
+      <node id="STUDENT" label="STUDENT" />
+      <node id="LARRY" label="LARRY" />
+      <node id="ANOTHER STUDENT" label="ANOTHER STUDENT" />
+      <node id="DALE" label="DALE" />
+      <node id="MR. FLAGG" label="MR. FLAGG" />
+      <node id="DICK METZLER" label="DICK METZLER" />
+      <node id="JO METZLER" label="JO METZLER" />
+      <node id="BARBARA" label="BARBARA" />
+      <node id="MS. HOY" label="MS. HOY" />
+      <node id="CLASS" label="CLASS" />
+      <node id="SALESMAN" label="SALESMAN" />
+    </nodes>
+    <edges>
+      <edge id="7191" source="TRACY" target="JIM" weight="19" />
+      <edge id="7192" source="TRACY" target="VOICE" weight="1" />
+      <edge id="7193" source="TRACY" target="PAUL" weight="7" />
+      <edge id="7194" source="TRACY" target="DEREK" weight="1" />
+      <edge id="7195" source="TRACY" target="MICHELLE" weight="1" />
+      <edge id="7196" source="TRACY" target="LARRY FOUCH" weight="1" />
+      <edge id="7197" source="TRACY" target="DAVE" weight="3" />
+      <edge id="7198" source="TRACY" target="DOUG SCHENKEN" weight="2" />
+      <edge id="7199" source="TRACY" target="TRACY'S VOICE" weight="1" />
+      <edge id="7200" source="TRACY" target="GUY" weight="1" />
+      <edge id="7201" source="TRACY" target="DIANE" weight="1" />
+      <edge id="7202" source="TRACY" target="DIANE/SHERRY" weight="1" />
+      <edge id="7203" source="TRACY" target="DIANE/TRACY" weight="1" />
+      <edge id="7204" source="TRACY" target="LISA" weight="1" />
+      <edge id="7205" source="TRACY" target="JERRY" weight="1" />
+      <edge id="7206" source="TRACY" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7207" source="TRACY" target="WALT" weight="1" />
+      <edge id="7208" source="TRACY" target="TAMMY" weight="3" />
+      <edge id="7209" source="TRACY" target="STUDENTS" weight="1" />
+      <edge id="7210" source="TRACY" target="ERIC" weight="1" />
+      <edge id="7211" source="TRACY" target="MRS. FLICK" weight="1" />
+      <edge id="7212" source="TRACY" target="TEACHER" weight="1" />
+      <edge id="7213" source="TRACY" target="PHIL" weight="1" />
+      <edge id="7214" source="TRACY" target="STUDENT" weight="1" />
+      <edge id="7215" source="TRACY" target="BARBARA" weight="1" />
+      <edge id="7216" source="JIM" target="TRACY" weight="19" />
+      <edge id="7217" source="JIM" target="MOTHER" weight="1" />
+      <edge id="7218" source="JIM" target="VOICE" weight="2" />
+      <edge id="7219" source="JIM" target="PAUL" weight="9" />
+      <edge id="7220" source="JIM" target="DEREK" weight="1" />
+      <edge id="7221" source="JIM" target="MICHELLE" weight="1" />
+      <edge id="7222" source="JIM" target="DAVE" weight="4" />
+      <edge id="7223" source="JIM" target="SHERRY" weight="10" />
+      <edge id="7224" source="JIM" target="DIANE" weight="5" />
+      <edge id="7225" source="JIM" target="DIANE/SHERRY" weight="1" />
+      <edge id="7226" source="JIM" target="DIANE/TRACY" weight="1" />
+      <edge id="7227" source="JIM" target="LISA" weight="2" />
+      <edge id="7228" source="JIM" target="JERRY" weight="1" />
+      <edge id="7229" source="JIM" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7230" source="JIM" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7231" source="JIM" target="WALT" weight="6" />
+      <edge id="7232" source="JIM" target="TAMMY" weight="4" />
+      <edge id="7233" source="JIM" target="STUDENTS" weight="1" />
+      <edge id="7234" source="JIM" target="RON" weight="1" />
+      <edge id="7235" source="JIM" target="EMPLOYEE" weight="1" />
+      <edge id="7236" source="JIM" target="SHERRY AND DIANE" weight="1" />
+      <edge id="7237" source="JIM" target="MR. BECKMAN" weight="1" />
+      <edge id="7238" source="JIM" target="SHERRY'S VOICE" weight="2" />
+      <edge id="7239" source="JIM" target="LARRY" weight="5" />
+      <edge id="7240" source="JIM" target="ANOTHER STUDENT" weight="1" />
+      <edge id="7241" source="JIM" target="DICK METZLER" weight="1" />
+      <edge id="7242" source="JIM" target="JO METZLER" weight="1" />
+      <edge id="7243" source="JIM" target="DICK" weight="1" />
+      <edge id="7244" source="JIM" target="JO" weight="1" />
+      <edge id="7245" source="JIM" target="MISS BEEDER" weight="2" />
+      <edge id="7246" source="JIM" target="BARBARA" weight="1" />
+      <edge id="7247" source="JIM" target="SALESMAN" weight="1" />
+      <edge id="7248" source="MOTHER" target="JIM" weight="1" />
+      <edge id="7249" source="VOICE" target="TRACY" weight="1" />
+      <edge id="7250" source="VOICE" target="JIM" weight="2" />
+      <edge id="7251" source="VOICE" target="PAUL" weight="1" />
+      <edge id="7252" source="PAUL" target="TRACY" weight="7" />
+      <edge id="7253" source="PAUL" target="JIM" weight="9" />
+      <edge id="7254" source="PAUL" target="VOICE" weight="1" />
+      <edge id="7255" source="PAUL" target="GUY" weight="1" />
+      <edge id="7256" source="PAUL" target="TAMMY" weight="4" />
+      <edge id="7257" source="PAUL" target="LISA" weight="4" />
+      <edge id="7258" source="PAUL" target="JERRY" weight="1" />
+      <edge id="7259" source="PAUL" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7260" source="PAUL" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7261" source="PAUL" target="WALT" weight="3" />
+      <edge id="7262" source="PAUL" target="STUDENTS" weight="1" />
+      <edge id="7263" source="PAUL" target="TEACHER" weight="1" />
+      <edge id="7264" source="PAUL" target="PHIL" weight="1" />
+      <edge id="7265" source="PAUL" target="STUDENT" weight="1" />
+      <edge id="7266" source="PAUL" target="DICK METZLER" weight="1" />
+      <edge id="7267" source="PAUL" target="JO METZLER" weight="1" />
+      <edge id="7268" source="PAUL" target="DICK" weight="1" />
+      <edge id="7269" source="PAUL" target="JO" weight="1" />
+      <edge id="7270" source="PAUL" target="MS. HOY" weight="1" />
+      <edge id="7271" source="PAUL" target="CLASS" weight="1" />
+      <edge id="7272" source="PAUL" target="MISS BEEDER" weight="1" />
+      <edge id="7273" source="DEREK" target="JIM" weight="1" />
+      <edge id="7274" source="DEREK" target="MICHELLE" weight="1" />
+      <edge id="7275" source="DEREK" target="TRACY" weight="1" />
+      <edge id="7276" source="MICHELLE" target="JIM" weight="1" />
+      <edge id="7277" source="MICHELLE" target="DEREK" weight="1" />
+      <edge id="7278" source="MICHELLE" target="TRACY" weight="1" />
+      <edge id="7279" source="LARRY FOUCH" target="TRACY" weight="1" />
+      <edge id="7280" source="DAVE" target="JIM" weight="4" />
+      <edge id="7281" source="DAVE" target="TRACY" weight="3" />
+      <edge id="7282" source="DAVE" target="SHERRY" weight="2" />
+      <edge id="7283" source="DAVE" target="WALT" weight="1" />
+      <edge id="7284" source="SHERRY" target="JIM" weight="10" />
+      <edge id="7285" source="SHERRY" target="DAVE" weight="2" />
+      <edge id="7286" source="SHERRY" target="DIANE" weight="1" />
+      <edge id="7287" source="SHERRY" target="SHERRY'S VOICE" weight="1" />
+      <edge id="7288" source="WALT" target="DAVE" weight="1" />
+      <edge id="7289" source="WALT" target="JERRY" weight="1" />
+      <edge id="7290" source="WALT" target="JIM" weight="6" />
+      <edge id="7291" source="WALT" target="TRACY" weight="1" />
+      <edge id="7292" source="WALT" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7293" source="WALT" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7294" source="WALT" target="PAUL" weight="3" />
+      <edge id="7295" source="WALT" target="TAMMY" weight="1" />
+      <edge id="7296" source="WALT" target="STUDENTS" weight="1" />
+      <edge id="7297" source="WALT" target="RON" weight="1" />
+      <edge id="7298" source="WALT" target="LISA" weight="1" />
+      <edge id="7299" source="WALT" target="MISS BEEDER" weight="2" />
+      <edge id="7300" source="WALT" target="LARRY" weight="2" />
+      <edge id="7301" source="WALT" target="BARBARA" weight="1" />
+      <edge id="7302" source="DOUG SCHENKEN" target="TRACY" weight="2" />
+      <edge id="7303" source="DOUG SCHENKEN" target="JERRY" weight="1" />
+      <edge id="7304" source="DOUG SCHENKEN" target="JIM" weight="1" />
+      <edge id="7305" source="DOUG SCHENKEN" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7306" source="DOUG SCHENKEN" target="WALT" weight="1" />
+      <edge id="7307" source="DOUG SCHENKEN" target="PAUL" weight="1" />
+      <edge id="7308" source="DOUG SCHENKEN" target="TAMMY" weight="1" />
+      <edge id="7309" source="DOUG SCHENKEN" target="STUDENTS" weight="1" />
+      <edge id="7310" source="DIANE" target="JIM" weight="5" />
+      <edge id="7311" source="DIANE" target="SHERRY" weight="1" />
+      <edge id="7312" source="DIANE" target="DIANE/SHERRY" weight="1" />
+      <edge id="7313" source="DIANE" target="DIANE/TRACY" weight="1" />
+      <edge id="7314" source="DIANE" target="TRACY" weight="1" />
+      <edge id="7315" source="TRACY'S VOICE" target="TRACY" weight="1" />
+      <edge id="7316" source="GUY" target="PAUL" weight="1" />
+      <edge id="7317" source="GUY" target="TRACY" weight="1" />
+      <edge id="7318" source="TAMMY" target="LISA" weight="5" />
+      <edge id="7319" source="TAMMY" target="PAUL" weight="4" />
+      <edge id="7320" source="TAMMY" target="NOTE" weight="1" />
+      <edge id="7321" source="TAMMY" target="JERRY" weight="1" />
+      <edge id="7322" source="TAMMY" target="JIM" weight="4" />
+      <edge id="7323" source="TAMMY" target="TRACY" weight="3" />
+      <edge id="7324" source="TAMMY" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7325" source="TAMMY" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7326" source="TAMMY" target="WALT" weight="1" />
+      <edge id="7327" source="TAMMY" target="STUDENTS" weight="1" />
+      <edge id="7328" source="TAMMY" target="DUDE" weight="1" />
+      <edge id="7329" source="TAMMY" target="DICK METZIER" weight="1" />
+      <edge id="7330" source="TAMMY" target="DICK" weight="1" />
+      <edge id="7331" source="TAMMY" target="JO" weight="2" />
+      <edge id="7332" source="TAMMY" target="SALESLADY" weight="1" />
+      <edge id="7333" source="LISA" target="TAMMY" weight="5" />
+      <edge id="7334" source="LISA" target="PAUL" weight="4" />
+      <edge id="7335" source="LISA" target="TRACY" weight="1" />
+      <edge id="7336" source="LISA" target="JIM" weight="2" />
+      <edge id="7337" source="LISA" target="WALT" weight="1" />
+      <edge id="7338" source="NOTE" target="TAMMY" weight="1" />
+      <edge id="7339" source="DIANE/SHERRY" target="DIANE" weight="1" />
+      <edge id="7340" source="DIANE/SHERRY" target="DIANE/TRACY" weight="1" />
+      <edge id="7341" source="DIANE/SHERRY" target="TRACY" weight="1" />
+      <edge id="7342" source="DIANE/SHERRY" target="JIM" weight="1" />
+      <edge id="7343" source="DIANE/TRACY" target="DIANE" weight="1" />
+      <edge id="7344" source="DIANE/TRACY" target="DIANE/SHERRY" weight="1" />
+      <edge id="7345" source="DIANE/TRACY" target="TRACY" weight="1" />
+      <edge id="7346" source="DIANE/TRACY" target="JIM" weight="1" />
+      <edge id="7347" source="JERRY" target="JIM" weight="1" />
+      <edge id="7348" source="JERRY" target="TRACY" weight="1" />
+      <edge id="7349" source="JERRY" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7350" source="JERRY" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7351" source="JERRY" target="WALT" weight="1" />
+      <edge id="7352" source="JERRY" target="PAUL" weight="1" />
+      <edge id="7353" source="JERRY" target="TAMMY" weight="1" />
+      <edge id="7354" source="JERRY" target="STUDENTS" weight="1" />
+      <edge id="7355" source="DOUG'S BUDDY" target="JERRY" weight="1" />
+      <edge id="7356" source="DOUG'S BUDDY" target="JIM" weight="1" />
+      <edge id="7357" source="DOUG'S BUDDY" target="TRACY" weight="1" />
+      <edge id="7358" source="DOUG'S BUDDY" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7359" source="DOUG'S BUDDY" target="WALT" weight="1" />
+      <edge id="7360" source="DOUG'S BUDDY" target="PAUL" weight="1" />
+      <edge id="7361" source="DOUG'S BUDDY" target="TAMMY" weight="1" />
+      <edge id="7362" source="DOUG'S BUDDY" target="STUDENTS" weight="1" />
+      <edge id="7363" source="STUDENTS" target="JERRY" weight="1" />
+      <edge id="7364" source="STUDENTS" target="JIM" weight="1" />
+      <edge id="7365" source="STUDENTS" target="TRACY" weight="1" />
+      <edge id="7366" source="STUDENTS" target="DOUG SCHENKEN" weight="1" />
+      <edge id="7367" source="STUDENTS" target="DOUG'S BUDDY" weight="1" />
+      <edge id="7368" source="STUDENTS" target="WALT" weight="1" />
+      <edge id="7369" source="STUDENTS" target="PAUL" weight="1" />
+      <edge id="7370" source="STUDENTS" target="TAMMY" weight="1" />
+      <edge id="7371" source="RON" target="WALT" weight="1" />
+      <edge id="7372" source="RON" target="JIM" weight="1" />
+      <edge id="7373" source="DUDE" target="TAMMY" weight="1" />
+      <edge id="7374" source="ERIC" target="TRACY" weight="1" />
+      <edge id="7375" source="MR. BECKMAN" target="JIM" weight="1" />
+      <edge id="7376" source="EMPLOYEE" target="JIM" weight="1" />
+      <edge id="7377" source="DICK METZIER" target="TAMMY" weight="1" />
+      <edge id="7378" source="DICK METZIER" target="DICK" weight="1" />
+      <edge id="7379" source="DICK METZIER" target="JO" weight="1" />
+      <edge id="7380" source="DICK" target="DICK METZIER" weight="1" />
+      <edge id="7381" source="DICK" target="TAMMY" weight="1" />
+      <edge id="7382" source="DICK" target="JO" weight="2" />
+      <edge id="7383" source="DICK" target="JIM" weight="1" />
+      <edge id="7384" source="DICK" target="PAUL" weight="1" />
+      <edge id="7385" source="DICK" target="DICK METZLER" weight="1" />
+      <edge id="7386" source="DICK" target="JO METZLER" weight="1" />
+      <edge id="7387" source="JO" target="DICK METZIER" weight="1" />
+      <edge id="7388" source="JO" target="TAMMY" weight="2" />
+      <edge id="7389" source="JO" target="DICK" weight="2" />
+      <edge id="7390" source="JO" target="SALESLADY" weight="1" />
+      <edge id="7391" source="JO" target="JIM" weight="1" />
+      <edge id="7392" source="JO" target="PAUL" weight="1" />
+      <edge id="7393" source="JO" target="DICK METZLER" weight="1" />
+      <edge id="7394" source="JO" target="JO METZLER" weight="1" />
+      <edge id="7395" source="SHERRY AND DIANE" target="JIM" weight="1" />
+      <edge id="7396" source="MRS. FLICK" target="TRACY" weight="1" />
+      <edge id="7397" source="MISS BEEDER" target="WALT" weight="2" />
+      <edge id="7398" source="MISS BEEDER" target="JIM" weight="2" />
+      <edge id="7399" source="MISS BEEDER" target="PAUL" weight="1" />
+      <edge id="7400" source="CLARK" target="TONY" weight="1" />
+      <edge id="7401" source="TONY" target="CLARK" weight="1" />
+      <edge id="7402" source="SHERRY'S VOICE" target="JIM" weight="2" />
+      <edge id="7403" source="SHERRY'S VOICE" target="SHERRY" weight="1" />
+      <edge id="7404" source="SALESLADY" target="JO" weight="1" />
+      <edge id="7405" source="SALESLADY" target="TAMMY" weight="1" />
+      <edge id="7406" source="TEACHER" target="TRACY" weight="1" />
+      <edge id="7407" source="TEACHER" target="PHIL" weight="1" />
+      <edge id="7408" source="TEACHER" target="STUDENT" weight="1" />
+      <edge id="7409" source="TEACHER" target="PAUL" weight="1" />
+      <edge id="7410" source="PHIL" target="TRACY" weight="1" />
+      <edge id="7411" source="PHIL" target="TEACHER" weight="1" />
+      <edge id="7412" source="PHIL" target="STUDENT" weight="1" />
+      <edge id="7413" source="PHIL" target="PAUL" weight="1" />
+      <edge id="7414" source="STUDENT" target="TRACY" weight="1" />
+      <edge id="7415" source="STUDENT" target="TEACHER" weight="1" />
+      <edge id="7416" source="STUDENT" target="PHIL" weight="1" />
+      <edge id="7417" source="STUDENT" target="PAUL" weight="1" />
+      <edge id="7418" source="LARRY" target="JIM" weight="5" />
+      <edge id="7419" source="LARRY" target="ANOTHER STUDENT" weight="1" />
+      <edge id="7420" source="LARRY" target="WALT" weight="2" />
+      <edge id="7421" source="LARRY" target="BARBARA" weight="1" />
+      <edge id="7422" source="ANOTHER STUDENT" target="LARRY" weight="1" />
+      <edge id="7423" source="ANOTHER STUDENT" target="JIM" weight="1" />
+      <edge id="7424" source="DALE" target="MR. FLAGG" weight="1" />
+      <edge id="7425" source="MR. FLAGG" target="DALE" weight="1" />
+      <edge id="7426" source="DICK METZLER" target="JIM" weight="1" />
+      <edge id="7427" source="DICK METZLER" target="PAUL" weight="1" />
+      <edge id="7428" source="DICK METZLER" target="JO METZLER" weight="1" />
+      <edge id="7429" source="DICK METZLER" target="DICK" weight="1" />
+      <edge id="7430" source="DICK METZLER" target="JO" weight="1" />
+      <edge id="7431" source="JO METZLER" target="JIM" weight="1" />
+      <edge id="7432" source="JO METZLER" target="PAUL" weight="1" />
+      <edge id="7433" source="JO METZLER" target="DICK METZLER" weight="1" />
+      <edge id="7434" source="JO METZLER" target="DICK" weight="1" />
+      <edge id="7435" source="JO METZLER" target="JO" weight="1" />
+      <edge id="7436" source="BARBARA" target="TRACY" weight="1" />
+      <edge id="7437" source="BARBARA" target="JIM" weight="1" />
+      <edge id="7438" source="BARBARA" target="WALT" weight="1" />
+      <edge id="7439" source="BARBARA" target="LARRY" weight="1" />
+      <edge id="7440" source="MS. HOY" target="CLASS" weight="1" />
+      <edge id="7441" source="MS. HOY" target="PAUL" weight="1" />
+      <edge id="7442" source="CLASS" target="MS. HOY" weight="1" />
+      <edge id="7443" source="CLASS" target="PAUL" weight="1" />
+      <edge id="7444" source="SALESMAN" target="JIM" weight="1" />
+    </edges>
+  </graph>
+</gexf>

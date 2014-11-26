@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="ABBY" label="ABBY" />
+      <node id="SECURITY GUARD" label="SECURITY GUARD" />
+      <node id="JOY" label="JOY" />
+      <node id="LATINO MEN" label="LATINO MEN" />
+      <node id="LARRY" label="LARRY" />
+      <node id="DORI" label="DORI" />
+      <node id="JOSH" label="JOSH" />
+      <node id="GEORGIA" label="GEORGIA" />
+      <node id="GUEST CHEF" label="GUEST CHEF" />
+      <node id="JAVIER" label="JAVIER" />
+      <node id="CLIFF" label="CLIFF" />
+      <node id="STUART" label="STUART" />
+      <node id="JIM" label="JIM" />
+      <node id="HOSTESS" label="HOSTESS" />
+      <node id="WAITER" label="WAITER" />
+      <node id="MIKE" label="MIKE" />
+      <node id="MOTLEY GROUP" label="MOTLEY GROUP" />
+      <node id="FEMALE CALLER" label="FEMALE CALLER" />
+      <node id="ABBY'S VOICE" label="ABBY'S VOICE" />
+      <node id="GIRL'S VOICE" label="GIRL'S VOICE" />
+      <node id="2ND GIRL'S VOICE" label="2ND GIRL'S VOICE" />
+      <node id="3RD GIRL'S VOICE" label="3RD GIRL'S VOICE" />
+      <node id="JONAH" label="JONAH" />
+      <node id="ELIZABETH" label="ELIZABETH" />
+      <node id="KEN" label="KEN" />
+      <node id="BRIAN WILLIAMS" label="BRIAN WILLIAMS" />
+      <node id="COLIN" label="COLIN" />
+      <node id="DWAYNE" label="DWAYNE" />
+      <node id="STEVE" label="STEVE" />
+      <node id="GARY" label="GARY" />
+      <node id="P.A." label="P.A." />
+      <node id="SALESWOMAN" label="SALESWOMAN" />
+      <node id="FAN" label="FAN" />
+      <node id="POLICE OFFICER" label="POLICE OFFICER" />
+      <node id="DR. LESTER" label="DR. LESTER" />
+      <node id="CAMERA GUY" label="CAMERA GUY" />
+      <node id="BAMBI" label="BAMBI" />
+      <node id="CANDI" label="CANDI" />
+      <node id="BOB" label="BOB" />
+      <node id="HAROLD" label="HAROLD" />
+      <node id="DRUNK GUY" label="DRUNK GUY" />
+      <node id="CUTE BRUNETTE" label="CUTE BRUNETTE" />
+      <node id="AGENT" label="AGENT" />
+      <node id="CAB DRIVER" label="CAB DRIVER" />
+      <node id="JAY LENO" label="JAY LENO" />
+      <node id="JAY" label="JAY" />
+      <node id="WAITRESS" label="WAITRESS" />
+      <node id="FLIGHT ATTENDANT" label="FLIGHT ATTENDANT" />
+      <node id="BIG WIG" label="BIG WIG" />
+      <node id="BIG WIG #2" label="BIG WIG #2" />
+      <node id="JOE" label="JOE" />
+      <node id="JACK MAGNUM" label="JACK MAGNUM" />
+      <node id="PILOT" label="PILOT" />
+      <node id="GEORGIA/LARRY" label="GEORGIA/LARRY" />
+    </nodes>
+    <edges>
+      <edge id="24581" source="ABBY" target="SECURITY GUARD" weight="1" />
+      <edge id="24582" source="ABBY" target="JOY" weight="15" />
+      <edge id="24583" source="ABBY" target="LATINO MEN" weight="1" />
+      <edge id="24584" source="ABBY" target="LARRY" weight="4" />
+      <edge id="24585" source="ABBY" target="CLIFF" weight="4" />
+      <edge id="24586" source="ABBY" target="STUART" weight="9" />
+      <edge id="24587" source="ABBY" target="JIM" weight="4" />
+      <edge id="24588" source="ABBY" target="HOSTESS" weight="1" />
+      <edge id="24589" source="ABBY" target="WAITER" weight="2" />
+      <edge id="24590" source="ABBY" target="MIKE" weight="50" />
+      <edge id="24591" source="ABBY" target="ABBY'S VOICE" weight="1" />
+      <edge id="24592" source="ABBY" target="JOSH" weight="2" />
+      <edge id="24593" source="ABBY" target="DORI" weight="2" />
+      <edge id="24594" source="ABBY" target="GEORGIA" weight="3" />
+      <edge id="24595" source="ABBY" target="KEN" weight="1" />
+      <edge id="24596" source="ABBY" target="BRIAN WILLIAMS" weight="1" />
+      <edge id="24597" source="ABBY" target="COLIN" weight="16" />
+      <edge id="24598" source="ABBY" target="P.A." weight="1" />
+      <edge id="24599" source="ABBY" target="SALESWOMAN" weight="1" />
+      <edge id="24600" source="ABBY" target="FAN" weight="1" />
+      <edge id="24601" source="ABBY" target="POLICE OFFICER" weight="1" />
+      <edge id="24602" source="ABBY" target="DR. LESTER" weight="1" />
+      <edge id="24603" source="ABBY" target="CAMERA GUY" weight="1" />
+      <edge id="24604" source="ABBY" target="BAMBI" weight="1" />
+      <edge id="24605" source="ABBY" target="CANDI" weight="2" />
+      <edge id="24606" source="ABBY" target="BOB" weight="2" />
+      <edge id="24607" source="ABBY" target="HAROLD" weight="2" />
+      <edge id="24608" source="ABBY" target="AGENT" weight="3" />
+      <edge id="24609" source="ABBY" target="CAB DRIVER" weight="1" />
+      <edge id="24610" source="ABBY" target="JAY LENO" weight="1" />
+      <edge id="24611" source="ABBY" target="WAITRESS" weight="1" />
+      <edge id="24612" source="ABBY" target="FLIGHT ATTENDANT" weight="1" />
+      <edge id="24613" source="ABBY" target="JACK MAGNUM" weight="2" />
+      <edge id="24614" source="ABBY" target="PILOT" weight="5" />
+      <edge id="24615" source="ABBY" target="JONAH" weight="1" />
+      <edge id="24616" source="ABBY" target="ELIZABETH" weight="1" />
+      <edge id="24617" source="SECURITY GUARD" target="ABBY" weight="1" />
+      <edge id="24618" source="JOY" target="ABBY" weight="15" />
+      <edge id="24619" source="JOY" target="LATINO MEN" weight="1" />
+      <edge id="24620" source="JOY" target="LARRY" weight="2" />
+      <edge id="24621" source="JOY" target="CLIFF" weight="1" />
+      <edge id="24622" source="JOY" target="STUART" weight="2" />
+      <edge id="24623" source="JOY" target="MIKE" weight="6" />
+      <edge id="24624" source="JOY" target="ABBY'S VOICE" weight="1" />
+      <edge id="24625" source="JOY" target="JOSH" weight="1" />
+      <edge id="24626" source="JOY" target="DORI" weight="1" />
+      <edge id="24627" source="JOY" target="KEN" weight="1" />
+      <edge id="24628" source="JOY" target="P.A." weight="1" />
+      <edge id="24629" source="JOY" target="GEORGIA" weight="1" />
+      <edge id="24630" source="JOY" target="AGENT" weight="1" />
+      <edge id="24631" source="JOY" target="JACK MAGNUM" weight="1" />
+      <edge id="24632" source="JOY" target="PILOT" weight="1" />
+      <edge id="24633" source="JOY" target="JONAH" weight="1" />
+      <edge id="24634" source="JOY" target="ELIZABETH" weight="1" />
+      <edge id="24635" source="LATINO MEN" target="ABBY" weight="1" />
+      <edge id="24636" source="LATINO MEN" target="JOY" weight="1" />
+      <edge id="24637" source="LATINO MEN" target="LARRY" weight="1" />
+      <edge id="24638" source="LARRY" target="LATINO MEN" weight="1" />
+      <edge id="24639" source="LARRY" target="ABBY" weight="4" />
+      <edge id="24640" source="LARRY" target="JOY" weight="2" />
+      <edge id="24641" source="LARRY" target="GEORGIA" weight="6" />
+      <edge id="24642" source="LARRY" target="GUEST CHEF" weight="1" />
+      <edge id="24643" source="LARRY" target="JAVIER" weight="1" />
+      <edge id="24644" source="LARRY" target="MIKE" weight="3" />
+      <edge id="24645" source="LARRY" target="CLIFF" weight="1" />
+      <edge id="24646" source="LARRY" target="AGENT" weight="1" />
+      <edge id="24647" source="DORI" target="JOSH" weight="3" />
+      <edge id="24648" source="DORI" target="GEORGIA" weight="1" />
+      <edge id="24649" source="DORI" target="GUEST CHEF" weight="1" />
+      <edge id="24650" source="DORI" target="JOY" weight="1" />
+      <edge id="24651" source="DORI" target="ABBY" weight="2" />
+      <edge id="24652" source="DORI" target="STUART" weight="2" />
+      <edge id="24653" source="DORI" target="MIKE" weight="1" />
+      <edge id="24654" source="DORI" target="ABBY'S VOICE" weight="1" />
+      <edge id="24655" source="JOSH" target="DORI" weight="3" />
+      <edge id="24656" source="JOSH" target="GEORGIA" weight="1" />
+      <edge id="24657" source="JOSH" target="GUEST CHEF" weight="1" />
+      <edge id="24658" source="JOSH" target="JOY" weight="1" />
+      <edge id="24659" source="JOSH" target="ABBY" weight="2" />
+      <edge id="24660" source="JOSH" target="STUART" weight="2" />
+      <edge id="24661" source="JOSH" target="MIKE" weight="1" />
+      <edge id="24662" source="JOSH" target="ABBY'S VOICE" weight="1" />
+      <edge id="24663" source="GEORGIA" target="DORI" weight="1" />
+      <edge id="24664" source="GEORGIA" target="JOSH" weight="1" />
+      <edge id="24665" source="GEORGIA" target="GUEST CHEF" weight="2" />
+      <edge id="24666" source="GEORGIA" target="JAVIER" weight="1" />
+      <edge id="24667" source="GEORGIA" target="LARRY" weight="6" />
+      <edge id="24668" source="GEORGIA" target="ABBY" weight="3" />
+      <edge id="24669" source="GEORGIA" target="MIKE" weight="3" />
+      <edge id="24670" source="GEORGIA" target="CLIFF" weight="1" />
+      <edge id="24671" source="GEORGIA" target="JOY" weight="1" />
+      <edge id="24672" source="GEORGIA" target="AGENT" weight="1" />
+      <edge id="24673" source="GUEST CHEF" target="DORI" weight="1" />
+      <edge id="24674" source="GUEST CHEF" target="JOSH" weight="1" />
+      <edge id="24675" source="GUEST CHEF" target="GEORGIA" weight="2" />
+      <edge id="24676" source="GUEST CHEF" target="JAVIER" weight="1" />
+      <edge id="24677" source="GUEST CHEF" target="LARRY" weight="1" />
+      <edge id="24678" source="JAVIER" target="GEORGIA" weight="1" />
+      <edge id="24679" source="JAVIER" target="GUEST CHEF" weight="1" />
+      <edge id="24680" source="JAVIER" target="LARRY" weight="1" />
+      <edge id="24681" source="CLIFF" target="ABBY" weight="4" />
+      <edge id="24682" source="CLIFF" target="JOY" weight="1" />
+      <edge id="24683" source="CLIFF" target="MIKE" weight="2" />
+      <edge id="24684" source="CLIFF" target="GEORGIA" weight="1" />
+      <edge id="24685" source="CLIFF" target="LARRY" weight="1" />
+      <edge id="24686" source="CLIFF" target="STUART" weight="4" />
+      <edge id="24687" source="CLIFF" target="JACK MAGNUM" weight="1" />
+      <edge id="24688" source="STUART" target="ABBY" weight="9" />
+      <edge id="24689" source="STUART" target="JOY" weight="2" />
+      <edge id="24690" source="STUART" target="MIKE" weight="3" />
+      <edge id="24691" source="STUART" target="ABBY'S VOICE" weight="1" />
+      <edge id="24692" source="STUART" target="JOSH" weight="2" />
+      <edge id="24693" source="STUART" target="DORI" weight="2" />
+      <edge id="24694" source="STUART" target="BRIAN WILLIAMS" weight="1" />
+      <edge id="24695" source="STUART" target="BAMBI" weight="1" />
+      <edge id="24696" source="STUART" target="CANDI" weight="2" />
+      <edge id="24697" source="STUART" target="BOB" weight="1" />
+      <edge id="24698" source="STUART" target="HAROLD" weight="1" />
+      <edge id="24699" source="STUART" target="COLIN" weight="1" />
+      <edge id="24700" source="STUART" target="CLIFF" weight="4" />
+      <edge id="24701" source="STUART" target="JACK MAGNUM" weight="1" />
+      <edge id="24702" source="JIM" target="ABBY" weight="4" />
+      <edge id="24703" source="JIM" target="HOSTESS" weight="1" />
+      <edge id="24704" source="JIM" target="WAITER" weight="1" />
+      <edge id="24705" source="HOSTESS" target="ABBY" weight="1" />
+      <edge id="24706" source="HOSTESS" target="JIM" weight="1" />
+      <edge id="24707" source="WAITER" target="JIM" weight="1" />
+      <edge id="24708" source="WAITER" target="ABBY" weight="2" />
+      <edge id="24709" source="WAITER" target="COLIN" weight="1" />
+      <edge id="24710" source="MIKE" target="MOTLEY GROUP" weight="1" />
+      <edge id="24711" source="MIKE" target="FEMALE CALLER" weight="1" />
+      <edge id="24712" source="MIKE" target="ABBY" weight="50" />
+      <edge id="24713" source="MIKE" target="JOY" weight="6" />
+      <edge id="24714" source="MIKE" target="STUART" weight="3" />
+      <edge id="24715" source="MIKE" target="ABBY'S VOICE" weight="1" />
+      <edge id="24716" source="MIKE" target="JOSH" weight="1" />
+      <edge id="24717" source="MIKE" target="DORI" weight="1" />
+      <edge id="24718" source="MIKE" target="GEORGIA" weight="3" />
+      <edge id="24719" source="MIKE" target="LARRY" weight="3" />
+      <edge id="24720" source="MIKE" target="CLIFF" weight="2" />
+      <edge id="24721" source="MIKE" target="GIRL'S VOICE" weight="1" />
+      <edge id="24722" source="MIKE" target="2ND GIRL'S VOICE" weight="1" />
+      <edge id="24723" source="MIKE" target="3RD GIRL'S VOICE" weight="1" />
+      <edge id="24724" source="MIKE" target="JONAH" weight="6" />
+      <edge id="24725" source="MIKE" target="ELIZABETH" weight="3" />
+      <edge id="24726" source="MIKE" target="DWAYNE" weight="2" />
+      <edge id="24727" source="MIKE" target="STEVE" weight="2" />
+      <edge id="24728" source="MIKE" target="GARY" weight="1" />
+      <edge id="24729" source="MIKE" target="P.A." weight="1" />
+      <edge id="24730" source="MIKE" target="COLIN" weight="10" />
+      <edge id="24731" source="MIKE" target="SALESWOMAN" weight="1" />
+      <edge id="24732" source="MIKE" target="FAN" weight="1" />
+      <edge id="24733" source="MIKE" target="DR. LESTER" weight="1" />
+      <edge id="24734" source="MIKE" target="CAMERA GUY" weight="1" />
+      <edge id="24735" source="MIKE" target="BAMBI" weight="1" />
+      <edge id="24736" source="MIKE" target="CANDI" weight="2" />
+      <edge id="24737" source="MIKE" target="BOB" weight="2" />
+      <edge id="24738" source="MIKE" target="HAROLD" weight="2" />
+      <edge id="24739" source="MIKE" target="DRUNK GUY" weight="1" />
+      <edge id="24740" source="MIKE" target="CUTE BRUNETTE" weight="1" />
+      <edge id="24741" source="MIKE" target="AGENT" weight="3" />
+      <edge id="24742" source="MIKE" target="JAY LENO" weight="1" />
+      <edge id="24743" source="MIKE" target="JAY" weight="1" />
+      <edge id="24744" source="MIKE" target="WAITRESS" weight="1" />
+      <edge id="24745" source="MIKE" target="BIG WIG" weight="1" />
+      <edge id="24746" source="MIKE" target="BIG WIG #2" weight="1" />
+      <edge id="24747" source="MIKE" target="JOE" weight="1" />
+      <edge id="24748" source="MIKE" target="JACK MAGNUM" weight="2" />
+      <edge id="24749" source="MIKE" target="PILOT" weight="5" />
+      <edge id="24750" source="MOTLEY GROUP" target="MIKE" weight="1" />
+      <edge id="24751" source="FEMALE CALLER" target="MIKE" weight="1" />
+      <edge id="24752" source="ABBY'S VOICE" target="JOY" weight="1" />
+      <edge id="24753" source="ABBY'S VOICE" target="ABBY" weight="1" />
+      <edge id="24754" source="ABBY'S VOICE" target="STUART" weight="1" />
+      <edge id="24755" source="ABBY'S VOICE" target="MIKE" weight="1" />
+      <edge id="24756" source="ABBY'S VOICE" target="JOSH" weight="1" />
+      <edge id="24757" source="ABBY'S VOICE" target="DORI" weight="1" />
+      <edge id="24758" source="GIRL'S VOICE" target="2ND GIRL'S VOICE" weight="1" />
+      <edge id="24759" source="GIRL'S VOICE" target="3RD GIRL'S VOICE" weight="1" />
+      <edge id="24760" source="GIRL'S VOICE" target="MIKE" weight="1" />
+      <edge id="24761" source="GIRL'S VOICE" target="JONAH" weight="1" />
+      <edge id="24762" source="GIRL'S VOICE" target="ELIZABETH" weight="1" />
+      <edge id="24763" source="2ND GIRL'S VOICE" target="GIRL'S VOICE" weight="1" />
+      <edge id="24764" source="2ND GIRL'S VOICE" target="3RD GIRL'S VOICE" weight="1" />
+      <edge id="24765" source="2ND GIRL'S VOICE" target="MIKE" weight="1" />
+      <edge id="24766" source="2ND GIRL'S VOICE" target="JONAH" weight="1" />
+      <edge id="24767" source="2ND GIRL'S VOICE" target="ELIZABETH" weight="1" />
+      <edge id="24768" source="3RD GIRL'S VOICE" target="GIRL'S VOICE" weight="1" />
+      <edge id="24769" source="3RD GIRL'S VOICE" target="2ND GIRL'S VOICE" weight="1" />
+      <edge id="24770" source="3RD GIRL'S VOICE" target="MIKE" weight="1" />
+      <edge id="24771" source="3RD GIRL'S VOICE" target="JONAH" weight="1" />
+      <edge id="24772" source="3RD GIRL'S VOICE" target="ELIZABETH" weight="1" />
+      <edge id="24773" source="JONAH" target="GIRL'S VOICE" weight="1" />
+      <edge id="24774" source="JONAH" target="2ND GIRL'S VOICE" weight="1" />
+      <edge id="24775" source="JONAH" target="3RD GIRL'S VOICE" weight="1" />
+      <edge id="24776" source="JONAH" target="MIKE" weight="6" />
+      <edge id="24777" source="JONAH" target="ELIZABETH" weight="4" />
+      <edge id="24778" source="JONAH" target="JACK MAGNUM" weight="1" />
+      <edge id="24779" source="JONAH" target="JOY" weight="1" />
+      <edge id="24780" source="JONAH" target="ABBY" weight="1" />
+      <edge id="24781" source="ELIZABETH" target="GIRL'S VOICE" weight="1" />
+      <edge id="24782" source="ELIZABETH" target="2ND GIRL'S VOICE" weight="1" />
+      <edge id="24783" source="ELIZABETH" target="3RD GIRL'S VOICE" weight="1" />
+      <edge id="24784" source="ELIZABETH" target="MIKE" weight="3" />
+      <edge id="24785" source="ELIZABETH" target="JONAH" weight="4" />
+      <edge id="24786" source="ELIZABETH" target="JOY" weight="1" />
+      <edge id="24787" source="ELIZABETH" target="ABBY" weight="1" />
+      <edge id="24788" source="KEN" target="ABBY" weight="1" />
+      <edge id="24789" source="KEN" target="JOY" weight="1" />
+      <edge id="24790" source="BRIAN WILLIAMS" target="STUART" weight="1" />
+      <edge id="24791" source="BRIAN WILLIAMS" target="ABBY" weight="1" />
+      <edge id="24792" source="COLIN" target="ABBY" weight="16" />
+      <edge id="24793" source="COLIN" target="MIKE" weight="10" />
+      <edge id="24794" source="COLIN" target="FAN" weight="1" />
+      <edge id="24795" source="COLIN" target="STUART" weight="1" />
+      <edge id="24796" source="COLIN" target="CANDI" weight="1" />
+      <edge id="24797" source="COLIN" target="HAROLD" weight="1" />
+      <edge id="24798" source="COLIN" target="BOB" weight="1" />
+      <edge id="24799" source="COLIN" target="WAITER" weight="1" />
+      <edge id="24800" source="DWAYNE" target="STEVE" weight="2" />
+      <edge id="24801" source="DWAYNE" target="GARY" weight="1" />
+      <edge id="24802" source="DWAYNE" target="MIKE" weight="2" />
+      <edge id="24803" source="DWAYNE" target="DRUNK GUY" weight="1" />
+      <edge id="24804" source="DWAYNE" target="CUTE BRUNETTE" weight="1" />
+      <edge id="24805" source="STEVE" target="DWAYNE" weight="2" />
+      <edge id="24806" source="STEVE" target="GARY" weight="1" />
+      <edge id="24807" source="STEVE" target="MIKE" weight="2" />
+      <edge id="24808" source="STEVE" target="DRUNK GUY" weight="1" />
+      <edge id="24809" source="STEVE" target="CUTE BRUNETTE" weight="1" />
+      <edge id="24810" source="GARY" target="DWAYNE" weight="1" />
+      <edge id="24811" source="GARY" target="STEVE" weight="1" />
+      <edge id="24812" source="GARY" target="MIKE" weight="1" />
+      <edge id="24813" source="P.A." target="MIKE" weight="1" />
+      <edge id="24814" source="P.A." target="ABBY" weight="1" />
+      <edge id="24815" source="P.A." target="JOY" weight="1" />
+      <edge id="24816" source="SALESWOMAN" target="ABBY" weight="1" />
+      <edge id="24817" source="SALESWOMAN" target="MIKE" weight="1" />
+      <edge id="24818" source="FAN" target="MIKE" weight="1" />
+      <edge id="24819" source="FAN" target="COLIN" weight="1" />
+      <edge id="24820" source="FAN" target="ABBY" weight="1" />
+      <edge id="24821" source="POLICE OFFICER" target="ABBY" weight="1" />
+      <edge id="24822" source="DR. LESTER" target="MIKE" weight="1" />
+      <edge id="24823" source="DR. LESTER" target="CAMERA GUY" weight="1" />
+      <edge id="24824" source="DR. LESTER" target="ABBY" weight="1" />
+      <edge id="24825" source="CAMERA GUY" target="DR. LESTER" weight="1" />
+      <edge id="24826" source="CAMERA GUY" target="MIKE" weight="1" />
+      <edge id="24827" source="CAMERA GUY" target="ABBY" weight="1" />
+      <edge id="24828" source="BAMBI" target="MIKE" weight="1" />
+      <edge id="24829" source="BAMBI" target="CANDI" weight="1" />
+      <edge id="24830" source="BAMBI" target="ABBY" weight="1" />
+      <edge id="24831" source="BAMBI" target="STUART" weight="1" />
+      <edge id="24832" source="BAMBI" target="BOB" weight="1" />
+      <edge id="24833" source="BAMBI" target="HAROLD" weight="1" />
+      <edge id="24834" source="CANDI" target="MIKE" weight="2" />
+      <edge id="24835" source="CANDI" target="BAMBI" weight="1" />
+      <edge id="24836" source="CANDI" target="ABBY" weight="2" />
+      <edge id="24837" source="CANDI" target="STUART" weight="2" />
+      <edge id="24838" source="CANDI" target="BOB" weight="1" />
+      <edge id="24839" source="CANDI" target="HAROLD" weight="1" />
+      <edge id="24840" source="CANDI" target="COLIN" weight="1" />
+      <edge id="24841" source="BOB" target="MIKE" weight="2" />
+      <edge id="24842" source="BOB" target="BAMBI" weight="1" />
+      <edge id="24843" source="BOB" target="CANDI" weight="1" />
+      <edge id="24844" source="BOB" target="ABBY" weight="2" />
+      <edge id="24845" source="BOB" target="STUART" weight="1" />
+      <edge id="24846" source="BOB" target="HAROLD" weight="2" />
+      <edge id="24847" source="BOB" target="COLIN" weight="1" />
+      <edge id="24848" source="HAROLD" target="MIKE" weight="2" />
+      <edge id="24849" source="HAROLD" target="BAMBI" weight="1" />
+      <edge id="24850" source="HAROLD" target="CANDI" weight="1" />
+      <edge id="24851" source="HAROLD" target="ABBY" weight="2" />
+      <edge id="24852" source="HAROLD" target="STUART" weight="1" />
+      <edge id="24853" source="HAROLD" target="BOB" weight="2" />
+      <edge id="24854" source="HAROLD" target="COLIN" weight="1" />
+      <edge id="24855" source="DRUNK GUY" target="MIKE" weight="1" />
+      <edge id="24856" source="DRUNK GUY" target="CUTE BRUNETTE" weight="1" />
+      <edge id="24857" source="DRUNK GUY" target="DWAYNE" weight="1" />
+      <edge id="24858" source="DRUNK GUY" target="STEVE" weight="1" />
+      <edge id="24859" source="CUTE BRUNETTE" target="DRUNK GUY" weight="1" />
+      <edge id="24860" source="CUTE BRUNETTE" target="MIKE" weight="1" />
+      <edge id="24861" source="CUTE BRUNETTE" target="DWAYNE" weight="1" />
+      <edge id="24862" source="CUTE BRUNETTE" target="STEVE" weight="1" />
+      <edge id="24863" source="AGENT" target="MIKE" weight="3" />
+      <edge id="24864" source="AGENT" target="JOY" weight="1" />
+      <edge id="24865" source="AGENT" target="LARRY" weight="1" />
+      <edge id="24866" source="AGENT" target="GEORGIA" weight="1" />
+      <edge id="24867" source="AGENT" target="ABBY" weight="3" />
+      <edge id="24868" source="AGENT" target="JAY LENO" weight="1" />
+      <edge id="24869" source="CAB DRIVER" target="ABBY" weight="1" />
+      <edge id="24870" source="JAY LENO" target="AGENT" weight="1" />
+      <edge id="24871" source="JAY LENO" target="MIKE" weight="1" />
+      <edge id="24872" source="JAY LENO" target="ABBY" weight="1" />
+      <edge id="24873" source="JAY" target="MIKE" weight="1" />
+      <edge id="24874" source="WAITRESS" target="ABBY" weight="1" />
+      <edge id="24875" source="WAITRESS" target="MIKE" weight="1" />
+      <edge id="24876" source="FLIGHT ATTENDANT" target="ABBY" weight="1" />
+      <edge id="24877" source="BIG WIG" target="MIKE" weight="1" />
+      <edge id="24878" source="BIG WIG" target="BIG WIG #2" weight="1" />
+      <edge id="24879" source="BIG WIG" target="JOE" weight="1" />
+      <edge id="24880" source="BIG WIG #2" target="BIG WIG" weight="1" />
+      <edge id="24881" source="BIG WIG #2" target="MIKE" weight="1" />
+      <edge id="24882" source="BIG WIG #2" target="JOE" weight="1" />
+      <edge id="24883" source="JOE" target="BIG WIG" weight="1" />
+      <edge id="24884" source="JOE" target="MIKE" weight="1" />
+      <edge id="24885" source="JOE" target="BIG WIG #2" weight="1" />
+      <edge id="24886" source="JACK MAGNUM" target="JOY" weight="1" />
+      <edge id="24887" source="JACK MAGNUM" target="ABBY" weight="2" />
+      <edge id="24888" source="JACK MAGNUM" target="CLIFF" weight="1" />
+      <edge id="24889" source="JACK MAGNUM" target="STUART" weight="1" />
+      <edge id="24890" source="JACK MAGNUM" target="JONAH" weight="1" />
+      <edge id="24891" source="JACK MAGNUM" target="MIKE" weight="2" />
+      <edge id="24892" source="PILOT" target="MIKE" weight="5" />
+      <edge id="24893" source="PILOT" target="ABBY" weight="5" />
+      <edge id="24894" source="PILOT" target="JOY" weight="1" />
+    </edges>
+  </graph>
+</gexf>

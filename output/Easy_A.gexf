@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="OLIVE" label="OLIVE" />
+      <node id="RHIANNON" label="RHIANNON" />
+      <node id="MR. ABERNATHY" label="MR. ABERNATHY" />
+      <node id="MRS. ABERNATHY" label="MRS. ABERNATHY" />
+      <node id="KEN NORDINE" label="KEN NORDINE" />
+      <node id="MARIANNE" label="MARIANNE" />
+      <node id="MASCOT" label="MASCOT" />
+      <node id="GUY IN HALL" label="GUY IN HALL" />
+      <node id="DILL" label="DILL" />
+      <node id="ROSEMARY" label="ROSEMARY" />
+      <node id="GINGER" label="GINGER" />
+      <node id="EIGHTH GRADE OLIVE" label="EIGHTH GRADE OLIVE" />
+      <node id="EIGHTH GRADE KID" label="EIGHTH GRADE KID" />
+      <node id="PRETEEN KID" label="PRETEEN KID" />
+      <node id="MR. GRIFFIN" label="MR. GRIFFIN" />
+      <node id="NINA" label="NINA" />
+      <node id="PRINCIPAL GIBBONS" label="PRINCIPAL GIBBONS" />
+      <node id="BULLIED KID" label="BULLIED KID" />
+      <node id="BRANDON" label="BRANDON" />
+      <node id="MELANIE" label="MELANIE" />
+      <node id="BULLY" label="BULLY" />
+      <node id="MEERKAT TODD" label="MEERKAT TODD" />
+      <node id="ANSON" label="ANSON" />
+      <node id="EVAN" label="EVAN" />
+      <node id="SOME" label="SOME" />
+      <node id="MRS. GRIFFIN" label="MRS. GRIFFIN" />
+      <node id="CHRISTIAN KID #1" label="CHRISTIAN KID #1" />
+      <node id="KURT" label="KURT" />
+      <node id="MICAH" label="MICAH" />
+      <node id="ALL" label="ALL" />
+      <node id="RECEPTIONIST" label="RECEPTIONIST" />
+      <node id="ASSOCIATE PASTOR DON" label="ASSOCIATE PASTOR DON" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="MICAH'S MOTHER" label="MICAH'S MOTHER" />
+      <node id="MONTANA" label="MONTANA" />
+      <node id="PARADE OF SERVERS" label="PARADE OF SERVERS" />
+      <node id="SERVER" label="SERVER" />
+      <node id="GOSSIPY GIRL" label="GOSSIPY GIRL" />
+      <node id="MONTAGE" label="MONTAGE" />
+      <node id="MICAH'S GRANDMOTHER" label="MICAH'S GRANDMOTHER" />
+    </nodes>
+    <edges>
+      <edge id="6291" source="OLIVE" target="RHIANNON" weight="14" />
+      <edge id="6292" source="OLIVE" target="MR. ABERNATHY" weight="1" />
+      <edge id="6293" source="OLIVE" target="MRS. ABERNATHY" weight="1" />
+      <edge id="6294" source="OLIVE" target="KEN NORDINE" weight="1" />
+      <edge id="6295" source="OLIVE" target="MARIANNE" weight="8" />
+      <edge id="6296" source="OLIVE" target="MASCOT" weight="1" />
+      <edge id="6297" source="OLIVE" target="GUY IN HALL" weight="1" />
+      <edge id="6298" source="OLIVE" target="DILL" weight="2" />
+      <edge id="6299" source="OLIVE" target="ROSEMARY" weight="5" />
+      <edge id="6300" source="OLIVE" target="GINGER" weight="2" />
+      <edge id="6301" source="OLIVE" target="MR. GRIFFIN" weight="4" />
+      <edge id="6302" source="OLIVE" target="NINA" weight="2" />
+      <edge id="6303" source="OLIVE" target="PRINCIPAL GIBBONS" weight="2" />
+      <edge id="6304" source="OLIVE" target="BULLIED KID" weight="1" />
+      <edge id="6305" source="OLIVE" target="BRANDON" weight="6" />
+      <edge id="6306" source="OLIVE" target="MELANIE" weight="2" />
+      <edge id="6307" source="OLIVE" target="BULLY" weight="1" />
+      <edge id="6308" source="OLIVE" target="MEERKAT TODD" weight="3" />
+      <edge id="6309" source="OLIVE" target="ANSON" weight="3" />
+      <edge id="6310" source="OLIVE" target="EVAN" weight="2" />
+      <edge id="6311" source="OLIVE" target="SOME" weight="1" />
+      <edge id="6312" source="OLIVE" target="MRS. GRIFFIN" weight="5" />
+      <edge id="6313" source="OLIVE" target="RECEPTIONIST" weight="1" />
+      <edge id="6314" source="OLIVE" target="ASSOCIATE PASTOR DON" weight="1" />
+      <edge id="6315" source="OLIVE" target="PARADE OF SERVERS" weight="1" />
+      <edge id="6316" source="OLIVE" target="SERVER" weight="1" />
+      <edge id="6317" source="OLIVE" target="GOSSIPY GIRL" weight="1" />
+      <edge id="6318" source="RHIANNON" target="OLIVE" weight="14" />
+      <edge id="6319" source="RHIANNON" target="MARIANNE" weight="2" />
+      <edge id="6320" source="RHIANNON" target="MASCOT" weight="1" />
+      <edge id="6321" source="RHIANNON" target="BRANDON" weight="1" />
+      <edge id="6322" source="RHIANNON" target="ROSEMARY" weight="1" />
+      <edge id="6323" source="RHIANNON" target="NINA" weight="1" />
+      <edge id="6324" source="RHIANNON" target="PRINCIPAL GIBBONS" weight="1" />
+      <edge id="6325" source="MR. ABERNATHY" target="MRS. ABERNATHY" weight="1" />
+      <edge id="6326" source="MR. ABERNATHY" target="OLIVE" weight="1" />
+      <edge id="6327" source="MRS. ABERNATHY" target="MR. ABERNATHY" weight="1" />
+      <edge id="6328" source="MRS. ABERNATHY" target="OLIVE" weight="1" />
+      <edge id="6329" source="KEN NORDINE" target="OLIVE" weight="1" />
+      <edge id="6330" source="MARIANNE" target="RHIANNON" weight="2" />
+      <edge id="6331" source="MARIANNE" target="OLIVE" weight="8" />
+      <edge id="6332" source="MARIANNE" target="GUY IN HALL" weight="1" />
+      <edge id="6333" source="MARIANNE" target="NINA" weight="2" />
+      <edge id="6334" source="MARIANNE" target="CHRISTIAN KID #1" weight="1" />
+      <edge id="6335" source="MARIANNE" target="KURT" weight="1" />
+      <edge id="6336" source="MARIANNE" target="MICAH" weight="1" />
+      <edge id="6337" source="MARIANNE" target="ALL" weight="1" />
+      <edge id="6338" source="MARIANNE" target="MRS. GRIFFIN" weight="1" />
+      <edge id="6339" source="MARIANNE" target="PRINCIPAL GIBBONS" weight="1" />
+      <edge id="6340" source="MASCOT" target="OLIVE" weight="1" />
+      <edge id="6341" source="MASCOT" target="RHIANNON" weight="1" />
+      <edge id="6342" source="GUY IN HALL" target="OLIVE" weight="1" />
+      <edge id="6343" source="GUY IN HALL" target="MARIANNE" weight="1" />
+      <edge id="6344" source="DILL" target="OLIVE" weight="2" />
+      <edge id="6345" source="DILL" target="ROSEMARY" weight="2" />
+      <edge id="6346" source="DILL" target="GINGER" weight="2" />
+      <edge id="6347" source="ROSEMARY" target="OLIVE" weight="5" />
+      <edge id="6348" source="ROSEMARY" target="DILL" weight="2" />
+      <edge id="6349" source="ROSEMARY" target="GINGER" weight="2" />
+      <edge id="6350" source="ROSEMARY" target="BRANDON" weight="1" />
+      <edge id="6351" source="ROSEMARY" target="RHIANNON" weight="1" />
+      <edge id="6352" source="GINGER" target="OLIVE" weight="2" />
+      <edge id="6353" source="GINGER" target="DILL" weight="2" />
+      <edge id="6354" source="GINGER" target="ROSEMARY" weight="2" />
+      <edge id="6355" source="EIGHTH GRADE OLIVE" target="EIGHTH GRADE KID" weight="1" />
+      <edge id="6356" source="EIGHTH GRADE OLIVE" target="PRETEEN KID" weight="1" />
+      <edge id="6357" source="EIGHTH GRADE KID" target="EIGHTH GRADE OLIVE" weight="1" />
+      <edge id="6358" source="EIGHTH GRADE KID" target="PRETEEN KID" weight="1" />
+      <edge id="6359" source="PRETEEN KID" target="EIGHTH GRADE OLIVE" weight="1" />
+      <edge id="6360" source="PRETEEN KID" target="EIGHTH GRADE KID" weight="1" />
+      <edge id="6361" source="MR. GRIFFIN" target="OLIVE" weight="4" />
+      <edge id="6362" source="MR. GRIFFIN" target="NINA" weight="1" />
+      <edge id="6363" source="MR. GRIFFIN" target="MRS. GRIFFIN" weight="1" />
+      <edge id="6364" source="NINA" target="OLIVE" weight="2" />
+      <edge id="6365" source="NINA" target="MR. GRIFFIN" weight="1" />
+      <edge id="6366" source="NINA" target="MARIANNE" weight="2" />
+      <edge id="6367" source="NINA" target="CHRISTIAN KID #1" weight="1" />
+      <edge id="6368" source="NINA" target="KURT" weight="1" />
+      <edge id="6369" source="NINA" target="MICAH" weight="1" />
+      <edge id="6370" source="NINA" target="ALL" weight="1" />
+      <edge id="6371" source="NINA" target="RHIANNON" weight="1" />
+      <edge id="6372" source="NINA" target="PRINCIPAL GIBBONS" weight="1" />
+      <edge id="6373" source="PRINCIPAL GIBBONS" target="OLIVE" weight="2" />
+      <edge id="6374" source="PRINCIPAL GIBBONS" target="MARIANNE" weight="1" />
+      <edge id="6375" source="PRINCIPAL GIBBONS" target="RHIANNON" weight="1" />
+      <edge id="6376" source="PRINCIPAL GIBBONS" target="NINA" weight="1" />
+      <edge id="6377" source="BULLIED KID" target="OLIVE" weight="1" />
+      <edge id="6378" source="BULLIED KID" target="BRANDON" weight="1" />
+      <edge id="6379" source="BRANDON" target="OLIVE" weight="6" />
+      <edge id="6380" source="BRANDON" target="BULLIED KID" weight="1" />
+      <edge id="6381" source="BRANDON" target="RHIANNON" weight="1" />
+      <edge id="6382" source="BRANDON" target="ROSEMARY" weight="1" />
+      <edge id="6383" source="MELANIE" target="OLIVE" weight="2" />
+      <edge id="6384" source="MELANIE" target="BULLY" weight="1" />
+      <edge id="6385" source="MELANIE" target="MONTAGE" weight="1" />
+      <edge id="6386" source="MELANIE" target="MICAH'S GRANDMOTHER" weight="1" />
+      <edge id="6387" source="MELANIE" target="ANSON" weight="1" />
+      <edge id="6388" source="BULLY" target="MELANIE" weight="1" />
+      <edge id="6389" source="BULLY" target="OLIVE" weight="1" />
+      <edge id="6390" source="MEERKAT TODD" target="OLIVE" weight="3" />
+      <edge id="6391" source="MEERKAT TODD" target="ANSON" weight="1" />
+      <edge id="6392" source="MEERKAT TODD" target="PARADE OF SERVERS" weight="1" />
+      <edge id="6393" source="MEERKAT TODD" target="SERVER" weight="1" />
+      <edge id="6394" source="ANSON" target="OLIVE" weight="3" />
+      <edge id="6395" source="ANSON" target="MEERKAT TODD" weight="1" />
+      <edge id="6396" source="ANSON" target="PARADE OF SERVERS" weight="1" />
+      <edge id="6397" source="ANSON" target="SERVER" weight="1" />
+      <edge id="6398" source="ANSON" target="MONTAGE" weight="1" />
+      <edge id="6399" source="ANSON" target="MELANIE" weight="1" />
+      <edge id="6400" source="ANSON" target="MICAH'S GRANDMOTHER" weight="1" />
+      <edge id="6401" source="EVAN" target="OLIVE" weight="2" />
+      <edge id="6402" source="EVAN" target="SOME" weight="1" />
+      <edge id="6403" source="SOME" target="EVAN" weight="1" />
+      <edge id="6404" source="SOME" target="OLIVE" weight="1" />
+      <edge id="6405" source="MRS. GRIFFIN" target="OLIVE" weight="5" />
+      <edge id="6406" source="MRS. GRIFFIN" target="MR. GRIFFIN" weight="1" />
+      <edge id="6407" source="MRS. GRIFFIN" target="MARIANNE" weight="1" />
+      <edge id="6408" source="CHRISTIAN KID #1" target="MARIANNE" weight="1" />
+      <edge id="6409" source="CHRISTIAN KID #1" target="NINA" weight="1" />
+      <edge id="6410" source="CHRISTIAN KID #1" target="KURT" weight="1" />
+      <edge id="6411" source="CHRISTIAN KID #1" target="MICAH" weight="1" />
+      <edge id="6412" source="CHRISTIAN KID #1" target="ALL" weight="1" />
+      <edge id="6413" source="KURT" target="MARIANNE" weight="1" />
+      <edge id="6414" source="KURT" target="NINA" weight="1" />
+      <edge id="6415" source="KURT" target="CHRISTIAN KID #1" weight="1" />
+      <edge id="6416" source="KURT" target="MICAH" weight="1" />
+      <edge id="6417" source="KURT" target="ALL" weight="1" />
+      <edge id="6418" source="MICAH" target="MARIANNE" weight="1" />
+      <edge id="6419" source="MICAH" target="NINA" weight="1" />
+      <edge id="6420" source="MICAH" target="CHRISTIAN KID #1" weight="1" />
+      <edge id="6421" source="MICAH" target="KURT" weight="1" />
+      <edge id="6422" source="MICAH" target="ALL" weight="1" />
+      <edge id="6423" source="MICAH" target="DOCTOR" weight="1" />
+      <edge id="6424" source="MICAH" target="MICAH'S MOTHER" weight="1" />
+      <edge id="6425" source="ALL" target="MARIANNE" weight="1" />
+      <edge id="6426" source="ALL" target="NINA" weight="1" />
+      <edge id="6427" source="ALL" target="CHRISTIAN KID #1" weight="1" />
+      <edge id="6428" source="ALL" target="KURT" weight="1" />
+      <edge id="6429" source="ALL" target="MICAH" weight="1" />
+      <edge id="6430" source="RECEPTIONIST" target="OLIVE" weight="1" />
+      <edge id="6431" source="ASSOCIATE PASTOR DON" target="OLIVE" weight="1" />
+      <edge id="6432" source="DOCTOR" target="MICAH" weight="1" />
+      <edge id="6433" source="DOCTOR" target="MICAH'S MOTHER" weight="1" />
+      <edge id="6434" source="MICAH'S MOTHER" target="MICAH" weight="1" />
+      <edge id="6435" source="MICAH'S MOTHER" target="DOCTOR" weight="1" />
+      <edge id="6436" source="PARADE OF SERVERS" target="OLIVE" weight="1" />
+      <edge id="6437" source="PARADE OF SERVERS" target="ANSON" weight="1" />
+      <edge id="6438" source="PARADE OF SERVERS" target="MEERKAT TODD" weight="1" />
+      <edge id="6439" source="PARADE OF SERVERS" target="SERVER" weight="1" />
+      <edge id="6440" source="SERVER" target="OLIVE" weight="1" />
+      <edge id="6441" source="SERVER" target="ANSON" weight="1" />
+      <edge id="6442" source="SERVER" target="MEERKAT TODD" weight="1" />
+      <edge id="6443" source="SERVER" target="PARADE OF SERVERS" weight="1" />
+      <edge id="6444" source="GOSSIPY GIRL" target="OLIVE" weight="1" />
+      <edge id="6445" source="MONTAGE" target="MELANIE" weight="1" />
+      <edge id="6446" source="MONTAGE" target="MICAH'S GRANDMOTHER" weight="1" />
+      <edge id="6447" source="MONTAGE" target="ANSON" weight="1" />
+      <edge id="6448" source="MICAH'S GRANDMOTHER" target="MONTAGE" weight="1" />
+      <edge id="6449" source="MICAH'S GRANDMOTHER" target="MELANIE" weight="1" />
+      <edge id="6450" source="MICAH'S GRANDMOTHER" target="ANSON" weight="1" />
+    </edges>
+  </graph>
+</gexf>

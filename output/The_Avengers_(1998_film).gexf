@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="EMMA" label="EMMA" />
+      <node id="VOICE" label="VOICE" />
+      <node id="PETER" label="PETER" />
+      <node id="VALENTINE" label="VALENTINE" />
+      <node id="COUNTDOWN" label="COUNTDOWN" />
+      <node id="ANNOUNCER" label="ANNOUNCER" />
+      <node id="STEED" label="STEED" />
+      <node id="MOTHER" label="MOTHER" />
+      <node id="BRENDA" label="BRENDA" />
+      <node id="MESSENGER" label="MESSENGER" />
+      <node id="WOMAN" label="WOMAN" />
+      <node id="PORTER" label="PORTER" />
+      <node id="FATHER" label="FATHER" />
+      <node id="DR. DARLING" label="DR. DARLING" />
+      <node id="TRUBSHAW" label="TRUBSHAW" />
+      <node id="BUTLER" label="BUTLER" />
+      <node id="SIR AUGUST" label="SIR AUGUST" />
+      <node id="LADY JUNE" label="LADY JUNE" />
+      <node id="TEDDY BEAR #l" label="TEDDY BEAR #l" />
+      <node id="MAN" label="MAN" />
+      <node id="BAILEY" label="BAILEY" />
+      <node id="OLD LADY" label="OLD LADY" />
+      <node id="DR.  DARLING" label="DR.  DARLING" />
+      <node id="RADIO ANNOUNCER" label="RADIO ANNOUNCER" />
+      <node id="CHOIRBOY" label="CHOIRBOY" />
+      <node id="INVISIBLE JONES" label="INVISIBLE JONES" />
+      <node id="MINISTER" label="MINISTER" />
+      <node id="CO-PILOT" label="CO-PILOT" />
+      <node id="TEACHER" label="TEACHER" />
+      <node id="OLD TEACHER" label="OLD TEACHER" />
+    </nodes>
+    <edges>
+      <edge id="19353" source="EMMA" target="VOICE" weight="6" />
+      <edge id="19354" source="EMMA" target="PETER" weight="4" />
+      <edge id="19355" source="EMMA" target="VALENTINE" weight="7" />
+      <edge id="19356" source="EMMA" target="MESSENGER" weight="1" />
+      <edge id="19357" source="EMMA" target="WOMAN" weight="1" />
+      <edge id="19358" source="EMMA" target="PORTER" weight="1" />
+      <edge id="19359" source="EMMA" target="STEED" weight="41" />
+      <edge id="19360" source="EMMA" target="MOTHER" weight="5" />
+      <edge id="19361" source="EMMA" target="BRENDA" weight="2" />
+      <edge id="19362" source="EMMA" target="FATHER" weight="5" />
+      <edge id="19363" source="EMMA" target="TRUBSHAW" weight="2" />
+      <edge id="19364" source="EMMA" target="BUTLER" weight="1" />
+      <edge id="19365" source="EMMA" target="SIR AUGUST" weight="2" />
+      <edge id="19366" source="EMMA" target="LADY JUNE" weight="1" />
+      <edge id="19367" source="EMMA" target="MAN" weight="2" />
+      <edge id="19368" source="EMMA" target="OLD LADY" weight="2" />
+      <edge id="19369" source="EMMA" target="BAILEY" weight="1" />
+      <edge id="19370" source="EMMA" target="DR. DARLING" weight="3" />
+      <edge id="19371" source="EMMA" target="DR.  DARLING" weight="1" />
+      <edge id="19372" source="EMMA" target="CHOIRBOY" weight="1" />
+      <edge id="19373" source="EMMA" target="INVISIBLE JONES" weight="3" />
+      <edge id="19374" source="EMMA" target="MINISTER" weight="1" />
+      <edge id="19375" source="EMMA" target="TEACHER" weight="2" />
+      <edge id="19376" source="EMMA" target="OLD TEACHER" weight="1" />
+      <edge id="19377" source="VOICE" target="EMMA" weight="6" />
+      <edge id="19378" source="VOICE" target="STEED" weight="2" />
+      <edge id="19379" source="VOICE" target="TEDDY BEAR #l" weight="1" />
+      <edge id="19380" source="VOICE" target="MAN" weight="2" />
+      <edge id="19381" source="VOICE" target="SIR AUGUST" weight="1" />
+      <edge id="19382" source="VOICE" target="FATHER" weight="1" />
+      <edge id="19383" source="VOICE" target="PETER" weight="1" />
+      <edge id="19384" source="VOICE" target="TRUBSHAW" weight="1" />
+      <edge id="19385" source="PETER" target="EMMA" weight="4" />
+      <edge id="19386" source="PETER" target="VALENTINE" weight="2" />
+      <edge id="19387" source="PETER" target="COUNTDOWN" weight="1" />
+      <edge id="19388" source="PETER" target="VOICE" weight="1" />
+      <edge id="19389" source="PETER" target="DR. DARLING" weight="1" />
+      <edge id="19390" source="PETER" target="TEACHER" weight="1" />
+      <edge id="19391" source="VALENTINE" target="PETER" weight="2" />
+      <edge id="19392" source="VALENTINE" target="EMMA" weight="7" />
+      <edge id="19393" source="VALENTINE" target="OLD TEACHER" weight="1" />
+      <edge id="19394" source="VALENTINE" target="TEACHER" weight="1" />
+      <edge id="19395" source="VALENTINE" target="STEED" weight="4" />
+      <edge id="19396" source="VALENTINE" target="FATHER" weight="2" />
+      <edge id="19397" source="COUNTDOWN" target="PETER" weight="1" />
+      <edge id="19398" source="STEED" target="MOTHER" weight="9" />
+      <edge id="19399" source="STEED" target="BRENDA" weight="4" />
+      <edge id="19400" source="STEED" target="EMMA" weight="41" />
+      <edge id="19401" source="STEED" target="FATHER" weight="5" />
+      <edge id="19402" source="STEED" target="DR. DARLING" weight="3" />
+      <edge id="19403" source="STEED" target="TRUBSHAW" weight="3" />
+      <edge id="19404" source="STEED" target="VOICE" weight="2" />
+      <edge id="19405" source="STEED" target="SIR AUGUST" weight="1" />
+      <edge id="19406" source="STEED" target="BAILEY" weight="2" />
+      <edge id="19407" source="STEED" target="OLD LADY" weight="4" />
+      <edge id="19408" source="STEED" target="DR.  DARLING" weight="1" />
+      <edge id="19409" source="STEED" target="CHOIRBOY" weight="1" />
+      <edge id="19410" source="STEED" target="INVISIBLE JONES" weight="2" />
+      <edge id="19411" source="STEED" target="MINISTER" weight="1" />
+      <edge id="19412" source="STEED" target="OLD TEACHER" weight="1" />
+      <edge id="19413" source="STEED" target="TEACHER" weight="1" />
+      <edge id="19414" source="STEED" target="VALENTINE" weight="4" />
+      <edge id="19415" source="MOTHER" target="STEED" weight="9" />
+      <edge id="19416" source="MOTHER" target="BRENDA" weight="3" />
+      <edge id="19417" source="MOTHER" target="EMMA" weight="5" />
+      <edge id="19418" source="MOTHER" target="FATHER" weight="2" />
+      <edge id="19419" source="MOTHER" target="DR. DARLING" weight="3" />
+      <edge id="19420" source="MOTHER" target="DR.  DARLING" weight="1" />
+      <edge id="19421" source="BRENDA" target="STEED" weight="4" />
+      <edge id="19422" source="BRENDA" target="MOTHER" weight="3" />
+      <edge id="19423" source="BRENDA" target="EMMA" weight="2" />
+      <edge id="19424" source="BRENDA" target="FATHER" weight="2" />
+      <edge id="19425" source="MESSENGER" target="EMMA" weight="1" />
+      <edge id="19426" source="MESSENGER" target="WOMAN" weight="1" />
+      <edge id="19427" source="WOMAN" target="MESSENGER" weight="1" />
+      <edge id="19428" source="WOMAN" target="EMMA" weight="1" />
+      <edge id="19429" source="PORTER" target="EMMA" weight="1" />
+      <edge id="19430" source="FATHER" target="MOTHER" weight="2" />
+      <edge id="19431" source="FATHER" target="EMMA" weight="5" />
+      <edge id="19432" source="FATHER" target="STEED" weight="5" />
+      <edge id="19433" source="FATHER" target="BRENDA" weight="2" />
+      <edge id="19434" source="FATHER" target="SIR AUGUST" weight="1" />
+      <edge id="19435" source="FATHER" target="VOICE" weight="1" />
+      <edge id="19436" source="FATHER" target="VALENTINE" weight="2" />
+      <edge id="19437" source="DR. DARLING" target="MOTHER" weight="3" />
+      <edge id="19438" source="DR. DARLING" target="STEED" weight="3" />
+      <edge id="19439" source="DR. DARLING" target="EMMA" weight="3" />
+      <edge id="19440" source="DR. DARLING" target="DR.  DARLING" weight="1" />
+      <edge id="19441" source="DR. DARLING" target="PETER" weight="1" />
+      <edge id="19442" source="DR. DARLING" target="TEACHER" weight="1" />
+      <edge id="19443" source="TRUBSHAW" target="EMMA" weight="2" />
+      <edge id="19444" source="TRUBSHAW" target="STEED" weight="3" />
+      <edge id="19445" source="TRUBSHAW" target="VOICE" weight="1" />
+      <edge id="19446" source="BUTLER" target="EMMA" weight="1" />
+      <edge id="19447" source="SIR AUGUST" target="EMMA" weight="2" />
+      <edge id="19448" source="SIR AUGUST" target="LADY JUNE" weight="1" />
+      <edge id="19449" source="SIR AUGUST" target="STEED" weight="1" />
+      <edge id="19450" source="SIR AUGUST" target="VOICE" weight="1" />
+      <edge id="19451" source="SIR AUGUST" target="FATHER" weight="1" />
+      <edge id="19452" source="LADY JUNE" target="EMMA" weight="1" />
+      <edge id="19453" source="LADY JUNE" target="SIR AUGUST" weight="1" />
+      <edge id="19454" source="TEDDY BEAR #l" target="VOICE" weight="1" />
+      <edge id="19455" source="MAN" target="VOICE" weight="2" />
+      <edge id="19456" source="MAN" target="EMMA" weight="2" />
+      <edge id="19457" source="BAILEY" target="STEED" weight="2" />
+      <edge id="19458" source="BAILEY" target="OLD LADY" weight="1" />
+      <edge id="19459" source="BAILEY" target="EMMA" weight="1" />
+      <edge id="19460" source="OLD LADY" target="STEED" weight="4" />
+      <edge id="19461" source="OLD LADY" target="BAILEY" weight="1" />
+      <edge id="19462" source="OLD LADY" target="EMMA" weight="2" />
+      <edge id="19463" source="DR.  DARLING" target="EMMA" weight="1" />
+      <edge id="19464" source="DR.  DARLING" target="STEED" weight="1" />
+      <edge id="19465" source="DR.  DARLING" target="DR. DARLING" weight="1" />
+      <edge id="19466" source="DR.  DARLING" target="MOTHER" weight="1" />
+      <edge id="19467" source="CHOIRBOY" target="EMMA" weight="1" />
+      <edge id="19468" source="CHOIRBOY" target="STEED" weight="1" />
+      <edge id="19469" source="INVISIBLE JONES" target="EMMA" weight="3" />
+      <edge id="19470" source="INVISIBLE JONES" target="STEED" weight="2" />
+      <edge id="19471" source="MINISTER" target="STEED" weight="1" />
+      <edge id="19472" source="MINISTER" target="EMMA" weight="1" />
+      <edge id="19473" source="TEACHER" target="DR. DARLING" weight="1" />
+      <edge id="19474" source="TEACHER" target="EMMA" weight="2" />
+      <edge id="19475" source="TEACHER" target="PETER" weight="1" />
+      <edge id="19476" source="TEACHER" target="OLD TEACHER" weight="1" />
+      <edge id="19477" source="TEACHER" target="STEED" weight="1" />
+      <edge id="19478" source="TEACHER" target="VALENTINE" weight="1" />
+      <edge id="19479" source="OLD TEACHER" target="TEACHER" weight="1" />
+      <edge id="19480" source="OLD TEACHER" target="STEED" weight="1" />
+      <edge id="19481" source="OLD TEACHER" target="EMMA" weight="1" />
+      <edge id="19482" source="OLD TEACHER" target="VALENTINE" weight="1" />
+    </edges>
+  </graph>
+</gexf>

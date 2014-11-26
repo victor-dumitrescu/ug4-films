@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="DOYLE" label="DOYLE" />
+      <node id="RUSSO" label="RUSSO" />
+      <node id="BLACK PUSHER" label="BLACK PUSHER" />
+      <node id="CHARNIER" label="CHARNIER" />
+      <node id="FOREMAN MARCEL" label="FOREMAN MARCEL" />
+      <node id="MARCEL" label="MARCEL" />
+      <node id="MARIE" label="MARIE" />
+      <node id="NICOLI" label="NICOLI" />
+      <node id="DEVEREAUX" label="DEVEREAUX" />
+      <node id="MRS. LEVENE" label="MRS. LEVENE" />
+      <node id="1ST MAN" label="1ST MAN" />
+      <node id="DANCER" label="DANCER" />
+      <node id="JERRY LEON" label="JERRY LEON" />
+      <node id="2ND MAN" label="2ND MAN" />
+      <node id="REPORTER 1" label="REPORTER 1" />
+      <node id="GIRL TV REPORTER" label="GIRL TV REPORTER" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="LA VALLE" label="LA VALLE" />
+      <node id="SIMONSON" label="SIMONSON" />
+      <node id="SAL" label="SAL" />
+      <node id="WHOLESALER" label="WHOLESALER" />
+      <node id="AUCTIONEER" label="AUCTIONEER" />
+      <node id="ANGIE" label="ANGIE" />
+      <node id="WHIP GIRL" label="WHIP GIRL" />
+      <node id="EDITOR" label="EDITOR" />
+      <node id="JESUS" label="JESUS" />
+      <node id="MUTCHIE" label="MUTCHIE" />
+      <node id="BAD EDDIE" label="BAD EDDIE" />
+      <node id="PUGGY" label="PUGGY" />
+      <node id="LEE" label="LEE" />
+      <node id="BAD EDDIE &amp; LEE" label="BAD EDDIE &amp; LEE" />
+      <node id="GIRL" label="GIRL" />
+      <node id="MULDERIG" label="MULDERIG" />
+      <node id="BIKE GIRL" label="BIKE GIRL" />
+      <node id="DESK CLERK" label="DESK CLERK" />
+      <node id="CHEMIST" label="CHEMIST" />
+      <node id="WEINSTOCK" label="WEINSTOCK" />
+      <node id="HOOKER" label="HOOKER" />
+      <node id="KID" label="KID" />
+      <node id="OFFICER" label="OFFICER" />
+      <node id="UNDERSECRETARY" label="UNDERSECRETARY" />
+      <node id="TOKEN ATTENDANT" label="TOKEN ATTENDANT" />
+      <node id="DRIVER" label="DRIVER" />
+      <node id="TRUCK DRIVER" label="TRUCK DRIVER" />
+      <node id="MOTORMAN" label="MOTORMAN" />
+      <node id="VOICES" label="VOICES" />
+      <node id="CONDUCTOR" label="CONDUCTOR" />
+      <node id="ATTENDANT" label="ATTENDANT" />
+      <node id="MECHANIC" label="MECHANIC" />
+      <node id="DESK SERGEANT" label="DESK SERGEANT" />
+      <node id="BOCA" label="BOCA" />
+      <node id="FIRST MECHANIC" label="FIRST MECHANIC" />
+      <node id="SECOND MECHANIC" label="SECOND MECHANIC" />
+    </nodes>
+    <edges>
+      <edge id="21387" source="DOYLE" target="BLACK PUSHER" weight="1" />
+      <edge id="21388" source="DOYLE" target="RUSSO" weight="22" />
+      <edge id="21389" source="DOYLE" target="MRS. LEVENE" weight="1" />
+      <edge id="21390" source="DOYLE" target="1ST MAN" weight="1" />
+      <edge id="21391" source="DOYLE" target="DANCER" weight="1" />
+      <edge id="21392" source="DOYLE" target="JERRY LEON" weight="1" />
+      <edge id="21393" source="DOYLE" target="2ND MAN" weight="1" />
+      <edge id="21394" source="DOYLE" target="SIMONSON" weight="2" />
+      <edge id="21395" source="DOYLE" target="SAL" weight="2" />
+      <edge id="21396" source="DOYLE" target="WHOLESALER" weight="1" />
+      <edge id="21397" source="DOYLE" target="CHARNIER" weight="1" />
+      <edge id="21398" source="DOYLE" target="JESUS" weight="1" />
+      <edge id="21399" source="DOYLE" target="MUTCHIE" weight="1" />
+      <edge id="21400" source="DOYLE" target="BAD EDDIE" weight="1" />
+      <edge id="21401" source="DOYLE" target="PUGGY" weight="1" />
+      <edge id="21402" source="DOYLE" target="LEE" weight="1" />
+      <edge id="21403" source="DOYLE" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21404" source="DOYLE" target="GIRL" weight="1" />
+      <edge id="21405" source="DOYLE" target="BIKE GIRL" weight="1" />
+      <edge id="21406" source="DOYLE" target="MULDERIG" weight="5" />
+      <edge id="21407" source="DOYLE" target="DESK CLERK" weight="1" />
+      <edge id="21408" source="DOYLE" target="HOOKER" weight="1" />
+      <edge id="21409" source="DOYLE" target="KID" weight="1" />
+      <edge id="21410" source="DOYLE" target="OFFICER" weight="1" />
+      <edge id="21411" source="DOYLE" target="TOKEN ATTENDANT" weight="1" />
+      <edge id="21412" source="DOYLE" target="DRIVER" weight="1" />
+      <edge id="21413" source="DOYLE" target="VOICES" weight="1" />
+      <edge id="21414" source="DOYLE" target="MECHANIC" weight="1" />
+      <edge id="21415" source="RUSSO" target="DOYLE" weight="22" />
+      <edge id="21416" source="RUSSO" target="BLACK PUSHER" weight="1" />
+      <edge id="21417" source="RUSSO" target="1ST MAN" weight="1" />
+      <edge id="21418" source="RUSSO" target="DANCER" weight="1" />
+      <edge id="21419" source="RUSSO" target="JERRY LEON" weight="1" />
+      <edge id="21420" source="RUSSO" target="2ND MAN" weight="1" />
+      <edge id="21421" source="RUSSO" target="SIMONSON" weight="3" />
+      <edge id="21422" source="RUSSO" target="SAL" weight="3" />
+      <edge id="21423" source="RUSSO" target="WHOLESALER" weight="1" />
+      <edge id="21424" source="RUSSO" target="CHARNIER" weight="2" />
+      <edge id="21425" source="RUSSO" target="MULDERIG" weight="4" />
+      <edge id="21426" source="RUSSO" target="BIKE GIRL" weight="1" />
+      <edge id="21427" source="RUSSO" target="OFFICER" weight="1" />
+      <edge id="21428" source="RUSSO" target="ATTENDANT" weight="1" />
+      <edge id="21429" source="RUSSO" target="VOICES" weight="1" />
+      <edge id="21430" source="RUSSO" target="LA VALLE" weight="1" />
+      <edge id="21431" source="RUSSO" target="DESK SERGEANT" weight="1" />
+      <edge id="21432" source="RUSSO" target="DEVEREAUX" weight="1" />
+      <edge id="21433" source="RUSSO" target="MECHANIC" weight="1" />
+      <edge id="21434" source="BLACK PUSHER" target="DOYLE" weight="1" />
+      <edge id="21435" source="BLACK PUSHER" target="RUSSO" weight="1" />
+      <edge id="21436" source="CHARNIER" target="FOREMAN MARCEL" weight="1" />
+      <edge id="21437" source="CHARNIER" target="MARCEL" weight="1" />
+      <edge id="21438" source="CHARNIER" target="MARIE" weight="5" />
+      <edge id="21439" source="CHARNIER" target="NICOLI" weight="2" />
+      <edge id="21440" source="CHARNIER" target="DEVEREAUX" weight="2" />
+      <edge id="21441" source="CHARNIER" target="LA VALLE" weight="3" />
+      <edge id="21442" source="CHARNIER" target="AUCTIONEER" weight="1" />
+      <edge id="21443" source="CHARNIER" target="SAL" weight="2" />
+      <edge id="21444" source="CHARNIER" target="RUSSO" weight="2" />
+      <edge id="21445" source="CHARNIER" target="DOYLE" weight="1" />
+      <edge id="21446" source="CHARNIER" target="UNDERSECRETARY" weight="1" />
+      <edge id="21447" source="FOREMAN MARCEL" target="CHARNIER" weight="1" />
+      <edge id="21448" source="FOREMAN MARCEL" target="MARCEL" weight="1" />
+      <edge id="21449" source="MARCEL" target="CHARNIER" weight="1" />
+      <edge id="21450" source="MARCEL" target="FOREMAN MARCEL" weight="1" />
+      <edge id="21451" source="MARIE" target="CHARNIER" weight="5" />
+      <edge id="21452" source="MARIE" target="LA VALLE" weight="3" />
+      <edge id="21453" source="MARIE" target="NICOLI" weight="1" />
+      <edge id="21454" source="NICOLI" target="CHARNIER" weight="2" />
+      <edge id="21455" source="NICOLI" target="MARIE" weight="1" />
+      <edge id="21456" source="NICOLI" target="MOTORMAN" weight="1" />
+      <edge id="21457" source="NICOLI" target="VOICES" weight="1" />
+      <edge id="21458" source="NICOLI" target="CONDUCTOR" weight="1" />
+      <edge id="21459" source="DEVEREAUX" target="CHARNIER" weight="2" />
+      <edge id="21460" source="DEVEREAUX" target="REPORTER 1" weight="1" />
+      <edge id="21461" source="DEVEREAUX" target="GIRL TV REPORTER" weight="1" />
+      <edge id="21462" source="DEVEREAUX" target="REPORTER" weight="1" />
+      <edge id="21463" source="DEVEREAUX" target="LA VALLE" weight="2" />
+      <edge id="21464" source="DEVEREAUX" target="EDITOR" weight="1" />
+      <edge id="21465" source="DEVEREAUX" target="DESK SERGEANT" weight="1" />
+      <edge id="21466" source="DEVEREAUX" target="MECHANIC" weight="1" />
+      <edge id="21467" source="DEVEREAUX" target="RUSSO" weight="1" />
+      <edge id="21468" source="MRS. LEVENE" target="DOYLE" weight="1" />
+      <edge id="21469" source="1ST MAN" target="DOYLE" weight="1" />
+      <edge id="21470" source="1ST MAN" target="RUSSO" weight="1" />
+      <edge id="21471" source="1ST MAN" target="DANCER" weight="1" />
+      <edge id="21472" source="1ST MAN" target="JERRY LEON" weight="1" />
+      <edge id="21473" source="1ST MAN" target="2ND MAN" weight="1" />
+      <edge id="21474" source="DANCER" target="DOYLE" weight="1" />
+      <edge id="21475" source="DANCER" target="1ST MAN" weight="1" />
+      <edge id="21476" source="DANCER" target="RUSSO" weight="1" />
+      <edge id="21477" source="DANCER" target="JERRY LEON" weight="1" />
+      <edge id="21478" source="DANCER" target="2ND MAN" weight="1" />
+      <edge id="21479" source="JERRY LEON" target="DOYLE" weight="1" />
+      <edge id="21480" source="JERRY LEON" target="1ST MAN" weight="1" />
+      <edge id="21481" source="JERRY LEON" target="RUSSO" weight="1" />
+      <edge id="21482" source="JERRY LEON" target="DANCER" weight="1" />
+      <edge id="21483" source="JERRY LEON" target="2ND MAN" weight="1" />
+      <edge id="21484" source="2ND MAN" target="DOYLE" weight="1" />
+      <edge id="21485" source="2ND MAN" target="1ST MAN" weight="1" />
+      <edge id="21486" source="2ND MAN" target="RUSSO" weight="1" />
+      <edge id="21487" source="2ND MAN" target="DANCER" weight="1" />
+      <edge id="21488" source="2ND MAN" target="JERRY LEON" weight="1" />
+      <edge id="21489" source="REPORTER 1" target="DEVEREAUX" weight="1" />
+      <edge id="21490" source="REPORTER 1" target="GIRL TV REPORTER" weight="1" />
+      <edge id="21491" source="REPORTER 1" target="REPORTER" weight="1" />
+      <edge id="21492" source="REPORTER 1" target="LA VALLE" weight="1" />
+      <edge id="21493" source="GIRL TV REPORTER" target="REPORTER 1" weight="1" />
+      <edge id="21494" source="GIRL TV REPORTER" target="DEVEREAUX" weight="1" />
+      <edge id="21495" source="GIRL TV REPORTER" target="REPORTER" weight="1" />
+      <edge id="21496" source="GIRL TV REPORTER" target="LA VALLE" weight="1" />
+      <edge id="21497" source="REPORTER" target="REPORTER 1" weight="1" />
+      <edge id="21498" source="REPORTER" target="DEVEREAUX" weight="1" />
+      <edge id="21499" source="REPORTER" target="GIRL TV REPORTER" weight="1" />
+      <edge id="21500" source="REPORTER" target="LA VALLE" weight="1" />
+      <edge id="21501" source="LA VALLE" target="REPORTER 1" weight="1" />
+      <edge id="21502" source="LA VALLE" target="DEVEREAUX" weight="2" />
+      <edge id="21503" source="LA VALLE" target="GIRL TV REPORTER" weight="1" />
+      <edge id="21504" source="LA VALLE" target="REPORTER" weight="1" />
+      <edge id="21505" source="LA VALLE" target="MARIE" weight="3" />
+      <edge id="21506" source="LA VALLE" target="CHARNIER" weight="3" />
+      <edge id="21507" source="LA VALLE" target="AUCTIONEER" weight="1" />
+      <edge id="21508" source="LA VALLE" target="DESK SERGEANT" weight="1" />
+      <edge id="21509" source="LA VALLE" target="MECHANIC" weight="1" />
+      <edge id="21510" source="LA VALLE" target="RUSSO" weight="1" />
+      <edge id="21511" source="SIMONSON" target="DOYLE" weight="2" />
+      <edge id="21512" source="SIMONSON" target="RUSSO" weight="3" />
+      <edge id="21513" source="SIMONSON" target="MULDERIG" weight="2" />
+      <edge id="21514" source="SIMONSON" target="OFFICER" weight="1" />
+      <edge id="21515" source="SAL" target="WHOLESALER" weight="1" />
+      <edge id="21516" source="SAL" target="RUSSO" weight="3" />
+      <edge id="21517" source="SAL" target="DOYLE" weight="2" />
+      <edge id="21518" source="SAL" target="ANGIE" weight="1" />
+      <edge id="21519" source="SAL" target="CHARNIER" weight="2" />
+      <edge id="21520" source="SAL" target="CHEMIST" weight="1" />
+      <edge id="21521" source="SAL" target="WEINSTOCK" weight="1" />
+      <edge id="21522" source="SAL" target="ATTENDANT" weight="1" />
+      <edge id="21523" source="WHOLESALER" target="SAL" weight="1" />
+      <edge id="21524" source="WHOLESALER" target="RUSSO" weight="1" />
+      <edge id="21525" source="WHOLESALER" target="DOYLE" weight="1" />
+      <edge id="21526" source="AUCTIONEER" target="LA VALLE" weight="1" />
+      <edge id="21527" source="AUCTIONEER" target="CHARNIER" weight="1" />
+      <edge id="21528" source="ANGIE" target="SAL" weight="1" />
+      <edge id="21529" source="EDITOR" target="DEVEREAUX" weight="1" />
+      <edge id="21530" source="JESUS" target="DOYLE" weight="1" />
+      <edge id="21531" source="JESUS" target="MUTCHIE" weight="1" />
+      <edge id="21532" source="JESUS" target="BAD EDDIE" weight="1" />
+      <edge id="21533" source="JESUS" target="PUGGY" weight="1" />
+      <edge id="21534" source="JESUS" target="LEE" weight="1" />
+      <edge id="21535" source="JESUS" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21536" source="MUTCHIE" target="JESUS" weight="1" />
+      <edge id="21537" source="MUTCHIE" target="DOYLE" weight="1" />
+      <edge id="21538" source="MUTCHIE" target="BAD EDDIE" weight="1" />
+      <edge id="21539" source="MUTCHIE" target="PUGGY" weight="1" />
+      <edge id="21540" source="MUTCHIE" target="LEE" weight="1" />
+      <edge id="21541" source="MUTCHIE" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21542" source="BAD EDDIE" target="JESUS" weight="1" />
+      <edge id="21543" source="BAD EDDIE" target="DOYLE" weight="1" />
+      <edge id="21544" source="BAD EDDIE" target="MUTCHIE" weight="1" />
+      <edge id="21545" source="BAD EDDIE" target="PUGGY" weight="1" />
+      <edge id="21546" source="BAD EDDIE" target="LEE" weight="1" />
+      <edge id="21547" source="BAD EDDIE" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21548" source="PUGGY" target="JESUS" weight="1" />
+      <edge id="21549" source="PUGGY" target="DOYLE" weight="1" />
+      <edge id="21550" source="PUGGY" target="MUTCHIE" weight="1" />
+      <edge id="21551" source="PUGGY" target="BAD EDDIE" weight="1" />
+      <edge id="21552" source="PUGGY" target="LEE" weight="1" />
+      <edge id="21553" source="PUGGY" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21554" source="LEE" target="JESUS" weight="1" />
+      <edge id="21555" source="LEE" target="DOYLE" weight="1" />
+      <edge id="21556" source="LEE" target="MUTCHIE" weight="1" />
+      <edge id="21557" source="LEE" target="BAD EDDIE" weight="1" />
+      <edge id="21558" source="LEE" target="PUGGY" weight="1" />
+      <edge id="21559" source="LEE" target="BAD EDDIE &amp; LEE" weight="1" />
+      <edge id="21560" source="BAD EDDIE &amp; LEE" target="JESUS" weight="1" />
+      <edge id="21561" source="BAD EDDIE &amp; LEE" target="DOYLE" weight="1" />
+      <edge id="21562" source="BAD EDDIE &amp; LEE" target="MUTCHIE" weight="1" />
+      <edge id="21563" source="BAD EDDIE &amp; LEE" target="BAD EDDIE" weight="1" />
+      <edge id="21564" source="BAD EDDIE &amp; LEE" target="PUGGY" weight="1" />
+      <edge id="21565" source="BAD EDDIE &amp; LEE" target="LEE" weight="1" />
+      <edge id="21566" source="GIRL" target="DOYLE" weight="1" />
+      <edge id="21567" source="MULDERIG" target="SIMONSON" weight="2" />
+      <edge id="21568" source="MULDERIG" target="RUSSO" weight="4" />
+      <edge id="21569" source="MULDERIG" target="DOYLE" weight="5" />
+      <edge id="21570" source="MULDERIG" target="BIKE GIRL" weight="1" />
+      <edge id="21571" source="MULDERIG" target="OFFICER" weight="1" />
+      <edge id="21572" source="BIKE GIRL" target="RUSSO" weight="1" />
+      <edge id="21573" source="BIKE GIRL" target="DOYLE" weight="1" />
+      <edge id="21574" source="BIKE GIRL" target="MULDERIG" weight="1" />
+      <edge id="21575" source="DESK CLERK" target="DOYLE" weight="1" />
+      <edge id="21576" source="CHEMIST" target="WEINSTOCK" weight="1" />
+      <edge id="21577" source="CHEMIST" target="SAL" weight="1" />
+      <edge id="21578" source="WEINSTOCK" target="CHEMIST" weight="1" />
+      <edge id="21579" source="WEINSTOCK" target="SAL" weight="1" />
+      <edge id="21580" source="HOOKER" target="DOYLE" weight="1" />
+      <edge id="21581" source="KID" target="DOYLE" weight="1" />
+      <edge id="21582" source="OFFICER" target="DOYLE" weight="1" />
+      <edge id="21583" source="OFFICER" target="SIMONSON" weight="1" />
+      <edge id="21584" source="OFFICER" target="MULDERIG" weight="1" />
+      <edge id="21585" source="OFFICER" target="RUSSO" weight="1" />
+      <edge id="21586" source="UNDERSECRETARY" target="CHARNIER" weight="1" />
+      <edge id="21587" source="TOKEN ATTENDANT" target="DOYLE" weight="1" />
+      <edge id="21588" source="DRIVER" target="DOYLE" weight="1" />
+      <edge id="21589" source="MOTORMAN" target="NICOLI" weight="1" />
+      <edge id="21590" source="MOTORMAN" target="VOICES" weight="1" />
+      <edge id="21591" source="VOICES" target="NICOLI" weight="1" />
+      <edge id="21592" source="VOICES" target="CONDUCTOR" weight="1" />
+      <edge id="21593" source="VOICES" target="MOTORMAN" weight="1" />
+      <edge id="21594" source="VOICES" target="DOYLE" weight="1" />
+      <edge id="21595" source="VOICES" target="RUSSO" weight="1" />
+      <edge id="21596" source="CONDUCTOR" target="VOICES" weight="1" />
+      <edge id="21597" source="CONDUCTOR" target="NICOLI" weight="1" />
+      <edge id="21598" source="ATTENDANT" target="RUSSO" weight="1" />
+      <edge id="21599" source="ATTENDANT" target="SAL" weight="1" />
+      <edge id="21600" source="MECHANIC" target="DOYLE" weight="1" />
+      <edge id="21601" source="MECHANIC" target="LA VALLE" weight="1" />
+      <edge id="21602" source="MECHANIC" target="DESK SERGEANT" weight="1" />
+      <edge id="21603" source="MECHANIC" target="DEVEREAUX" weight="1" />
+      <edge id="21604" source="MECHANIC" target="RUSSO" weight="1" />
+      <edge id="21605" source="DESK SERGEANT" target="LA VALLE" weight="1" />
+      <edge id="21606" source="DESK SERGEANT" target="DEVEREAUX" weight="1" />
+      <edge id="21607" source="DESK SERGEANT" target="MECHANIC" weight="1" />
+      <edge id="21608" source="DESK SERGEANT" target="RUSSO" weight="1" />
+      <edge id="21609" source="BOCA" target="FIRST MECHANIC" weight="1" />
+      <edge id="21610" source="BOCA" target="SECOND MECHANIC" weight="1" />
+      <edge id="21611" source="FIRST MECHANIC" target="BOCA" weight="1" />
+      <edge id="21612" source="FIRST MECHANIC" target="SECOND MECHANIC" weight="1" />
+      <edge id="21613" source="SECOND MECHANIC" target="BOCA" weight="1" />
+      <edge id="21614" source="SECOND MECHANIC" target="FIRST MECHANIC" weight="1" />
+    </edges>
+  </graph>
+</gexf>

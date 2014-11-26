@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="MONSIGNOR" label="MONSIGNOR" />
+      <node id="ANNABELLE MACMANUS" label="ANNABELLE MACMANUS" />
+      <node id="CONNOR" label="CONNOR" />
+      <node id="MURPHY" label="MURPHY" />
+      <node id="MCGERKIN" label="MCGERKIN" />
+      <node id="ROZ" label="ROZ" />
+      <node id="BOTH BOYS" label="BOTH BOYS" />
+      <node id="MOM" label="MOM" />
+      <node id="CONNOR &amp; MURPHY" label="CONNOR &amp; MURPHY" />
+      <node id="BOTH" label="BOTH" />
+      <node id="GREENLY" label="GREENLY" />
+      <node id="GREELY" label="GREELY" />
+      <node id="SMECKER" label="SMECKER" />
+      <node id="CHIEF" label="CHIEF" />
+      <node id="GREENY" label="GREENY" />
+      <node id="MITCHELL" label="MITCHELL" />
+      <node id="CHAFFEY" label="CHAFFEY" />
+      <node id="DOLLY" label="DOLLY" />
+      <node id="DUFFY" label="DUFFY" />
+      <node id="REPORTER" label="REPORTER" />
+      <node id="DOC" label="DOC" />
+      <node id="ROCCO" label="ROCCO" />
+      <node id="CHECKOV" label="CHECKOV" />
+      <node id="FRIEND #1" label="FRIEND #1" />
+      <node id="VINCENZO" label="VINCENZO" />
+      <node id="YAKAVETTA" label="YAKAVETTA" />
+      <node id="VINCENZO AND YAKAVETTA" label="VINCENZO AND YAKAVETTA" />
+      <node id="REUBEN" label="REUBEN" />
+      <node id="DONNA" label="DONNA" />
+      <node id="DANCER" label="DANCER" />
+      <node id="DONNA/RAYVIE" label="DONNA/RAYVIE" />
+      <node id="RAYVIE" label="RAYVIE" />
+      <node id="VINNIE" label="VINNIE" />
+      <node id="OLY" label="OLY" />
+      <node id="AUGUSTUS" label="AUGUSTUS" />
+      <node id="MR. COBB" label="MR. COBB" />
+      <node id="THE MAN" label="THE MAN" />
+      <node id="IL DUCE" label="IL DUCE" />
+      <node id="FORENSICS WOMAN #1" label="FORENSICS WOMAN #1" />
+      <node id="MARIA" label="MARIA" />
+      <node id="BARTENDER" label="BARTENDER" />
+      <node id="PRIEST" label="PRIEST" />
+      <node id="GENO" label="GENO" />
+      <node id="HOJO" label="HOJO" />
+      <node id="CHAPPY" label="CHAPPY" />
+      <node id="SMECKER AS WOMAN" label="SMECKER AS WOMAN" />
+      <node id="FATHER" label="FATHER" />
+      <node id="MEDIA MAN 1" label="MEDIA MAN 1" />
+      <node id="MEDIA MAN 2" label="MEDIA MAN 2" />
+      <node id="JUDGE" label="JUDGE" />
+      <node id="REPORTER 2" label="REPORTER 2" />
+      <node id="WOMAN" label="WOMAN" />
+    </nodes>
+    <edges>
+      <edge id="19915" source="MONSIGNOR" target="ANNABELLE MACMANUS" weight="1" />
+      <edge id="19916" source="ANNABELLE MACMANUS" target="MONSIGNOR" weight="1" />
+      <edge id="19917" source="CONNOR" target="MURPHY" weight="31" />
+      <edge id="19918" source="CONNOR" target="MCGERKIN" weight="1" />
+      <edge id="19919" source="CONNOR" target="ROZ" weight="2" />
+      <edge id="19920" source="CONNOR" target="BOTH BOYS" weight="1" />
+      <edge id="19921" source="CONNOR" target="MOM" weight="3" />
+      <edge id="19922" source="CONNOR" target="CONNOR &amp; MURPHY" weight="1" />
+      <edge id="19923" source="CONNOR" target="BOTH" weight="2" />
+      <edge id="19924" source="CONNOR" target="DOC" weight="3" />
+      <edge id="19925" source="CONNOR" target="SMECKER" weight="6" />
+      <edge id="19926" source="CONNOR" target="ROCCO" weight="19" />
+      <edge id="19927" source="CONNOR" target="CHECKOV" weight="1" />
+      <edge id="19928" source="CONNOR" target="FRIEND #1" weight="1" />
+      <edge id="19929" source="CONNOR" target="CHAFFEY" weight="1" />
+      <edge id="19930" source="CONNOR" target="DUFFY" weight="1" />
+      <edge id="19931" source="CONNOR" target="VINCENZO" weight="1" />
+      <edge id="19932" source="CONNOR" target="YAKAVETTA" weight="2" />
+      <edge id="19933" source="CONNOR" target="VINCENZO AND YAKAVETTA" weight="1" />
+      <edge id="19934" source="CONNOR" target="DONNA" weight="1" />
+      <edge id="19935" source="CONNOR" target="DONNA/RAYVIE" weight="1" />
+      <edge id="19936" source="CONNOR" target="RAYVIE" weight="1" />
+      <edge id="19937" source="CONNOR" target="THE MAN" weight="1" />
+      <edge id="19938" source="CONNOR" target="PRIEST" weight="1" />
+      <edge id="19939" source="CONNOR" target="FATHER" weight="2" />
+      <edge id="19940" source="CONNOR" target="JUDGE" weight="1" />
+      <edge id="19941" source="MURPHY" target="CONNOR" weight="31" />
+      <edge id="19942" source="MURPHY" target="MCGERKIN" weight="1" />
+      <edge id="19943" source="MURPHY" target="ROZ" weight="2" />
+      <edge id="19944" source="MURPHY" target="BOTH BOYS" weight="1" />
+      <edge id="19945" source="MURPHY" target="MOM" weight="3" />
+      <edge id="19946" source="MURPHY" target="CONNOR &amp; MURPHY" weight="1" />
+      <edge id="19947" source="MURPHY" target="BOTH" weight="2" />
+      <edge id="19948" source="MURPHY" target="DOC" weight="3" />
+      <edge id="19949" source="MURPHY" target="SMECKER" weight="6" />
+      <edge id="19950" source="MURPHY" target="CHAFFEY" weight="2" />
+      <edge id="19951" source="MURPHY" target="MITCHELL" weight="1" />
+      <edge id="19952" source="MURPHY" target="GREENLY" weight="1" />
+      <edge id="19953" source="MURPHY" target="ROCCO" weight="22" />
+      <edge id="19954" source="MURPHY" target="CHECKOV" weight="2" />
+      <edge id="19955" source="MURPHY" target="DUFFY" weight="1" />
+      <edge id="19956" source="MURPHY" target="VINCENZO" weight="1" />
+      <edge id="19957" source="MURPHY" target="YAKAVETTA" weight="2" />
+      <edge id="19958" source="MURPHY" target="VINCENZO AND YAKAVETTA" weight="1" />
+      <edge id="19959" source="MURPHY" target="DONNA" weight="2" />
+      <edge id="19960" source="MURPHY" target="DONNA/RAYVIE" weight="1" />
+      <edge id="19961" source="MURPHY" target="RAYVIE" weight="1" />
+      <edge id="19962" source="MURPHY" target="DANCER" weight="1" />
+      <edge id="19963" source="MURPHY" target="THE MAN" weight="1" />
+      <edge id="19964" source="MURPHY" target="FATHER" weight="2" />
+      <edge id="19965" source="MURPHY" target="JUDGE" weight="1" />
+      <edge id="19966" source="MCGERKIN" target="CONNOR" weight="1" />
+      <edge id="19967" source="MCGERKIN" target="ROZ" weight="1" />
+      <edge id="19968" source="MCGERKIN" target="BOTH BOYS" weight="1" />
+      <edge id="19969" source="MCGERKIN" target="MURPHY" weight="1" />
+      <edge id="19970" source="ROZ" target="CONNOR" weight="2" />
+      <edge id="19971" source="ROZ" target="MCGERKIN" weight="1" />
+      <edge id="19972" source="ROZ" target="BOTH BOYS" weight="1" />
+      <edge id="19973" source="ROZ" target="MURPHY" weight="2" />
+      <edge id="19974" source="BOTH BOYS" target="CONNOR" weight="1" />
+      <edge id="19975" source="BOTH BOYS" target="MCGERKIN" weight="1" />
+      <edge id="19976" source="BOTH BOYS" target="ROZ" weight="1" />
+      <edge id="19977" source="BOTH BOYS" target="MURPHY" weight="1" />
+      <edge id="19978" source="MOM" target="CONNOR" weight="3" />
+      <edge id="19979" source="MOM" target="MURPHY" weight="3" />
+      <edge id="19980" source="MOM" target="CONNOR &amp; MURPHY" weight="1" />
+      <edge id="19981" source="MOM" target="BOTH" weight="1" />
+      <edge id="19982" source="CONNOR &amp; MURPHY" target="CONNOR" weight="1" />
+      <edge id="19983" source="CONNOR &amp; MURPHY" target="MURPHY" weight="1" />
+      <edge id="19984" source="CONNOR &amp; MURPHY" target="MOM" weight="1" />
+      <edge id="19985" source="BOTH" target="CONNOR" weight="2" />
+      <edge id="19986" source="BOTH" target="MURPHY" weight="2" />
+      <edge id="19987" source="BOTH" target="MOM" weight="1" />
+      <edge id="19988" source="BOTH" target="ROCCO" weight="1" />
+      <edge id="19989" source="GREENLY" target="GREELY" weight="1" />
+      <edge id="19990" source="GREENLY" target="SMECKER" weight="8" />
+      <edge id="19991" source="GREENLY" target="CHIEF" weight="1" />
+      <edge id="19992" source="GREENLY" target="GREENY" weight="1" />
+      <edge id="19993" source="GREENLY" target="MITCHELL" weight="2" />
+      <edge id="19994" source="GREENLY" target="CHAFFEY" weight="2" />
+      <edge id="19995" source="GREENLY" target="DOLLY" weight="4" />
+      <edge id="19996" source="GREENLY" target="MURPHY" weight="1" />
+      <edge id="19997" source="GREENLY" target="DUFFY" weight="4" />
+      <edge id="19998" source="GREENLY" target="FORENSICS WOMAN #1" weight="1" />
+      <edge id="19999" source="GREELY" target="GREENLY" weight="1" />
+      <edge id="20000" source="GREELY" target="SMECKER" weight="1" />
+      <edge id="20001" source="GREELY" target="CHIEF" weight="1" />
+      <edge id="20002" source="GREELY" target="GREENY" weight="1" />
+      <edge id="20003" source="GREELY" target="MITCHELL" weight="1" />
+      <edge id="20004" source="GREELY" target="CHAFFEY" weight="1" />
+      <edge id="20005" source="GREELY" target="DOLLY" weight="1" />
+      <edge id="20006" source="SMECKER" target="GREENLY" weight="8" />
+      <edge id="20007" source="SMECKER" target="GREELY" weight="1" />
+      <edge id="20008" source="SMECKER" target="CHIEF" weight="1" />
+      <edge id="20009" source="SMECKER" target="GREENY" weight="1" />
+      <edge id="20010" source="SMECKER" target="MITCHELL" weight="4" />
+      <edge id="20011" source="SMECKER" target="CHAFFEY" weight="4" />
+      <edge id="20012" source="SMECKER" target="DOLLY" weight="7" />
+      <edge id="20013" source="SMECKER" target="DUFFY" weight="8" />
+      <edge id="20014" source="SMECKER" target="REPORTER" weight="1" />
+      <edge id="20015" source="SMECKER" target="MURPHY" weight="6" />
+      <edge id="20016" source="SMECKER" target="CONNOR" weight="6" />
+      <edge id="20017" source="SMECKER" target="DOC" weight="1" />
+      <edge id="20018" source="SMECKER" target="ROCCO" weight="6" />
+      <edge id="20019" source="SMECKER" target="REUBEN" weight="1" />
+      <edge id="20020" source="SMECKER" target="DANCER" weight="1" />
+      <edge id="20021" source="SMECKER" target="IL DUCE" weight="1" />
+      <edge id="20022" source="SMECKER" target="FORENSICS WOMAN #1" weight="1" />
+      <edge id="20023" source="SMECKER" target="MARIA" weight="1" />
+      <edge id="20024" source="SMECKER" target="BARTENDER" weight="1" />
+      <edge id="20025" source="SMECKER" target="PRIEST" weight="1" />
+      <edge id="20026" source="SMECKER" target="AUGUSTUS" weight="1" />
+      <edge id="20027" source="SMECKER" target="SMECKER AS WOMAN" weight="1" />
+      <edge id="20028" source="SMECKER" target="GENO" weight="1" />
+      <edge id="20029" source="SMECKER" target="CHAPPY" weight="1" />
+      <edge id="20030" source="CHIEF" target="GREENLY" weight="1" />
+      <edge id="20031" source="CHIEF" target="GREELY" weight="1" />
+      <edge id="20032" source="CHIEF" target="SMECKER" weight="1" />
+      <edge id="20033" source="CHIEF" target="GREENY" weight="1" />
+      <edge id="20034" source="CHIEF" target="MITCHELL" weight="1" />
+      <edge id="20035" source="CHIEF" target="CHAFFEY" weight="1" />
+      <edge id="20036" source="CHIEF" target="DOLLY" weight="1" />
+      <edge id="20037" source="GREENY" target="GREENLY" weight="1" />
+      <edge id="20038" source="GREENY" target="GREELY" weight="1" />
+      <edge id="20039" source="GREENY" target="SMECKER" weight="1" />
+      <edge id="20040" source="GREENY" target="CHIEF" weight="1" />
+      <edge id="20041" source="GREENY" target="MITCHELL" weight="1" />
+      <edge id="20042" source="GREENY" target="CHAFFEY" weight="1" />
+      <edge id="20043" source="GREENY" target="DOLLY" weight="1" />
+      <edge id="20044" source="MITCHELL" target="GREENLY" weight="2" />
+      <edge id="20045" source="MITCHELL" target="GREELY" weight="1" />
+      <edge id="20046" source="MITCHELL" target="SMECKER" weight="4" />
+      <edge id="20047" source="MITCHELL" target="CHIEF" weight="1" />
+      <edge id="20048" source="MITCHELL" target="GREENY" weight="1" />
+      <edge id="20049" source="MITCHELL" target="CHAFFEY" weight="3" />
+      <edge id="20050" source="MITCHELL" target="DOLLY" weight="1" />
+      <edge id="20051" source="MITCHELL" target="REPORTER" weight="1" />
+      <edge id="20052" source="MITCHELL" target="DUFFY" weight="1" />
+      <edge id="20053" source="MITCHELL" target="MURPHY" weight="1" />
+      <edge id="20054" source="CHAFFEY" target="GREENLY" weight="2" />
+      <edge id="20055" source="CHAFFEY" target="GREELY" weight="1" />
+      <edge id="20056" source="CHAFFEY" target="SMECKER" weight="4" />
+      <edge id="20057" source="CHAFFEY" target="CHIEF" weight="1" />
+      <edge id="20058" source="CHAFFEY" target="GREENY" weight="1" />
+      <edge id="20059" source="CHAFFEY" target="MITCHELL" weight="3" />
+      <edge id="20060" source="CHAFFEY" target="DOLLY" weight="1" />
+      <edge id="20061" source="CHAFFEY" target="MURPHY" weight="2" />
+      <edge id="20062" source="CHAFFEY" target="CONNOR" weight="1" />
+      <edge id="20063" source="DOLLY" target="GREENLY" weight="4" />
+      <edge id="20064" source="DOLLY" target="GREELY" weight="1" />
+      <edge id="20065" source="DOLLY" target="SMECKER" weight="7" />
+      <edge id="20066" source="DOLLY" target="CHIEF" weight="1" />
+      <edge id="20067" source="DOLLY" target="GREENY" weight="1" />
+      <edge id="20068" source="DOLLY" target="MITCHELL" weight="1" />
+      <edge id="20069" source="DOLLY" target="CHAFFEY" weight="1" />
+      <edge id="20070" source="DOLLY" target="DUFFY" weight="5" />
+      <edge id="20071" source="DOLLY" target="DANCER" weight="1" />
+      <edge id="20072" source="DUFFY" target="SMECKER" weight="8" />
+      <edge id="20073" source="DUFFY" target="MITCHELL" weight="1" />
+      <edge id="20074" source="DUFFY" target="REPORTER" weight="1" />
+      <edge id="20075" source="DUFFY" target="CONNOR" weight="1" />
+      <edge id="20076" source="DUFFY" target="MURPHY" weight="1" />
+      <edge id="20077" source="DUFFY" target="GREENLY" weight="4" />
+      <edge id="20078" source="DUFFY" target="DOLLY" weight="5" />
+      <edge id="20079" source="DUFFY" target="FORENSICS WOMAN #1" weight="1" />
+      <edge id="20080" source="REPORTER" target="MITCHELL" weight="1" />
+      <edge id="20081" source="REPORTER" target="SMECKER" weight="1" />
+      <edge id="20082" source="REPORTER" target="DUFFY" weight="1" />
+      <edge id="20083" source="REPORTER" target="REPORTER 2" weight="1" />
+      <edge id="20084" source="REPORTER" target="WOMAN" weight="1" />
+      <edge id="20085" source="DOC" target="MURPHY" weight="3" />
+      <edge id="20086" source="DOC" target="CONNOR" weight="3" />
+      <edge id="20087" source="DOC" target="SMECKER" weight="1" />
+      <edge id="20088" source="DOC" target="ROCCO" weight="2" />
+      <edge id="20089" source="DOC" target="CHECKOV" weight="1" />
+      <edge id="20090" source="ROCCO" target="SMECKER" weight="6" />
+      <edge id="20091" source="ROCCO" target="MURPHY" weight="22" />
+      <edge id="20092" source="ROCCO" target="CONNOR" weight="19" />
+      <edge id="20093" source="ROCCO" target="DOC" weight="2" />
+      <edge id="20094" source="ROCCO" target="CHECKOV" weight="1" />
+      <edge id="20095" source="ROCCO" target="VINCENZO" weight="1" />
+      <edge id="20096" source="ROCCO" target="YAKAVETTA" weight="1" />
+      <edge id="20097" source="ROCCO" target="VINCENZO AND YAKAVETTA" weight="1" />
+      <edge id="20098" source="ROCCO" target="BOTH" weight="1" />
+      <edge id="20099" source="ROCCO" target="DONNA" weight="2" />
+      <edge id="20100" source="ROCCO" target="DONNA/RAYVIE" weight="1" />
+      <edge id="20101" source="ROCCO" target="RAYVIE" weight="1" />
+      <edge id="20102" source="ROCCO" target="VINNIE" weight="1" />
+      <edge id="20103" source="ROCCO" target="OLY" weight="1" />
+      <edge id="20104" source="ROCCO" target="DANCER" weight="1" />
+      <edge id="20105" source="ROCCO" target="THE MAN" weight="1" />
+      <edge id="20106" source="ROCCO" target="PRIEST" weight="3" />
+      <edge id="20107" source="CHECKOV" target="ROCCO" weight="1" />
+      <edge id="20108" source="CHECKOV" target="DOC" weight="1" />
+      <edge id="20109" source="CHECKOV" target="CONNOR" weight="1" />
+      <edge id="20110" source="CHECKOV" target="MURPHY" weight="2" />
+      <edge id="20111" source="FRIEND #1" target="CONNOR" weight="1" />
+      <edge id="20112" source="VINCENZO" target="ROCCO" weight="1" />
+      <edge id="20113" source="VINCENZO" target="YAKAVETTA" weight="1" />
+      <edge id="20114" source="VINCENZO" target="VINCENZO AND YAKAVETTA" weight="1" />
+      <edge id="20115" source="VINCENZO" target="CONNOR" weight="1" />
+      <edge id="20116" source="VINCENZO" target="MURPHY" weight="1" />
+      <edge id="20117" source="YAKAVETTA" target="VINCENZO" weight="1" />
+      <edge id="20118" source="YAKAVETTA" target="ROCCO" weight="1" />
+      <edge id="20119" source="YAKAVETTA" target="VINCENZO AND YAKAVETTA" weight="1" />
+      <edge id="20120" source="YAKAVETTA" target="CONNOR" weight="2" />
+      <edge id="20121" source="YAKAVETTA" target="MURPHY" weight="2" />
+      <edge id="20122" source="YAKAVETTA" target="AUGUSTUS" weight="2" />
+      <edge id="20123" source="YAKAVETTA" target="GENO" weight="2" />
+      <edge id="20124" source="YAKAVETTA" target="HOJO" weight="2" />
+      <edge id="20125" source="YAKAVETTA" target="CHAPPY" weight="1" />
+      <edge id="20126" source="YAKAVETTA" target="JUDGE" weight="1" />
+      <edge id="20127" source="YAKAVETTA" target="FATHER" weight="1" />
+      <edge id="20128" source="VINCENZO AND YAKAVETTA" target="VINCENZO" weight="1" />
+      <edge id="20129" source="VINCENZO AND YAKAVETTA" target="ROCCO" weight="1" />
+      <edge id="20130" source="VINCENZO AND YAKAVETTA" target="YAKAVETTA" weight="1" />
+      <edge id="20131" source="VINCENZO AND YAKAVETTA" target="CONNOR" weight="1" />
+      <edge id="20132" source="VINCENZO AND YAKAVETTA" target="MURPHY" weight="1" />
+      <edge id="20133" source="REUBEN" target="SMECKER" weight="1" />
+      <edge id="20134" source="DONNA" target="MURPHY" weight="2" />
+      <edge id="20135" source="DONNA" target="ROCCO" weight="2" />
+      <edge id="20136" source="DONNA" target="CONNOR" weight="1" />
+      <edge id="20137" source="DONNA" target="DONNA/RAYVIE" weight="1" />
+      <edge id="20138" source="DONNA" target="RAYVIE" weight="1" />
+      <edge id="20139" source="DANCER" target="DOLLY" weight="1" />
+      <edge id="20140" source="DANCER" target="SMECKER" weight="1" />
+      <edge id="20141" source="DANCER" target="ROCCO" weight="1" />
+      <edge id="20142" source="DANCER" target="MURPHY" weight="1" />
+      <edge id="20143" source="DONNA/RAYVIE" target="ROCCO" weight="1" />
+      <edge id="20144" source="DONNA/RAYVIE" target="CONNOR" weight="1" />
+      <edge id="20145" source="DONNA/RAYVIE" target="DONNA" weight="1" />
+      <edge id="20146" source="DONNA/RAYVIE" target="MURPHY" weight="1" />
+      <edge id="20147" source="DONNA/RAYVIE" target="RAYVIE" weight="1" />
+      <edge id="20148" source="RAYVIE" target="ROCCO" weight="1" />
+      <edge id="20149" source="RAYVIE" target="CONNOR" weight="1" />
+      <edge id="20150" source="RAYVIE" target="DONNA" weight="1" />
+      <edge id="20151" source="RAYVIE" target="MURPHY" weight="1" />
+      <edge id="20152" source="RAYVIE" target="DONNA/RAYVIE" weight="1" />
+      <edge id="20153" source="VINNIE" target="ROCCO" weight="1" />
+      <edge id="20154" source="VINNIE" target="OLY" weight="1" />
+      <edge id="20155" source="OLY" target="ROCCO" weight="1" />
+      <edge id="20156" source="OLY" target="VINNIE" weight="1" />
+      <edge id="20157" source="AUGUSTUS" target="YAKAVETTA" weight="2" />
+      <edge id="20158" source="AUGUSTUS" target="SMECKER" weight="1" />
+      <edge id="20159" source="THE MAN" target="ROCCO" weight="1" />
+      <edge id="20160" source="THE MAN" target="MURPHY" weight="1" />
+      <edge id="20161" source="THE MAN" target="CONNOR" weight="1" />
+      <edge id="20162" source="IL DUCE" target="SMECKER" weight="1" />
+      <edge id="20163" source="FORENSICS WOMAN #1" target="GREENLY" weight="1" />
+      <edge id="20164" source="FORENSICS WOMAN #1" target="SMECKER" weight="1" />
+      <edge id="20165" source="FORENSICS WOMAN #1" target="DUFFY" weight="1" />
+      <edge id="20166" source="MARIA" target="SMECKER" weight="1" />
+      <edge id="20167" source="BARTENDER" target="SMECKER" weight="1" />
+      <edge id="20168" source="PRIEST" target="ROCCO" weight="3" />
+      <edge id="20169" source="PRIEST" target="CONNOR" weight="1" />
+      <edge id="20170" source="PRIEST" target="SMECKER" weight="1" />
+      <edge id="20171" source="GENO" target="YAKAVETTA" weight="2" />
+      <edge id="20172" source="GENO" target="HOJO" weight="2" />
+      <edge id="20173" source="GENO" target="CHAPPY" weight="2" />
+      <edge id="20174" source="GENO" target="SMECKER AS WOMAN" weight="1" />
+      <edge id="20175" source="GENO" target="SMECKER" weight="1" />
+      <edge id="20176" source="HOJO" target="YAKAVETTA" weight="2" />
+      <edge id="20177" source="HOJO" target="GENO" weight="2" />
+      <edge id="20178" source="HOJO" target="CHAPPY" weight="1" />
+      <edge id="20179" source="CHAPPY" target="YAKAVETTA" weight="1" />
+      <edge id="20180" source="CHAPPY" target="HOJO" weight="1" />
+      <edge id="20181" source="CHAPPY" target="GENO" weight="2" />
+      <edge id="20182" source="CHAPPY" target="SMECKER AS WOMAN" weight="1" />
+      <edge id="20183" source="CHAPPY" target="SMECKER" weight="1" />
+      <edge id="20184" source="SMECKER AS WOMAN" target="GENO" weight="1" />
+      <edge id="20185" source="SMECKER AS WOMAN" target="SMECKER" weight="1" />
+      <edge id="20186" source="SMECKER AS WOMAN" target="CHAPPY" weight="1" />
+      <edge id="20187" source="FATHER" target="CONNOR" weight="2" />
+      <edge id="20188" source="FATHER" target="MURPHY" weight="2" />
+      <edge id="20189" source="FATHER" target="JUDGE" weight="1" />
+      <edge id="20190" source="FATHER" target="YAKAVETTA" weight="1" />
+      <edge id="20191" source="MEDIA MAN 1" target="MEDIA MAN 2" weight="1" />
+      <edge id="20192" source="MEDIA MAN 2" target="MEDIA MAN 1" weight="1" />
+      <edge id="20193" source="JUDGE" target="FATHER" weight="1" />
+      <edge id="20194" source="JUDGE" target="YAKAVETTA" weight="1" />
+      <edge id="20195" source="JUDGE" target="CONNOR" weight="1" />
+      <edge id="20196" source="JUDGE" target="MURPHY" weight="1" />
+      <edge id="20197" source="REPORTER 2" target="WOMAN" weight="1" />
+      <edge id="20198" source="REPORTER 2" target="REPORTER" weight="1" />
+      <edge id="20199" source="WOMAN" target="REPORTER 2" weight="1" />
+      <edge id="20200" source="WOMAN" target="REPORTER" weight="1" />
+    </edges>
+  </graph>
+</gexf>

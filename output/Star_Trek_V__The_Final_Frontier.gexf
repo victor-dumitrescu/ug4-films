@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="26/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Character graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="RIDER" label="RIDER" />
+      <node id="J'ONN" label="J'ONN" />
+      <node id="McCOY" label="McCOY" />
+      <node id="SPOCK" label="SPOCK" />
+      <node id="KIRK" label="KIRK" />
+      <node id="McCoy" label="McCoy" />
+      <node id="CAITHLIN" label="CAITHLIN" />
+      <node id="TALBOT" label="TALBOT" />
+      <node id="KORRD" label="KORRD" />
+      <node id="SYBOK" label="SYBOK" />
+      <node id="SCOTTY'S VOICE" label="SCOTTY'S VOICE" />
+      <node id="SCOTTY" label="SCOTTY" />
+      <node id="UHURA" label="UHURA" />
+      <node id="COMPUTER VOICE" label="COMPUTER VOICE" />
+      <node id="COMMAND VOICE" label="COMMAND VOICE" />
+      <node id="CHEKOV" label="CHEKOV" />
+      <node id="SULU" label="SULU" />
+      <node id="UHURA'S VOICE" label="UHURA'S VOICE" />
+      <node id="KIRK AND McCOY" label="KIRK AND McCOY" />
+      <node id="VIXIS" label="VIXIS" />
+      <node id="KLAA" label="KLAA" />
+      <node id="ELEVATOR VOICE" label="ELEVATOR VOICE" />
+      <node id="FEMALE YEOMAN'S VOICE" label="FEMALE YEOMAN'S VOICE" />
+      <node id="COMMANDER'S VOICE" label="COMMANDER'S VOICE" />
+      <node id="COMMANDERS IMAGE" label="COMMANDERS IMAGE" />
+      <node id="KIRK'S VOICE" label="KIRK'S VOICE" />
+      <node id="CAITHLIN'S IMAGE" label="CAITHLIN'S IMAGE" />
+      <node id="SYBOK'S IMAGE" label="SYBOK'S IMAGE" />
+      <node id="CHEKOV'S VOICE" label="CHEKOV'S VOICE" />
+      <node id="CHEKOV'S IMAGE" label="CHEKOV'S IMAGE" />
+      <node id="BLACK SOLDIER" label="BLACK SOLDIER" />
+      <node id="SOLDIER" label="SOLDIER" />
+      <node id="SYBOK'S VOICE" label="SYBOK'S VOICE" />
+      <node id="TOGETHER" label="TOGETHER" />
+      <node id="FEMALE VOICE" label="FEMALE VOICE" />
+      <node id="MAN'S VOICE" label="MAN'S VOICE" />
+      <node id="FATHER" label="FATHER" />
+      <node id="SAREK" label="SAREK" />
+      <node id="VOICE" label="VOICE" />
+      <node id="BEING" label="BEING" />
+      <node id="KLAA'S IMAGE" label="KLAA'S IMAGE" />
+      <node id="SPOCK'S VOICE" label="SPOCK'S VOICE" />
+    </nodes>
+    <edges>
+      <edge id="16421" source="RIDER" target="J'ONN" weight="1" />
+      <edge id="16422" source="J'ONN" target="RIDER" weight="1" />
+      <edge id="16423" source="J'ONN" target="SYBOK" weight="1" />
+      <edge id="16424" source="J'ONN" target="TALBOT" weight="1" />
+      <edge id="16425" source="J'ONN" target="CAITHLIN" weight="1" />
+      <edge id="16426" source="J'ONN" target="KIRK" weight="2" />
+      <edge id="16427" source="J'ONN" target="SPOCK" weight="1" />
+      <edge id="16428" source="J'ONN" target="SULU" weight="1" />
+      <edge id="16429" source="McCOY" target="SPOCK" weight="17" />
+      <edge id="16430" source="McCOY" target="KIRK" weight="22" />
+      <edge id="16431" source="McCOY" target="McCoy" weight="3" />
+      <edge id="16432" source="McCOY" target="KIRK AND McCOY" weight="1" />
+      <edge id="16433" source="McCOY" target="KLAA" weight="1" />
+      <edge id="16434" source="McCOY" target="VIXIS" weight="1" />
+      <edge id="16435" source="McCOY" target="UHURA" weight="4" />
+      <edge id="16436" source="McCOY" target="UHURA'S VOICE" weight="3" />
+      <edge id="16437" source="McCOY" target="SCOTTY" weight="5" />
+      <edge id="16438" source="McCOY" target="SULU" weight="4" />
+      <edge id="16439" source="McCOY" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16440" source="McCOY" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16441" source="McCOY" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16442" source="McCOY" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16443" source="McCOY" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16444" source="McCOY" target="COMPUTER VOICE" weight="1" />
+      <edge id="16445" source="McCOY" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16446" source="McCOY" target="SYBOK'S IMAGE" weight="2" />
+      <edge id="16447" source="McCOY" target="SYBOK" weight="5" />
+      <edge id="16448" source="McCOY" target="KORRD" weight="3" />
+      <edge id="16449" source="McCOY" target="CAITHLIN" weight="1" />
+      <edge id="16450" source="McCOY" target="TOGETHER" weight="1" />
+      <edge id="16451" source="McCOY" target="MAN'S VOICE" weight="1" />
+      <edge id="16452" source="McCOY" target="FATHER" weight="1" />
+      <edge id="16453" source="McCOY" target="SAREK" weight="1" />
+      <edge id="16454" source="McCOY" target="VOICE" weight="1" />
+      <edge id="16455" source="McCOY" target="BEING" weight="2" />
+      <edge id="16456" source="McCOY" target="KLAA'S IMAGE" weight="1" />
+      <edge id="16457" source="McCOY" target="TALBOT" weight="1" />
+      <edge id="16458" source="McCOY" target="CHEKOV" weight="1" />
+      <edge id="16459" source="SPOCK" target="McCOY" weight="17" />
+      <edge id="16460" source="SPOCK" target="KIRK" weight="29" />
+      <edge id="16461" source="SPOCK" target="McCoy" weight="3" />
+      <edge id="16462" source="SPOCK" target="KIRK AND McCOY" weight="1" />
+      <edge id="16463" source="SPOCK" target="UHURA'S VOICE" weight="3" />
+      <edge id="16464" source="SPOCK" target="SCOTTY" weight="6" />
+      <edge id="16465" source="SPOCK" target="SULU" weight="4" />
+      <edge id="16466" source="SPOCK" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16467" source="SPOCK" target="COMPUTER VOICE" weight="1" />
+      <edge id="16468" source="SPOCK" target="UHURA" weight="2" />
+      <edge id="16469" source="SPOCK" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16470" source="SPOCK" target="SYBOK'S IMAGE" weight="2" />
+      <edge id="16471" source="SPOCK" target="KIRK'S VOICE" weight="1" />
+      <edge id="16472" source="SPOCK" target="J'ONN" weight="1" />
+      <edge id="16473" source="SPOCK" target="SYBOK" weight="6" />
+      <edge id="16474" source="SPOCK" target="CHEKOV'S VOICE" weight="1" />
+      <edge id="16475" source="SPOCK" target="KORRD" weight="5" />
+      <edge id="16476" source="SPOCK" target="CAITHLIN" weight="1" />
+      <edge id="16477" source="SPOCK" target="TOGETHER" weight="1" />
+      <edge id="16478" source="SPOCK" target="FEMALE VOICE" weight="1" />
+      <edge id="16479" source="SPOCK" target="MAN'S VOICE" weight="1" />
+      <edge id="16480" source="SPOCK" target="FATHER" weight="1" />
+      <edge id="16481" source="SPOCK" target="SAREK" weight="1" />
+      <edge id="16482" source="SPOCK" target="BEING" weight="1" />
+      <edge id="16483" source="SPOCK" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16484" source="SPOCK" target="KLAA'S IMAGE" weight="1" />
+      <edge id="16485" source="SPOCK" target="KLAA" weight="1" />
+      <edge id="16486" source="SPOCK" target="TALBOT" weight="1" />
+      <edge id="16487" source="SPOCK" target="CHEKOV" weight="1" />
+      <edge id="16488" source="KIRK" target="McCOY" weight="22" />
+      <edge id="16489" source="KIRK" target="SPOCK" weight="29" />
+      <edge id="16490" source="KIRK" target="McCoy" weight="3" />
+      <edge id="16491" source="KIRK" target="KIRK AND McCOY" weight="1" />
+      <edge id="16492" source="KIRK" target="KLAA" weight="2" />
+      <edge id="16493" source="KIRK" target="VIXIS" weight="1" />
+      <edge id="16494" source="KIRK" target="UHURA" weight="5" />
+      <edge id="16495" source="KIRK" target="UHURA'S VOICE" weight="3" />
+      <edge id="16496" source="KIRK" target="SCOTTY" weight="6" />
+      <edge id="16497" source="KIRK" target="SULU" weight="8" />
+      <edge id="16498" source="KIRK" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16499" source="KIRK" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16500" source="KIRK" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16501" source="KIRK" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16502" source="KIRK" target="SCOTTY'S VOICE" weight="2" />
+      <edge id="16503" source="KIRK" target="COMPUTER VOICE" weight="1" />
+      <edge id="16504" source="KIRK" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16505" source="KIRK" target="SYBOK'S IMAGE" weight="2" />
+      <edge id="16506" source="KIRK" target="KIRK'S VOICE" weight="1" />
+      <edge id="16507" source="KIRK" target="J'ONN" weight="2" />
+      <edge id="16508" source="KIRK" target="CAITHLIN" weight="3" />
+      <edge id="16509" source="KIRK" target="KORRD" weight="6" />
+      <edge id="16510" source="KIRK" target="TALBOT" weight="4" />
+      <edge id="16511" source="KIRK" target="SYBOK" weight="11" />
+      <edge id="16512" source="KIRK" target="CHEKOV'S VOICE" weight="2" />
+      <edge id="16513" source="KIRK" target="TOGETHER" weight="1" />
+      <edge id="16514" source="KIRK" target="FEMALE VOICE" weight="1" />
+      <edge id="16515" source="KIRK" target="MAN'S VOICE" weight="1" />
+      <edge id="16516" source="KIRK" target="FATHER" weight="1" />
+      <edge id="16517" source="KIRK" target="SAREK" weight="1" />
+      <edge id="16518" source="KIRK" target="CHEKOV" weight="3" />
+      <edge id="16519" source="KIRK" target="VOICE" weight="1" />
+      <edge id="16520" source="KIRK" target="BEING" weight="2" />
+      <edge id="16521" source="McCoy" target="McCOY" weight="3" />
+      <edge id="16522" source="McCoy" target="SPOCK" weight="3" />
+      <edge id="16523" source="McCoy" target="KIRK" weight="3" />
+      <edge id="16524" source="McCoy" target="KIRK AND McCOY" weight="1" />
+      <edge id="16525" source="McCoy" target="UHURA'S VOICE" weight="1" />
+      <edge id="16526" source="CAITHLIN" target="TALBOT" weight="5" />
+      <edge id="16527" source="CAITHLIN" target="KORRD" weight="4" />
+      <edge id="16528" source="CAITHLIN" target="J'ONN" weight="1" />
+      <edge id="16529" source="CAITHLIN" target="SYBOK" weight="3" />
+      <edge id="16530" source="CAITHLIN" target="KIRK" weight="3" />
+      <edge id="16531" source="CAITHLIN" target="SPOCK" weight="1" />
+      <edge id="16532" source="CAITHLIN" target="McCOY" weight="1" />
+      <edge id="16533" source="CAITHLIN" target="CHEKOV" weight="1" />
+      <edge id="16534" source="TALBOT" target="CAITHLIN" weight="5" />
+      <edge id="16535" source="TALBOT" target="KORRD" weight="4" />
+      <edge id="16536" source="TALBOT" target="J'ONN" weight="1" />
+      <edge id="16537" source="TALBOT" target="SYBOK" weight="2" />
+      <edge id="16538" source="TALBOT" target="KIRK" weight="4" />
+      <edge id="16539" source="TALBOT" target="CHEKOV'S VOICE" weight="1" />
+      <edge id="16540" source="TALBOT" target="CHEKOV" weight="2" />
+      <edge id="16541" source="TALBOT" target="SCOTTY" weight="1" />
+      <edge id="16542" source="TALBOT" target="McCOY" weight="1" />
+      <edge id="16543" source="TALBOT" target="SPOCK" weight="1" />
+      <edge id="16544" source="KORRD" target="CAITHLIN" weight="4" />
+      <edge id="16545" source="KORRD" target="TALBOT" weight="4" />
+      <edge id="16546" source="KORRD" target="KIRK" weight="6" />
+      <edge id="16547" source="KORRD" target="CHEKOV'S VOICE" weight="1" />
+      <edge id="16548" source="KORRD" target="SYBOK" weight="3" />
+      <edge id="16549" source="KORRD" target="SPOCK" weight="5" />
+      <edge id="16550" source="KORRD" target="McCOY" weight="3" />
+      <edge id="16551" source="KORRD" target="CHEKOV" weight="2" />
+      <edge id="16552" source="KORRD" target="UHURA" weight="1" />
+      <edge id="16553" source="KORRD" target="KLAA'S IMAGE" weight="1" />
+      <edge id="16554" source="KORRD" target="KLAA" weight="1" />
+      <edge id="16555" source="KORRD" target="SCOTTY" weight="1" />
+      <edge id="16556" source="SYBOK" target="J'ONN" weight="1" />
+      <edge id="16557" source="SYBOK" target="TALBOT" weight="2" />
+      <edge id="16558" source="SYBOK" target="CAITHLIN" weight="3" />
+      <edge id="16559" source="SYBOK" target="CHEKOV'S IMAGE" weight="3" />
+      <edge id="16560" source="SYBOK" target="SPOCK" weight="6" />
+      <edge id="16561" source="SYBOK" target="KIRK" weight="11" />
+      <edge id="16562" source="SYBOK" target="CHEKOV'S VOICE" weight="1" />
+      <edge id="16563" source="SYBOK" target="KORRD" weight="3" />
+      <edge id="16564" source="SYBOK" target="McCOY" weight="5" />
+      <edge id="16565" source="SYBOK" target="SULU" weight="5" />
+      <edge id="16566" source="SYBOK" target="CHEKOV" weight="4" />
+      <edge id="16567" source="SYBOK" target="UHURA" weight="1" />
+      <edge id="16568" source="SYBOK" target="MAN'S VOICE" weight="1" />
+      <edge id="16569" source="SYBOK" target="FATHER" weight="1" />
+      <edge id="16570" source="SYBOK" target="SAREK" weight="1" />
+      <edge id="16571" source="SYBOK" target="UHURA'S VOICE" weight="1" />
+      <edge id="16572" source="SYBOK" target="VOICE" weight="1" />
+      <edge id="16573" source="SYBOK" target="BEING" weight="2" />
+      <edge id="16574" source="SCOTTY'S VOICE" target="KIRK" weight="2" />
+      <edge id="16575" source="SCOTTY'S VOICE" target="McCOY" weight="1" />
+      <edge id="16576" source="SCOTTY'S VOICE" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16577" source="SCOTTY'S VOICE" target="UHURA" weight="1" />
+      <edge id="16578" source="SCOTTY'S VOICE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16579" source="SCOTTY'S VOICE" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16580" source="SCOTTY'S VOICE" target="SCOTTY" weight="1" />
+      <edge id="16581" source="SCOTTY'S VOICE" target="SULU" weight="1" />
+      <edge id="16582" source="SCOTTY'S VOICE" target="SPOCK" weight="1" />
+      <edge id="16583" source="SCOTTY" target="UHURA" weight="3" />
+      <edge id="16584" source="SCOTTY" target="COMPUTER VOICE" weight="1" />
+      <edge id="16585" source="SCOTTY" target="COMMAND VOICE" weight="1" />
+      <edge id="16586" source="SCOTTY" target="UHURA'S VOICE" weight="1" />
+      <edge id="16587" source="SCOTTY" target="SULU" weight="2" />
+      <edge id="16588" source="SCOTTY" target="KIRK" weight="6" />
+      <edge id="16589" source="SCOTTY" target="McCOY" weight="5" />
+      <edge id="16590" source="SCOTTY" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16591" source="SCOTTY" target="SPOCK" weight="6" />
+      <edge id="16592" source="SCOTTY" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16593" source="SCOTTY" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16594" source="SCOTTY" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16595" source="SCOTTY" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16596" source="SCOTTY" target="CHEKOV" weight="4" />
+      <edge id="16597" source="SCOTTY" target="KIRK'S VOICE" weight="1" />
+      <edge id="16598" source="SCOTTY" target="SYBOK'S IMAGE" weight="1" />
+      <edge id="16599" source="SCOTTY" target="TOGETHER" weight="1" />
+      <edge id="16600" source="SCOTTY" target="KORRD" weight="1" />
+      <edge id="16601" source="SCOTTY" target="TALBOT" weight="1" />
+      <edge id="16602" source="UHURA" target="SCOTTY" weight="3" />
+      <edge id="16603" source="UHURA" target="COMPUTER VOICE" weight="2" />
+      <edge id="16604" source="UHURA" target="COMMAND VOICE" weight="1" />
+      <edge id="16605" source="UHURA" target="CHEKOV" weight="2" />
+      <edge id="16606" source="UHURA" target="SULU" weight="4" />
+      <edge id="16607" source="UHURA" target="KLAA" weight="1" />
+      <edge id="16608" source="UHURA" target="VIXIS" weight="1" />
+      <edge id="16609" source="UHURA" target="McCOY" weight="4" />
+      <edge id="16610" source="UHURA" target="KIRK" weight="5" />
+      <edge id="16611" source="UHURA" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16612" source="UHURA" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16613" source="UHURA" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16614" source="UHURA" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16615" source="UHURA" target="SPOCK" weight="2" />
+      <edge id="16616" source="UHURA" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16617" source="UHURA" target="SYBOK'S IMAGE" weight="1" />
+      <edge id="16618" source="UHURA" target="BLACK SOLDIER" weight="1" />
+      <edge id="16619" source="UHURA" target="SOLDIER" weight="1" />
+      <edge id="16620" source="UHURA" target="SYBOK" weight="1" />
+      <edge id="16621" source="UHURA" target="KLAA'S IMAGE" weight="1" />
+      <edge id="16622" source="UHURA" target="KORRD" weight="1" />
+      <edge id="16623" source="COMPUTER VOICE" target="SCOTTY" weight="1" />
+      <edge id="16624" source="COMPUTER VOICE" target="UHURA" weight="2" />
+      <edge id="16625" source="COMPUTER VOICE" target="COMMAND VOICE" weight="1" />
+      <edge id="16626" source="COMPUTER VOICE" target="KIRK" weight="1" />
+      <edge id="16627" source="COMPUTER VOICE" target="SPOCK" weight="1" />
+      <edge id="16628" source="COMPUTER VOICE" target="McCOY" weight="1" />
+      <edge id="16629" source="COMPUTER VOICE" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16630" source="COMPUTER VOICE" target="SYBOK'S IMAGE" weight="1" />
+      <edge id="16631" source="COMMAND VOICE" target="SCOTTY" weight="1" />
+      <edge id="16632" source="COMMAND VOICE" target="UHURA" weight="1" />
+      <edge id="16633" source="COMMAND VOICE" target="COMPUTER VOICE" weight="1" />
+      <edge id="16634" source="CHEKOV" target="SULU" weight="6" />
+      <edge id="16635" source="CHEKOV" target="UHURA'S VOICE" weight="1" />
+      <edge id="16636" source="CHEKOV" target="UHURA" weight="2" />
+      <edge id="16637" source="CHEKOV" target="SCOTTY" weight="4" />
+      <edge id="16638" source="CHEKOV" target="KIRK'S VOICE" weight="1" />
+      <edge id="16639" source="CHEKOV" target="SYBOK" weight="4" />
+      <edge id="16640" source="CHEKOV" target="KORRD" weight="2" />
+      <edge id="16641" source="CHEKOV" target="CAITHLIN" weight="1" />
+      <edge id="16642" source="CHEKOV" target="TALBOT" weight="2" />
+      <edge id="16643" source="CHEKOV" target="KIRK" weight="3" />
+      <edge id="16644" source="CHEKOV" target="McCOY" weight="1" />
+      <edge id="16645" source="CHEKOV" target="SPOCK" weight="1" />
+      <edge id="16646" source="SULU" target="CHEKOV" weight="6" />
+      <edge id="16647" source="SULU" target="UHURA'S VOICE" weight="2" />
+      <edge id="16648" source="SULU" target="UHURA" weight="4" />
+      <edge id="16649" source="SULU" target="SCOTTY" weight="2" />
+      <edge id="16650" source="SULU" target="KIRK" weight="8" />
+      <edge id="16651" source="SULU" target="McCOY" weight="4" />
+      <edge id="16652" source="SULU" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16653" source="SULU" target="SPOCK" weight="4" />
+      <edge id="16654" source="SULU" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16655" source="SULU" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16656" source="SULU" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16657" source="SULU" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16658" source="SULU" target="J'ONN" weight="1" />
+      <edge id="16659" source="SULU" target="SYBOK" weight="5" />
+      <edge id="16660" source="UHURA'S VOICE" target="CHEKOV" weight="1" />
+      <edge id="16661" source="UHURA'S VOICE" target="SULU" weight="2" />
+      <edge id="16662" source="UHURA'S VOICE" target="SCOTTY" weight="1" />
+      <edge id="16663" source="UHURA'S VOICE" target="KIRK" weight="3" />
+      <edge id="16664" source="UHURA'S VOICE" target="McCOY" weight="3" />
+      <edge id="16665" source="UHURA'S VOICE" target="ELEVATOR VOICE" weight="1" />
+      <edge id="16666" source="UHURA'S VOICE" target="SPOCK" weight="3" />
+      <edge id="16667" source="UHURA'S VOICE" target="McCoy" weight="1" />
+      <edge id="16668" source="UHURA'S VOICE" target="SYBOK" weight="1" />
+      <edge id="16669" source="UHURA'S VOICE" target="MAN'S VOICE" weight="1" />
+      <edge id="16670" source="UHURA'S VOICE" target="FATHER" weight="1" />
+      <edge id="16671" source="UHURA'S VOICE" target="SAREK" weight="1" />
+      <edge id="16672" source="KIRK AND McCOY" target="McCoy" weight="1" />
+      <edge id="16673" source="KIRK AND McCOY" target="KIRK" weight="1" />
+      <edge id="16674" source="KIRK AND McCOY" target="SPOCK" weight="1" />
+      <edge id="16675" source="KIRK AND McCOY" target="McCOY" weight="1" />
+      <edge id="16676" source="VIXIS" target="KLAA" weight="6" />
+      <edge id="16677" source="VIXIS" target="McCOY" weight="1" />
+      <edge id="16678" source="VIXIS" target="UHURA" weight="1" />
+      <edge id="16679" source="VIXIS" target="KIRK" weight="1" />
+      <edge id="16680" source="VIXIS" target="KIRK'S VOICE" weight="1" />
+      <edge id="16681" source="KLAA" target="VIXIS" weight="6" />
+      <edge id="16682" source="KLAA" target="McCOY" weight="1" />
+      <edge id="16683" source="KLAA" target="UHURA" weight="1" />
+      <edge id="16684" source="KLAA" target="KIRK" weight="2" />
+      <edge id="16685" source="KLAA" target="KIRK'S VOICE" weight="2" />
+      <edge id="16686" source="KLAA" target="KORRD" weight="1" />
+      <edge id="16687" source="KLAA" target="SPOCK" weight="1" />
+      <edge id="16688" source="ELEVATOR VOICE" target="UHURA'S VOICE" weight="1" />
+      <edge id="16689" source="ELEVATOR VOICE" target="SCOTTY" weight="1" />
+      <edge id="16690" source="ELEVATOR VOICE" target="SULU" weight="1" />
+      <edge id="16691" source="ELEVATOR VOICE" target="KIRK" weight="1" />
+      <edge id="16692" source="ELEVATOR VOICE" target="McCOY" weight="1" />
+      <edge id="16693" source="ELEVATOR VOICE" target="SPOCK" weight="1" />
+      <edge id="16694" source="FEMALE YEOMAN'S VOICE" target="KIRK" weight="1" />
+      <edge id="16695" source="FEMALE YEOMAN'S VOICE" target="McCOY" weight="1" />
+      <edge id="16696" source="FEMALE YEOMAN'S VOICE" target="UHURA" weight="1" />
+      <edge id="16697" source="FEMALE YEOMAN'S VOICE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16698" source="FEMALE YEOMAN'S VOICE" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16699" source="FEMALE YEOMAN'S VOICE" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16700" source="FEMALE YEOMAN'S VOICE" target="SCOTTY" weight="1" />
+      <edge id="16701" source="FEMALE YEOMAN'S VOICE" target="SULU" weight="1" />
+      <edge id="16702" source="COMMANDER'S VOICE" target="KIRK" weight="1" />
+      <edge id="16703" source="COMMANDER'S VOICE" target="McCOY" weight="1" />
+      <edge id="16704" source="COMMANDER'S VOICE" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16705" source="COMMANDER'S VOICE" target="UHURA" weight="1" />
+      <edge id="16706" source="COMMANDER'S VOICE" target="COMMANDERS IMAGE" weight="1" />
+      <edge id="16707" source="COMMANDER'S VOICE" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16708" source="COMMANDER'S VOICE" target="SCOTTY" weight="1" />
+      <edge id="16709" source="COMMANDER'S VOICE" target="SULU" weight="1" />
+      <edge id="16710" source="COMMANDERS IMAGE" target="KIRK" weight="1" />
+      <edge id="16711" source="COMMANDERS IMAGE" target="McCOY" weight="1" />
+      <edge id="16712" source="COMMANDERS IMAGE" target="FEMALE YEOMAN'S VOICE" weight="1" />
+      <edge id="16713" source="COMMANDERS IMAGE" target="UHURA" weight="1" />
+      <edge id="16714" source="COMMANDERS IMAGE" target="COMMANDER'S VOICE" weight="1" />
+      <edge id="16715" source="COMMANDERS IMAGE" target="SCOTTY'S VOICE" weight="1" />
+      <edge id="16716" source="COMMANDERS IMAGE" target="SCOTTY" weight="1" />
+      <edge id="16717" source="COMMANDERS IMAGE" target="SULU" weight="1" />
+      <edge id="16718" source="KIRK'S VOICE" target="SPOCK" weight="1" />
+      <edge id="16719" source="KIRK'S VOICE" target="KIRK" weight="1" />
+      <edge id="16720" source="KIRK'S VOICE" target="KLAA" weight="2" />
+      <edge id="16721" source="KIRK'S VOICE" target="CHEKOV" weight="1" />
+      <edge id="16722" source="KIRK'S VOICE" target="SCOTTY" weight="1" />
+      <edge id="16723" source="KIRK'S VOICE" target="VIXIS" weight="1" />
+      <edge id="16724" source="CAITHLIN'S IMAGE" target="KIRK" weight="1" />
+      <edge id="16725" source="CAITHLIN'S IMAGE" target="COMPUTER VOICE" weight="1" />
+      <edge id="16726" source="CAITHLIN'S IMAGE" target="UHURA" weight="1" />
+      <edge id="16727" source="CAITHLIN'S IMAGE" target="SPOCK" weight="1" />
+      <edge id="16728" source="CAITHLIN'S IMAGE" target="McCOY" weight="1" />
+      <edge id="16729" source="CAITHLIN'S IMAGE" target="SYBOK'S IMAGE" weight="1" />
+      <edge id="16730" source="SYBOK'S IMAGE" target="KIRK" weight="2" />
+      <edge id="16731" source="SYBOK'S IMAGE" target="COMPUTER VOICE" weight="1" />
+      <edge id="16732" source="SYBOK'S IMAGE" target="UHURA" weight="1" />
+      <edge id="16733" source="SYBOK'S IMAGE" target="SPOCK" weight="2" />
+      <edge id="16734" source="SYBOK'S IMAGE" target="McCOY" weight="2" />
+      <edge id="16735" source="SYBOK'S IMAGE" target="CAITHLIN'S IMAGE" weight="1" />
+      <edge id="16736" source="SYBOK'S IMAGE" target="TOGETHER" weight="1" />
+      <edge id="16737" source="SYBOK'S IMAGE" target="SCOTTY" weight="1" />
+      <edge id="16738" source="CHEKOV'S VOICE" target="TALBOT" weight="1" />
+      <edge id="16739" source="CHEKOV'S VOICE" target="KIRK" weight="2" />
+      <edge id="16740" source="CHEKOV'S VOICE" target="SYBOK" weight="1" />
+      <edge id="16741" source="CHEKOV'S VOICE" target="SPOCK" weight="1" />
+      <edge id="16742" source="CHEKOV'S VOICE" target="KORRD" weight="1" />
+      <edge id="16743" source="CHEKOV'S IMAGE" target="SYBOK" weight="3" />
+      <edge id="16744" source="BLACK SOLDIER" target="UHURA" weight="1" />
+      <edge id="16745" source="BLACK SOLDIER" target="SOLDIER" weight="1" />
+      <edge id="16746" source="SOLDIER" target="BLACK SOLDIER" weight="1" />
+      <edge id="16747" source="SOLDIER" target="UHURA" weight="1" />
+      <edge id="16748" source="TOGETHER" target="SYBOK'S IMAGE" weight="1" />
+      <edge id="16749" source="TOGETHER" target="KIRK" weight="1" />
+      <edge id="16750" source="TOGETHER" target="SPOCK" weight="1" />
+      <edge id="16751" source="TOGETHER" target="McCOY" weight="1" />
+      <edge id="16752" source="TOGETHER" target="SCOTTY" weight="1" />
+      <edge id="16753" source="FEMALE VOICE" target="KIRK" weight="1" />
+      <edge id="16754" source="FEMALE VOICE" target="SPOCK" weight="1" />
+      <edge id="16755" source="MAN'S VOICE" target="SYBOK" weight="1" />
+      <edge id="16756" source="MAN'S VOICE" target="KIRK" weight="1" />
+      <edge id="16757" source="MAN'S VOICE" target="McCOY" weight="1" />
+      <edge id="16758" source="MAN'S VOICE" target="FATHER" weight="1" />
+      <edge id="16759" source="MAN'S VOICE" target="SPOCK" weight="1" />
+      <edge id="16760" source="MAN'S VOICE" target="SAREK" weight="1" />
+      <edge id="16761" source="MAN'S VOICE" target="UHURA'S VOICE" weight="1" />
+      <edge id="16762" source="FATHER" target="SYBOK" weight="1" />
+      <edge id="16763" source="FATHER" target="KIRK" weight="1" />
+      <edge id="16764" source="FATHER" target="McCOY" weight="1" />
+      <edge id="16765" source="FATHER" target="MAN'S VOICE" weight="1" />
+      <edge id="16766" source="FATHER" target="SPOCK" weight="1" />
+      <edge id="16767" source="FATHER" target="SAREK" weight="1" />
+      <edge id="16768" source="FATHER" target="UHURA'S VOICE" weight="1" />
+      <edge id="16769" source="SAREK" target="SYBOK" weight="1" />
+      <edge id="16770" source="SAREK" target="KIRK" weight="1" />
+      <edge id="16771" source="SAREK" target="McCOY" weight="1" />
+      <edge id="16772" source="SAREK" target="MAN'S VOICE" weight="1" />
+      <edge id="16773" source="SAREK" target="FATHER" weight="1" />
+      <edge id="16774" source="SAREK" target="SPOCK" weight="1" />
+      <edge id="16775" source="SAREK" target="UHURA'S VOICE" weight="1" />
+      <edge id="16776" source="VOICE" target="McCOY" weight="1" />
+      <edge id="16777" source="VOICE" target="BEING" weight="1" />
+      <edge id="16778" source="VOICE" target="SYBOK" weight="1" />
+      <edge id="16779" source="VOICE" target="KIRK" weight="1" />
+      <edge id="16780" source="BEING" target="VOICE" weight="1" />
+      <edge id="16781" source="BEING" target="McCOY" weight="2" />
+      <edge id="16782" source="BEING" target="SYBOK" weight="2" />
+      <edge id="16783" source="BEING" target="KIRK" weight="2" />
+      <edge id="16784" source="BEING" target="SPOCK" weight="1" />
+      <edge id="16785" source="KLAA'S IMAGE" target="McCOY" weight="1" />
+      <edge id="16786" source="KLAA'S IMAGE" target="SPOCK" weight="1" />
+      <edge id="16787" source="KLAA'S IMAGE" target="UHURA" weight="1" />
+      <edge id="16788" source="KLAA'S IMAGE" target="KORRD" weight="1" />
+    </edges>
+  </graph>
+</gexf>

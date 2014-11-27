@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
+  <meta lastmodifieddate="27/11/2014">
+    <creator>Victor Dumitrescu</creator>
+    <description>Rotten Tomatoes similarity graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="10040" label="I, Robot (2004)" />
+      <node id="10043" label="Shrek 2 (2004)" />
+      <node id="10050" label="You've Got Mail (1998)" />
+      <node id="10059" label="Harold and Maude (1971)" />
+      <node id="10129" label="The American President (1995)" />
+      <node id="10184" label="Being There (1979)" />
+      <node id="10189" label="The Italian Job (2003)" />
+      <node id="10219" label="Benny &amp; Joon (1993)" />
+      <node id="10288" label="Jaws (1975)" />
+      <node id="10341" label="Pleasantville (1998)" />
+      <node id="10377" label="The Elephant Man (1980)" />
+      <node id="10396" label="Big (1988)" />
+      <node id="10408" label="Tremors (1990)" />
+      <node id="104762093" label="Fargo (1996)" />
+      <node id="10579" label="Lara Croft Tomb Raider - The Cradle of Life (2003)" />
+      <node id="10749" label="Drop Dead Gorgeous (1999)" />
+      <node id="10844" label="Twins (1988)" />
+      <node id="11103" label="Smokey and the Bandit (1977)" />
+      <node id="11457" label="EdTV (1999)" />
+      <node id="11568" label="The Mask (1994)" />
+      <node id="12052" label="Young Frankenstein (1974)" />
+      <node id="12161" label="The Abyss (1989)" />
+      <node id="12182" label="Star Trek V - The Final Frontier (1989)" />
+      <node id="12533" label="Bean (1997)" />
+      <node id="12750" label="Cellular (2004)" />
+      <node id="12924" label="GoodFellas (1990)" />
+      <node id="12945" label="Miller's Crossing (1990)" />
+      <node id="12965" label="One Flew Over the Cuckoo's Nest (1975)" />
+      <node id="13043" label="Army of Darkness (1993)" />
+      <node id="13118" label="Chasing Amy (1997)" />
+      <node id="13120" label="The Fisher King (1991)" />
+      <node id="13148" label="Clerks (1994)" />
+      <node id="13168" label="A Dry White Season (1989)" />
+      <node id="13173" label="Swordfish (2001)" />
+      <node id="13212" label="Adaptation (2002)" />
+      <node id="13222" label="Nick of Time (1995)" />
+      <node id="13313" label="M*A*S*H (1970)" />
+      <node id="13323" label="The Talented Mr. Ripley (1999)" />
+      <node id="133759650" label="Slither (2006)" />
+      <node id="13385" label="Ghost World (2001)" />
+      <node id="13602" label="Judge Dredd (1995)" />
+      <node id="13740" label="Detroit Rock City (1999)" />
+      <node id="13751" label="The French Connection (1971)" />
+      <node id="13774" label="Living in Oblivion (1995)" />
+      <node id="13916" label="Breakdown (1997)" />
+      <node id="14047" label="Copycat (1995)" />
+      <node id="14049" label="State and Main (2000)" />
+      <node id="14382" label="Gothika (2003)" />
+      <node id="14550" label="Swingers (1996)" />
+      <node id="14627" label="Analyze That (2002)" />
+      <node id="14680" label="Even Cowgirls Get the Blues (1994)" />
+      <node id="14871" label="Mumford (1999)" />
+      <node id="14952" label="The Anniversary Party (2001)" />
+      <node id="14978" label="Reservoir Dogs (1992)" />
+      <node id="15255" label="Get Carter (2000)" />
+      <node id="15419" label="Lost Souls (2000)" />
+      <node id="15988" label="Cradle 2 the Grave (2003)" />
+      <node id="16286" label="The Silence of the Lambs (1991)" />
+      <node id="16574" label="Election (1999)" />
+      <node id="16888" label="Working Girl (1988)" />
+      <node id="17" label="The Hitchhiker's Guide to the Galaxy (2005)" />
+      <node id="17279" label="Storytelling (2002)" />
+      <node id="18189" label="Some Like It Hot (1959)" />
+      <node id="18702" label="Bad Day at Black Rock (1955)" />
+      <node id="18986" label="Duck Soup (1933)" />
+      <node id="190816390" label="Miami Vice (2006)" />
+      <node id="22490" label="Vertigo (1958)" />
+      <node id="309887147" label="Little Athens (2006)" />
+      <node id="770669778" label="I Am Legend (2007)" />
+      <node id="770670992" label="We Own the Night (2007)" />
+      <node id="770672301" label="Sweeney Todd: The Demon Barber of Fleet Street (2007)" />
+      <node id="770674198" label="The Taking of Pelham 1 2 3 (2009)" />
+      <node id="770675878" label="Juno (2007)" />
+      <node id="770678072" label="The X-Files: I Want to Believe (The X Files 2) (2008)" />
+      <node id="770682503" label="Frozen River (2008)" />
+      <node id="770740154" label="Marvel's The Avengers (2012)" />
+      <node id="770767898" label="Seven Pounds (2008)" />
+      <node id="770782173" label="I Love You Phillip Morris (2010)" />
+      <node id="770789184" label="The Ugly Truth (2009)" />
+      <node id="770795584" label="The Informant (1998)" />
+      <node id="770796118" label="Sherlock Holmes (2009)" />
+      <node id="770797858" label="While She Was Out (2008)" />
+      <node id="770801897" label="The Hangover (2009)" />
+      <node id="770804147" label="The Book of Eli (2010)" />
+      <node id="770805427" label="Cars 2 (2011)" />
+      <node id="770807373" label="The Boondock Saints II: All Saints Day (2009)" />
+      <node id="770813310" label="Easy A (2010)" />
+      <node id="770828461" label="Dexter Gordon and McCoy Tyner: Cool Summer (2002)" />
+      <node id="771040308" label="Midnight in Paris (2011)" />
+      <node id="771041731" label="The Dark Knight Rises (2012)" />
+      <node id="771253886" label="Silver Linings Playbook (2012)" />
+      <node id="98813492" label="The Bodyguard (1992)" />
+      <node id="98831005" label="Evil Dead 2 (1987)" />
+    </nodes>
+    <edges>
+      <edge id="1304398831005" source="13043" target="98831005" />
+      <edge id="1311813148" source="13118" target="13148" />
+      <edge id="770796118770672301" source="770796118" target="770672301" />
+      <edge id="770813310770675878" source="770813310" target="770675878" />
+      <edge id="77081331016574" source="770813310" target="16574" />
+    </edges>
+  </graph>
+</gexf>

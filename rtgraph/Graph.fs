@@ -24,7 +24,7 @@ let addToExisting (film: Film) (graph: FilmGraph) (elem: Film) =
     else
         graph
 
-
+//new films can be added to the graph, but only up to a certain level
 let rec constructGraph (graph: FilmGraph) (queue: Film list) (level: int)=
     match queue with
     | [] -> graph
@@ -41,3 +41,16 @@ let rec constructGraph (graph: FilmGraph) (queue: Film list) (level: int)=
                                           let (graph': FilmGraph) = Array.fold (addToExisting q.Head) (graph.Add (q.Head, sim)) sim
                                           constructGraph graph' (List.append q.Tail (List.ofArray sim)) (level+1)
                         | None -> constructGraph graph q.Tail (level+1)
+
+// a version of constructGraph where no new films can be introduced in the graph
+let rec constructGraph2 (graph: FilmGraph) (queue: Film list)=
+    match queue with
+    | [] -> graph
+    | q ->  match (graph.ContainsKey q.Head) with
+            | true -> constructGraph2 graph q.Tail
+            | false ->  let similar = q.Head.id |> getSimilarFilms
+                        match similar with
+                        | Some sim -> let sim' = Array.filter (fun x -> List.exists (fun y -> y=x) queue) sim
+                                      let (graph': FilmGraph) = Array.fold (addToExisting q.Head) (graph.Add (q.Head, sim')) sim'
+                                      constructGraph2 graph' q.Tail
+                        | None -> constructGraph2 graph q.Tail

@@ -20,7 +20,7 @@ let constructXML (graph: CharGraph) =
                                       for character in dict.Value do
                                             yield OutputXml.Edge(nextEdgeID(), dict.Key, character.Key, character.Value.ToString()) |]
 
-    let graph = OutputXml.Graph("static", "undirected", nodes, edges)
+    let graph = OutputXml.Graph("static", "directed", nodes, edges)
     let meta = OutputXml.Meta(DateTime.Now.Date.ToShortDateString(), "Victor Dumitrescu", "Character graph")
     let gefx = OutputXml.Gexf("1.2", meta, graph)
 

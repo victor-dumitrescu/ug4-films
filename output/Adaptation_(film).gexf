@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?> 
  <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft">
-  <meta lastmodifieddate="26/11/2014">
+  <meta lastmodifieddate="27/11/2014">
     <creator>Victor Dumitrescu</creator>
     <description>Character graph</description>
   </meta>
-  <graph mode="static" defaultedgetype="undirected">
+  <graph mode="static" defaultedgetype="directed">
     <nodes>
       <node id="KAUFMAN" label="KAUFMAN" />
       <node id="BRITISH NARRATOR" label="BRITISH NARRATOR" />

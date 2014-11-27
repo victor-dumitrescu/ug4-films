@@ -17,18 +17,15 @@ let makeFilm (j: JsonValue) =
 
 
 let getFilmRecord (json: JsonValue) = 
-    let output = 
-        match json with
-        | JsonValue.Record [|total; movies; _; _ |]
-            -> match movies with
-               | (_, JsonValue.Array [| movie |])
-                   -> movie 
-                      |> makeFilm
-                      |> Some
-               | _ -> None
-        | _ -> None
-
-    output.Value
+    match json with
+    | JsonValue.Record [|total; movies; _; _ |]
+        -> match movies with
+            | (_, JsonValue.Array [| movie |])
+                -> movie 
+                    |> makeFilm
+                    |> Some
+            | _ -> None
+    | _ -> None
 
 
 let getFilmByTitle title = 

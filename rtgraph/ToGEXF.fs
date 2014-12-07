@@ -26,3 +26,4 @@ let constructXML (filmGraph: FilmGraph) =
     //Bug in FSharp.Data? 
     //some elements are only detected if their name is capitalised
     (sprintf "%s \n %A" """<?xml version="1.0" encoding="UTF-8"?>""" gefx).Replace("Nodes>", "nodes>").Replace("Edges>", "edges>")
+

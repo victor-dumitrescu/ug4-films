@@ -4,7 +4,7 @@ open ApiCalls
 
 
 type FilmGraph = Map<Film, Film []>
-let maxLevel = 55
+let maxLevel = 95
 
 let unwrapOption (x: Film [] option) =
     match x with
@@ -26,6 +26,8 @@ let addToExisting (film: Film) (graph: FilmGraph) (elem: Film) =
 
 //new films can be added to the graph, but only up to a certain level
 let rec constructGraph (graph: FilmGraph) (queue: Film list) (level: int)=
+    if not queue.IsEmpty then
+        printfn "%A %A" queue.Head level
     match queue with
     | [] -> graph
     | q ->  match (graph.ContainsKey q.Head) with
@@ -40,7 +42,7 @@ let rec constructGraph (graph: FilmGraph) (queue: Film list) (level: int)=
                                       else
                                           let (graph': FilmGraph) = Array.fold (addToExisting q.Head) (graph.Add (q.Head, sim)) sim
                                           constructGraph graph' (List.append q.Tail (List.ofArray sim)) (level+1)
-                        | None -> constructGraph graph q.Tail (level+1)
+                        | None -> constructGraph graph q.Tail level
 
 // a version of constructGraph where no new films can be introduced in the graph
 let rec constructGraph2 (graph: FilmGraph) (queue: Film list)=
@@ -54,3 +56,6 @@ let rec constructGraph2 (graph: FilmGraph) (queue: Film list)=
                                       let (graph': FilmGraph) = Array.fold (addToExisting q.Head) (graph.Add (q.Head, sim')) sim'
                                       constructGraph2 graph' q.Tail
                         | None -> constructGraph2 graph q.Tail
+
+let rec constructGraph3 (graph: FilmGraph) (queue: Film list)=
+    constructGraph graph queue 0

@@ -13,7 +13,9 @@ let dirs = absPath
                                      | Some _ -> true
                                      | None -> false)
            |> Array.map (fun x -> x.[absPath.Length..])
-           |> Array.map (fun x -> if x.Length >= 5 && x.[x.Length-5..] = "film)" then x.[..x.Length-6] else x)
+           |> Array.map (fun x -> if x.Length >= 5 && x.[x.Length-5..] = "film)" then x.[..x.Length-7] else x)
+
+let dirs2 = [|"goodfellas"; "analyze that"; "trainspotting"; "gone with the wind"; "a beautiful mind"|]
 
 let queue = dirs
              |> Array.map getFilmByTitle
@@ -25,7 +27,7 @@ let queue = dirs
 let main args = 
     
     let seed = Map.empty<Film, Film []>
-    let output = constructGraph2 seed queue |> constructXML
-    File.WriteAllLines(sprintf "%s%s" (Directory.GetCurrentDirectory()) "/../../../data/rtgraph.gexf", [|output|])
+    let output = constructGraph3 seed queue |> constructXML
+    File.WriteAllLines(sprintf "%s%s" (Directory.GetCurrentDirectory()) "/../../../data/rtgraph3.gexf", [|output|])
 
     0

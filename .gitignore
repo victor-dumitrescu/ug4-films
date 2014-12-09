@@ -186,3 +186,6 @@ docs/content/release-notes.md
 
 # PyCharm
 .idea
+
+# Python
+*.pyc

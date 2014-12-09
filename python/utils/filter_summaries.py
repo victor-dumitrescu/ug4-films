@@ -35,11 +35,12 @@ def script_titles():
     remaining = []
     films = {}
 
-    path = '../../experiment/output/'
+    path = '../../../experiment/output/'
     for film in glob.glob(path + '*.gexf'):
         remaining.append(standardize_title(film[len(path):]))
 
-    with open('../movie.metadata.tsv', 'r') as meta:
+    path = '../../../experiment/'
+    with open(path + 'movie.metadata.tsv', 'r') as meta:
         for row in meta:
             for f in remaining:
                 inf = re.search(r'(?P<wiki>\d+)\t(?P<fb>/m/\w*)\t%s' % f, row)
@@ -53,7 +54,7 @@ def script_titles():
 
 def main():
 
-    path = '../../experiment'
+    path = '../../../experiment/'
     titles = script_titles()
     ids = titles.keys()
     print "Got %d film IDs." % len(ids)

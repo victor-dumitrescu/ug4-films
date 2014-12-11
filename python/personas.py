@@ -8,12 +8,16 @@ Topic = namedtuple('Topic', 'role, topic, val')
 
 class Persona:
 
-    def __init__(self, tuples):
+    def __init__(self, tuples, name, name2, fb):
 
         self.agent_lemmas = defaultdict(int)
         self.patient_lemmas = defaultdict(int)
         self.modifier_lemmas = defaultdict(int)
         self.get_lemmas(tuples)
+
+        self.name = name
+        self.name2 = name2
+        self.fb = fb
 
         self.agent = None
         self.patient = None
@@ -94,10 +98,6 @@ def get_topic_top_words(topic, topic_word, vocab):
 
 def make_personas(data):
 
-    ###
-    data = ps.get_summaries()['30006']
-    ###
-
     tuples = data[0]
     tups_by_char = defaultdict(list)
 
@@ -108,7 +108,7 @@ def make_personas(data):
 
     personas = {}
     for c in characters:
-        personas[c] = Persona(tups_by_char[c])
+        personas[c] = Persona(tups_by_char[c], data[1][c], data[2][c], c)
 
     return personas
 
@@ -118,12 +118,23 @@ def main():
     topics, vocab = basic_lda()
     vocab_dict = dict(zip(vocab, range(len(vocab))))
 
+    films = {}
     summs =ps.get_summaries()
     for s in summs:
-        personas = make_personas(s)
-        break ###
+        personas = make_personas(summs[s])
 
-    p = personas['/m/0k6g81']
-    p.compute_topic_scores(topics, vocab_dict)
-    p.get_top_topics(15)
+        for p in personas:
+            personas[p].compute_topic_scores(topics, vocab_dict)
+            # print personas[p].get_top_topics(5)
 
+        films[s] = personas
+
+    for f in films:
+        print f
+        for p in films[f]:
+            print films[f][p].name, films[f][p].fb
+        print ''
+
+    #TODO  Match FB ids with real char names and script char names
+
+main()

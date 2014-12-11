@@ -35,11 +35,11 @@ def script_titles():
     remaining = []
     films = {}
 
-    path = '../../../experiment/output/'
+    path = '/home/victor/GitHub/experiment/output/'
     for film in glob.glob(path + '*.gexf'):
         remaining.append(standardize_title(film[len(path):]))
 
-    path = '../../../experiment/'
+    path = '/home/victor/GitHub/experiment/'
     with open(path + 'movie.metadata.tsv', 'r') as meta:
         for row in meta:
             for f in remaining:
@@ -54,7 +54,7 @@ def script_titles():
 
 def main():
 
-    path = '../../../experiment/'
+    path = '/home/victor/GitHub/experiment/'
     titles = script_titles()
     ids = titles.keys()
     print "Got %d film IDs." % len(ids)
@@ -68,6 +68,15 @@ def main():
                     ids.remove(data_id)
                     f_data.flush()
     print "Filtered data file. "
+
+    with open(path + 'character.metadata.tsv') as chars:
+        with open(path + 'filtered.char.metadata', 'w') as f_chars:
+            for row in chars:
+                line = row.split('\t')
+                if line[0] in ids:
+                    f_chars.write(row)
+                    f_chars.flush()
+    print "Filtered character metadata file."
 
     with open(path + 'filtered.meta.data', 'w') as f:
         for id in titles.keys():

@@ -1,5 +1,6 @@
 import lda
 import numpy as np
+import cPickle as pickle
 import utils.process_summaries as ps
 from collections import defaultdict, namedtuple
 
@@ -135,6 +136,6 @@ def main():
             print films[f][p].name, films[f][p].fb
         print ''
 
+    path = '../../experiment/'
+    pickle.dump(films, open(path + 'personas.pickle', 'w'))
     #TODO  Match FB ids with real char names and script char names
-
-main()

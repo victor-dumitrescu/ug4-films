@@ -1,6 +1,8 @@
+import re
 import glob
 import numpy as np
 import cPickle as pickle
+import xml.etree.ElementTree as ET
 from personas import Persona
 from collections import defaultdict
 
@@ -14,6 +16,7 @@ class Film:
         self.personas = personas
         self.chars = chars
         self.gexf = None
+        self.script_chars = None
 
     @property
     def gexf(self):
@@ -22,6 +25,47 @@ class Film:
     @gexf.setter
     def gexf(self, value):
         self.gexf = value
+
+    @property
+    def script_chars(self):
+        return self.script_chars
+
+    @script_chars.setter
+    def script_chars(self, value):
+        self.script_chars = value
+
+
+def match_char_names(films):
+
+    path = '../output/'
+    for id in films:
+
+        #get character names in the script file
+        script_chars = []
+        with open(path + films[id].gexf) as g:
+            root = ET.parse(g).getroot()
+            nodes = root[1][0]
+            for node in nodes:
+                script_chars.append(node.attrib['id'])
+
+        matched_chars = {}
+        for c in films[id].chars:
+            char = films[id].chars[c]
+            char = char.lower().split()
+            char = map((lambda x: re.sub(r'[^a-z0-9\s]+', '', x)), char)
+            char = set(char)
+
+            best = None
+            best_i = 0
+            for sc in script_chars:
+                s_char = set(sc.lower().split())
+                if len(char.intersection(s_char)) > best_i:
+                    best_i = len(char.intersection(s_char))
+                    best = sc
+
+            matched_chars[c] = best
+
+        films[id].script_chars = matched_chars
 
 
 def match_gexf(films):
@@ -56,7 +100,7 @@ def construct_films():
             title = ' '.join(title)
             films_ids[id] = (fb, title)
 
-    # dictionoary of dictionary between films and character fb/names
+    # dictionoary of dictionaries between films and character fb/names
     chars = defaultdict(lambda: dict())
     with open(path + 'filtered.char.metadata') as f:
         for r in f:
@@ -64,7 +108,7 @@ def construct_films():
             if row[3]:
                 # if character name is known
                 for i in [2, 3]:
-                    # associate it with both the char fb id and the char-actor map fb id
+                    # associate it with both the char FB id and the char-actor map FB id
                     if row[-i]:
                         chars[row[0]][row[-i]] = row[3]
 
@@ -76,6 +120,7 @@ def construct_films():
                          fb=films_ids[id][0],
                          personas=personas[id],
                          chars=chars[id])
-    match_gexf(films)
 
+    match_gexf(films)
+    match_char_names(films)
     return films

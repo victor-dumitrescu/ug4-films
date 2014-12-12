@@ -138,4 +138,3 @@ def main():
 
     path = '../../experiment/'
     pickle.dump(films, open(path + 'personas.pickle', 'w'))
-    #TODO  Match FB ids with real char names and script char names

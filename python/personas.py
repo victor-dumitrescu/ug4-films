@@ -71,11 +71,11 @@ class Persona:
         return output
 
 
-def basic_lda(verbose=False):
+def basic_lda(n_topics, verbose=False):
 
     # sample code from https://pypi.python.org/pypi/lda
     X, vocab = ps.construct_lda_structs()
-    model = lda.LDA(n_topics=10, n_iter=500, random_state=1)
+    model = lda.LDA(n_topics=n_topics, n_iter=500, random_state=1)
     model.fit(X)
 
     if verbose:
@@ -116,7 +116,8 @@ def make_personas(data):
 
 def main():
 
-    topics, vocab = basic_lda()
+    n_topics = 10
+    topics, vocab = basic_lda(n_topics)
     vocab_dict = dict(zip(vocab, range(len(vocab))))
 
     films = {}
@@ -138,3 +139,7 @@ def main():
 
     path = '../../experiment/'
     pickle.dump(films, open(path + 'personas.pickle', 'w'))
+
+    with open(path + 'topics.csv', 'w') as f:
+        for i in range(n_topics):
+            f.write('%d, %s\n' % (i, ', '.join(get_topic_top_words(i, topics, vocab))))

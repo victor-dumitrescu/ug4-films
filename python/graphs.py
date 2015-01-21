@@ -27,6 +27,8 @@ def filter_nodes(self, number=None, min_score=None):
 
     assert not (number and min_score)
     if number:
+        for r, n in enumerate(ranked[:number]):
+            self.add_node(n[0], rank=r+1)
         for n in ranked[number:]:
             self.remove_node(n[0])
     elif min_score:
@@ -51,7 +53,7 @@ def print_persona(d):
         return ''
 
 
-def main():
+def get_graphs():
 
     setattr(nx.classes.graph.Graph, 'filter_nodes', filter_nodes)
 
@@ -73,12 +75,13 @@ def main():
                 char_graph.node[n]['persona'] = persona
 
         char_graph.filter_nodes(10)
+        char_graph.graph['title'] = films[f].title
+
         print films[f].title, f
-        for n in char_graph.node:
-            print n, print_persona(char_graph.node[n])
+        for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):
+            print n[0], print_persona(n[1])
         print ''
 
         graphs[f] = char_graph
 
-
-main()
+    return graphs

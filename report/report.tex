@@ -114,21 +114,35 @@ The first two corpora are used to construct the character graphs. The Rotten Tom
 This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs, compare them and assess the results.
 
 \subsection{The Character Graph}
-In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
+In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (the nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences between two characters. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
 
-Apart from simplicity, another reason for choosing this measure is because it can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters.
+Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters.
 
 \subsubsection{Processing ScriptBase screenplays}
 To ease the task of extracting the number of character to character scene co-occurrences, we restricted the set of films to the 127 which have already been processed in ScriptBase. A processed script is an XML file which, apart from the standard CoreNLP annotations, also places every sentence inside a numbered \texttt{scene} tag. It also distinguishes between stage directions and speech, annotating the name of the speaker(s) in the latter case.
 
-Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that this approach ignores characters which might be present in a scene but do not speak.
+Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that although this approach ignores characters which might be present in a scene but do not speak, in practice we do not expect this to influence the results significantly.
 
 \subsubsection{Constructing character graphs}
-For representing character graphs, we have chosen GEXF \footnote{The GEXF file format, \textit{http://gexf.net} }, a standard XML format for describing general network structures.
+For representing character graphs, we have chosen GEXF \footnote{The GEXF file format, \textit{http://gexf.net} }, a standard XML format for describing general network structures. As described above, we simply extract all the character names from the script and use them as the set of nodes in the graph. We add a weighted edge for all the recorded interactions between characters. As a result, every film (of the 127 which we considered) will be represented with a GEXF file.
 
 \subsection{The Persona Model}
-\subsubsection{Processing CMU script summaries}
+We implemented a variation of the Dirichlet Persona Model introduced in \cite{Bamman2013} and briefly described above.
+\subsubsection{Processing the CMU script summaries}
+The CMU corpus provides both the raw plot summaries and a file containing all the processed summaries, which can be used as input for the pipeline described in their paper. We have designed ours to work with the same input format, enabling us to use the data from this corpus without any additional preprocessing, apart from filtering out the films for which we have not constructed a character graph. This includes the majority of films in the corpus. Out of the 127 films from ScriptBase, 96 also have a processed plot summary.
+
+The filtered film data file contains, for each film and each character mentioned in the plot summary, a list of words which are either:
+\begin{itemize}
+	\item \textbf{Agent verbs:} Verbs for which the character is an agent (e.g. "Starling \textit{travels} to the victim's hometown")
+	\item \textbf{Patient verbs:} Verbs for which the character is the patient or object (e.g. "Starling is \textit{led} to the house of Jack Gordon", where \textit{Starling} is a passive nominal subject)
+	\item \textbf{Modifiers:} Other words which describe the characters (e.g. "Catherine is still \textit{alive}")
+\end{itemize}
+
+These words are selected on the basis of their Stanford typed dependencies, as determined using the CoreNLP parser. Each of the three types described above corresponds to a list of dependencies and all tokens tagged with those dependencies will be assigned a type. In addition to the word lemma, its type (agent, patient, modifier) and its dependency tag, the tuples also contain the part of speech and the WordNet supersense.
+
+
 \subsubsection{Constructing persona model}
+
 
 \subsection{Adding persona information to character graphs}
 

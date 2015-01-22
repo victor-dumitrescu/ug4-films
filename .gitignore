@@ -214,3 +214,5 @@ docs/content/release-notes.md
 *.mtc1
 *.out
 *.synctex.gz
+
+*.pdf

@@ -1,0 +1,145 @@
+
+\documentclass[bsc,frontabs,singlespacing,parskip]{infthesis} % add [twoside]
+\usepackage{filecontents}
+
+
+\begin{document}
+\long\def\/*#1*/{}
+
+\title{Representing Films as Character Graphs}
+
+\author{Victor Dumitrescu}
+
+\course{Artificial Intelligence and Computer Science}
+\project{4th Year Project Report (Interim)}
+
+\date{\today}
+
+\abstract{
+Films are [...]. This project sets out to explore a representation of films in terms of its characters, based on textual information, such as screenplays and plot summaries. The work described in this report builds upon the existing literature in computational linguistics concerned with studying characters in films and other works of fiction. The character graphs presented here model two main aspects of film characters: their personalities and their role in the social network of the narrative. We try to show that by combining these two approaches in a single representation, we can derive some insight into establishing the similarity of films.
+}
+
+\maketitle
+
+% \section*{Acknowledgements}
+% Acknowledgements go here. 
+
+%\tableofcontents
+
+%\pagenumbering{arabic}  <-- was commented out in the skeleton too
+
+\/*
+\chapter{Introduction}
+
+The document structure should include:
+\begin{itemize}
+\item
+The title page  in the format used above.
+\item
+An optional acknowledgements page.
+\item
+The table of contents.
+\item
+The report text divided into chapters as appropriate.
+\item
+The bibliography.
+\end{itemize}
+
+Commands for generating the title page appear in the skeleton file and
+are self explanatory.
+The file also includes commands to choose your report type (project
+report, thesis or dissertation) and degree.
+These will be placed in the appropriate place in the title page. 
+
+The default behaviour of the documentclass is to produce documents typeset in
+12 point.  Regardless of the formatting system you use, 
+it is recommended that you submit your thesis printed (or copied) 
+double sided.
+
+The report should be printed single-spaced.
+It should be 30 to 60 pages long, and preferably no shorter than 20 pages.
+Appendices are in addition to this and you should place detail
+here which may be too much or not strictly necessary when reading the relevant section.
+
+\section{Using Sections}
+
+Divide your chapters into sub-parts as appropriate.
+
+\section{Citations}
+
+Note that citations 
+(like \cite{P1} or \cite{P2})
+can be generated using {\tt BibTeX} or by using the
+{\tt thebibliography} environment. This makes sure that the
+table of contents includes an entry for the bibliography.
+Of course you may use any other method as well.
+
+\section{Options}
+
+There are various documentclass options, see the documentation.  Here we are
+using an option ({\tt bsc} or {\tt minf}) to choose the degree type, plus:
+\begin{itemize}
+\item {\tt frontabs} (recommended) to put the abstract on the front page;
+\item {\tt twoside} (recommended) to format for two-sided printing, with
+  each chapter starting on a right-hand page;
+\item {\tt singlespacing} (required) for single-spaced formating; and
+\item {\tt parskip} (a matter of taste) which alters the paragraph formatting so that
+paragraphs are separated by a vertical space, and there is no
+indentation at the start of each paragraph.
+\end{itemize}
+*/
+
+
+\chapter{Work done so far}
+
+\section{Background work}
+Interest in computationally analysing narrative fiction has spiked along with the increasing number of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which analyses narratives from a character-centric point of view.
+
+Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model}, which serves as the basis for our work.
+
+[description of DPM; results]
+
+
+\section{Data sets}
+Three main sources of data used in this project are:
+\begin{itemize}
+	\item \textbf{CMU Movie Summary Corpus}, a collection of 42,306 Wikipedia plot summaries of films, along with metadata extracted from Freebase. The summaries are processed using the \textit{Stanford CoreNLP} tools, specifically tagging, parsing, named entity recognition and coreference resolution.
+	\item \textbf{ScriptBase}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using \textit{Stanford CoreNLP} pipeline.
+	\item \textbf{Rotten Tomatoes} film similarity data, collected through their official API. It comprises of pairs of similar films, reflecting human judgements.
+\end{itemize}
+
+The first two corpora are used to construct the character graphs. The Rotten Tomatoes data provides the basis for a gold-standard measure of film similarity, which we use to assess the usefulness of the character graph representations.
+
+\section{The processing pipeline}
+This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs, compare them and assess the results.
+
+\subsection{The Character Graph}
+In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
+
+Apart from simplicity, another reason for choosing this measure is because it can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters.
+
+\subsubsection{Processing ScriptBase screenplays}
+To ease the task of extracting the number of character to character scene co-occurrences, we restricted the set of films to the 127 which have already been processed in ScriptBase. A processed script is an XML file which, apart from the standard CoreNLP annotations, also places every sentence inside a numbered \texttt{scene} tag. It also distinguishes between stage directions and speech, annotating the name of the speaker(s) in the latter case.
+
+Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that this approach ignores characters which might be present in a scene but do not speak.
+
+\subsubsection{Constructing character graphs}
+For representing character graphs, we have chosen GEXF \footnote{The GEXF file format, \textit{http://gexf.net} }, a standard XML format for describing general network structures.
+
+\subsection{The Persona Model}
+\subsubsection{Processing CMU script summaries}
+\subsubsection{Constructing persona model}
+
+\subsection{Adding persona information to character graphs}
+
+\subsection{Comparing character graphs}
+
+\subsection{Rotten Tomatoes similarity}
+
+% use the following and \cite{} as above if you use BibTeX
+% otherwise generate bibtem entries
+\bibliographystyle{plain}
+\bibliography{collection}
+
+
+\end{document}

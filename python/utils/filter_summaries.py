@@ -1,3 +1,11 @@
+# From the CMU Movie Summary Corpus, filters those for which we have a character graph, derived
+# from the ScriptBase corpus.
+#
+# Outputs:
+#   filtered.movies.data     (from movies.data)
+#   filtered.char.metadata   (from char.metadata)
+#   filtered.meta.data
+
 import re
 import glob
 from collections import namedtuple

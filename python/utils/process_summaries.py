@@ -3,6 +3,7 @@ import json
 import numpy as np
 from collections import namedtuple
 
+# From filtered.movies.data (constructed by filter_summaries.py), parse the data into namedtuples
 
 Tuple = namedtuple('Tuple', 'entity, type, ss, lemma, type2, dependency')
 

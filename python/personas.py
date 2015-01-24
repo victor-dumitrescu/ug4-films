@@ -127,15 +127,15 @@ def main():
 
         for p in personas:
             personas[p].compute_topic_scores(topics, vocab_dict)
-            # print personas[p].get_top_topics(5)
+            print personas[p].get_top_topics(5)
 
         films[s] = personas
 
-    for f in films:
-        print f
-        for p in films[f]:
-            print films[f][p].name, films[f][p].fb
-        print ''
+    # for f in films:
+    #     print f
+    #     for p in films[f]:
+    #         print films[f][p].name, films[f][p].fb
+    #     print ''
 
     path = '../../experiment/'
     pickle.dump(films, open(path + 'personas.pickle', 'w'))

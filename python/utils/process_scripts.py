@@ -32,7 +32,21 @@ def process_script(script_file):
                         sentences.append(sent)
 
                 speech_acts.append((speaker, sentences))
-            scenes.append((chars, speech_acts))
+
+            speech_acts_merged = []
+            i = 0
+            while i < len(speech_acts)-1:
+                if speech_acts[i][0] == speech_acts[i+1][0]:
+                    speech_acts_merged.append((speech_acts[i][0],
+                                               speech_acts[i][1] + speech_acts[i+1][1]))
+                    i += 1
+                else:
+                    speech_acts_merged.append(speech_acts[i])
+                    if i == len(speech_acts) - 2:
+                        speech_acts_merged.append(speech_acts[i+1])
+                i += 1
+
+            scenes.append((chars, speech_acts_merged))
 
     # filter out scenes with no characters/dialogue
     scenes = filter((lambda x: x[0] != set()), scenes)

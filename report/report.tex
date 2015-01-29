@@ -34,17 +34,17 @@ This project sets out to explore a representation of films in terms of their cha
 \chapter{Work done so far}
 
 \section{Background work}
-Interest in computationally analysing narrative fiction has spiked along with the increasing number of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which atakes a character-centric point of view when approaching narrative fiction.
+Interest in computationally analysing narrative fiction has spiked along with the increasing size of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
 
 Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model}, which serves as the basis for our work.
 
 
 
 \section{Data sets}
-Three main sources of data used in this project are:
+The main sources of data used in this project are:
 \begin{itemize}
 	\item \textbf{CMU Movie Summary Corpus}, a collection of 42,306 Wikipedia plot summaries of films, along with metadata extracted from Freebase. The summaries are processed using the \textit{Stanford CoreNLP} tools, specifically tagging, parsing, named entity recognition and coreference resolution.
-	\item \textbf{ScriptBase} \cite{Gorinski}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using \textit{Stanford CoreNLP} pipeline.
+	\item \textbf{ScriptBase} \cite{Gorinski}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using the \textit{Stanford CoreNLP} pipeline.
 	\item \textbf{Rotten Tomatoes} film similarity data, collected through their official API. It comprises of pairs of similar films, reflecting human judgements.
 \end{itemize}
 
@@ -64,7 +64,7 @@ To ease the task of extracting the number of character to character scene co-occ
 Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that although this approach ignores characters which might be present in a scene but do not speak, in practice we do not expect this to influence the results significantly.
 
 \subsubsection{Constructing character graphs}
-For representing character graphs, we have chosen GEXF \footnote{The GEXF file format, \textit{http://gexf.net}}, a standard XML format for describing general network structures. As described above, we simply extract all the character names from the script and use them as the set of nodes in the graph. We add a weighted edge for all the recorded interactions between characters. As a result, every film (of the 127 which we considered) will be represented with a GEXF file.
+For representing character graphs, we have chosen GEXF\footnote{The GEXF file format, \textit{http://gexf.net}}, a standard XML format for describing general network structures. As described above, we simply extract all the character names from the script and use them as the set of nodes in the graph. We add a weighted edge for all the recorded interactions between characters. As a result, every film (of the 127 which we considered) will be represented with a GEXF file.
 
 \begin{figure}
 	\centering

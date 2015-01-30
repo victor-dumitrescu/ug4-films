@@ -11,7 +11,6 @@ Tuple = namedtuple('Tuple', 'entity, type, ss, lemma, type2, dependency')
 def construct_lda_structs():
 
     data = get_summaries()
-
     # construct vocabulary
     vocab = set()
     for item in data:
@@ -19,7 +18,7 @@ def construct_lda_structs():
         tups = data[item][0]
         for t in tups:
             lemmas.append(t.lemma)
-            vocab = vocab.union(lemmas)
+        vocab = vocab.union(lemmas)
 
 
     # construct frequency matrix
@@ -34,7 +33,7 @@ def construct_lda_structs():
         for t in tups:
             i = indices[t.lemma]
             freqs[i] += 1
-        print freqs
+        # print freqs
         X.append(freqs)
 
     X = np.array(X)
@@ -53,11 +52,17 @@ def make_tuple(str):
         raise
 
 
-def get_summaries():
+def get_summaries(filtered=False):
 
     data = {}
     path = '../../experiment/'
-    with open(path + 'filtered.movies.data') as f:
+    if filtered:
+        f_name = path + 'filtered.movies.data'
+    else:
+        f_name = path + 'movies.data'
+    # f_name = path + 'filtered.movies.data'
+
+    with open(f_name) as f:
         for row in f:
             m = re.search(r'(?P<id>\d+)\s+(?P<tuples>.*)\s+(?P<ents1>{.*})\s+(?P<ents2>{.*})', row)
             data[m.group('id')] = (map(make_tuple, m.group('tuples').split()),

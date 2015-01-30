@@ -75,8 +75,10 @@ def basic_lda(n_topics, verbose=False):
 
     # sample code from https://pypi.python.org/pypi/lda
     X, vocab = ps.construct_lda_structs()
+    print 'Started LDA.'
     model = lda.LDA(n_topics=n_topics, n_iter=500, random_state=1)
     model.fit(X)
+    print 'Finished LDA.'
 
     if verbose:
         topic_word = model.topic_word_
@@ -116,30 +118,33 @@ def make_personas(data):
 
 def main():
 
-    n_topics = 10
+    path = '../../experiment/'
+
+    n_topics = 50  # for filtered data, use 10 instead
     topics, vocab = basic_lda(n_topics)
+    pickle.dump(topics, open(path + 'topics.pickle', 'w'))
+    pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))
+    print 'Pickled topics'
+
     vocab_dict = dict(zip(vocab, range(len(vocab))))
 
     films = {}
-    summs =ps.get_summaries()
+    summs =ps.get_summaries(filtered=True)
     for s in summs:
         personas = make_personas(summs[s])
 
-        for p in personas:
-            personas[p].compute_topic_scores(topics, vocab_dict)
-            print personas[p].get_top_topics(5)
+        # for p in personas:
+        #     personas[p].compute_topic_scores(topics, vocab_dict)
+        #     print personas[p].get_top_topics(5)
 
         films[s] = personas
 
-    # for f in films:
-    #     print f
-    #     for p in films[f]:
-    #         print films[f][p].name, films[f][p].fb
-    #     print ''
 
-    path = '../../experiment/'
     pickle.dump(films, open(path + 'personas.pickle', 'w'))
 
     with open(path + 'topics.csv', 'w') as f:
         for i in range(n_topics):
             f.write('%d, %s\n' % (i, ', '.join(get_topic_top_words(i, topics, vocab))))
+
+
+main()

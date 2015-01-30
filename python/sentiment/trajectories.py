@@ -17,7 +17,10 @@ def plot_trajectory(char1, char2, mode='compound'):
         for (i, event) in enumerate(timeline):
             if event.speaker == c1 and event.receiver == c2:
                 x.append(i)
-                y.append(event.sentiment[mode])
+                if len(y):
+                    y.append(y[len(y)-1] + event.sentiment[mode])
+                else:
+                    y.append(event.sentiment[mode])
 
         x = np.array(x)
         y = np.array(y)
@@ -32,8 +35,8 @@ def plot_trajectory(char1, char2, mode='compound'):
     plt.show()
 
 
-# script_file = '../../base2/The Silence of the Lambs (film)/processed/script.xml'
-script_file = '../../base2/A Nightmare on Elm Street 3: Dream Warriors/processed/script.xml'
+script_file = '../../base2/The Silence of the Lambs (film)/processed/script.xml'
+# script_file = '../../base2/A Nightmare on Elm Street 3: Dream Warriors/processed/script.xml'
 
 scenes = process_script(script_file)
 

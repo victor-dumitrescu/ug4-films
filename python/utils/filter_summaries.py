@@ -77,11 +77,12 @@ def main():
                     f_data.flush()
     print "Filtered data file. "
 
+    ids2 = titles.keys()
     with open(path + 'character.metadata.tsv') as chars:
         with open(path + 'filtered.char.metadata', 'w') as f_chars:
             for row in chars:
                 line = row.split('\t')
-                if line[0] in ids:
+                if line[0] in ids2:
                     f_chars.write(row)
                     f_chars.flush()
     print "Filtered character metadata file."
@@ -91,6 +92,3 @@ def main():
             if id not in ids:
                 f.write('%s %s %s\n' % (id, titles[id].fb, titles[id].title))
     print "Done"
-
-
-main()

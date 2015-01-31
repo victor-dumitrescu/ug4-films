@@ -91,7 +91,7 @@ def match_gexf(films):
 
 def construct_films():
 
-    path = '../../experiment/'
+    path = '../../experiment/genres/'
     personas = pickle.load(open(path + 'personas.pickle', 'rb'))
     films_ids = {}
     with open(path + 'filtered.meta.data', 'r') as f:

@@ -1,4 +1,3 @@
-import lda
 import numpy as np
 import cPickle as pickle
 import utils.process_summaries as ps
@@ -71,34 +70,6 @@ class Persona:
         return output
 
 
-def basic_lda(n_topics, verbose=False):
-
-    # sample code from https://pypi.python.org/pypi/lda
-    X, vocab = ps.construct_lda_structs()
-    print 'Started LDA.'
-    model = lda.LDA(n_topics=n_topics, n_iter=500, random_state=1)
-    model.fit(X)
-    print 'Finished LDA.'
-
-    if verbose:
-        topic_word = model.topic_word_
-        n_top_words = 8
-        for i, topic_dist in enumerate(topic_word):
-            topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
-            print('Topic {}: {}'.format(i, ' '.join(topic_words)))
-
-    return model.components_, vocab
-
-
-def get_topic_top_words(topic, topic_word, vocab):
-
-
-    topic_dist = topic_word[topic]
-    n_top_words = 8
-    topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
-    return topic_words
-
-
 def make_personas(data):
 
     tuples = data[0]
@@ -118,14 +89,10 @@ def make_personas(data):
 
 def main():
 
-    path = '../../experiment/'
+    path = '/home/victor/GitHub/experiment/genres/'
 
-    n_topics = 50  # for filtered data, use 10 instead
-    topics, vocab = basic_lda(n_topics)
-    pickle.dump(topics, open(path + 'topics.pickle', 'w'))
-    pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))
-    print 'Pickled topics'
-
+    topics = pickle.load(open(path + 'topics.pickle', 'r'))
+    vocab = pickle.load(open(path + 'vocab.pickle', 'r'))
     vocab_dict = dict(zip(vocab, range(len(vocab))))
 
     films = {}
@@ -133,18 +100,13 @@ def main():
     for s in summs:
         personas = make_personas(summs[s])
 
-        # for p in personas:
-        #     personas[p].compute_topic_scores(topics, vocab_dict)
+        for p in personas:
+            personas[p].compute_topic_scores(topics, vocab_dict)
         #     print personas[p].get_top_topics(5)
 
         films[s] = personas
 
 
     pickle.dump(films, open(path + 'personas.pickle', 'w'))
-
-    with open(path + 'topics.csv', 'w') as f:
-        for i in range(n_topics):
-            f.write('%d, %s\n' % (i, ', '.join(get_topic_top_words(i, topics, vocab))))
-
 
 main()

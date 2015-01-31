@@ -3,7 +3,7 @@ from collections import defaultdict
 from films import Film, construct_films
 
 TOPICS = {}
-with open('../../experiment/topics.csv') as f:
+with open('../../experiment/genres/topics.csv') as f:
     for r in f:
         row = r.replace('\n', '').split(', ')
         TOPICS[int(row[0])] = row[1:]

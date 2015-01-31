@@ -7,7 +7,7 @@ def main():
 
     # We will get the first max_films comedies/thriller plus any of the ScriptBase films which
     # weren't in the first max_films
-    max_films = 2000
+    max_films = 10000
     remaining = []
 
     path = '/home/victor/GitHub/experiment/output/'

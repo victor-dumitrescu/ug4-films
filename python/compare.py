@@ -1,5 +1,6 @@
 import numpy as np
 import networkx as nx
+
 from personas import Persona
 from graphs import get_graphs
 
@@ -7,6 +8,9 @@ P = 'persona'
 
 
 def get_ranked_nodes(self):
+    # method added to the Graph class
+    # retrieves the nodes, ordered by rank
+
     output = []
     for n in sorted(self.node.items(), key=lambda x: int(x[1]['rank'])):
         output.append(n[1])
@@ -41,9 +45,39 @@ def naive_compare(graph1, graph2):
         return 1.0
 
 
+def node_objective(x, g1, g2):
+
+    def node_difference(n1, n2):
+
+        if P in n1 and P in n2:
+            d = 0.0
+            roles = 0
+            for role in ['agent', 'patient', 'modifier']:
+                a1 = getattr(n1[P], role)
+                a2 = getattr(n2[P], role)
+                if not np.isnan(np.sum(a1 - a2)):
+                    d += np.linalg.norm(a1 - a2)
+                    roles += 1
+            if roles:
+                diff = d/roles
+            else:
+                return 1.0
+        else:
+            return 1.0
+
+        return diff
+
+    N = len(g1)
+    cost = 0.0
+    for i in range(N):
+        cost += node_difference(g1[i], g2[int(np.around(x[i]))])
+
+    return cost
+
+
 def main():
 
-    graphs = get_graphs()
+    graphs = get_graphs(verbose=True)
     setattr(nx.classes.graph.Graph, 'get_ranked_nodes', get_ranked_nodes)
 
     pairs = []

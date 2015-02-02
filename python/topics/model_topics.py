@@ -15,7 +15,7 @@ def get_lda_structs():
 def get_topic_top_words(topic, topic_word, vocab):
 
     topic_dist = topic_word[topic]
-    n_top_words = 8
+    n_top_words = 10
     topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
     return topic_words
 
@@ -25,7 +25,7 @@ def basic_lda(n_topics, verbose=False):
     # sample code from https://pypi.python.org/pypi/lda
     X, vocab = get_lda_structs()
     print 'Started LDA.'
-    model = lda.LDA(n_topics=n_topics, n_iter=700, random_state=1)
+    model = lda.LDA(n_topics=n_topics, n_iter=500, random_state=1)
     model.fit(X)
     print 'Finished LDA.'
 
@@ -41,7 +41,7 @@ def basic_lda(n_topics, verbose=False):
 
 def main():
 
-    n_topics = 15
+    n_topics = 20
     topics, vocab = basic_lda(n_topics)
     pickle.dump(topics, open(path + 'topics.pickle', 'w'))
     pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))

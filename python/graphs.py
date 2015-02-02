@@ -1,4 +1,5 @@
 import networkx as nx
+import matplotlib.pyplot as plt
 from collections import defaultdict
 from films import Film, construct_films
 
@@ -7,6 +8,13 @@ with open('../../experiment/genres/topics.csv') as f:
     for r in f:
         row = r.replace('\n', '').split(', ')
         TOPICS[int(row[0])] = row[1:]
+
+
+def draw_graph(g):
+
+    plt.figure()
+    nx.drawing.nx_pylab.draw_networkx(g)
+    plt.show()
 
 
 def get_persona(film, fbs):
@@ -22,17 +30,25 @@ def get_persona(film, fbs):
 
 def filter_nodes(self, number=None, min_score=None):
 
-    measure = nx.degree_centrality(self)
+    measure = nx.degree_centrality(self)  # dictionary of nodes couples with their centrality
     ranked = sorted(measure.items(), key=lambda x: x[1], reverse=True)
+    for r, n in enumerate(ranked[:number]):
+        self.add_node(n[0], rank=r+1, value=measure[n[0]])
 
     assert not (number and min_score)
     if number:
-        for r, n in enumerate(ranked[:number]):
-            self.add_node(n[0], rank=r+1)
         for n in ranked[number:]:
             self.remove_node(n[0])
     elif min_score:
-        raise
+        pass
+
+
+def filter_by_persona(self):
+
+    nodes = self.nodes()
+    for n in nodes:
+        if 'persona' not in self.node[n].keys():
+            self.remove_node(n)
 
 
 def print_persona(d):
@@ -56,6 +72,7 @@ def print_persona(d):
 def get_graphs():
 
     setattr(nx.classes.graph.Graph, 'filter_nodes', filter_nodes)
+    setattr(nx.classes.graph.Graph, 'filter_by_persona', filter_by_persona)
 
     path = '../output/'
     films = construct_films()
@@ -74,13 +91,14 @@ def get_graphs():
             if persona:
                 char_graph.node[n]['persona'] = persona
 
-        char_graph.filter_nodes(10)
+        # char_graph.filter_nodes(number=10)
+        # char_graph.filter_by_persona()
         char_graph.graph['title'] = films[f].title
 
-        print films[f].title, f
-        for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):
-            print n[0], print_persona(n[1])
-        print ''
+        #     print films[f].title, f
+        #     for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):
+        #         print "%.2f" % round(n[1]['value'], 2), n[0], print_persona(n[1])
+        #     print ''
 
         graphs[f] = char_graph
 

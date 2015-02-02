@@ -42,6 +42,7 @@ class Persona:
                 for l in lemmas:
                     d[t] += lemmas[l] * topic[vocab[l]]
                 d[t] /= norm
+            d = d / sum(d)
 
             setattr(self, role, d)
 
@@ -108,5 +109,4 @@ def main():
 
 
     pickle.dump(films, open(path + 'personas.pickle', 'w'))
-
-main()
+    print 'Pickled personas.'

@@ -91,9 +91,12 @@ def get_graphs():
             if persona:
                 char_graph.node[n]['persona'] = persona
 
+        # I really need a better system for this. Comment out next line if doing linear regression.
         # char_graph.filter_nodes(number=10)
         # char_graph.filter_by_persona()
+
         char_graph.graph['title'] = films[f].title
+        char_graph.graph['gexf'] = films[f].gexf
 
         #     print films[f].title, f
         #     for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):

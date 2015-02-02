@@ -1,6 +1,7 @@
 from collections import namedtuple
 
 SentimentEvent = namedtuple('SentimentEvent', ['speaker', 'receiver', 'sentiment'])
+# 'sentiment' is a dictionary with files 'neg', 'neu', 'pos', 'compound'
 
 def dump(title, timeline):
 
@@ -17,9 +18,16 @@ def dump(title, timeline):
                              ]).encode('utf8') + '\n')
 
 
-def load(title):
+def load(f_name):
 
     path = '/home/victor/GitHub/experiment/sentiment/'
-    with open(path + title + '.csv', 'r') as f:
-        pass
-        #TODO Load the CSV file as a list of SentimentEvents
+    timeline = []
+    with open(path + f_name + '.csv', 'r') as f:
+        f.readline()
+        for line in f:
+            vals = line.split(',')
+            sentiment = dict(zip(['neg', 'neu', 'pos', 'compound'], map(float, vals[-4:])))
+            event = SentimentEvent(vals[0], vals[1], sentiment)
+            timeline.append(event)
+
+    return timeline

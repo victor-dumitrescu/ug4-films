@@ -41,7 +41,7 @@ def basic_lda(n_topics, verbose=False):
 
 def main():
 
-    n_topics = 20
+    n_topics = 10
     topics, vocab = basic_lda(n_topics)
     pickle.dump(topics, open(path + 'topics.pickle', 'w'))
     pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))

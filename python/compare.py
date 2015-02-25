@@ -77,7 +77,7 @@ def node_objective(x, g1, g2):
 
 def main():
 
-    graphs = get_graphs(verbose=True)
+    graphs = get_graphs()
     setattr(nx.classes.graph.Graph, 'get_ranked_nodes', get_ranked_nodes)
 
     pairs = []

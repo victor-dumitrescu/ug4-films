@@ -39,7 +39,7 @@ def plot_trajectory(timeline, char1, char2, mode=DEFAULT_MODE):
     x, y = filter_events(timeline, char2, char1, mode)
     char2_points = plt.scatter(x, y, c='red')
 
-    plt.legend([char1_points, char2_points], [char1 + ' -> ' + char2, char2 + ' -> ' + char1])
+    plt.legend([char1_points, char2_points], [char1 + ' -> ' + char2, char2 + ' -> ' + char1], loc=2)
     plt.show()
 
 

@@ -103,7 +103,7 @@ def main():
 
         for p in personas:
             personas[p].compute_topic_scores(topics, vocab_dict)
-        #     print personas[p].get_top_topics(5)
+            # print personas[p].get_top_topics(5)
 
         films[s] = personas
 

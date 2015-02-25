@@ -37,7 +37,7 @@ class Film:
 
 def match_char_names(films):
 
-    path = '../output/'
+    path = '/home/victor/GitHub/ug4-films/output/'
     for id in films:
 
         #get character names in the script file
@@ -70,7 +70,7 @@ def match_char_names(films):
 
 def match_gexf(films):
 
-    path = '../output/'
+    path = '/home/victor/GitHub/ug4-films/output/'
     files = []
     for film in glob.glob(path + '*.gexf'):
         files.append(film[len(path):])
@@ -91,8 +91,8 @@ def match_gexf(films):
 
 def construct_films():
 
-    path = '../../experiment/genres/'
-    personas = pickle.load(open(path + 'personas.pickle', 'rb'))
+    path = '/home/victor/GitHub/experiment/genres/'
+    pers = pickle.load(open(path + 'personas.pickle', 'rb'))
     films_ids = {}
     with open(path + 'filtered.meta.data', 'r') as f:
         for row in f:
@@ -118,7 +118,7 @@ def construct_films():
         films[id] = Film(id=id,
                          title=title,
                          fb=films_ids[id][0],
-                         personas=personas[id],
+                         personas=pers[id],
                          chars=chars[id])
 
     match_gexf(films)

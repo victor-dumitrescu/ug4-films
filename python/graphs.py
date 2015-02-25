@@ -4,7 +4,7 @@ from collections import defaultdict
 from films import Film, construct_films
 
 TOPICS = {}
-with open('../../experiment/genres/topics.csv') as f:
+with open('/home/victor/GitHub/experiment/genres/topics.csv') as f:
     for r in f:
         row = r.replace('\n', '').split(', ')
         TOPICS[int(row[0])] = row[1:]
@@ -29,6 +29,7 @@ def get_persona(film, fbs):
 
 
 def filter_nodes(self, number=None, min_score=None):
+    # prunes the graph of nodes which don't have a certain rank/centrality)
 
     measure = nx.degree_centrality(self)  # dictionary of nodes couples with their centrality
     ranked = sorted(measure.items(), key=lambda x: x[1], reverse=True)
@@ -44,6 +45,7 @@ def filter_nodes(self, number=None, min_score=None):
 
 
 def filter_by_persona(self):
+    # removes nodes which don't have a persona
 
     nodes = self.nodes()
     for n in nodes:
@@ -69,12 +71,15 @@ def print_persona(d):
         return ''
 
 
-def get_graphs():
+def get_graphs(verbose=False, **kwargs):
+
+    filter_top = kwargs.get('filter_nodes', False)
+    filter_persona = kwargs.get('filter_persona', False)
 
     setattr(nx.classes.graph.Graph, 'filter_nodes', filter_nodes)
     setattr(nx.classes.graph.Graph, 'filter_by_persona', filter_by_persona)
 
-    path = '../output/'
+    path = '/home/victor/GitHub/ug4-films/output/'
     films = construct_films()
     graphs = {}
 
@@ -91,17 +96,20 @@ def get_graphs():
             if persona:
                 char_graph.node[n]['persona'] = persona
 
-        # I really need a better system for this. Comment out next line if doing linear regression.
-        # char_graph.filter_nodes(number=10)
-        # char_graph.filter_by_persona()
+        # I really need a better system for this. Comment out next lines if doing linear regression.
+        if filter_top:
+            char_graph.filter_nodes(number=filter_top)
+        if filter_persona:
+            char_graph.filter_by_persona()
 
         char_graph.graph['title'] = films[f].title
         char_graph.graph['gexf'] = films[f].gexf
 
-        #     print films[f].title, f
-        #     for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):
-        #         print "%.2f" % round(n[1]['value'], 2), n[0], print_persona(n[1])
-        #     print ''
+        if verbose:
+            print films[f].title, f
+            for n in sorted(char_graph.node.items(), key=lambda x: int(x[1]['rank'])):
+                print "%.2f" % round(n[1]['value'], 2), n[0], print_persona(n[1])
+            print ''
 
         graphs[f] = char_graph
 

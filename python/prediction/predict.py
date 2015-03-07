@@ -2,6 +2,7 @@ import itertools
 
 from graphs import get_graphs
 from utils.store_sentiment import load
+from utils.misc import TopScores
 from sentiment.trajectories import plot_trajectory
 from personas import Persona
 
@@ -19,7 +20,8 @@ def main():
 
     n_topics = 10
     lowest_mse = 100.0
-    highest_accuracy = 0.0
+    # highest_accuracy = 0.0
+    highest_accuracy = TopScores(0.0)
 
     # Acquire graphs for all these settings
     # [0] no. of max nodes in each graph
@@ -73,20 +75,22 @@ def main():
         ]
 
         print "With ", config
-        for model in regression_models:
-            mse = model(data, labels)
-            if mse < lowest_mse:
-                best_fit = (model, config)
-                lowest_mse = mse
+        # for model in regression_models:
+        #     mse = model(data, labels)
+        #     if mse < lowest_mse:
+        #         best_fit = (model, config)
+        #         lowest_mse = mse
         for model in classifiers:
             accuracy = model(data, polarity_labels)
-            if accuracy > highest_accuracy:
-                best_classifier = (model, config)
-                highest_accuracy = accuracy
+            highest_accuracy.score(accuracy, (model, config))
+            # if accuracy > highest_accuracy:
+            #     best_classifier = (model, config)
+            #     highest_accuracy = accuracy
         print ''
 
-    print lowest_mse, best_fit
-    print highest_accuracy, best_classifier
+    # print lowest_mse, best_fit
+    # print highest_accuracy, best_classifier
+    print highest_accuracy.get_sorted()
 
     # best regression:
     # 6.95012940528 (tree_regression, (False, True, ['P'], False))
@@ -97,5 +101,6 @@ def main():
     # best SVM:
     # 0.794117647059 [many configurations]
 
+    # transitivity of relations
 
 main()

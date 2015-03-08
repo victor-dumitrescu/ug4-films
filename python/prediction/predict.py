@@ -35,6 +35,8 @@ def main():
     # [3] replace all other topic values in persona distribution with 0
     pick_top = range(1, 5) + [False]
 
+    get_graphs(filter_nodes=10, filter_by_persona=True, verbose=True)
+
     for config in itertools.product(filter_top_values, filter_personas, personas, pick_top):
         graphs = get_graphs(filter_nodes=config[0],
                             filter_by_persona=config[1],

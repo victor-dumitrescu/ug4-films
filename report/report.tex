@@ -31,7 +31,9 @@ This project sets out to explore a representation of films in terms of their cha
 %\pagenumbering{arabic}  <-- was commented out in the skeleton too
 
 
-\chapter{Work done so far}
+\chapter{Introduction}
+
+\chapter{Context and background}
 
 \section{Background work}
 Interest in computationally analysing narrative fiction has spiked along with the increasing size of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
@@ -49,6 +51,10 @@ The main sources of data used in this project are:
 \end{itemize}
 
 The first two corpora are used to construct the character graphs. The Rotten Tomatoes data provides the basis for a gold-standard measure of film similarity, which we use to assess the usefulness of the character graph representations.
+
+\chapter{Aims and hypotheses}
+
+\chapter{Implementation}
 
 \section{The processing pipeline}
 This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs, compare them and assess the results.
@@ -182,7 +188,9 @@ One of the aims of the project is to determine whether character graphs can be u
 
 We have found that the results obtained by querying every film in the collection and discarding every returned film which is not part of the collection yields a very small number of pairs. Thus, we have expanded the similarity measure by constructing a graph in which films are nodes and edges represent similarity and allowing films from outside the corpus. The similarity can then be measured as the minimum distance in the graph.
 
-\subsection{Future work}
+\chapter{Results, discussion and future work}
+
+\section{Future work}
 Over the next two weeks, I plan to:
 \begin{itemize}
 

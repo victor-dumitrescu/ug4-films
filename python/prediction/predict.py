@@ -19,8 +19,9 @@ from prediction.svm import support_vector_machines
 def main():
 
     n_topics = 10
-    lowest_mse = 100.0
+    # lowest_mse = 100.0
     # highest_accuracy = 0.0
+    lowest_mse = TopScores(100.0, order_max=False)
     highest_accuracy = TopScores(0.0)
 
     # Acquire graphs for all these settings
@@ -34,8 +35,6 @@ def main():
                            itertools.combinations('APM', r) for r in range(1, 4))))
     # [3] replace all other topic values in persona distribution with 0
     pick_top = range(1, 5) + [False]
-
-    get_graphs(filter_nodes=10, filter_by_persona=True, verbose=True)
 
     for config in itertools.product(filter_top_values, filter_personas, personas, pick_top):
         graphs = get_graphs(filter_nodes=config[0],
@@ -77,11 +76,12 @@ def main():
         ]
 
         print "With ", config
-        # for model in regression_models:
-        #     mse = model(data, labels)
-        #     if mse < lowest_mse:
-        #         best_fit = (model, config)
-        #         lowest_mse = mse
+        for model in regression_models:
+            mse = model(data, labels)
+            lowest_mse.score(mse, (model, config))
+            # if mse < lowest_mse:
+            #     best_fit = (model, config)
+            #     lowest_mse = mse
         for model in classifiers:
             accuracy = model(data, polarity_labels)
             highest_accuracy.score(accuracy, (model, config))

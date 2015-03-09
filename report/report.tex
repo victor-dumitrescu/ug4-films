@@ -27,6 +27,8 @@ This project sets out to explore a representation of films in terms of their cha
 % Acknowledgements go here. 
 
 \tableofcontents
+\listoffigures
+\listoftables
 
 %\pagenumbering{arabic}  <-- was commented out in the skeleton too
 
@@ -38,7 +40,16 @@ This project sets out to explore a representation of films in terms of their cha
 \section{Background work}
 Interest in computationally analysing narrative fiction has spiked along with the increasing size of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
 
+[TO DO: \textit{survey some of the relevant literature}]
+
+\subsection{The Persona Model}
+
 Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model}, which serves as the basis for our work.
+
+[TO DO: \textit{more details on the generative model they use, and on their conclusions}]
+
+\subsection{Character-to-Character Sentiment Analysis}
+[TO DO: \textit{summarise the paper \cite{Nalisnick2013}}]
 
 
 
@@ -47,12 +58,49 @@ The main sources of data used in this project are:
 \begin{itemize}
 	\item \textbf{CMU Movie Summary Corpus}, a collection of 42,306 Wikipedia plot summaries of films, along with metadata extracted from Freebase. The summaries are processed using the \textit{Stanford CoreNLP} tools, specifically tagging, parsing, named entity recognition and coreference resolution.
 	\item \textbf{ScriptBase} \cite{Gorinski}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using the \textit{Stanford CoreNLP} pipeline.
-	\item \textbf{Rotten Tomatoes} film similarity data, collected through their official API. It comprises of pairs of similar films, reflecting human judgements.
 \end{itemize}
 
-The first two corpora are used to construct the character graphs. The Rotten Tomatoes data provides the basis for a gold-standard measure of film similarity, which we use to assess the usefulness of the character graph representations.
+[TO DO: \textit{More details on what kind of data is extracted in these corpora and specific pre-processing steps}]
 
 \chapter{Aims and hypotheses}
+
+\section{Sentiment Analysis}
+
+\section{Alternative hypotheses}
+
+\subsection{TV Tropes}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{|c||l|l|}
+\hline
+1 & Shout-Out & 54 \\ \hline
+2 & Deadpan Snarker & 31 \\ \hline
+3 & Lampshade Hanging & 27 \\ \hline
+4 & Chekhov's Gun & 27 \\ \hline
+5 & Running Gag & 26 \\ \hline
+6 & Oh, Crap & 25 \\ \hline
+7 & Brick Joke & 24 \\ \hline
+8 & Precision F-Strike & 23 \\ \hline
+9 & Foreshadowing & 23 \\ \hline
+10 & Black Comedy & 22 \\ \hline
+11 & Berserk Button & 22 \\ \hline
+12 & Cluster F-Bomb & 19 \\ \hline
+13 & Butt Monkey & 18 \\ \hline
+14 & Large Ham & 18 \\ \hline
+15 & Badass & 18 \\ \hline
+16 & Ax-Crazy & 18 \\ \hline
+17 & Title Drop & 17 \\ \hline
+18 & Word Of God & 17 \\ \hline
+19 & Meaningful Name & 16 \\ \hline
+20 & Even Evil Has Standards & 16 \\ \hline
+
+\end{tabular}
+
+\caption{The 20 most frequent TV Tropes and the number of films which feature them (out of the 83 films in the collection)}
+
+\end{table}
+\subsection{Film similarity}
 
 \chapter{Implementation}
 
@@ -75,7 +123,7 @@ For representing character graphs, we have chosen GEXF\footnote{The GEXF file fo
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.4]{clarice_graph}
-	\caption{Character graph of \textit{The Silence of the Lambs} (1991), centered around the protagonist, Clarice Starling. Edge size is proportional to the number of scene co-occurrences between two characters.}
+	\caption{Character graph of \textit{The Silence of the Lambs} (1991), centred around the protagonist, Clarice Starling. Edge size is proportional to the number of scene co-occurrences between two characters.}
 \end{figure}
 
 \subsection{The Persona Model}
@@ -116,7 +164,7 @@ One of the advantages of this frequentist approach is that the only parameter th
 9: set capture try save 
 \end{Verbatim}
 \end{minipage}
-\caption{First 4 words in the 10 topics discovered by LDA on our film collection, ranked by probability.}
+\caption{First 4 words in the 10 topics discovered by LDA on our film collection, ranked by probability. TO DO: \textit{Need to update these}}
 \label{topics}
 \end{figure}
 
@@ -190,22 +238,6 @@ We have found that the results obtained by querying every film in the collection
 
 \chapter{Results, discussion and future work}
 
-\section{Future work}
-Over the next two weeks, I plan to:
-\begin{itemize}
-
-	\item parse more raw scripts from ScriptBase into processed XML files
-
-	I have alredy started work on this, but the process is laborious because although scripts loosely follow the same format, the differences between them are quite substantial and make parsing difficult.
-
-	\item explore different measures of film similarity
-	
-	Since relying on personas derived from plot summaries seems to be quite problematic, considering the small number of characters for which a persona can be estimated, I would like to explore other measures which rely more on the relationships between characters and the scripts. Some slightly more sophisticated ideas about this can be found in \cite{Gorinski}. If time allows, I could try an approach based on sentiment analysis, such as that described in \cite{Nalisnick2013}
-	
-	\item run experiment against the gold-standard film pairings
-	
-	Use the Rotten Tomatoes film similarity in order to assess the accuracy of the different methods I have been trying so far
-\end{itemize}
 
 \bibliographystyle{plain}
 \bibliography{collection}

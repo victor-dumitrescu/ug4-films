@@ -4,6 +4,11 @@
 \usepackage{fancyvrb}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
+\usepackage{multirow}
+
+
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
 
 \begin{document}
 \long\def\/*#1*/{}
@@ -18,7 +23,7 @@
 \date{\today}
 
 \abstract{
-This project sets out to explore a representation of films in terms of their characters, based on textual information, such as screenplays and plot summaries. The work described in this report builds upon the existing literature in computational linguistics concerned with studying characters in films and other works of fiction. The character graphs presented here model two main aspects of film characters: their personalities and their role in the social network of the narrative. We try to show that by combining these two approaches in a single representation, we can derive some insight into establishing the similarity of films.
+This project sets out to explore a representation of films in terms of their characters, bringing together different kinds of textual information, such as screenplays and plot summaries. The work described in this report builds upon the existing literature in computational linguistics concerned with studying characters in films and other works of fiction. The character graphs presented here model two main aspects of film characters: their personalities and their role in the social network of the narrative. We try to show that by using both kinds of features to represent films, we can derive some insight into deeper aspects of the narratives.
 }
 
 \maketitle
@@ -44,27 +49,80 @@ Interest in computationally analysing narrative fiction has spiked along with th
 
 \subsection{The Persona Model}
 
-Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model}, which serves as the basis for our work.
+Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model} introduced in \cite{Bamman2014}, which serves as the basis for this work.
 
-[TO DO: \textit{more details on the generative model they use, and on their conclusions}]
+Instead of trying to build these models of character personality using information conveyed in the films themselves, such as dialogue or descriptions from the screenplays, Bamman and his colleagues relied on summaries of films' storyline, written by human editors on Wikipedia. These are usually concise, straightforward descriptions of the events and characters of a film, written in a neutral style. A more detailed discussion of the this data follows in Section~\ref{sec:data sets}. 
+
+A core assumption in their model is that character personalities are primarily represented by three types of words in the plot summaries:
+\begin{itemize}
+	\item \textbf{Agent verbs:} Verbs for which the character is an agent (e.g. "Starling \textit{travels} to the victim's hometown")
+	\item \textbf{Patient verbs:} Verbs for which the character is the patient or object (e.g. "Starling is \textit{led} to the house of Jack Gordon", where \textit{Starling} is a passive nominal subject)
+	\item \textbf{Modifiers:} Other words which describe the characters (e.g. "Catherine is still \textit{alive}")
+\end{itemize}
+The classification of tokens into one of these categories is based their Stanford Typed Dependencies \cite{de2008stanford}, assigned using the Stanford CoreNLP natural language analysis toolkit \footnote{http://nlp.stanford.edu/software/corenlp.shtml}.
+
+In their \textit{Dirichlet Persona Model}, these words, along with their classification into the 3 categories described above are the only data used to infer the persona of a character. Aside from this model, they also explore an augmented one (\textit{Persona Regression}), which also takes some metadata into account, namely the age and gender of the characters (based on the gender and date of birth of the actor portraying that character) and the genre of the film.
+
+\begin{figure}[ht!]
+\centering
+\begin{tikzpicture}
+
+  % Define nodes
+  \node[obs]                      (w) {$w$};
+  \node[latent, above=of w]       (z) {$z$};
+  \node[obs, right=of z]          (r) {$r$}; 
+  \node[latent, above=of z]       (p) {$p$};
+  \node[dash, above=of p]         (theta) {$\theta^{(d)}$};
+  \node[latent, left=of theta]    (alpha) {$\alpha$};
+  \node[dash, left=of w]          (phi) {$\phi^{(z)}$};
+  \node[latent, below=of phi]     (gamma) {$\gamma$};
+  \node[dash, left=of z]          (psi) {$\psi^{(r)}$};
+  \node[latent, above=of psi]     (nu) {$\nu$};
+
+  \edge {z}{w}
+  \edge {r}{z}
+  \edge {theta}{p}
+  \edge {p}{z}
+  \edge {alpha}{theta}
+  \edge {phi}{w}
+  \edge {gamma}{phi}
+  \edge {psi}{z}
+  \edge {nu}{psi}
+
+  \plate {zwr} {(z)(w)(r)} {$W$};
+  \plate {zwrp} {(zwr)(p)} {$E$};
+  \plate {zwrp_theta} {(zwrp)(theta)} {$D$};
+
+\end{tikzpicture}
+\caption{Graphical model of the \textit{Dirichlet Persona Model} presented in \cite{Bamman2014}. Figure adapted from the one in the paper. As can be seen when comparing with Figure~\ref{fig:lda} below, it extends the LDA model.}
+\end{figure}
+
+In the model shown above, the words $w$ and their role $r$ (agent, patient, modifier) are the observed variables. $W$ is the total number of words. Each word is assigned a topic $z$. Topics $\phi$ are multinomial distributions over words in the vocabulary, with a Dirichlet prior, parameterised by $\gamma$. A persona $p$ is then defined as a set of 3 multinomial distributions $\psi$ over the topics, also with a Dirichlet prior, each parameterised by a $\nu_r$. At the document (film) level, characters' personas are also drawn from a multinomial distribution $\theta$, with a Dirichlet prior, parameterised by $\alpha$. The authors use collapsed Gibbs sampling \cite{griffiths2004finding} to sample the latent topic $z$ of each word and the persona $p$ of each character. 
+
+For this project, a simpler model was used, described in Section~[TODO: reference], based on an external implementation of Latent Dirichlet allocation.
+
+
+
 
 \subsection{Character-to-Character Sentiment Analysis}
 [TO DO: \textit{summarise the paper \cite{Nalisnick2013}}]
 
 
 
-\section{Data sets}
+\section{Data sets} \label{sec:data sets}
 The main sources of data used in this project are:
 \begin{itemize}
 	\item \textbf{CMU Movie Summary Corpus}, a collection of 42,306 Wikipedia plot summaries of films, along with metadata extracted from Freebase. The summaries are processed using the \textit{Stanford CoreNLP} tools, specifically tagging, parsing, named entity recognition and coreference resolution.
-	\item \textbf{ScriptBase} \cite{Gorinski}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using the \textit{Stanford CoreNLP} pipeline.
+	\item \textbf{ScriptBase} \cite{Gorinski2015}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using the \textit{Stanford CoreNLP} pipeline.
 \end{itemize}
 
 [TO DO: \textit{More details on what kind of data is extracted in these corpora and specific pre-processing steps}]
 
+[Wiki on plot summaries: "The plot summary is an overview of the film's main events, so avoid minutiae like dialogue, scene-by-scene breakdowns, individual jokes, and technical detail."]
+
 \chapter{Aims and hypotheses}
 
-\section{Sentiment Analysis}
+\section{Inter-character sentiment}
 
 \section{Alternative hypotheses}
 
@@ -105,10 +163,10 @@ The main sources of data used in this project are:
 \chapter{Implementation}
 
 \section{The processing pipeline}
-This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs, compare them and assess the results.
+This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments.
 
 \subsection{The Character Graph}
-In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (the nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences between two characters. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
+In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (the nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences between two characters. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. As a consequence, characters which never interact in the film will be disconnected in the graph. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
 
 Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters.
 
@@ -128,15 +186,40 @@ For representing character graphs, we have chosen GEXF\footnote{The GEXF file fo
 
 \subsection{The Persona Model}
 We implemented a variation of the Dirichlet Persona Model introduced in \cite{Bamman2013} and briefly described above.
+
+\begin{figure}[h!]
+\centering
+\begin{tikzpicture}
+
+  \node[obs]                               (w) {$w$};
+  \node[latent, above=of w]                (z) {$z$};
+  \node[dash, above=of z]              (theta) {$\theta^{(d)}$};
+  \node[latent, left=of theta]        (alpha) {$\alpha$};
+  \node[dash, left=of w]                 (phi) {$\phi^{(z)}$};
+  \node[latent, below=of phi]          (gamma) {$\gamma$};
+
+  \edge {z}{w}
+  \edge {theta}{z}
+  \edge {alpha}{theta}
+  \edge {phi}{w}
+  \edge {gamma}{phi}
+
+  \plate {zw} {(z)(w)} {$W$};
+  \plate {zwt} {(zw)(theta)} {$D$};
+
+\end{tikzpicture}
+\caption{Graphical model for Latent Dirichlet Allocation (LDA)}
+\label{fig:lda}
+\end{figure}
+
+
 \subsubsection{Processing the CMU script summaries}
 The CMU corpus provides both the raw plot summaries and a file containing all the processed summaries, which can be used as input for the pipeline described in their paper. We have designed ours to work with the same input format, enabling us to use the data from this corpus without any additional preprocessing, apart from filtering out the films for which we have not constructed a character graph. This includes the majority of films in the corpus. Out of the 127 films from ScriptBase, 96 also have a processed plot summary.
 
+
+[ \textit{moved the agent/patient/modifier thing in the backround section}
 The filtered film data file contains, for each film and each character mentioned in the plot summary, a list of words which are either:
-\begin{itemize}
-	\item \textbf{Agent verbs:} Verbs for which the character is an agent (e.g. "Starling \textit{travels} to the victim's hometown")
-	\item \textbf{Patient verbs:} Verbs for which the character is the patient or object (e.g. "Starling is \textit{led} to the house of Jack Gordon", where \textit{Starling} is a passive nominal subject)
-	\item \textbf{Modifiers:} Other words which describe the characters (e.g. "Catherine is still \textit{alive}")
-\end{itemize}
+]
 
 These words are selected into one of these types on the basis of their Stanford typed dependencies, as determined using the CoreNLP parser. Each of the three types described above corresponds to a list of dependencies and all tokens tagged with those dependencies will be assigned a type. In the final input file, in addition to the word lemma, its type (agent, patient, modifier) and its dependency tag, the word tuples for each character also contain the part of speech and the WordNet supersense.
 
@@ -170,6 +253,21 @@ One of the advantages of this frequentist approach is that the only parameter th
 
 Having these 10 distributions over words in the vocabulary, we construct, for each character, a set of 3 distributions over these topics, by multiplying the number of different occurrences of a certain word lemma with the probability of that lemma in a certain topic, then normalising. It is then easy to compare the persona of two different characters, by using any distance measure, such as Euclidean distance.
 
+
+\subsection{Extracting sentiment trajectories}
+
+\begin{figure}[h!]
+	\includegraphics[scale=0.335]{sentiment}
+	\caption{Sentiment trajectories between the two most central characters in \textit{The Silence of the Lambs} (1994) and \textit{Midnight in Paris} (2011) [TO DO: \textit{Label axes}]}
+\end{figure}
+
+
+\section{Testing alternative hypotheses}
+
+\subsection{Predicting TV Tropes}
+\subsubsection{Scraping the TV Tropes website}
+[TO DO: \textit{Outline implementation of scraper}]
+
 \subsection{Comparing character graphs}
 Once the character graphs are constructed, the nodes can be annotated with the persona information. Note that although the character graphs are likely to contain a node for every character in the plot (a small variation can occur due to faults in the preprocessing of scripts), personas will be computed for 2-5 main characters. Again, due to the limitations of the standard NLP tools (most notably coreference resolution), this number can be lower, sometimes even 0.
 
@@ -178,7 +276,9 @@ To represent annotated graphs in our project, we have used the Python \texttt{ne
 \subsubsection{Direct matching based on centrality}
 The simplest comparison measure implemented is based on matching characters from different graphs based on their role in the network. Using degree centrality, the nodes of each graph are sorted and only the first 10 nodes are kept. This is a parameter that can be experimentally adjusted, but we have set it to 10 initially because for every film in the collection, we could not compute a persona for any character that has rank below 10 by degree centrality.
 
-Then, every pair of corresponding characters (by rank) in the two graphs is compared. Note that although a persona is a set of 3 distributions, not all characters will have a distribution defined for all 3 types (agent, patient, modifier), since the relevant word lemmas might not be present in the plot summary. Therefore, we compare the distributions which both characters have in common, by taking the norm of the difference between the 2 vectors. The film similarity score is computed as the average of these differences: the lower the score, the more similar the graphs are deemed to be.
+[TO DO: \textit{Detail why character matching is complicated}]
+
+[\textit{Move this to the section dealing with constructing feature vectors for prediction}] Then, every pair of corresponding characters (by rank) in the two graphs is compared. Note that although a persona is a set of 3 distributions, not all characters will have a distribution defined for all 3 types (agent, patient, modifier), since the relevant word lemmas might not be present in the plot summary. Therefore, we compare the distributions which both characters have in common, by taking the norm of the difference between the 2 vectors. The film similarity score is computed as the average of these differences: the lower the score, the more similar the graphs are deemed to be.
 
 \begin{figure}[h]
 \centering
@@ -232,12 +332,46 @@ One explanation for the dominance of \textit{Ghost World} in the similarity resu
 We suspect that one of the causes of the weak results is the small number of films in our collection and, consequently, the small number of words in the vocabulary. This can lead to a topic clustering which does not have much discriminative power (see the list of topics in Figure \ref{topics}). It might also be the case that, since not many personas are matched between films, these occasional matches might be insufficient for obtaining meaningful results across the whole corpus.
 
 \subsection{Rotten Tomatoes similarity}
-One of the aims of the project is to determine whether character graphs can be useful in predicting film similarity, based on human judgements. Independent from the work described so far, we have also tried to construct a gold-standard collection of film similarity pairs, using data supplied by Rotten Tomatoes\footnote{www.rottentomatoes.com}. Their public API supports requests of the form "What films have users deemed to be similar to this one?" and offers up to 5 results.
+One of the aims of the project was to determine whether character graphs can be useful in predicting film similarity, based on human judgements. In order to test this hypothesis, independent from the work described so far, we have also tried to construct a gold-standard collection of film similarity pairs, using data supplied by Rotten Tomatoes\footnote{www.rottentomatoes.com}. Their public API supports requests of the form "What films have users deemed to be similar to this one?" and offers up to 5 results.
 
 We have found that the results obtained by querying every film in the collection and discarding every returned film which is not part of the collection yields a very small number of pairs. Thus, we have expanded the similarity measure by constructing a graph in which films are nodes and edges represent similarity and allowing films from outside the corpus. The similarity can then be measured as the minimum distance in the graph.
 
+However, the limited number of films in our collection and the fact that they are quite diverse (i.e. it is difficult to find pairs for which human judgements indicate similarity) meant that we could not meaningfully assess whether character graphs can be used to predict general film similarity. 
+
 \chapter{Results, discussion and future work}
 
+From the onset, this project was quite exploratory in nature. Experimenting with various film representations and the kinds of features that they can reliably predict was one of the main goals. The results presented in this chapter and the subsequent discussion will offer some insight into what can be achieved when using the character graph representation of films proposed above.
+
+\section{Predicting inter-character sentiment}
+
+\subsection{Predicting compound sentiment}
+Modelled as a regression task. Results not significant.
+
+\subsection{Predicting sentiment polarity}
+Modelled as a 2-class classification problem. Good performance was achieved when selecting a subset of data points / features, as indicated in the table.
+
+\begin{table}[hbf!]
+\begin{tabular}{ |c|c|c|c|c|c| }
+\cline{1-5}
+\multicolumn{5}{ |c| }{Configuration}\\
+\hline
+Predictor & No. nodes & Filter personas & Personas used & Top topics only & \textbf{Accuracy}\\ \hline
+\multirow{2}{*}{Random forest} 
+ & 2 & No & P, M & 1 & \textbf{0.875}\\
+ & 2 & No & A, P, M & All topics & \textbf{0.875}\\ \hline
+\multirow{2}{*}{SVM}
+ & 3 & No & P & 1 & \textbf{0.813}\\ 
+ & 2 & Yes & A, P & 2 & \textbf{0.813}\\ \hline
+\end{tabular}
+
+\caption{Best sentiment polarity prediction accuracy obtained with random forest and SVM models, with different feature selection procedures applied to the data}
+
+\end{table}
+
+[TO DO: \textit{Explanation for all the configuration, why they were chosen, their range and the number of data points remaining in each case}
+
+\subsection{Predicting changes in sentiment}
+[TO DO: \textit{Have not run experiments yet.}]
 
 \bibliographystyle{plain}
 \bibliography{collection}

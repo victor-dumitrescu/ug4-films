@@ -38,6 +38,8 @@ def construct_feature_vectors(graph, n_topics, **kwargs):
     graph.filter_by_persona()
     for e in graph.edges():
         X = None
+        X1 = None
+        X2 = None
         for char in range(2):
             for role in roles:
                 distr = getattr(graph.node[e[char]]['persona'], role)
@@ -49,12 +51,14 @@ def construct_feature_vectors(graph, n_topics, **kwargs):
                         distr = np.ones(n_topics) / n_topics
                 assert len(distr) == n_topics
                 X = np.append(X, distr)
-        X = X[1:]  # skip the none
+        X = X[1:]  # skip the None
+
+        # X1 and X2 represent the complementary relationships between the same 2 characters
         X1 = np.append(X, np.array([graph.edge[e[0]][e[1]]['weight']]))
         pairs.append((e[0], e[1]))
         vectors.append(X1)
 
-        X2 = np.append(X[3*n_topics:], X[:3*n_topics])
+        X2 = np.append(X[len(roles)*n_topics:], X[:len(roles)*n_topics])
         X2 = np.append(X2, np.array([graph.edge[e[0]][e[1]]['weight']]))
         pairs.append((e[1], e[0]))
         vectors.append(X2)

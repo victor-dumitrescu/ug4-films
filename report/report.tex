@@ -9,7 +9,7 @@
 
 \usepackage{tikz}
 \usetikzlibrary{bayesnet}
-
+\usepackage{dirtree}
 \begin{document}
 \long\def\/*#1*/{}
 
@@ -160,31 +160,91 @@ The main sources of data used in this project are:
 \end{table}
 \subsection{Film similarity}
 
-\chapter{Implementation}
+\chapter{Design and Implementation}
 
-\section{The processing pipeline}
-This section details the components of the pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments.
+This chapter details the components of the software pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments. The system was primarily programmed using Python 2.7.6. Some parts concerned with parsing script files and gathering film similarity judgements from Rotten Tomatoes were implemented using F\# 3.1.
 
-\subsection{The Character Graph}
+The structure of the project is shown in Figure~\ref{fig:dirtree}. Directories and source files in the main directory correspond to the major areas of implementation, which can roughly be categorised as follows (by directory/file):
+\begin{itemize}
+	\item \texttt{\textbf{topics}}:  Extract and filter plot summary data, run Latent Dirichlet Allocation and pickle the resulting topic distributions
+	\item \texttt{personas.py}: Define a \texttt{Persona} class, compute the persona for each character and pickle them
+	\item \texttt{graphs.py}: Construct character graphs and implement various functions for working with them (e.g. filter nodes/edges)
+	\item \texttt{film.py}: Define a \texttt{Film} class, which stores the character graphs and matches them with various pieces of metadata (e.g. title, year, names of characters)
+	\item \texttt{\textbf{sentiment}}: Extract speech acts from processing film scripts and construct sentiment trajectories between pairs of characters
+	\item \texttt{\textbf{prediction}}: Implements various predictors and tools for feature engineering and running repeated experiments with different configurations
+	\item \texttt{\textbf{utils}}: Processing raw data, pickling and other utility functions required throughout the project
+\end{itemize}
+
+\hspace{.1in}
+\begin{figure}[ht!]
+\dirtree{%
+.1 \textbf{python}.
+.2 \textbf{topics}.
+.3 acquire\_vocab.py.
+.3 filter\_genres.py.
+.3 model\_topics.py.
+.2 \textbf{sentiment}.
+.3 trajectories.py.
+.2 \textbf{prediction}.
+.3 decision\_tree.py.
+.3 random\_forest.py.
+.3 svm.py.
+.3 lin\_regression.py.
+.3 ridge\_regression.py.
+.3 regression\_tree.py.
+.3 svm\_regression.py.
+.3 features.py.
+.3 predict.py.
+.2 \textbf{utils}.
+.3 filter\_summaries.py.
+.3 process\_summaries.py.
+.3 process\_scripts.py.
+.3 store\_sentiment.py.
+.3 misc.py.
+.2 films.py.
+.2 personas.py.
+.2 graphs.py.
+.2 compare.py.
+.2 run\_topic\_model.py.
+}
+\caption{General structure of the Python code written for the project}
+\label{fig:dirtree}
+\end{figure}
+
+The code for constructing the Rotten Tomatoes film similarity graph was written in F\#. Its structure is outlined in Figure~\ref{fig:fsharpdirtree}.
+
+\begin{figure}[th!]
+\dirtree{%
+.1 \textbf{\texttt{rtgraph}}.
+.2 Graph.fs.
+.2 ApiCalls.fs.
+.2 ToGEXF.fs.
+.2 Main.fs.
+}
+\caption{General structure of the F\# code written for the project}
+\label{fig:fsharpdirtree}
+\end{figure}
+
+\section{The Character Graph}
 In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (the nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences between two characters. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. As a consequence, characters which never interact in the film will be disconnected in the graph. When comparing the character graphs of different films, these weights will be normalised (by the total number of scenes in the film).
 
 Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters.
 
-\subsubsection{Processing ScriptBase screenplays}
+\subsection{Processing ScriptBase screenplays}
 To ease the task of extracting the number of character to character scene co-occurrences, we restricted the set of films to the 127 which have already been processed in ScriptBase. A processed script is an XML file which, apart from the standard CoreNLP annotations, also places every sentence inside a numbered \texttt{scene} tag. It also distinguishes between stage directions and speech, annotating the name of the speaker(s) in the latter case.
 
 Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that although this approach ignores characters which might be present in a scene but do not speak, in practice we do not expect this to influence the results significantly.
 
-\subsubsection{Constructing character graphs}
+\subsection{Constructing character graphs}
 For representing character graphs, we have chosen GEXF\footnote{The GEXF file format, \textit{http://gexf.net}}, a standard XML format for describing general network structures. As described above, we simply extract all the character names from the script and use them as the set of nodes in the graph. We add a weighted edge for all the recorded interactions between characters. As a result, every film (of the 127 which we considered) will be represented with a GEXF file.
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.4]{clarice_graph}
+	\includegraphics[scale=0.4]{figures/clarice_graph}
 	\caption{Character graph of \textit{The Silence of the Lambs} (1991), centred around the protagonist, Clarice Starling. Edge size is proportional to the number of scene co-occurrences between two characters.}
 \end{figure}
 
-\subsection{The Persona Model}
+\section{The Persona Model}
 We implemented a variation of the Dirichlet Persona Model introduced in \cite{Bamman2013} and briefly described above.
 
 \begin{figure}[h!]
@@ -213,7 +273,7 @@ We implemented a variation of the Dirichlet Persona Model introduced in \cite{Ba
 \end{figure}
 
 
-\subsubsection{Processing the CMU script summaries}
+\subsection{Processing the CMU script summaries}
 The CMU corpus provides both the raw plot summaries and a file containing all the processed summaries, which can be used as input for the pipeline described in their paper. We have designed ours to work with the same input format, enabling us to use the data from this corpus without any additional preprocessing, apart from filtering out the films for which we have not constructed a character graph. This includes the majority of films in the corpus. Out of the 127 films from ScriptBase, 96 also have a processed plot summary.
 
 
@@ -224,7 +284,7 @@ The filtered film data file contains, for each film and each character mentioned
 These words are selected into one of these types on the basis of their Stanford typed dependencies, as determined using the CoreNLP parser. Each of the three types described above corresponds to a list of dependencies and all tokens tagged with those dependencies will be assigned a type. In the final input file, in addition to the word lemma, its type (agent, patient, modifier) and its dependency tag, the word tuples for each character also contain the part of speech and the WordNet supersense.
 
 
-\subsubsection{Constructing the persona model}
+\subsection{Constructing the persona model}
 In this project we implement a simpler version of the Dirichlet persona model \cite{Blei2003}. The original model was implemented as generative model. In the paper, a persona is defined as a set of 3 distributions (corresponding to agent, patient and modifier words) over topics, which are in turn distributions over words, similar to topic in Latent Dirichlet Allocation.
 
 We have opted to use the standard LDA algorithm, as implemented in the Python \texttt{lda 0.3.2} package \footnote{ www.pypi.python.org/pypi/lda} in order to derive the latent topics in our vocabulary and use a simple maximum likelihood estimation method to compute each character's 3 distributions over these latent topics.
@@ -254,10 +314,10 @@ One of the advantages of this frequentist approach is that the only parameter th
 Having these 10 distributions over words in the vocabulary, we construct, for each character, a set of 3 distributions over these topics, by multiplying the number of different occurrences of a certain word lemma with the probability of that lemma in a certain topic, then normalising. It is then easy to compare the persona of two different characters, by using any distance measure, such as Euclidean distance.
 
 
-\subsection{Extracting sentiment trajectories}
+\section{Sentiment trajectories}
 
-\begin{figure}[h!]
-	\includegraphics[scale=0.335]{sentiment}
+\begin{figure}[th!]
+	\includegraphics[scale=0.335]{figures/sentiment}
 	\caption{Sentiment trajectories between the two most central characters in \textit{The Silence of the Lambs} (1994) and \textit{Midnight in Paris} (2011) [TO DO: \textit{Label axes}]}
 \end{figure}
 

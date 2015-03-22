@@ -219,4 +219,4 @@ docs/content/release-notes.md
 report/
 !report/*.tex
 !report/collection.bib
-!report/figures/
+!report/figures

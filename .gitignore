@@ -216,3 +216,7 @@ docs/content/release-notes.md
 *.synctex.gz
 
 *.pdf
+report/
+!report/*.tex
+!report/collection.bib
+!report/figures/*

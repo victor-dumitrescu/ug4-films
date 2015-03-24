@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 from sklearn import tree
 
 
-def decision_tree(data, labels):
+def decision_tree(data, labels, verbose=False):
 
     assert len(data) == len(labels)
 
@@ -14,8 +14,9 @@ def decision_tree(data, labels):
     clf = clf.fit(X_train, y_train)
     acc = accuracy_score(y_test, clf.predict(X_test))
 
-    print 'Decision tree classification'
-    print 'Accuracy: ', acc
+    if verbose:
+        print 'Decision tree classification'
+        print 'Accuracy: ', acc
 
     return acc
 

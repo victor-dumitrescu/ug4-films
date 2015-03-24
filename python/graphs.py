@@ -1,6 +1,8 @@
+import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from collections import defaultdict
+from personas import Persona
 from films import Film, construct_films
 
 TOPICS = {}
@@ -44,13 +46,19 @@ def filter_nodes(self, number=None, min_score=None):
         pass
 
 
-def filter_by_persona(self):
+def filter_by_persona(self, n_topics=10, remove=True):
     # removes nodes which don't have a persona
 
     nodes = self.nodes()
     for n in nodes:
         if 'persona' not in self.node[n].keys():
-            self.remove_node(n)
+            if remove:
+                self.remove_node(n)
+            else:
+                empty_persona = Persona([], None, None, None)
+                for role in ['agent', 'patient', 'modifier']:
+                    setattr(empty_persona, role, np.array([1.0/n_topics]*n_topics))
+                self.node[n]['persona'] = empty_persona
 
 
 def print_persona(d):
@@ -99,8 +107,8 @@ def get_graphs(verbose=False, **kwargs):
         # I really need a better system for this. Comment out next lines if doing linear regression.
         if filter_top:
             char_graph.filter_nodes(number=filter_top)
-        if filter_persona:
-            char_graph.filter_by_persona()
+        # if filter_persona:
+        #     char_graph.filter_by_persona()
 
         char_graph.graph['title'] = films[f].title
         char_graph.graph['gexf'] = films[f].gexf

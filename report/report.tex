@@ -1,4 +1,3 @@
-
 \documentclass[bsc,frontabs,singlespacing,parskip]{infthesis} % add [twoside]
 \usepackage{filecontents}
 \usepackage{fancyvrb}
@@ -6,10 +5,11 @@
 \usepackage[export]{adjustbox}
 \usepackage{multirow}
 
-
 \usepackage{tikz}
 \usetikzlibrary{bayesnet}
 \usepackage{dirtree}
+
+
 \begin{document}
 \long\def\/*#1*/{}
 
@@ -164,7 +164,7 @@ The main sources of data used in this project are:
 
 This chapter details the components of the software pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments. The system was primarily programmed using Python 2.7.6. Some parts concerned with parsing script files and gathering film similarity judgements from Rotten Tomatoes were implemented using F\# 3.1.
 
-The structure of the project is shown in Figure~\ref{fig:dirtree}. Directories and source files in the main directory correspond to the major areas of implementation, which can roughly be categorised as follows (by directory/file):
+The structure of the project is shown in Figure~\ref{fig:dirtree}. Directories and source files in the root directory correspond to the major areas of implementation, which can roughly be categorised as follows (by directory/file):
 \begin{itemize}
 	\item \texttt{\textbf{topics}}:  Extract and filter plot summary data, run Latent Dirichlet Allocation and pickle the resulting topic distributions
 	\item \texttt{personas.py}: Define a \texttt{Persona} class, compute the persona for each character and pickle them
@@ -400,7 +400,36 @@ However, the limited number of films in our collection and the fact that they ar
 
 \chapter{Results, discussion and future work}
 
-From the onset, this project was quite exploratory in nature. Experimenting with various film representations and the kinds of features that they can reliably predict was one of the main goals. The results presented in this chapter and the subsequent discussion will offer some insight into what can be achieved when using the character graph representation of films proposed above.
+From its onset, this project was exploratory in nature. Experimenting with various film representations and the kinds of features that they can reliably predict was one of the main goals. The results presented in this chapter and the subsequent discussion will offer some insight into what can be achieved when using the character graph representation of films proposed above. Specifically, we will look at different ways in which persona information and character relationships can be combined and correlated. We ran a large number of experiments, exploring different transformations of the feature space and various machine learning techniques. This chapter will provide an overview of the types of prediction problems attempted and report interesting experimental results.
+
+\section{Experimental setup and data transformations}
+The same experimental setup and basic data is used for all of the prediction tasks detailed below. The starting point is the set of 876 character-to-character relationships, described by the persona of each character and the weight of the edge between them in the character graph. Since out topic model has 10 topics and each persona is a set of 3 distributions over the latent topics, each feature vector will have size 61 ($2 \cdot 30$ persona variables $+ 1$ edge weight). Each feature vector will have an associated label, depending on the prediction task, which will characterise some aspect of the sentiment between the two characters. The character relationships are directed, since we are attempting to capture the sentiment expressed by one character towards another. As a result, each pair of interacting characters will be represented by 2 feature vectors in the data set, with their persona distributions swapped.
+
+\subsection{Data transformations}
+Apart from using the the whole data set described above, we have also tried to explore ways in which the feature vectors can be transformed in order to yield the most significant results. To this effect, we have designed and implemented the experimental setup in order to be able to answer questions such as:
+\begin{enumerate}
+	\item Are all 3 distributions on the persona model (\textit{agent}, \textit{patient}, \textit{modifier}) equally relevant?
+	\item Can we get better predictions is we only use characters that have a more central role in the story?
+	\item Should we use a uniform distributions for characters without persona information or should we exclude them altogether?
+	\item Is it just a small number of topics that mostly define the persona of a character or are all 10 topics useful?
+\end{enumerate}
+And, naturally,
+\begin{enumerate}
+	\setcounter{enumi}{4}
+	\item Does using the edge weight as a feature result in better predictions over simply using the persona model and vice-versa?
+\end{enumerate}
+
+When running experiments, the user can choose to either explore a certain data space (e.g. \textit{Make predictions using every combination of two persona distributions, rather than using all 3 of them.}, which will result in 3 possible configurations), or tu run on a predefined set of configurations. The next subsection explains what parameters can be specified when doing so\footnote{The code which facilitates this is found in the \texttt{main} method of \texttt{python/predictions/predict.py}}. 
+
+\subsubsection{Presentation of results}
+As a consequence, when presenting prediction results in the remainder of this chapter, they will be accompanied by the context in which they were obtained. The purpose of this section is to explain what the columns under \textit{Configuration} in the results tables mean:
+\begin{itemize}
+	\item \textit{Number of nodes:} The (maximum\footnote{The number could be less than the one shown in a configuration where nodes without a persona are filtered out}) number of characters from each film that were used. These were selected based on their centrality in the character graph. Its value can either be \textit{All} or a number from 1 to 10.
+	\item \textit{Filter personas:} \textit{Yes} or \textit{No} value, depending on whether nodes without persona information were filtered out, or their personas were filled in with uniform distributions.
+	\item \textit{Personas used:} Shows which of the 3 distributions in a character persona were used. Can be any non-empty subset of $\{A, P, M\}$ (standing for \textit{agent}, \textit{patient} or \textit{modifier}).
+	\item \textit{Top topics only:} Its value can be either \textit{All topics}, showing that the persona distributions were used unmodified, or a number $n$ between 1 and 9, meaning that, for each distribution, the top $n$ topics by probability were chosen, the rest were made 0 and the distribution was then normalised.
+	\item \textit{Edge used:} \textit{Yes} or \textit{No} value, showing whether the edge weight between two characters was added as a feature or not.
+\end{itemize}
 
 \section{Predicting inter-character sentiment}
 
@@ -408,20 +437,27 @@ From the onset, this project was quite exploratory in nature. Experimenting with
 Modelled as a regression task. Results not significant.
 
 \subsection{Predicting sentiment polarity}
-Modelled as a 2-class classification problem. Good performance was achieved when selecting a subset of data points / features, as indicated in the table.
+The compound sentiment prediction task by regression is quite an ambitious goal, especially with the limited dataset that is being used. In this section, we consider a more constrained version of this problem: predicting compound sentiment polarity, modelled as a 2-class classification task. The classifiers used for the experiments are:
 
-\begin{table}[hbf!]
-\begin{tabular}{ |c|c|c|c|c|c| }
-\cline{1-5}
-\multicolumn{5}{ |c| }{Configuration}\\
+\begin{enumerate}
+	\item Decision trees
+	\item Random forests
+	\item Support Vector Machines (SVMs)
+\end{enumerate}
+
+\begin{table}[ht!]
+\begin{tabular}{ |c|c|c|c|c|c|c|c| }
+\cline{1-6}
+\multicolumn{6}{ |c| }{Configuration}\\
 \hline
-Predictor & No. nodes & Filter personas & Personas used & Top topics only & \textbf{Accuracy}\\ \hline
+ & No. & Filter & Personas & Top topics & Edge & & \\
+Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy} \\ \hline
 \multirow{2}{*}{Random forest} 
- & 2 & No & P, M & 1 & \textbf{0.875}\\
- & 2 & No & A, P, M & All topics & \textbf{0.875}\\ \hline
+ & 2 & No & P, M & 1 & & & \textbf{0.875}\\
+ & 2 & No & A, P, M & All topics & & & \textbf{0.875}\\ \hline
 \multirow{2}{*}{SVM}
- & 3 & No & P & 1 & \textbf{0.813}\\ 
- & 2 & Yes & A, P & 2 & \textbf{0.813}\\ \hline
+ & 3 & No & P & 1 & & & \textbf{0.813}\\ 
+ & 2 & Yes & A, P & 2 & & & \textbf{0.813}\\ \hline
 \end{tabular}
 
 \caption{Best sentiment polarity prediction accuracy obtained with random forest and SVM models, with different feature selection procedures applied to the data}

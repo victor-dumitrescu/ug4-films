@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 
 # http://scikit-learn.org/stable/modules/linear_model.html#ridge-regression
 
-def ridge_regression(data, labels, test_size=0.2):
+def ridge_regression(data, labels, test_size=0.2, verbose=False):
 
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(
                         data, labels, test_size=test_size, random_state=0)
@@ -23,8 +23,9 @@ def ridge_regression(data, labels, test_size=0.2):
     # print clf.coef_
     # print clf.intercept_
 
-    print 'Ridge regression'
-    print 'MSE=', mse
-    print 'alpha', clf.alpha_
+    if verbose:
+        print 'Ridge regression'
+        print 'MSE=', mse
+        print 'alpha', clf.alpha_
 
     return mse

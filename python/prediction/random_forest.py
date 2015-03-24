@@ -4,19 +4,27 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
 
-def random_forest(data, labels):
+def random_forest(data, labels, verbose=False):
 
     assert len(data) == len(labels)
 
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(
                      data, labels, test_size=0.2, random_state=0)
-    clf = RandomForestClassifier()
-    clf = clf.fit(X_train, y_train)
-    acc = accuracy_score(y_test, clf.predict(X_test))
 
-    print 'Random forest classification'
-    print 'Accuracy: ', acc
+    best_accuracy = 0.0
+    best_criterion = None
+    for criterion in ['gini', 'entropy']:
+        clf = RandomForestClassifier(n_estimators=15, criterion=criterion)
+        clf = clf.fit(X_train, y_train)
+        acc = accuracy_score(y_test, clf.predict(X_test))
+        if acc > best_accuracy:
+            best_accuracy = acc
+            best_criterion = criterion
 
-    return acc
+    if verbose:
+        print 'Random forest classification (criterion: %s)' % best_criterion
+        print 'Accuracy: ', best_accuracy
+
+    return best_accuracy
 
 

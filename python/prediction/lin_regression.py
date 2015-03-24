@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 from personas import Persona
 
 
-def linear_regression(data, labels):
+def linear_regression(data, labels, verbose=False):
 
     assert len(data) == len(labels)
 
@@ -14,7 +14,9 @@ def linear_regression(data, labels):
     regression = LinearRegression()
     regression.fit(X_train, y_train)
     mse = mean_squared_error(y_test, np.float64(regression.predict(X_test)))
-    print 'Linear regression'
-    print 'MSE= ', mse
-    return mse
+
+    if verbose:
+        print 'Linear regression'
+        print 'MSE= ', mse
+        return mse
     # scores = cross_validation.cross_val_score(regression, data, labels, cv=5)

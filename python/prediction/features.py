@@ -1,5 +1,5 @@
 import numpy as np
-
+from copy import copy
 
 def construct_feature_vectors(graph, n_topics, **kwargs):
 
@@ -8,16 +8,23 @@ def construct_feature_vectors(graph, n_topics, **kwargs):
     # the edge between them
 
     # optional arguments:
-    # pers=['A', 'P', 'M'] or a subset, indicating
-    # which persona distributions should be included
-    # default is all
+    # pers=['A', 'P', 'M'] or a subset
+    #    indicated which persona distributions should be included
+    #    default is all
     #
     # pick_top
     #
     # normalize
+    #
+    # edge_weights
+    #    True if graph edge weights should be included as a feature
+    #    False otherwise
 
-    pick_top = kwargs.get('pick_top', None)
     pers = kwargs.get('pers', None)
+    filter_persona = kwargs.get('filter_persona', True)
+    pick_top = kwargs.get('pick_top', None)
+    edge_weights = kwargs.get('edge_weights', True)
+
 
     if pers:
         roles = []
@@ -35,7 +42,7 @@ def construct_feature_vectors(graph, n_topics, **kwargs):
 
     pairs = []
     vectors = []
-    graph.filter_by_persona()
+    graph.filter_by_persona(n_topics=n_topics, remove=filter_persona)
     for e in graph.edges():
         X = None
         X1 = None
@@ -54,14 +61,20 @@ def construct_feature_vectors(graph, n_topics, **kwargs):
         X = X[1:]  # skip the None
 
         # X1 and X2 represent the complementary relationships between the same 2 characters
-        X1 = np.append(X, np.array([graph.edge[e[0]][e[1]]['weight']]))
+        X1 = copy(X)
+        if edge_weights:
+            X1 = np.append(X1, np.array([graph.edge[e[0]][e[1]]['weight']]))
+        vectors.append(copy(X1))
         pairs.append((e[0], e[1]))
-        vectors.append(X1)
 
         X2 = np.append(X[len(roles)*n_topics:], X[:len(roles)*n_topics])
-        X2 = np.append(X2, np.array([graph.edge[e[0]][e[1]]['weight']]))
+        if edge_weights:
+            X2 = np.append(X2, np.array([graph.edge[e[0]][e[1]]['weight']]))
         pairs.append((e[1], e[0]))
-        vectors.append(X2)
+        vectors.append(copy(X2))
+
+        # make sure feature vectors have the same size
+        assert len(vectors[-1]) == len(vectors[-2])
 
     return pairs, vectors
 

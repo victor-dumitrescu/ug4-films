@@ -64,8 +64,8 @@ def make_predictions(config, verbose=False):
     ]
 
     classifiers = [
-        # decision_tree,
-        random_forest#,
+        decision_tree #,
+        # random_forest #,
         # support_vector_machines
     ]
 
@@ -108,10 +108,10 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [False] + range(2, 5)
+    filter_top_values = range(2, 4)   # + [False]
     #
     # [1] filter or not nodes w/o persona information
-    filter_personas = [True, False]
+    filter_personas = [True]
     #
     # [2] powerset of {A, P, M} as lists
     personas = list(itertools.imap(list,
@@ -119,26 +119,37 @@ def main():
                            itertools.combinations('APM', r) for r in range(1, 4))))
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [False] + range(1, 5)
+    pick_top = [False]   # + range(1, 5)
     #
     # [4] use the edge weight information or not
-    edge_weights = [True, False]
+    edge_weights = [False]
 
-    # for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
-    #     try:
-    #         make_predictions(config)
-    #     except:
-    #         print 'error with ' + str(config)
-    #         pass
+    for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
+            # for i in range(20):
+            try:
+                make_predictions(config, verbose=True)
+            except:
+                print 'error with ' + str(config)
+                pass
     #
     # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
     # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.pickle', 'w'))
 
-    for i in range(50):
-        config = (2, True, ['A', 'P'], 3, True)
-        make_predictions(config, verbose=True)
+    # for i in range(2):
+    #     config = (2, True, ['A', 'P'], 3, True)
+    #     make_predictions(config, verbose=True)
 
+    ### Results 1:
+    # full_data_set_configs = [(False, True, ['A', 'P', 'M'], False, True),
+    #                          (False, True, ['A', 'P', 'M'], False, False),
+    #                          (False, False, ['A', 'P', 'M'], False, True),
+    #                          (False, False, ['A', 'P', 'M'], False, False)]
+    #
+    # for config in full_data_set_configs:
+    #     config = full_data_set_configs[3]
+    #     make_predictions(config, verbose=True)
 
-
+    ### Results 2:
+    # filter_top_values = range(2,6)
 
 main()

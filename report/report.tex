@@ -41,15 +41,14 @@ This project sets out to explore a representation of films in terms of their cha
 \chapter{Introduction}
 
 \chapter{Context and background}
+\label{chap:background}
 
 \section{Background work}
 Interest in computationally analysing narrative fiction has spiked along with the increasing size of raw data available to researchers. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
 
-[TO DO: \textit{survey some of the relevant literature}]
-
 \subsection{The Persona Model}
 
-Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model} introduced in \cite{Bamman2014}, which serves as the basis for this work.
+Recent work by David Bamman and others has explored the idea of learning the type or \textit{persona} of film \cite{Bamman2013} and literary \cite{Bamman2014} characters. A character persona is a probabilistic model of a character's personality traits, constructed using certain keywords from a film's plot summary. The papers present a number of variations of this model, but we will only describe the \textit{Dirichlet Persona Model} introduced in \cite{Bamman2013}, which serves as the basis for this work.
 
 Instead of trying to build these models of character personality using information conveyed in the films themselves, such as dialogue or descriptions from the screenplays, Bamman and his colleagues relied on summaries of films' storyline, written by human editors on Wikipedia. These are usually concise, straightforward descriptions of the events and characters of a film, written in a neutral style. A more detailed discussion of the this data follows in Section~\ref{sec:data sets}. 
 
@@ -94,26 +93,35 @@ In their \textit{Dirichlet Persona Model}, these words, along with their classif
   \plate {zwrp_theta} {(zwrp)(theta)} {$D$};
 
 \end{tikzpicture}
-\caption{Graphical model of the \textit{Dirichlet Persona Model} presented in \cite{Bamman2014}. Figure adapted from the one in the paper. As can be seen when comparing with Figure~\ref{fig:lda} below, it extends the LDA model.}
+\caption{Graphical model of the \textit{Dirichlet Persona Model} presented in \cite{Bamman2013}. Figure adapted from the one in the paper. As can be seen when comparing with Figure~\ref{fig:lda} below, it extends the LDA model.}
 \end{figure}
 
 In the model shown above, the words $w$ and their role $r$ (agent, patient, modifier) are the observed variables. $W$ is the total number of words. Each word is assigned a topic $z$. Topics $\phi$ are multinomial distributions over words in the vocabulary, with a Dirichlet prior, parameterised by $\gamma$. A persona $p$ is then defined as a set of 3 multinomial distributions $\psi$ over the topics, also with a Dirichlet prior, each parameterised by a $\nu_r$. At the document (film) level, characters' personas are also drawn from a multinomial distribution $\theta$, with a Dirichlet prior, parameterised by $\alpha$. The authors use collapsed Gibbs sampling \cite{griffiths2004finding} to sample the latent topic $z$ of each word and the persona $p$ of each character. 
 
-For this project, a simpler model was used, described in Section~[TODO: reference], based on an external implementation of Latent Dirichlet allocation.
+For this project, a simpler model was used, described in Section~[TODO: reference], based directly on an implementation of Latent Dirichlet Allocation.
 
+\subsection{Social networks in narrative fiction}
+When analysing narratives and the characters that make up the story, we can think of representations that would capture their interactions and they ways in which they affect the story progression. An intuitive representation is that of a social network: a graph in which nodes are used to denote characters and edges are added between the characters which interact in the story.
 
+Extracting and analysing social networks of characters from works of fiction has already proven valuable for a number of applications. In the context of novels, such an approach can be used to answer literary theory questions by taking into account a large sample of writings, rather then the small subset of well-known works which are usually examined by literary scholars. In their paper \cite{Elson2010}, Elson et al. propose a way in which social networks can be extracted from English novels and set out to answer disputed questions about the correlation between different features of narratives (e.g. first- or third-person perspective, urban or rural setting) and character interactions (e.g. cohesion of the social network). Their approach uses the number and length of quoted speech acts which are inferred to be directed from one character to another to assign a weight to the relationship between the characters.
 
+Others have tried to extend the social network representation beyond quoted speech \cite{Agarwal2013}, also in the context of literary fiction. Using a wider concept of \textit{social events} \cite{agarwal2010annotation}, meant to include any ``deliberate" interaction not captured by direct speech (e.g. ``\{He\} [was looking] at \{Tomas\} and [trying to smile]."\footnote{Kundera, Milan, and Richmond Hoxie. \textit{The unbearable lightness of being}. London: Faber \& Faber, 1984.}), Agarwal et al. proposed a method for automatically extracting social networks from texts and evaluated their result  by comparing their extracted social network from ``The Adventures of Alice in Wonderland" with a gold-standard annotated network, using standard network measures such as degree centrality, betweenness centrality and graph density.
+
+Social network extraction has been attempted in many other contexts, including e-mail conversations, online communities and [TODO]. 
 
 \subsection{Character-to-Character Sentiment Analysis}
+
+Sentiment analysis and social networks. (Philip Gorinski used it in summarisation)
+
 [TO DO: \textit{summarise the paper \cite{Nalisnick2013}}]
 
 
 
 \section{Data sets} \label{sec:data sets}
-The main sources of data used in this project are:
+We have mainly used two data sets to support the work done for this project. They have both been compiled as part of previous research efforts focused on computationally analysing films. They are:
 \begin{itemize}
 	\item \textbf{CMU Movie Summary Corpus}, a collection of 42,306 Wikipedia plot summaries of films, along with metadata extracted from Freebase. The summaries are processed using the \textit{Stanford CoreNLP} tools, specifically tagging, parsing, named entity recognition and coreference resolution.
-	\item \textbf{ScriptBase} \cite{Gorinski2015}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata, similarly processed using the \textit{Stanford CoreNLP} pipeline.
+	\item \textbf{ScriptBase} \cite{Gorinski2015}, a corpus of 1,276 film scripts, along with IMDB and Wikipedia metadata. Of these, 127 have been similarly processed using the \textit{Stanford CoreNLP} pipeline and standardized as XML files following a set schema.
 \end{itemize}
 
 [TO DO: \textit{More details on what kind of data is extracted in these corpora and specific pre-processing steps}]
@@ -122,7 +130,10 @@ The main sources of data used in this project are:
 
 \chapter{Aims and hypotheses}
 
+The aims of this project were to explore different representation of films and identify what kinds of features can be captured by these representations. A big part of the work done as part of the project was directed at probing these possibilities, by constructing variations of the character graph representation and measuring their effectiveness using a number of prediction tasks. Inevitably, not all of them produced significant results or were even practical to test. Along with our main hypothesis, we will present some of the work which did not yield any fruit and discuss the underlying reasons.
+
 \section{Inter-character sentiment}
+In one sentence, the main hypothesis is that character graph representations can be used to predict inter-character sentiment. As discussed in Chapter~\ref{chap:background}, there have been previous attempts to link character social networks and some form of sentiment analysis. By using character personas and a measure of the strength of two characters' relationships to predict aspects of the sentiment in speech acts directed from one character to the other, we can bringing together two distinct aspects of film narratives and show that they correlate. On the level of the text resources used, we link the raw dialogue of a film (from the film scripts) and the human-produced plot summaries. On the narrative level, we correlate the \textit{actions} of characters (as described in the plot summaries) with their utterances. [\textit{Note: I think this is really interesting, but I'm not sure how to develop it.}]
 
 \section{Alternative hypotheses}
 
@@ -162,7 +173,7 @@ The main sources of data used in this project are:
 
 \chapter{Design and Implementation}
 
-This chapter details the components of the software pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments. The system was primarily programmed using Python 2.7.6. Some parts concerned with parsing script files and gathering film similarity judgements from Rotten Tomatoes were implemented using F\# 3.1.
+This chapter details the components of the software pipeline constructed as part of the project to acquire and process data, construct character graphs and carry out experiments. The system was primarily programmed using Python 2.7.6. The language was chosen for the terse and flexible style of programming that it enables and for its adoption in the NLP community, resulting in a large ecosystem of libraries and tools developed around it. Some parts concerned with parsing script files and gathering film similarity judgements from Rotten Tomatoes were implemented using F\# 3.1. This choice was made on the basis of F\#'s easy integration with external data sources.
 
 The structure of the project is shown in Figure~\ref{fig:dirtree}. Directories and source files in the root directory correspond to the major areas of implementation, which can roughly be categorised as follows (by directory/file):
 \begin{itemize}

@@ -49,7 +49,7 @@ This project sets out to explore a representation of films in terms of their cha
 \label{chap:background}
 
 \section{Background work}
-Researchers have been interested in computationally analysing narrative fiction for decades. However, this interest has dramatically increased along with the size of raw data available and the ability to store and process ever-increasing data sets. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
+Researchers have been interested in computationally analysing narrative fiction for decades. However, this interest has dramatically increased along with the size of raw data available and the ability to store and process ever-growing data sets. In order to establish the basis of the work described in this report, we will highlight some of the previous literature which takes a character-centric point of view when approaching narrative fiction.
 
 \subsection{The Persona Model}
 \label{sec:bg_persona}
@@ -63,7 +63,7 @@ A core assumption in their model is that character personalities are primarily r
 	\item \textbf{Patient verbs:} Verbs for which the character is the patient or object (e.g. "Starling is \textit{led} to the house of Jack Gordon", where \textit{Starling} is a passive nominal subject)
 	\item \textbf{Modifiers:} Other words which describe the characters (e.g. "Catherine is still \textit{alive}")
 \end{itemize}
-The classification of tokens into one of these categories is based their Stanford Typed Dependencies \cite{de2008stanford}, assigned using the Stanford CoreNLP natural language analysis toolkit \footnote{http://nlp.stanford.edu/software/corenlp.shtml}.
+The classification of tokens into one of these categories is based on their Stanford Typed Dependencies \cite{de2008stanford}, assigned using the Stanford CoreNLP natural language analysis toolkit \footnote{http://nlp.stanford.edu/software/corenlp.shtml}.
 
 In their \textit{Dirichlet Persona Model}, these words, along with their classification into the 3 categories described above are the only data used to infer the persona of a character. Aside from this model, they also explore an augmented one (\textit{Persona Regression}), which also takes some metadata into account, namely the age and gender of the characters (based on the gender and date of birth of the actor portraying that character) and the genre of the film.
 
@@ -150,11 +150,16 @@ ScriptBase \cite{Gorinski2015} is a corpus of 1,276 film scripts, along with IMD
 The aims of this project were to explore different representation of films and identify what kinds of features can be captured by these representations. A big part of the work done as part of the project was directed at probing these possibilities, by constructing variations of the character graph representation and measuring their effectiveness using a number of prediction tasks. Inevitably, not all of them produced significant results or were even practical to test. Along with our main hypothesis, we will present some of the work which did not yield any fruit and discuss the underlying reasons.
 
 \section{Inter-character sentiment}
-In one sentence, the main hypothesis is that character graph representations can be used to predict inter-character sentiment. As discussed in Chapter~\ref{chap:background}, there have been previous attempts to link character social networks and some form of sentiment analysis. By using character personas and a measure of the strength of two characters' relationships to predict aspects of the sentiment in speech acts directed from one character to the other, we can bringing together two distinct aspects of film narratives and show that they correlate. On the level of the text resources used, we link the raw dialogue of a film (from the film scripts) and the human-produced plot summaries. On the narrative level, we correlate the \textit{actions} of characters (as described in the plot summaries) with their utterances. [\textit{Note: I think this is really interesting, but I'm not sure how to develop it.}]
+In one sentence, the main hypothesis is that character graph representations can be used to predict inter-character sentiment. As discussed in Chapter~\ref{chap:background}, there have been previous attempts to link character social networks and some form of sentiment analysis. By using character personas and a measure of the strength of two characters' relationships to predict aspects of the sentiment in speech acts directed from one character to the other, we can bring together two distinct aspects of film narratives and show that they correlate. On the level of the text resources used, we link the raw dialogue of a film (from the film scripts) and the human-produced plot summaries. On the narrative level, we correlate the \textit{actions} of characters (as described in the plot summaries) with their utterances. [\textit{Note: I think this is really interesting, but I'm not sure how to develop it.}]
 
 \section{Alternative hypotheses}
 
 \subsection{TV Tropes}
+TV Tropes\footnote{http://tvtropes.org/} is an online public wiki maintaining a collection of ``tropes", such as plot devices, dialogue commonalities, motifs and other conventions or stereotypes that are widely used in film and television series. More recently it ha also grown to include literature, video games and other media. Apart from collecting the tropes themselves, TV Tropes maintains pages for numerous individual films and other works of fiction which include a list of the tropes that they feature.
+
+TV Tropes have been used in past research efforts, most notably by Bamman et al. \cite{Bamman2013}, as part of one of the evaluation measures for their film persona models introduced in Section~\ref{sec:bg_persona}. They selected 72 tropes which correspond to character types (e.g. \textit{The Hardboiled Detective}) and manually annotated 501 characters. They attempted to recover gold-standard clusters of characters as determined by their trope assignment and used an information-theoretic measure to assess the discrepancy between these and the latent persona clusters.
+
+We considered the possibility of evaluating our character graph representations on the basis of being able to capture different kinds of relationships between 2 or more characters (e.g. one of the \textit{Triang Relations}\footnote{http://tvtropes.org/pmwiki/pmwiki.php/Main/TriangRelations} or \textit{Four-Man Band}. For this purpose, we have implemented a scraper in order to collect the tropes associated with the films in our data set. Table~\ref{table:tropes} shows the most common 20 tropes and the number of films which feature them.
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{table}[h!]
@@ -173,8 +178,11 @@ In one sentence, the main hypothesis is that character graph representations can
 10 & Black Comedy & 22 & & 20 & Even Evil Has Standards & 16 \\ \cline{1-3} \cline{5-7}
 \end{tabular}
 \caption{The 20 most frequent TV Tropes and the number of films which feature them (out of the 83 films in the collection)}
-
+\label{table:tropes}
 \end{table}
+
+None of these 20 tropes describe character relationships in any way. Most of them capture plot devices, features of speech or stylistic choices. Lacking a significant number of films (all other tropes are featured in less than 16 films) which include any kind of stereotypical and easily identifiable character relationships, we were not able to use TV Tropes to evaluate the character graph representation.
+
 \subsection{Film similarity}
 
 \chapter{Design and Implementation}
@@ -509,7 +517,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \label{res:full_set}
 \end{table}
 
-We will now try to train the same classifiers with different configurations. First, we will remove the restrictions that all characters in a film need to be used. We expect this to increase accuracy because some of the minor characters have less accurate persona information since they are less likely to be mentioned in a plot summary. Furthermore, their sentiment trajectories will have significantly fewer events, limited by the number of on-screen interactions that they are involved in. We will explore the range between 2 and 5 as the maximum number of characters from each film. The nodes are selected according to their rank in the character graph, which is the reverse order of degree centrality.
+We will now try to train the same classifiers with different configurations. First, we will remove the restriction that all characters in a film need to be used. We expect this to increase accuracy because some of the minor characters have less accurate persona information since they are less likely to be mentioned in a plot summary. Furthermore, their sentiment trajectories will have significantly fewer events, limited by the number of on-screen interactions that they are involved in. We will explore the range between 2 and 5 as the maximum number of characters from each film. The nodes are selected according to their rank in the character graph, which is the reverse order of degree centrality.
 
 Table~\ref{res:diff_nodes} show that the best results were obtained when limiting the number of characters to either 2 or 3. The results for all 3 classifiers are significantly better than those obtained when just using all characters.
 

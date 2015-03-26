@@ -20,3 +20,5 @@ def linear_regression(data, labels, verbose=False):
         print 'MSE= ', mse
         return mse
     # scores = cross_validation.cross_val_score(regression, data, labels, cv=5)
+
+    return mse

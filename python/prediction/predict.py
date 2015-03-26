@@ -18,8 +18,8 @@ from prediction.svm import support_vector_machines
 
 
 n_topics = 10
-lowest_mse = TopScores(100.0, order_max=False, max_items=100)
-highest_accuracy = TopScores(0.0, max_items=150)
+lowest_mse = TopScores(100.0, order_max=False, max_items=300)
+highest_accuracy = TopScores(0.0, max_items=300)
 
 
 def make_predictions(config, verbose=False):
@@ -57,16 +57,16 @@ def make_predictions(config, verbose=False):
     # export_to_arff(data, polarity_labels, config)
 
     regression_models = [
-        # linear_regression,
-        # tree_regression,
-        # ridge_regression,
-        # svm_regression
+        linear_regression,
+        tree_regression,
+        ridge_regression,
+        svm_regression
     ]
 
     classifiers = [
-        decision_tree #,
-        # random_forest #,
-        # support_vector_machines
+        decision_tree,
+        random_forest,
+        support_vector_machines
     ]
 
     if verbose:
@@ -108,7 +108,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = range(2, 4)   # + [False]
+    filter_top_values = range(2, 6) + [False]
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]
@@ -119,22 +119,22 @@ def main():
                            itertools.combinations('APM', r) for r in range(1, 4))))
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [False]   # + range(1, 5)
+    pick_top = [False] + range(1, 8)
     #
     # [4] use the edge weight information or not
-    edge_weights = [False]
+    # edge_weights = [True, False]
 
-    for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
-            # for i in range(20):
-            try:
-                make_predictions(config, verbose=True)
-            except:
-                print 'error with ' + str(config)
-                pass
-    #
-    # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
-    # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.pickle', 'w'))
+    for edge_weights in [True, False]:
+        for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, [edge_weights]):
+                try:
+                    make_predictions(config, verbose=False)
+                except:
+                    print 'error with ' + str(config)
+                    pass
 
+        pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.' + str(edge_weights), 'w'))
+        pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.' + str(edge_weights), 'w'))
+        print 'dumped'
     # for i in range(2):
     #     config = (2, True, ['A', 'P'], 3, True)
     #     make_predictions(config, verbose=True)

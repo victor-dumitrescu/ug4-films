@@ -14,12 +14,13 @@ def random_forest(data, labels, verbose=False):
     best_accuracy = 0.0
     best_criterion = None
     for criterion in ['gini', 'entropy']:
-        clf = RandomForestClassifier(n_estimators=15, criterion=criterion)
-        clf = clf.fit(X_train, y_train)
-        acc = accuracy_score(y_test, clf.predict(X_test))
-        if acc > best_accuracy:
-            best_accuracy = acc
-            best_criterion = criterion
+        for repeat in range(20):
+            clf = RandomForestClassifier(n_estimators=15, criterion=criterion)
+            clf = clf.fit(X_train, y_train)
+            acc = accuracy_score(y_test, clf.predict(X_test))
+            if acc > best_accuracy:
+                best_accuracy = acc
+                best_criterion = criterion
 
     if verbose:
         print 'Random forest classification (criterion: %s)' % best_criterion

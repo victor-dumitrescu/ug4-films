@@ -1,4 +1,4 @@
-\documentclass[bsc,frontabs,singlespacing,parskip,logo]{infthesis} % add [twoside]
+\documentclass[bsc,frontabs,singlespacing,parskip]{infthesis} % add [twoside]
 \usepackage{filecontents}
 \usepackage{fancyvrb}
 \usepackage{graphicx}
@@ -488,6 +488,9 @@ Note that for classification tasks, the baseline we are comparing to is the prop
 We will first try to use the entire data set of 876 character relationships, with all 3 persona distributions across all topics (Table~\ref{res:full_set}). Decision trees, do not manage to out-perform the baseline, while random forests and SVMs are narrowly more accurate than it, but the difference is never more than 4\%. When using the data set in which characters with missing personas are not filtered out, but their personas are treated as uniform distributions over the latent topics, no predictor manages to beat the deadline by more than 1\%. One aspect to note is that for both random forests and SVMs, using the edge weight either improved or had no effect on the accuracy.
 
 \begin{table}[h!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
 \begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c|c| }
 \cline{1-6}
 \multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
@@ -512,6 +515,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{tabular}
 \caption{Sentiment polarity predictions obtained by using the entire dataset and the full persona representation.}
 \label{res:full_set}
+\end{adjustwidth}
 \end{table}
 
 We will now try to train the same classifiers with different configurations. First, we will remove the restriction that all characters in a film need to be used. We expect this to increase accuracy because some of the minor characters have less accurate persona information since they are less likely to be mentioned in a plot summary. Furthermore, their sentiment trajectories will have significantly fewer events, limited by the number of on-screen interactions that they are involved in. We will explore the range between 2 and 5 as the maximum number of characters from each film. The nodes are selected according to their rank in the character graph, which is the reverse order of degree centrality.
@@ -519,6 +523,9 @@ We will now try to train the same classifiers with different configurations. Fir
 Table~\ref{res:diff_nodes} show that the best results were obtained when limiting the number of characters to either 2 or 3. The results for all 3 classifiers are significantly better than those obtained when just using all characters.
 
 \begin{table}[ht!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
 \begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c|c| }
 \cline{1-6}
 \multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
@@ -537,11 +544,15 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{tabular}
 \caption{Best sentiment polarity prediction accuracy obtained when varying the maximum number of characters for each film.}
 \label{res:diff_nodes}
+\end{adjustwidth}
 \end{table}
 
 Next, we will both vary the maximum number of characters in the film (this time limiting the search space to just 2 or 3 nodes), as before, and let the persona include any subset of the 3 distributions. Results are shown in Table~\ref{res:diff_nodes_personas}. Note that for random forests, a third row of results is included in order to compare the accuracy of either using or not using edge weights on the same configuration that yielded the best performance in the first case.
 
 \begin{table}[ht!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
 \begin{tabular}{|c|c|c|c|c|c!{\vrule width 1.5pt}c|c| }
 \cline{1-6}
 \multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
@@ -562,6 +573,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{tabular}
 \caption{Best sentiment polarity prediction accuracy obtained when varying the maximum number of characters for each film and allowing the persona to include any subset of the 3 distributions it contains.}
 \label{res:diff_nodes_personas}
+\end{adjustwidth}
 \end{table}
 
 Finally, we will now also allow the persona distributions to either include all topics, or to only select $n$ topics, set the probability of the others to 0 and normalise. Results are shown in Table~\ref{res:vary_everything}. Note that the highlighted row has been included in order to compare the accuracy of SVMs on the same number of maximum characters (same baseline) with the best model from the previous task. The percentages in brackets indicate the change in accuracy between this in the previous task, where best results are comparable (i.e. they have the same baseline).
@@ -596,12 +608,44 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{table}
 
 \subsection{Predicting changes in sentiment}
-[TO DO: \textit{Have not run experiments yet.}]
+As can be seen in the graphs shown in Section~[TODO ref], it appears that the way inter-character sentiment evolves intuitively conveys certain aspects about the nature of the narrative and the characters which take part (e.g. in a romantic film, both of the main characters tend to express positive sentiment throughout). We will now consider another prediction problem: can we predict whether inter-character sentiment has a positive trend, a negative trend or does not vary over the course of the film?
+
+[TODO details about constructing the classes]
+
+\begin{table}[ht!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
+\begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c|c| }
+\cline{1-6}
+\multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
+\hline
+ & No. & Filter & Personas & Top topics & Edge & & \\
+Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy} \\ \hline
+\multirow{2}{*}{Decision tree} 
+ & All & Yes & A & 7 & Yes & 0.430 & \textbf{0.479}\\
+ & All & Yes & A & 7 & No & 0.430 & \textbf{0.479}\\ \hline
+\multirow{2}{*}{Random forest} 
+ & All & Yes & A & 5 & Yes & 0.430 & \textbf{0.606}\\
+ & All & Yes & A & 5 & No & 0.430 & \textbf{0.592}\\ \hline
+\multirow{2}{*}{SVM}
+ & All & Yes & A & 5 & Yes & 0.430 & \textbf{0.493}\\
+ & All & Yes & A & 5 & No & 0.430 & \textbf{0.493}\\ \hline
+\end{tabular}
+\caption{Best sentiment variation prediction accuracy, with $\alpha = 1.0$.}
+\label{res:sent_variation}
+\end{adjustwidth}
+\end{table}
+
+
 
 \subsection{Predicting compound sentiment}
 We have modelled previous tasks as classification problems. However, inter-character sentiment is a continuous numerical value, meaning we can also explore regression tasks. The broadest such task is simply predicting the value of inter-character compound sentiment. Attempting to obtain the best possible results, we will explore the whole space of configurations introduced in the sections above. Results are shown in Table~\ref{res:regression}. 
 
 \begin{table}[ht!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
 \begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c| }
 \cline{1-6}
 \multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
@@ -620,10 +664,10 @@ Classifier & nodes & personas & used & only & used & \textbf{error} \\ \hline
 \multirow{2}{*}{SVM regression}
  & All & Yes & A & 3 & Yes & 10.99\\
  & All & Yes & A & 3 & No & 10.99\\ \hline
- 
 \end{tabular}
-\caption{Best sentiment polarity prediction accuracy obtained when varying the maximum number of characters for each film.}
+\caption{Best sentiment polarity prediction accuracy.}
 \label{res:regression}
+\end{adjustwidth}
 \end{table}
 
 

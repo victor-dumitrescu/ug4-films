@@ -136,14 +136,21 @@ def make_predictions(config, variation=False, verbose=False):
         baseline = float(sum(class_labels))/len(class_labels)
 
     for model in classifiers:
-        accuracy = model(data, class_labels, verbose=verbose)
+        accuracy = model(data, class_labels, verbose=(not verbose))
         highest_accuracy.score(accuracy, (baseline, model, config))
 
     if verbose:
         print ''
-        print 'Total: %d; Pos: %d; Classification baseline: %f' % (len(class_labels),
-                                                                   sum(class_labels),
-                                                                   baseline)
+        if variation:
+            print 'Total: %d; C0: %d; C1: %d; C2: %d; Classification baseline: %f' % (len(class_labels),
+                                                                                      class_labels.count(0),
+                                                                                      class_labels.count(1),
+                                                                                      class_labels.count(2),
+                                                                                      baseline)
+        else:
+            print 'Total: %d; Pos: %d; Classification baseline: %f' % (len(class_labels),
+                                                                       sum(class_labels),
+                                                                       baseline)
         print ''
         print highest_accuracy.get_sorted()
         print lowest_mse.get_sorted()
@@ -165,7 +172,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [False]  # + range(2, 6)
+    filter_top_values = [False]  + range(2, 8)
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]
@@ -176,21 +183,20 @@ def main():
                            itertools.combinations('APM', r) for r in range(1, 4))))
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [False] # + range(1, 8)
+    pick_top = [False] + range(1, 8)
     #
     # [4] use the edge weight information or not
-    # edge_weights = [True, False]
+    edge_weights = [True, False]
 
-    for edge_weights in [True, False]:
-        for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, [edge_weights]):
-                try:
-                    make_predictions(config, variation=True, verbose=True)
-                except:
-                    print 'error with ' + str(config)
-                    pass
+    for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
+            try:
+                make_predictions(config, variation=True, verbose=True)
+            except:
+                print 'error with ' + str(config)
+                pass
     #
-    #     pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.' + str(edge_weights), 'w'))
-    #     pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.' + str(edge_weights), 'w'))
+    # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
+    # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.pickle', 'w'))
     #     print 'dumped'
 
     # for i in range(2):

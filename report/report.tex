@@ -1,4 +1,4 @@
-\documentclass[bsc,frontabs,singlespacing,parskip]{infthesis} % add [twoside]
+\documentclass[bsc,frontabs,singlespacing,parskip,logo]{infthesis} % add [twoside]
 \usepackage{filecontents}
 \usepackage{fancyvrb}
 \usepackage{graphicx}
@@ -11,7 +11,7 @@
 \usepackage{array}
 \usepackage{xcolor, colortbl}
 \usepackage{hhline}
-
+\usepackage{chngpage}
 
 \begin{document}
 \long\def\/*#1*/{}
@@ -481,7 +481,7 @@ As a consequence, when presenting prediction results in the remainder of this ch
 \section{Predicting inter-character sentiment}
 
 \subsection{Predicting sentiment polarity}
-The compound sentiment prediction task by regression is quite an ambitious goal, especially with the limited dataset that is being used. In this section, we consider a more constrained version of this problem: predicting compound sentiment polarity, modelled as a 2-class classification task. As discussed in Section~\ref{sec:predictors}, the classifiers used are decision trees, random forests and SVMs. In the case of random forest, 20 classifiers were trained on each configuration and the best one was selected.
+[TODO: revise this paragraph] The compound sentiment prediction task by regression is quite an ambitious goal, especially with the limited dataset that is being used. In this section, we consider a more constrained version of this problem: predicting compound sentiment polarity, modelled as a 2-class classification task. As discussed in Section~\ref{sec:predictors}, the classifiers used are decision trees, random forests and SVMs. In the case of random forest, 20 classifiers were trained on each configuration and the best one was selected.
 
 Note that for classification tasks, the baseline we are comparing to is the proportion of positive relationships in the total number of character relationships. As can be seen in the results tables below, they usually significantly outnumber the negative sentiment relationships, making them the simplest realistic baseline to compare our predictors against. In this case, the simplest possible classifier would simply predict all relationships as having positive sentiment. Models performing better than this baseline are highlighted in the tables.
 
@@ -569,6 +569,9 @@ Finally, we will now also allow the persona distributions to either include all 
 The accuracy of these models is generally better than in the previous configurations. It remains unchanged in the case of random forests, for which allowing the number of latent topics to vary did not result in an increase in accuracy. These are the best results obtained in the sentiment polarity classification tasks. For all the trained classifiers, they are significantly higher than the baseline.
 
 \begin{table}[ht!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\centering
+\small
 \begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c|c| }
 \cline{1-6}
 \multicolumn{6}{ |c!{\vrule width 1.5pt} }{Configuration}\\
@@ -589,6 +592,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{tabular}
 \caption{Best sentiment polarity prediction accuracy obtained when varying the maximum number of characters for each film, allowing the persona to include any subset of the 3 distributions it contains and varying the number of topics over which personas are distributed.}
 \label{res:vary_everything}
+\end{adjustwidth}
 \end{table}
 
 \subsection{Predicting changes in sentiment}
@@ -597,7 +601,6 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \subsection{Predicting compound sentiment}
 We have modelled previous tasks as classification problems. However, inter-character sentiment is a continuous numerical value, meaning we can also explore regression tasks. The broadest such task is simply predicting the value of inter-character compound sentiment. Attempting to obtain the best possible results, we will explore the whole space of configurations introduced in the sections above. Results are shown in Table~\ref{res:regression}. 
 
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{table}[ht!]
 \begin{tabular}{ |c|c|c|c|c|c!{\vrule width 1.5pt}c| }
 \cline{1-6}

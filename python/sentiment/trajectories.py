@@ -32,14 +32,22 @@ def total_sentiment(timeline, char1, char2, mode=DEFAULT_MODE):
     return values[-1]
 
 
-def plot_trajectory(timeline, char1, char2, mode=DEFAULT_MODE):
+def plot_trajectory(timeline, char1, char2, mode=DEFAULT_MODE, title=None):
                                   # can also be 'pos', 'neg', 'neu'
     x, y = filter_events(timeline, char1, char2, mode)
     char1_points = plt.scatter(x, y, c='blue')
     x, y = filter_events(timeline, char2, char1, mode)
     char2_points = plt.scatter(x, y, c='red')
 
-    plt.legend([char1_points, char2_points], [char1 + ' -> ' + char2, char2 + ' -> ' + char1], loc=2)
+    plt.legend([char1_points, char2_points], [char1 + ' -> ' + char2, char2 + ' -> ' + char1],
+               loc='upper left', bbox_to_anchor=(0.6, 1.12),
+               ncol=1, fancybox=True)
+    if title:
+        plt.title(title, x=0.08, y=1.035)
+    plt.xlabel('Time (speech act)')
+    plt.ylabel('Cumulative compound sentiment')
+    plt.grid(True)
+    plt.axhline(y=0, c="black", linewidth=0.7)
     plt.show()
 
 

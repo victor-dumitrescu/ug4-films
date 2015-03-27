@@ -99,11 +99,48 @@ def pick_top_topics(persona, top_n, normalize):
     return t_persona
 
 
-def construct_labels(pairs, sent_timeline):
+def construct_labels(pairs, sent_timeline, variation=False):
+
+    if variation:
+        halves = [[None] * len(pairs), [None] * len(pairs)]
+        mid_point = len(sent_timeline) / 2
+        for i, event in enumerate(sent_timeline):
+            participants = (event.speaker, event.receiver)
+            if participants in pairs:
+                # add sentiment to the corresponding list, depending on the half of the film
+                # in which the event occurs
+                if i < mid_point:
+                    h = 0
+                else:
+                    h = 1
+
+                if halves[h][pairs.index(participants)]:
+                    halves[h][pairs.index(participants)] += event.sentiment['compound']
+                else:
+                    halves[h][pairs.index(participants)] = event.sentiment['compound']
+
+    # else:
     labels = [0.0]*len(pairs)
     for event in sent_timeline:
         participants = (event.speaker, event.receiver)
         if participants in pairs:
             labels[pairs.index(participants)] += event.sentiment['compound']
 
-    return labels
+    # check the integrity of the halves by adding them up and comparing with the total sentiment
+    assert len(labels) == len(halves[0]) == len(halves[1])
+    for i in range(len(labels)):
+        try:
+            if labels[i] == 0.0:
+                assert ((not halves[0][i]) and (not halves[1][i]) or
+                       ((not halves[0][i]) and halves[1][i] == 0.0) or
+                       (halves[0][i] == 0.0 and (not halves[1][i])) or
+                       (halves[0][i] + halves[1][i] == 0.0))
+            elif halves[0][i] and halves[1][i]:
+                assert abs(halves[0][i] + halves[1][i] - labels[i]) < 0.001
+        except AssertionError:
+            print labels[i], halves[0][i], halves[1][i]
+
+    if variation:
+        return halves
+    else:
+        return labels

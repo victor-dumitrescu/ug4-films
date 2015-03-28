@@ -13,6 +13,7 @@
 \usepackage{hhline}
 \usepackage{chngpage}
 
+
 \begin{document}
 \long\def\/*#1*/{}
 
@@ -447,45 +448,49 @@ However, the limited number of films in our collection and the fact that they ar
 \chapter{Results and discussion}
 \label{chap:results}
 
-From its onset, this project was exploratory in nature. Experimenting with various film representations and the kinds of features that they can reliably predict was one of the main goals. The results presented in this chapter and the subsequent discussion will offer some insight into what can be achieved when using the character graph representation of films proposed above. Specifically, we will look at different ways in which persona information and character relationships can be combined and correlated. We ran a large number of experiments, exploring different transformations of the feature space and various machine learning techniques. This chapter will provide an overview of the types of prediction problems attempted and report interesting experimental results.
+From its onset, this project was exploratory in nature. Experimenting with various film representations and the kinds of features that they can reliably predict was one of the main goals. As detailed in Chapter~[TODO ref], the main hypothesis we chose to explore is whether the character graph representation of films can be used to predict inter-character sentiment. The results presented in this chapter and the subsequent discussion will offer some insight into how this can be achieved. We will examine different ways in which persona information and character relationships can be combined. We ran a large number of experiments, exploring different transformations of the feature space and various machine learning techniques. This chapter will provide an overview of the types of prediction problems attempted, report interesting experimental results and attempt to discuss their significance.
 
 \section{Experimental setup and data transformations}
-The same experimental setup and basic data is used for all of the prediction tasks detailed below. The starting point is the set of 876 character-to-character relationships, described by the persona of each character and the weight of the edge between them in the character graph. Since out topic model has 10 topics and each persona is a set of 3 distributions over the latent topics, each feature vector will have size 61 ($2 \cdot 30$ persona variables $+ 1$ edge weight). Each feature vector will have an associated label, depending on the prediction task, which will characterise some aspect of the sentiment between the two characters. The character relationships are directed, since we are attempting to capture the sentiment expressed by one character towards another. As a result, each pair of interacting characters will be represented by 2 feature vectors in the data set, with their persona distributions swapped.
+The same experimental setup and basic data is used for all of the prediction tasks detailed below. The starting point is the set of 876 character-to-character relationships, described by the persona of each character and the weight of the edge between the nodes in the character graph. Since our topic model has 10 topics and each persona is a set of 3 distributions over the latent topics, each feature vector will have size 61 ($2 \cdot 30$ persona variables $+ 1$ edge weight). Each feature vector will have an associated label, depending on the prediction task, which will characterise some aspect of the sentiment between the two characters. The character relationships are directed, since we are attempting to capture the sentiment expressed by one character towards another. As a result, each pair of interacting characters will be represented by 2 feature vectors in the data set, with their persona distributions swapped.
 
 \subsection{Data transformations}
-Apart from using the the whole data set described above, we have also tried to explore ways in which the feature vectors can be transformed in order to yield the most significant results. To this effect, we have designed and implemented the experimental setup in order to be able to answer questions such as:
+Apart from using the the whole data set described above, we have also tried to explore ways in which the feature vectors can be transformed and data can be filtered in order to yield the most significant results. To this effect, we have designed and implemented the experimental setup in order to be able to answer questions such as:
 \begin{enumerate}
-	\item Are all 3 distributions on the persona model (\textit{agent}, \textit{patient}, \textit{modifier}) equally relevant?
+	\item Are all 3 distributions of the persona model (\textit{agent}, \textit{patient}, \textit{modifier}) equally relevant?
 	\item Can we get better predictions is we only use characters that have a more central role in the story?
-	\item Should we use a uniform distributions for characters without persona information or should we exclude them altogether?
+	\item Should we use a uniform distribution for characters without persona information or should we exclude them altogether?
 	\item Is it just a small number of topics that mostly define the persona of a character or are all 10 topics useful?
 \end{enumerate}
 And, naturally,
 \begin{enumerate}
 	\setcounter{enumi}{4}
-	\item Does using the edge weight as a feature result in better predictions over simply using the persona model and vice-versa?
+	\item Does using the edge weight as a feature result in better predictions over simply using the persona model?
 \end{enumerate}
 
-When running experiments, the user can choose to either explore a certain data space (e.g. \textit{Make predictions using every combination of two persona distributions, rather than using all 3 of them.}, which will result in 3 possible configurations), or tu run on a predefined set of configurations. The next subsection explains what parameters can be specified when doing so\footnote{The code which facilitates this is found in the \texttt{main} method of \texttt{python/predictions/predict.py}}. 
+When running experiments using the system developed for this project, the user can choose to either explore a certain data space (e.g. \textit{Make predictions using every combination of two persona distributions, rather than using all 3 of them}, which will result in 3 possible configurations), or tu run on a predefined set of configurations. The next subsection explains what parameters can be specified when doing so\footnote{The code which facilitates this is found in the \texttt{main} method of \texttt{python/predictions/predict.py}}. 
 
 \subsubsection{Presentation of results}
-As a consequence, when presenting prediction results in the remainder of this chapter, they will be accompanied by the context in which they were obtained. The purpose of this section is to explain what the columns under \textit{Configuration} in the results tables mean:
+When presenting prediction results in the remainder of this chapter, they will be accompanied by the context in which they were obtained. The purpose of this section is to explain what the columns under the \textit{Configuration} columns in the results tables mean:
 \begin{itemize}
-	\item \textit{Number of nodes:} The (maximum\footnote{The number could be less than the one shown in a configuration where nodes without a persona are filtered out}) number of characters from each film that were used. These were selected based on their centrality in the character graph. Its value can either be \textit{All} or a number from 1 to 10.
+	\item \textit{Number of nodes ($N$):} The (maximum\footnote{The number could be less than the one shown in a configuration where nodes without a persona are filtered out}) number of characters from each film that were used. These were selected based on their degree centrality in the character graph. Its value can either be \textit{All} or a number from 1 to 10.
 	\item \textit{Filter personas:} \textit{Yes} or \textit{No} value, depending on whether nodes without persona information were filtered out, or their personas were filled in with uniform distributions.
-	\item \textit{Personas used:} Shows which of the 3 distributions in a character persona were used. Can be any non-empty subset of $\{A, P, M\}$ (standing for \textit{agent}, \textit{patient} or \textit{modifier}).
-	\item \textit{Top topics only:} Its value can be either \textit{All topics}, showing that the persona distributions were used unmodified, or a number $n$ between 1 and 9, meaning that, for each distribution, the top $n$ topics by probability were chosen, the rest were made 0 and the distribution was then normalised.
+	\item \textit{Personas used:} Shows which of the 3 distributions in a character persona were used. Can be any non-empty subset of $\{A, P, M\}$ (standing for \textit{agent}, \textit{patient} and \textit{modifier}).
+	\item \textit{Top topics only ($T$):} This value can be either \textit{All topics}, showing that the persona distributions were used unmodified, or a number $n$ between 1 and 9, meaning that, for each distribution, the top $n$ topics by probability were chosen, the rest were set to 0 and the distribution was then normalised.
 	\item \textit{Edge used:} \textit{Yes} or \textit{No} value, showing whether the edge weight between two characters was added as a feature or not.
 \end{itemize}
 
 \section{Predicting inter-character sentiment}
 
+In this section, we present the results of 3 prediction tasks: 2 classification tasks and 1 regression. The first subsection will also give more details on how the data set can been transformed and filtered, by showing results for the full data set and then gradually varying the parameters described above.
+
 \subsection{Predicting sentiment polarity}
-[TODO: revise this paragraph] The compound sentiment prediction task by regression is quite an ambitious goal, especially with the limited dataset that is being used. In this section, we consider a more constrained version of this problem: predicting compound sentiment polarity, modelled as a 2-class classification task. As discussed in Section~\ref{sec:predictors}, the classifiers used are decision trees, random forests and SVMs. In the case of random forest, 20 classifiers were trained on each configuration and the best one was selected.
+First, we consider the problem of predicting compound sentiment polarity, modelled as a 2-class classification task. As discussed in Section~\ref{sec:predictors}, the classifiers used are decision trees, random forests and SVMs. In the case of random forest, 20 classifiers were trained on each configuration and the best one was selected.
 
-Note that for classification tasks, the baseline we are comparing to is the proportion of positive relationships in the total number of character relationships. As can be seen in the results tables below, they usually significantly outnumber the negative sentiment relationships, making them the simplest realistic baseline to compare our predictors against. In this case, the simplest possible classifier would simply predict all relationships as having positive sentiment. Models performing better than this baseline are highlighted in the tables.
+Sentiment polarity of a relationship is computed as the sign of the cumulative sentiment expressed by one character towards the other. All the events between the 2 characters are summed across the sentiment trajectory of a film. If the sum is negative then the relationship will be in class 0 (\textit{negative}), otherwise, it will be in class 1 (\textit{positive}).
 
-We will first try to use the entire data set of 876 character relationships, with all 3 persona distributions across all topics (Table~\ref{res:full_set}). Decision trees, do not manage to out-perform the baseline, while random forests and SVMs are narrowly more accurate than it, but the difference is never more than 4\%. When using the data set in which characters with missing personas are not filtered out, but their personas are treated as uniform distributions over the latent topics, no predictor manages to beat the deadline by more than 1\%. One aspect to note is that for both random forests and SVMs, using the edge weight either improved or had no effect on the accuracy.
+For this task, the baseline we are comparing our predictors against is the proportion of positive relationships in the total number of character relationships, which is always the majority class. As can be seen in the results tables below, they usually significantly outnumber the negative sentiment relationships, making this the simplest realistic baseline to compare our predictors against (i.e. comparing to a model which classifies every data point as having class 1). Models performing better than this baseline are highlighted in the tables.
+
+We will first try to use the entire data set of 876 character relationships, with all 3 persona distributions across all topics (Table~\ref{res:full_set}). Decision trees do not manage to out-perform the baseline, while random forests and SVMs are narrowly more accurate than it, but the difference is never more than 4\%. When using the data set in which characters with missing personas are not filtered out, but their personas are treated as uniform distributions over the latent topics, no predictor manages to beat the baseline by more than 1\%. This is the case for all the subsequent prediction tasks, therefore we will skip those results. Another aspect to note is that for both random forests and SVMs, using the edge weight either improved or had no effect on the accuracy.
 
 \begin{table}[h!]
 \begin{adjustwidth}{-0.5in}{-0.5in}
@@ -520,7 +525,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 
 We will now try to train the same classifiers with different configurations. First, we will remove the restriction that all characters in a film need to be used. We expect this to increase accuracy because some of the minor characters have less accurate persona information since they are less likely to be mentioned in a plot summary. Furthermore, their sentiment trajectories will have significantly fewer events, limited by the number of on-screen interactions that they are involved in. We will explore the range between 2 and 5 as the maximum number of characters from each film. The nodes are selected according to their rank in the character graph, which is the reverse order of degree centrality.
 
-Table~\ref{res:diff_nodes} show that the best results were obtained when limiting the number of characters to either 2 or 3. The results for all 3 classifiers are significantly better than those obtained when just using all characters.
+Table~\ref{res:diff_nodes} show that the best results were obtained when limiting the number of characters to either 2 or 3. The results for all 3 classifiers are significantly better than those obtained when using all the characters.
 
 \begin{table}[ht!]
 \begin{adjustwidth}{-0.5in}{-0.5in}
@@ -547,7 +552,7 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{adjustwidth}
 \end{table}
 
-Next, we will both vary the maximum number of characters in the film (this time limiting the search space to just 2 or 3 nodes), as before, and let the persona include any subset of the 3 distributions. Results are shown in Table~\ref{res:diff_nodes_personas}. Note that for random forests, a third row of results is included in order to compare the accuracy of either using or not using edge weights on the same configuration that yielded the best performance in the first case.
+Next, we will both vary the maximum number of characters in the film, as before, and let the persona include any subset of the 3 distributions. Results are shown in Table~\ref{res:diff_nodes_personas}. Note that for random forests, a third row of results (highlighted) is included in order to compare the accuracy of either using or not using edge weights on the same configuration that yielded the best performance in the previous task. This shows that adding the M (\textit{modifier}) distribution and using the edge weight have the same effect on the accuracy (an increase of 6.3\%).
 
 \begin{table}[ht!]
 \begin{adjustwidth}{-0.5in}{-0.5in}
@@ -560,8 +565,8 @@ Next, we will both vary the maximum number of characters in the film (this time 
  & No. & Filter & Personas & Top topics & Edge & & \\
 Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy} \\ \hline
 \multirow{2}{*}{Decision tree} 
- & 2 & Yes & A, M & All topics & Yes & 0.713 & \textbf{0.750}\\
- & 3 & Yes & A, M & All topics & No & 0.699 & \textbf{0.706}\\ \hline
+ & 2 & Yes & A, P, M & All topics & Yes & 0.713 & \textbf{0.750}\\
+ & 2 & Yes & A, P, M & All topics & No & 0.713 & \textbf{0.750}\\ \hline
 \multirow{3}{*}{Random forest} 
  & 2 & Yes & A & All topics & Yes & 0.713 & \textbf{0.938}\\
  & 2 & Yes & A, M & All topics & No & 0.713 & \textbf{0.938}\\ 
@@ -576,9 +581,9 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{adjustwidth}
 \end{table}
 
-Finally, we will now also allow the persona distributions to either include all topics, or to only select $n$ topics, set the probability of the others to 0 and normalise. Results are shown in Table~\ref{res:vary_everything}. Note that the highlighted row has been included in order to compare the accuracy of SVMs on the same number of maximum characters (same baseline) with the best model from the previous task. The percentages in brackets indicate the change in accuracy between this in the previous task, where best results are comparable (i.e. they have the same baseline).
+Finally, we will also allow the persona distributions to either include all topics, or to only select $n$ topics, set the probability of the others to 0 and normalise. Results are shown in Table~\ref{res:vary_everything}. Note that the highlighted row has been included in order to compare the accuracy of SVMs on the same number of maximum characters (same baseline) with the best model from the previous task. The percentages in brackets indicate the change in accuracy between the current and the previous task, for cases where the best results are comparable (having the same baseline).
 
-The accuracy of these models is generally better than in the previous configurations. It remains unchanged in the case of random forests, for which allowing the number of latent topics to vary did not result in an increase in accuracy. These are the best results obtained in the sentiment polarity classification tasks. For all the trained classifiers, they are significantly higher than the baseline.
+The accuracy of these models is generally better than with the previous configurations. It remains unchanged in the case of random forests, for which allowing the number of latent topics to vary did not result in an increase in accuracy. These are the best results obtained in the sentiment polarity classification tasks. For all the trained classifiers, they are significantly higher than the baseline, showing that inter-character sentiment polarity can be predicted reasonably accurate.
 
 \begin{table}[ht!]
 \begin{adjustwidth}{-0.5in}{-0.5in}
@@ -608,11 +613,22 @@ Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy
 \end{table}
 
 \subsection{Predicting changes in sentiment}
-As can be seen in the graphs shown in Section~[TODO ref], it appears that the way inter-character sentiment evolves intuitively conveys certain aspects about the nature of the narrative and the characters which take part (e.g. in a romantic film, both of the main characters tend to express positive sentiment throughout). We will now consider another prediction problem: can we predict whether inter-character sentiment has a positive trend, a negative trend or does not vary over the course of the film?
+As can be seen in the graphs shown in Section~[TODO ref], it appears that the way inter-character sentiment evolves intuitively conveys certain aspects about the nature of the narrative and the characters which take part (e.g. in a romantic film, both of the main characters tend to express positive sentiment throughout the story). This suggests another prediction problem: can we predict how the inter-character sentiment varies over the course of the film? We model this task as a 3-class classification problem and divide the sentiment trajectory of a film in 2 halves. If, in a character relationship, the averaged sentiment expressed by the first character towards the second one in the first half of the film is smaller than the sentiment expressed in the second half by at least some threshold $\alpha$, then their relationship is in class 0 (\textit{increasing}). If the absolute difference between the 2 halves is smaller than $\alpha$ then it is in class 1 (\textit{constant}). Otherwise, it is in class 3 (\textit{decreasing}).
 
-[TODO details about constructing the classes]
+We have introduced the parameter $\alpha$, which controls the number of data points in class 1. A value of $\alpha=0$ will results in class 1 being empty. In setting its value, the goal will be to obtain a balanced split between the 3 classes, across all the values of $N$. The graph in Figure ~\ref{fig:alpha} shows the proportion of points in the majority class, across all the values of $N$ used in the previous task, for 3 values of $\alpha$.
 
-\begin{table}[ht!]
+\begin{figure}[h!]
+\begin{adjustwidth}{-0.7in}{-0.7in}
+	\centering
+	\includegraphics[scale=0.55]{figures/variation_alpha2}
+	\caption{Proportion of data points in the majority class, over different values for the maximum number of characters ($N$), for 3 settings of the parameter $\alpha$.}
+\label{fig:alpha}
+\end{adjustwidth}
+\end{figure}
+
+In most (5 out of 7) cases, $\alpha=0.07$ makes the lowest number of points to be in the majority class. Either increasing or increasing $\alpha$ will generally increase this proportion. We will therefore use $0.07$ when labelling the data used to train the classifiers. Their performance is shown in Table~\ref{res:sent_variation}. The highest accuracy is again obtained using random forests and it is $0.867$. Note that although setting $\alpha$ to $0.06$ or $0.08$ will result in a drop in performance,  in both of those cases, the best accuracy still ranges between $0.75$ and $0.80$.
+
+\begin{table}[h!]
 \begin{adjustwidth}{-0.5in}{-0.5in}
 \centering
 \small
@@ -623,21 +639,28 @@ As can be seen in the graphs shown in Section~[TODO ref], it appears that the wa
  & No. & Filter & Personas & Top topics & Edge & & \\
 Classifier & nodes & personas & used & only & used & Baseline & \textbf{Accuracy} \\ \hline
 \multirow{2}{*}{Decision tree} 
- & All & Yes & A & 7 & Yes & 0.430 & \textbf{0.479}\\
- & All & Yes & A & 7 & No & 0.430 & \textbf{0.479}\\ \hline
+ & 2 & Yes & P, M & 1 & Yes & 0.427 & \textbf{0.600}\\
+ & 2 & Yes & P, M & 1 & No & 0.427 & \textbf{0.667}\\ \hline
 \multirow{2}{*}{Random forest} 
- & All & Yes & A & 5 & Yes & 0.430 & \textbf{0.606}\\
- & All & Yes & A & 5 & No & 0.430 & \textbf{0.592}\\ \hline
+ & 2 & Yes & P & 7 & Yes & 0.427 & \textbf{0.800}\\
+ & 2 & Yes & A, P, M & 6 & No & 0.427 & \textbf{0.867}\\ \hline
 \multirow{2}{*}{SVM}
- & All & Yes & A & 5 & Yes & 0.430 & \textbf{0.493}\\
- & All & Yes & A & 5 & No & 0.430 & \textbf{0.493}\\ \hline
+ & 2 & Yes & P & 4 & Yes & 0.427 & \textbf{0.733}\\
+ & 2 & Yes & P & 4 & No &  0.427 & \textbf{0.733}\\ \hline
 \end{tabular}
-\caption{Best sentiment variation prediction accuracy, with $\alpha = 1.0$.}
+\caption{Best sentiment variation prediction accuracy, with $\alpha = 0.07$.}
 \label{res:sent_variation}
 \end{adjustwidth}
 \end{table}
 
+We have shown that predicting changes in inter-character sentiment is also feasible with our representation. Note that the baselines are notably smaller than in the previous task, since we sought to obtain roughly equally sized classes.
 
+\subsubsection{Comparison of results between the 2 classification tasks}
+When predicting changes in sentiment, for all 3 classifiers, the best accuracy is obtained when limiting the maximum number of nodes in a character graph ($N$) to 2. This is similar to the sentiment polarity classification task, in which the best results were obtained when using an $N \in \{2, 3\}$. We can offer a possible explanation for this bias in both of these cases. The sentiment trajectories of films will naturally include more events between the more central characters in the narrative, which can result in less erratic predictions, since the influence of outliers (e.g. from shortcoming in sentiment analysis) is limited.
+
+Another common feature to note is the preference, in both tasks, to one of the 3 distributions in a character persona. While the choice of distributions varies for different classifiers, we can observe that in the sentiment polarity prediction task all the best-performing models were trained using (sometimes exclusively) the \textit{agent} distribution. This kind of preference is also observed in the sentiment variation task, but for the \textit{patient} distribution. We can speculate that such a bias seems to show that actions that the characters do themselves will better predict the overall sentiment of a relationship, while actions which the characters experience are more likely predictors of how relationships evolve in the timeline of the story.
+
+One last thing to note is that for both tasks and for all classifiers, using the edge weight (i.e. number of scene co-occurrences of 2 characters) as an extra feature in the feature vectors either has no effect on or decreases classification accuracy. This would seem to indicate that the persona model is enough to predict inter-character sentiment. However, as earlier discussed, the best results were obtained for values of $N \le 3$, with nodes ranked by their degree centrality in the character graph. As a consequence, it is possible that using the edge weight only added noise to the data and the inter-character sentiment depends more on how central the characters are to the story than on an absolute measure of the frequency of their interactions. This claim can be supported by the fact that using the edge weight did not decrease accuracy when all the characters of a film were included (Table~\ref{res:full_set}).
 
 \subsection{Predicting compound sentiment}
 We have modelled previous tasks as classification problems. However, inter-character sentiment is a continuous numerical value, meaning we can also explore regression tasks. The broadest such task is simply predicting the value of inter-character compound sentiment. Attempting to obtain the best possible results, we will explore the whole space of configurations introduced in the sections above. Results are shown in Table~\ref{res:regression}. 
@@ -671,7 +694,8 @@ Classifier & nodes & personas & used & only & used & \textbf{error} \\ \hline
 \end{table}
 
 
-\chapter{Future work}
+\chapter{Conclusions and future work}
+
 
 \bibliographystyle{plain}
 \bibliography{collection}

@@ -103,6 +103,7 @@ def construct_labels(pairs, sent_timeline, variation=False):
 
     if variation:
         halves = [[None] * len(pairs), [None] * len(pairs)]
+        lengths = [[None] * len(pairs), [None] * len(pairs)]
         mid_point = len(sent_timeline) / 2
         for i, event in enumerate(sent_timeline):
             participants = (event.speaker, event.receiver)
@@ -116,8 +117,10 @@ def construct_labels(pairs, sent_timeline, variation=False):
 
                 if halves[h][pairs.index(participants)]:
                     halves[h][pairs.index(participants)] += event.sentiment['compound']
+                    lengths[h][pairs.index(participants)] += 1
                 else:
                     halves[h][pairs.index(participants)] = event.sentiment['compound']
+                    lengths[h][pairs.index(participants)] = 1
 
     # else:
     labels = [0.0]*len(pairs)
@@ -141,6 +144,11 @@ def construct_labels(pairs, sent_timeline, variation=False):
             print labels[i], halves[0][i], halves[1][i]
 
     if variation:
+        for h in range(2):
+            for i, cumulative_sentiment in enumerate(halves[h]):
+                if halves[h][i]:
+                    halves[h][i] = cumulative_sentiment/lengths[h][i]
+
         return halves
     else:
         return labels

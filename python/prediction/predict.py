@@ -21,7 +21,10 @@ n_topics = 10
 lowest_mse = TopScores(100.0, order_max=False, max_items=300)
 highest_accuracy = TopScores(0.0, max_items=300)
 
-VAR_THRESHOLD = 1.0
+# VAR_THRESHOLD = 0.05
+# VAR_THRESHOLD = 0.06
+# VAR_THRESHOLD = 0.07
+VAR_THRESHOLD = 0.08
 
 
 def compute_variance_class((a, b)):
@@ -73,6 +76,7 @@ def make_predictions(config, variation=False, verbose=False):
         else:
             labels += construct_labels(p, sent_timeline, variation=False)
 
+
         ### code snippet for plotting sentiment trajectories
         # if graphs[g].graph['title'] == 'Midnight in Paris':
         #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound')
@@ -91,19 +95,16 @@ def make_predictions(config, variation=False, verbose=False):
     if variation:
         class_labels = map(compute_variance_class, zip(labels[0], labels[1]))
         assert len(class_labels) == len(data) == len(pairs)
-
         # prune data for which we do not have a label
         for i in reversed(range(len(class_labels))):
-            if class_labels[i] == None:
+            if class_labels[i] is None:
                 del class_labels[i]
                 del data[i]
                 del pairs[i]
-
     else:
         class_labels = map(lambda x: 0 if x < 0.0 else 1, labels)
 
     # export_to_arff(data, class_labels, config)
-
     regression_models = [
         # linear_regression,
         # tree_regression,
@@ -112,9 +113,9 @@ def make_predictions(config, variation=False, verbose=False):
     ]
 
     classifiers = [
-        decision_tree,
-        random_forest,
-        support_vector_machines
+        # decision_tree,
+        # random_forest,
+        # support_vector_machines
     ]
 
     if verbose:
@@ -136,7 +137,7 @@ def make_predictions(config, variation=False, verbose=False):
         baseline = float(sum(class_labels))/len(class_labels)
 
     for model in classifiers:
-        accuracy = model(data, class_labels, verbose=(not verbose))
+        accuracy = model(data, class_labels, verbose=verbose)
         highest_accuracy.score(accuracy, (baseline, model, config))
 
     if verbose:
@@ -172,7 +173,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [False]  + range(2, 8)
+    filter_top_values = [False] + range(2, 8)
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]
@@ -181,12 +182,13 @@ def main():
     personas = list(itertools.imap(list,
                        itertools.chain.from_iterable(
                            itertools.combinations('APM', r) for r in range(1, 4))))
+    personas = ['A']
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [False] + range(1, 8)
+    pick_top = [False]# + range(1, 8)
     #
     # [4] use the edge weight information or not
-    edge_weights = [True, False]
+    edge_weights = [True]#, False]
 
     for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
             try:
@@ -196,7 +198,7 @@ def main():
                 pass
     #
     # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
-    # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification.pickle', 'w'))
+    pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification_var008.pickle', 'w'))
     #     print 'dumped'
 
     # for i in range(2):

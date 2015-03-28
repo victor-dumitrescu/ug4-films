@@ -69,6 +69,7 @@ def make_predictions(config, variation=False, verbose=False):
         pairs += map((lambda x: x + (graphs[g].graph['title'],)), p)
 
         sent_timeline = load(graphs[g].graph['gexf'][:-5])
+
         if variation:
             halves = construct_labels(p, sent_timeline, variation=True)
             labels[0] += halves[0]
@@ -80,8 +81,8 @@ def make_predictions(config, variation=False, verbose=False):
         ### code snippet for plotting sentiment trajectories
         # if graphs[g].graph['title'] == 'Midnight in Paris':
         #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound')
-        # if graphs[g].graph['title'] == 'The Silence of the Lambs':
-        #     plot_trajectory(sent_timeline, 'CHILTON', 'CLARICE')
+        if graphs[g].graph['title'] == 'The Silence of the Lambs':
+            plot_trajectory(sent_timeline, 'DR. LECTER', 'CLARICE', title='The Silence of the Lambs')
 
         ### code snippet for plotting every sentiment trajectory
         # try:
@@ -173,7 +174,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [False] + range(2, 8)
+    filter_top_values = [2] #range(2, 8) + [False]
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]
@@ -198,7 +199,7 @@ def main():
                 pass
     #
     # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
-    pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification_var008.pickle', 'w'))
+    # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification_var008.pickle', 'w'))
     #     print 'dumped'
 
     # for i in range(2):

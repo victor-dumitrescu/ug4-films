@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 import glob
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,7 +10,12 @@ from unidecode import unidecode
 from vaderSentiment.vaderSentiment import sentiment as vader
 
 DEFAULT_MODE = 'compound'
-
+plt.rcParams['font.size'] = 13
+plt.rcParams['xtick.labelsize'] = 'small'
+plt.rcParams['ytick.labelsize'] = 'small'
+# plt.rcParams['legend.fontsize'] = 'medium'
+# plt.rc('font', family='FreeSerif')
+plt.rc('font', family='Sans')
 
 def filter_events(timeline, c1, c2, mode=DEFAULT_MODE, cumulative=True):
     # return all the SentimentEvents from c1 to c2 [in y] and their timestamp [in x]
@@ -32,18 +40,24 @@ def total_sentiment(timeline, char1, char2, mode=DEFAULT_MODE):
     return values[-1]
 
 
+def fix_name(name):
+    return ' '.join(map(lambda x: x[0] + x[1:].lower(), name.split()))
+
 def plot_trajectory(timeline, char1, char2, mode=DEFAULT_MODE, title=None):
                                   # can also be 'pos', 'neg', 'neu'
-    x, y = filter_events(timeline, char1, char2, mode)
-    char1_points = plt.scatter(x, y, c='blue')
-    x, y = filter_events(timeline, char2, char1, mode)
-    char2_points = plt.scatter(x, y, c='red')
 
-    plt.legend([char1_points, char2_points], [char1 + ' -> ' + char2, char2 + ' -> ' + char1],
-               loc='upper left', bbox_to_anchor=(0.6, 1.12),
+    x, y = filter_events(timeline, char1, char2, mode)
+    char1_points = plt.scatter(x, y, linewidth='0.5', s=60, c=(0.38, 0.75, 0.16, 0.55))
+    x, y = filter_events(timeline, char2, char1, mode)
+    char2_points = plt.scatter(x, y, linewidth='0.5', s=60, c=(0.82, 0.02, 0.03, 0.55))
+
+    char1 = fix_name(char1)
+    char2 = fix_name(char2)
+    plt.legend([char1_points, char2_points], [char1 + ' ⟶ ' + char2, char2 + ' ⟶ ' + char1],
+               loc='upper left', bbox_to_anchor=(0.5, 1.12),
                ncol=1, fancybox=True)
     if title:
-        plt.title(title, x=0.08, y=1.035)
+        plt.title(title, x=0.1, y=1.035)
     plt.xlabel('Time (speech act)')
     plt.ylabel('Cumulative compound sentiment')
     plt.grid(True)

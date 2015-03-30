@@ -13,9 +13,8 @@ DEFAULT_MODE = 'compound'
 plt.rcParams['font.size'] = 13
 plt.rcParams['xtick.labelsize'] = 'small'
 plt.rcParams['ytick.labelsize'] = 'small'
-# plt.rcParams['legend.fontsize'] = 'medium'
-# plt.rc('font', family='FreeSerif')
 plt.rc('font', family='Sans')
+
 
 def filter_events(timeline, c1, c2, mode=DEFAULT_MODE, cumulative=True):
     # return all the SentimentEvents from c1 to c2 [in y] and their timestamp [in x]

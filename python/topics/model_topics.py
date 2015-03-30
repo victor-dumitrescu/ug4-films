@@ -15,7 +15,7 @@ def get_lda_structs():
 def get_topic_top_words(topic, topic_word, vocab):
 
     topic_dist = topic_word[topic]
-    n_top_words = 10
+    n_top_words = 100
     topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
     return topic_words
 
@@ -43,9 +43,9 @@ def main():
 
     n_topics = 10
     topics, vocab = basic_lda(n_topics)
-    pickle.dump(topics, open(path + 'topics.pickle', 'w'))
-    pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))
-    print 'Pickled topics'
+    # pickle.dump(topics, open(path + 'topics.pickle', 'w'))
+    # pickle.dump(vocab, open(path + 'vocab.pickle', 'w'))
+    # print 'Pickled topics'
 
     with open(path + 'topics.csv', 'w') as f:
         for i in range(n_topics):

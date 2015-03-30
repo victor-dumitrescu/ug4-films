@@ -279,6 +279,7 @@ In order to construct the character graph for a film we need to find a meaningfu
 Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters, but a high co-occurrence is likely to indicate that a relationship is important for the development of the story.
 
 \subsection{Processing ScriptBase screenplays}
+\label{sec:processing_scriptbase}
 To ease the task of extracting the number of character to character scene co-occurrences, we restricted the set of films to the 127 which have already been processed in ScriptBase. A processed script is an XML file which, apart from the standard CoreNLP annotations, also places every sentence inside a numbered \texttt{scene} tag. It also distinguishes between stage directions and speech, annotating the name of the speaker(s) in the latter case.
 
 Thus, it is straightforward to parse the XML document and, for each pair of characters, record the number of scenes in which they both have at least one line of speech. Note that although this approach ignores characters which might be present in a scene but do not speak, in practice we do not expect this to significantly influence any of the results.
@@ -353,22 +354,21 @@ We have opted to use an implementation of the standard Latent Dirichlet Allocati
 One of the advantages of this frequentist approach is that the only parameter that we need to optimise in the model is the number of topics computed by the LDA algorithm. Since the number of films in our collection is small and largely restricted to two genres (thriller and comedy), we expect the number of meaningful topics to also be reasonably small. Therefore we have tried to manually vary this parameter and select the value which seems to intuitively give a complete coverage of topics, without having different topics which seem very close. We have used to highest probability words in each topic distribution as a guide. So far, we have settled on having 10 topics (\textit{Figure 1.2}).
 
 \begin{figure}[h]
-\centering
-\begin{minipage}{8cm}
+\begin{minipage}{14.6cm}
 \begin{Verbatim}[frame=single]
-0: tell take go have 
-1: stop arrive hide officer 
-2: mother decide love marry 
-3: meet discover leave confront 
-4: join wife know lie 
-5: girl son offer husband 
-6: give kill confront offer
-7: kill shoot brother find 
-8: pursue criminal escape ndapp
-9: set capture try save 
+1: leave meet reveal wife marry ask decide call woman want husband
+2: father mother child son marry parent live brother daughter woman
+3: kill shoot take man officer arrest escape kidnap detective lead
+4: kill rescue escape save arrive bring reveal destroy vampire fly
+5: tell be ask see say call friend talk show start mother invite
+6: run get chase catch throw grab pull knock hit fall stop walk use
+7: friend girl meet student play teacher end girlfriend school 
+8: find take follow driver travel hoin reach fly track locate sail
+9: kill man shoot attack killer stab die dead confront attempt
+10: boy win play have owner manager hero uncle narrator stooge
 \end{Verbatim}
 \end{minipage}
-\caption{First 4 words in the 10 topics discovered by LDA on our film collection, ranked by probability. TO DO: \textit{Need to update these}}
+\caption{Most representative word for each of the 10 topics learned by LDA on all the comedies and thrillers in the CMU Movie Summary Corpus, ranked by probability.}
 \label{topics}
 \end{figure}
 
@@ -376,8 +376,17 @@ Having these 10 distributions over words in the vocabulary, we construct, for ea
 
 
 \section{Sentiment trajectories}
+The sentiment trajectory of a film is the ordered sequence of speech acts, in which one (and only one) character (\textit{the speaker}) is assumed to speak to one (and only one) other character (\textit{the receiver}), which is different than the speaker. The sentiment of each line of dialogue is independently computed, using VADER. Each point in the sentiment trajectory is then a tuple of \textit{(speaker, receiver, sentiment)}, which we will call a \textit{sentiment event}.
 
-TODO
+In order to construct a sentiment trajectory for each film in the data set, we traverse the XML script (described in Section~\ref{sec:processing_scriptbase}, extract every scene and the names of the characters which take part and every line of dialogue, together with its speaker. The speaker of each utterance is marked in the script, but we nee to identify a receiver. We will follow the assumptions introduced in \cite{Nalisnick2013}:
+\begin{itemize}
+	\item For the first line of dialogue in the scene, assume the receiver is the next speaker.
+	\item For all the following, assume the receiver is the previous speaker.
+\end{itemize}
+
+Although these assumptions (and those introduced in the first paragraph, restricting dialogue between exactly two distinct characters) are quite “na\"{\i}ve, in practice they tend to hold reasonably well, especially since many scenes only feature 2 participants.
+
+Another assumptions that we make when using the sentiment trajectories as representations of two characters' relation is that the sentiment expressed in a speaker's utterance is directed towards the receiver. Of course, this might not always be the case. To remedy this, we could attempt to parse the typed dependencies from each sentence and only use the phrase-level sentiment from phrases which have a relevant dependency relations with the receiver (e.g. \textit{nsubj}, \textit{dobj}, \textit{ref}, ...), coupled with coreference resolution to match characters with identifier such as ``you", ``your", etc. However, this approach could result in far sparser sentiment trajectories. In practice, although a line of dialogue might not be directly referring to the other party, its sentiment can often be taken as an indicator of the speaker's relationship with the receiver.
 
 \begin{figure}[h!]
 	\includegraphics[scale=0.335]{figures/sentiment}

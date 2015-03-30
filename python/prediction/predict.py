@@ -80,7 +80,7 @@ def make_predictions(config, variation=False, verbose=False):
 
         ### code snippet for plotting sentiment trajectories
         # if graphs[g].graph['title'] == 'Midnight in Paris':
-        #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound')
+        #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound', title='Midnight in Paris')
         if graphs[g].graph['title'] == 'The Silence of the Lambs':
             plot_trajectory(sent_timeline, 'DR. LECTER', 'CLARICE', title='The Silence of the Lambs')
 

@@ -19,7 +19,7 @@ def standardize_title(film):
         film = film[:-12]
 
     film = film.replace('__', ': ')
-    film = film.replace('_', ' ')                                               
+    film = film.replace('_', ' ')
 
     # temporary hack
     # also changed the name of the .gexf for Silver_Linings_Playbook to The_[...]

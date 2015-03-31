@@ -81,17 +81,26 @@ def make_predictions(config, variation=False, verbose=False):
         ### code snippet for plotting sentiment trajectories
         # if graphs[g].graph['title'] == 'Midnight in Paris':
         #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound', title='Midnight in Paris')
-        if graphs[g].graph['title'] == 'The Silence of the Lambs':
-            plot_trajectory(sent_timeline, 'DR. LECTER', 'CLARICE', title='The Silence of the Lambs')
+        # if graphs[g].graph['title'] == 'The Silence of the Lambs':
+        #     plot_trajectory(sent_timeline, 'DR. LECTER', 'CLARICE', title='The Silence of the Lambs')
 
         ### code snippet for plotting every sentiment trajectory
-        # try:
-        #     chars = graphs[g].node.keys()
-        #     plot_trajectory(sent_timeline, chars[0], chars[1],
-        #                     mode='compound',
-        #                     title=graphs[g].graph['title'])
-        # except:
-        #     print graphs[g].node, len(graphs[g].node)
+        try:
+            if graphs[g].graph['title'] in ['Chasing Amy']:
+                chars = graphs[g].node.keys()
+                plot_trajectory(sent_timeline, chars[2], chars[1],
+                                mode='compound',
+                                title=graphs[g].graph['title'])
+                plot_trajectory(sent_timeline, chars[0], chars[2],
+                                mode='compound',
+                                title=graphs[g].graph['title'])
+                plot_trajectory(sent_timeline, chars[0], chars[1],
+                                mode='compound',
+                                title=graphs[g].graph['title'])
+
+            # print graphs[g].graph['title']
+        except:
+            print graphs[g].node, len(graphs[g].node)
 
     if variation:
         class_labels = map(compute_variance_class, zip(labels[0], labels[1]))
@@ -174,7 +183,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [2] #range(2, 8) + [False]
+    filter_top_values = [3] #range(2, 8) + [False]
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]

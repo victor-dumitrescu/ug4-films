@@ -42,9 +42,11 @@ def total_sentiment(timeline, char1, char2, mode=DEFAULT_MODE):
 def fix_name(name):
     return ' '.join(map(lambda x: x[0] + x[1:].lower(), name.split()))
 
+
 def plot_trajectory(timeline, char1, char2, mode=DEFAULT_MODE, title=None):
                                   # can also be 'pos', 'neg', 'neu'
 
+    plt.ylim([-15, 20])
     x, y = filter_events(timeline, char1, char2, mode)
     char1_points = plt.scatter(x, y, linewidth='0.5', s=60, c=(0.38, 0.75, 0.16, 0.55))
     x, y = filter_events(timeline, char2, char1, mode)

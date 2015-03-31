@@ -378,20 +378,63 @@ Having these 10 distributions over words in the vocabulary, we construct, for ea
 \section{Sentiment trajectories}
 The sentiment trajectory of a film is the ordered sequence of speech acts, in which one (and only one) character (\textit{the speaker}) is assumed to speak to one (and only one) other character (\textit{the receiver}), which is different than the speaker. The sentiment of each line of dialogue is independently computed, using VADER. Each point in the sentiment trajectory is then a tuple of \textit{(speaker, receiver, sentiment)}, which we will call a \textit{sentiment event}.
 
-In order to construct a sentiment trajectory for each film in the data set, we traverse the XML script (described in Section~\ref{sec:processing_scriptbase}, extract every scene and the names of the characters which take part and every line of dialogue, together with its speaker. The speaker of each utterance is marked in the script, but we nee to identify a receiver. We will follow the assumptions introduced in \cite{Nalisnick2013}:
+In order to construct a sentiment trajectory for each film in the data set, we traverse the XML script (described in Section~\ref{sec:processing_scriptbase}), extract every scene and the names of the characters which take part and every line of dialogue, together with its speaker. The speaker of each utterance is marked in the script, but we nee to identify a receiver. We will follow the assumptions introduced in \cite{Nalisnick2013}:
 \begin{itemize}
 	\item For the first line of dialogue in the scene, assume the receiver is the next speaker.
-	\item For all the following, assume the receiver is the previous speaker.
+	\item For all the following lines, assume the receiver is the previous speaker.
 \end{itemize}
 
 Although these assumptions (and those introduced in the first paragraph, restricting dialogue between exactly two distinct characters) are quite “na\"{\i}ve, in practice they tend to hold reasonably well, especially since many scenes only feature 2 participants.
 
-Another assumptions that we make when using the sentiment trajectories as representations of two characters' relation is that the sentiment expressed in a speaker's utterance is directed towards the receiver. Of course, this might not always be the case. To remedy this, we could attempt to parse the typed dependencies from each sentence and only use the phrase-level sentiment from phrases which have a relevant dependency relations with the receiver (e.g. \textit{nsubj}, \textit{dobj}, \textit{ref}, ...), coupled with coreference resolution to match characters with identifier such as ``you", ``your", etc. However, this approach could result in far sparser sentiment trajectories. In practice, although a line of dialogue might not be directly referring to the other party, its sentiment can often be taken as an indicator of the speaker's relationship with the receiver.
+Another assumptions that we make when using the sentiment trajectories as representations of two characters' relation is that the sentiment expressed in a speaker's utterance is directed towards the receiver. Of course, this might not always be the case. To remedy this, we could attempt to parse the typed dependencies from each sentence and only use the phrase-level sentiment from phrases which have a relevant dependency relations with the receiver (e.g. \textit{nsubj}, \textit{dobj}, \textit{ref}, ...), coupled with coreference resolution to match characters with identifier such as ``you", ``your", etc. However, this approach could result in far sparser sentiment trajectories. In practice, although a line of dialogue might not be directly referring to the other party, its sentiment can often be taken as an indicator of the speaker's relationship with the receiver. To minimise the impact of outliers resulting from either a failure of the sentiment analysis or the breaking of one of the assumptions introduced above, we will only use aggregate measures of the sentiment trajectory in our evaluation tasks, discussed in Chapter~\ref{chap:results}.
+
+Once constructed, sentiment trajectories can be plotted as a time series. For clarity, we will only include one character relationship per plot. Note, however, that relationships are directional, since the sentiment that each character expresses towards the other will differ. The plots shown here are illustrative of certain aspects related to the genre or the dynamic between the characters shown. 
 
 \begin{figure}[h!]
-	\includegraphics[scale=0.335]{figures/sentiment}
-	\caption{Sentiment trajectories between the two most central characters in \textit{The Silence of the Lambs} (1994) and \textit{Midnight in Paris} (2011) [TO DO: \textit{Label axes}]}
+\begin{adjustwidth}{-0.5in}{-0.5in}
+	\centering
+	\includegraphics[scale=0.43]{figures/y_thrillers}
+	\caption{Sentiment trajectories of the two most central characters in the thrillers \textit{Frozen River} (2008) and \textit{The Book of Eli} (2010)}
+	\label{fig:thrillers}
+\end{adjustwidth}
 \end{figure}
+
+\begin{figure}[h!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+	\centering
+	\includegraphics[scale=0.43]{figures/y_romcoms}
+	\caption{Sentiment trajectories of the two most central characters in the romantic comedies \textit{Midnight in Paris} (2011) and \textit{I Love You Phillip Morris} (2009)}
+	\label{fig:romcoms}
+\end{adjustwidth}
+\end{figure}
+
+Figure~\ref{fig:thrillers} shows the sentiment trajectories of two thrillers. Both the main characters are allies in the story, but the protagonists of \textit{Frozen River} have a very uneasy alliance, while those in \textit{The Book of Eli} are sympathetic towards each other.
+
+\begin{figure}[h!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+	\centering
+	\includegraphics[scale=0.43]{figures/y_contradictions}
+	\caption{Sentiment trajectories of the two most central characters in the films \textit{Analyze That} (2002) and \textit{Gothika} (2003)}
+	\label{fig:contradictions}
+	\label{fig:romcoms}
+\end{adjustwidth}
+\end{figure}
+
+The sentiment trajectories in Figure~\ref{fig:chasing_amy}[TODO] illustrate the sentiment between the main characters of the romantic comedy \textit{Chasing Amy}. In the film, Holden and Banky are two long-time friends. When the two meet Alyssa, she immediately piques Holden's interest. Although she only sees him as a friend, he pursues her throughout the film and they end up being together. Banky does not like Alyssa, which is the source of conflict between him and Holden. The 3 sentiment trajectories are consistent with our intuitive expectations of such a story and the feelings that the characters would express towards each other in these situations.
+\begin{figure}[h!]
+\begin{adjustwidth}{-0.5in}{-0.5in}
+	\centering
+	\begin{minipage}{15cm}
+		\centering
+		\includegraphics[scale=0.43]{figures/chasing_amy1}
+		\includegraphics[scale=0.43]{figures/chasing_amy2}
+	\caption{Sentiment trajectories of the three most central characters in the romantic comedy 
+\textit{Chasing Amy} (1997)}
+	\end{minipage}
+\end{adjustwidth}
+\label{fig:chasing_amy}
+\end{figure}
+
 
 \section{Testing the main hypothesis}
 \label{sec:predictors}

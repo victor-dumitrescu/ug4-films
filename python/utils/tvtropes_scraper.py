@@ -64,7 +64,6 @@ def analyze_tropes():
     s = sorted(all_tropes.items(), key=lambda x: x[1], reverse=True)
 
 
-
 def main():
 
     failures = []

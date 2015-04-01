@@ -129,21 +129,21 @@ def construct_labels(pairs, sent_timeline, variation=False):
         if participants in pairs:
             labels[pairs.index(participants)] += event.sentiment['compound']
 
-    # check the integrity of the halves by adding them up and comparing with the total sentiment
-    assert len(labels) == len(halves[0]) == len(halves[1])
-    for i in range(len(labels)):
-        try:
-            if labels[i] == 0.0:
-                assert ((not halves[0][i]) and (not halves[1][i]) or
-                       ((not halves[0][i]) and halves[1][i] == 0.0) or
-                       (halves[0][i] == 0.0 and (not halves[1][i])) or
-                       (halves[0][i] + halves[1][i] == 0.0))
-            elif halves[0][i] and halves[1][i]:
-                assert abs(halves[0][i] + halves[1][i] - labels[i]) < 0.001
-        except AssertionError:
-            print labels[i], halves[0][i], halves[1][i]
-
     if variation:
+        # check the integrity of the halves by adding them up and comparing with the total sentiment
+        assert len(labels) == len(halves[0]) == len(halves[1])
+        for i in range(len(labels)):
+            try:
+                if labels[i] == 0.0:
+                    assert ((not halves[0][i]) and (not halves[1][i]) or
+                           ((not halves[0][i]) and halves[1][i] == 0.0) or
+                           (halves[0][i] == 0.0 and (not halves[1][i])) or
+                           (halves[0][i] + halves[1][i] == 0.0))
+                elif halves[0][i] and halves[1][i]:
+                    assert abs(halves[0][i] + halves[1][i] - labels[i]) < 0.001
+            except AssertionError:
+                print labels[i], halves[0][i], halves[1][i]
+
         for h in range(2):
             for i, cumulative_sentiment in enumerate(halves[h]):
                 if halves[h][i]:

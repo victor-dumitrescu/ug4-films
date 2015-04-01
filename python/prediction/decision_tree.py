@@ -3,6 +3,8 @@ from sklearn import cross_validation
 from sklearn.metrics import accuracy_score
 from sklearn import tree
 
+from sklearn.externals.six import StringIO
+import pydot
 
 def decision_tree(data, labels, verbose=False):
 
@@ -17,6 +19,12 @@ def decision_tree(data, labels, verbose=False):
     if verbose:
         print 'Decision tree classification'
         print 'Accuracy: ', acc
+
+    if acc > 0.9:
+        dot_data = StringIO()
+        tree.export_graphviz(clf, out_file=dot_data)
+        graph = pydot.graph_from_dot_data(dot_data.getvalue())
+        graph.write_pdf("decision_tree.pdf")
 
     return acc
 

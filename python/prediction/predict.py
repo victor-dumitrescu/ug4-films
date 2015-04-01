@@ -123,7 +123,7 @@ def make_predictions(config, variation=False, verbose=False):
     ]
 
     classifiers = [
-        # decision_tree,
+        decision_tree#,
         # random_forest,
         # support_vector_machines
     ]
@@ -183,7 +183,7 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [3] #range(2, 8) + [False]
+    filter_top_values = [2] #range(2, 8) + [False]
     #
     # [1] filter or not nodes w/o persona information
     filter_personas = [True]
@@ -192,20 +192,20 @@ def main():
     personas = list(itertools.imap(list,
                        itertools.chain.from_iterable(
                            itertools.combinations('APM', r) for r in range(1, 4))))
-    personas = ['A']
+    personas = [['A', 'M']]
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [False]# + range(1, 8)
+    pick_top = [3]# + range(1, 8)
     #
     # [4] use the edge weight information or not
-    edge_weights = [True]#, False]
+    edge_weights = [False]#, False]
 
     for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
             try:
-                make_predictions(config, variation=True, verbose=True)
+                make_predictions(config, variation=False, verbose=True)
             except:
                 print 'error with ' + str(config)
-                pass
+                raise
     #
     # pickle.dump(lowest_mse, open('/home/victor/GitHub/experiment/final_results/regression.pickle', 'w'))
     # pickle.dump(highest_accuracy, open('/home/victor/GitHub/experiment/final_results/classification_var008.pickle', 'w'))

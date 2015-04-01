@@ -18,22 +18,23 @@
 \long\def\/*#1*/{}
 
 \title{Representing Films as Character Graphs}
-
 \author{Victor Dumitrescu}
-
 \course{Artificial Intelligence and Computer Science}
-\project{4th Year Project Report}
-
+\project{4\textsuperscript{th} Year Project Report}
 \date{\today}
 
 \abstract{
-This project sets out to explore a representation of films in terms of their characters, bringing together different kinds of textual information, such as screenplays and plot summaries. The work described in this report builds upon the existing literature in computational linguistics concerned with studying characters in films and other works of fiction. The character graphs presented here model two main aspects of film characters: their personalities and their role in the social network of the narrative. We try to show that by using both kinds of features to represent films, we can derive some insight into deeper aspects of the narratives.
+This project sets out to explore a representation of film in terms of its characters and their interactions, bringing together different kinds of textual information, such as screenplays and plot summaries. The work described in this report builds upon the existing literature in computational linguistics concerned with studying characters in films and other works of fiction. The character graph model presented here captures two main aspects of film characters: their personalities and their role in the social network of the narrative. We discuss the process of building and evaluating character graphs and show that they accurately predict the sentiment that film characters express towards each other.
 }
 
 \maketitle
 
 \section*{Acknowledgements}
-Thanks I guess.
+I would like to thank Jon Oberlander for his inspiring supervision. I always left his office with something to ponder and excited about the direction that I would take the project next.
+
+I am grateful to Philip Gorinski and Mirella Lapata for providing me with their ScriptBase corpus and their research.
+
+I would also like to thank my family. Were it not for their continuous support, I would not be submitting this project today.
 
 \tableofcontents
 \listoffigures
@@ -131,21 +132,17 @@ Sentiment analysis is usually broken down into different levels of granularity a
 
 \subsubsection{The VADER sentiment analysis system}
 
-For this project, we used VADER (\textit{Valence Aware Dictionary for sEntiment Reasoning}) \cite{hutto2014vader}, a rule-based sentiment analysis system, geared towards analysing social media content. It is implemented in Python and it is available as an open-source project under the MIT licence\footnote{https://pypi.python.org/pypi/vaderSentiment}.
+For this project, we used VADER (\textit{Valence Aware Dictionary for sEntiment Reasoning}) \cite{hutto2014vader}, a rule-based sentiment analysis system, geared towards analysing social media content. It is implemented in Python and it is available as an open-source project under the MIT licence\footnote{www.pypi.python.org/pypi/vaderSentiment}.
 
 
 \subsection{Sentiment analysis in the study of fiction}
-First work in sentiment analysis on works of fiction \cite{alm2005emotions}, on children's fairy tales.
+Among the first efforts in using sentiment analysis on literary fiction is the work of Alm et al. \cite{alm2005emotions}, on analysing children's fairy tales. The purpose of their research was to improve text-to-speech synthesis, by taking emotional cues from the story into account, similar to what a person would read a story to a child. They also explore the role of ``emotion trajectories", which analyse the distribution of emotions over the course of the narrative, in the evolution of stories written for children \cite{alm2005emotional}.
 
-Alm et al. also explore the role of ``emotion trajectories" in story development. \cite{alm2005emotional}.
+Building on this previous work and on that of Elson et al. \cite{Elson2010} (discussed above), Elsner uses sentiment trajectories of individual characters and a representation of relationships between them in order to compare the high-level plot structure of novels, using a kernel do to one-to-one comparisons of characters between different novels. \cite{elsner2012character}.
 
-Building on this previous work and on that of Elson et al., Elsner uses sentiment trajectories of individual characters rather than entire narratives \cite{elsner2012character}.
+Most of the previous literature in this area focuses on literary fiction rather than films. An example of recent work that employs, among other techniques, social network analysis and sentiment analysis is Gorinski and Lapata's paper \cite{Gorinski2015} on film scene extraction for the purpose of automatic film summarisation. For this work, they compiled the ScriptBase corps, on which this project is also based. They extract the social network of a film using the number of character-to-character interactions as edge weights, which is also the approach used in this project. When constructing chains of scenes, they take into account a ``diversity" metric, which is computed in terms of the difference, from one scene to the next, in the set of participating characters and the overall sentiment of each scene. In this project, however, we are looking at character-to-character sentiment rather than in scenes as a whole.
 
-All these previous works focus on literary fiction rather than films.
-
-Sentiment analysis and social networks. (Philip Gorinski used it in summarisation)
-
-The main basis for the sentiment work in this project: \cite{Nalisnick2013} sentiment trajectories of individual characters based on speech acts in plays, adapted for films.
+This idea has been previously explored, recently by Nalisnick et al.\cite{Nalisnick2013}, in their paper on character-to-character sentiment analysis in Shakespeare's plays. They exploit the semi-structured format of theatrical plays and introduce a simple set of assumptions to identify the speaker and listener of each line of dialogue. For this project, we adapted their approach in order to fit film scripts rather than plays in constructing our sentiment trajectories. A more detailed discussion of their work follows in Section~\ref{sec:trajectories}, where we explain the design and implementation of these trajectories.
 
 \section{Data sets} \label{sec:data sets}
 We have mainly used two data sets to support the work done for this project. They have both been compiled as part of previous research efforts focused on computationally analysing films.
@@ -174,11 +171,11 @@ This section presents two of the hypotheses which were strongly considered and e
 
 \subsection{TV Tropes}
 \label{sec:alt_tropes}
-TV Tropes\footnote{http://tvtropes.org/} is an online public wiki maintaining a collection of ``tropes", such as plot devices, dialogue commonalities, motifs and other conventions or stereotypes that are widely used in film and television series. More recently it ha also grown to include literature, video games and other media. Apart from collecting the tropes themselves, TV Tropes maintains pages for numerous individual films and other works of fiction which include a list of the tropes that they feature.
+TV Tropes\footnote{www.tvtropes.org} is an online public wiki maintaining a collection of ``tropes", such as plot devices, dialogue commonalities, motifs and other conventions or stereotypes that are widely used in film and television series. More recently it ha also grown to include literature, video games and other media. Apart from collecting the tropes themselves, TV Tropes maintains pages for numerous individual films and other works of fiction which include a list of the tropes that they feature.
 
 TV Tropes have been used in past research efforts, most notably by Bamman et al. \cite{Bamman2013}, as part of one of the evaluation measures for their film persona models introduced in Section~\ref{sec:bg_persona}. They selected 72 tropes which correspond to character types (e.g. \textit{The Hardboiled Detective}) and manually annotated 501 characters. They attempted to recover gold-standard clusters of characters as determined by their trope assignment and used an information-theoretic measure to assess the discrepancy between these and the latent persona clusters.
 
-We considered the possibility of evaluating our character graph representations on the basis of being able to capture different kinds of relationships between 2 or more characters (e.g. one of the \textit{Triang Relations}\footnote{http://tvtropes.org/pmwiki/pmwiki.php/Main/TriangRelations} or \textit{Four-Man Band}. For this purpose, we have implemented a scraper in order to collect the tropes associated with the films in our data set. Table~\ref{table:tropes} shows the most common 20 tropes and the number of films which feature them.
+We considered the possibility of evaluating our character graph representations on the basis of being able to capture different kinds of relationships between 2 or more characters (e.g. one of the \textit{Triang Relations}\footnote{www.tvtropes.org/pmwiki/pmwiki.php/Main/TriangRelations} or \textit{Four-Man Band}. For this purpose, we have implemented a scraper in order to collect the tropes associated with the films in our data set. Table~\ref{table:tropes} shows the most common 20 tropes and the number of films which feature them.
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{table}[h!]
@@ -278,7 +275,7 @@ The code for constructing the Rotten Tomatoes film similarity graph was written 
 \section{The Character Graph}
 In order to construct the character graph for a film we need to find a meaningful representation of the relationship between characters (the nodes in our graph). For simplicity, we can start by trying to find a numerical measure, which would correspond to edge weights in an undirected weighted graph. The measure we have used in this project is the number of scene co-occurrences between two characters. Thus, the weight of an edge between two characters represents the number of scenes in which those characters appear together. As a consequence, characters which never interact in the film will be disconnected in the graph. 
 
-Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality indicator. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters, but a high co-occurrence is likely to indicate that a relationship is important for the development of the story.
+Apart from simplicity, choosing this measure can enable us to reliably discover the main characters of a film using a graph centrality measure. However, scene co-occurrence does not give any insights into the \textit{nature} of the interaction between characters, but a high co-occurrence is likely to indicate that a relationship is important for the development of the story. Our approach is similar to that of Gorinski et al. \cite{Gorinski2015}, although they go beyond degree centrality for identifying main characters.
 
 \subsection{Processing ScriptBase screenplays}
 \label{sec:processing_scriptbase}
@@ -320,7 +317,7 @@ ubj /m/0k6g86:t3.2.0:verb.communication:rebuff:a:nsubj (...)
 \end{figure}
 
 
-The filtered film data file contains, for each film and each character mentioned in the plot summary, a list of words tagged as being either \textit{agent}, \textit{patient} or \textit{modifier} words (as detailed in Section~\ref{sec:bg_persona}). These words are selected into one of these types on the basis of their Stanford typed dependencies, as determined using the CoreNLP parser. Each of the three types described above corresponds to a list of dependencies and all tokens tagged with those dependencies will be assigned a type. In the final input file, in addition to the word lemma, its type (agent, patient, modifier) and its dependency tag, the word tuples for each character also contain the part of speech and the WordNet supersense. As show in Figure~\ref{fig:bamman_input}, each line starts with the identifier of the film, followed by a list of (colon-separated) tuples, containing this data. The first item in the tuple will either be a Freebase\footnote{Freebase (www.freebase.com) is a Google-owned, community-driven repository of structured data, containing numerous topics, entities and connections between them. Each entity has a unique ID.} identifier or have the format \texttt{eXX} (where \texttt{XX} stands for a 2 digit number) for characters and other entities which could not be matched with Freebase entities. The full preprocessing pipeline, with a sample sentence as a running example is outlined in Appendix~\ref{appendix:cmu}. Note that Bamman et al. provide both the data and the code required to produce it\footnote{www.ark.cs.cmu.edu/personas/}.
+The filtered film data file contains, for each film and each character mentioned in the plot summary, a list of words tagged as being either \textit{agent}, \textit{patient} or \textit{modifier} words (as detailed in Section~\ref{sec:bg_persona}). These words are selected into one of these types on the basis of their Stanford typed dependencies, as determined using the CoreNLP parser. Each of the three types described above corresponds to a list of dependencies and all tokens tagged with those dependencies will be assigned a type. In the final input file, in addition to the word lemma, its type (agent, patient, modifier) and its dependency tag, the word tuples for each character also contain the part of speech and the WordNet supersense (which are broad semantic categories, such as \textit{noun.shape} or \textit{verb.motion}). As show in Figure~\ref{fig:bamman_input}, each line starts with the identifier of the film, followed by a list of (colon-separated) tuples, containing this data. The first item in the tuple will either be a Freebase\footnote{Freebase (www.freebase.com) is a Google-owned, community-driven repository of structured data, containing numerous topics, entities and connections between them. Each entity has a unique ID.} identifier or have the format \texttt{eXX} (where \texttt{XX} stands for a 2 digit number) for characters and other entities which could not be matched with Freebase entities. The full preprocessing pipeline, with a sample sentence as a running example is outlined in Appendix~\ref{appendix:cmu}. Note that Bamman et al. provide both the data and the code required to produce it\footnote{www.ark.cs.cmu.edu/personas/}.
 
 
 \subsection{Constructing the persona model}
@@ -382,6 +379,8 @@ Having these 10 distributions over words in the vocabulary, we construct, for ea
 \label{sec:trajectories}
 The sentiment trajectory of a film is the ordered sequence of speech acts, in which one (and only one) character (\textit{the speaker}) is assumed to speak to one (and only one) other character (\textit{the receiver}), which is different than the speaker. The sentiment of each line of dialogue is independently computed, using VADER. Each point in the sentiment trajectory is then a tuple of \textit{(speaker, receiver, sentiment)}, which we will call a \textit{sentiment event}.
 
+The ScriptBase corpus includes sentiment valence annotations for each word in a script, using the AFINN-96 sentiment corpus \cite{nielsen2011new}, which assigns a value between -5 and +5 to 1468 English words and phrases. The sentiment of a text fragment can then be computed by summing the values of its constituents. We chose to use the VADER corpus instead because it also takes the structure of sentences into account, instead of relying exclusively on individual sentiment valences.
+
 In order to construct a sentiment trajectory for each film in the data set, we traverse the XML script (described in Section~\ref{sec:processing_scriptbase}), extract every scene and the names of the characters which take part and every line of dialogue, together with its speaker. The speaker of each utterance is marked in the script, but we nee to identify a receiver. We will follow the assumptions introduced in \cite{Nalisnick2013}:
 \begin{itemize}
 	\item For the first line of dialogue in the scene, assume the receiver is the next speaker.
@@ -439,12 +438,12 @@ One thing to notice is that although the sentiment trajectories seem to capture 
 
 For example, the sentiment trajectories in Figure~\ref{fig:chasing_amy} illustrate the sentiment between the main characters of the romantic comedy \textit{Chasing Amy}. In the film, Holden and Banky are two long-time friends. When the two meet Alyssa, she immediately piques Holden's interest. Although she only sees him as a friend, he pursues her throughout the film and they end up being together. Banky's distrust of Alyssa, however, becomes the main source of conflict between him and Holden. The 3 sentiment trajectories are consistent with our intuitive expectations of such a story and the feelings that the characters would express towards each other in these situations.
 
-In the examples given so far, the sentiment between the characters has largely been reciprocated (both characters expressing either positive or negative sentiment). We can also examine relationships for which that is not the case. The comedy \textit{Analyze That} (left plot in Figure~\ref{fig:contradictions}) is centred around the relationship between an organised crime boss and his psychiatrist. The humour of the films heavily relies on the contradictory and bizarre relationship between the two\footnote{According to reviews, for example one for the film \textit{Analyze This} (1999), of which this is a sequel, by film critic Roger Ebert (www.rogerebert.com/reviews/analyze-this-1999).}. As it can be seen from the plot, the sentiment expressed by one characters towards the other is almost always in opposition. The other film shown in Figure~\ref{fig:contradictions}, \textit{Gothika}, features two psychiatrists who are colleagues and friends. Miranda starts having paranormal experiences and is admitted in the hospital where they work. Throughout the film, she tries to convince Pete that she is not mentally ill. As expected, Pete mostly expresses positive and later neutral sentiment as he tries to make Miranda aware of her situation, while Miranda is constantly frustrated with Pete's lack of trust in her claims.
+In the examples given so far, the sentiment between the characters has largely been reciprocated (both characters expressing either positive or negative sentiment). We can also examine relationships for which that is not the case. The comedy \textit{Analyze That} (left plot in Figure~\ref{fig:contradictions}) is centred around the relationship between an organised crime boss and his psychiatrist. The humour of the films heavily relies on the contradictory and bizarre relationship between the two\footnote{This claim is supported by different reviews, for example one for the film \textit{Analyze This} (1999), of which \textit{Analyze That} is a sequel, by film critic Roger Ebert (www.rogerebert.com/reviews/analyze-this-1999).}. As it can be seen from the plot, the sentiment expressed by one characters towards the other is almost always in opposition. The other film shown in Figure~\ref{fig:contradictions}, \textit{Gothika}, features two psychiatrists who are colleagues and friends. Miranda starts having paranormal experiences and is admitted in the hospital where they both work. Throughout the film, she tries to convince Pete that she is not mentally ill. As expected, Pete mostly expresses positive and later neutral sentiment as he tries to make Miranda aware of her situation, while Miranda is increasingly frustrated with Pete's lack of trust in her claims.
 
 
 \section{Testing the main hypothesis}
 \label{sec:predictors}
-In order to test the main hypothesis, a number of prediction tasks were considered, including both classification and regression problems. The tasks themselves and the results are fully detailed in Chapter~\ref{chap:results}. Here, we will outline the main machine learning techniques used, the reasons for choosing them and their implementation. The toolkit used for carrying out machine learning tasks was the \textit{scikit-learn}\footnote{http://scikit-learn.org/stable/} Python library. It was used for the implementation of the predictors described below, for training and evaluating models using cross-validation and for generating confusion matrices. All models were evaluated on a 80\% / 20\% split between training and testing data, sampled randomly at each iteration.
+In order to test the main hypothesis, a number of prediction tasks were considered, including both classification and regression problems. The tasks themselves and the results are fully detailed in Chapter~\ref{chap:results}. Here, we will outline the main machine learning techniques used, the reasons for choosing them and their implementation. The toolkit used for carrying out machine learning tasks was the \textit{scikit-learn}\footnote{www.scikit-learn.org/stable/} Python library. It was used for the implementation of the predictors described below, for training and evaluating models using cross-validation and for generating confusion matrices. All models were evaluated on a 80\% / 20\% split between training and testing data, sampled randomly at each iteration.
 
 \subsection{Classification}
 We have used 3 common machine learning methods for our classification tasks. A common advantage of these methods is that they are (usually) computationally cheap to train and tend to produce good results without depending too much on optimising parameters. This enables our approach of exploring many different possibilities (detailed in Chapter~\ref{chap:results}) rather than focusing on a a small number of models and optimising their performance.
@@ -795,7 +794,24 @@ Prediction results are very poor, with all the predictors achieving the mean squ
 
 \chapter{Conclusions and future work}
 
+We have presented a novel representation of films, as a graph which models characters and their interactions, and gave an overview of the previous work which guided the design and implementation decisions taken in this project and discussed the details and suitability of the different methods chosen. We have constructed and evaluated the character graphs using 86 thriller and comedy films, based on their ability to predict various features of the inter-character sentiment. We ran several experiments on different character graph variations and different subsets of the data set and found the representations and the prediction tasks that result in the greatest accuracy. Although it seems that using the graph edge weight as a feature in our representation slightly hinders prediction accuracy in many cases, we have shown the viability of our simplified Dirichlet Persona Model, adapted from the work of Bamman et al. \cite{Bamman2013}.
 
+\section{Future work}
+
+Of course, in our exploration, we have only touched the surface of scratched the surface of this problem. At every step, there were many possibilities of doing things differently, which we did not have a chance to try in the scope of an honours project. A non-exhaustive list would include:
+\begin{itemize}
+	\item evaluate our character graphs using the original Dirichlet Persona Model and the Persona Regression Model in addition to our simplified persona model
+	\item spend more time optimising the parameters of machine learning models such as SVM and ridge regression, which could potentially improve their performance significantly
+	\item use other, more established, sentiment analysis systems, such as SentiWordNet\footnote{www.sentiwordnet.isti.cnr.it} or LIWC\footnote{www.liwc.net} and compare the results against those obtained with \textsc{VADER}
+	\item rigorously evaluate the sentiment trajectories that we constructed; in the project, we only evaluated them by exemplifying how they can convey some aspects of the narrative on a selection of films
+	\item process more films scripts in order to test other hypotheses; although not mentioned in the report, we attempted this, but the task proved very laborious and not easily automated, requiring manual annotation of each script
+	\item explore more variations of the data space; in particular, vary the number of topics used for Latent Dirichlet Allocation; training LDA is quite computationally expensive (especially on more than 10.000 plot summaries), so we did not attempt too many possibilities
+	\item as an alternative to the character graph model proposed, we could have used sentiment analysis to enhance either the character personality model or the edge weight, and use a different evaluation measure
+	\item implement a procedure for comparing character graphs; the work in \cite{elsner2012character} could be a starting point
+\end{itemize}
+
+\section{Final thoughts}
+I would like to end this report with a few remarks on the difficulty of computationally analysing works of fiction, by discussing a very recent and hotly debated example.
 \bibliographystyle{plain}
 \bibliography{collection}
 

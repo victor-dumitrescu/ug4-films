@@ -9,7 +9,7 @@ import pydot
 def decision_tree(data, labels, verbose=False):
 
     assert len(data) == len(labels)
-
+    print data
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(
                      data, labels, test_size=0.2, random_state=0)
     clf = tree.DecisionTreeClassifier()

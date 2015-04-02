@@ -1,0 +1,129 @@
+%% Sample chapter file, for use in a thesis.
+%% Don’t forget to put the \chapter{...} header onto each file.
+\chapter{CMU Movie Summary Corpus preprocessing example}
+\label{appendix:cmu}
+This appendix supports the explanation is Section~\ref{sec:processing_cmu}. To illustrate the preprocessing steps that take the raw plot summaries and generate the input for the work described in \cite{Bamman2013} and used in this project, we will give a concrete example of a sentence in a plot summary, as it is passed through the preprocessing pipeline. For this we will use the first sentence in the Wikipedia plot summary for \textit{The Silence of the Lambs} (1994).
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+We start with the unprocessed sentence:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+Clarice Starling  is pulled from her training at the FBI Academy 
+at Quantico, Virginia, by Jack Crawford  of the Bureau's Behavioral 
+Science Unit.
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+The sentence is tokenised, with tokens being split by spaces:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+Clarice Starling is pulled from her training at the FBI Academy at 
+Quantico , Virginia , by Jack Crawford of the Bureau 's Behavioral 
+Science Unit .
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+Then, tokens are lemmatised (i.e. transformed into their canonical, non-inflected form):
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+Clarice Starling be pull from she training at the FBI Academy at 
+Quantico , Virginia , by Jack Crawford of the Bureau 's 
+Behavioral Science Unit .
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+The sentence is also annotated with part-of-speech (POS) tags:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+NNP NNP VBZ VBN IN PRP$ NN IN DT NNP NNP IN NNP , NNP , IN NNP 
+NNP IN DT NNP POS NNP NNP NNP .	
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+It is also annotated with the named entity information:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+PERSON PERSON O O O O O O O ORGANIZATION ORGANIZATION O 
+LOCATION O LOCATION O O PERSON PERSON O O ORGANIZATION O 
+ORGANIZATION ORGANIZATION ORGANIZATION O	
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+Stanford typed dependencies are computed:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+[["nn",0,1],["nsubjpass",1,3],["auxpass",2,3],["poss",5,6],
+["prep_from",6,3],["det",8,10],["nn",9,10],["prep_at",10,6],
+["nn",12,14],["prep_at",14,3],["nn",17,18],["agent",18,3],
+["det",20,21],["poss",21,25],["nn",23,25],["nn",24,25],
+["prep_of",25,18]]	
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+And the sentence is syntactically parsed:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+(ROOT (S (NP (NNP Clarice) (NNP Starling)) (VP (VBZ is) 
+(VP (VBN pulled) (PP (IN from) (NP (NP (PRP$ her) (NN 
+training)) (PP (IN at) (NP (DT the) (NNP FBI) (NNP Academy)))
+)) (PP (IN at) (NP (NNP Quantico) (, ,) (NNP Virginia) (, ,)))
+ (PP (IN by) (NP (NP (NNP Jack) (NNP Crawford)) (PP (IN of) 
+ (NP (NP (DT the) (NNP Bureau) (POS 's)) (NNP Behavioral) (NNP 
+ Science) (NNP Unit))))))) (. .)))
+\end{Verbatim}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{14.5cm}
+Finally, each token is categorised as being an \textit{agent}, \textit{patient} or \textit{modifier} word based on its typed dependency (those which do not have one of the relevant dependencies are discarded). Coreference resolution is used to resolve the dependencies to the correct character. Where it is possible, character names are matched with Freebase entities, otherwise, an internal identifier is used. The final input file contains tuples of the form:
+\vspace{1.5mm}
+\begin{Verbatim}[frame=single]
+/m/0k6g8c:t0.1.0:verb.contact:pull:a:agent
+/m/0k6g8p:t2.2.0:verb.stative:lead:a:agent
+/m/0k6g86:t3.0.0:verb.change:grow:a:nsubj
+/m/0k6g86:t3.2.0:verb.communication:rebuff:a:nsubj
+/m/0k6g86:t5.1.0:verb.communication:call:a:nsubj
+/m/0k6g86:t5.2.0:verb.communication:tell:a:nsubj
+/m/0k6g86:t8.0.0:verb.possession:offer:a:nsubj
+/m/0k6g86:t8.4.0:verb.emotion:detest:a:nsubj
+/m/03jrpdm:t9.0.0:verb.contact:kidnap:a:nsubj
+/m/0k6g8c:t9.1.0:verb.communication:authorize:a:nsubj
+/m/0k6g81:t9.2.0:verb.possession:offer:a:nsubj
+/m/0k6g81:t9.4.0:verb.possession:provide:a:nsubj
+/m/0k6g81:t10.2.0:verb.possession:give:a:nsubj
+/m/0k6g8p:t11.0.0:verb.communication:record:a:nsubj
+/m/0k6g8p:t11.1.0:verb.perception:reveal:a:nsubj
+/m/0k6g86:t12.0.0:verb.communication:agree:a:nsubj
+/m/0k6g86:t12.3.0:verb.perception:reveal:a:nsubj 
+(...)
+\end{Verbatim}
+\end{minipage}
+\end{figure}

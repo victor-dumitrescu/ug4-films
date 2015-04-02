@@ -21,10 +21,7 @@ n_topics = 10
 lowest_mse = TopScores(100.0, order_max=False, max_items=300)
 highest_accuracy = TopScores(0.0, max_items=300)
 
-# VAR_THRESHOLD = 0.05
-# VAR_THRESHOLD = 0.06
-# VAR_THRESHOLD = 0.07
-VAR_THRESHOLD = 0.08
+VAR_THRESHOLD = 0.07
 
 
 def compute_variance_class((a, b)):
@@ -77,12 +74,6 @@ def make_predictions(config, variation=False, verbose=False):
         else:
             labels += construct_labels(p, sent_timeline, variation=False)
 
-
-        ### code snippet for plotting sentiment trajectories
-        # if graphs[g].graph['title'] == 'Midnight in Paris':
-        #     plot_trajectory(sent_timeline, 'GIL', 'INEZ', mode='compound', title='Midnight in Paris')
-        # if graphs[g].graph['title'] == 'The Silence of the Lambs':
-        #     plot_trajectory(sent_timeline, 'DR. LECTER', 'CLARICE', title='The Silence of the Lambs')
 
         ### code snippet for plotting every sentiment trajectory
         try:
@@ -183,22 +174,21 @@ def main():
     # All configurations will be tested with all predictors
     #
     # [0] no. of max nodes in each graph
-    filter_top_values = [2] #range(2, 8) + [False]
+    filter_top_values = range(2, 8) + [False]
     #
     # [1] filter or not nodes w/o persona information
-    filter_personas = [True]
+    filter_personas = [True, False]
     #
     # [2] powerset of {A, P, M} as lists
     personas = list(itertools.imap(list,
                        itertools.chain.from_iterable(
                            itertools.combinations('APM', r) for r in range(1, 4))))
-    personas = [['A', 'M']]
     #
     # [3] replace all other topic values in persona distribution with 0 and normalise
-    pick_top = [3]# + range(1, 8)
+    pick_top = [False] + range(1, 8)
     #
     # [4] use the edge weight information or not
-    edge_weights = [False]#, False]
+    edge_weights = [True, False]
 
     for config in itertools.product(filter_top_values, filter_personas, personas, pick_top, edge_weights):
             try:

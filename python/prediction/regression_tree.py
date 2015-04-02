@@ -16,7 +16,6 @@ def tree_regression(data, labels, verbose=False):
 
     if verbose:
         print 'Decision tree regression'
-        # print X_train.shape
         print 'MSE= ', mse
 
     return mse

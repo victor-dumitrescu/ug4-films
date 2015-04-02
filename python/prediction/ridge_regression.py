@@ -11,17 +11,10 @@ def ridge_regression(data, labels, test_size=0.2, verbose=False):
     X_train, X_test, y_train, y_test = cross_validation.train_test_split(
                         data, labels, test_size=test_size, random_state=0)
 
-    # clf = linear_model.Ridge (alpha = .5)
-
-    # alphas = [0.1, 1.0, 10.]
-    alphas = np.arange(1,10000)
+    alphas = np.arange(1, 10000)
     clf = linear_model.RidgeCV(alphas)
-    clf.fit (X_train, y_train)
+    clf.fit(X_train, y_train)
     mse = mean_squared_error(y_test, np.float64(clf.predict(X_test)))
-
-    # show the model learned
-    # print clf.coef_
-    # print clf.intercept_
 
     if verbose:
         print 'Ridge regression'
